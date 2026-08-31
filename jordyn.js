@@ -123,7 +123,13 @@ function carCard(c) {
   return `
   <article class="car${c.standout ? ' standout' : ''}" data-vin="${esc(c.vin)}">
     ${c.new ? '<div class="ribbon">🆕 Just added</div>' : ''}
-    ${c.photo ? `<img class="car-photo" loading="lazy" src="${esc(c.photo)}" alt="${esc(c.label)}">` : ''}
+    ${c.photo
+      ? `<img class="car-photo" loading="lazy" src="${esc(c.photo)}" alt="${esc(c.label)}">`
+      : `<div class="car-photo car-photo-none" role="img" aria-label="No photo provided for ${esc(c.label)}">
+           <span class="cpn-glyph">🚗</span>
+           <span class="cpn-text">${esc(c.label)}</span>
+           <span class="cpn-sub">Dealer hasn’t posted photos</span>
+         </div>`}
     <div class="car-body">
       <div class="car-head">
         <h3>${esc(c.label)}${c.trim ? ` <span class="trim">${esc(c.trim)}</span>` : ''}</h3>

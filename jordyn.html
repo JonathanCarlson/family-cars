@@ -118,6 +118,19 @@
       background: var(--blue); color: #fff; padding: 4px 9px; border-radius: 999px;
     }
     .car-photo { width: 100%; aspect-ratio: 16/10; object-fit: cover; display: block; background: var(--bg2); }
+    /* No-photo placeholder. Roughly 1 in 12 listings has no dealer photo, and
+       those are almost always brand-new listings — which are exactly the ones
+       carrying the "🆕 Just added" ribbon. With nothing to sit on, the ribbon
+       landed on top of the car's title. Reserving the same 16:10 block keeps the
+       ribbon anchored and the layout identical either way. */
+    .car-photo-none {
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+      background: linear-gradient(160deg, var(--bg2), var(--card));
+      border-bottom: 1px solid var(--border); text-align: center; padding: 10px;
+    }
+    .cpn-glyph { font-size: 30px; opacity: .5; line-height: 1; }
+    .cpn-text { font-size: 13px; font-weight: 600; color: var(--muted); }
+    .cpn-sub { font-size: 11px; color: var(--muted); opacity: .7; }
     .car-body { padding: 12px 14px 14px; }
     .car-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
     .car-head h3 { font-size: 15.5px; margin: 0; line-height: 1.3; }
@@ -271,6 +284,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=2"></script>
-  <script src="jordyn.js?v=5"></script>
+  <script src="jordyn.js?v=6"></script>
 </body>
 </html>
