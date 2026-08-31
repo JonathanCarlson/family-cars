@@ -169,10 +169,19 @@ function createCarApp(cfg) {
   async function openApp(alreadyLoaded) {
     $('#app').hidden = false;
     if (!alreadyLoaded && !(await tryLoadData())) {
+      // The key we were handed does not decrypt this page's bundle — e.g. the
+      // OTHER roster's link, or a rotated key. Do NOT leave it in localStorage:
+      // a known-bad remembered key would then be retried on the next visit.
+      forgetKey();
+      app.KEY = null;
       const s = $('#cars-status');
-      if (s) s.innerHTML = '<div class="big">🔒</div>Couldn’t open this link. Ask Jonathan to resend it.';
+      if (s) s.innerHTML = '<div class="big">🔒</div>This link isn’t for this list. Ask Jonathan for the right one.';
+      $('#app').hidden = true;
+      showGate();
       return;
     }
+    // Only remember a key once it has actually opened the data.
+    if (app.KEY) rememberKey(app.KEY);
     // Wire the share button here — it only makes sense once a key is known.
     const btn = $('#share-btn');
     if (btn) { btn.hidden = false; btn.addEventListener('click', shareLink); }
@@ -185,11 +194,10 @@ function createCarApp(cfg) {
     const m = /[#&]k=([^&]+)/.exec(location.hash || '');
     if (m) {
       app.KEY = decodeURIComponent(m[1]).trim();
-      rememberKey(app.KEY);
       // Strip the key from the visible URL bar (it stays in memory) so a casual
       // over-the-shoulder glance or screenshot doesn't reveal it.
       try { history.replaceState(null, '', location.pathname + location.search); } catch { /* ignore */ }
-      openApp();
+      openApp(); // remembers the key only if it actually decrypts
       return;
     }
     let saved = null;
