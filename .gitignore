@@ -1,0 +1,25 @@
+# ── SECRETS AND PLAINTEXT DATA — never commit these ──────────────────────────
+#
+# The pages are public on GitHub Pages; their privacy comes entirely from the
+# access key in the URL fragment. Committing a key here would make the encrypted
+# bundles readable by anyone who finds the repo, which defeats the whole design.
+
+# Access keys — the tokens in the shareable  cars.html#k=…  /  jordyn.html#k=…
+# URLs. Kept out of git so the links stay private AND stable across rebuilds.
+build/cars-key.txt
+build/jordyn-key.txt
+
+# Plaintext rosters. ONLY the encrypted blobs (data/*.enc.json) ship.
+build/cars.json
+build/jordyn.json
+
+# Nightly backups written before each refresh.
+build/*.bak-*
+build/*.json.bak-*
+
+# ── Local noise ──────────────────────────────────────────────────────────────
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+scratch/
