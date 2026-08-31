@@ -41,17 +41,47 @@ const money = (n) => (n == null ? '—' : '$' + Number(n).toLocaleString('en-US'
 const milesFmt = (n) => (n == null ? '—' : Number(n).toLocaleString('en-US') + ' mi');
 const POWER_LABEL = { BEV: '⚡ Electric', PHEV: '🔌 Plug-in hybrid', HYB: '🍃 Hybrid', ICE: '⛽ Gas' };
 
-/** The safety headline. Never claims a trim-gated feature is actually present. */
+/**
+ * The safety headline. Never claims a trim-gated feature is actually present.
+ * A 🔎 marks a claim confirmed against THIS car's VIN in NHTSA's database,
+ * rather than inferred from what was typical that model year.
+ */
 function safetyBadge(c) {
-  if (c.tier === 'confirmed') return '<span class="sb sb-ok">✅ AEB standard</span>';
+  const vin = c.safety?.aebSource === 'vin';
+  if (c.tier === 'confirmed') {
+    return vin
+      ? '<span class="sb sb-ok" title="Confirmed from this car\'s VIN">🔎 AEB confirmed — this VIN</span>'
+      : '<span class="sb sb-ok">✅ AEB standard this year</span>';
+  }
   if (c.tier === 'verify') return '<span class="sb sb-warn">⚠️ AEB optional — verify VIN</span>';
   return '<span class="sb sb-bad">❌ No AEB</span>';
 }
 function bsmBadge(c) {
   const b = c.safety?.bsm;
-  if (b === 'standard') return '<span class="sb sb-ok">✅ Blind-spot standard</span>';
+  const vin = c.safety?.bsmSource === 'vin';
+  if (b === 'standard') {
+    return vin
+      ? '<span class="sb sb-ok" title="Confirmed from this car\'s VIN">🔎 Blind-spot confirmed — this VIN</span>'
+      : '<span class="sb sb-ok">✅ Blind-spot standard</span>';
+  }
   if (b === 'trim') return '<span class="sb sb-warn">⚠️ Blind-spot — verify trim</span>';
   return '<span class="sb sb-bad">❌ No blind-spot</span>';
+}
+
+/** Extras NHTSA confirms for this specific VIN — shown only when present. */
+function vinExtras(c) {
+  const v = c.vinSafety;
+  if (!v) return '';
+  const bits = [];
+  if (v.trim) bits.push(`Trim <b>${esc(v.trim)}</b>`);
+  const std = [];
+  if (v.lka === 'standard') std.push('lane-keep');
+  if (v.acc === 'standard') std.push('adaptive cruise');
+  if (v.rcta === 'standard') std.push('rear cross-traffic alert');
+  if (v.fcw === 'standard') std.push('forward-collision warning');
+  if (std.length) bits.push(`also standard: ${std.join(', ')}`);
+  if (!bits.length) return '';
+  return `<p class="fineprint">🔎 <b>From this VIN</b> — ${bits.join(' · ')}.</p>`;
 }
 
 const tcoOf = (c) => (HORIZON === 2 ? c.tco2 : c.tco6);
@@ -104,6 +134,7 @@ function carCard(c) {
       <div class="chips">${chips.join('')}</div>
       ${c.note ? `<p class="standout-note">⭐ ${esc(c.note)}</p>` : ''}
       ${tcoBlock(c)}
+      ${vinExtras(c)}
       ${c.safety?.note ? `<p class="fineprint">🛡️ ${esc(c.safety.note)}</p>` : ''}
       ${c.batteryNote ? `<p class="fineprint">🔋 ${esc(c.batteryNote)}</p>` : ''}
       <div class="actions">
@@ -118,7 +149,7 @@ function carCard(c) {
 
 // ---------- filters / sort ----------
 const FACET_DEFS = [
-  { id: 'safety', label: 'Safety', opts: [['confirmed', '✅ AEB standard'], ['verify', '⚠️ Verify AEB']], test: (c, v) => c.tier === v },
+  { id: 'safety', label: 'Safety', opts: [['confirmed', '✅ AEB standard'], ['vin', '🔎 Confirmed by VIN'], ['verify', '⚠️ Verify AEB']], test: (c, v) => (v === 'vin' ? c.safety?.aebSource === 'vin' || c.safety?.bsmSource === 'vin' : c.tier === v) },
   { id: 'power', label: 'Power', opts: [['BEV', '⚡ Electric'], ['PHEV', '🔌 Plug-in'], ['HYB', '🍃 Hybrid'], ['ICE', '⛽ Gas']], test: (c, v) => c.power === v },
   { id: 'bsm', label: 'Blind-spot', opts: [['any', 'Available']], test: (c) => c.safety?.bsm === 'standard' || c.safety?.bsm === 'trim' },
   { id: 'price', label: 'Price', opts: [['u10', 'Under $10k'], ['u13', 'Under $13k']], test: (c, v) => (v === 'u10' ? (c.price ?? 9e9) < 10000 : (c.price ?? 9e9) < 13000) },
