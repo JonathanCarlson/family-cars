@@ -1,5 +1,5 @@
 # Jordyn's first car
-_Safety first, then cost to own · under $22k · 130 mi/week_
+_Safety first, then cost to own · 130 mi/week · $15k target, searched to $22k_
 
 **36 listings** · updated 2026-08-31
 
@@ -7,7 +7,7 @@ _Safety first, then cost to own · under $22k · 130 mi/week_
 > nightly from live dealer inventory. Prices and availability change daily;
 > always confirm against the listing URL before acting on anything here.
 
-Every car we can find under $22k that could work as Jordyn's first car, grouped by whether automatic emergency braking is actually standard for that model year — not just theoretically available. Within each group they're ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a reserve for major repairs. That repair reserve is built the same way for every car — each powertrain is charged only for the parts it actually has, so an electric car carries no engine or transmission risk and a plug-in hybrid carries both. (It used to charge a battery allowance to the electrics and nothing to the gas cars, which quietly billed EVs for a risk their rivals had too.) Electric and plug-in cars still get no bonus here; where they win, they win on cost. Switch between the 2-year (Jordyn) and 6-year (through Emma) windows to see which cars still make sense long-term. Tap 👍/👎 and add notes, then hit "Send my picks."
+Every car we can find that could work as Jordyn's first car — 2125 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The **What the data says** tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
 
 ## How to read this
 
