@@ -174,17 +174,20 @@
 }
 .vw.on { background: #1d2b56; color: #eaf0ff; border-color: #3d548f; }
 /* Slim browse row — enough to scan and filter, without the 16 KB of detail that
-   made a 320-car bundle weigh 6.8 MB. */
+   made a 320-car bundle weigh 6.8 MB. Still fully votable: the family should be
+   able to react to any car they see, not just the shortlisted ones. */
 .brow {
-  display: flex; gap: 10px; align-items: center; justify-content: space-between;
   background: var(--card); border: 1px solid #212a44; border-radius: 12px;
   padding: 10px 12px; margin-bottom: 8px;
 }
+.brow-top { display: flex; gap: 10px; align-items: flex-start; justify-content: space-between; }
 .brow.is-hidden { opacity: 0.45; }
 .brow-t { font-size: 14px; font-weight: 600; }
 .brow-s { font-size: 12px; color: var(--muted); margin: 2px 0 4px; }
 .brow-r { text-align: right; flex: 0 0 auto; }
 .brow-tco { font-size: 15px; font-weight: 700; }
+.brow .actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
+.brow .note-input { margin-top: 8px; }
 .band-tbl td.thin { color: var(--muted); }
 
     /* ---- TCO disclosure ---- */
@@ -300,7 +303,7 @@
     <div class="cars-head">
       <div class="cars-head-main">
         <h1>Jordyn's first car</h1>
-        <div class="sub">Safety first, then cost to own · under $15k</div>
+        <div class="sub" id="head-sub">Safety first, then cost to own</div>
       </div>
       <button id="share-btn" type="button" hidden>🔗 Share</button>
     </div>
@@ -346,6 +349,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=3"></script>
-  <script src="jordyn.js?v=12"></script>
+  <script src="jordyn.js?v=13"></script>
 </body>
 </html>

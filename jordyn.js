@@ -160,10 +160,24 @@ function reliabilityBlock(c) {
 
 const tcoOf = (c) => (HORIZON === 2 ? c.tco2 : c.tco6);
 
+/**
+ * Cost total for the current horizon, from either record shape.
+ *
+ * Shortlist cars carry the full tco object; browse rows carry a plain number to
+ * keep the payload small. Reading `.total` off a number yields undefined, which
+ * sorted every browse row to the bottom — "cheapest to own" quietly stopped
+ * working in exactly the view with the most cars in it.
+ */
+function totalOf(c) {
+  const t = tcoOf(c);
+  if (t == null) return null;
+  return typeof t === 'number' ? t : (t.total ?? null);
+}
+
 /** The cost panel — shows its work so the model can be argued with. */
 function tcoBlock(c) {
   const t = tcoOf(c);
-  if (!t) return '';
+  if (!t || typeof t !== 'object') return '';
   const it = t.items;
   const rows = [
     ['Sales tax', it.salesTax],
@@ -375,13 +389,14 @@ const SORTS = [
  */
 function electricShareOf(c) {
   if (c.power === 'BEV') return 1;
-  const s = tcoOf(c)?.evShare;
+  const t = tcoOf(c);
+  const s = t && typeof t === 'object' ? t.evShare : c.evShare;
   return typeof s === 'number' ? s : 0;
 }
 
 function sortCars(list) {
   const a = [...list];
-  if (SORT === 'tco-asc') a.sort((x, y) => (tcoOf(x)?.total ?? 9e9) - (tcoOf(y)?.total ?? 9e9));
+  if (SORT === 'tco-asc') a.sort((x, y) => (totalOf(x) ?? 9e9) - (totalOf(y) ?? 9e9));
   else if (SORT === 'price-asc') a.sort((x, y) => (x.price ?? 9e9) - (y.price ?? 9e9));
   else if (SORT === 'miles-asc') a.sort((x, y) => (x.miles ?? 9e9) - (y.miles ?? 9e9));
   else if (SORT === 'year-desc') a.sort((x, y) => (y.year ?? 0) - (x.year ?? 0));
@@ -413,6 +428,11 @@ function render() {
 function renderIntro() {
   const s = DATA.stats || {};
   const a = DATA.assumptions || {};
+  // The header subtitle was hardcoded to "under $15k", which stopped being true
+  // when the search widened to $22k. Drive it from the data so the two can't
+  // drift again.
+  const sub = $('#head-sub');
+  if (sub && DATA.subtitle) sub.textContent = DATA.subtitle;
   $('#intro').innerHTML = `
     <div class="card">
       <p class="lede">${esc(DATA.intro || '')}</p>
@@ -651,6 +671,8 @@ function renderShortlist() {
  */
 function browseRow(c) {
   const hidden = HIDDEN.has(c.vin);
+  const vote = VOTES[c.vin];
+  const note = COMMENTS[c.vin] || '';
   const tags = [];
   if (c.aeb === 'standard') tags.push('<span class="sb sb-ok">AEB</span>');
   else if (c.aeb === 'trim') tags.push('<span class="sb sb-warn">AEB?</span>');
@@ -659,16 +681,24 @@ function browseRow(c) {
   if (c.reliability === 'concern') tags.push('<span class="sb sb-warn">Reliability</span>');
   if (c.overPreferredBudget) tags.push('<span class="sb sb-warn">Over $15k</span>');
   return `<article class="brow${hidden ? ' is-hidden' : ''}" data-vin="${esc(c.vin)}">
-    <div class="brow-main">
-      <div class="brow-t">${esc(c.label)}${c.trim ? ` <span class="trim">${esc(c.trim)}</span>` : ''}</div>
-      <div class="brow-s">${money(c.price)} · ${milesFmt(c.miles)} · ${POWER_LABEL[c.power] || esc(c.power)}${c.distanceMi != null ? ` · ${c.distanceMi} mi away` : ''}</div>
-      <div class="chips">${tags.join('')}</div>
+    <div class="brow-top">
+      <div class="brow-main">
+        <div class="brow-t">${esc(c.label)}${c.trim ? ` <span class="trim">${esc(c.trim)}</span>` : ''}</div>
+        <div class="brow-s">${money(c.price)} · ${milesFmt(c.miles)} · ${POWER_LABEL[c.power] || esc(c.power)}${c.distanceMi != null ? ` · ${c.distanceMi} mi away` : ''}</div>
+        <div class="chips">${tags.join('')}</div>
+      </div>
+      <div class="brow-r">
+        <div class="brow-tco">${money(totalOf(c))}</div>
+        <div class="why">${HORIZON}-yr cost</div>
+      </div>
     </div>
-    <div class="brow-r">
-      <div class="brow-tco">${money(HORIZON === 2 ? c.tco2 : c.tco6)}</div>
-      <div class="why">${HORIZON}-yr cost</div>
+    <div class="actions">
+      <button class="vote up${vote === 'up' ? ' on' : ''}" data-v="up" type="button" aria-label="Thumbs up">👍</button>
+      <button class="vote down${vote === 'down' ? ' on' : ''}" data-v="down" type="button" aria-label="Thumbs down">👎</button>
       <a class="listing" href="${esc(c.url)}" target="_blank" rel="noopener">Listing ↗</a>
+      <button class="hide-btn" data-hide="1" type="button" title="Hide this car from the list — affects nothing else">${hidden ? '↩︎ Unhide' : '🙈 Not for me'}</button>
     </div>
+    <input class="note-input" type="text" placeholder="Add a note…" value="${esc(note)}" aria-label="Note about this car">
   </article>`;
 }
 
@@ -782,7 +812,10 @@ function wireDelegates() {
     if (hz) { HORIZON = Number(hz.dataset.hz); renderControls(); renderList(); return; }
     const hide = e.target.closest('.hide-btn');
     if (hide) {
-      const vin = hide.closest('.car')?.dataset.vin;
+      // `[data-vin]` rather than `.car`: shortlist cards and browse rows are
+      // different markup but the same action. Keying on the card class meant
+      // 👍/👎/hide silently did nothing in the browse view.
+      const vin = hide.closest('[data-vin]')?.dataset.vin;
       if (!vin) return;
       toggleHidden(vin);
       renderControls();
@@ -791,7 +824,7 @@ function wireDelegates() {
     }
     const vote = e.target.closest('.vote');
     if (vote) {
-      const vin = vote.closest('.car')?.dataset.vin;
+      const vin = vote.closest('[data-vin]')?.dataset.vin;
       if (!vin) return;
       APP.setVote(vin, vote.dataset.v);
       vote.closest('.actions').querySelectorAll('.vote').forEach((b) => b.classList.toggle('on', VOTES[vin] === b.dataset.v));
@@ -806,17 +839,30 @@ function wireDelegates() {
   });
   document.addEventListener('input', (e) => {
     const ni = e.target.closest('.note-input');
-    if (ni) { setComment(ni.closest('.car')?.dataset.vin, ni.value); renderTally(); }
+    if (ni) { setComment(ni.closest('[data-vin]')?.dataset.vin, ni.value); renderTally(); }
   });
 }
 
 function sendPicks() {
-  const byVin = new Map((DATA.cars || []).map((c) => [c.vin, c]));
+  // Votes can come from either view, so the lookup has to span both. Building it
+  // from DATA.cars alone silently dropped every pick made while browsing — the
+  // vote registered, the tally counted it, and then it vanished from the message.
+  // Shortlist entries take precedence: same VIN, richer record.
+  const byVin = new Map();
+  for (const c of DATA.browse || []) byVin.set(c.vin, c);
+  for (const c of DATA.cars || []) byVin.set(c.vin, c);
+
+  const costOf = (c) => {
+    // Shortlist cars carry the full tco objects; browse rows carry plain totals.
+    const full = tcoOf(c);
+    if (full && typeof full.total === 'number') return full.total;
+    return HORIZON === 2 ? c.tco2 : c.tco6;
+  };
   const line = (vin, mark) => {
     const c = byVin.get(vin);
     if (!c) return null;
     const n = COMMENTS[vin] ? ` — "${COMMENTS[vin]}"` : '';
-    return `${mark} ${c.label} · ${money(c.price)} · ${milesFmt(c.miles)} · ${money(tcoOf(c)?.total)}/${HORIZON}yr${n}\n  ${c.url}`;
+    return `${mark} ${c.label} · ${money(c.price)} · ${milesFmt(c.miles)} · ${money(costOf(c))}/${HORIZON}yr${n}\n  ${c.url}`;
   };
   const ups = Object.entries(VOTES).filter(([, v]) => v === 'up').map(([vin]) => line(vin, '👍')).filter(Boolean);
   const downs = Object.entries(VOTES).filter(([, v]) => v === 'down').map(([vin]) => line(vin, '👎')).filter(Boolean);
