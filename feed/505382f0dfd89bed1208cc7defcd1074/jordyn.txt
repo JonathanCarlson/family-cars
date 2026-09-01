@@ -1,6 +1,6 @@
 ==========================================================================
-JORDYN'S FIRST CAR — 64 listings
-roster updated 2026-09-01 · feed generated 2026-09-01T07:31:39.551Z
+JORDYN'S FIRST CAR — 69 listings
+roster updated 2026-09-01 · feed generated 2026-09-01T15:02:54.672Z
 ==========================================================================
 
 Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.
@@ -30,7 +30,7 @@ TOP 10 OVERALL (powertrain-neutral — EVs get no bonus, they win on cost)
    7. 2021 Nissan Versa SV             $ 11654    70725mi  Gasoline                           elec   0%  6yr $ 34727  score 80
    8. 2020 Hyundai Ioniq SE            $ 11995   124730mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 32465  score 77.1
    9. 2021 Honda Clarity Plug-In Hybri $ 15440   106000mi  Plug-in hybrid                     elec  85%  6yr $ 33501  score 76.5
-  10. 2022 Tesla Model 3               $ 16500    91803mi  Battery electric                   elec 100%  6yr $ 36323  score 75.2
+  10. 2023 Kia Niro EX                 $ 20674    91442mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 39333  score 76.1
 
 --------------------------------------------------------------------------
 TOP 10 ELECTRIC / PLUG-IN (ranked by share of miles actually driven on electricity)
@@ -40,7 +40,7 @@ TOP 10 ELECTRIC / PLUG-IN (ranked by share of miles actually driven on electrici
    2. 2017 Nissan Leaf S               $  6995    32563mi  Battery electric                   elec 100%  6yr $ 24852  score 84.5
    3. 2017 Hyundai Ioniq Limited       $ 11800    80887mi  Battery electric                   elec 100%  6yr $ 29969  score 82.5
    4. 2021 Honda Clarity Plug-In Hybri $ 15440   106000mi  Plug-in hybrid                     elec  85%  6yr $ 33501  score 76.5
-   5. 2022 Tesla Model 3               $ 16500    91803mi  Battery electric                   elec 100%  6yr $ 36323  score 75.2
+   5. 2022 Chevrolet Bolt EUV LT       $ 17189    68297mi  Battery electric                   elec 100%  6yr $ 35252  score 75.3
    6. 2022 Nissan Leaf S               $ 15238    39835mi  Battery electric                   elec 100%  6yr $ 33161  score 75.1
    7. 2019 FIAT 500 e                  $ 15200    35445mi  Battery electric                   elec 100%  6yr $ 33627  score 73.4
    8. 2022 Volvo XC40 P8 Recharge Plus $ 15897   119977mi  Battery electric                   elec 100%  6yr $ 36000  score 73
@@ -502,60 +502,150 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~37 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-10. 2022 Tesla Model 3 — $16,500
+10. 2023 Kia Niro EX — $20,674
 ==========================================================================
-  VIN                     5YJ3E1EA5NF186701
-  odometer                91,803 mi
-  condition               Used · Red
-  where                   Private Seller Exchange, Issaquah WA (5 mi)
-  days on lot             14
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/788559811
-  powertrain              Battery electric · 272 mi electric
+  VIN                     KNDCR3LE6P5101505
+  odometer                91,442 mi
+  condition               Used · Snow White Pearl
+  where                   Beaverton Kia, Beaverton OR (146 mi)
+  days on lot             18
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/788315875
+  powertrain              Hybrid (gasoline, self-charging)
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      standard (vin-trim-confirmed)
+  IIHS                    Top Safety Pick (2017–19)
+  also standard (EX)   forward-collision-warning, lane-keeping-assist, adaptive-cruise-control, rear-cross-traffic-alert, backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             yes
+  reliability (2023 Kia Niro)
+    band                  ok (confidence: medium)
+    NHTSA                 41 complaints · 2 recalls
+    - 41 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2023/KIA/NIRO
+  2-year cost to own
+    purchase 20674 + tax 2088 + fuel 1516 + maint 632
+    + insurance 6261 + fees 560 + repairs 187 - resale 3928
+    = $15,172 ($632/mo over 13,520 mi)
+  6-year cost to own
+    purchase 20674 + tax 2088 + fuel 4549 + maint 1897
+    + insurance 18782 + fees 1680 + repairs 650 - resale 9687
+    = $39,333 ($546/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $650 to budget
+    worst single bill     $4,300 at ~2% — exposure, not budget
+      9% x $ 2279 = $ 203  Hybrid traction battery failure
+     17% x $  817 = $ 136  Cooling, fuel or ignition system
+     20% x $  568 = $ 111  Suspension, steering or brake overhaul
+      7% x $ 1462 = $ 105  Catalytic converter / emissions system
+  still worth owning 2032?  likely (~90%)
+    ~132,002 mi, 9 yr old
+    - Only ~132k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+11. 2025 Kia Soul LX — $16,698
+==========================================================================
+  VIN                     KNDJ23AU3S7943110
+  odometer                31,531 mi
+  condition               Used · Fusion Black
+  where                   Hertz Car Sales Seattle, Burien WA (10 mi)
+  days on lot             39
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/786519263
+  powertrain              Gasoline
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA lists gasoline as the only fuel, 2 L.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      standard (vin-trim-confirmed)
+  also standard (LX, S)   forward-collision-warning, lane-keeping-assist, backup-camera
+  history report          NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, ONE_OWNER, FREE_REPORT
+    salvage title         no
+    frame damage          no
+    flood damage          no
+    accidents reported    no
+    one owner             yes
+  reliability (2025 Kia Soul)
+    band                  ok (confidence: medium)
+    NHTSA                 12 complaints · 0 recalls
+    - 12 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2025/KIA/SOUL
+  2-year cost to own
+    purchase 16698 + tax 1686 + fuel 2559 + maint 638
+    + insurance 5903 + fees 484 + repairs 81 - resale 3173
+    = $14,524 ($605/mo over 13,520 mi)
+  6-year cost to own
+    purchase 16698 + tax 1686 + fuel 7677 + maint 1915
+    + insurance 17708 + fees 1452 + repairs 275 - resale 7824
+    = $38,537 ($535/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $275 to budget
+    worst single bill     $4,300 at ~1% — exposure, not budget
+      7% x $  946 = $  67  Suspension, steering or brake overhaul
+      2% x $ 3225 = $  55  Automatic transmission failure
+      6% x $  817 = $  50  Cooling, fuel or ignition system
+      3% x $ 1462 = $  39  Catalytic converter / emissions system
+  still worth owning 2032?  likely (~90%)
+    ~72,091 mi, 7 yr old
+    - Only ~72k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+12. 2022 Chevrolet Bolt EUV LT — $17,189
+==========================================================================
+  VIN                     1G1FY6S0XN4108363
+  odometer                68,297 mi
+  condition               Used · Silver Flare Metallic
+  where                   Seattle MINI, Seattle WA (13 mi)
+  days on lot             60
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/784797833
+  powertrain              Battery electric · 247 mi electric
   electric drive share    100% of miles at 130 mi/week
     evidence              NHTSA lists electric as the only fuel and no engine displacement.
   AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      standard (vin-trim-confirmed)
-  also standard (trim)   forward-collision-warning, lane-keeping-assist, adaptive-cruise-control, rear-cross-traffic-alert, backup-camera
+  blind-spot monitor      trim (model-year-typical)
+  IIHS                    Good in most tests
+  also standard (LT)   forward-collision-warning, lane-keeping-assist, backup-camera
   history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
     salvage title         no
     frame damage          not reported
     flood damage          not reported
     accidents reported    no
     one owner             no
-  battery risk factor     0.4
+  battery risk factor     0.16
     Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-  reliability (2022 Tesla Model 3)
-    band                  ok (confidence: high)
-    NHTSA                 761 complaints · 18 recalls
-    - 761 NHTSA complaints, no single system dominating.
-    - 18 recall campaigns for this model year — check all are closed out for the VIN.
-    source                https://www.nhtsa.gov/vehicle/2022/TESLA/MODEL%203
+  reliability (2022 Chevrolet Bolt EUV)
+    band                  ok (confidence: medium)
+    NHTSA                 26 complaints · 4 recalls
+    - 26 NHTSA complaints, no single system dominating.
+    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+    source                https://www.nhtsa.gov/vehicle/2022/CHEVROLET/BOLT%20EUV
   2-year cost to own
-    purchase 16500 + tax 1667 + fuel 552 + maint 758
-    + insurance 5885 + fees 772 + repairs 191 - resale 4432
-    = $14,257 ($594/mo over 13,520 mi)
+    purchase 17189 + tax 1736 + fuel 454 + maint 524
+    + insurance 5947 + fees 786 + repairs 104 - resale 3788
+    = $13,339 ($556/mo over 13,520 mi)
   6-year cost to own
-    purchase 16500 + tax 1667 + fuel 1655 + maint 2274
-    + insurance 17655 + fees 2316 + repairs 746 - resale 10010
-    = $36,323 ($504/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $746 to budget
-    worst single bill     $9,815 at ~2% — exposure, not budget
-     23% x $  997 = $ 227  Suspension, steering or brake overhaul
-      5% x $ 4153 = $ 191  Drive unit, inverter or onboard charger
-      2% x $ 9815 = $ 186  Traction battery catastrophic failure (not degradation)
-      7% x $ 2190 = $ 142  Battery thermal management / electric HVAC
-  battery health          90% now -> 80% in 6 yr (±4 percentage points)
-    range                 ~244 mi now -> ~217 mi (need ~19/day)
-    Liquid-cooled pack with active thermal management
+    purchase 17189 + tax 1736 + fuel 1363 + maint 1572
+    + insurance 17841 + fees 2358 + repairs 380 - resale 10002
+    = $35,252 ($490/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $380 to budget
+    worst single bill     $7,670 at ~0% — exposure, not budget
+     19% x $  779 = $ 146  Suspension, steering or brake overhaul
+      4% x $ 3245 = $ 120  Drive unit, inverter or onboard charger
+      5% x $ 1711 = $  91  Battery thermal management / electric HVAC
+      0% x $ 7670 = $  23  Traction battery catastrophic failure (not degradation)
+  battery health          91% now -> 81% in 6 yr (±4 percentage points)
+    range                 ~225 mi now -> ~200 mi (need ~19/day)
+    Liquid-cooled pack with active thermal management · PACK REPLACED UNDER RECALL
     (degradation affects range and resale, NOT counted as a repair)
   still worth owning 2032?  likely (~90%)
-    ~132,363 mi, 10 yr old
-    - Only ~132k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-    - Projected ~217 mi of range at 80% health by 2032 — still far beyond the ~19 mi/day need.
+    ~108,857 mi, 10 yr old
+    - Only ~109k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+    - Projected ~200 mi of range at 81% health by 2032 — still far beyond the ~19 mi/day need.
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-11. 2022 Nissan Leaf S — $15,238
+13. 2022 Nissan Leaf S — $15,238
 ==========================================================================
   VIN                     1N4AZ1BV0NC558693
   odometer                39,835 mi
@@ -608,7 +698,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-12. 2019 FIAT 500 e — $15,200
+14. 2019 FIAT 500 e — $15,200
 ==========================================================================
   VIN                     3C3CFFGE3KT680213
   odometer                35,445 mi
@@ -660,7 +750,52 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~66 mi of range at 79% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-13. 2022 Volvo XC40 P8 Recharge Plus — $15,897
+15. 2017 Kia Rio LX — $6,969
+==========================================================================
+  VIN                     KNADM4A34H6113736
+  odometer                90,685 mi
+  condition               Used · Bright Silver
+  where                   Bud Clary Chevrolet - Toyota of Moses Lake, Moses Lake WA (140 mi)
+  days on lot             31
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/787184819
+  powertrain              Gasoline
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA lists gasoline as the only fuel, 1.6 L.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      unknown (model-year-typical)
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             no
+  reliability (2017 Kia Rio)
+    band                  ok (confidence: medium)
+    NHTSA                 31 complaints · 2 recalls
+    - 31 NHTSA complaints, no single system dominating.
+    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+    source                https://www.nhtsa.gov/vehicle/2017/KIA/RIO
+  2-year cost to own
+    purchase 6969 + tax 704 + fuel 2608 + maint 1071
+    + insurance 5027 + fees 308 + repairs 433 - resale 1042
+    = $11,193 ($466/mo over 13,520 mi)
+  6-year cost to own
+    purchase 6969 + tax 704 + fuel 7825 + maint 3212
+    + insurance 15082 + fees 924 + repairs 1495 - resale 3080
+    = $32,322 ($449/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,495 to budget
+    worst single bill     $4,300 at ~4% — exposure, not budget
+     39% x $  946 = $ 364  Suspension, steering or brake overhaul
+      9% x $ 3225 = $ 300  Automatic transmission failure
+     33% x $  817 = $ 270  Cooling, fuel or ignition system
+     14% x $ 1462 = $ 209  Catalytic converter / emissions system
+  still worth owning 2032?  probable (~72%)
+    ~131,245 mi, 15 yr old
+    - 15 years old by 2032 — parts availability and rust start to matter.
+    - Only ~131k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+16. 2022 Volvo XC40 P8 Recharge Plus — $15,897
 ==========================================================================
   VIN                     YV4ED3UR6N2762763
   odometer                119,977 mi
@@ -684,8 +819,8 @@ COST ASSUMPTIONS (inputs to every total below)
     Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
   reliability (2022 Volvo XC40)
     band                  ok (confidence: high)
-    NHTSA                 108 complaints · 0 recalls
-    - 108 NHTSA complaints, no single system dominating.
+    NHTSA                 111 complaints · 0 recalls
+    - 111 NHTSA complaints, no single system dominating.
     source                https://www.nhtsa.gov/vehicle/2022/VOLVO/XC40%20T5%20AWD%20%2B%20XC40%20T4%20FWD%20%2B%20XC40%20P8%20RECHARGE%20AWD
   2-year cost to own
     purchase 15897 + tax 1606 + fuel 552 + maint 800
@@ -712,7 +847,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-14. 2018 Nissan Leaf SV — $9,977
+17. 2018 Nissan Leaf SV — $9,977
 ==========================================================================
   VIN                     1N4AZ1CP3JC313218
   odometer                97,594 mi
@@ -765,7 +900,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~88 mi of range at 58% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-15. 2025 Nissan Versa SR — $20,500
+18. 2025 Nissan Versa SR — $20,500
 ==========================================================================
   VIN                     3N1CN8FV3SL888624
   odometer                962 mi
@@ -809,7 +944,52 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~42k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-16. 2024 Kia Forte LXS — $19,700
+19. 2021 MAZDA MAZDA3 s — $12,999
+==========================================================================
+  VIN                     JM1BPAAL9M1339116
+  odometer                104,257 mi
+  condition               Used
+  where                   Venture Auto Sales III, Lakewood WA (32 mi)
+  days on lot             28
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/787341251
+  powertrain              Gasoline
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA lists gasoline as the only fuel, 2.5 L.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      standard (vin-trim-confirmed)
+  IIHS                    Top Safety Pick+ (2017+)
+  also standard (Mazda3)   lane-keeping-assist, adaptive-cruise-control, backup-camera
+  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    yes
+    one owner             yes
+  reliability (2021 MAZDA MAZDA3)
+    band                  ok (confidence: medium)
+    NHTSA                 49 complaints · 1 recalls
+    - 49 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2021/MAZDA/MAZDA3
+  2-year cost to own
+    purchase 12999 + tax 1313 + fuel 2695 + maint 1027
+    + insurance 5570 + fees 418 + repairs 310 - resale 2470
+    = $13,803 ($575/mo over 13,520 mi)
+  6-year cost to own
+    purchase 12999 + tax 1313 + fuel 8085 + maint 3081
+    + insurance 16710 + fees 1254 + repairs 1076 - resale 6091
+    = $37,610 ($522/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,076 to budget
+    worst single bill     $4,200 at ~3% — exposure, not budget
+     28% x $  924 = $ 262  Suspension, steering or brake overhaul
+      7% x $ 3150 = $ 217  Automatic transmission failure
+     24% x $  798 = $ 195  Cooling, fuel or ignition system
+     11% x $ 1428 = $ 151  Catalytic converter / emissions system
+  still worth owning 2032?  likely (~90%)
+    ~144,817 mi, 11 yr old
+    - Only ~145k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+20. 2024 Kia Forte LXS — $19,700
 ==========================================================================
   VIN                     3KPF24AD2RE782383
   odometer                2,644 mi
@@ -854,7 +1034,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~43k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-17. 2021 Hyundai Accent SE — $8,499
+21. 2021 Hyundai Accent SE — $8,499
 ==========================================================================
   VIN                     3KPC24A66ME132355
   odometer                50,815 mi
@@ -898,7 +1078,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~91k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-18. 2023 Hyundai Kona SE — $15,750
+22. 2023 Hyundai Kona SE — $15,750
 ==========================================================================
   VIN                     KM8K23AG9PU174017
   odometer                62,815 mi
@@ -951,7 +1131,53 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-19. 2019 Ford Fusion SE — $8,900
+23. 2020 Kia Niro LX — $12,250
+==========================================================================
+  VIN                     KNDCB3LC8L5369257
+  odometer                108,567 mi
+  condition               Used · Deep Cerulean
+  where                   Gresham Subaru, Gresham OR (143 mi)
+  days on lot             1
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789744936
+  powertrain              Hybrid (gasoline, self-charging)
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      trim (model-year-typical)
+  IIHS                    Top Safety Pick (2017–19)
+  also standard (LX, LXS)   backup-camera
+  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    yes
+    one owner             yes
+  reliability (2020 Kia Niro)
+    band                  ok (confidence: medium)
+    NHTSA                 37 complaints · 0 recalls
+    - 37 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2020/KIA/NIRO%20HYBRID
+  2-year cost to own
+    purchase 12250 + tax 1237 + fuel 1662 + maint 729
+    + insurance 5503 + fees 410 + repairs 316 - resale 2327
+    = $12,184 ($508/mo over 13,520 mi)
+  6-year cost to own
+    purchase 12250 + tax 1237 + fuel 4987 + maint 2186
+    + insurance 16508 + fees 1230 + repairs 1100 - resale 5740
+    = $32,988 ($458/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,100 to budget
+    worst single bill     $4,300 at ~4% — exposure, not budget
+     15% x $ 2279 = $ 342  Hybrid traction battery failure
+     28% x $  817 = $ 230  Cooling, fuel or ignition system
+     33% x $  568 = $ 187  Suspension, steering or brake overhaul
+     12% x $ 1462 = $ 178  Catalytic converter / emissions system
+  still worth owning 2032?  likely (~82%)
+    ~149,127 mi, 12 yr old
+    - 12 years old by 2032, which is old but ordinary for a car in this class.
+    - Only ~149k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+24. 2019 Ford Fusion SE — $8,900
 ==========================================================================
   VIN                     3FA6P0LU8KR256593
   odometer                96,029 mi
@@ -997,7 +1223,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~137k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-20. 2021 Hyundai Sonata Blue — $12,999
+25. 2021 Hyundai Sonata Blue — $12,999
 ==========================================================================
   VIN                     KMHL24JJ9MA025867
   odometer                106,023 mi
@@ -1041,7 +1267,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~147k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-21. 2017 Ford Focus Electric Hatchback — $9,995
+26. 2017 Ford Focus Electric Hatchback — $9,995
 ==========================================================================
   VIN                     1FADP3R43HL293042
   odometer                31,313 mi
@@ -1065,8 +1291,8 @@ COST ASSUMPTIONS (inputs to every total below)
     Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
   reliability (2017 Ford Focus)
     band                  concern (confidence: high)
-    NHTSA                 900 complaints · 10 recalls
-    - 50% of its 900 NHTSA complaints (452) concern the powertrain — a concentrated pattern, not scattered noise.
+    NHTSA                 901 complaints · 10 recalls
+    - 50% of its 901 NHTSA complaints (453) concern the powertrain — a concentrated pattern, not scattered noise.
     - 10 recall campaigns for this model year — check all are closed out for the VIN.
     source                https://www.nhtsa.gov/vehicle/2017/FORD/FOCUS
   2-year cost to own
@@ -1094,7 +1320,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~88 mi of range at 77% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-22. 2017 Ford C-MAX SE — $9,500
+27. 2017 Ford C-MAX SE — $9,500
 ==========================================================================
   VIN                     1FADP5AU6HL114550
   odometer                111,635 mi
@@ -1140,7 +1366,60 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~152k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-23. 2022 MINI Cooper SE — $19,988
+28. 2017 Ford C-MAX Energi Titanium — $14,230
+==========================================================================
+  VIN                     1FADP5FU4HL114880
+  odometer                57,719 mi
+  condition               Used · Kona Blue Metallic
+  where                   Lexus of Seattle, Lynnwood WA (19 mi)
+  days on lot             13
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/788652939
+  powertrain              Plug-in hybrid · 20 mi electric
+  electric drive share    45% of miles at 130 mi/week
+    evidence              NHTSA classifies this VIN as a plug-in hybrid.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      rare (model-year-typical)
+  IIHS                    Good frontal
+  also standard (TITANIUM PHEV)   backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             no
+  battery risk factor     0.25
+    Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+  reliability (2017 Ford C-MAX)
+    band                  ok (confidence: low)
+    NHTSA                 1 complaints · 1 recalls
+    - Only 1 NHTSA complaint on record — too few to draw a firm conclusion.
+    source                https://www.nhtsa.gov/vehicle/2017/FORD/C-MAX
+  2-year cost to own
+    purchase 14230 + tax 1437 + fuel 1422 + maint 999
+    + insurance 5681 + fees 458 + repairs 497 - resale 2127
+    = $12,621 ($526/mo over 13,520 mi)
+  6-year cost to own
+    purchase 14230 + tax 1437 + fuel 4267 + maint 2997
+    + insurance 17042 + fees 1374 + repairs 1746 - resale 6289
+    = $35,152 ($488/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,746 to budget
+    worst single bill     $9,165 at ~3% — exposure, not budget
+     25% x $ 1340 = $ 330  Cooling, fuel or ignition system
+     29% x $  931 = $ 268  Suspension, steering or brake overhaul
+      3% x $ 9165 = $ 266  Traction battery catastrophic failure (not degradation)
+     11% x $ 2397 = $ 256  Catalytic converter / emissions system
+  battery health          85% now -> 75% in 6 yr (±4 percentage points)
+    range                 ~17 mi now -> ~15 mi (need ~19/day)
+    Liquid-cooled pack with active thermal management
+    (degradation affects range and resale, NOT counted as a repair)
+  still worth owning 2032?  uncertain (~52%)
+    ~98,279 mi, 15 yr old
+    - 15 years old by 2032 — parts availability and rust start to matter.
+    - Only ~98k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+    - Projected range of ~15 mi by 2032 gets tight for comfortable daily use.
+
+==========================================================================
+29. 2022 MINI Cooper SE — $19,988
 ==========================================================================
   VIN                     WMW13DJ00N2S09734
   odometer                31,715 mi
@@ -1193,197 +1472,51 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-24. 2022 Mitsubishi Mirage SE — $11,999
+30. 2021 Chevrolet Trax LT — $13,750
 ==========================================================================
-  VIN                     ML32AWHJ3NH005386
-  odometer                43,924 mi
-  condition               Used · Black
-  where                   Gorilla Auto Center, Yakima WA (103 mi)
-  days on lot             2
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789726552
+  VIN                     KL7CJPSB6MB325700
+  odometer                64,801 mi
+  condition               Used · Midnight Blue Metallic
+  where                   Kia of Warrenton, Warrenton OR (127 mi)
+  days on lot             109
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/780485746
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA lists gasoline as the only fuel, 1.2 L.
+    evidence              NHTSA lists gasoline as the only fuel, 1.4 L.
   AEB                     standard (vin-trim-confirmed)
   blind-spot monitor      unknown (model-year-typical)
-  also standard (GT)   forward-collision-warning, backup-camera
-  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    yes
-    one owner             no
-  reliability (2022 Mitsubishi Mirage)
-    band                  ok (confidence: low)
-    NHTSA                 2 complaints · 0 recalls
-    - Only 2 NHTSA complaints on record — too few to draw a firm conclusion.
-    source                https://www.nhtsa.gov/vehicle/2022/MITSUBISHI/MIRAGE
-  2-year cost to own
-    purchase 11999 + tax 1212 + fuel 2069 + maint 839
-    + insurance 5480 + fees 388 + repairs 184 - resale 2280
-    = $12,452 ($519/mo over 13,520 mi)
-  6-year cost to own
-    purchase 11999 + tax 1212 + fuel 6208 + maint 2516
-    + insurance 16440 + fees 1164 + repairs 636 - resale 5622
-    = $33,798 ($469/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $636 to budget
-    worst single bill     $4,850 at ~2% — exposure, not budget
-     14% x $ 1067 = $ 155  Suspension, steering or brake overhaul
-      4% x $ 3638 = $ 127  Automatic transmission failure
-     12% x $  922 = $ 114  Cooling, fuel or ignition system
-      5% x $ 1649 = $  89  Catalytic converter / emissions system
-  still worth owning 2032?  likely (~90%)
-    ~84,484 mi, 10 yr old
-    - Only ~84k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-
-==========================================================================
-25. 2018 Toyota Prius C Four — $13,999
-==========================================================================
-  VIN                     JTDKDTB38J1605319
-  odometer                100,746 mi
-  condition               Used · Black Sand Pearl
-  where                   Dick Hannah Dealerships, Vancouver WA (132 mi)
-  days on lot             25
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/787658558
-  powertrain              Hybrid (gasoline, self-charging)
-  electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA classifies this VIN as a hybrid with a 1.5 L engine.
-  AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      trim (model-year-typical)
-  IIHS                    Top Safety Pick (2017–19)
-  also standard (trim)   forward-collision-warning, lane-keeping-assist, backup-camera
-  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    yes
-    one owner             no
-  reliability (2018 Toyota Prius C)
-    band                  ok (confidence: low)
-    NHTSA                 6 complaints · 2 recalls
-    - Only 6 NHTSA complaints on record — too few to draw a firm conclusion.
-    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-    source                https://www.nhtsa.gov/vehicle/2018/TOYOTA/PRIUS%20C
-  2-year cost to own
-    purchase 13999 + tax 1414 + fuel 1771 + maint 681
-    + insurance 5660 + fees 454 + repairs 343 - resale 2660
-    = $12,983 ($541/mo over 13,520 mi)
-  6-year cost to own
-    purchase 13999 + tax 1414 + fuel 5314 + maint 2042
-    + insurance 16980 + fees 1362 + repairs 1182 - resale 6559
-    = $34,853 ($484/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,182 to budget
-    worst single bill     $4,000 at ~4% — exposure, not budget
-     17% x $ 2120 = $ 369  Hybrid traction battery failure
-     33% x $  760 = $ 248  Cooling, fuel or ignition system
-     38% x $  528 = $ 201  Suspension, steering or brake overhaul
-     14% x $ 1360 = $ 192  Catalytic converter / emissions system
-  still worth owning 2032?  likely (~82%)
-    ~141,306 mi, 14 yr old
-    - 14 years old by 2032, which is old but ordinary for a car in this class.
-    - Only ~141k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-
-==========================================================================
-26. 2018 Chevrolet Bolt LT — $11,877
-==========================================================================
-  VIN                     1G1FW6S08J4109771
-  odometer                110,973 mi
-  condition               Used · White
-  where                   Platt Auto Group, Milwaukee OR (152 mi)
-  days on lot             3
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789671864
-  powertrain              Battery electric · 238 mi electric
-  electric drive share    100% of miles at 130 mi/week
-    evidence              NHTSA lists electric as the only fuel and no engine displacement.
-  AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      trim (model-year-typical)
-  IIHS                    Good in most tests; headlights Marginal/Poor
-  also standard (LT)   backup-camera
+  also standard (1LT)   forward-collision-warning, backup-camera
   history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
     salvage title         no
     frame damage          not reported
     flood damage          not reported
     accidents reported    no
     one owner             no
-  battery risk factor     0.45
-    Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-  reliability (2018 Chevrolet Bolt)
-    band                  concern (confidence: high)
-    NHTSA                 73 complaints · 0 recalls
-    - 53% of its 73 NHTSA complaints (39) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-    source                https://www.nhtsa.gov/vehicle/2018/CHEVROLET/BOLT
+  reliability (2021 Chevrolet Trax)
+    band                  ok (confidence: medium)
+    NHTSA                 24 complaints · 0 recalls
+    - 24 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2021/CHEVROLET/TRAX
   2-year cost to own
-    purchase 11877 + tax 1200 + fuel 454 + maint 699
-    + insurance 5469 + fees 710 + repairs 320 - resale 3337
-    = $12,189 ($508/mo over 13,520 mi)
+    purchase 13750 + tax 1389 + fuel 3096 + maint 1185
+    + insurance 5638 + fees 432 + repairs 317 - resale 2612
+    = $14,669 ($611/mo over 13,520 mi)
   6-year cost to own
-    purchase 11877 + tax 1200 + fuel 1363 + maint 2097
-    + insurance 16407 + fees 2130 + repairs 1096 - resale 7299
-    = $31,592 ($439/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,096 to budget
-    worst single bill     $7,670 at ~4% — exposure, not budget
-     41% x $  779 = $ 318  Suspension, steering or brake overhaul
-      4% x $ 7670 = $ 314  Traction battery catastrophic failure (not degradation)
-      8% x $ 3245 = $ 266  Drive unit, inverter or onboard charger
-     12% x $ 1711 = $ 198  Battery thermal management / electric HVAC
-  battery health          83% now -> 73% in 6 yr (±4 percentage points)
-    range                 ~199 mi now -> ~175 mi (need ~19/day)
-    Liquid-cooled pack with active thermal management
-    (degradation affects range and resale, NOT counted as a repair)
-  still worth owning 2032?  likely (~82%)
-    ~151,533 mi, 14 yr old
-    - 14 years old by 2032, which is old but ordinary for a car in this class.
-    - Only ~152k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-    - Projected ~175 mi of range at 73% health by 2032 — still far beyond the ~19 mi/day need.
+    purchase 13750 + tax 1389 + fuel 9289 + maint 3556
+    + insurance 16913 + fees 1296 + repairs 1104 - resale 6443
+    = $39,990 ($555/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,104 to budget
+    worst single bill     $5,900 at ~2% — exposure, not budget
+     21% x $ 1298 = $ 269  Suspension, steering or brake overhaul
+      5% x $ 4425 = $ 221  Automatic transmission failure
+     18% x $ 1121 = $ 198  Cooling, fuel or ignition system
+      8% x $ 2006 = $ 154  Catalytic converter / emissions system
+  still worth owning 2032?  likely (~90%)
+    ~105,361 mi, 11 yr old
+    - Only ~105k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-27. 2017 Nissan Rogue SV — $13,985
-==========================================================================
-  VIN                     5N1ET2MV2HC781348
-  odometer                98,103 mi
-  condition               Used · Gray
-  where                   Parkway Auto Center, Deer Park WA (219 mi)
-  days on lot             802
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/718577990
-  powertrain              Hybrid (gasoline, self-charging)
-  electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA classifies this VIN as a hybrid with a 2 L engine.
-  AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      unknown (model-year-typical)
-  also standard (trim)   backup-camera
-  history report          NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, ONE_OWNER, FREE_REPORT
-    salvage title         no
-    frame damage          no
-    flood damage          no
-    accidents reported    no
-    one owner             yes
-  reliability (2017 Nissan Rogue)
-    band                  ok (confidence: high)
-    NHTSA                 596 complaints · 5 recalls
-    - 596 NHTSA complaints, no single system dominating.
-    - 5 recall campaigns for this model year — check all are closed out for the VIN.
-    source                https://www.nhtsa.gov/vehicle/2017/NISSAN/ROGUE
-  2-year cost to own
-    purchase 13985 + tax 1412 + fuel 2504 + maint 780
-    + insurance 5659 + fees 454 + repairs 414 - resale 2091
-    = $13,314 ($555/mo over 13,520 mi)
-  6-year cost to own
-    purchase 13985 + tax 1412 + fuel 7511 + maint 2340
-    + insurance 16976 + fees 1362 + repairs 1437 - resale 6181
-    = $37,219 ($517/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,437 to budget
-    worst single bill     $4,550 at ~5% — exposure, not budget
-     19% x $ 2412 = $ 449  Hybrid traction battery failure
-     35% x $  865 = $ 301  Cooling, fuel or ignition system
-     41% x $  601 = $ 244  Suspension, steering or brake overhaul
-     15% x $ 1547 = $ 234  Catalytic converter / emissions system
-  still worth owning 2032?  probable (~72%)
-    ~138,663 mi, 15 yr old
-    - 15 years old by 2032 — parts availability and rust start to matter.
-    - Only ~139k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-
-==========================================================================
-28. 2017 Chevrolet Spark LS — $4,500
+31. 2017 Chevrolet Spark LS — $4,500
 ==========================================================================
   VIN                     KL8CB6SA7HC789296
   odometer                85,709 mi
@@ -1429,60 +1562,98 @@ COST ASSUMPTIONS (inputs to every total below)
     - Expected repairs are 44% of the purchase price — repairs may outrun the car's value.
 
 ==========================================================================
-29. 2023 Chevrolet Bolt EUV LT — $16,960
+32. 2019 Hyundai Kona SE — $13,995
 ==========================================================================
-  VIN                     1G1FY6S0XP4199282
-  odometer                60,000 mi
-  condition               Used · White
-  where                   Private Seller Exchange, Philomath OR (216 mi)
-  days on lot             77
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/783246639
-  powertrain              Battery electric · 247 mi electric
-  electric drive share    100% of miles at 130 mi/week
-    evidence              NHTSA lists electric as the only fuel and no engine displacement.
+  VIN                     KM8K1CAA0KU294487
+  odometer                41,578 mi
+  condition               Used · Gray
+  where                   LOYAL MOTORS, Bellevue WA (4 mi)
+  days on lot             8
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789102178
+  powertrain              Gasoline
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA lists gasoline as the only fuel, 2 L.
   AEB                     standard (vin-trim-confirmed)
   blind-spot monitor      trim (model-year-typical)
-  IIHS                    Good in most tests
-  also standard (LT)   forward-collision-warning, lane-keeping-assist, backup-camera
-  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  IIHS                    Top Safety Pick (2019–21)
+  also standard (SE)   forward-collision-warning, lane-keeping-assist, backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
     salvage title         no
     frame damage          not reported
     flood damage          not reported
     accidents reported    no
-    one owner             yes
-  battery risk factor     0.28
-    Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-  reliability (2023 Chevrolet Bolt EUV)
+    one owner             no
+  reliability (2019 Hyundai Kona)
     band                  concern (confidence: high)
-    NHTSA                 113 complaints · 0 recalls
-    - 33% of its 113 NHTSA complaints (37) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-    source                https://www.nhtsa.gov/vehicle/2023/CHEVROLET/BOLT%20EUV
+    NHTSA                 187 complaints · 1 recalls
+    - 73% of its 187 NHTSA complaints (137) concern the engine — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2019/HYUNDAI/KONA
   2-year cost to own
-    purchase 16960 + tax 1713 + fuel 454 + maint 487
-    + insurance 5926 + fees 790 + repairs 91 - resale 4451
-    = $13,912 ($580/mo over 13,520 mi)
+    purchase 13995 + tax 1413 + fuel 2971 + maint 786
+    + insurance 5660 + fees 452 + repairs 223 - resale 2659
+    = $14,164 ($590/mo over 13,520 mi)
   6-year cost to own
-    purchase 16960 + tax 1713 + fuel 1363 + maint 1462
-    + insurance 17779 + fees 2370 + repairs 315 - resale 10232
-    = $35,234 ($489/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $315 to budget
-    worst single bill     $7,670 at ~0% — exposure, not budget
-     15% x $  779 = $ 115  Suspension, steering or brake overhaul
-      3% x $ 3245 = $  97  Drive unit, inverter or onboard charger
-      4% x $ 1711 = $  72  Battery thermal management / electric HVAC
-      0% x $ 7670 = $  31  Traction battery catastrophic failure (not degradation)
-  battery health          93% now -> 83% in 6 yr (±4 percentage points)
-    range                 ~229 mi now -> ~204 mi (need ~19/day)
-    Liquid-cooled pack with active thermal management
-    (degradation affects range and resale, NOT counted as a repair)
-  still worth owning 2032?  likely (~90%)
-    ~100,560 mi, 9 yr old
-    - Only ~101k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-    - Projected ~204 mi of range at 83% health by 2032 — still far beyond the ~19 mi/day need.
-    - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
+    purchase 13995 + tax 1413 + fuel 8914 + maint 2358
+    + insurance 16979 + fees 1356 + repairs 771 - resale 6557
+    = $38,348 ($533/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $771 to budget
+    worst single bill     $4,250 at ~2% — exposure, not budget
+     20% x $  935 = $ 187  Suspension, steering or brake overhaul
+      5% x $ 3188 = $ 156  Automatic transmission failure
+     17% x $  808 = $ 139  Cooling, fuel or ignition system
+      7% x $ 1445 = $ 107  Catalytic converter / emissions system
+  still worth owning 2032?  likely (~82%)
+    ~82,138 mi, 13 yr old
+    - 13 years old by 2032, which is old but ordinary for a car in this class.
+    - Only ~82k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-30. 2017 Chevrolet Volt LT — $7,118
+33. 2017 Hyundai Elantra SE — $6,999
+==========================================================================
+  VIN                     5NPD74LFXHH165976
+  odometer                96,224 mi
+  condition               Used · Gray
+  where                   Venture Auto Sales III, Lakewood WA (32 mi)
+  days on lot             221
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/770641205
+  powertrain              Gasoline
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA lists gasoline as the only fuel, 2 L.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      unknown (model-year-typical)
+  also standard (SE Base)   backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             no
+  reliability (2017 Hyundai Elantra)
+    band                  concern (confidence: high)
+    NHTSA                 764 complaints · 4 recalls
+    - 38% of its 764 NHTSA complaints (292) concern the engine — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2017/HYUNDAI/ELANTRA
+  2-year cost to own
+    purchase 6999 + tax 707 + fuel 2318 + maint 1084
+    + insurance 5030 + fees 308 + repairs 443 - resale 1046
+    = $10,936 ($456/mo over 13,520 mi)
+  6-year cost to own
+    purchase 6999 + tax 707 + fuel 6953 + maint 3253
+    + insurance 15090 + fees 924 + repairs 1541 - resale 3093
+    = $31,561 ($438/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,541 to budget
+    worst single bill     $4,250 at ~5% — exposure, not budget
+     40% x $  935 = $ 375  Suspension, steering or brake overhaul
+     10% x $ 3188 = $ 309  Automatic transmission failure
+     34% x $  808 = $ 278  Cooling, fuel or ignition system
+     15% x $ 1445 = $ 215  Catalytic converter / emissions system
+  still worth owning 2032?  probable (~72%)
+    ~136,784 mi, 15 yr old
+    - 15 years old by 2032 — parts availability and rust start to matter.
+    - Only ~137k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+34. 2017 Chevrolet Volt LT — $7,118
 ==========================================================================
   VIN                     1G1RA6S59HU120926
   odometer                137,183 mi
@@ -1535,105 +1706,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~37 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-31. 2017 Nissan Sentra SV — $9,995
-==========================================================================
-  VIN                     3N1AB7AP4HY245973
-  odometer                41,472 mi
-  condition               Used · Super Black
-  where                   405 Motors, Woodinville WA (15 mi)
-  days on lot             16
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/788438968
-  powertrain              Gasoline
-  electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA lists gasoline as the only fuel, 1.8 L.
-  AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      unknown (model-year-typical)
-  also standard (trim)   backup-camera
-  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    no
-    one owner             no
-  reliability (2017 Nissan Sentra)
-    band                  concern (confidence: high)
-    NHTSA                 230 complaints · 3 recalls
-    - 33% of its 230 NHTSA complaints (76) concern the powertrain — a concentrated pattern, not scattered noise.
-    source                https://www.nhtsa.gov/vehicle/2017/NISSAN/SENTRA
-  2-year cost to own
-    purchase 9995 + tax 1009 + fuel 2488 + maint 885
-    + insurance 5300 + fees 370 + repairs 285 - resale 1494
-    = $11,831 ($493/mo over 13,520 mi)
-  6-year cost to own
-    purchase 9995 + tax 1009 + fuel 7465 + maint 2656
-    + insurance 15899 + fees 1110 + repairs 985 - resale 4418
-    = $33,542 ($466/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $985 to budget
-    worst single bill     $4,550 at ~3% — exposure, not budget
-     24% x $ 1001 = $ 240  Suspension, steering or brake overhaul
-      6% x $ 3413 = $ 198  Automatic transmission failure
-     21% x $  865 = $ 178  Cooling, fuel or ignition system
-      9% x $ 1547 = $ 138  Catalytic converter / emissions system
-  still worth owning 2032?  probable (~72%)
-    ~82,032 mi, 15 yr old
-    - 15 years old by 2032 — parts availability and rust start to matter.
-    - Only ~82k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-
-==========================================================================
-32. 2022 Ford Escape SE — $14,725
-==========================================================================
-  VIN                     1FMCU0EZ8NUA34661
-  odometer                123,006 mi
-  condition               Used · Gray Metallic
-  where                   Capitol Toyota, Salem OR (184 mi)
-  days on lot             30
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/787264981
-  powertrain              Plug-in hybrid · 37 mi electric
-  electric drive share    70% of miles at 130 mi/week
-    evidence              NHTSA classifies this VIN as a plug-in hybrid.
-  AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      standard (vin-trim-confirmed)
-  also standard (SE PHEV)   forward-collision-warning, lane-keeping-assist, rear-cross-traffic-alert, backup-camera
-  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    yes
-    one owner             yes
-  battery risk factor     0.21
-    Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-  reliability (2022 Ford Escape)
-    band                  ok (confidence: high)
-    NHTSA                 228 complaints · 19 recalls
-    - 228 NHTSA complaints, no single system dominating.
-    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-    - 19 recall campaigns for this model year — check all are closed out for the VIN.
-    source                https://www.nhtsa.gov/vehicle/2022/FORD/ESCAPE
-  2-year cost to own
-    purchase 14725 + tax 1487 + fuel 1015 + maint 1224
-    + insurance 5725 + fees 740 + repairs 486 - resale 2798
-    = $13,475 ($561/mo over 13,520 mi)
-  6-year cost to own
-    purchase 14725 + tax 1487 + fuel 3046 + maint 3672
-    + insurance 17176 + fees 2220 + repairs 1702 - resale 6900
-    = $36,203 ($503/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,702 to budget
-    worst single bill     $9,165 at ~3% — exposure, not budget
-     24% x $ 1340 = $ 323  Cooling, fuel or ignition system
-     28% x $  931 = $ 263  Suspension, steering or brake overhaul
-      3% x $ 9165 = $ 257  Traction battery catastrophic failure (not degradation)
-     11% x $ 2397 = $ 252  Catalytic converter / emissions system
-  battery health          88% now -> 78% in 6 yr (±4 percentage points)
-    range                 ~33 mi now -> ~29 mi (need ~19/day)
-    Liquid-cooled pack with active thermal management
-    (degradation affects range and resale, NOT counted as a repair)
-  still worth owning 2032?  uncertain (~58%)
-    ~163,566 mi, 10 yr old
-    - ~164k miles by 2032.
-    - Projected range of ~29 mi by 2032 gets tight for comfortable daily use.
-
-==========================================================================
-33. 2017 Ford C-MAX Energi SE — $9,613
+35. 2017 Ford C-MAX Energi SE — $9,613
 ==========================================================================
   VIN                     1FADP5EUXHL104520
   odometer                81,117 mi
@@ -1686,7 +1759,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~15 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-34. 2018 Mitsubishi Outlander SEL — $11,999
+36. 2018 Mitsubishi Outlander SEL — $11,999
 ==========================================================================
   VIN                     JA4J24A58JZ071938
   odometer                96,653 mi
@@ -1739,7 +1812,59 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~16 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-35. 2023 Chevrolet TrailBlazer LS — $12,638
+37. 2018 Honda Clarity Plug-In Hybrid — $14,795
+==========================================================================
+  VIN                     JHMZC5F18JC018157
+  odometer                121,900 mi
+  condition               Used · Solar Silver Metallic
+  where                   Rairdon's Nissan of Auburn, Auburn WA (16 mi)
+  days on lot             12
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/788797698
+  powertrain              Plug-in hybrid · 48 mi electric
+  electric drive share    85% of miles at 130 mi/week
+    evidence              NHTSA classifies this VIN as a plug-in hybrid.
+  AEB                     standard (model-year-typical)
+  blind-spot monitor      trim (model-year-typical)
+  IIHS                    Top Safety Pick (2018–21)
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             no
+  battery risk factor     0.29
+    Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+  reliability (2018 Honda Clarity)
+    band                  concern (confidence: high)
+    NHTSA                 134 complaints · 1 recalls
+    - 32% of its 134 NHTSA complaints (43) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2018/HONDA/CLARITY%20PLUG-IN%20HYBRID
+  2-year cost to own
+    purchase 14795 + tax 1494 + fuel 717 + maint 724
+    + insurance 5732 + fees 772 + repairs 423 - resale 2811
+    = $12,673 ($528/mo over 13,520 mi)
+  6-year cost to own
+    purchase 14795 + tax 1494 + fuel 2152 + maint 2173
+    + insurance 17195 + fees 2316 + repairs 1464 - resale 6932
+    = $33,726 ($468/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,464 to budget
+    worst single bill     $5,070 at ~4% — exposure, not budget
+     38% x $  741 = $ 278  Cooling, fuel or ignition system
+     44% x $  515 = $ 225  Suspension, steering or brake overhaul
+      4% x $ 5070 = $ 223  Traction battery catastrophic failure (not degradation)
+     16% x $ 1326 = $ 215  Catalytic converter / emissions system
+  battery health          83% now -> 73% in 6 yr (±4 percentage points)
+    range                 ~40 mi now -> ~35 mi (need ~19/day)
+    Liquid-cooled pack with active thermal management
+    (degradation affects range and resale, NOT counted as a repair)
+  still worth owning 2032?  uncertain (~50%)
+    ~162,460 mi, 14 yr old
+    - 14 years old by 2032, which is old but ordinary for a car in this class.
+    - ~162k miles by 2032.
+    - Projected range of ~35 mi by 2032 gets tight for comfortable daily use.
+
+==========================================================================
+38. 2023 Chevrolet TrailBlazer LS — $12,638
 ==========================================================================
   VIN                     KL79MNSL9PB044316
   odometer                123,095 mi
@@ -1761,8 +1886,8 @@ COST ASSUMPTIONS (inputs to every total below)
     one owner             yes
   reliability (2023 Chevrolet TrailBlazer)
     band                  ok (confidence: high)
-    NHTSA                 65 complaints · 0 recalls
-    - 65 NHTSA complaints, no single system dominating.
+    NHTSA                 66 complaints · 0 recalls
+    - 66 NHTSA complaints, no single system dominating.
     source                https://www.nhtsa.gov/vehicle/2023/CHEVROLET/TRAILBLAZER
   2-year cost to own
     purchase 12638 + tax 1276 + fuel 2918 + maint 1508
@@ -1783,7 +1908,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~164k miles by 2032.
 
 ==========================================================================
-36. 2021 Jeep Renegade Latitude — $15,750
+39. 2021 Jeep Renegade Latitude — $15,750
 ==========================================================================
   VIN                     ZACNJCBB0MPN11286
   odometer                46,074 mi
@@ -1827,52 +1952,51 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~87k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-37. 2017 Chevrolet Trax LS — $8,990
+40. 2021 Chevrolet Equinox LT — $8,995
 ==========================================================================
-  VIN                     3GNCJKSB4HL150106
-  odometer                79,196 mi
-  condition               Used · Blue
-  where                   United Auto Group, LLC, Everett WA (28 mi)
-  days on lot             41
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/786220874
+  VIN                     3GNAXTEVXMS161998
+  odometer                149,131 mi
+  condition               Used · Silver
+  where                   507 Motorsports, Roy WA (46 mi)
+  days on lot             56
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/785023783
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA lists gasoline as the only fuel, 1.4 L.
+    evidence              NHTSA lists gasoline as the only fuel, 1.5 L.
   AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      unknown (model-year-typical)
-  also standard (LS)   backup-camera
+  blind-spot monitor      standard (vin-trim-confirmed)
+  also standard (LT (2FL))   forward-collision-warning, lane-keeping-assist, rear-cross-traffic-alert, backup-camera
   history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
     salvage title         no
     frame damage          not reported
     flood damage          not reported
     accidents reported    no
     one owner             no
-  reliability (2017 Chevrolet Trax)
+  reliability (2021 Chevrolet Equinox)
     band                  concern (confidence: high)
-    NHTSA                 111 complaints · 3 recalls
-    - 41% of its 111 NHTSA complaints (45) concern the engine — a concentrated pattern, not scattered noise.
-    source                https://www.nhtsa.gov/vehicle/2017/CHEVROLET/TRAX
+    NHTSA                 91 complaints · 4 recalls
+    - 34% of its 91 NHTSA complaints (31) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2021/CHEVROLET/EQUINOX
   2-year cost to own
-    purchase 8990 + tax 908 + fuel 2836 + maint 1394
-    + insurance 5209 + fees 350 + repairs 546 - resale 1344
-    = $12,587 ($524/mo over 13,520 mi)
+    purchase 8995 + tax 908 + fuel 2971 + maint 1736
+    + insurance 5210 + fees 338 + repairs 571 - resale 1709
+    = $13,443 ($560/mo over 13,520 mi)
   6-year cost to own
-    purchase 8990 + tax 908 + fuel 8509 + maint 4182
-    + insurance 15627 + fees 1050 + repairs 1870 - resale 3973
-    = $36,119 ($502/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,870 to budget
+    purchase 8995 + tax 908 + fuel 8914 + maint 5207
+    + insurance 15629 + fees 1014 + repairs 1993 - resale 4215
+    = $37,880 ($526/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,993 to budget
     worst single bill     $5,900 at ~4% — exposure, not budget
-     35% x $ 1298 = $ 456  Suspension, steering or brake overhaul
-      9% x $ 4425 = $ 376  Automatic transmission failure
-     30% x $ 1121 = $ 337  Cooling, fuel or ignition system
-     13% x $ 2006 = $ 261  Catalytic converter / emissions system
-  still worth owning 2032?  probable (~72%)
-    ~119,756 mi, 15 yr old
-    - 15 years old by 2032 — parts availability and rust start to matter.
-    - Only ~120k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+     37% x $ 1298 = $ 484  Suspension, steering or brake overhaul
+      9% x $ 4425 = $ 403  Automatic transmission failure
+     32% x $ 1121 = $ 359  Cooling, fuel or ignition system
+     14% x $ 2006 = $ 277  Catalytic converter / emissions system
+  still worth owning 2032?  probable (~78%)
+    ~189,691 mi, 11 yr old
+    - ~190k miles by 2032.
 
 ==========================================================================
-38. 2017 Kia Niro LX — $9,500
+41. 2017 Kia Niro LX — $9,500
 ==========================================================================
   VIN                     KNDCB3LCXH5096393
   odometer                140,055 mi
@@ -1918,7 +2042,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~181k miles by 2032.
 
 ==========================================================================
-39. 2023 Volkswagen Taos S — $21,995
+42. 2023 Volkswagen Taos S — $21,995
 ==========================================================================
   VIN                     3VVCX7B21PM343389
   odometer                3,024 mi
@@ -1962,7 +2086,52 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~44k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-40. 2019 Jeep Renegade Sport — $12,490
+43. 2019 Kia Forte LXS — $7,995
+==========================================================================
+  VIN                     3KPF24AD0KE043003
+  odometer                137,944 mi
+  condition               Used · Blue
+  where                   Atlas Automotive Sales, Hayden ID (250 mi)
+  days on lot             36
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/786702033
+  powertrain              Gasoline
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA lists gasoline as the only fuel, 2 L.
+  AEB                     standard (model-year-typical)
+  blind-spot monitor      trim (model-year-typical)
+  IIHS                    Top Safety Pick (2019+)
+  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    yes
+    one owner             no
+  reliability (2019 Kia Forte)
+    band                  concern (confidence: high)
+    NHTSA                 147 complaints · 2 recalls
+    - 32% of its 147 NHTSA complaints (47) concern the powertrain — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2019/KIA/FORTE
+  2-year cost to own
+    purchase 7995 + tax 807 + fuel 2351 + maint 1254
+    + insurance 5120 + fees 328 + repairs 489 - resale 1519
+    = $11,868 ($495/mo over 13,520 mi)
+  6-year cost to own
+    purchase 7995 + tax 807 + fuel 7054 + maint 3761
+    + insurance 15359 + fees 984 + repairs 1698 - resale 3746
+    = $33,409 ($464/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,698 to budget
+    worst single bill     $4,300 at ~5% — exposure, not budget
+     44% x $  946 = $ 413  Suspension, steering or brake overhaul
+     11% x $ 3225 = $ 342  Automatic transmission failure
+     38% x $  817 = $ 306  Cooling, fuel or ignition system
+     16% x $ 1462 = $ 237  Catalytic converter / emissions system
+  still worth owning 2032?  probable (~70%)
+    ~178,504 mi, 13 yr old
+    - 13 years old by 2032, which is old but ordinary for a car in this class.
+    - ~179k miles by 2032.
+
+==========================================================================
+44. 2019 Jeep Renegade Sport — $12,490
 ==========================================================================
   VIN                     ZACNJBAB7KPJ97788
   odometer                48,587 mi
@@ -1984,8 +2153,8 @@ COST ASSUMPTIONS (inputs to every total below)
     one owner             yes
   reliability (2019 Jeep Renegade)
     band                  concern (confidence: high)
-    NHTSA                 78 complaints · 4 recalls
-    - 36% of its 78 NHTSA complaints (28) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    NHTSA                 79 complaints · 4 recalls
+    - 35% of its 79 NHTSA complaints (28) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
     source                https://www.nhtsa.gov/vehicle/2019/JEEP/RENEGADE
   2-year cost to own
     purchase 12490 + tax 1261 + fuel 3298 + maint 1108
@@ -2007,53 +2176,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~89k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-41. 2018 Ford Focus SE — $7,900
-==========================================================================
-  VIN                     1FADP3K25JL313709
-  odometer                31,860 mi
-  condition               Used · Hot Pepper Red Metallic Clearc
-  where                   Prudent AutoDeals, Inc., Seattle WA (14 mi)
-  days on lot             152
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/776644524
-  powertrain              Gasoline
-  electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA lists gasoline as the only fuel, 2 L.
-  AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      unknown (model-year-typical)
-  also standard (SE)   backup-camera
-  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    yes
-    one owner             no
-  reliability (2018 Ford Focus)
-    band                  concern (confidence: high)
-    NHTSA                 827 complaints · 7 recalls
-    - 42% of its 827 NHTSA complaints (351) concern the engine — a concentrated pattern, not scattered noise.
-    - 7 recall campaigns for this model year — check all are closed out for the VIN.
-    source                https://www.nhtsa.gov/vehicle/2018/FORD/FOCUS
-  2-year cost to own
-    purchase 7900 + tax 798 + fuel 2583 + maint 1287
-    + insurance 5111 + fees 328 + repairs 356 - resale 1501
-    = $11,964 ($499/mo over 13,520 mi)
-  6-year cost to own
-    purchase 7900 + tax 798 + fuel 7750 + maint 3860
-    + insurance 15333 + fees 984 + repairs 1235 - resale 3702
-    = $33,662 ($468/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,235 to budget
-    worst single bill     $7,050 at ~2% — exposure, not budget
-     19% x $ 1551 = $ 301  Suspension, steering or brake overhaul
-      5% x $ 5288 = $ 249  Automatic transmission failure
-     17% x $ 1340 = $ 222  Cooling, fuel or ignition system
-      7% x $ 2397 = $ 173  Catalytic converter / emissions system
-  still worth owning 2032?  likely (~82%)
-    ~72,420 mi, 14 yr old
-    - 14 years old by 2032, which is old but ordinary for a car in this class.
-    - Only ~72k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-
-==========================================================================
-42. 2017 Jeep Compass Trailhawk — $12,471
+45. 2017 Jeep Compass Trailhawk — $12,471
 ==========================================================================
   VIN                     3C4NJDDB6HT646969
   odometer                50,876 mi
@@ -2099,7 +2222,51 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~91k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-43. 2020 Jaguar F-PACE Premium — $14,999
+46. 2018 Kia Forte LX — $5,995
+==========================================================================
+  VIN                     3KPFK4A70JE241685
+  odometer                115,922 mi
+  condition               Used · Silver
+  where                   507 Motorsports, Roy WA (46 mi)
+  days on lot             309
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/763546075
+  powertrain              Gasoline
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA lists gasoline as the only fuel, 2 L.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      unknown (model-year-typical)
+  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    yes
+    one owner             no
+  reliability (2018 Kia Forte)
+    band                  concern (confidence: high)
+    NHTSA                 134 complaints · 3 recalls
+    - 46% of its 134 NHTSA complaints (61) concern the engine — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2018/KIA/FORTE
+  2-year cost to own
+    purchase 5995 + tax 605 + fuel 2488 + maint 1170
+    + insurance 4940 + fees 288 + repairs 470 - resale 1139
+    = $11,100 ($463/mo over 13,520 mi)
+  6-year cost to own
+    purchase 5995 + tax 605 + fuel 7465 + maint 3509
+    + insurance 14819 + fees 864 + repairs 1634 - resale 2809
+    = $31,705 ($440/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,634 to budget
+    worst single bill     $4,300 at ~5% — exposure, not budget
+     42% x $  946 = $ 398  Suspension, steering or brake overhaul
+     10% x $ 3225 = $ 329  Automatic transmission failure
+     36% x $  817 = $ 295  Cooling, fuel or ignition system
+     16% x $ 1462 = $ 228  Catalytic converter / emissions system
+  still worth owning 2032?  likely (~82%)
+    ~156,482 mi, 14 yr old
+    - 14 years old by 2032, which is old but ordinary for a car in this class.
+    - Only ~156k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+47. 2020 Jaguar F-PACE Premium — $14,999
 ==========================================================================
   VIN                     SADCJ2GX4LA632334
   odometer                84,383 mi
@@ -2144,51 +2311,96 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~125k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-44. 2018 Kia Soul — $10,995
+48. 2021 Volkswagen Tiguan S — $11,168
 ==========================================================================
-  VIN                     KNDJN2A2XJ7892459
-  odometer                29,451 mi
-  condition               Used · Green
-  where                   Columbia Motors, Portland OR (143 mi)
-  days on lot             12
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/788800080
+  VIN                     3VV1B7AX2MM076780
+  odometer                112,097 mi
+  condition               Used · Silver Metallic
+  where                   Ron Tonkin Chevrolet, Portland OR (142 mi)
+  days on lot             0
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789822781
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA lists gasoline as the only fuel, 1.6 L.
+    evidence              NHTSA lists gasoline as the only fuel, 2 L.
   AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      unknown (model-year-typical)
+  blind-spot monitor      standard (vin-trim-confirmed)
+  also standard (S)   forward-collision-warning, rear-cross-traffic-alert, backup-camera
   history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
     salvage title         no
     frame damage          not reported
     flood damage          not reported
     accidents reported    yes
     one owner             yes
-  reliability (2018 Kia Soul)
+  reliability (2021 Volkswagen Tiguan)
     band                  concern (confidence: high)
-    NHTSA                 213 complaints · 1 recalls
-    - 68% of its 213 NHTSA complaints (144) concern the engine — a concentrated pattern, not scattered noise.
-    source                https://www.nhtsa.gov/vehicle/2018/KIA/SOUL
+    NHTSA                 136 complaints · 5 recalls
+    - 40% of its 136 NHTSA complaints (55) concern the engine — a concentrated pattern, not scattered noise.
+    - 5 recall campaigns for this model year — check all are closed out for the VIN.
+    source                https://www.nhtsa.gov/vehicle/2021/VOLKSWAGEN/TIGUAN
   2-year cost to own
-    purchase 10995 + tax 1110 + fuel 2971 + maint 785
-    + insurance 5390 + fees 392 + repairs 209 - resale 2089
-    = $12,946 ($539/mo over 13,520 mi)
+    purchase 11168 + tax 1128 + fuel 3156 + maint 1557
+    + insurance 5405 + fees 382 + repairs 481 - resale 2122
+    = $14,231 ($593/mo over 13,520 mi)
   6-year cost to own
-    purchase 10995 + tax 1110 + fuel 8914 + maint 2355
-    + insurance 16169 + fees 1176 + repairs 729 - resale 5152
-    = $35,605 ($495/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $729 to budget
-    worst single bill     $4,300 at ~2% — exposure, not budget
-     19% x $  946 = $ 178  Suspension, steering or brake overhaul
-      5% x $ 3225 = $ 148  Automatic transmission failure
-     16% x $  817 = $ 132  Cooling, fuel or ignition system
-      7% x $ 1462 = $ 102  Catalytic converter / emissions system
-  still worth owning 2032?  likely (~82%)
-    ~70,011 mi, 14 yr old
-    - 14 years old by 2032, which is old but ordinary for a car in this class.
-    - Only ~70k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+    purchase 11168 + tax 1128 + fuel 9469 + maint 4672
+    + insurance 16215 + fees 1146 + repairs 1666 - resale 5233
+    = $39,529 ($549/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,666 to budget
+    worst single bill     $6,150 at ~3% — exposure, not budget
+     30% x $ 1353 = $ 406  Suspension, steering or brake overhaul
+      7% x $ 4613 = $ 337  Automatic transmission failure
+     26% x $ 1169 = $ 300  Cooling, fuel or ignition system
+     11% x $ 2091 = $ 232  Catalytic converter / emissions system
+  still worth owning 2032?  likely (~90%)
+    ~152,657 mi, 11 yr old
+    - Only ~153k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-45. 2021 Volkswagen Tiguan S — $12,971
+49. 2021 Jeep Compass Sport — $10,888
+==========================================================================
+  VIN                     3C4NJDAB0MT549328
+  odometer                128,875 mi
+  condition               Used · Granite Crystal Metallic Clear
+  where                   One Stop Yakima, Yakima WA (102 mi)
+  days on lot             74
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/783554493
+  powertrain              Gasoline
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA lists gasoline as the only fuel, 2.4 L.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      unknown (model-year-typical)
+  also standard (Sport)   forward-collision-warning, backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             no
+  reliability (2021 Jeep Compass)
+    band                  concern (confidence: high)
+    NHTSA                 77 complaints · 0 recalls
+    - 47% of its 77 NHTSA complaints (36) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2021/JEEP/COMPASS
+  2-year cost to own
+    purchase 10888 + tax 1100 + fuel 3169 + maint 1563
+    + insurance 5380 + fees 376 + repairs 498 - resale 2069
+    = $14,155 ($590/mo over 13,520 mi)
+  6-year cost to own
+    purchase 10888 + tax 1100 + fuel 9506 + maint 4688
+    + insurance 16140 + fees 1128 + repairs 1731 - resale 5102
+    = $39,395 ($547/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,731 to budget
+    worst single bill     $5,750 at ~4% — exposure, not budget
+     33% x $ 1265 = $ 421  Suspension, steering or brake overhaul
+      8% x $ 4313 = $ 349  Automatic transmission failure
+     28% x $ 1093 = $ 312  Cooling, fuel or ignition system
+     12% x $ 1955 = $ 242  Catalytic converter / emissions system
+  still worth owning 2032?  probable (~78%)
+    ~169,435 mi, 11 yr old
+    - ~169k miles by 2032.
+
+==========================================================================
+50. 2021 Volkswagen Tiguan S — $12,971
 ==========================================================================
   VIN                     3VV1B7AX3MM025384
   odometer                94,996 mi
@@ -2210,8 +2422,8 @@ COST ASSUMPTIONS (inputs to every total below)
     one owner             no
   reliability (2021 Volkswagen Tiguan)
     band                  concern (confidence: high)
-    NHTSA                 135 complaints · 5 recalls
-    - 40% of its 135 NHTSA complaints (54) concern the engine — a concentrated pattern, not scattered noise.
+    NHTSA                 136 complaints · 5 recalls
+    - 40% of its 136 NHTSA complaints (55) concern the engine — a concentrated pattern, not scattered noise.
     - 5 recall campaigns for this model year — check all are closed out for the VIN.
     source                https://www.nhtsa.gov/vehicle/2021/VOLKSWAGEN/TIGUAN
   2-year cost to own
@@ -2233,7 +2445,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~136k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-46. 2018 Audi Q5 2.0T Premium Plus — $14,000
+51. 2018 Audi Q5 2.0T Premium Plus — $14,000
 ==========================================================================
   VIN                     WA1BNAFY3J2074736
   odometer                101,390 mi
@@ -2255,8 +2467,8 @@ COST ASSUMPTIONS (inputs to every total below)
     one owner             no
   reliability (2018 Audi Q5)
     band                  concern (confidence: high)
-    NHTSA                 200 complaints · 6 recalls
-    - 36% of its 200 NHTSA complaints (72) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    NHTSA                 201 complaints · 6 recalls
+    - 36% of its 201 NHTSA complaints (73) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
     - 6 recall campaigns for this model year — check all are closed out for the VIN.
     source                https://www.nhtsa.gov/vehicle/2018/AUDI/Q5
   2-year cost to own
@@ -2279,52 +2491,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~142k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-47. 2019 Jeep Renegade Sport — $7,995
-==========================================================================
-  VIN                     ZACNJAAB8KPK49178
-  odometer                102,755 mi
-  condition               Used · Orange
-  where                   Power Chevrolet GMC, Corvallis OR (213 mi)
-  days on lot             10
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789018336
-  powertrain              Gasoline
-  electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA lists gasoline as the only fuel, 2.4 L.
-  AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      unknown (model-year-typical)
-  also standard (Sport)   backup-camera
-  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    yes
-    one owner             no
-  reliability (2019 Jeep Renegade)
-    band                  concern (confidence: high)
-    NHTSA                 78 complaints · 4 recalls
-    - 36% of its 78 NHTSA complaints (28) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-    source                https://www.nhtsa.gov/vehicle/2019/JEEP/RENEGADE
-  2-year cost to own
-    purchase 7995 + tax 807 + fuel 3169 + maint 1452
-    + insurance 5120 + fees 328 + repairs 532 - resale 1519
-    = $12,927 ($539/mo over 13,520 mi)
-  6-year cost to own
-    purchase 7995 + tax 807 + fuel 9506 + maint 4357
-    + insurance 15359 + fees 984 + repairs 1823 - resale 3746
-    = $36,582 ($508/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,823 to budget
-    worst single bill     $5,750 at ~4% — exposure, not budget
-     35% x $ 1265 = $ 444  Suspension, steering or brake overhaul
-      9% x $ 4313 = $ 367  Automatic transmission failure
-     30% x $ 1093 = $ 329  Cooling, fuel or ignition system
-     13% x $ 1955 = $ 254  Catalytic converter / emissions system
-  still worth owning 2032?  likely (~82%)
-    ~143,315 mi, 13 yr old
-    - 13 years old by 2032, which is old but ordinary for a car in this class.
-    - Only ~143k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-
-==========================================================================
-48. 2023 Buick Encore GX Select — $16,245
+52. 2023 Buick Encore GX Select — $16,245
 ==========================================================================
   VIN                     KL4MMDSL6PB120897
   odometer                716 mi
@@ -2369,7 +2536,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~41k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-49. 2022 Kia Niro EX — $17,115
+53. 2022 Kia Niro EX — $17,115
 ==========================================================================
   VIN                     KNDCD3LD3N5526960
   odometer                81,898 mi
@@ -2421,7 +2588,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~21 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-50. 2022 Kia Niro EX — $15,645
+54. 2022 Kia Niro EX — $15,645
 ==========================================================================
   VIN                     KNDCC3LG5N5142496
   odometer                62,812 mi
@@ -2474,7 +2641,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-51. 2019 Volkswagen e-Golf SE — $12,685
+55. 2019 Volkswagen e-Golf SE — $12,685
 ==========================================================================
   VIN                     WVWKR7AUXKW918489
   odometer                60,402 mi
@@ -2526,7 +2693,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~80 mi of range at 64% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-52. 2019 Chevrolet Bolt Premier — $19,950
+56. 2019 Chevrolet Bolt Premier — $19,950
 ==========================================================================
   VIN                     1G1FZ6S01K4100001
   odometer                2,165 mi
@@ -2581,7 +2748,62 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~201 mi of range at 85% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-53. 2019 BMW i3 s — $16,995
+57. 2020 Chevrolet Bolt LT — $13,990
+==========================================================================
+  VIN                     1G1FY6S02L4122903
+  odometer                98,213 mi
+  condition               Used · Oasis Blue
+  where                   Dick's Canby Ford, Canby OR (164 mi)
+  days on lot             41
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/786230112
+  powertrain              Battery electric · 259 mi electric
+  electric drive share    100% of miles at 130 mi/week
+    evidence              NHTSA lists electric as the only fuel and no engine displacement.
+  AEB                     trim (model-year-typical)
+  blind-spot monitor      trim (model-year-typical)
+  IIHS                    Good in most tests; headlights Marginal/Poor
+  also standard (LT)   backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             no
+  battery risk factor     0.32
+    Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+  reliability (2020 Chevrolet Bolt)
+    band                  concern (confidence: high)
+    NHTSA                 172 complaints · 8 recalls
+    - 72% of its 172 NHTSA complaints (124) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+    - 8 recall campaigns for this model year — check all are closed out for the VIN.
+    source                https://www.nhtsa.gov/vehicle/2020/CHEVROLET/BOLT%20EV
+  2-year cost to own
+    purchase 13990 + tax 1413 + fuel 454 + maint 636
+    + insurance 5659 + fees 746 + repairs 193 - resale 3144
+    = $12,245 ($510/mo over 13,520 mi)
+  6-year cost to own
+    purchase 13990 + tax 1413 + fuel 1363 + maint 1909
+    + insurance 16977 + fees 2238 + repairs 662 - resale 8174
+    = $32,736 ($455/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $662 to budget
+    worst single bill     $7,670 at ~1% — exposure, not budget
+     31% x $  779 = $ 238  Suspension, steering or brake overhaul
+      6% x $ 3245 = $ 198  Drive unit, inverter or onboard charger
+      9% x $ 1711 = $ 149  Battery thermal management / electric HVAC
+      1% x $ 7670 = $  77  Traction battery catastrophic failure (not degradation)
+  battery health          89% now -> 79% in 6 yr (±4 percentage points)
+    range                 ~232 mi now -> ~206 mi (need ~19/day)
+    Liquid-cooled pack with active thermal management · PACK REPLACED UNDER RECALL
+    (degradation affects range and resale, NOT counted as a repair)
+  still worth owning 2032?  likely (~82%)
+    ~138,773 mi, 12 yr old
+    - 12 years old by 2032, which is old but ordinary for a car in this class.
+    - Only ~139k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+    - Projected ~206 mi of range at 79% health by 2032 — still far beyond the ~19 mi/day need.
+
+==========================================================================
+58. 2019 BMW i3 s — $16,995
 ==========================================================================
   VIN                     WBY8P6C51K7E09726
   odometer                89,305 mi
@@ -2634,7 +2856,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~116 mi of range at 76% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-54. 2016 BMW i3 w/ Range Extender — $11,977
+59. 2016 BMW i3 w/ Range Extender — $11,977
 ==========================================================================
   VIN                     WBY1Z4C58GV506874
   odometer                65,498 mi
@@ -2686,7 +2908,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~53 mi of range at 73% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-55. 2022 Polestar Polestar 2 — $19,678
+60. 2022 Polestar Polestar 2 — $19,678
 ==========================================================================
   VIN                     LPSED3KA6NL056010
   odometer                75,657 mi
@@ -2738,7 +2960,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-56. 2015 BMW i3 w/ Range Extender — $11,995
+61. 2015 BMW i3 w/ Range Extender — $11,995
 ==========================================================================
   VIN                     WBY1Z4C53FV501807
   odometer                87,909 mi
@@ -2790,7 +3012,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~51 mi of range at 71% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-57. 2017 BMW 320i Sedan — $14,490
+62. 2017 BMW 320i Sedan — $14,490
 ==========================================================================
   VIN                     WBA8A9C56HK619680
   odometer                52,144 mi
@@ -2835,7 +3057,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~93k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-58. 2016 Mercedes-Benz GLA 250 4MATIC — $14,999
+63. 2016 Mercedes-Benz GLA 250 4MATIC — $14,999
 ==========================================================================
   VIN                     WDCTG4GB1GJ203842
   odometer                52,000 mi
@@ -2879,7 +3101,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~93k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-59. 2016 Audi A3 e-tron Prestige — $8,500
+64. 2016 Audi A3 e-tron Prestige — $8,500
 ==========================================================================
   VIN                     WAUSPBFFXGA083529
   odometer                120,249 mi
@@ -2930,7 +3152,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~11 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-60. 2016 BMW X5 xDrive40e — $11,858
+65. 2016 BMW X5 xDrive40e — $11,858
 ==========================================================================
   VIN                     5UXKT0C58G0S76006
   odometer                109,038 mi
@@ -2982,7 +3204,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~10 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-61. 2017 BMW X5 xDrive40e — $10,895
+66. 2017 BMW X5 xDrive40e — $10,895
 ==========================================================================
   VIN                     5UXKT0C3XH0V97934
   odometer                130,594 mi
@@ -3035,7 +3257,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~10 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-62. 2017 BMW X5 xDrive40e — $14,000
+67. 2017 BMW X5 xDrive40e — $14,000
 ==========================================================================
   VIN                     5UXKT0C38H0V97012
   odometer                74,000 mi
@@ -3088,7 +3310,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~10 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-63. 2017 BMW X5 xDrive40e — $10,990
+68. 2017 BMW X5 xDrive40e — $10,990
 ==========================================================================
   VIN                     5UXKT0C37H0V97616
   odometer                142,821 mi
@@ -3141,7 +3363,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~10 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-64. 2024 MINI Cooper SE — $16,895
+69. 2024 MINI Cooper SE — $16,895
 ==========================================================================
   VIN                     WMW13DJ09R2V91896
   odometer                17,617 mi
