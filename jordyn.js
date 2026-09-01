@@ -510,8 +510,8 @@ function assumptionsBlock(a) {
       '⚠️ The biggest and least certain input — over half the six-year total, and the reason a cheaper car really is cheaper to run. Worth checking against a real quote.'],
     ['Maintenance', 'Electric $0.04/mi · hybrid $0.06 · gas $0.09',
       'EVs skip oil, plugs, belts, exhaust and most brake wear (regen). This is where much of the EV advantage lives at this price.'],
-    ['WA registration', `$85/yr + ${money(a.waEvFeePerYear)}/yr for electric (${money(a.waPhevFeePerYear)} plug-in hybrid)`,
-      'Washington\u2019s EV fee claws back a large share of the fuel savings — which is why the electrics don\u2019t run away with it.'],
+    ['WA tabs', 'Base fees + 1.1% Sound Transit excise tax',
+      'Bellevue sits inside the Sound Transit district, so tabs are not a flat fee. The RTA excise tax is assessed on 85% of the car\u2019s ORIGINAL list price, depreciated by a 1990-era statutory schedule \u2014 not on what you paid. That schedule was written when cars held value far better than they do now, so it over-values older cars, and because it follows original MSRP an expensive car stays expensive to register long after its market value has fallen. Plug-ins with 30+ miles of electric range add $150/yr; a shorter-range plug-in adds nothing. We have to estimate original MSRP because listings don\u2019t publish it \u2014 this is the least certain input in the model.'],
     ['Sales tax', `${((a.salesTaxRate ?? 0.101) * 100).toFixed(1)}% of the purchase price`, 'Bellevue combined rate.'],
     ['Major repairs', 'Probability × cost, for every powertrain',
       'This used to charge electric cars a battery allowance and gas cars nothing — billing EVs for a risk their rivals also carried but were never charged for. Now one framework covers all of them, with each hazard attached only to parts that powertrain actually has: an EV has no engine, transmission, exhaust or catalytic converter to fail; a plug-in hybrid has both an engine and a high-voltage system, so it carries both sets. Fixing this moved the electrics up about 24 places on average.'],
@@ -631,21 +631,74 @@ function renderInsights() {
   }
 
   // --- model leaderboard --------------------------------------------------
+  // Cohorts, not model names. A "Nissan Leaf" row averages a 2013 24 kWh car
+  // with 70 miles of range against a 2024 40 kWh car with 150 and describes
+  // neither. Same for Ioniq, which is sold as a hybrid, a plug-in AND an EV.
+  const ma = DATA.marketAnalysis;
+  const cohorts = ma?.topCohorts;
+  if (cohorts?.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">🏅 Which cars actually hold up</h2>
+      <p class="ins-verdict">Grouped by generation and battery, not just by name — a 24&nbsp;kWh Leaf and a 40&nbsp;kWh Leaf are different cars.
+      Only groups that clear the safety floor for at least half their listings appear here.</p>
+      <table class="assump-tbl band-tbl">
+        <tr><th>Car</th><th>n</th><th>6-yr cost</th><th>AEB std</th><th>2032</th></tr>
+        ${cohorts.slice(0, 14).map((c) => `<tr>
+          <th>${esc(c.label)}<div class="why">${esc((c.modelYears || []).join(', '))}</div></th>
+          <td>${c.n}</td>
+          <td>${money(c.medianTco6)}</td>
+          <td>${c.safetyQualifiedPct}%${c.aebUnknown ? `<div class="why">${c.aebUnknown} unverified</div>` : ''}</td>
+          <td>${c.viability2032 != null ? `${Math.round(c.viability2032 * 100)}%` : '—'}</td></tr>`).join('')}
+      </table>
+      <p class="tco-note">“AEB std” is the share with automatic braking confirmed standard. Unverified is shown separately and is
+      <b>not</b> counted as a failure — plenty of these cars have it, nobody has checked.</p>
+    </div>`);
+  }
+
+  // --- opportunities: what the data thinks is underrated ------------------
+  if (ma?.opportunities?.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">💡 Where the value is</h2>
+      <p class="ins-verdict">Groups that combine a real cost advantage with a genuine safety record and a future. Nothing here is
+      hand-picked — a car appears because the numbers put it here.</p>
+      ${ma.opportunities.slice(0, 6).map((o) => `<div class="opp">
+        <div class="opp-h">${esc(o.label)} <span class="tier-n">${o.n}</span></div>
+        <div class="opp-s">${money(o.medianPrice)} typical · ${money(o.medianTco6)} over six years · ${o.safetyQualifiedPct}% with AEB standard</div>
+        <ul class="rel-list">${(o.reasons || []).slice(0, 3).map((r) => `<li>${esc(r)}</li>`).join('')}</ul>
+      </div>`).join('')}
+    </div>`);
+  }
+
+  // --- the bargains that aren't ------------------------------------------
+  if (ma?.cheapButCompromised?.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">⚠️ Cheap for a reason</h2>
+      <p class="ins-verdict">These are genuinely low-cost to own, and that is exactly why they need a caveat next to them rather
+      than a place at the top of a list.</p>
+      ${ma.cheapButCompromised.slice(0, 5).map((o) => `<div class="opp">
+        <div class="opp-h">${esc(o.label)} <span class="tier-n">${o.n}</span></div>
+        <div class="opp-s">${money(o.medianTco6)} over six years · only ${o.safetyQualifiedPct}% have AEB standard</div>
+        <ul class="rel-list">${(o.why || []).slice(0, 2).map((r) => `<li>${esc(r)}</li>`).join('')}</ul>
+      </div>`).join('')}
+    </div>`);
+  }
+
   const md = ins.models;
   if (md?.ranked?.length) {
     parts.push(`<div class="card">
-      <h2 class="ins-h">🏅 Which models hold up best</h2>
-      <table class="assump-tbl band-tbl">
-        <tr><th>Model</th><th>n</th><th>Median 6-yr</th><th>Range</th><th>Safety</th><th>AEB std</th></tr>
-        ${md.ranked.slice(0, 15).map((m) => `<tr>
-          <th>${esc(m.model)}<div class="why">${esc(m.powertrains.join(' / '))}</div></th>
-          <td>${m.n}</td>
-          <td>${money(m.tco6.median)}</td>
-          <td class="why">${money(m.tco6.p25)}–${money(m.tco6.p75)}</td>
-          <td>${m.safetyScore == null ? '<span class="why">not assessed</span>' : `${m.safetyScore}/5`}</td>
-          <td>${m.aebStandardShare}%</td></tr>`).join('')}
-      </table>
-      <p class="tco-note">${esc(md.note)}</p>
+      <details class="assump">
+        <summary>📋 All models, aggregated by name <span class="tco-mo">the cruder view</span></summary>
+        <table class="assump-tbl band-tbl">
+          <tr><th>Model</th><th>n</th><th>Median 6-yr</th><th>Safety</th><th>AEB std</th></tr>
+          ${md.ranked.slice(0, 15).map((m) => `<tr>
+            <th>${esc(m.model)}<div class="why">${esc(m.powertrains.join(' / '))}</div></th>
+            <td>${m.n}</td>
+            <td>${money(m.tco6.median)}</td>
+            <td>${m.safetyScore == null ? '<span class="why">not assessed</span>' : `${m.safetyScore}/5`}</td>
+            <td>${m.aebStandardShare}%</td></tr>`).join('')}
+        </table>
+        <p class="tco-note">${esc(md.note)}</p>
+      </details>
     </div>`);
   }
 
@@ -707,6 +760,23 @@ function renderPicks() {
       </table>
       <p class="tco-note">${esc(p.disclaimer)}</p>
     </div>`);
+  }
+
+  // The actionable half. Criticising her picks without offering an alternative
+  // is not much use, so this is what to look at instead — closest to her taste
+  // that still keeps cost down and safety up.
+  const recs = DATA.recommendations;
+  if (recs?.vins?.length) {
+    const cars = recs.vins.map((v) => byVin.get(v)).filter(Boolean);
+    if (cars.length) {
+      const prem = recs.premiumOverMarket;
+      parts.push(`<div class="card">
+        <h2 class="ins-h">✅ ${esc(recs.title)}</h2>
+        <p class="ins-verdict">${esc(recs.why)}</p>
+        ${prem != null ? `<p class="tco-note">These run <b>${money(Math.abs(prem))} ${prem > 0 ? 'more' : 'less'}</b> over six years than the typical car in the whole search —
+        so wanting a small SUV ${prem > 0 ? 'costs something, but far less than her current picks do' : 'costs nothing at all; it is the premium petrol badges that do'}.</p>` : ''}
+      </div>${cars.map(carCard).join('')}`);
+    }
   }
 
   // Her individual picks.
