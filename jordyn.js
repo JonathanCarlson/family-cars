@@ -157,9 +157,15 @@ function tcoBlock(c) {
     ['Insurance (teen driver)', it.insurance],
     ['Maintenance', it.maintenance],
     ['Tabs + WA EV fee', it.registration],
-    ['Battery allowance', it.batteryAllowance],
+    ['Major repairs (expected)', it.majorRepairReserve],
     ['Depreciation', it.depreciation],
   ].filter(([, v]) => v > 0);
+  const r = c.repairs6;
+  const tail = r?.tail
+    ? `<p class="tco-note">The repair line is a <b>budget</b>: probability × cost across everything this powertrain can break.
+         Separately, the worst single bill is <b>${money(r.tail.amount)}</b> at roughly ${Math.round(r.tail.probability * 100)}% —
+         that is the exposure, not the budget, and the two are deliberately not averaged together.</p>`
+    : '';
   return `
     <details class="tco">
       <summary><b>${money(t.total)}</b> to own over ${t.years} yr <span class="tco-mo">≈ ${money(t.perMonth)}/mo</span></summary>
@@ -168,7 +174,38 @@ function tcoBlock(c) {
         <tr class="tco-total"><td>Total</td><td>${money(t.total)}</td></tr>
       </table>
       <p class="tco-note">Running cost on top of the ${money(it.purchase)} purchase price, at ${DATA.assumptions?.milesPerWeek ?? 130} mi/week.</p>
+      ${tail}
     </details>`;
+}
+
+/**
+ * Battery health and the 2032 outlook.
+ * Capacity loss is shown as range and resale, never as a repair bill — the
+ * repair reserve above covers catastrophic failure separately, and showing both
+ * as one number would charge the same risk twice.
+ */
+function outlookBlock(c) {
+  const h = c.batteryHealth;
+  const v = c.viability;
+  if (!h && !v) return '';
+  const parts = [];
+
+  if (h) {
+    const now = Math.round(h.sohNow * 100);
+    const end = Math.round(h.sohAtEndOfWindow * 100);
+    parts.push(`
+      <p class="fineprint">🔋 <b>Battery health</b> — about <b>${now}%</b> of original capacity now, roughly <b>${end}%</b> by 2032 (${esc(h.sohUncertainty)}).
+      ${h.estimatedRangeNowMi ? `That is ~${h.estimatedRangeNowMi} mi of range today, ~${h.estimatedRangeAtEndMi} mi by 2032, against a ~19 mi/day need.` : ''}
+      ${h.packReplacedUnderRecall ? '<b>Pack was replaced under the recall</b> — newer hardware than the model year suggests. ' : ''}
+      ${esc(h.thermalManagement)}. Capacity loss costs you range and resale, not a repair bill — get a state-of-health readout before buying.</p>`);
+  }
+  if (v) {
+    parts.push(`
+      <p class="fineprint">🔮 <b>Still worth owning in ${v.throughYear}?</b> ${esc(v.band)} (~${Math.round(v.probabilityStillEconomic * 100)}%) —
+      about ${v.expectedMilesAtEnd.toLocaleString()} mi and ${v.expectedAgeAtEnd} years old by then.
+      ${esc((v.reasons || [])[0] || '')}</p>`);
+  }
+  return parts.join('');
 }
 
 function carCard(c) {
@@ -220,6 +257,7 @@ function carCard(c) {
       ${c.note ? `<p class="standout-note">⭐ ${esc(c.note)}</p>` : ''}
       ${tcoBlock(c)}
       ${reliabilityBlock(c)}
+      ${outlookBlock(c)}
       ${vinExtras(c)}
       ${c.safety?.note ? `<p class="fineprint">🛡️ ${esc(c.safety.note)}</p>` : ''}
       ${c.safety?.iihsNotRated ? `<p class="fineprint">🏆 ${esc(c.safety.iihsNotRated)}</p>` : ''}
@@ -346,10 +384,14 @@ function assumptionsBlock(a) {
     ['WA registration', `$85/yr + ${money(a.waEvFeePerYear)}/yr for electric (${money(a.waPhevFeePerYear)} plug-in hybrid)`,
       'Washington\u2019s EV fee claws back a large share of the fuel savings — which is why the electrics don\u2019t run away with it.'],
     ['Sales tax', `${((a.salesTaxRate ?? 0.101) * 100).toFixed(1)}% of the purchase price`, 'Bellevue combined rate.'],
-    ['Battery allowance', 'Risk × exposure — up to $3,000 electric, $900 plug-in',
-      'Scaled by age, mileage and cooling type. A plug-in that loses its pack is still a 42–52 mpg hybrid, so its exposure is far smaller. Most 2017–22 Bolts got a free replacement pack under the LG recall, which counts in their favour.'],
-    ['Depreciation', 'Residual decay, faster for electric',
-      'New long-range EVs keep landing underneath these, so they shed value quicker than an equivalent gas car.'],
+    ['Major repairs', 'Probability × cost, for every powertrain',
+      'This used to charge electric cars a battery allowance and gas cars nothing — billing EVs for a risk their rivals also carried but were never charged for. Now one framework covers all of them, with each hazard attached only to parts that powertrain actually has: an EV has no engine, transmission, exhaust or catalytic converter to fail; a plug-in hybrid has both an engine and a high-voltage system, so it carries both sets. Fixing this moved the electrics up about 24 places on average.'],
+    ['Worst case vs budget', 'Kept separate, never averaged',
+      'A 3% chance of a $6,500 battery is $195 to budget — but the exposure is still $6,500. Blending those into one number hides both facts, so each car shows the reserve and the worst single bill separately.'],
+    ['Battery wear', 'Range and resale — not a repair bill',
+      'Capacity loss makes the car shorter-legged and worth less; it does not present an invoice. Charging it again as a repair would count the same risk twice. Projected for Seattle\u2019s mild climate and overnight home charging, the two conditions that most slow degradation.'],
+    ['Depreciation', 'Residual decay, faster for electric, adjusted for pack health',
+      'New long-range EVs keep landing underneath these, so they shed value quicker than an equivalent gas car. A more degraded pack lowers resale further; a recall-replaced pack raises it.'],
   ];
   return `
     <details class="assump">

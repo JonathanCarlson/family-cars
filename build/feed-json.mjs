@@ -166,12 +166,75 @@ function tcoOf(t) {
       maintenance: round(i.maintenance),
       insurance: round(i.insurance),
       registrationAndFees: round(i.registration),
-      batteryAllowance: round(i.batteryAllowance),
+      majorRepairReserve: round(i.majorRepairReserve),
     },
     resaleValueRecovered: round(i.depreciation),
     totalCostOfOwnership: round(t.total),
     averagePerMonth: round(t.perMonth),
   };
+}
+
+/**
+ * The repair picture, with expected cost and tail exposure kept apart.
+ * Averaging a 3% chance of a $6,500 bill into a single "risk" number destroys
+ * both pieces of information a buyer needs: what to budget, and what could go
+ * catastrophically wrong.
+ */
+function repairOutlookOf(c) {
+  const r = c.repairs6;
+  if (!r) return null;
+  return {
+    window: '6 years',
+    expectedReserveUsd: r.expected,
+    worstCaseExposure: r.tail ? {
+      component: r.tail.label,
+      amountUsd: r.tail.amount,
+      probability: r.tail.probability,
+      note: r.tail.note,
+    } : null,
+    components: (r.items || []).map((i) => ({
+      hazard: i.id,
+      component: i.label,
+      probability: i.probability,
+      costIfItHappensUsd: i.costIfItHappens,
+      expectedUsd: i.expected,
+    })),
+  };
+}
+
+function batteryHealthOf(c) {
+  const h = c.batteryHealth;
+  if (!h) return { applicable: false };
+  return {
+    applicable: true,
+    thermalManagement: h.thermalManagement,
+    packReplacedUnderRecall: h.packReplacedUnderRecall,
+    stateOfHealthNow: h.sohNow,
+    stateOfHealthAtEndOfSixYears: h.sohAtEndOfWindow,
+    uncertainty: h.sohUncertainty,
+    epaRangeWhenNewMi: h.epaRangeNewMi,
+    estimatedRangeNowMi: h.estimatedRangeNowMi,
+    estimatedRangeInSixYearsMi: h.estimatedRangeAtEndMi,
+    dailyNeedMi: h.dailyNeedMi,
+    stillCoversDailyNeed: h.coversDailyNeedAtEnd,
+  };
+}
+
+/**
+ * The hazard definitions, stated once. Per-listing `repairOutlook.components`
+ * reference these by `hazard` id. Inlining the basis text on every component of
+ * every car added roughly 600 KB of identical prose, which is a good way to get
+ * a feed truncated by the client that most needs to read it.
+ */
+function hazardCatalog(cars) {
+  const out = {};
+  for (const c of cars) {
+    for (const i of c.repairs6?.items || []) {
+      if (out[i.id]) continue;
+      out[i.id] = { component: i.label, costRangeUsd: i.costRange, basis: i.basis };
+    }
+  }
+  return out;
 }
 
 function listingOf(c) {
@@ -209,6 +272,11 @@ function listingOf(c) {
     reliabilityKey: c.reliability ? `${c.reliability.year} ${c.reliability.make} ${c.reliability.model}` : null,
     vehicleHistory: historyOf(c),
     costToOwn: { twoYear: tcoOf(c.tco2), sixYear: tcoOf(c.tco6) },
+    repairOutlook: repairOutlookOf(c),
+    batteryHealth: batteryHealthOf(c),
+    viability2032: c.viability
+      ? { ...c.viability, reasons: c.viability.reasons, caveat: undefined }
+      : null,
 
     ranking: {
       safetyTier: c.tier || null,
@@ -297,7 +365,11 @@ export function rosterFeed(data) {
       'reliabilityByModelYear.*.band': 'clean | ok | watch | concern | unknown — a qualitative band, NOT a numeric score. Scope is the model-year, so it says nothing about the condition of an individual car. Get a pre-purchase inspection.',
       'reliabilityByModelYear.*.sourceUrl': 'Triangulated from freely accessible public sources, primarily NHTSA complaints/recalls. NOT J.D. Power and NOT Consumer Reports. Complaint counts are not adjusted for sales volume, so raw counts are not comparable between a high-volume and a low-volume model.',
       'listing.vehicleHistory': 'From the dealer-supplied CARFAX/AutoCheck summary on the listing. Badges come in affirming/negating pairs, so true AND false are both affirmative statements from the report; null means NEITHER badge was present, i.e. NOT REPORTED. Never read null as the negative. Always pull a full VIN history before buying.',
-      'listing.costToOwn': 'totalCostOfOwnership = purchasePrice + salesTax + fuelAndElectricity + maintenance + insurance + registrationAndFees + batteryAllowance − resaleValueRecovered. Inputs are in costAssumptions.',
+      'listing.costToOwn': 'totalCostOfOwnership = purchasePrice + salesTax + fuelAndElectricity + maintenance + insurance + registrationAndFees + majorRepairReserve − resaleValueRecovered. Inputs are in costAssumptions.',
+      'listing.repairOutlook': 'ONE framework applied to every powertrain. Each hazard attaches only to components that powertrain actually has — an EV carries no engine, transmission, exhaust or emissions hazard; a plug-in hybrid carries BOTH the engine set and the high-voltage set. expectedReserveUsd is Σ(probability × cost) and is the budget number, already included in costToOwn.*.costs.majorRepairReserve; worstCaseExposure is the single largest plausible bill and is deliberately NOT averaged into it. Probabilities are engineering estimates scaled by age, odometer and ownership length, with stated ranges — not actuarial data. See repairHazardCatalog for each hazard\'s cost range and basis. NOTE: an earlier version of this model charged electric cars a battery allowance and charged gasoline and hybrid cars nothing for major repairs, which biased every cost comparison against EVs; correcting it moved electric cars up roughly 24 ranking places on average.',
+      'listing.batteryHealth': 'Capacity loss ONLY. It reduces range and resale value and is deliberately NOT charged as a repair; catastrophic pack failure is a separate hazard in repairOutlook. Projected from pack age, odometer and thermal-management type for Seattle\'s mild climate and mostly overnight AC home charging — the two conditions that most slow degradation. Heat and frequent DC fast charging are the main accelerators and neither is expected here. This is a projection, not a measurement: verify with a real state-of-health readout (LeafSpy or equivalent) before buying.',
+      'listing.viability2032': 'Coarse judgement of whether the car is still economically worth owning at the end of the 6-year window, from age, mileage, projected battery health, and the size of the expected repair reserve relative to the car\'s value. Condition of the individual car dominates all of it — get a pre-purchase inspection.',
+      'repairHazardCatalog': 'Definitions for the hazard ids referenced by listing.repairOutlook.components, stated once here rather than repeated on every car. Includes the cost range and the basis for each probability.',
       'listing.ranking.matchScore': 'Internal 0-100 fit score used to order the page: safety, then cost to own, then longevity, multiplied by reliability and title-history factors. Powertrain-neutral by design — electric cars are not given a bonus, so where they win they win on cost. Not a quality rating.',
       'listing.stillListed': 'false means the car was in a previous scan but the latest one no longer returns it — probably sold.',
     },
@@ -320,6 +392,7 @@ export function rosterFeed(data) {
     },
 
     reliabilityByModelYear,
+    repairHazardCatalog: hazardCatalog(cars),
 
     costAssumptions: {
       note: 'These are the INPUTS to every costToOwn figure. Change one and every total moves.',
@@ -466,8 +539,35 @@ export function feedText(feed) {
       const q = t.costs;
       L.push(`  ${label} cost to own`);
       L.push(`    purchase ${q.purchasePrice} + tax ${q.salesTax} + fuel ${q.fuelAndElectricity} + maint ${q.maintenance}`);
-      L.push(`    + insurance ${q.insurance} + fees ${q.registrationAndFees} + battery ${q.batteryAllowance} - resale ${t.resaleValueRecovered}`);
+      L.push(`    + insurance ${q.insurance} + fees ${q.registrationAndFees} + repairs ${q.majorRepairReserve} - resale ${t.resaleValueRecovered}`);
       L.push(`    = $${(t.totalCostOfOwnership || 0).toLocaleString('en-US')} ($${t.averagePerMonth}/mo over ${(t.milesDriven || 0).toLocaleString('en-US')} mi)`);
+    }
+
+    const ro = c.repairOutlook;
+    if (ro) {
+      L.push(`  repair outlook (6 yr)   expected $${ro.expectedReserveUsd.toLocaleString('en-US')} to budget`);
+      if (ro.worstCaseExposure) {
+        const w = ro.worstCaseExposure;
+        L.push(`    worst single bill     $${w.amountUsd.toLocaleString('en-US')} at ~${Math.round(w.probability * 100)}% — exposure, not budget`);
+      }
+      for (const it of ro.components.slice(0, 4)) {
+        L.push(`    ${String(Math.round(it.probability * 100)).padStart(3)}% x $${String(it.costIfItHappensUsd).padStart(5)} = $${String(it.expectedUsd).padStart(4)}  ${it.component}`);
+      }
+    }
+
+    const bh = c.batteryHealth;
+    if (bh && bh.applicable) {
+      L.push(`  battery health          ${Math.round(bh.stateOfHealthNow * 100)}% now -> ${Math.round(bh.stateOfHealthAtEndOfSixYears * 100)}% in 6 yr (${bh.uncertainty})`);
+      if (bh.estimatedRangeNowMi) L.push(`    range                 ~${bh.estimatedRangeNowMi} mi now -> ~${bh.estimatedRangeInSixYearsMi} mi (need ~${bh.dailyNeedMi}/day)`);
+      L.push(`    ${bh.thermalManagement}${bh.packReplacedUnderRecall ? ' · PACK REPLACED UNDER RECALL' : ''}`);
+      L.push('    (degradation affects range and resale, NOT counted as a repair)');
+    }
+
+    const v = c.viability2032;
+    if (v) {
+      L.push(`  still worth owning ${v.throughYear}?  ${v.band} (~${Math.round(v.probabilityStillEconomic * 100)}%)`);
+      L.push(`    ~${v.expectedMilesAtEnd.toLocaleString('en-US')} mi, ${v.expectedAgeAtEnd} yr old`);
+      for (const r of v.reasons.slice(0, 3)) L.push(`    - ${r}`);
     }
     L.push('');
   });

@@ -26,6 +26,7 @@ function tcoLines(t) {
     ['insurance', 'Insurance'],
     ['registration', 'Registration'],
     ['batteryAllowance', 'Battery risk allowance'],
+    ['majorRepairReserve', 'Major-repair reserve (expected)'],
     ['depreciation', 'Less resale value'],
   ];
   const out = order
