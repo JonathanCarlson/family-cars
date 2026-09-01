@@ -165,6 +165,27 @@
 .band-tbl th, .band-tbl td { font-size: 12px; padding: 5px 6px; text-align: left; }
 .band-tbl tr:first-child th { color: var(--muted); font-weight: 600; }
 .band-pref th, .band-pref td { background: #14251a; }
+.ins-h { font-size: 16px; margin: 0 0 6px; }
+.ins-verdict { font-size: 13.5px; line-height: 1.5; color: #dbe4ff; margin: 0 0 10px; }
+.viewbar { display: flex; gap: 8px; margin: 4px 0 10px; }
+.vw {
+  flex: 1; background: #131a2e; color: var(--muted); border: 1px solid #2c3550;
+  border-radius: 999px; padding: 9px 12px; font-size: 13px; font-weight: 600; cursor: pointer;
+}
+.vw.on { background: #1d2b56; color: #eaf0ff; border-color: #3d548f; }
+/* Slim browse row — enough to scan and filter, without the 16 KB of detail that
+   made a 320-car bundle weigh 6.8 MB. */
+.brow {
+  display: flex; gap: 10px; align-items: center; justify-content: space-between;
+  background: var(--card); border: 1px solid #212a44; border-radius: 12px;
+  padding: 10px 12px; margin-bottom: 8px;
+}
+.brow.is-hidden { opacity: 0.45; }
+.brow-t { font-size: 14px; font-weight: 600; }
+.brow-s { font-size: 12px; color: var(--muted); margin: 2px 0 4px; }
+.brow-r { text-align: right; flex: 0 0 auto; }
+.brow-tco { font-size: 15px; font-weight: 700; }
+.band-tbl td.thin { color: var(--muted); }
 
     /* ---- TCO disclosure ---- */
     .tco { margin-top: 10px; background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; }
@@ -286,6 +307,7 @@
 
     <nav id="tabbar" class="tabbar" hidden>
       <button class="tab active" type="button" data-tab="cars">🚗 The cars</button>
+      <button class="tab" type="button" data-tab="insights">📊 What the data says</button>
       <button class="tab" type="button" data-tab="guide">📋 Buyer's guide</button>
     </nav>
 
@@ -294,9 +316,17 @@
 
       <section id="panel-cars" class="panel">
         <div id="intro"></div>
+        <div id="viewbar" class="viewbar" role="group" aria-label="Which cars to show">
+          <button type="button" class="vw on" data-view="shortlist">⭐ Shortlist</button>
+          <button type="button" class="vw" data-view="browse">🔎 Browse everything</button>
+        </div>
         <div id="sortbar"></div>
         <div id="filterbar" hidden></div>
         <div id="cars-grid"></div>
+      </section>
+
+      <section id="panel-insights" class="panel" hidden>
+        <div id="insights-body"></div>
       </section>
 
       <section id="panel-guide" class="panel" hidden>
@@ -316,6 +346,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=3"></script>
-  <script src="jordyn.js?v=11"></script>
+  <script src="jordyn.js?v=12"></script>
 </body>
 </html>

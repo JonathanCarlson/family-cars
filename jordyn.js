@@ -394,12 +394,17 @@ function sortCars(list) {
 }
 
 // ---------- render ----------
+// Two views over the same data: a shortlist of cars to react to, and the long
+// tail to browse. The insights tab holds the answers those cars are evidence for.
+let VIEW = 'shortlist';
+
 function render() {
   $('#cars-status').hidden = true;
   $('#tabbar').hidden = false;
   renderIntro();
   renderControls();
   renderList();
+  renderInsights();
   renderGuide();
   renderTally();
   wireDelegates();
@@ -516,7 +521,7 @@ function renderControls() {
           title="Your hidden cars are only hidden from view — no cost or safety figure changes">
           🙈 Show hidden${HIDDEN.size ? ` (${HIDDEN.size})` : ''}</button>
       </div>`;
-  $('#filterbar').hidden = false;
+  $('#filterbar').hidden = VIEW !== 'browse';
 }
 
 // Grouped by safety tier so a "verify" car is never presented as equivalent to
@@ -532,27 +537,161 @@ const TIER_GROUPS = [
   ['no', '❌ No automatic emergency braking', 'Shown for completeness — these fall short of the teen-safety bar.'],
 ];
 
-function renderList() {
-  let shown = sortCars((DATA.cars || []).filter(passesFacets));
+/**
+ * The insights tab — the answers, before the cars.
+ *
+ * Scrolling hundreds of listings tells you nothing about whether electric beats
+ * hybrid or whether spending more helps. Those are population questions, so the
+ * page leads with the population and treats individual cars as evidence for a
+ * conclusion rather than as the product.
+ */
+function renderInsights() {
+  const ins = DATA.insights;
+  const el = $('#insights-body');
+  if (!el) return;
+  if (!ins) { el.innerHTML = '<p class="empty">No analysis in this build.</p>'; return; }
+  const parts = [];
+
+  // --- the budget question ------------------------------------------------
+  const bs = ins.buyStrategy;
+  if (bs?.verdict) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">💰 Does spending more help?</h2>
+      <p class="ins-verdict">${esc(bs.verdict)}</p>
+      <table class="assump-tbl band-tbl">
+        <tr><th>Budget</th><th>n</th><th>Median 6-yr</th><th>Median yr · mi</th><th>AEB std</th><th>Electric</th></tr>
+        ${bs.rows.map((r) => `<tr${r.preferred ? ' class="band-pref"' : ''}>
+          <th>${esc(r.label)}${r.preferred ? ' 🎯' : ''}</th>
+          <td>${r.n}</td><td>${money(r.medianTco6)}</td>
+          <td>${r.medianYear} · ${r.medianMiles != null ? Math.round(r.medianMiles / 1000) + 'k' : '—'}</td>
+          <td>${r.aebStandardShare}%</td><td>${r.electrifiedShare}%</td></tr>`).join('')}
+      </table>
+      <p class="tco-note">Where the money goes changes with the budget: cheap cars spend it on fuel and repairs,
+      dear ones on purchase price and the insurance that scales with value.</p>
+    </div>`);
+  }
+
+  // --- powertrain, with the confound made visible -------------------------
+  const pw = ins.powertrain;
+  if (pw) {
+    const bandRows = pw.withinBand.map((b) => {
+      const cells = ['BEV', 'PHEV', 'HYB', 'ICE'].map((p) => {
+        const v = b.powertrains[p];
+        if (!v) return '<td>—</td>';
+        if (v.tooFew) return `<td class="thin">n=${v.n}<br><span class="why">too few</span></td>`;
+        return `<td>${money(v.medianTco6)}<br><span class="why">n=${v.n}</span></td>`;
+      }).join('');
+      return `<tr><th>${esc(b.label)}</th>${cells}</tr>`;
+    }).join('');
+    parts.push(`<div class="card">
+      <h2 class="ins-h">⚡ Electric, hybrid or petrol?</h2>
+      <p class="ins-verdict">Compared <b>within the same budget</b>, so the answer isn't just "electric cars here are newer".</p>
+      <table class="assump-tbl band-tbl">
+        <tr><th>Budget</th><th>Electric</th><th>Plug-in</th><th>Hybrid</th><th>Petrol</th></tr>
+        ${bandRows}
+      </table>
+      <p class="tco-note">Median 6-year cost to own. ${pw.confound ? esc(pw.confound) : ''}</p>
+    </div>`);
+  }
+
+  // --- model leaderboard --------------------------------------------------
+  const md = ins.models;
+  if (md?.ranked?.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">🏅 Which models hold up best</h2>
+      <table class="assump-tbl band-tbl">
+        <tr><th>Model</th><th>n</th><th>Median 6-yr</th><th>Range</th><th>Safety</th><th>AEB std</th></tr>
+        ${md.ranked.slice(0, 15).map((m) => `<tr>
+          <th>${esc(m.model)}<div class="why">${esc(m.powertrains.join(' / '))}</div></th>
+          <td>${m.n}</td>
+          <td>${money(m.tco6.median)}</td>
+          <td class="why">${money(m.tco6.p25)}–${money(m.tco6.p75)}</td>
+          <td>${m.safetyScore == null ? '<span class="why">not assessed</span>' : `${m.safetyScore}/5`}</td>
+          <td>${m.aebStandardShare}%</td></tr>`).join('')}
+      </table>
+      <p class="tco-note">${esc(md.note)}</p>
+    </div>`);
+  }
+
+  if (ins.caveats?.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">How to read all this</h2>
+      <ul class="rel-list">${ins.caveats.map((c) => `<li>${esc(c)}</li>`).join('')}</ul>
+      <p class="tco-note">Computed over all ${ins.generatedFrom.toLocaleString()} cars found, before any shortlisting.</p>
+    </div>`);
+  }
+
+  el.innerHTML = parts.join('');
+}
+
+/** The shortlist tab — a few cars per question, for the family to vote on. */
+function renderShortlist() {
+  const grid = $('#cars-grid');
+  const cats = DATA.shortlist || [];
+  const byVin = new Map((DATA.cars || []).map((c) => [c.vin, c]));
+  if (!cats.length) { grid.innerHTML = '<p class="empty">No shortlist in this build.</p>'; return; }
+  grid.innerHTML = cats.map((cat) => {
+    const cars = cat.vins.map((v) => byVin.get(v)).filter(Boolean)
+      .filter((c) => SHOW_HIDDEN || !HIDDEN.has(c.vin));
+    if (!cars.length) return '';
+    return `<section class="tier">
+      <h2 class="tier-h">${esc(cat.title)} <span class="tier-n">${cars.length}</span></h2>
+      <p class="tier-blurb">${esc(cat.why)}</p>
+      ${cars.map(carCard).join('')}
+    </section>`;
+  }).join('');
+}
+/**
+ * The browse tab — the long tail, in slim form.
+ *
+ * These records carry only what's needed to scan and filter. The full repair,
+ * reliability and battery detail lives on the shortlist cars, because attaching
+ * it to every car produced a 6.8 MB encrypted bundle — not something to hand
+ * someone on a phone.
+ */
+function browseRow(c) {
+  const hidden = HIDDEN.has(c.vin);
+  const tags = [];
+  if (c.aeb === 'standard') tags.push('<span class="sb sb-ok">AEB</span>');
+  else if (c.aeb === 'trim') tags.push('<span class="sb sb-warn">AEB?</span>');
+  if (c.bsm === 'standard') tags.push('<span class="sb sb-ok">BSM</span>');
+  if (c.salvage === true) tags.push('<span class="sb sb-bad">🚨 Salvage</span>');
+  if (c.reliability === 'concern') tags.push('<span class="sb sb-warn">Reliability</span>');
+  if (c.overPreferredBudget) tags.push('<span class="sb sb-warn">Over $15k</span>');
+  return `<article class="brow${hidden ? ' is-hidden' : ''}" data-vin="${esc(c.vin)}">
+    <div class="brow-main">
+      <div class="brow-t">${esc(c.label)}${c.trim ? ` <span class="trim">${esc(c.trim)}</span>` : ''}</div>
+      <div class="brow-s">${money(c.price)} · ${milesFmt(c.miles)} · ${POWER_LABEL[c.power] || esc(c.power)}${c.distanceMi != null ? ` · ${c.distanceMi} mi away` : ''}</div>
+      <div class="chips">${tags.join('')}</div>
+    </div>
+    <div class="brow-r">
+      <div class="brow-tco">${money(HORIZON === 2 ? c.tco2 : c.tco6)}</div>
+      <div class="why">${HORIZON}-yr cost</div>
+      <a class="listing" href="${esc(c.url)}" target="_blank" rel="noopener">Listing ↗</a>
+    </div>
+  </article>`;
+}
+
+function renderBrowse() {
+  const grid = $('#cars-grid');
+  let shown = (DATA.browse || []).filter(passesFacets);
   // Jordyn's hidden list is applied HERE and nowhere else — it is a view filter,
   // not an input to anything.
   if (!SHOW_HIDDEN) shown = shown.filter((c) => !HIDDEN.has(c.vin));
-  const grid = $('#cars-grid');
+  shown = sortCars(shown);
   if (!shown.length) {
     grid.innerHTML = HIDDEN.size && !SHOW_HIDDEN
-      ? '<p class="empty">Nothing left after your filters — you have ' + HIDDEN.size + ' car(s) hidden. Tap “Show hidden” to bring them back.</p>'
+      ? `<p class="empty">Nothing left after your filters — you have ${HIDDEN.size} car(s) hidden. Tap “Show hidden” to bring them back.</p>`
       : '<p class="empty">No cars match those filters. Loosen one above.</p>';
     return;
   }
-  grid.innerHTML = TIER_GROUPS.map(([tier, title, blurb]) => {
-    const list = shown.filter((c) => c.tier === tier);
-    if (!list.length) return '';
-    return `<section class="tier tier-${tier}">
-      <h2 class="tier-h">${title} <span class="tier-n">${list.length}</span></h2>
-      <p class="tier-blurb">${blurb}</p>
-      ${list.map(carCard).join('')}
-    </section>`;
-  }).join('');
+  grid.innerHTML = `<p class="tier-blurb">${shown.length} of ${(DATA.browse || []).length} cars · full detail lives on the shortlist</p>`
+    + shown.map(browseRow).join('');
+}
+
+function renderList() {
+  if (VIEW === 'shortlist') renderShortlist();
+  else renderBrowse();
 }
 
 /** The buyer's guide tab — what to look for, by model. */
@@ -598,6 +737,7 @@ function renderTally() {
 // ---------- tabs ----------
 function switchTab(name) {
   $('#panel-cars').hidden = name !== 'cars';
+  $('#panel-insights').hidden = name !== 'insights';
   $('#panel-guide').hidden = name !== 'guide';
   document.querySelectorAll('#tabbar .tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === name));
   $('#sendbar').hidden = name !== 'cars';
@@ -613,6 +753,15 @@ function wireDelegates() {
   document.querySelectorAll('#tabbar .tab').forEach((b) => b.addEventListener('click', () => switchTab(b.dataset.tab)));
 
   document.addEventListener('click', (e) => {
+    const vw = e.target.closest('.vw');
+    if (vw) {
+      VIEW = vw.dataset.view;
+      document.querySelectorAll('#viewbar .vw').forEach((b) => b.classList.toggle('on', b.dataset.view === VIEW));
+      // Filters only make sense over the long tail; the shortlist is curated.
+      $('#filterbar').hidden = VIEW !== 'browse';
+      renderList();
+      return;
+    }
     if (e.target.closest('#show-hidden')) {
       SHOW_HIDDEN = !SHOW_HIDDEN;
       renderControls();
