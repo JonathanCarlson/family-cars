@@ -2,9 +2,9 @@
   "feed": {
     "name": "jordyn-first-car",
     "schemaVersion": "1.3",
-    "generatedAt": "2026-09-01T15:16:31.434Z",
+    "generatedAt": "2026-09-01T15:28:02.263Z",
     "rosterUpdated": "2026-09-01",
-    "listingCount": 71,
+    "listingCount": 74,
     "purpose": "Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.",
     "budget": {
       "preferredUsd": 15000,
@@ -84,20 +84,6 @@
         "salvageTitle": false,
         "accidentsReported": false,
         "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789672168"
-      },
-      {
-        "vin": "1N4BZ0CP8HC311540",
-        "name": "2017 Nissan Leaf S",
-        "askingPriceUsd": 7790,
-        "odometerMiles": 31046,
-        "powertrain": "Battery electric",
-        "electricDriveShare": 1,
-        "sixYearCostUsd": 25672,
-        "twoYearCostUsd": 9510,
-        "matchScore": 83.9,
-        "salvageTitle": false,
-        "accidentsReported": false,
-        "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/782779277"
       },
       {
         "vin": "KMHLL4AG0MU191193",
@@ -196,6 +182,20 @@
         "salvageTitle": false,
         "accidentsReported": false,
         "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/783470658"
+      },
+      {
+        "vin": "KNDCR3LE6P5101505",
+        "name": "2023 Kia Niro EX",
+        "askingPriceUsd": 20674,
+        "odometerMiles": 91442,
+        "powertrain": "Hybrid (gasoline, self-charging)",
+        "electricDriveShare": 0,
+        "sixYearCostUsd": 39333,
+        "twoYearCostUsd": 15172,
+        "matchScore": 76.1,
+        "salvageTitle": false,
+        "accidentsReported": false,
+        "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788315875"
       }
     ],
     "topElectric": {
@@ -228,20 +228,6 @@
           "salvageTitle": false,
           "accidentsReported": false,
           "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789672168"
-        },
-        {
-          "vin": "1N4BZ0CP8HC311540",
-          "name": "2017 Nissan Leaf S",
-          "askingPriceUsd": 7790,
-          "odometerMiles": 31046,
-          "powertrain": "Battery electric",
-          "electricDriveShare": 1,
-          "sixYearCostUsd": 25672,
-          "twoYearCostUsd": 9510,
-          "matchScore": 83.9,
-          "salvageTitle": false,
-          "accidentsReported": false,
-          "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/782779277"
         },
         {
           "vin": "KMHC85LH9HU015424",
@@ -340,6 +326,20 @@
           "salvageTitle": false,
           "accidentsReported": false,
           "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/778962718"
+        },
+        {
+          "vin": "1N4AZ1CP3JC313218",
+          "name": "2018 Nissan Leaf SV",
+          "askingPriceUsd": 9977,
+          "odometerMiles": 97594,
+          "powertrain": "Battery electric",
+          "electricDriveShare": 1,
+          "sixYearCostUsd": 28867,
+          "twoYearCostUsd": 11195,
+          "matchScore": 71.8,
+          "salvageTitle": false,
+          "accidentsReported": false,
+          "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789139688"
         }
       ],
       "cheapestToOwn": [
@@ -356,20 +356,6 @@
           "salvageTitle": false,
           "accidentsReported": false,
           "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789672168"
-        },
-        {
-          "vin": "1N4BZ0CP8HC311540",
-          "name": "2017 Nissan Leaf S",
-          "askingPriceUsd": 7790,
-          "odometerMiles": 31046,
-          "powertrain": "Battery electric",
-          "electricDriveShare": 1,
-          "sixYearCostUsd": 25672,
-          "twoYearCostUsd": 9510,
-          "matchScore": 83.9,
-          "salvageTitle": false,
-          "accidentsReported": false,
-          "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/782779277"
         },
         {
           "vin": "1N4AZ1CP3JC313218",
@@ -412,6 +398,20 @@
           "salvageTitle": false,
           "accidentsReported": false,
           "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/783543755"
+        },
+        {
+          "vin": "KMHC85LH9HU015424",
+          "name": "2017 Hyundai Ioniq Limited",
+          "askingPriceUsd": 11800,
+          "odometerMiles": 80887,
+          "powertrain": "Battery electric",
+          "electricDriveShare": 1,
+          "sixYearCostUsd": 29969,
+          "twoYearCostUsd": 11281,
+          "matchScore": 82.5,
+          "salvageTitle": false,
+          "accidentsReported": false,
+          "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789625640"
         }
       ]
     }
@@ -989,41 +989,6 @@
       ],
       "sourceUrl": "https://www.nhtsa.gov/vehicle/2025/NISSAN/VERSA"
     },
-    "2020 Nissan Leaf": {
-      "scope": "model-year",
-      "appliesTo": "2020 Nissan Leaf",
-      "queriedAsNhtsaModel": "LEAF",
-      "recordRetrieved": true,
-      "band": "concern",
-      "confidence": "high",
-      "nhtsaComplaints": 163,
-      "nhtsaSevereComplaints": 1,
-      "nhtsaRecalls": 6,
-      "batteryRecall": true,
-      "topComplaintComponents": [
-        {
-          "component": "ELECTRICAL SYSTEM",
-          "count": 120,
-          "share": 0.7361963190184049
-        },
-        {
-          "component": "FUEL/PROPULSION SYSTEM",
-          "count": 33,
-          "share": 0.20245398773006135
-        },
-        {
-          "component": "UNKNOWN OR OTHER",
-          "count": 22,
-          "share": 0.13496932515337423
-        }
-      ],
-      "reasons": [
-        "94% of its 163 NHTSA complaints (153) concern the electrical / propulsion — a concentrated pattern, not scattered noise.",
-        "Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.",
-        "6 recall campaigns for this model year — check all are closed out for the VIN."
-      ],
-      "sourceUrl": "https://www.nhtsa.gov/vehicle/2020/NISSAN/LEAF"
-    },
     "2021 MAZDA MAZDA3": {
       "scope": "model-year",
       "appliesTo": "2021 MAZDA MAZDA3",
@@ -1318,6 +1283,39 @@
       ],
       "sourceUrl": "https://www.nhtsa.gov/vehicle/2017/FORD/C-MAX"
     },
+    "2021 Kia Niro": {
+      "scope": "model-year",
+      "appliesTo": "2021 Kia Niro",
+      "queriedAsNhtsaModel": "NIRO",
+      "recordRetrieved": true,
+      "band": "ok",
+      "confidence": "low",
+      "nhtsaComplaints": 9,
+      "nhtsaSevereComplaints": 1,
+      "nhtsaRecalls": 1,
+      "batteryRecall": false,
+      "topComplaintComponents": [
+        {
+          "component": "POWER TRAIN",
+          "count": 3,
+          "share": 0.3333333333333333
+        },
+        {
+          "component": "UNKNOWN OR OTHER",
+          "count": 2,
+          "share": 0.2222222222222222
+        },
+        {
+          "component": "ENGINE",
+          "count": 2,
+          "share": 0.2222222222222222
+        }
+      ],
+      "reasons": [
+        "Only 9 NHTSA complaints on record — too few to draw a firm conclusion."
+      ],
+      "sourceUrl": "https://www.nhtsa.gov/vehicle/2021/KIA/NIRO"
+    },
     "2022 MINI Cooper": {
       "scope": "model-year",
       "appliesTo": "2022 MINI Cooper",
@@ -1412,6 +1410,39 @@
         "29 NHTSA complaints, no single system dominating."
       ],
       "sourceUrl": "https://www.nhtsa.gov/vehicle/2017/CHEVROLET/SPARK"
+    },
+    "2023 Chevrolet Bolt EUV": {
+      "scope": "model-year",
+      "appliesTo": "2023 Chevrolet Bolt EUV",
+      "queriedAsNhtsaModel": "BOLT EUV",
+      "recordRetrieved": true,
+      "band": "concern",
+      "confidence": "high",
+      "nhtsaComplaints": 114,
+      "nhtsaSevereComplaints": 13,
+      "nhtsaRecalls": 0,
+      "batteryRecall": false,
+      "topComplaintComponents": [
+        {
+          "component": "FORWARD COLLISION AVOIDANCE",
+          "count": 31,
+          "share": 0.2719298245614035
+        },
+        {
+          "component": "ELECTRICAL SYSTEM",
+          "count": 26,
+          "share": 0.22807017543859648
+        },
+        {
+          "component": "STEERING",
+          "count": 21,
+          "share": 0.18421052631578946
+        }
+      ],
+      "reasons": [
+        "32% of its 114 NHTSA complaints (37) concern the electrical / propulsion — a concentrated pattern, not scattered noise."
+      ],
+      "sourceUrl": "https://www.nhtsa.gov/vehicle/2023/CHEVROLET/BOLT%20EUV"
     },
     "2019 Hyundai Kona": {
       "scope": "model-year",
@@ -1677,6 +1708,72 @@
         "34% of its 91 NHTSA complaints (31) concern the electrical / propulsion — a concentrated pattern, not scattered noise."
       ],
       "sourceUrl": "https://www.nhtsa.gov/vehicle/2021/CHEVROLET/EQUINOX"
+    },
+    "2020 Kia Soul": {
+      "scope": "model-year",
+      "appliesTo": "2020 Kia Soul",
+      "queriedAsNhtsaModel": "SOUL",
+      "recordRetrieved": true,
+      "band": "concern",
+      "confidence": "high",
+      "nhtsaComplaints": 372,
+      "nhtsaSevereComplaints": 15,
+      "nhtsaRecalls": 1,
+      "batteryRecall": false,
+      "topComplaintComponents": [
+        {
+          "component": "ENGINE",
+          "count": 231,
+          "share": 0.6209677419354839
+        },
+        {
+          "component": "POWER TRAIN",
+          "count": 88,
+          "share": 0.23655913978494625
+        },
+        {
+          "component": "UNKNOWN OR OTHER",
+          "count": 51,
+          "share": 0.13709677419354838
+        }
+      ],
+      "reasons": [
+        "65% of its 372 NHTSA complaints (242) concern the engine — a concentrated pattern, not scattered noise."
+      ],
+      "sourceUrl": "https://www.nhtsa.gov/vehicle/2020/KIA/SOUL"
+    },
+    "2019 Chevrolet Trax": {
+      "scope": "model-year",
+      "appliesTo": "2019 Chevrolet Trax",
+      "queriedAsNhtsaModel": "TRAX",
+      "recordRetrieved": true,
+      "band": "concern",
+      "confidence": "high",
+      "nhtsaComplaints": 133,
+      "nhtsaSevereComplaints": 13,
+      "nhtsaRecalls": 2,
+      "batteryRecall": false,
+      "topComplaintComponents": [
+        {
+          "component": "ENGINE",
+          "count": 34,
+          "share": 0.2556390977443609
+        },
+        {
+          "component": "ELECTRICAL SYSTEM",
+          "count": 25,
+          "share": 0.18796992481203006
+        },
+        {
+          "component": "UNKNOWN OR OTHER",
+          "count": 21,
+          "share": 0.15789473684210525
+        }
+      ],
+      "reasons": [
+        "29% of its 133 NHTSA complaints (39) concern the engine — a concentrated pattern, not scattered noise."
+      ],
+      "sourceUrl": "https://www.nhtsa.gov/vehicle/2019/CHEVROLET/TRAX"
     },
     "2017 Kia Niro": {
       "scope": "model-year",
@@ -38030,6 +38127,210 @@
           ]
         },
         {
+          "key": "bmw|x1|ICE",
+          "label": "BMW X1 · petrol",
+          "make": "BMW",
+          "model": "X1",
+          "powertrain": "ICE",
+          "generation": null,
+          "generationNote": null,
+          "batteryKwh": null,
+          "n": 23,
+          "rankable": true,
+          "modelYears": [
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020
+          ],
+          "price": {
+            "min": 8500,
+            "median": 13991,
+            "max": 18998
+          },
+          "miles": {
+            "min": 14379,
+            "median": 85486,
+            "max": 132000
+          },
+          "tco2": {
+            "min": 14583,
+            "median": 16245,
+            "max": 17485
+          },
+          "tco6": {
+            "min": 42117,
+            "median": 45745,
+            "max": 48000
+          },
+          "medianRepairReserve": 2948,
+          "medianResale": 6184,
+          "medianEnergy": 10490,
+          "medianMaintenance": 6539,
+          "medianInsurance": 16978,
+          "serviceIndex": 1.76,
+          "safety": {
+            "meetsFloor": 1,
+            "meetsFloorPct": 4,
+            "aebConfirmed": 1,
+            "aebAbsent": 0,
+            "aebUnknown": 22,
+            "bsmConfirmed": 0,
+            "bsmConfirmedPct": 0,
+            "topSafetyPick": 0,
+            "note": "aebUnknown is NOT a failure — it means unverified. Only aebAbsent is a confirmed negative."
+          },
+          "viability2032": {
+            "median": 0.72,
+            "expectedAge": 14,
+            "expectedMiles": 126046
+          },
+          "battery": null,
+          "reliability": {
+            "worstBand": "concern",
+            "confidence": "medium",
+            "queriedAs": "X1",
+            "sourceUrl": "https://www.nhtsa.gov/vehicle/2020/BMW/X1",
+            "dataQuality": "13 complaints on record"
+          },
+          "exemplars": [
+            {
+              "vin": "WBXJG9C01L5P90967",
+              "year": 2020,
+              "make": "BMW",
+              "model": "X1",
+              "trim": "xDrive28i",
+              "priceUsd": 14790,
+              "odometerMiles": 109695,
+              "dealerAndLocation": "Four-Ten Auto Sales, Bonney Lake WA",
+              "distanceFromBellevueMi": 27,
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/782779279",
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "vehicleHistory": {
+                "salvageTitle": false,
+                "accidentsReported": true,
+                "oneOwner": false
+              },
+              "twoYearTco": 16935,
+              "sixYearTco": 46671,
+              "majorRepairReserve": 2633,
+              "expectedResale": 6930,
+              "matchScore": 48.8,
+              "viability2032": 0.82,
+              "whyNotable": "AEB confirmed against the VIN"
+            },
+            {
+              "vin": "WBAVL1C58FVY27229",
+              "year": 2015,
+              "make": "BMW",
+              "model": "X1",
+              "trim": "xDrive28i",
+              "priceUsd": 9850,
+              "odometerMiles": 73973,
+              "dealerAndLocation": "The Autohaus, Bellingham WA",
+              "distanceFromBellevueMi": 84,
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/710961814",
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "vehicleHistory": {
+                "salvageTitle": false,
+                "accidentsReported": false,
+                "oneOwner": null
+              },
+              "twoYearTco": 14583,
+              "sixYearTco": 42117,
+              "majorRepairReserve": 3113,
+              "expectedResale": 4354,
+              "matchScore": 41.9,
+              "viability2032": 0.72,
+              "whyNotable": "$3,628 cheaper to own than a typical one · model-year has a concentrated NHTSA complaint pattern"
+            },
+            {
+              "vin": "WBXHU7C38J5L07140",
+              "year": 2018,
+              "make": "BMW",
+              "model": "X1",
+              "trim": "sDrive28i",
+              "priceUsd": 8500,
+              "odometerMiles": 132000,
+              "dealerAndLocation": "THE PRICE KING AUTO SALES, Lakewood WA",
+              "distanceFromBellevueMi": 32,
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/787832404",
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "vehicleHistory": {
+                "salvageTitle": false,
+                "accidentsReported": true,
+                "oneOwner": false
+              },
+              "twoYearTco": 14964,
+              "sixYearTco": 42804,
+              "majorRepairReserve": 3693,
+              "expectedResale": 3983,
+              "matchScore": 38.6,
+              "viability2032": 0.55,
+              "whyNotable": "$2,941 cheaper to own than a typical one"
+            },
+            {
+              "vin": "WBXHT3C32G5F64737",
+              "year": 2016,
+              "make": "BMW",
+              "model": "X1",
+              "trim": "xDrive28i",
+              "priceUsd": 9495,
+              "odometerMiles": 118000,
+              "dealerAndLocation": "M & M Auto Sales, Portland OR",
+              "distanceFromBellevueMi": 143,
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/779918316",
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "vehicleHistory": {
+                "salvageTitle": false,
+                "accidentsReported": false,
+                "oneOwner": false
+              },
+              "twoYearTco": 15097,
+              "sixYearTco": 43842,
+              "majorRepairReserve": 4006,
+              "expectedResale": 4197,
+              "matchScore": 42.9,
+              "viability2032": 0.57,
+              "whyNotable": "$1,903 cheaper to own than a typical one"
+            }
+          ]
+        },
+        {
           "key": "chrysler|pacifica|ICE",
           "label": "Chrysler Pacifica · petrol",
           "make": "Chrysler",
@@ -38361,210 +38662,6 @@
               "matchScore": 42.9,
               "viability2032": 0.72,
               "whyNotable": "one owner, no accidents reported"
-            }
-          ]
-        },
-        {
-          "key": "bmw|x1|ICE",
-          "label": "BMW X1 · petrol",
-          "make": "BMW",
-          "model": "X1",
-          "powertrain": "ICE",
-          "generation": null,
-          "generationNote": null,
-          "batteryKwh": null,
-          "n": 23,
-          "rankable": true,
-          "modelYears": [
-            2015,
-            2016,
-            2017,
-            2018,
-            2019,
-            2020
-          ],
-          "price": {
-            "min": 8500,
-            "median": 13999,
-            "max": 18998
-          },
-          "miles": {
-            "min": 14379,
-            "median": 85486,
-            "max": 132000
-          },
-          "tco2": {
-            "min": 14583,
-            "median": 16276,
-            "max": 17485
-          },
-          "tco6": {
-            "min": 42117,
-            "median": 45865,
-            "max": 48000
-          },
-          "medianRepairReserve": 2948,
-          "medianResale": 6408,
-          "medianEnergy": 10490,
-          "medianMaintenance": 6539,
-          "medianInsurance": 16980,
-          "serviceIndex": 1.76,
-          "safety": {
-            "meetsFloor": 1,
-            "meetsFloorPct": 4,
-            "aebConfirmed": 1,
-            "aebAbsent": 0,
-            "aebUnknown": 22,
-            "bsmConfirmed": 0,
-            "bsmConfirmedPct": 0,
-            "topSafetyPick": 0,
-            "note": "aebUnknown is NOT a failure — it means unverified. Only aebAbsent is a confirmed negative."
-          },
-          "viability2032": {
-            "median": 0.72,
-            "expectedAge": 14,
-            "expectedMiles": 126046
-          },
-          "battery": null,
-          "reliability": {
-            "worstBand": "concern",
-            "confidence": "medium",
-            "queriedAs": "X1",
-            "sourceUrl": "https://www.nhtsa.gov/vehicle/2020/BMW/X1",
-            "dataQuality": "13 complaints on record"
-          },
-          "exemplars": [
-            {
-              "vin": "WBXJG9C01L5P90967",
-              "year": 2020,
-              "make": "BMW",
-              "model": "X1",
-              "trim": "xDrive28i",
-              "priceUsd": 14790,
-              "odometerMiles": 109695,
-              "dealerAndLocation": "Four-Ten Auto Sales, Bonney Lake WA",
-              "distanceFromBellevueMi": 27,
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/782779279",
-              "safety": {
-                "meets": true,
-                "aeb": "confirmed",
-                "bsm": "unknown",
-                "iihs": "no-award",
-                "aebVinConfirmed": true,
-                "bsmVinConfirmed": false,
-                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
-              },
-              "vehicleHistory": {
-                "salvageTitle": false,
-                "accidentsReported": true,
-                "oneOwner": false
-              },
-              "twoYearTco": 16935,
-              "sixYearTco": 46671,
-              "majorRepairReserve": 2633,
-              "expectedResale": 6930,
-              "matchScore": 48.8,
-              "viability2032": 0.82,
-              "whyNotable": "AEB confirmed against the VIN"
-            },
-            {
-              "vin": "WBAVL1C58FVY27229",
-              "year": 2015,
-              "make": "BMW",
-              "model": "X1",
-              "trim": "xDrive28i",
-              "priceUsd": 9850,
-              "odometerMiles": 73973,
-              "dealerAndLocation": "The Autohaus, Bellingham WA",
-              "distanceFromBellevueMi": 84,
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/710961814",
-              "safety": {
-                "meets": false,
-                "aeb": "unknown",
-                "bsm": "unknown",
-                "iihs": "no-award",
-                "aebVinConfirmed": false,
-                "bsmVinConfirmed": false,
-                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
-              },
-              "vehicleHistory": {
-                "salvageTitle": false,
-                "accidentsReported": false,
-                "oneOwner": null
-              },
-              "twoYearTco": 14583,
-              "sixYearTco": 42117,
-              "majorRepairReserve": 3113,
-              "expectedResale": 4354,
-              "matchScore": 41.9,
-              "viability2032": 0.72,
-              "whyNotable": "$3,748 cheaper to own than a typical one · model-year has a concentrated NHTSA complaint pattern"
-            },
-            {
-              "vin": "WBXHU7C38J5L07140",
-              "year": 2018,
-              "make": "BMW",
-              "model": "X1",
-              "trim": "sDrive28i",
-              "priceUsd": 8500,
-              "odometerMiles": 132000,
-              "dealerAndLocation": "THE PRICE KING AUTO SALES, Lakewood WA",
-              "distanceFromBellevueMi": 32,
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/787832404",
-              "safety": {
-                "meets": false,
-                "aeb": "unknown",
-                "bsm": "unknown",
-                "iihs": "no-award",
-                "aebVinConfirmed": false,
-                "bsmVinConfirmed": false,
-                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
-              },
-              "vehicleHistory": {
-                "salvageTitle": false,
-                "accidentsReported": true,
-                "oneOwner": false
-              },
-              "twoYearTco": 14964,
-              "sixYearTco": 42804,
-              "majorRepairReserve": 3693,
-              "expectedResale": 3983,
-              "matchScore": 38.6,
-              "viability2032": 0.55,
-              "whyNotable": "$3,061 cheaper to own than a typical one"
-            },
-            {
-              "vin": "WBXHT3C32G5F64737",
-              "year": 2016,
-              "make": "BMW",
-              "model": "X1",
-              "trim": "xDrive28i",
-              "priceUsd": 9495,
-              "odometerMiles": 118000,
-              "dealerAndLocation": "M & M Auto Sales, Portland OR",
-              "distanceFromBellevueMi": 143,
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/779918316",
-              "safety": {
-                "meets": false,
-                "aeb": "unknown",
-                "bsm": "unknown",
-                "iihs": "no-award",
-                "aebVinConfirmed": false,
-                "bsmVinConfirmed": false,
-                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
-              },
-              "vehicleHistory": {
-                "salvageTitle": false,
-                "accidentsReported": false,
-                "oneOwner": false
-              },
-              "twoYearTco": 15097,
-              "sixYearTco": 43842,
-              "majorRepairReserve": 4006,
-              "expectedResale": 4197,
-              "matchScore": 42.9,
-              "viability2032": 0.57,
-              "whyNotable": "$2,023 cheaper to own than a typical one"
             }
           ]
         },
@@ -40098,7 +40195,7 @@
               "model": "A4",
               "trim": "2.0T Ultra Premium",
               "priceUsd": 14598,
-              "odometerMiles": 91145,
+              "odometerMiles": 91152,
               "dealerAndLocation": "Mercedes-Benz of Tacoma, Fife WA",
               "distanceFromBellevueMi": 24,
               "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789440560",
@@ -40117,12 +40214,12 @@
                 "oneOwner": false
               },
               "twoYearTco": 16348,
-              "sixYearTco": 44979,
-              "majorRepairReserve": 2861,
+              "sixYearTco": 44981,
+              "majorRepairReserve": 2863,
               "expectedResale": 6840,
               "matchScore": 49.8,
               "viability2032": 0.82,
-              "whyNotable": "$1,517 cheaper to own than a typical one · AEB confirmed against the VIN"
+              "whyNotable": "$1,515 cheaper to own than a typical one · AEB confirmed against the VIN"
             },
             {
               "vin": "WAUFFAFL5FN025999",
@@ -45562,25 +45659,26 @@
     },
     "baselineComparison": {
       "baseline": {
-        "vin": "1N4BZ0CP1HC307474",
-        "name": "2017 Nissan Leaf S",
-        "priceUsd": 6995,
-        "odometerMiles": 32563,
+        "vin": "1N4AZ1BV8PC559108",
+        "name": "2023 Nissan Leaf S",
+        "priceUsd": 13488,
+        "odometerMiles": 52213,
         "powertrain": "BEV",
-        "twoYearTco": 9136,
-        "sixYearTco": 24852,
-        "perMonth": 345,
+        "twoYearTco": 12277,
+        "sixYearTco": 31387,
+        "perMonth": 436,
+        "matchScore": 89.6,
         "safety": {
           "meets": true,
           "aeb": "confirmed",
-          "bsm": "unknown",
-          "iihs": "no-award",
+          "bsm": "confirmed",
+          "iihs": "top-safety-pick",
           "aebVinConfirmed": true,
-          "bsmVinConfirmed": false,
+          "bsmVinConfirmed": true,
           "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
         },
-        "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789672168",
-        "why": "Cheapest car to own over six years that has automatic braking confirmed standard and a clean title. Chosen from the data, not fixed in advance — if something beats it, the baseline moves."
+        "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789098195",
+        "why": "The highest-scoring Nissan Leaf that has automatic braking confirmed standard and a clean title — the car this analysis keeps recommending. Chosen from the data, so if something displaces it the yardstick moves. Deliberately not the cheapest car in the sweep: measuring everything against a bargain-basement example makes every alternative look absurd and stops the comparison discriminating."
       },
       "premiumLadder": [
         {
@@ -45591,27 +45689,60 @@
             0,
             2000
           ],
-          "candidateCount": 3,
+          "candidateCount": 20,
           "cars": [
             {
-              "vin": "1N4BZ0CP8HC311540",
-              "name": "2017 Nissan Leaf S",
-              "priceUsd": 7790,
-              "odometerMiles": 31046,
-              "powertrain": "BEV",
-              "sixYearTco": 25672,
-              "twoYearTco": 9510,
-              "appealScore": 0,
+              "vin": "KNDCB3LC8L5369257",
+              "name": "2020 Kia Niro LX",
+              "priceUsd": 12250,
+              "odometerMiles": 108567,
+              "powertrain": "HYB",
+              "sixYearTco": 32988,
+              "twoYearTco": 12184,
+              "appealScore": 0.49,
               "delta": {
-                "sixYearDelta": 820,
-                "twoYearDelta": 374,
-                "perMonthDelta": 11,
-                "costVerdict": "$820 more over six years — about $11/month.",
-                "safetyDelta": 0,
-                "safetyVerdict": "same safety equipment as the baseline",
+                "sixYearDelta": 1601,
+                "twoYearDelta": -93,
+                "perMonthDelta": 22,
+                "costVerdict": "$1,601 more over six years — about $22/month.",
+                "safetyDelta": -1.5,
+                "safetyVerdict": "less safety equipment than the baseline",
                 "safetyUnverified": [
                   "blind-spot"
                 ],
+                "safetyNotes": [
+                  "Automatic braking standard on both.",
+                  "Gives up the blind-spot monitoring the baseline has."
+                ]
+              },
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "top-safety-pick",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789744936"
+            },
+            {
+              "vin": "3FA6P0LU8KR256593",
+              "name": "2019 Ford Fusion SE",
+              "priceUsd": 8900,
+              "odometerMiles": 96029,
+              "powertrain": "HYB",
+              "sixYearTco": 32785,
+              "twoYearTco": 11746,
+              "appealScore": 0.14,
+              "delta": {
+                "sixYearDelta": 1398,
+                "twoYearDelta": -531,
+                "perMonthDelta": 19,
+                "costVerdict": "$1,398 more over six years — about $19/month.",
+                "safetyDelta": -1.5,
+                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyUnverified": [],
                 "safetyNotes": [
                   "Automatic braking standard on both."
                 ]
@@ -45619,48 +45750,36 @@
               "safety": {
                 "meets": true,
                 "aeb": "confirmed",
-                "bsm": "unknown",
+                "bsm": "confirmed",
                 "iihs": "no-award",
                 "aebVinConfirmed": true,
-                "bsmVinConfirmed": false,
+                "bsmVinConfirmed": true,
                 "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
               },
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/782779277"
-            }
-          ]
-        },
-        {
-          "band": "4-6k",
-          "label": "$4k–$6k more",
-          "blurb": "Around $56–83 a month more. This is where you should want a specific reason.",
-          "premiumRange": [
-            4000,
-            6000
-          ],
-          "candidateCount": 8,
-          "cars": [
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/781625152"
+            },
             {
-              "vin": "1N4AZ1CP9LC307653",
-              "name": "2020 Nissan Leaf SV",
-              "priceUsd": 11894,
-              "odometerMiles": 82684,
-              "powertrain": "BEV",
-              "sixYearTco": 30417,
-              "twoYearTco": 11883,
-              "appealScore": 0.1,
+              "vin": "KMHC75LC3LU233701",
+              "name": "2020 Hyundai Ioniq SE",
+              "priceUsd": 11995,
+              "odometerMiles": 124730,
+              "powertrain": "HYB",
+              "sixYearTco": 32465,
+              "twoYearTco": 11980,
+              "appealScore": 0.12,
               "delta": {
-                "sixYearDelta": 5565,
-                "twoYearDelta": 2747,
-                "perMonthDelta": 77,
-                "costVerdict": "$5,565 more over six years — about $77/month.",
-                "safetyDelta": 1.5,
-                "safetyVerdict": "safer on paper than the baseline",
+                "sixYearDelta": 1078,
+                "twoYearDelta": -297,
+                "perMonthDelta": 15,
+                "costVerdict": "$1,078 more over six years — about $15/month.",
+                "safetyDelta": -1.5,
+                "safetyVerdict": "less safety equipment than the baseline",
                 "safetyUnverified": [
                   "blind-spot"
                 ],
                 "safetyNotes": [
                   "Automatic braking standard on both.",
-                  "Carries an IIHS Top Safety Pick the baseline does not."
+                  "Gives up the blind-spot monitoring the baseline has."
                 ]
               },
               "safety": {
@@ -45672,63 +45791,42 @@
                 "bsmVinConfirmed": false,
                 "reason": "Automatic emergency braking is standard for this model year."
               },
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789625644"
-            },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789130709"
+            }
+          ]
+        },
+        {
+          "band": "2-4k",
+          "label": "$2k–$4k more",
+          "blurb": "About $28–56 a month more than the baseline. Worth it if the car is genuinely a better fit.",
+          "premiumRange": [
+            2000,
+            4000
+          ],
+          "candidateCount": 78,
+          "cars": [
             {
-              "vin": "1G1RA6S59HU120926",
-              "name": "2017 Chevrolet Volt LT",
-              "priceUsd": 7118,
-              "odometerMiles": 137183,
-              "powertrain": "PHEV",
-              "sixYearTco": 29161,
-              "twoYearTco": 10095,
-              "appealScore": 0.05,
-              "delta": {
-                "sixYearDelta": 4309,
-                "twoYearDelta": 959,
-                "perMonthDelta": 60,
-                "costVerdict": "$4,309 more over six years — about $60/month.",
-                "safetyDelta": 0,
-                "safetyVerdict": "same safety equipment as the baseline",
-                "safetyUnverified": [
-                  "blind-spot"
-                ],
-                "safetyNotes": [
-                  "Automatic braking standard on both."
-                ]
-              },
-              "safety": {
-                "meets": true,
-                "aeb": "confirmed",
-                "bsm": "unknown",
-                "iihs": "no-award",
-                "aebVinConfirmed": true,
-                "bsmVinConfirmed": false,
-                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
-              },
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/783543755"
-            },
-            {
-              "vin": "1FADP3R43HL293042",
-              "name": "2017 Ford Focus Electric Hatchback",
-              "priceUsd": 9995,
-              "odometerMiles": 31313,
+              "vin": "1G1FY6S0XP4199282",
+              "name": "2023 Chevrolet Bolt EUV LT",
+              "priceUsd": 16960,
+              "odometerMiles": 60000,
               "powertrain": "BEV",
-              "sixYearTco": 28910,
-              "twoYearTco": 10696,
-              "appealScore": 0.04,
+              "sixYearTco": 35234,
+              "twoYearTco": 13912,
+              "appealScore": 0.5,
               "delta": {
-                "sixYearDelta": 4058,
-                "twoYearDelta": 1560,
-                "perMonthDelta": 56,
-                "costVerdict": "$4,058 more over six years — about $56/month.",
-                "safetyDelta": 0,
-                "safetyVerdict": "same safety equipment as the baseline",
+                "sixYearDelta": 3847,
+                "twoYearDelta": 1635,
+                "perMonthDelta": 53,
+                "costVerdict": "$3,847 more over six years — about $53/month.",
+                "safetyDelta": -3,
+                "safetyVerdict": "less safety equipment than the baseline",
                 "safetyUnverified": [
                   "blind-spot"
                 ],
                 "safetyNotes": [
-                  "Automatic braking standard on both."
+                  "Automatic braking standard on both.",
+                  "Gives up the blind-spot monitoring the baseline has."
                 ]
               },
               "safety": {
@@ -45740,7 +45838,191 @@
                 "bsmVinConfirmed": false,
                 "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
               },
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788441661"
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/783246639"
+            },
+            {
+              "vin": "KNDJ23AU7L7088526",
+              "name": "2020 Kia Soul LX",
+              "priceUsd": 8490,
+              "odometerMiles": 126795,
+              "powertrain": "ICE",
+              "sixYearTco": 33987,
+              "twoYearTco": 12122,
+              "appealScore": 0.49,
+              "delta": {
+                "sixYearDelta": 2600,
+                "twoYearDelta": -155,
+                "perMonthDelta": 36,
+                "costVerdict": "$2,600 more over six years — about $36/month.",
+                "safetyDelta": -3,
+                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyUnverified": [
+                  "blind-spot"
+                ],
+                "safetyNotes": [
+                  "Automatic braking standard on both.",
+                  "Gives up the blind-spot monitoring the baseline has."
+                ]
+              },
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/785681731"
+            },
+            {
+              "vin": "KNDCB3LCXM5471922",
+              "name": "2021 Kia Niro LXS",
+              "priceUsd": 14638,
+              "odometerMiles": 114062,
+              "powertrain": "HYB",
+              "sixYearTco": 35034,
+              "twoYearTco": 13111,
+              "appealScore": 0.49,
+              "delta": {
+                "sixYearDelta": 3647,
+                "twoYearDelta": 834,
+                "perMonthDelta": 51,
+                "costVerdict": "$3,647 more over six years — about $51/month.",
+                "safetyDelta": -1.5,
+                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyUnverified": [
+                  "blind-spot"
+                ],
+                "safetyNotes": [
+                  "Automatic braking standard on both.",
+                  "Gives up the blind-spot monitoring the baseline has."
+                ]
+              },
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "top-safety-pick",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/786684166"
+            }
+          ]
+        },
+        {
+          "band": "4-6k",
+          "label": "$4k–$6k more",
+          "blurb": "Around $56–83 a month more. This is where you should want a specific reason.",
+          "premiumRange": [
+            4000,
+            6000
+          ],
+          "candidateCount": 188,
+          "cars": [
+            {
+              "vin": "ZACNJAAB8KPK49178",
+              "name": "2019 Jeep Renegade Sport",
+              "priceUsd": 7995,
+              "odometerMiles": 102755,
+              "powertrain": "ICE",
+              "sixYearTco": 36582,
+              "twoYearTco": 12927,
+              "appealScore": 0.6,
+              "delta": {
+                "sixYearDelta": 5195,
+                "twoYearDelta": 650,
+                "perMonthDelta": 72,
+                "costVerdict": "$5,195 more over six years — about $72/month.",
+                "safetyDelta": -3,
+                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyUnverified": [
+                  "blind-spot"
+                ],
+                "safetyNotes": [
+                  "Automatic braking standard on both.",
+                  "Gives up the blind-spot monitoring the baseline has."
+                ]
+              },
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789018336"
+            },
+            {
+              "vin": "YV4ED3UR6N2762763",
+              "name": "2022 Volvo XC40 P8 Recharge Plus",
+              "priceUsd": 15897,
+              "odometerMiles": 119977,
+              "powertrain": "BEV",
+              "sixYearTco": 36000,
+              "twoYearTco": 14110,
+              "appealScore": 0.55,
+              "delta": {
+                "sixYearDelta": 4613,
+                "twoYearDelta": 1833,
+                "perMonthDelta": 64,
+                "costVerdict": "$4,613 more over six years — about $64/month.",
+                "safetyDelta": -1.5,
+                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyUnverified": [],
+                "safetyNotes": [
+                  "Automatic braking standard on both."
+                ]
+              },
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/786889854"
+            },
+            {
+              "vin": "3GNCJKSB1KL242099",
+              "name": "2019 Chevrolet Trax LS",
+              "priceUsd": 9495,
+              "odometerMiles": 80905,
+              "powertrain": "ICE",
+              "sixYearTco": 36480,
+              "twoYearTco": 13052,
+              "appealScore": 0.5,
+              "delta": {
+                "sixYearDelta": 5093,
+                "twoYearDelta": 775,
+                "perMonthDelta": 71,
+                "costVerdict": "$5,093 more over six years — about $71/month.",
+                "safetyDelta": -3,
+                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyUnverified": [
+                  "blind-spot"
+                ],
+                "safetyNotes": [
+                  "Automatic braking standard on both.",
+                  "Gives up the blind-spot monitoring the baseline has."
+                ]
+              },
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/786678888"
             }
           ]
         }
@@ -46416,202 +46698,6 @@
         ]
       },
       "humanNote": "Lowest 6-year cost to own with AEB standard — about $345/mo all-in, and it should still be a good car when Emma drives."
-    },
-    {
-      "id": "782779277",
-      "vin": "1N4BZ0CP8HC311540",
-      "year": 2017,
-      "make": "Nissan",
-      "model": "Leaf",
-      "trim": "S",
-      "displayName": "2017 Nissan Leaf",
-      "askingPriceUsd": 7790,
-      "priceRecentlyReduced": false,
-      "odometerMiles": 31046,
-      "exteriorColor": "Deep Blue Pearl",
-      "condition": "Used",
-      "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/782779277",
-      "photoUrl": "https://images.autotrader.com/hn/c/8c757d8ca33448f1b0431140aebb6375.jpg",
-      "dealerAndLocation": "Four-Ten Auto Sales, Bonney Lake WA",
-      "distanceFromBellevueMi": 27,
-      "daysOnLot": 82,
-      "firstSeenInThisFeed": "2026-09-01",
-      "stillListed": true,
-      "powertrain": {
-        "type": "BEV",
-        "label": "Battery electric",
-        "isPlugIn": true,
-        "electricRangeMi": 107,
-        "source": "vin",
-        "evidence": "NHTSA lists electric as the only fuel and no engine displacement.",
-        "vinVerified": true,
-        "caution": null
-      },
-      "electricDriveShare": 1,
-      "safety": {
-        "automaticEmergencyBraking": {
-          "equipped": true,
-          "rawState": "standard",
-          "confidence": "vin-trim-confirmed"
-        },
-        "blindSpotMonitoring": {
-          "equipped": null,
-          "rawState": "unknown",
-          "confidence": "model-year-typical"
-        },
-        "iihsAward": null,
-        "iihsNotRatedNote": null,
-        "vinTrim": null,
-        "alsoStandardOnThisTrim": [
-          "forward-collision-warning",
-          "backup-camera"
-        ],
-        "note": "No curated safety profile for the 2017 Nissan Leaf. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent."
-      },
-      "battery": {
-        "applicable": true,
-        "riskFactor": 0.8,
-        "note": "Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.",
-        "federalWarranty": {
-          "summary": null,
-          "yearsTotal": null,
-          "milesTotal": null,
-          "expiresApprox": null,
-          "remaining": null
-        }
-      },
-      "reliabilityKey": "2017 Nissan Leaf",
-      "vehicleHistory": {
-        "reportAvailable": true,
-        "salvageTitle": false,
-        "frameDamage": null,
-        "floodDamage": null,
-        "accidentsReported": false,
-        "oneOwner": false,
-        "personalUseOnly": null,
-        "badges": [
-          "NO_SALVAGE_TITLE",
-          "NO_ACCIDENTS_REPORTED",
-          "NO_ONE_OWNER"
-        ]
-      },
-      "costToOwn": {
-        "twoYear": {
-          "years": 2,
-          "milesDriven": 13520,
-          "powertrainUsed": "BEV",
-          "electricMilesShare": 1,
-          "costs": {
-            "purchasePrice": 7790,
-            "salesTax": 787,
-            "fuelAndElectricity": 487,
-            "maintenance": 379,
-            "insurance": 5101,
-            "registrationAndFees": 624,
-            "majorRepairReserve": 106
-          },
-          "resaleValueRecovered": 2026,
-          "totalCostOfOwnership": 9510,
-          "averagePerMonth": 396
-        },
-        "sixYear": {
-          "years": 6,
-          "milesDriven": 40560,
-          "powertrainUsed": "BEV",
-          "electricMilesShare": 1,
-          "costs": {
-            "purchasePrice": 7790,
-            "salesTax": 787,
-            "fuelAndElectricity": 1460,
-            "maintenance": 1137,
-            "insurance": 15303,
-            "registrationAndFees": 1872,
-            "majorRepairReserve": 375
-          },
-          "resaleValueRecovered": 4738,
-          "totalCostOfOwnership": 25672,
-          "averagePerMonth": 357
-        }
-      },
-      "repairOutlook": {
-        "window": "6 years",
-        "expectedReserveUsd": 375,
-        "worstCaseExposure": {
-          "component": "Traction battery catastrophic failure (not degradation)",
-          "amountUsd": 5915,
-          "probability": 0.021,
-          "note": "About a 2% chance of a roughly $5,915 bill. That contributes ~$124 to the expected cost above — the full amount is the exposure, not the budget."
-        },
-        "components": [
-          {
-            "hazard": "suspension-brakes",
-            "component": "Suspension, steering or brake overhaul",
-            "probability": 0.209,
-            "costIfItHappensUsd": 601,
-            "expectedUsd": 126
-          },
-          {
-            "hazard": "ev-battery-failure",
-            "component": "Traction battery catastrophic failure (not degradation)",
-            "probability": 0.021,
-            "costIfItHappensUsd": 5915,
-            "expectedUsd": 124
-          },
-          {
-            "hazard": "ev-drive-unit",
-            "component": "Drive unit, inverter or onboard charger",
-            "probability": 0.042,
-            "costIfItHappensUsd": 2503,
-            "expectedUsd": 105
-          },
-          {
-            "hazard": "hv-thermal-hvac",
-            "component": "Battery thermal management / electric HVAC",
-            "probability": 0.015,
-            "costIfItHappensUsd": 1320,
-            "expectedUsd": 20
-          }
-        ]
-      },
-      "batteryHealth": {
-        "applicable": true,
-        "thermalManagement": "Passive air cooling — no liquid thermal management",
-        "packReplacedUnderRecall": false,
-        "stateOfHealthNow": 0.78,
-        "stateOfHealthAtEndOfSixYears": 0.62,
-        "uncertainty": "±6 percentage points",
-        "epaRangeWhenNewMi": 107,
-        "estimatedRangeNowMi": 84,
-        "estimatedRangeInSixYearsMi": 66,
-        "dailyNeedMi": 19,
-        "stillCoversDailyNeed": true
-      },
-      "viability2032": {
-        "throughYear": 2032,
-        "probabilityStillEconomic": 0.72,
-        "band": "probable",
-        "expectedMilesAtEnd": 71606,
-        "expectedAgeAtEnd": 15,
-        "expectedRangeAtEndMi": 66,
-        "expectedSohAtEnd": 0.62,
-        "reasons": [
-          "15 years old by 2032 — parts availability and rust start to matter.",
-          "Only ~72k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.",
-          "Projected ~66 mi of range at 62% health by 2032 — still far beyond the ~19 mi/day need.",
-          "No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills."
-        ]
-      },
-      "ranking": {
-        "safetyTier": "confirmed",
-        "matchScore": 83.9,
-        "flags": [
-          "AEB confirmed by VIN",
-          "Electric",
-          "Low miles",
-          "No accidents reported"
-        ]
-      },
-      "humanNote": null
     },
     {
       "id": "787421765",
@@ -49701,200 +49787,6 @@
       "humanNote": null
     },
     {
-      "id": "789625644",
-      "vin": "1N4AZ1CP9LC307653",
-      "year": 2020,
-      "make": "Nissan",
-      "model": "Leaf",
-      "trim": "SV",
-      "displayName": "2020 Nissan Leaf",
-      "askingPriceUsd": 11894,
-      "priceRecentlyReduced": false,
-      "odometerMiles": 82684,
-      "exteriorColor": "Super Black",
-      "condition": "Used",
-      "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789625644",
-      "photoUrl": null,
-      "dealerAndLocation": "Nissan of Everett, Everett WA",
-      "distanceFromBellevueMi": 24,
-      "daysOnLot": 3,
-      "firstSeenInThisFeed": "2026-09-01",
-      "stillListed": true,
-      "powertrain": {
-        "type": "BEV",
-        "label": "Battery electric",
-        "isPlugIn": true,
-        "electricRangeMi": 149,
-        "source": "vin",
-        "evidence": "NHTSA lists electric as the only fuel and no engine displacement.",
-        "vinVerified": true,
-        "caution": null
-      },
-      "electricDriveShare": 1,
-      "safety": {
-        "automaticEmergencyBraking": {
-          "equipped": true,
-          "rawState": "standard",
-          "confidence": "model-year-typical"
-        },
-        "blindSpotMonitoring": {
-          "equipped": null,
-          "rawState": "trim",
-          "confidence": "model-year-typical"
-        },
-        "iihsAward": "Top Safety Pick (2018–19 w/ good headlights)",
-        "iihsNotRatedNote": null,
-        "vinTrim": "SV",
-        "alsoStandardOnThisTrim": [],
-        "note": "AEB standard on all 2018+. Blind-Spot Warning is SV and SL only — the base S does NOT have it."
-      },
-      "battery": {
-        "applicable": true,
-        "riskFactor": 0.8,
-        "note": "Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.",
-        "federalWarranty": {
-          "summary": null,
-          "yearsTotal": null,
-          "milesTotal": null,
-          "expiresApprox": null,
-          "remaining": null
-        }
-      },
-      "reliabilityKey": "2020 Nissan Leaf",
-      "vehicleHistory": {
-        "reportAvailable": true,
-        "salvageTitle": false,
-        "frameDamage": null,
-        "floodDamage": null,
-        "accidentsReported": false,
-        "oneOwner": false,
-        "personalUseOnly": null,
-        "badges": [
-          "NO_SALVAGE_TITLE",
-          "NO_ACCIDENTS_REPORTED",
-          "NO_ONE_OWNER"
-        ]
-      },
-      "costToOwn": {
-        "twoYear": {
-          "years": 2,
-          "milesDriven": 13520,
-          "powertrainUsed": "BEV",
-          "electricMilesShare": 1,
-          "costs": {
-            "purchasePrice": 11894,
-            "salesTax": 1201,
-            "fuelAndElectricity": 487,
-            "maintenance": 456,
-            "insurance": 5470,
-            "registrationAndFees": 704,
-            "majorRepairReserve": 101
-          },
-          "resaleValueRecovered": 3464,
-          "totalCostOfOwnership": 11883,
-          "averagePerMonth": 495
-        },
-        "sixYear": {
-          "years": 6,
-          "milesDriven": 40560,
-          "powertrainUsed": "BEV",
-          "electricMilesShare": 1,
-          "costs": {
-            "purchasePrice": 11894,
-            "salesTax": 1201,
-            "fuelAndElectricity": 1460,
-            "maintenance": 1368,
-            "insurance": 16411,
-            "registrationAndFees": 2112,
-            "majorRepairReserve": 435
-          },
-          "resaleValueRecovered": 7430,
-          "totalCostOfOwnership": 30417,
-          "averagePerMonth": 422
-        }
-      },
-      "repairOutlook": {
-        "window": "6 years",
-        "expectedReserveUsd": 435,
-        "worstCaseExposure": {
-          "component": "Traction battery catastrophic failure (not degradation)",
-          "amountUsd": 5915,
-          "probability": 0.019,
-          "note": "About a 2% chance of a roughly $5,915 bill. That contributes ~$112 to the expected cost above — the full amount is the exposure, not the budget."
-        },
-        "components": [
-          {
-            "hazard": "suspension-brakes",
-            "component": "Suspension, steering or brake overhaul",
-            "probability": 0.272,
-            "costIfItHappensUsd": 601,
-            "expectedUsd": 163
-          },
-          {
-            "hazard": "ev-drive-unit",
-            "component": "Drive unit, inverter or onboard charger",
-            "probability": 0.054,
-            "costIfItHappensUsd": 2503,
-            "expectedUsd": 135
-          },
-          {
-            "hazard": "ev-battery-failure",
-            "component": "Traction battery catastrophic failure (not degradation)",
-            "probability": 0.019,
-            "costIfItHappensUsd": 5915,
-            "expectedUsd": 112
-          },
-          {
-            "hazard": "hv-thermal-hvac",
-            "component": "Battery thermal management / electric HVAC",
-            "probability": 0.019,
-            "costIfItHappensUsd": 1320,
-            "expectedUsd": 25
-          }
-        ]
-      },
-      "batteryHealth": {
-        "applicable": true,
-        "thermalManagement": "Passive air cooling — no liquid thermal management",
-        "packReplacedUnderRecall": false,
-        "stateOfHealthNow": 0.8,
-        "stateOfHealthAtEndOfSixYears": 0.64,
-        "uncertainty": "±6 percentage points",
-        "epaRangeWhenNewMi": 149,
-        "estimatedRangeNowMi": 119,
-        "estimatedRangeInSixYearsMi": 95,
-        "dailyNeedMi": 19,
-        "stillCoversDailyNeed": true
-      },
-      "viability2032": {
-        "throughYear": 2032,
-        "probabilityStillEconomic": 0.82,
-        "band": "likely",
-        "expectedMilesAtEnd": 123244,
-        "expectedAgeAtEnd": 12,
-        "expectedRangeAtEndMi": 95,
-        "expectedSohAtEnd": 0.64,
-        "reasons": [
-          "12 years old by 2032, which is old but ordinary for a car in this class.",
-          "Only ~123k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.",
-          "Projected ~95 mi of range at 64% health by 2032 — still far beyond the ~19 mi/day need.",
-          "No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills."
-        ]
-      },
-      "ranking": {
-        "safetyTier": "confirmed",
-        "matchScore": 71,
-        "flags": [
-          "AEB standard",
-          "Blind-spot — verify trim",
-          "IIHS Top Safety Pick",
-          "Electric",
-          "No accidents reported"
-        ]
-      },
-      "humanNote": null
-    },
-    {
       "id": "787341251",
       "vin": "JM1BPAAL9M1339116",
       "year": 2021,
@@ -51587,6 +51479,189 @@
       "humanNote": null
     },
     {
+      "id": "786684166",
+      "vin": "KNDCB3LCXM5471922",
+      "year": 2021,
+      "make": "Kia",
+      "model": "Niro",
+      "trim": "LXS",
+      "displayName": "2021 Kia Niro",
+      "askingPriceUsd": 14638,
+      "priceRecentlyReduced": false,
+      "odometerMiles": 114062,
+      "exteriorColor": "Silky Silver",
+      "condition": "Used",
+      "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/786684166",
+      "photoUrl": "https://images.autotrader.com/hn/c/b94fd70c8dcf4ca98d392b7cdbbbc73b.jpg",
+      "dealerAndLocation": "Gage Auto Sales, Milwaukie OR",
+      "distanceFromBellevueMi": 149,
+      "daysOnLot": 36,
+      "firstSeenInThisFeed": "2026-09-01",
+      "stillListed": true,
+      "powertrain": {
+        "type": "HYB",
+        "label": "Hybrid (gasoline, self-charging)",
+        "isPlugIn": false,
+        "electricRangeMi": null,
+        "source": "vin",
+        "evidence": "NHTSA classifies this VIN as a hybrid with a 1.6 L engine.",
+        "vinVerified": true,
+        "caution": null
+      },
+      "electricDriveShare": 0,
+      "safety": {
+        "automaticEmergencyBraking": {
+          "equipped": true,
+          "rawState": "standard",
+          "confidence": "vin-trim-confirmed"
+        },
+        "blindSpotMonitoring": {
+          "equipped": null,
+          "rawState": "trim",
+          "confidence": "model-year-typical"
+        },
+        "iihsAward": "Top Safety Pick (2017–19)",
+        "iihsNotRatedNote": null,
+        "vinTrim": "LX, LXS",
+        "alsoStandardOnThisTrim": [
+          "forward-collision-warning",
+          "backup-camera"
+        ],
+        "note": "AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV."
+      },
+      "battery": {
+        "applicable": false
+      },
+      "reliabilityKey": "2021 Kia Niro",
+      "vehicleHistory": {
+        "reportAvailable": true,
+        "salvageTitle": false,
+        "frameDamage": null,
+        "floodDamage": null,
+        "accidentsReported": true,
+        "oneOwner": true,
+        "personalUseOnly": null,
+        "badges": [
+          "NO_SALVAGE_TITLE",
+          "ACCIDENTS_REPORTED",
+          "ONE_OWNER"
+        ]
+      },
+      "costToOwn": {
+        "twoYear": {
+          "years": 2,
+          "milesDriven": 13520,
+          "powertrainUsed": "HYB",
+          "electricMilesShare": 0,
+          "costs": {
+            "purchasePrice": 14638,
+            "salesTax": 1478,
+            "fuelAndElectricity": 1662,
+            "maintenance": 732,
+            "insurance": 5717,
+            "registrationAndFees": 448,
+            "majorRepairReserve": 293
+          },
+          "resaleValueRecovered": 2781,
+          "totalCostOfOwnership": 13111,
+          "averagePerMonth": 546
+        },
+        "sixYear": {
+          "years": 6,
+          "milesDriven": 40560,
+          "powertrainUsed": "HYB",
+          "electricMilesShare": 0,
+          "costs": {
+            "purchasePrice": 14638,
+            "salesTax": 1478,
+            "fuelAndElectricity": 4987,
+            "maintenance": 2196,
+            "insurance": 17152,
+            "registrationAndFees": 1344,
+            "majorRepairReserve": 1018
+          },
+          "resaleValueRecovered": 6859,
+          "totalCostOfOwnership": 35034,
+          "averagePerMonth": 487
+        }
+      },
+      "repairOutlook": {
+        "window": "6 years",
+        "expectedReserveUsd": 1018,
+        "worstCaseExposure": {
+          "component": "Major engine repair or replacement",
+          "amountUsd": 4300,
+          "probability": 0.035,
+          "note": "About a 4% chance of a roughly $4,300 bill. That contributes ~$151 to the expected cost above — the full amount is the exposure, not the budget."
+        },
+        "components": [
+          {
+            "hazard": "hybrid-battery",
+            "component": "Hybrid traction battery failure",
+            "probability": 0.139,
+            "costIfItHappensUsd": 2279,
+            "expectedUsd": 317
+          },
+          {
+            "hazard": "cooling-fuel",
+            "component": "Cooling, fuel or ignition system",
+            "probability": 0.26,
+            "costIfItHappensUsd": 817,
+            "expectedUsd": 212
+          },
+          {
+            "hazard": "suspension-brakes",
+            "component": "Suspension, steering or brake overhaul",
+            "probability": 0.304,
+            "costIfItHappensUsd": 568,
+            "expectedUsd": 173
+          },
+          {
+            "hazard": "emissions",
+            "component": "Catalytic converter / emissions system",
+            "probability": 0.113,
+            "costIfItHappensUsd": 1462,
+            "expectedUsd": 165
+          },
+          {
+            "hazard": "engine",
+            "component": "Major engine repair or replacement",
+            "probability": 0.035,
+            "costIfItHappensUsd": 4300,
+            "expectedUsd": 151
+          }
+        ]
+      },
+      "batteryHealth": {
+        "applicable": false
+      },
+      "viability2032": {
+        "throughYear": 2032,
+        "probabilityStillEconomic": 0.9,
+        "band": "likely",
+        "expectedMilesAtEnd": 154622,
+        "expectedAgeAtEnd": 11,
+        "expectedRangeAtEndMi": null,
+        "expectedSohAtEnd": null,
+        "reasons": [
+          "Only ~155k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr."
+        ]
+      },
+      "ranking": {
+        "safetyTier": "confirmed",
+        "matchScore": 67.2,
+        "flags": [
+          "AEB confirmed by VIN",
+          "Blind-spot — verify trim",
+          "IIHS Top Safety Pick",
+          "Hybrid",
+          "Accident reported",
+          "One owner"
+        ]
+      },
+      "humanNote": null
+    },
+    {
       "id": "788652939",
       "vin": "1FADP5FU4HL114880",
       "year": 2017,
@@ -52366,6 +52441,203 @@
         "flags": [
           "AEB confirmed by VIN",
           "Accident reported"
+        ]
+      },
+      "humanNote": null
+    },
+    {
+      "id": "783246639",
+      "vin": "1G1FY6S0XP4199282",
+      "year": 2023,
+      "make": "Chevrolet",
+      "model": "Bolt EUV",
+      "trim": "LT",
+      "displayName": "2023 Chevrolet Bolt EUV",
+      "askingPriceUsd": 16960,
+      "priceRecentlyReduced": false,
+      "odometerMiles": 60000,
+      "exteriorColor": "White",
+      "condition": "Used",
+      "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/783246639",
+      "photoUrl": "https://assets.cai-media-management.com/ps-vehicle-media/cda3aec4-e01f-407f-9d56-255f0e3195c3.JPG",
+      "dealerAndLocation": "Private Seller Exchange, Philomath OR",
+      "distanceFromBellevueMi": 216,
+      "daysOnLot": 77,
+      "firstSeenInThisFeed": "2026-09-01",
+      "stillListed": true,
+      "powertrain": {
+        "type": "BEV",
+        "label": "Battery electric",
+        "isPlugIn": true,
+        "electricRangeMi": 247,
+        "source": "vin",
+        "evidence": "NHTSA lists electric as the only fuel and no engine displacement.",
+        "vinVerified": true,
+        "caution": null
+      },
+      "electricDriveShare": 1,
+      "safety": {
+        "automaticEmergencyBraking": {
+          "equipped": true,
+          "rawState": "standard",
+          "confidence": "vin-trim-confirmed"
+        },
+        "blindSpotMonitoring": {
+          "equipped": null,
+          "rawState": "trim",
+          "confidence": "model-year-typical"
+        },
+        "iihsAward": "Good in most tests",
+        "iihsNotRatedNote": null,
+        "vinTrim": "LT",
+        "alsoStandardOnThisTrim": [
+          "forward-collision-warning",
+          "lane-keeping-assist",
+          "backup-camera"
+        ],
+        "note": "Chevy Safety Assist (incl. AEB) standard from 2022."
+      },
+      "battery": {
+        "applicable": true,
+        "riskFactor": 0.28,
+        "note": "Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.",
+        "federalWarranty": {
+          "summary": null,
+          "yearsTotal": null,
+          "milesTotal": null,
+          "expiresApprox": null,
+          "remaining": null
+        }
+      },
+      "reliabilityKey": "2023 Chevrolet Bolt EUV",
+      "vehicleHistory": {
+        "reportAvailable": true,
+        "salvageTitle": false,
+        "frameDamage": null,
+        "floodDamage": null,
+        "accidentsReported": false,
+        "oneOwner": true,
+        "personalUseOnly": null,
+        "badges": [
+          "NO_SALVAGE_TITLE",
+          "NO_ACCIDENTS_REPORTED",
+          "ONE_OWNER"
+        ]
+      },
+      "costToOwn": {
+        "twoYear": {
+          "years": 2,
+          "milesDriven": 13520,
+          "powertrainUsed": "BEV",
+          "electricMilesShare": 1,
+          "costs": {
+            "purchasePrice": 16960,
+            "salesTax": 1713,
+            "fuelAndElectricity": 454,
+            "maintenance": 487,
+            "insurance": 5926,
+            "registrationAndFees": 790,
+            "majorRepairReserve": 91
+          },
+          "resaleValueRecovered": 4451,
+          "totalCostOfOwnership": 13912,
+          "averagePerMonth": 580
+        },
+        "sixYear": {
+          "years": 6,
+          "milesDriven": 40560,
+          "powertrainUsed": "BEV",
+          "electricMilesShare": 1,
+          "costs": {
+            "purchasePrice": 16960,
+            "salesTax": 1713,
+            "fuelAndElectricity": 1363,
+            "maintenance": 1462,
+            "insurance": 17779,
+            "registrationAndFees": 2370,
+            "majorRepairReserve": 315
+          },
+          "resaleValueRecovered": 10232,
+          "totalCostOfOwnership": 35234,
+          "averagePerMonth": 489
+        }
+      },
+      "repairOutlook": {
+        "window": "6 years",
+        "expectedReserveUsd": 315,
+        "worstCaseExposure": {
+          "component": "Traction battery catastrophic failure (not degradation)",
+          "amountUsd": 7670,
+          "probability": 0.004,
+          "note": "About a 0% chance of a roughly $7,670 bill. That contributes ~$31 to the expected cost above — the full amount is the exposure, not the budget."
+        },
+        "components": [
+          {
+            "hazard": "suspension-brakes",
+            "component": "Suspension, steering or brake overhaul",
+            "probability": 0.148,
+            "costIfItHappensUsd": 779,
+            "expectedUsd": 115
+          },
+          {
+            "hazard": "ev-drive-unit",
+            "component": "Drive unit, inverter or onboard charger",
+            "probability": 0.03,
+            "costIfItHappensUsd": 3245,
+            "expectedUsd": 97
+          },
+          {
+            "hazard": "hv-thermal-hvac",
+            "component": "Battery thermal management / electric HVAC",
+            "probability": 0.042,
+            "costIfItHappensUsd": 1711,
+            "expectedUsd": 72
+          },
+          {
+            "hazard": "ev-battery-failure",
+            "component": "Traction battery catastrophic failure (not degradation)",
+            "probability": 0.004,
+            "costIfItHappensUsd": 7670,
+            "expectedUsd": 31
+          }
+        ]
+      },
+      "batteryHealth": {
+        "applicable": true,
+        "thermalManagement": "Liquid-cooled pack with active thermal management",
+        "packReplacedUnderRecall": false,
+        "stateOfHealthNow": 0.93,
+        "stateOfHealthAtEndOfSixYears": 0.83,
+        "uncertainty": "±4 percentage points",
+        "epaRangeWhenNewMi": 247,
+        "estimatedRangeNowMi": 229,
+        "estimatedRangeInSixYearsMi": 204,
+        "dailyNeedMi": 19,
+        "stillCoversDailyNeed": true
+      },
+      "viability2032": {
+        "throughYear": 2032,
+        "probabilityStillEconomic": 0.9,
+        "band": "likely",
+        "expectedMilesAtEnd": 100560,
+        "expectedAgeAtEnd": 9,
+        "expectedRangeAtEndMi": 204,
+        "expectedSohAtEnd": 0.83,
+        "reasons": [
+          "Only ~101k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.",
+          "Projected ~204 mi of range at 83% health by 2032 — still far beyond the ~19 mi/day need.",
+          "No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills."
+        ]
+      },
+      "ranking": {
+        "safetyTier": "confirmed",
+        "matchScore": 64.4,
+        "flags": [
+          "AEB confirmed by VIN",
+          "Blind-spot — verify trim",
+          "Electric",
+          "No accidents reported",
+          "One owner"
         ]
       },
       "humanNote": null
@@ -54171,6 +54443,380 @@
           "AEB confirmed by VIN",
           "Blind-spot confirmed by VIN",
           "No accidents reported"
+        ]
+      },
+      "humanNote": null
+    },
+    {
+      "id": "785681731",
+      "vin": "KNDJ23AU7L7088526",
+      "year": 2020,
+      "make": "Kia",
+      "model": "Soul",
+      "trim": "LX",
+      "displayName": "2020 Kia Soul",
+      "askingPriceUsd": 8490,
+      "priceRecentlyReduced": true,
+      "odometerMiles": 126795,
+      "exteriorColor": "Sparkling Silver",
+      "condition": "Used",
+      "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/785681731",
+      "photoUrl": "https://images.autotrader.com/hn/c/028f95f8c00f4b4989eaf8e1b0b7bd2c.jpg",
+      "dealerAndLocation": "Power Kia of Salem, Salem OR",
+      "distanceFromBellevueMi": 185,
+      "daysOnLot": 48,
+      "firstSeenInThisFeed": "2026-09-01",
+      "stillListed": true,
+      "powertrain": {
+        "type": "ICE",
+        "label": "Gasoline",
+        "isPlugIn": false,
+        "electricRangeMi": null,
+        "source": "vin",
+        "evidence": "NHTSA lists gasoline as the only fuel, 2 L.",
+        "vinVerified": true,
+        "caution": null
+      },
+      "electricDriveShare": 0,
+      "safety": {
+        "automaticEmergencyBraking": {
+          "equipped": true,
+          "rawState": "standard",
+          "confidence": "vin-trim-confirmed"
+        },
+        "blindSpotMonitoring": {
+          "equipped": null,
+          "rawState": "unknown",
+          "confidence": "model-year-typical"
+        },
+        "iihsAward": null,
+        "iihsNotRatedNote": null,
+        "vinTrim": "LX, S, X-Line",
+        "alsoStandardOnThisTrim": [
+          "backup-camera"
+        ],
+        "note": "No curated safety profile for the 2020 Kia Soul. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent."
+      },
+      "battery": {
+        "applicable": false
+      },
+      "reliabilityKey": "2020 Kia Soul",
+      "vehicleHistory": {
+        "reportAvailable": true,
+        "salvageTitle": false,
+        "frameDamage": null,
+        "floodDamage": null,
+        "accidentsReported": false,
+        "oneOwner": true,
+        "personalUseOnly": null,
+        "badges": [
+          "NO_SALVAGE_TITLE",
+          "NO_ACCIDENTS_REPORTED",
+          "ONE_OWNER"
+        ]
+      },
+      "costToOwn": {
+        "twoYear": {
+          "years": 2,
+          "milesDriven": 13520,
+          "powertrainUsed": "ICE",
+          "electricMilesShare": 0,
+          "costs": {
+            "purchasePrice": 8490,
+            "salesTax": 857,
+            "fuelAndElectricity": 2559,
+            "maintenance": 1180,
+            "insurance": 5164,
+            "registrationAndFees": 336,
+            "majorRepairReserve": 413
+          },
+          "resaleValueRecovered": 1613,
+          "totalCostOfOwnership": 12122,
+          "averagePerMonth": 505
+        },
+        "sixYear": {
+          "years": 6,
+          "milesDriven": 40560,
+          "powertrainUsed": "ICE",
+          "electricMilesShare": 0,
+          "costs": {
+            "purchasePrice": 8490,
+            "salesTax": 857,
+            "fuelAndElectricity": 7677,
+            "maintenance": 3539,
+            "insurance": 15492,
+            "registrationAndFees": 1008,
+            "majorRepairReserve": 1436
+          },
+          "resaleValueRecovered": 3978,
+          "totalCostOfOwnership": 33987,
+          "averagePerMonth": 472
+        }
+      },
+      "repairOutlook": {
+        "window": "6 years",
+        "expectedReserveUsd": 1436,
+        "worstCaseExposure": {
+          "component": "Major engine repair or replacement",
+          "amountUsd": 4300,
+          "probability": 0.042,
+          "note": "About a 4% chance of a roughly $4,300 bill. That contributes ~$181 to the expected cost above — the full amount is the exposure, not the budget."
+        },
+        "components": [
+          {
+            "hazard": "suspension-brakes",
+            "component": "Suspension, steering or brake overhaul",
+            "probability": 0.369,
+            "costIfItHappensUsd": 946,
+            "expectedUsd": 349
+          },
+          {
+            "hazard": "transmission",
+            "component": "Automatic transmission failure",
+            "probability": 0.09,
+            "costIfItHappensUsd": 3225,
+            "expectedUsd": 290
+          },
+          {
+            "hazard": "cooling-fuel",
+            "component": "Cooling, fuel or ignition system",
+            "probability": 0.317,
+            "costIfItHappensUsd": 817,
+            "expectedUsd": 259
+          },
+          {
+            "hazard": "emissions",
+            "component": "Catalytic converter / emissions system",
+            "probability": 0.137,
+            "costIfItHappensUsd": 1462,
+            "expectedUsd": 200
+          },
+          {
+            "hazard": "engine",
+            "component": "Major engine repair or replacement",
+            "probability": 0.042,
+            "costIfItHappensUsd": 4300,
+            "expectedUsd": 181
+          },
+          {
+            "hazard": "starter-alternator",
+            "component": "Starter or alternator",
+            "probability": 0.28,
+            "costIfItHappensUsd": 559,
+            "expectedUsd": 157
+          }
+        ]
+      },
+      "batteryHealth": {
+        "applicable": false
+      },
+      "viability2032": {
+        "throughYear": 2032,
+        "probabilityStillEconomic": 0.7,
+        "band": "probable",
+        "expectedMilesAtEnd": 167355,
+        "expectedAgeAtEnd": 12,
+        "expectedRangeAtEndMi": null,
+        "expectedSohAtEnd": null,
+        "reasons": [
+          "12 years old by 2032, which is old but ordinary for a car in this class.",
+          "~167k miles by 2032."
+        ]
+      },
+      "ranking": {
+        "safetyTier": "confirmed",
+        "matchScore": 59.5,
+        "flags": [
+          "AEB confirmed by VIN",
+          "No accidents reported",
+          "One owner"
+        ]
+      },
+      "humanNote": null
+    },
+    {
+      "id": "786678888",
+      "vin": "3GNCJKSB1KL242099",
+      "year": 2019,
+      "make": "Chevrolet",
+      "model": "Trax",
+      "trim": "LS",
+      "displayName": "2019 Chevrolet Trax",
+      "askingPriceUsd": 9495,
+      "priceRecentlyReduced": false,
+      "odometerMiles": 80905,
+      "exteriorColor": "Silver Ice Metallic",
+      "condition": "Used",
+      "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/786678888",
+      "photoUrl": "https://images.autotrader.com/hn/c/0c30ee6992ba4b618e524b2f8e1a2f02.jpg",
+      "dealerAndLocation": "PDX Autohaus, Portland OR",
+      "distanceFromBellevueMi": 144,
+      "daysOnLot": 36,
+      "firstSeenInThisFeed": "2026-09-01",
+      "stillListed": true,
+      "powertrain": {
+        "type": "ICE",
+        "label": "Gasoline",
+        "isPlugIn": false,
+        "electricRangeMi": null,
+        "source": "vin",
+        "evidence": "NHTSA lists gasoline as the only fuel, 1.4 L.",
+        "vinVerified": true,
+        "caution": null
+      },
+      "electricDriveShare": 0,
+      "safety": {
+        "automaticEmergencyBraking": {
+          "equipped": true,
+          "rawState": "standard",
+          "confidence": "vin-trim-confirmed"
+        },
+        "blindSpotMonitoring": {
+          "equipped": null,
+          "rawState": "unknown",
+          "confidence": "model-year-typical"
+        },
+        "iihsAward": null,
+        "iihsNotRatedNote": null,
+        "vinTrim": "LS",
+        "alsoStandardOnThisTrim": [
+          "backup-camera"
+        ],
+        "note": "No curated safety profile for the 2019 Chevrolet Trax. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent."
+      },
+      "battery": {
+        "applicable": false
+      },
+      "reliabilityKey": "2019 Chevrolet Trax",
+      "vehicleHistory": {
+        "reportAvailable": true,
+        "salvageTitle": false,
+        "frameDamage": null,
+        "floodDamage": null,
+        "accidentsReported": false,
+        "oneOwner": true,
+        "personalUseOnly": null,
+        "badges": [
+          "NO_SALVAGE_TITLE",
+          "NO_ACCIDENTS_REPORTED",
+          "ONE_OWNER"
+        ]
+      },
+      "costToOwn": {
+        "twoYear": {
+          "years": 2,
+          "milesDriven": 13520,
+          "powertrainUsed": "ICE",
+          "electricMilesShare": 0,
+          "costs": {
+            "purchasePrice": 9495,
+            "salesTax": 959,
+            "fuelAndElectricity": 2866,
+            "maintenance": 1348,
+            "insurance": 5255,
+            "registrationAndFees": 360,
+            "majorRepairReserve": 460
+          },
+          "resaleValueRecovered": 1804,
+          "totalCostOfOwnership": 13052,
+          "averagePerMonth": 544
+        },
+        "sixYear": {
+          "years": 6,
+          "milesDriven": 40560,
+          "powertrainUsed": "ICE",
+          "electricMilesShare": 0,
+          "costs": {
+            "purchasePrice": 9495,
+            "salesTax": 959,
+            "fuelAndElectricity": 8599,
+            "maintenance": 4043,
+            "insurance": 15764,
+            "registrationAndFees": 1080,
+            "majorRepairReserve": 1586
+          },
+          "resaleValueRecovered": 4449,
+          "totalCostOfOwnership": 36480,
+          "averagePerMonth": 507
+        }
+      },
+      "repairOutlook": {
+        "window": "6 years",
+        "expectedReserveUsd": 1586,
+        "worstCaseExposure": {
+          "component": "Major engine repair or replacement",
+          "amountUsd": 5900,
+          "probability": 0.034,
+          "note": "About a 3% chance of a roughly $5,900 bill. That contributes ~$201 to the expected cost above — the full amount is the exposure, not the budget."
+        },
+        "components": [
+          {
+            "hazard": "suspension-brakes",
+            "component": "Suspension, steering or brake overhaul",
+            "probability": 0.297,
+            "costIfItHappensUsd": 1298,
+            "expectedUsd": 386
+          },
+          {
+            "hazard": "transmission",
+            "component": "Automatic transmission failure",
+            "probability": 0.072,
+            "costIfItHappensUsd": 4425,
+            "expectedUsd": 319
+          },
+          {
+            "hazard": "cooling-fuel",
+            "component": "Cooling, fuel or ignition system",
+            "probability": 0.255,
+            "costIfItHappensUsd": 1121,
+            "expectedUsd": 286
+          },
+          {
+            "hazard": "emissions",
+            "component": "Catalytic converter / emissions system",
+            "probability": 0.11,
+            "costIfItHappensUsd": 2006,
+            "expectedUsd": 221
+          },
+          {
+            "hazard": "engine",
+            "component": "Major engine repair or replacement",
+            "probability": 0.034,
+            "costIfItHappensUsd": 5900,
+            "expectedUsd": 201
+          },
+          {
+            "hazard": "starter-alternator",
+            "component": "Starter or alternator",
+            "probability": 0.225,
+            "costIfItHappensUsd": 767,
+            "expectedUsd": 173
+          }
+        ]
+      },
+      "batteryHealth": {
+        "applicable": false
+      },
+      "viability2032": {
+        "throughYear": 2032,
+        "probabilityStillEconomic": 0.82,
+        "band": "likely",
+        "expectedMilesAtEnd": 121465,
+        "expectedAgeAtEnd": 13,
+        "expectedRangeAtEndMi": null,
+        "expectedSohAtEnd": null,
+        "reasons": [
+          "13 years old by 2032, which is old but ordinary for a car in this class.",
+          "Only ~121k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr."
+        ]
+      },
+      "ranking": {
+        "safetyTier": "confirmed",
+        "matchScore": 59.3,
+        "flags": [
+          "AEB confirmed by VIN",
+          "No accidents reported",
+          "One owner"
         ]
       },
       "humanNote": null
@@ -56227,6 +56873,192 @@
           "AEB confirmed by VIN",
           "Blind-spot confirmed by VIN",
           "No accidents reported"
+        ]
+      },
+      "humanNote": null
+    },
+    {
+      "id": "789018336",
+      "vin": "ZACNJAAB8KPK49178",
+      "year": 2019,
+      "make": "Jeep",
+      "model": "Renegade",
+      "trim": "Sport",
+      "displayName": "2019 Jeep Renegade",
+      "askingPriceUsd": 7995,
+      "priceRecentlyReduced": true,
+      "odometerMiles": 102755,
+      "exteriorColor": "Orange",
+      "condition": "Used",
+      "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789018336",
+      "photoUrl": "https://images.autotrader.com/hn/c/e295142da4994203ac6302ae78a73e92.jpg",
+      "dealerAndLocation": "Power Chevrolet GMC, Corvallis OR",
+      "distanceFromBellevueMi": 213,
+      "daysOnLot": 10,
+      "firstSeenInThisFeed": "2026-09-01",
+      "stillListed": true,
+      "powertrain": {
+        "type": "ICE",
+        "label": "Gasoline",
+        "isPlugIn": false,
+        "electricRangeMi": null,
+        "source": "vin",
+        "evidence": "NHTSA lists gasoline as the only fuel, 2.4 L.",
+        "vinVerified": true,
+        "caution": null
+      },
+      "electricDriveShare": 0,
+      "safety": {
+        "automaticEmergencyBraking": {
+          "equipped": true,
+          "rawState": "standard",
+          "confidence": "vin-trim-confirmed"
+        },
+        "blindSpotMonitoring": {
+          "equipped": null,
+          "rawState": "unknown",
+          "confidence": "model-year-typical"
+        },
+        "iihsAward": null,
+        "iihsNotRatedNote": null,
+        "vinTrim": "Sport",
+        "alsoStandardOnThisTrim": [
+          "backup-camera"
+        ],
+        "note": "No curated safety profile for the 2019 Jeep Renegade. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent."
+      },
+      "battery": {
+        "applicable": false
+      },
+      "reliabilityKey": "2019 Jeep Renegade",
+      "vehicleHistory": {
+        "reportAvailable": true,
+        "salvageTitle": false,
+        "frameDamage": null,
+        "floodDamage": null,
+        "accidentsReported": true,
+        "oneOwner": false,
+        "personalUseOnly": null,
+        "badges": [
+          "NO_SALVAGE_TITLE",
+          "ACCIDENTS_REPORTED",
+          "NO_ONE_OWNER"
+        ]
+      },
+      "costToOwn": {
+        "twoYear": {
+          "years": 2,
+          "milesDriven": 13520,
+          "powertrainUsed": "ICE",
+          "electricMilesShare": 0,
+          "costs": {
+            "purchasePrice": 7995,
+            "salesTax": 807,
+            "fuelAndElectricity": 3169,
+            "maintenance": 1452,
+            "insurance": 5120,
+            "registrationAndFees": 328,
+            "majorRepairReserve": 532
+          },
+          "resaleValueRecovered": 1519,
+          "totalCostOfOwnership": 12927,
+          "averagePerMonth": 539
+        },
+        "sixYear": {
+          "years": 6,
+          "milesDriven": 40560,
+          "powertrainUsed": "ICE",
+          "electricMilesShare": 0,
+          "costs": {
+            "purchasePrice": 7995,
+            "salesTax": 807,
+            "fuelAndElectricity": 9506,
+            "maintenance": 4357,
+            "insurance": 15359,
+            "registrationAndFees": 984,
+            "majorRepairReserve": 1823
+          },
+          "resaleValueRecovered": 3746,
+          "totalCostOfOwnership": 36582,
+          "averagePerMonth": 508
+        }
+      },
+      "repairOutlook": {
+        "window": "6 years",
+        "expectedReserveUsd": 1823,
+        "worstCaseExposure": {
+          "component": "Major engine repair or replacement",
+          "amountUsd": 5750,
+          "probability": 0.04,
+          "note": "About a 4% chance of a roughly $5,750 bill. That contributes ~$230 to the expected cost above — the full amount is the exposure, not the budget."
+        },
+        "components": [
+          {
+            "hazard": "suspension-brakes",
+            "component": "Suspension, steering or brake overhaul",
+            "probability": 0.351,
+            "costIfItHappensUsd": 1265,
+            "expectedUsd": 444
+          },
+          {
+            "hazard": "transmission",
+            "component": "Automatic transmission failure",
+            "probability": 0.085,
+            "costIfItHappensUsd": 4313,
+            "expectedUsd": 367
+          },
+          {
+            "hazard": "cooling-fuel",
+            "component": "Cooling, fuel or ignition system",
+            "probability": 0.301,
+            "costIfItHappensUsd": 1093,
+            "expectedUsd": 329
+          },
+          {
+            "hazard": "emissions",
+            "component": "Catalytic converter / emissions system",
+            "probability": 0.13,
+            "costIfItHappensUsd": 1955,
+            "expectedUsd": 254
+          },
+          {
+            "hazard": "engine",
+            "component": "Major engine repair or replacement",
+            "probability": 0.04,
+            "costIfItHappensUsd": 5750,
+            "expectedUsd": 230
+          },
+          {
+            "hazard": "starter-alternator",
+            "component": "Starter or alternator",
+            "probability": 0.266,
+            "costIfItHappensUsd": 747,
+            "expectedUsd": 199
+          }
+        ]
+      },
+      "batteryHealth": {
+        "applicable": false
+      },
+      "viability2032": {
+        "throughYear": 2032,
+        "probabilityStillEconomic": 0.82,
+        "band": "likely",
+        "expectedMilesAtEnd": 143315,
+        "expectedAgeAtEnd": 13,
+        "expectedRangeAtEndMi": null,
+        "expectedSohAtEnd": null,
+        "reasons": [
+          "13 years old by 2032, which is old but ordinary for a car in this class.",
+          "Only ~143k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr."
+        ]
+      },
+      "ranking": {
+        "safetyTier": "confirmed",
+        "matchScore": 51.5,
+        "flags": [
+          "AEB confirmed by VIN",
+          "Accident reported"
         ]
       },
       "humanNote": null
