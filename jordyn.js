@@ -102,7 +102,11 @@ const REL_LABEL = {
   ok: ['🟢', 'No red flags'],
   watch: ['🟡', 'Worth asking about'],
   concern: ['🔴', 'Known problem pattern'],
-  unknown: ['⚪', 'Not enough data'],
+  // Deliberately NOT a reassuring label. "Not enough data" reads as mild good
+  // news; a lookup that failed to find the car is not good news at all, and
+  // dressing it up as such is how a 2018 Clarity with 134 complaints was shown
+  // as "clean".
+  unknown: ['⚪', 'No record retrieved'],
 };
 
 /**
@@ -122,11 +126,17 @@ function reliabilityBlock(c) {
   if (r) {
     const [icon, label] = REL_LABEL[r.band] || REL_LABEL.unknown;
     const conf = r.confidence === 'high' ? 'strong evidence'
-      : r.confidence === 'medium' ? 'moderate evidence' : 'thin evidence';
+      : r.confidence === 'medium' ? 'moderate evidence'
+        : r.confidence === 'none' ? 'no evidence retrieved' : 'thin evidence';
+    // When nothing was retrieved, show no counts at all. Printing "0 complaints ·
+    // 0 recalls" for a failed lookup states a fact we do not have.
+    const stats = r.complaints == null
+      ? '<div class="rel-stats">No NHTSA record was retrieved for this vehicle — treat it as unchecked, not as clean.</div>'
+      : `<div class="rel-stats">${r.complaints} complaint${r.complaints === 1 ? '' : 's'} · ${r.recalls} recall campaign${r.recalls === 1 ? '' : 's'}${r.topComponents?.length ? ` · most cited: ${esc(r.topComponents[0].component.toLowerCase())}` : ''}${r.queriedAs ? ` · NHTSA lists this as “${esc(r.queriedAs)}”` : ''}</div>`;
     parts.push(`
       <div class="rel-head">${icon} <b>${label}</b> <span class="rel-conf">${conf}</span></div>
       <ul class="rel-list">${r.reasons.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
-      <div class="rel-stats">${r.complaints} complaint${r.complaints === 1 ? '' : 's'} · ${r.recalls} recall campaign${r.recalls === 1 ? '' : 's'}${r.topComponents?.length ? ` · most cited: ${esc(r.topComponents[0].component.toLowerCase())}` : ''}</div>`);
+      ${stats}`);
   }
 
   if (w) {

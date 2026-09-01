@@ -105,6 +105,8 @@ function reliabilityOf(c) {
   return {
     scope: 'model-year',
     appliesTo: `${r.year} ${r.make} ${r.model}`,
+    queriedAsNhtsaModel: r.queriedAs ?? null,
+    recordRetrieved: r.complaints != null,
     band: r.band || null,
     confidence: r.confidence || null,
     nhtsaComplaints: r.complaints ?? null,
@@ -362,7 +364,8 @@ export function rosterFeed(data) {
       'listing.safety.iihsAward': 'IIHS does not test every powertrain variant of a model. An award applies to the variant named in it, which may differ from this car; iihsNotRatedNote flags that case.',
       'listing.battery.riskFactor': '0 = no modelled degradation/replacement exposure; higher = more. Feeds the batteryAllowance line in costToOwn.',
       'listing.battery.federalWarranty': 'US federal minimum is 8 years / 100,000 miles on the traction battery, transferable to subsequent owners. Some states and manufacturers exceed it.',
-      'reliabilityByModelYear.*.band': 'clean | ok | watch | concern | unknown — a qualitative band, NOT a numeric score. Scope is the model-year, so it says nothing about the condition of an individual car. Get a pre-purchase inspection.',
+      'reliabilityByModelYear.*.band': 'clean | ok | watch | concern | unknown — a qualitative band, NOT a numeric score. Scope is the model-year, so it says nothing about the condition of an individual car. Get a pre-purchase inspection. `unknown` with recordRetrieved:false means the NHTSA lookup found no matching model — ABSENCE OF DATA, never a clean record.',
+      'reliabilityByModelYear.*.queriedAsNhtsaModel': 'The model name actually queried. NHTSA matches names exactly and splits many models by powertrain variant ("IONIQ HYBRID" vs "IONIQ PLUG-IN HYBRID" vs "IONIQ ELECTRIC"; "CLARITY PLUG-IN HYBRID" vs "CLARITY FUEL CELL"), returning an empty result with HTTP 200 on a miss. The variant is chosen from the VIN-resolved powertrain, never by name similarity. This field lets you verify we asked about the right car.',
       'reliabilityByModelYear.*.sourceUrl': 'Triangulated from freely accessible public sources, primarily NHTSA complaints/recalls. NOT J.D. Power and NOT Consumer Reports. Complaint counts are not adjusted for sales volume, so raw counts are not comparable between a high-volume and a low-volume model.',
       'listing.vehicleHistory': 'From the dealer-supplied CARFAX/AutoCheck summary on the listing. Badges come in affirming/negating pairs, so true AND false are both affirmative statements from the report; null means NEITHER badge was present, i.e. NOT REPORTED. Never read null as the negative. Always pull a full VIN history before buying.',
       'listing.costToOwn': 'totalCostOfOwnership = purchasePrice + salesTax + fuelAndElectricity + maintenance + insurance + registrationAndFees + majorRepairReserve − resaleValueRecovered. Inputs are in costAssumptions.',
