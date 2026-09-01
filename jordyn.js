@@ -25,7 +25,7 @@ const APP = createCarApp({
   publicUrl: JORDYN_PUBLIC_URL,
   shareTitle: "Jordyn's first car",
   shareText: 'Safe, cheap-to-own first cars — 👍/👎 the ones you like:',
-  onReady: (data) => { DATA = data; render(); },
+  onReady: (data) => { DATA = data; loadHidden(); render(); },
 });
 APP.boot();
 
@@ -58,6 +58,10 @@ function safetyBadge(c) {
       : '<span class="sb sb-ok">✅ AEB standard this year</span>';
   }
   if (c.tier === 'verify') return '<span class="sb sb-warn">⚠️ AEB optional — verify VIN</span>';
+  // Broad discovery surfaces models we have no curated profile for. Saying
+  // "No AEB" about a car nobody has checked would be a claim we cannot support,
+  // and would bury perfectly good cars for the crime of being unfamiliar.
+  if (c.tier === 'unchecked') return '<span class="sb">🔍 AEB not verified — worth checking</span>';
   return '<span class="sb sb-bad">❌ No AEB</span>';
 }
 function bsmBadge(c) {
@@ -245,6 +249,11 @@ function carCard(c) {
   if (h.accidentsReported === true) chips.push('<span class="sb sb-warn">Accident reported</span>');
   else if (h.accidentsReported === false) chips.push('<span class="sb sb-ok">No accidents reported</span>');
   if (h.oneOwner === true) chips.push('<span class="sb sb-ok">One owner</span>');
+  // Over the preferred budget: not a rejection, just a flag. The whole point of
+  // raising the cap is to let cost-to-own argue for a dearer car, so the card
+  // states the stretch and shows the running cost right underneath it.
+  if (c.overPreferredBudget) chips.push('<span class="sb sb-warn" title="Above the $15k target — see whether the 6-year cost justifies it">💰 Over $15k target</span>');
+  if (c.econEstimated) chips.push('<span class="sb" title="No EPA figures on this listing; running costs use a class-average estimate">≈ Estimated running cost</span>');
 
   return `
   <article class="car${c.standout ? ' standout' : ''}" data-vin="${esc(c.vin)}">
@@ -279,6 +288,7 @@ function carCard(c) {
         <button class="vote up${vote === 'up' ? ' on' : ''}" data-v="up" type="button" aria-label="Thumbs up">👍</button>
         <button class="vote down${vote === 'down' ? ' on' : ''}" data-v="down" type="button" aria-label="Thumbs down">👎</button>
         <a class="listing" href="${esc(c.url)}" target="_blank" rel="noopener">View listing ↗</a>
+        <button class="hide-btn" data-hide="1" type="button" title="Hide this car from the list — affects nothing else">${HIDDEN.has(c.vin) ? '↩︎ Unhide' : '🙈 Not for me'}</button>
       </div>
       <input class="note-input" type="text" placeholder="Add a note…" value="${esc(note)}" aria-label="Note about this car">
     </div>
@@ -290,9 +300,49 @@ const FACET_DEFS = [
   { id: 'safety', label: 'Safety', opts: [['confirmed', '✅ AEB standard'], ['vin', '🔎 Confirmed by VIN'], ['verify', '⚠️ Verify AEB']], test: (c, v) => (v === 'vin' ? c.safety?.aebSource === 'vin' || c.safety?.bsmSource === 'vin' : c.tier === v) },
   { id: 'power', label: 'Power', opts: [['BEV', '⚡ Electric'], ['PHEV', '🔌 Plug-in'], ['HYB', '🍃 Hybrid'], ['ICE', '⛽ Gas']], test: (c, v) => c.power === v },
   { id: 'bsm', label: 'Blind-spot', opts: [['any', 'Available']], test: (c) => c.safety?.bsm === 'standard' || c.safety?.bsm === 'trim' },
-  { id: 'price', label: 'Price', opts: [['u10', 'Under $10k'], ['u13', 'Under $13k']], test: (c, v) => (v === 'u10' ? (c.price ?? 9e9) < 10000 : (c.price ?? 9e9) < 13000) },
-  { id: 'miles', label: 'Miles', opts: [['u80', 'Under 80k']], test: (c) => (c.miles ?? 9e9) < 80000 },
+  // Budget is now a range rather than a wall: $15k is the target, but the search
+  // runs to $22k so cost-to-own can argue for a pricier car that's cheaper to
+  // live with. These let you see whether that argument holds.
+  {
+    id: 'price',
+    label: 'Budget',
+    opts: [['u10', 'Under $10k'], ['pref', '🎯 At/under $15k'], ['stretch', 'Over $15k'], ['u20', 'Under $20k']],
+    test: (c, v) => {
+      const p = c.price ?? 9e9;
+      if (v === 'u10') return p < 10000;
+      if (v === 'pref') return p <= 15000;
+      if (v === 'stretch') return p > 15000;
+      return p < 20000;
+    },
+  },
+  { id: 'miles', label: 'Miles', opts: [['u80', 'Under 80k'], ['u50', 'Under 50k']], test: (c, v) => (c.miles ?? 9e9) < (v === 'u50' ? 50000 : 80000) },
+  { id: 'body', label: 'Shape', opts: [['small', 'Small car'], ['suv', 'SUV / crossover']], test: (c, v) => {
+    const s = `${c.model} ${c.trim || ''}`.toLowerCase();
+    const isSuv = /suv|crossover|rav4|cr-v|crv|equinox|rogue|escape|tucson|sportage|forester|crosstrek|hr-v|trax|encore|kona|niro|bolt euv|seltos|venue|soul/.test(s);
+    return v === 'suv' ? isSuv : !isSuv;
+  } },
 ];
+
+// ---------- Jordyn's shortlist (subjective, and deliberately inert) ----------
+//
+// A car she simply won't drive is a real constraint, but it is a matter of taste
+// and must never leak into the safety or cost-to-own maths. So this is stored
+// separately from votes, applied ONLY as a view filter at render time, and read
+// by nothing else. Hiding a car changes what you see; it changes no number
+// anywhere, and un-hiding restores it exactly.
+const K_HIDDEN = 'jordyn-cars-hidden-v1';
+let HIDDEN = new Set();
+let SHOW_HIDDEN = false;
+function loadHidden() {
+  try { HIDDEN = new Set(JSON.parse(localStorage.getItem(K_HIDDEN) || '[]')); } catch { HIDDEN = new Set(); }
+}
+function saveHidden() {
+  try { localStorage.setItem(K_HIDDEN, JSON.stringify([...HIDDEN])); } catch { /* private mode */ }
+}
+function toggleHidden(vin) {
+  if (HIDDEN.has(vin)) HIDDEN.delete(vin); else HIDDEN.add(vin);
+  saveHidden();
+}
 
 function passesFacets(c) {
   for (const def of FACET_DEFS) {
@@ -362,12 +412,47 @@ function renderIntro() {
     <div class="card">
       <p class="lede">${esc(DATA.intro || '')}</p>
       <div class="stat-grid">
-        <div class="stat"><div class="n">${s.count ?? '—'}</div><div class="l">cars found</div></div>
-        <div class="stat"><div class="n">${s.confirmedAeb ?? '—'}</div><div class="l">AEB standard</div></div>
+        <div class="stat"><div class="n">${s.count ?? '—'}</div><div class="l">cars shown</div></div>
+        <div class="stat"><div class="n">${s.discovered ?? '—'}</div><div class="l">searched</div></div>
+        <div class="stat"><div class="n">${s.underPreferred ?? '—'}</div><div class="l">at/under $15k</div></div>
         <div class="stat"><div class="n">${s.plugCount ?? '—'}</div><div class="l">electric / plug-in</div></div>
       </div>
+      ${bandBlock(DATA.priceBands, DATA.budget)}
       ${assumptionsBlock(a)}
     </div>`;
+}
+
+/**
+ * Does spending more actually buy a better car?
+ *
+ * The honest answer isn't obvious, so it gets shown rather than asserted. Median
+ * cost-to-own by band, next to what that band buys in age and mileage, lets the
+ * trade be read directly instead of taken on trust.
+ */
+function bandBlock(bands, budget) {
+  if (!Array.isArray(bands) || !bands.length) return '';
+  const rows = bands.map((b) => `
+    <tr${b.preferred ? ' class="band-pref"' : ''}>
+      <th>${esc(b.label)}${b.preferred ? ' 🎯' : ''}</th>
+      <td>${b.found}</td>
+      <td>${b.aebStandard}</td>
+      <td>${b.electrified}</td>
+      <td>${b.medianTco6 ? money(b.medianTco6) : '—'}</td>
+      <td>${b.medianYear ?? '—'} · ${b.medianMiles != null ? Math.round(b.medianMiles / 1000) + 'k' : '—'}</td>
+    </tr>`).join('');
+  return `
+    <details class="assump">
+      <summary>💰 Is a bigger budget worth it? <span class="tco-mo">tap for the comparison</span></summary>
+      <table class="assump-tbl band-tbl">
+        <tr><th>Band</th><th>Found</th><th>AEB std</th><th>Electric</th><th>Median 6-yr cost</th><th>Median yr · mi</th></tr>
+        ${rows}
+      </table>
+      <p class="tco-note">$${((budget?.preferred ?? 15000) / 1000).toFixed(0)}k is still the target; the search runs to
+      $${((budget?.searchedTo ?? 22000) / 1000).toFixed(0)}k so cost-to-own can argue for a pricier car rather than a rule
+      excluding it. Spending more buys a newer car with fewer miles — but the median 6-year cost <b>rises</b> with price,
+      because purchase price and the insurance that scales with it outweigh the lower running costs. A dearer car has to
+      earn its place on this table, and most don't.</p>
+    </details>`;
 }
 
 /**
@@ -425,7 +510,12 @@ function renderControls() {
   $('#filterbar').innerHTML = FACET_DEFS.map((d) => `
     <div class="fgroup"><span class="flabel">${d.label}</span>
       ${d.opts.map(([v, l]) => `<button type="button" class="facet${FACETS[d.id]?.has(v) ? ' on' : ''}" data-g="${d.id}" data-v="${v}">${l}</button>`).join('')}
-    </div>`).join('');
+    </div>`).join('')
+    + `<div class="fgroup"><span class="flabel">Jordyn</span>
+        <button type="button" class="facet${SHOW_HIDDEN ? ' on' : ''}" id="show-hidden"
+          title="Your hidden cars are only hidden from view — no cost or safety figure changes">
+          🙈 Show hidden${HIDDEN.size ? ` (${HIDDEN.size})` : ''}</button>
+      </div>`;
   $('#filterbar').hidden = false;
 }
 
@@ -434,14 +524,24 @@ function renderControls() {
 const TIER_GROUPS = [
   ['confirmed', '✅ Automatic emergency braking is standard', 'The safest starting point — every car of this model year has AEB. Blind-spot may still depend on trim.'],
   ['verify', '⚠️ AEB was optional — check the specific car', 'Good cars, but in these years automatic braking came in a package. Confirm it on the window sticker before trusting it.'],
+  // Broad discovery means most cars now have no curated safety profile. "We
+  // haven't checked" is a different statement from "it doesn't have it", and
+  // collapsing the two would quietly rebuild the old model whitelist as a
+  // rejection.
+  ['unchecked', '🔍 Not yet verified — worth a look', 'No curated profile for these models yet, and the VIN decode was silent. They may well have AEB; nobody has confirmed it either way.'],
   ['no', '❌ No automatic emergency braking', 'Shown for completeness — these fall short of the teen-safety bar.'],
 ];
 
 function renderList() {
-  const shown = sortCars((DATA.cars || []).filter(passesFacets));
+  let shown = sortCars((DATA.cars || []).filter(passesFacets));
+  // Jordyn's hidden list is applied HERE and nowhere else — it is a view filter,
+  // not an input to anything.
+  if (!SHOW_HIDDEN) shown = shown.filter((c) => !HIDDEN.has(c.vin));
   const grid = $('#cars-grid');
   if (!shown.length) {
-    grid.innerHTML = '<p class="empty">No cars match those filters. Loosen one above.</p>';
+    grid.innerHTML = HIDDEN.size && !SHOW_HIDDEN
+      ? '<p class="empty">Nothing left after your filters — you have ' + HIDDEN.size + ' car(s) hidden. Tap “Show hidden” to bring them back.</p>'
+      : '<p class="empty">No cars match those filters. Loosen one above.</p>';
     return;
   }
   grid.innerHTML = TIER_GROUPS.map(([tier, title, blurb]) => {
@@ -513,6 +613,12 @@ function wireDelegates() {
   document.querySelectorAll('#tabbar .tab').forEach((b) => b.addEventListener('click', () => switchTab(b.dataset.tab)));
 
   document.addEventListener('click', (e) => {
+    if (e.target.closest('#show-hidden')) {
+      SHOW_HIDDEN = !SHOW_HIDDEN;
+      renderControls();
+      renderList();
+      return;
+    }
     const facet = e.target.closest('.facet');
     if (facet) {
       const g = facet.dataset.g;
@@ -525,6 +631,15 @@ function wireDelegates() {
     }
     const hz = e.target.closest('.hz');
     if (hz) { HORIZON = Number(hz.dataset.hz); renderControls(); renderList(); return; }
+    const hide = e.target.closest('.hide-btn');
+    if (hide) {
+      const vin = hide.closest('.car')?.dataset.vin;
+      if (!vin) return;
+      toggleHidden(vin);
+      renderControls();
+      renderList();
+      return;
+    }
     const vote = e.target.closest('.vote');
     if (vote) {
       const vin = vote.closest('.car')?.dataset.vin;
