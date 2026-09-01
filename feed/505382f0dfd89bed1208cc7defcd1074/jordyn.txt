@@ -1,6 +1,6 @@
 ==========================================================================
-JORDYN'S FIRST CAR — 69 listings
-roster updated 2026-09-01 · feed generated 2026-09-01T15:02:54.672Z
+JORDYN'S FIRST CAR — 71 listings
+roster updated 2026-09-01 · feed generated 2026-09-01T15:16:31.434Z
 ==========================================================================
 
 Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.
@@ -23,14 +23,14 @@ TOP 10 OVERALL (powertrain-neutral — EVs get no bonus, they win on cost)
 --------------------------------------------------------------------------
    1. 2023 Nissan Leaf S               $ 13488    52213mi  Battery electric                   elec 100%  6yr $ 31387  score 89.6
    2. 2017 Nissan Leaf S               $  6995    32563mi  Battery electric                   elec 100%  6yr $ 24852  score 84.5
-   3. 2021 Hyundai Elantra SE          $ 14999    20737mi  Gasoline                           elec   0%  6yr $ 36253  score 83.9
-   4. 2022 Hyundai Ioniq SE            $ 13014   123046mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 32889  score 83.3
-   5. 2017 Hyundai Ioniq Limited       $ 11800    80887mi  Battery electric                   elec 100%  6yr $ 29969  score 82.5
-   6. 2018 Kia Niro EX                 $ 12575   113256mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 33719  score 82.1
-   7. 2021 Nissan Versa SV             $ 11654    70725mi  Gasoline                           elec   0%  6yr $ 34727  score 80
-   8. 2020 Hyundai Ioniq SE            $ 11995   124730mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 32465  score 77.1
-   9. 2021 Honda Clarity Plug-In Hybri $ 15440   106000mi  Plug-in hybrid                     elec  85%  6yr $ 33501  score 76.5
-  10. 2023 Kia Niro EX                 $ 20674    91442mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 39333  score 76.1
+   3. 2017 Nissan Leaf S               $  7790    31046mi  Battery electric                   elec 100%  6yr $ 25672  score 83.9
+   4. 2021 Hyundai Elantra SE          $ 14999    20737mi  Gasoline                           elec   0%  6yr $ 36253  score 83.9
+   5. 2022 Hyundai Ioniq SE            $ 13014   123046mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 32889  score 83.3
+   6. 2017 Hyundai Ioniq Limited       $ 11800    80887mi  Battery electric                   elec 100%  6yr $ 29969  score 82.5
+   7. 2018 Kia Niro EX                 $ 12575   113256mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 33719  score 82.1
+   8. 2021 Nissan Versa SV             $ 11654    70725mi  Gasoline                           elec   0%  6yr $ 34727  score 80
+   9. 2020 Hyundai Ioniq SE            $ 11995   124730mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 32465  score 77.1
+  10. 2021 Honda Clarity Plug-In Hybri $ 15440   106000mi  Plug-in hybrid                     elec  85%  6yr $ 33501  score 76.5
 
 --------------------------------------------------------------------------
 TOP 10 ELECTRIC / PLUG-IN (ranked by share of miles actually driven on electricity)
@@ -38,14 +38,14 @@ TOP 10 ELECTRIC / PLUG-IN (ranked by share of miles actually driven on electrici
   Battery-electric and plug-in hybrids only, VIN-verified, ranked by overall fit — NOT by electric share. Ranking by share alone would put every 100%-electric BEV above every plug-in and hide the fact that a 53-mile Volt covers ~85% of these miles on electricity while costing several thousand less to own. Read electricDriveShare alongside the rank.
    1. 2023 Nissan Leaf S               $ 13488    52213mi  Battery electric                   elec 100%  6yr $ 31387  score 89.6
    2. 2017 Nissan Leaf S               $  6995    32563mi  Battery electric                   elec 100%  6yr $ 24852  score 84.5
-   3. 2017 Hyundai Ioniq Limited       $ 11800    80887mi  Battery electric                   elec 100%  6yr $ 29969  score 82.5
-   4. 2021 Honda Clarity Plug-In Hybri $ 15440   106000mi  Plug-in hybrid                     elec  85%  6yr $ 33501  score 76.5
-   5. 2022 Chevrolet Bolt EUV LT       $ 17189    68297mi  Battery electric                   elec 100%  6yr $ 35252  score 75.3
-   6. 2022 Nissan Leaf S               $ 15238    39835mi  Battery electric                   elec 100%  6yr $ 33161  score 75.1
-   7. 2019 FIAT 500 e                  $ 15200    35445mi  Battery electric                   elec 100%  6yr $ 33627  score 73.4
-   8. 2022 Volvo XC40 P8 Recharge Plus $ 15897   119977mi  Battery electric                   elec 100%  6yr $ 36000  score 73
-   9. 2022 Kia Niro EX                 $ 17115    81898mi  Plug-in hybrid                     elec  45%  6yr $ 34935  score 71.9
-  10. 2018 Nissan Leaf SV              $  9977    97594mi  Battery electric                   elec 100%  6yr $ 28867  score 71.8
+   3. 2017 Nissan Leaf S               $  7790    31046mi  Battery electric                   elec 100%  6yr $ 25672  score 83.9
+   4. 2017 Hyundai Ioniq Limited       $ 11800    80887mi  Battery electric                   elec 100%  6yr $ 29969  score 82.5
+   5. 2021 Honda Clarity Plug-In Hybri $ 15440   106000mi  Plug-in hybrid                     elec  85%  6yr $ 33501  score 76.5
+   6. 2022 Chevrolet Bolt EUV LT       $ 17189    68297mi  Battery electric                   elec 100%  6yr $ 35252  score 75.3
+   7. 2022 Nissan Leaf S               $ 15238    39835mi  Battery electric                   elec 100%  6yr $ 33161  score 75.1
+   8. 2019 FIAT 500 e                  $ 15200    35445mi  Battery electric                   elec 100%  6yr $ 33627  score 73.4
+   9. 2022 Volvo XC40 P8 Recharge Plus $ 15897   119977mi  Battery electric                   elec 100%  6yr $ 36000  score 73
+  10. 2022 Kia Niro EX                 $ 17115    81898mi  Plug-in hybrid                     elec  45%  6yr $ 34935  score 71.9
 
 --------------------------------------------------------------------------
 COST ASSUMPTIONS (inputs to every total below)
@@ -170,7 +170,59 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~66 mi of range at 62% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-3. 2021 Hyundai Elantra SE — $14,999
+3. 2017 Nissan Leaf S — $7,790
+==========================================================================
+  VIN                     1N4BZ0CP8HC311540
+  odometer                31,046 mi
+  condition               Used · Deep Blue Pearl
+  where                   Four-Ten Auto Sales, Bonney Lake WA (27 mi)
+  days on lot             82
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/782779277
+  powertrain              Battery electric · 107 mi electric
+  electric drive share    100% of miles at 130 mi/week
+    evidence              NHTSA lists electric as the only fuel and no engine displacement.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      unknown (model-year-typical)
+  also standard (trim)   forward-collision-warning, backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             no
+  battery risk factor     0.8
+    Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+  reliability (2017 Nissan Leaf)
+    band                  ok (confidence: medium)
+    NHTSA                 14 complaints · 0 recalls
+    - 14 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2017/NISSAN/LEAF%20BEV
+  2-year cost to own
+    purchase 7790 + tax 787 + fuel 487 + maint 379
+    + insurance 5101 + fees 624 + repairs 106 - resale 2026
+    = $9,510 ($396/mo over 13,520 mi)
+  6-year cost to own
+    purchase 7790 + tax 787 + fuel 1460 + maint 1137
+    + insurance 15303 + fees 1872 + repairs 375 - resale 4738
+    = $25,672 ($357/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $375 to budget
+    worst single bill     $5,915 at ~2% — exposure, not budget
+     21% x $  601 = $ 126  Suspension, steering or brake overhaul
+      2% x $ 5915 = $ 124  Traction battery catastrophic failure (not degradation)
+      4% x $ 2503 = $ 105  Drive unit, inverter or onboard charger
+      2% x $ 1320 = $  20  Battery thermal management / electric HVAC
+  battery health          78% now -> 62% in 6 yr (±6 percentage points)
+    range                 ~84 mi now -> ~66 mi (need ~19/day)
+    Passive air cooling — no liquid thermal management
+    (degradation affects range and resale, NOT counted as a repair)
+  still worth owning 2032?  probable (~72%)
+    ~71,606 mi, 15 yr old
+    - 15 years old by 2032 — parts availability and rust start to matter.
+    - Only ~72k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+    - Projected ~66 mi of range at 62% health by 2032 — still far beyond the ~19 mi/day need.
+
+==========================================================================
+4. 2021 Hyundai Elantra SE — $14,999
 ==========================================================================
   VIN                     KMHLL4AG0MU191193
   odometer                20,737 mi
@@ -216,7 +268,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~61k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-4. 2022 Hyundai Ioniq SE — $13,014
+5. 2022 Hyundai Ioniq SE — $13,014
 ==========================================================================
   VIN                     KMHC75LC5NU279565
   odometer                123,046 mi
@@ -261,7 +313,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~164k miles by 2032.
 
 ==========================================================================
-5. 2017 Hyundai Ioniq Limited — $11,800
+6. 2017 Hyundai Ioniq Limited — $11,800
 ==========================================================================
   VIN                     KMHC85LH9HU015424
   odometer                80,887 mi
@@ -315,7 +367,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~92 mi of range at 74% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-6. 2018 Kia Niro EX — $12,575
+7. 2018 Kia Niro EX — $12,575
 ==========================================================================
   VIN                     KNDCC3LC8J5132231
   odometer                113,256 mi
@@ -361,7 +413,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~154k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-7. 2021 Nissan Versa SV — $11,654
+8. 2021 Nissan Versa SV — $11,654
 ==========================================================================
   VIN                     3N1CN8EV6ML888850
   odometer                70,725 mi
@@ -405,7 +457,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~111k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-8. 2020 Hyundai Ioniq SE — $11,995
+9. 2020 Hyundai Ioniq SE — $11,995
 ==========================================================================
   VIN                     KMHC75LC3LU233701
   odometer                124,730 mi
@@ -450,7 +502,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~165k miles by 2032.
 
 ==========================================================================
-9. 2021 Honda Clarity Plug-In Hybrid — $15,440
+10. 2021 Honda Clarity Plug-In Hybrid — $15,440
 ==========================================================================
   VIN                     JHMZC5F11MC000829
   odometer                106,000 mi
@@ -502,7 +554,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~37 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-10. 2023 Kia Niro EX — $20,674
+11. 2023 Kia Niro EX — $20,674
 ==========================================================================
   VIN                     KNDCR3LE6P5101505
   odometer                91,442 mi
@@ -547,7 +599,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~132k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-11. 2025 Kia Soul LX — $16,698
+12. 2025 Kia Soul LX — $16,698
 ==========================================================================
   VIN                     KNDJ23AU3S7943110
   odometer                31,531 mi
@@ -591,7 +643,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~72k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-12. 2022 Chevrolet Bolt EUV LT — $17,189
+13. 2022 Chevrolet Bolt EUV LT — $17,189
 ==========================================================================
   VIN                     1G1FY6S0XN4108363
   odometer                68,297 mi
@@ -645,7 +697,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-13. 2022 Nissan Leaf S — $15,238
+14. 2022 Nissan Leaf S — $15,238
 ==========================================================================
   VIN                     1N4AZ1BV0NC558693
   odometer                39,835 mi
@@ -698,7 +750,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-14. 2019 FIAT 500 e — $15,200
+15. 2019 FIAT 500 e — $15,200
 ==========================================================================
   VIN                     3C3CFFGE3KT680213
   odometer                35,445 mi
@@ -750,7 +802,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~66 mi of range at 79% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-15. 2017 Kia Rio LX — $6,969
+16. 2017 Kia Rio LX — $6,969
 ==========================================================================
   VIN                     KNADM4A34H6113736
   odometer                90,685 mi
@@ -795,7 +847,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~131k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-16. 2022 Volvo XC40 P8 Recharge Plus — $15,897
+17. 2022 Volvo XC40 P8 Recharge Plus — $15,897
 ==========================================================================
   VIN                     YV4ED3UR6N2762763
   odometer                119,977 mi
@@ -847,7 +899,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-17. 2018 Nissan Leaf SV — $9,977
+18. 2018 Nissan Leaf SV — $9,977
 ==========================================================================
   VIN                     1N4AZ1CP3JC313218
   odometer                97,594 mi
@@ -900,7 +952,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~88 mi of range at 58% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-18. 2025 Nissan Versa SR — $20,500
+19. 2025 Nissan Versa SR — $20,500
 ==========================================================================
   VIN                     3N1CN8FV3SL888624
   odometer                962 mi
@@ -944,7 +996,61 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~42k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-19. 2021 MAZDA MAZDA3 s — $12,999
+20. 2020 Nissan Leaf SV — $11,894
+==========================================================================
+  VIN                     1N4AZ1CP9LC307653
+  odometer                82,684 mi
+  condition               Used · Super Black
+  where                   Nissan of Everett, Everett WA (24 mi)
+  days on lot             3
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789625644
+  powertrain              Battery electric · 149 mi electric
+  electric drive share    100% of miles at 130 mi/week
+    evidence              NHTSA lists electric as the only fuel and no engine displacement.
+  AEB                     standard (model-year-typical)
+  blind-spot monitor      trim (model-year-typical)
+  IIHS                    Top Safety Pick (2018–19 w/ good headlights)
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             no
+  battery risk factor     0.8
+    Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+  reliability (2020 Nissan Leaf)
+    band                  concern (confidence: high)
+    NHTSA                 163 complaints · 6 recalls
+    - 94% of its 163 NHTSA complaints (153) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+    - 6 recall campaigns for this model year — check all are closed out for the VIN.
+    source                https://www.nhtsa.gov/vehicle/2020/NISSAN/LEAF
+  2-year cost to own
+    purchase 11894 + tax 1201 + fuel 487 + maint 456
+    + insurance 5470 + fees 704 + repairs 101 - resale 3464
+    = $11,883 ($495/mo over 13,520 mi)
+  6-year cost to own
+    purchase 11894 + tax 1201 + fuel 1460 + maint 1368
+    + insurance 16411 + fees 2112 + repairs 435 - resale 7430
+    = $30,417 ($422/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $435 to budget
+    worst single bill     $5,915 at ~2% — exposure, not budget
+     27% x $  601 = $ 163  Suspension, steering or brake overhaul
+      5% x $ 2503 = $ 135  Drive unit, inverter or onboard charger
+      2% x $ 5915 = $ 112  Traction battery catastrophic failure (not degradation)
+      2% x $ 1320 = $  25  Battery thermal management / electric HVAC
+  battery health          80% now -> 64% in 6 yr (±6 percentage points)
+    range                 ~119 mi now -> ~95 mi (need ~19/day)
+    Passive air cooling — no liquid thermal management
+    (degradation affects range and resale, NOT counted as a repair)
+  still worth owning 2032?  likely (~82%)
+    ~123,244 mi, 12 yr old
+    - 12 years old by 2032, which is old but ordinary for a car in this class.
+    - Only ~123k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+    - Projected ~95 mi of range at 64% health by 2032 — still far beyond the ~19 mi/day need.
+
+==========================================================================
+21. 2021 MAZDA MAZDA3 s — $12,999
 ==========================================================================
   VIN                     JM1BPAAL9M1339116
   odometer                104,257 mi
@@ -989,7 +1095,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~145k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-20. 2024 Kia Forte LXS — $19,700
+22. 2024 Kia Forte LXS — $19,700
 ==========================================================================
   VIN                     3KPF24AD2RE782383
   odometer                2,644 mi
@@ -1034,7 +1140,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~43k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-21. 2021 Hyundai Accent SE — $8,499
+23. 2021 Hyundai Accent SE — $8,499
 ==========================================================================
   VIN                     3KPC24A66ME132355
   odometer                50,815 mi
@@ -1078,7 +1184,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~91k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-22. 2023 Hyundai Kona SE — $15,750
+24. 2023 Hyundai Kona SE — $15,750
 ==========================================================================
   VIN                     KM8K23AG9PU174017
   odometer                62,815 mi
@@ -1131,7 +1237,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-23. 2020 Kia Niro LX — $12,250
+25. 2020 Kia Niro LX — $12,250
 ==========================================================================
   VIN                     KNDCB3LC8L5369257
   odometer                108,567 mi
@@ -1177,7 +1283,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~149k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-24. 2019 Ford Fusion SE — $8,900
+26. 2019 Ford Fusion SE — $8,900
 ==========================================================================
   VIN                     3FA6P0LU8KR256593
   odometer                96,029 mi
@@ -1223,7 +1329,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~137k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-25. 2021 Hyundai Sonata Blue — $12,999
+27. 2021 Hyundai Sonata Blue — $12,999
 ==========================================================================
   VIN                     KMHL24JJ9MA025867
   odometer                106,023 mi
@@ -1267,7 +1373,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~147k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-26. 2017 Ford Focus Electric Hatchback — $9,995
+28. 2017 Ford Focus Electric Hatchback — $9,995
 ==========================================================================
   VIN                     1FADP3R43HL293042
   odometer                31,313 mi
@@ -1320,7 +1426,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~88 mi of range at 77% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-27. 2017 Ford C-MAX SE — $9,500
+29. 2017 Ford C-MAX SE — $9,500
 ==========================================================================
   VIN                     1FADP5AU6HL114550
   odometer                111,635 mi
@@ -1366,7 +1472,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~152k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-28. 2017 Ford C-MAX Energi Titanium — $14,230
+30. 2017 Ford C-MAX Energi Titanium — $14,230
 ==========================================================================
   VIN                     1FADP5FU4HL114880
   odometer                57,719 mi
@@ -1419,7 +1525,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~15 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-29. 2022 MINI Cooper SE — $19,988
+31. 2022 MINI Cooper SE — $19,988
 ==========================================================================
   VIN                     WMW13DJ00N2S09734
   odometer                31,715 mi
@@ -1472,7 +1578,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-30. 2021 Chevrolet Trax LT — $13,750
+32. 2021 Chevrolet Trax LT — $13,750
 ==========================================================================
   VIN                     KL7CJPSB6MB325700
   odometer                64,801 mi
@@ -1516,7 +1622,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~105k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-31. 2017 Chevrolet Spark LS — $4,500
+33. 2017 Chevrolet Spark LS — $4,500
 ==========================================================================
   VIN                     KL8CB6SA7HC789296
   odometer                85,709 mi
@@ -1562,7 +1668,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Expected repairs are 44% of the purchase price — repairs may outrun the car's value.
 
 ==========================================================================
-32. 2019 Hyundai Kona SE — $13,995
+34. 2019 Hyundai Kona SE — $13,995
 ==========================================================================
   VIN                     KM8K1CAA0KU294487
   odometer                41,578 mi
@@ -1608,7 +1714,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~82k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-33. 2017 Hyundai Elantra SE — $6,999
+35. 2017 Hyundai Elantra SE — $6,999
 ==========================================================================
   VIN                     5NPD74LFXHH165976
   odometer                96,224 mi
@@ -1653,7 +1759,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~137k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-34. 2017 Chevrolet Volt LT — $7,118
+36. 2017 Chevrolet Volt LT — $7,118
 ==========================================================================
   VIN                     1G1RA6S59HU120926
   odometer                137,183 mi
@@ -1706,7 +1812,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~37 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-35. 2017 Ford C-MAX Energi SE — $9,613
+37. 2017 Ford C-MAX Energi SE — $9,613
 ==========================================================================
   VIN                     1FADP5EUXHL104520
   odometer                81,117 mi
@@ -1759,7 +1865,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~15 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-36. 2018 Mitsubishi Outlander SEL — $11,999
+38. 2018 Mitsubishi Outlander SEL — $11,999
 ==========================================================================
   VIN                     JA4J24A58JZ071938
   odometer                96,653 mi
@@ -1812,7 +1918,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~16 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-37. 2018 Honda Clarity Plug-In Hybrid — $14,795
+39. 2018 Honda Clarity Plug-In Hybrid — $14,795
 ==========================================================================
   VIN                     JHMZC5F18JC018157
   odometer                121,900 mi
@@ -1864,7 +1970,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~35 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-38. 2023 Chevrolet TrailBlazer LS — $12,638
+40. 2023 Chevrolet TrailBlazer LS — $12,638
 ==========================================================================
   VIN                     KL79MNSL9PB044316
   odometer                123,095 mi
@@ -1908,7 +2014,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~164k miles by 2032.
 
 ==========================================================================
-39. 2021 Jeep Renegade Latitude — $15,750
+41. 2021 Jeep Renegade Latitude — $15,750
 ==========================================================================
   VIN                     ZACNJCBB0MPN11286
   odometer                46,074 mi
@@ -1952,7 +2058,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~87k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-40. 2021 Chevrolet Equinox LT — $8,995
+42. 2021 Chevrolet Equinox LT — $8,995
 ==========================================================================
   VIN                     3GNAXTEVXMS161998
   odometer                149,131 mi
@@ -1996,7 +2102,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~190k miles by 2032.
 
 ==========================================================================
-41. 2017 Kia Niro LX — $9,500
+43. 2017 Kia Niro LX — $9,500
 ==========================================================================
   VIN                     KNDCB3LCXH5096393
   odometer                140,055 mi
@@ -2042,7 +2148,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~181k miles by 2032.
 
 ==========================================================================
-42. 2023 Volkswagen Taos S — $21,995
+44. 2023 Volkswagen Taos S — $21,995
 ==========================================================================
   VIN                     3VVCX7B21PM343389
   odometer                3,024 mi
@@ -2086,7 +2192,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~44k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-43. 2019 Kia Forte LXS — $7,995
+45. 2019 Kia Forte LXS — $7,995
 ==========================================================================
   VIN                     3KPF24AD0KE043003
   odometer                137,944 mi
@@ -2131,7 +2237,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~179k miles by 2032.
 
 ==========================================================================
-44. 2019 Jeep Renegade Sport — $12,490
+46. 2019 Jeep Renegade Sport — $12,490
 ==========================================================================
   VIN                     ZACNJBAB7KPJ97788
   odometer                48,587 mi
@@ -2176,7 +2282,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~89k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-45. 2017 Jeep Compass Trailhawk — $12,471
+47. 2017 Jeep Compass Trailhawk — $12,471
 ==========================================================================
   VIN                     3C4NJDDB6HT646969
   odometer                50,876 mi
@@ -2222,7 +2328,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~91k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-46. 2018 Kia Forte LX — $5,995
+48. 2018 Kia Forte LX — $5,995
 ==========================================================================
   VIN                     3KPFK4A70JE241685
   odometer                115,922 mi
@@ -2266,7 +2372,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~156k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-47. 2020 Jaguar F-PACE Premium — $14,999
+49. 2020 Jaguar F-PACE Premium — $14,999
 ==========================================================================
   VIN                     SADCJ2GX4LA632334
   odometer                84,383 mi
@@ -2311,7 +2417,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~125k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-48. 2021 Volkswagen Tiguan S — $11,168
+50. 2021 Volkswagen Tiguan S — $11,168
 ==========================================================================
   VIN                     3VV1B7AX2MM076780
   odometer                112,097 mi
@@ -2356,7 +2462,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~153k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-49. 2021 Jeep Compass Sport — $10,888
+51. 2021 Jeep Compass Sport — $10,888
 ==========================================================================
   VIN                     3C4NJDAB0MT549328
   odometer                128,875 mi
@@ -2400,7 +2506,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~169k miles by 2032.
 
 ==========================================================================
-50. 2021 Volkswagen Tiguan S — $12,971
+52. 2021 Volkswagen Tiguan S — $12,971
 ==========================================================================
   VIN                     3VV1B7AX3MM025384
   odometer                94,996 mi
@@ -2445,7 +2551,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~136k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-51. 2018 Audi Q5 2.0T Premium Plus — $14,000
+53. 2018 Audi Q5 2.0T Premium Plus — $14,000
 ==========================================================================
   VIN                     WA1BNAFY3J2074736
   odometer                101,390 mi
@@ -2491,7 +2597,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~142k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-52. 2023 Buick Encore GX Select — $16,245
+54. 2023 Buick Encore GX Select — $16,245
 ==========================================================================
   VIN                     KL4MMDSL6PB120897
   odometer                716 mi
@@ -2536,7 +2642,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~41k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-53. 2022 Kia Niro EX — $17,115
+55. 2022 Kia Niro EX — $17,115
 ==========================================================================
   VIN                     KNDCD3LD3N5526960
   odometer                81,898 mi
@@ -2588,7 +2694,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~21 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-54. 2022 Kia Niro EX — $15,645
+56. 2022 Kia Niro EX — $15,645
 ==========================================================================
   VIN                     KNDCC3LG5N5142496
   odometer                62,812 mi
@@ -2641,7 +2747,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-55. 2019 Volkswagen e-Golf SE — $12,685
+57. 2019 Volkswagen e-Golf SE — $12,685
 ==========================================================================
   VIN                     WVWKR7AUXKW918489
   odometer                60,402 mi
@@ -2693,7 +2799,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~80 mi of range at 64% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-56. 2019 Chevrolet Bolt Premier — $19,950
+58. 2019 Chevrolet Bolt Premier — $19,950
 ==========================================================================
   VIN                     1G1FZ6S01K4100001
   odometer                2,165 mi
@@ -2748,7 +2854,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~201 mi of range at 85% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-57. 2020 Chevrolet Bolt LT — $13,990
+59. 2020 Chevrolet Bolt LT — $13,990
 ==========================================================================
   VIN                     1G1FY6S02L4122903
   odometer                98,213 mi
@@ -2803,7 +2909,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~206 mi of range at 79% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-58. 2019 BMW i3 s — $16,995
+60. 2019 BMW i3 s — $16,995
 ==========================================================================
   VIN                     WBY8P6C51K7E09726
   odometer                89,305 mi
@@ -2856,7 +2962,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~116 mi of range at 76% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-59. 2016 BMW i3 w/ Range Extender — $11,977
+61. 2016 BMW i3 w/ Range Extender — $11,977
 ==========================================================================
   VIN                     WBY1Z4C58GV506874
   odometer                65,498 mi
@@ -2908,7 +3014,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~53 mi of range at 73% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-60. 2022 Polestar Polestar 2 — $19,678
+62. 2022 Polestar Polestar 2 — $19,678
 ==========================================================================
   VIN                     LPSED3KA6NL056010
   odometer                75,657 mi
@@ -2960,7 +3066,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-61. 2015 BMW i3 w/ Range Extender — $11,995
+63. 2015 BMW i3 w/ Range Extender — $11,995
 ==========================================================================
   VIN                     WBY1Z4C53FV501807
   odometer                87,909 mi
@@ -3012,7 +3118,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~51 mi of range at 71% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-62. 2017 BMW 320i Sedan — $14,490
+64. 2017 BMW 320i Sedan — $14,490
 ==========================================================================
   VIN                     WBA8A9C56HK619680
   odometer                52,144 mi
@@ -3057,7 +3163,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~93k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-63. 2016 Mercedes-Benz GLA 250 4MATIC — $14,999
+65. 2016 Mercedes-Benz GLA 250 4MATIC — $14,999
 ==========================================================================
   VIN                     WDCTG4GB1GJ203842
   odometer                52,000 mi
@@ -3101,7 +3207,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~93k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-64. 2016 Audi A3 e-tron Prestige — $8,500
+66. 2016 Audi A3 e-tron Prestige — $8,500
 ==========================================================================
   VIN                     WAUSPBFFXGA083529
   odometer                120,249 mi
@@ -3152,7 +3258,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~11 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-65. 2016 BMW X5 xDrive40e — $11,858
+67. 2016 BMW X5 xDrive40e — $11,858
 ==========================================================================
   VIN                     5UXKT0C58G0S76006
   odometer                109,038 mi
@@ -3204,7 +3310,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~10 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-66. 2017 BMW X5 xDrive40e — $10,895
+68. 2017 BMW X5 xDrive40e — $10,895
 ==========================================================================
   VIN                     5UXKT0C3XH0V97934
   odometer                130,594 mi
@@ -3257,7 +3363,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~10 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-67. 2017 BMW X5 xDrive40e — $14,000
+69. 2017 BMW X5 xDrive40e — $14,000
 ==========================================================================
   VIN                     5UXKT0C38H0V97012
   odometer                74,000 mi
@@ -3310,7 +3416,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~10 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-68. 2017 BMW X5 xDrive40e — $10,990
+70. 2017 BMW X5 xDrive40e — $10,990
 ==========================================================================
   VIN                     5UXKT0C37H0V97616
   odometer                142,821 mi
@@ -3363,7 +3469,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~10 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-69. 2024 MINI Cooper SE — $16,895
+71. 2024 MINI Cooper SE — $16,895
 ==========================================================================
   VIN                     WMW13DJ09R2V91896
   odometer                17,617 mi
