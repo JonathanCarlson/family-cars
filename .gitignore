@@ -20,6 +20,9 @@ build/jordyn-feed.txt
 # Plaintext rosters. ONLY the encrypted blobs (data/*.enc.json) ship.
 build/cars.json
 build/jordyn.json
+# The complete market sweep, used only to build the feed. Same reasoning: it is
+# plaintext roster data and must not be committed.
+build/jordyn-all.json
 
 # Nightly backups written before each refresh.
 build/*.bak-*

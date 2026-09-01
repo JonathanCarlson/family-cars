@@ -26,6 +26,7 @@ import { rosterFeed, feedText } from './feed-json.mjs';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const SRC_JSON = join(__dirname, 'jordyn.json');
+const ALL_JSON = join(__dirname, 'jordyn-all.json');
 const OUT_DIR = join(ROOT, 'data');
 const OUT_FILE = join(OUT_DIR, 'jordyn.enc.json');
 const UNLOCK_FILE = join(OUT_DIR, 'jordyn.unlock.json');
@@ -114,7 +115,14 @@ const feed = resolveSecret({
   file: FEED_FILE, env: 'TRIP_JORDYN_FEED', rotate: ROTATE_FEED,
   generate: () => newToken(16), minLength: 16, label: 'build/jordyn-feed.txt',
 });
-const feedDoc = rosterFeed(data);
+const feedAll = (() => {
+  // The complete sweep is a separate file so it never lands in the encrypted
+  // page bundle — two thousand cars would undo the work that got the phone
+  // download down to ~1.3 MB. The feed has no such constraint.
+  if (!existsSync(ALL_JSON)) return null;
+  try { return JSON.parse(readFileSync(ALL_JSON, 'utf8')); } catch { return null; }
+})();
+const feedDoc = rosterFeed(data, feedAll);
 writeFeed({
   root: ROOT, token: feed.value, name: 'jordyn',
   files: {
@@ -123,6 +131,16 @@ writeFeed({
     md: rosterMarkdown(data, 'jordyn'),
   },
 });
+
+// The complete sweep, as its own endpoint and MINIFIED. Pretty-printing 2,974
+// records doubled the file for the benefit of a human reader who will never open
+// it — the audience here is a program.
+if (feedAll) {
+  writeFeed({
+    root: ROOT, token: feed.value, name: 'jordyn-all',
+    files: { json: JSON.stringify({ generated: feedAll.generated, count: feedAll.count, note: feedAll.note, cars: feedAll.cars }) },
+  });
+}
 
 const shareUrl = `${PUBLIC_BASE}/jordyn.html#k=${jKey}`;
 const feedUrl = `${PUBLIC_BASE}/feed/${feed.value}/jordyn`;

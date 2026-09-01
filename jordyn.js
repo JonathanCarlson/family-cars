@@ -310,10 +310,18 @@ function carCard(c) {
 }
 
 // ---------- filters / sort ----------
+// Shortlist cars nest safety under `c.safety`; browse rows carry it flat to keep
+// the payload small. Reading only the nested shape meant every safety filter
+// silently matched nothing in the browse view — no error, just an empty list.
+const aebOf = (c) => c.safety?.aeb ?? c.aeb ?? null;
+const bsmOf = (c) => c.safety?.bsm ?? c.bsm ?? null;
+const vinConfirmed = (c) => (c.safety ? c.safety.aebSource === 'vin' || c.safety.bsmSource === 'vin'
+  : c.aebSource === 'vin' || c.bsmSource === 'vin');
+
 const FACET_DEFS = [
-  { id: 'safety', label: 'Safety', opts: [['confirmed', '✅ AEB standard'], ['vin', '🔎 Confirmed by VIN'], ['verify', '⚠️ Verify AEB']], test: (c, v) => (v === 'vin' ? c.safety?.aebSource === 'vin' || c.safety?.bsmSource === 'vin' : c.tier === v) },
+  { id: 'safety', label: 'Safety', opts: [['confirmed', '✅ AEB standard'], ['vin', '🔎 Confirmed by VIN'], ['verify', '⚠️ Verify AEB']], test: (c, v) => (v === 'vin' ? vinConfirmed(c) : c.tier === v) },
   { id: 'power', label: 'Power', opts: [['BEV', '⚡ Electric'], ['PHEV', '🔌 Plug-in'], ['HYB', '🍃 Hybrid'], ['ICE', '⛽ Gas']], test: (c, v) => c.power === v },
-  { id: 'bsm', label: 'Blind-spot', opts: [['any', 'Available']], test: (c) => c.safety?.bsm === 'standard' || c.safety?.bsm === 'trim' },
+  { id: 'bsm', label: 'Blind-spot', opts: [['any', 'Available']], test: (c) => bsmOf(c) === 'standard' || bsmOf(c) === 'trim' },
   // Budget is now a range rather than a wall: $15k is the target, but the search
   // runs to $22k so cost-to-own can argue for a pricier car that's cheaper to
   // live with. These let you see whether that argument holds.
@@ -420,6 +428,7 @@ function render() {
   renderControls();
   renderList();
   renderInsights();
+  renderPicks();
   renderGuide();
   renderTally();
   wireDelegates();
@@ -526,8 +535,15 @@ function assumptionsBlock(a) {
 }
 
 function renderControls() {
+  // The sort control only means something in the browse view — the shortlist is
+  // grouped by category, each already ordered by its own criterion. Showing the
+  // dropdown in both views while it only worked in one is why sorting "didn't
+  // work": it was being changed on a list that ignores it.
+  const sortSel = VIEW === 'browse'
+    ? `<label class="sortlbl">Sort <select id="sort-sel">${SORTS.map((s) => `<option value="${s.id}"${s.id === SORT ? ' selected' : ''}>${s.label}</option>`).join('')}</select></label>`
+    : '<span class="sortlbl">Grouped by what you might be optimising for</span>';
   $('#sortbar').innerHTML = `
-    <label class="sortlbl">Sort <select id="sort-sel">${SORTS.map((s) => `<option value="${s.id}"${s.id === SORT ? ' selected' : ''}>${s.label}</option>`).join('')}</select></label>
+    ${sortSel}
     <div class="horizon" role="group" aria-label="Cost window">
       <button type="button" class="hz${HORIZON === 2 ? ' on' : ''}" data-hz="2">2 yr · Jordyn</button>
       <button type="button" class="hz${HORIZON === 6 ? ' on' : ''}" data-hz="6">6 yr · thru Emma</button>
@@ -644,6 +660,89 @@ function renderInsights() {
   el.innerHTML = parts.join('');
 }
 
+/**
+ * Jordyn's own picks, with the analysis they deserve.
+ *
+ * The point of this tab is NOT to overrule her. It is to put her taste and the
+ * cost model side by side and quantify the gap, so the conversation is about a
+ * number rather than about who is right. Her picks never touch the ranking or
+ * any cost figure — they are analysed by exactly the same model as every other
+ * car, which is the only reason the comparison means anything.
+ */
+function renderPicks() {
+  const el = $('#picks-body');
+  if (!el) return;
+  const p = DATA.picks;
+  if (!p) { el.innerHTML = '<p class="empty">No picks recorded yet.</p>'; return; }
+  const byVin = new Map((DATA.cars || []).map((c) => [c.vin, c]));
+  const parts = [];
+
+  const cmp = p.comparison;
+  if (cmp?.headline) {
+    const h = cmp.hers; const a = cmp.algorithm; const d = cmp.deltas;
+    const row = (label, hv, av, dv, invert = false) => {
+      const worse = invert ? dv < 0 : dv > 0;
+      return `<tr><th>${esc(label)}</th><td>${money(hv)}</td><td>${money(av)}</td>
+        <td class="${Math.abs(dv) < 200 ? '' : worse ? 'dlt-bad' : 'dlt-good'}">${dv > 0 ? '+' : ''}${money(dv)}</td></tr>`;
+    };
+    parts.push(`<div class="card">
+      <h2 class="ins-h">👤 What Jordyn's taste costs</h2>
+      <p class="ins-verdict">${esc(cmp.headline)}</p>
+      <table class="assump-tbl band-tbl">
+        <tr><th></th><th>Her picks</th><th>The numbers'</th><th>Difference</th></tr>
+        ${row('6-year cost to own', h.medianTco6, a.medianTco6, d.tco6)}
+        ${row('2-year cost (Jordyn only)', h.medianTco2, a.medianTco2, d.tco2)}
+        ${row('Fuel / charging', h.fuel, a.fuel, d.fuel)}
+        ${row('Maintenance', h.maintenance, a.maintenance, d.maintenance)}
+        ${row('Major repairs (expected)', h.repairs, a.repairs, d.repairs)}
+        ${row('Insurance', h.insurance, a.insurance, d.insurance)}
+        ${row('Resale lost', h.depreciation, a.depreciation, d.depreciation)}
+      </table>
+      <table class="assump-tbl band-tbl">
+        <tr><th>Safety</th><th>Her picks</th><th>The numbers'</th></tr>
+        <tr><th>AEB standard</th><td>${h.aebStandard}/${h.n}</td><td>${a.aebStandard}/${a.n}</td></tr>
+        <tr><th>IIHS Top Safety Pick</th><td>${h.topSafetyPick}/${h.n}</td><td>${a.topSafetyPick}/${a.n}</td></tr>
+        <tr><th>Electric or plug-in</th><td>${h.electrified}/${h.n}</td><td>${a.electrified}/${a.n}</td></tr>
+        <tr><th>Reliability flagged</th><td>${h.reliabilityConcern}/${h.n}</td><td>${a.reliabilityConcern}/${a.n}</td></tr>
+      </table>
+      <p class="tco-note">${esc(p.disclaimer)}</p>
+    </div>`);
+  }
+
+  // Her individual picks.
+  const entries = p.entries || [];
+  const cards = entries.map((e) => {
+    const c = e.vin ? byVin.get(e.vin) : null;
+    const title = `${e.year} ${e.make} ${e.model}${e.trim ? ` ${e.trim}` : ''}`;
+    if (!c) {
+      return `<div class="card"><div class="brow-t">${esc(title)}</div>
+        <p class="fineprint">Nothing like this is in the current search — it may have sold, or it sits outside the price, year or mileage limits.</p></div>`;
+    }
+    const matchNote = e.match === 'exact-listing'
+      ? 'This is the exact car she sent.'
+      : e.match === 'same-model-year'
+        ? 'Her exact listing is no longer in the sweep; this is the closest same-year example currently for sale.'
+        : 'Her exact listing is gone; this is the closest equivalent currently for sale.';
+    return `<div class="pick-wrap">
+      <p class="fineprint">📌 <b>${esc(title)}</b> — ${esc(matchNote)}</p>
+      ${carCard(c)}
+    </div>`;
+  }).join('');
+  parts.push(`<div class="card"><h2 class="ins-h">Her nine picks, costed</h2>
+    <p class="tier-blurb">Each resolved against live inventory and run through the same model as everything else.</p></div>${cards}`);
+
+  // The overlap: premium badges that are also cheap to run.
+  const lux = DATA.luxuryEvs;
+  if (lux?.vins?.length) {
+    const cars = lux.vins.map((v) => byVin.get(v)).filter(Boolean);
+    if (cars.length) {
+      parts.push(`<div class="card"><h2 class="ins-h">${esc(lux.title)}</h2>
+        <p class="tier-blurb">${esc(lux.why)}</p></div>${cars.map(carCard).join('')}`);
+    }
+  }
+
+  el.innerHTML = parts.join('');
+}
 /** The shortlist tab — a few cars per question, for the family to vote on. */
 function renderShortlist() {
   const grid = $('#cars-grid');
@@ -674,9 +773,9 @@ function browseRow(c) {
   const vote = VOTES[c.vin];
   const note = COMMENTS[c.vin] || '';
   const tags = [];
-  if (c.aeb === 'standard') tags.push('<span class="sb sb-ok">AEB</span>');
-  else if (c.aeb === 'trim') tags.push('<span class="sb sb-warn">AEB?</span>');
-  if (c.bsm === 'standard') tags.push('<span class="sb sb-ok">BSM</span>');
+  if (aebOf(c) === 'standard') tags.push('<span class="sb sb-ok">AEB</span>');
+  else if (aebOf(c) === 'trim') tags.push('<span class="sb sb-warn">AEB?</span>');
+  if (bsmOf(c) === 'standard') tags.push('<span class="sb sb-ok">BSM</span>');
   if (c.salvage === true) tags.push('<span class="sb sb-bad">🚨 Salvage</span>');
   if (c.reliability === 'concern') tags.push('<span class="sb sb-warn">Reliability</span>');
   if (c.overPreferredBudget) tags.push('<span class="sb sb-warn">Over $15k</span>');
@@ -767,10 +866,12 @@ function renderTally() {
 // ---------- tabs ----------
 function switchTab(name) {
   $('#panel-cars').hidden = name !== 'cars';
+  $('#panel-picks').hidden = name !== 'picks';
   $('#panel-insights').hidden = name !== 'insights';
   $('#panel-guide').hidden = name !== 'guide';
   document.querySelectorAll('#tabbar .tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === name));
-  $('#sendbar').hidden = name !== 'cars';
+  // The send bar follows the votable views — her picks are votable too.
+  $('#sendbar').hidden = !(name === 'cars' || name === 'picks');
   window.scrollTo(0, 0);
 }
 
@@ -787,8 +888,9 @@ function wireDelegates() {
     if (vw) {
       VIEW = vw.dataset.view;
       document.querySelectorAll('#viewbar .vw').forEach((b) => b.classList.toggle('on', b.dataset.view === VIEW));
-      // Filters only make sense over the long tail; the shortlist is curated.
-      $('#filterbar').hidden = VIEW !== 'browse';
+      // Filters and sort only make sense over the long tail; the shortlist is
+      // curated and grouped.
+      renderControls();
       renderList();
       return;
     }

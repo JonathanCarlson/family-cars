@@ -189,6 +189,13 @@
 .brow .actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
 .brow .note-input { margin-top: 8px; }
 .band-tbl td.thin { color: var(--muted); }
+/* Delta colouring on the picks comparison. Green/red here means "cheaper/dearer
+   than the algorithm's picks", never "good/bad car" — she is allowed to want an
+   expensive car, the page just has to say what it costs. */
+.dlt-bad { color: #ff9a9a; font-weight: 600; }
+.dlt-good { color: #8fd8a0; font-weight: 600; }
+.pick-wrap { margin-bottom: 4px; }
+.pick-wrap > .fineprint { margin: 10px 0 4px; }
 
     /* ---- TCO disclosure ---- */
     .tco { margin-top: 10px; background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; }
@@ -310,6 +317,7 @@
 
     <nav id="tabbar" class="tabbar" hidden>
       <button class="tab active" type="button" data-tab="cars">🚗 The cars</button>
+      <button class="tab" type="button" data-tab="picks">👤 Jordyn's picks</button>
       <button class="tab" type="button" data-tab="insights">📊 What the data says</button>
       <button class="tab" type="button" data-tab="guide">📋 Buyer's guide</button>
     </nav>
@@ -332,6 +340,10 @@
         <div id="insights-body"></div>
       </section>
 
+      <section id="panel-picks" class="panel" hidden>
+        <div id="picks-body"></div>
+      </section>
+
       <section id="panel-guide" class="panel" hidden>
         <div id="guide"></div>
       </section>
@@ -349,6 +361,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=3"></script>
-  <script src="jordyn.js?v=13"></script>
+  <script src="jordyn.js?v=14"></script>
 </body>
 </html>

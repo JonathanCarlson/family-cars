@@ -293,7 +293,7 @@ function listingOf(c) {
  * Build the full feed document.
  * @param {object} data the decrypted roster (build/jordyn.json)
  */
-export function rosterFeed(data) {
+export function rosterFeed(data, allCars = null) {
   const a = data.assumptions || {};
   const cars = data.cars || [];
   const listings = cars.map(listingOf);
@@ -333,11 +333,18 @@ export function rosterFeed(data) {
   return {
     feed: {
       name: 'jordyn-first-car',
-      schemaVersion: '1.1',
+      schemaVersion: '1.3',
       generatedAt: new Date().toISOString(),
       rosterUpdated: data.updated || null,
       listingCount: cars.length,
-      purpose: 'Used cars under $15,000 near Bellevue WA, screened for teen-driver safety and ranked on total cost to own.',
+      purpose: 'Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.',
+      budget: {
+        preferredUsd: data.budget?.preferred ?? 15000,
+        searchedToUsd: data.budget?.searchedTo ?? 22000,
+        note: '$15k is the preferred target, but discovery runs to the ceiling so cost-to-own can argue for a dearer car rather than a price rule excluding it. Cars above the target carry overPreferredBudget: true.',
+      },
+      searchRadiusMi: 250,
+      discovery: 'No model whitelist and no safety filter at the query — option data in listing feeds is patchy, so filtering on "has AEB" would silently drop qualifying cars. Discovery is broad; safety is verified afterwards from the VIN.',
       refresh: 'Regenerated nightly from live Autotrader inventory. Listings appear and sell quickly — always confirm against sourceUrl before acting.',
       howToReadThis: [
         'null means UNKNOWN and is always distinct from false. Never render a null as a negative.',
@@ -346,6 +353,9 @@ export function rosterFeed(data) {
         'reliability lives in reliabilityByModelYear, keyed by listing.reliabilityKey. It is model-year scope and says nothing about the condition of the individual car.',
         'vehicleHistory badges are affirming/negating pairs; null means not reported, NOT the negative.',
         'Start from shortlists.topOverall and shortlists.topElectric — the full listings array is long.',
+        'listings[] holds full detail for the shortlisted cars. Every car the sweep found is in the companion file jordyn-all.json (see allCars.url) — use it for market-wide questions.',
+        'marketAnalysis is where the population-level answers live: cohorts (model + generation + powertrain + battery, NOT model name), a safety-gated primary ranking, opportunities found from the data, and the methodology needed to challenge any of it.',
+        'Safety is a GATE, not a weight. marketAnalysis.safetyFirst excludes a car only when AEB is CONFIRMED ABSENT — never when it is merely unverified.',
         'All money is US dollars, whole units. All distances are miles.',
       ],
       canonicalPage: 'https://jonathancarlson.github.io/family-cars/jordyn.html',
@@ -396,6 +406,29 @@ export function rosterFeed(data) {
 
     reliabilityByModelYear,
     repairHazardCatalog: hazardCatalog(cars),
+
+    // The COMPLETE market sweep, slim. `listings` above holds the few dozen cars
+    // with full detail; this is everything the nightly scan found, so a question
+    // like "what else is out there under $12k with AEB?" can be answered from the
+    // feed instead of from a curated subset.
+    allCars: allCars
+      ? {
+        count: allCars.count,
+        generated: allCars.generated,
+        note: `${allCars.note} Fields are flat: aeb/bsm rather than a nested safety object, and tco2/tco6 are plain dollar totals rather than breakdowns.`,
+        // Served as its OWN file. Inlining 2,974 records made this document 5 MB,
+        // which is large enough that the clients it exists for start truncating
+        // it — and a silently truncated feed is worse than a second URL.
+        url: './jordyn-all.json',
+        cars: undefined,
+      }
+      : null,
+
+    // Everything needed to interrogate the whole market rather than our
+    // shortlist: cohorts grouped so they're actually comparable, a safety-gated
+    // primary ranking, opportunities found from the data, and the methodology
+    // to challenge any of it.
+    marketAnalysis: allCars?.marketAnalysis ?? null,
 
     costAssumptions: {
       note: 'These are the INPUTS to every costToOwn figure. Change one and every total moves.',
