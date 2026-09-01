@@ -19,13 +19,18 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { webcrypto as crypto } from 'node:crypto';
+import { buildUnlockBlob, newPassphrase, newToken, resolveSecret, writeFeed } from './car-access.mjs';
+import { rosterMarkdown } from './feed-markdown.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const SRC_JSON = join(__dirname, 'jordyn.json');
 const OUT_DIR = join(ROOT, 'data');
 const OUT_FILE = join(OUT_DIR, 'jordyn.enc.json');
+const UNLOCK_FILE = join(OUT_DIR, 'jordyn.unlock.json');
 const KEY_FILE = join(__dirname, 'jordyn-key.txt');
+const PASS_FILE = join(__dirname, 'jordyn-pass.txt');
+const FEED_FILE = join(__dirname, 'jordyn-feed.txt');
 
 const ITERATIONS = 250000;
 const subtle = crypto.subtle;
@@ -33,6 +38,8 @@ const enc = new TextEncoder();
 const b64 = (u8) => Buffer.from(u8).toString('base64');
 const argv = process.argv.slice(2);
 const ROTATE = argv.includes('--rotate');
+const ROTATE_PASS = ROTATE || argv.includes('--rotate-pass');
+const ROTATE_FEED = ROTATE || argv.includes('--rotate-feed');
 const PUBLIC_BASE = 'https://jonathancarlson.github.io/family-cars';
 
 function newKey() {
@@ -93,7 +100,26 @@ mkdirSync(OUT_DIR, { recursive: true });
 const payload = await encryptJsonPayload(data);
 writeFileSync(OUT_FILE, JSON.stringify(payload));
 
+// ── Alternate way in #1: a sayable passphrase ────────────────────────────────
+// Wraps the SAME key, so this is additive — every link already texted still works.
+const pass = resolveSecret({
+  file: PASS_FILE, env: 'TRIP_JORDYN_PASS', rotate: ROTATE_PASS,
+  generate: () => newPassphrase(5), minLength: 8, label: 'build/jordyn-pass.txt',
+});
+writeFileSync(UNLOCK_FILE, JSON.stringify(await buildUnlockBlob(jKey, pass.value)));
+
+// ── Alternate way in #2: a plaintext feed for non-browser clients ────────────
+const feed = resolveSecret({
+  file: FEED_FILE, env: 'TRIP_JORDYN_FEED', rotate: ROTATE_FEED,
+  generate: () => newToken(16), minLength: 16, label: 'build/jordyn-feed.txt',
+});
+writeFeed({
+  root: ROOT, token: feed.value, name: 'jordyn',
+  json: data, markdown: rosterMarkdown(data, 'jordyn'),
+});
+
 const shareUrl = `${PUBLIC_BASE}/jordyn.html#k=${jKey}`;
+const feedUrl = `${PUBLIC_BASE}/feed/${feed.value}/jordyn`;
 
 console.log('');
 console.log('🚗  Jordyn\'s car page — bundle built');
@@ -103,4 +129,11 @@ console.log(`    bundle     : data/jordyn.enc.json  (${payload.ct.length} b64 ch
 console.log('');
 console.log('    SHAREABLE LINK (grants Jordyn\'s car list only):');
 console.log(`    ${shareUrl}`);
+console.log('');
+console.log(`    PASSPHRASE (type it into the page if the link has no #k=) — ${pass.source}:`);
+console.log(`    ${pass.value}`);
+console.log('');
+console.log('    MACHINE-READABLE FEED — plaintext, no JS needed, for server-side fetchers:');
+console.log(`    ${feedUrl}.md      (best for an LLM)`);
+console.log(`    ${feedUrl}.json    (structured)`);
 console.log('');

@@ -27,13 +27,18 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { webcrypto as crypto } from 'node:crypto';
+import { buildUnlockBlob, newPassphrase, newToken, resolveSecret, writeFeed } from './car-access.mjs';
+import { rosterMarkdown } from './feed-markdown.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const CARS_JSON = join(__dirname, 'cars.json');
 const OUT_DIR = join(ROOT, 'data');
 const OUT_FILE = join(OUT_DIR, 'cars.enc.json');
+const UNLOCK_FILE = join(OUT_DIR, 'cars.unlock.json');
 const KEY_FILE = join(__dirname, 'cars-key.txt');
+const PASS_FILE = join(__dirname, 'cars-pass.txt');
+const FEED_FILE = join(__dirname, 'cars-feed.txt');
 
 const ITERATIONS = 250000;
 const subtle = crypto.subtle;
@@ -41,6 +46,8 @@ const enc = new TextEncoder();
 const b64 = (u8) => Buffer.from(u8).toString('base64');
 const argv = process.argv.slice(2);
 const ROTATE = argv.includes('--rotate');
+const ROTATE_PASS = ROTATE || argv.includes('--rotate-pass');
+const ROTATE_FEED = ROTATE || argv.includes('--rotate-feed');
 const PUBLIC_BASE = 'https://jonathancarlson.github.io/family-cars';
 
 // --- Resolve the car key (env > key file > generate) ----------------------
@@ -108,7 +115,24 @@ mkdirSync(OUT_DIR, { recursive: true });
 const payload = await encryptJsonPayload(data);
 writeFileSync(OUT_FILE, JSON.stringify(payload));
 
+// Alternate ways in — see build/car-access.mjs for why each exists.
+const pass = resolveSecret({
+  file: PASS_FILE, env: 'TRIP_CARS_PASS', rotate: ROTATE_PASS,
+  generate: () => newPassphrase(5), minLength: 8, label: 'build/cars-pass.txt',
+});
+writeFileSync(UNLOCK_FILE, JSON.stringify(await buildUnlockBlob(carKey, pass.value)));
+
+const feed = resolveSecret({
+  file: FEED_FILE, env: 'TRIP_CARS_FEED', rotate: ROTATE_FEED,
+  generate: () => newToken(16), minLength: 16, label: 'build/cars-feed.txt',
+});
+writeFeed({
+  root: ROOT, token: feed.value, name: 'cars',
+  json: data, markdown: rosterMarkdown(data, 'cars'),
+});
+
 const shareUrl = `${PUBLIC_BASE}/cars.html#k=${carKey}`;
+const feedUrl = `${PUBLIC_BASE}/feed/${feed.value}/cars`;
 
 console.log('');
 console.log('🚗  Kate\'s car page — bundle built');
@@ -122,3 +146,10 @@ console.log('');
 console.log('    The token after #k= is the access key AND the decryption key. Anyone with');
 console.log('    the full link sees the cars; without it, data/cars.enc.json is unreadable.');
 console.log('    It CANNOT unlock the France itinerary, tickets, or contacts.');
+console.log('');
+console.log(`    PASSPHRASE (type it into the page if the link has no #k=) — ${pass.source}:`);
+console.log(`    ${pass.value}`);
+console.log('');
+console.log('    MACHINE-READABLE FEED — plaintext, no JS needed, for server-side fetchers:');
+console.log(`    ${feedUrl}.md      (best for an LLM)`);
+console.log(`    ${feedUrl}.json    (structured)`);

@@ -20,6 +20,7 @@ let DATA = null;
 
 const APP = createCarApp({
   dataUrl: 'data/jordyn.enc.json',
+  unlockUrl: 'data/jordyn.unlock.json',
   storagePrefix: 'jordyn-cars',
   publicUrl: JORDYN_PUBLIC_URL,
   shareTitle: "Jordyn's first car",

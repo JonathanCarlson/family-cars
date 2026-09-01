@@ -28,10 +28,27 @@ const b64ToU8 = (b64) => Uint8Array.from(atob(b64), (c) => c.charCodeAt(0));
 // both pages.
 
 /**
+ * Fold what a human typed onto what the build encrypted under, so "Otter Cedar"
+ * and "otter-cedar" are the same secret.
+ *
+ * ⚠️ This MUST stay byte-identical to normalizePass() in build/car-access.mjs.
+ * If they drift, the passphrase silently stops working while the `#k=` key keeps
+ * working — a half-broken state nobody notices until someone is locked out.
+ */
+function normalizePass(s) {
+  return String(s ?? '')
+    .normalize('NFKC')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+/**
  * Build the shared app shell.
  *
  * @param {object} cfg
  * @param {string} cfg.dataUrl     encrypted bundle, e.g. 'data/cars.enc.json'
+ * @param {string} cfg.unlockUrl   passphrase→key blob, e.g. 'data/cars.unlock.json'
  * @param {string} cfg.storagePrefix  localStorage namespace, e.g. 'kate-cars'
  * @param {string} cfg.publicUrl   canonical page URL used to build share links
  * @param {string} cfg.shareTitle  title for the native share sheet
@@ -70,6 +87,37 @@ function createCarApp(cfg) {
       app.DATA = await decryptPayload(await res.json());
       return true;
     } catch { return false; }
+  }
+
+  /**
+   * Second way in: a short spoken passphrase.
+   *
+   * The roster is NOT re-encrypted under the passphrase. A tiny separate blob
+   * holds the real key encrypted under the phrase; we unwrap it and then take the
+   * ordinary decrypt path. So there is exactly one encrypted roster and one key,
+   * the phrase can be rotated without rebuilding anything, and — importantly —
+   * app.KEY ends up holding the REAL key, which is what the Share button needs
+   * to hand out a working link.
+   *
+   * Returns the unwrapped key, or null if the phrase was wrong.
+   */
+  async function unwrapWithPassphrase(phrase) {
+    if (!cfg.unlockUrl) return null;
+    try {
+      const res = await fetch(cfg.unlockUrl, { cache: 'no-cache' });
+      if (!res.ok) return null;
+      const blob = await res.json();
+      const km = await crypto.subtle.importKey(
+        'raw', new TextEncoder().encode(normalizePass(phrase)), 'PBKDF2', false, ['deriveKey'],
+      );
+      const key = await crypto.subtle.deriveKey(
+        { name: 'PBKDF2', salt: b64ToU8(blob.salt), iterations: blob.kdf.iterations, hash: blob.kdf.hash },
+        km, { name: 'AES-GCM', length: 256 }, false, ['decrypt'],
+      );
+      const buf = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: b64ToU8(blob.iv) }, key, blob.ct ? b64ToU8(blob.ct) : new Uint8Array());
+      const unwrapped = new TextDecoder().decode(buf).trim();
+      return unwrapped || null;
+    } catch { return null; }
   }
 
   // ---------- local state ----------
@@ -147,9 +195,28 @@ function createCarApp(cfg) {
     const err = $('#gate-error');
     err.hidden = true;
     if (!code) return;
+    const btn = $('#gate-btn');
+    const label = btn.textContent;
+    btn.textContent = 'Opening…';
+    btn.disabled = true;
+
+    // Try what was typed as a raw key first — that path is one fetch and no key
+    // derivation beyond the roster's own. Only if it fails do we treat the input
+    // as a passphrase, which costs a deliberately slow 600k-iteration PBKDF2 and
+    // can take a second or two on a phone.
     app.KEY = code;
-    $('#gate-btn').textContent = 'Opening…';
-    if (await tryLoadData()) {
+    let ok = await tryLoadData();
+    if (!ok) {
+      btn.textContent = 'Checking passphrase…';
+      const unwrapped = await unwrapWithPassphrase(code);
+      if (unwrapped) {
+        app.KEY = unwrapped;
+        ok = await tryLoadData();
+      }
+    }
+
+    btn.disabled = false;
+    if (ok) {
       rememberKey(app.KEY);
       $('#gate').hidden = true;
       openApp(true);
@@ -157,7 +224,7 @@ function createCarApp(cfg) {
       app.KEY = null;
       err.textContent = cfg.gateFail || 'That code didn’t work. Check it and try again.';
       err.hidden = false;
-      $('#gate-btn').textContent = 'View cars';
+      btn.textContent = label;
     }
   }
 
@@ -169,6 +236,18 @@ function createCarApp(cfg) {
   async function openApp(alreadyLoaded) {
     $('#app').hidden = false;
     if (!alreadyLoaded && !(await tryLoadData())) {
+      // Before giving up, allow the thing we were handed to be a PASSPHRASE
+      // rather than a key — people paste `#k=<phrase>` from a text message, and
+      // the remembered value may predate a key rotation.
+      const unwrapped = app.KEY ? await unwrapWithPassphrase(app.KEY) : null;
+      if (unwrapped) {
+        app.KEY = unwrapped;
+        if (await tryLoadData()) {
+          rememberKey(app.KEY);
+          finishOpen();
+          return;
+        }
+      }
       // The key we were handed does not decrypt this page's bundle — e.g. the
       // OTHER roster's link, or a rotated key. Do NOT leave it in localStorage:
       // a known-bad remembered key would then be retried on the next visit.
@@ -180,6 +259,11 @@ function createCarApp(cfg) {
       showGate();
       return;
     }
+    finishOpen();
+  }
+
+  function finishOpen() {
+    $('#app').hidden = false;
     // Only remember a key once it has actually opened the data.
     if (app.KEY) rememberKey(app.KEY);
     // Wire the share button here — it only makes sense once a key is known.

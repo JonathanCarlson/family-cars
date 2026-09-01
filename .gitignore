@@ -9,6 +9,14 @@
 build/cars-key.txt
 build/jordyn-key.txt
 
+# Spoken passphrases (the alternate way in when a link loses its #fragment) and
+# the feed tokens that form the unguessable plaintext-feed URLs. Same reasoning:
+# publishing either one would hand over the roster.
+build/cars-pass.txt
+build/jordyn-pass.txt
+build/cars-feed.txt
+build/jordyn-feed.txt
+
 # Plaintext rosters. ONLY the encrypted blobs (data/*.enc.json) ship.
 build/cars.json
 build/jordyn.json

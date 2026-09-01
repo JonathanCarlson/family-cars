@@ -243,9 +243,9 @@
     <div class="lock-card">
       <div class="lock-flag">🚗 ⚡ 🔋</div>
       <h1>Mach-E shortlist</h1>
-      <p class="muted">Enter the code to see the cars.</p>
+      <p class="muted">Enter the code <em>or</em> the passphrase to see the cars.</p>
       <form id="gate-form" autocomplete="off">
-        <input id="gate-code" type="password" inputmode="text" placeholder="Access code"
+        <input id="gate-code" type="password" inputmode="text" placeholder="Access code or passphrase"
                autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="go" />
         <button type="submit" id="gate-btn">View cars</button>
         <p id="gate-error" class="error" hidden></p>
@@ -294,7 +294,7 @@
        Bump this whenever cars.js changes. -->
   <!-- car-common.js holds the shell shared with jordyn.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
-  <script src="car-common.js?v=2"></script>
-  <script src="cars.js?v=15"></script>
+  <script src="car-common.js?v=3"></script>
+  <script src="cars.js?v=16"></script>
 </body>
 </html>

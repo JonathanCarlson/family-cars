@@ -252,9 +252,9 @@
   <section id="gate" hidden>
     <div style="font-size:44px">🚗</div>
     <h1>Jordyn's first car</h1>
-    <p style="color:var(--muted);font-size:14px">Enter the access code to see the list.</p>
+    <p style="color:var(--muted);font-size:14px">Enter the access code <em>or</em> the passphrase to see the list.</p>
     <form id="gate-form">
-      <input id="gate-code" type="password" placeholder="Access code" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" />
+      <input id="gate-code" type="password" placeholder="Access code or passphrase" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" />
       <button id="gate-btn" type="submit">View cars</button>
       <p id="gate-error" hidden></p>
     </form>
@@ -300,7 +300,7 @@
        Bump this whenever jordyn.js changes. -->
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
-  <script src="car-common.js?v=2"></script>
+  <script src="car-common.js?v=3"></script>
   <script src="jordyn.js?v=7"></script>
 </body>
 </html>

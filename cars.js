@@ -28,6 +28,7 @@ let DATA = null;
 
 const APP = createCarApp({
   dataUrl: 'data/cars.enc.json',
+  unlockUrl: 'data/cars.unlock.json',
   storagePrefix: 'kate-cars',
   publicUrl: CARS_PUBLIC_URL,
   shareTitle: "Kate's Mach-E shortlist",

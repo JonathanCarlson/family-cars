@@ -1,0 +1,9 @@
+# The car pages are public files whose privacy comes from an access key, and the
+# /feed/ paths are unguessable capability URLs holding PLAINTEXT rosters. Neither
+# should end up in a search index — being crawled is exactly how an "unguessable"
+# URL stops being unguessable.
+#
+# This is a courtesy signal to well-behaved crawlers, NOT a security control.
+User-agent: *
+Disallow: /feed/
+Disallow: /data/
