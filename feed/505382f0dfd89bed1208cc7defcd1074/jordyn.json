@@ -1,8 +1,8 @@
 {
   "feed": {
     "name": "jordyn-first-car",
-    "schemaVersion": "1.3",
-    "generatedAt": "2026-09-01T15:28:02.263Z",
+    "schemaVersion": "1.4",
+    "generatedAt": "2026-09-01T15:43:59.522Z",
     "rosterUpdated": "2026-09-01",
     "listingCount": 74,
     "purpose": "Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.",
@@ -24,6 +24,7 @@
       "listings[] holds full detail for the shortlisted cars. Every car the sweep found is in the companion file jordyn-all.json (see allCars.url) — use it for market-wide questions.",
       "marketAnalysis is where the population-level answers live: cohorts (model + generation + powertrain + battery, NOT model name), a safety-gated primary ranking, opportunities found from the data, and the methodology needed to challenge any of it.",
       "Safety is a GATE, not a weight. marketAnalysis.safetyFirst excludes a car only when AEB is CONFIRMED ABSENT — never when it is merely unverified.",
+      "jordynPicks is what SHE chose, scored with the same model as everything else. It is never a filter on the rankings. Read entries[].delta against jordynPicks.baseline, and weight `stated` picks above `thumbed` ones.",
       "All money is US dollars, whole units. All distances are miles."
     ],
     "canonicalPage": "https://jonathancarlson.github.io/family-cars/jordyn.html",
@@ -414,6 +415,503 @@
           "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789625640"
         }
       ]
+    }
+  },
+  "jordynPicks": {
+    "note": "These are not a filter and they do not affect any ranking or cost figure. They are analysed with exactly the same model as every other car so the two views can be compared honestly.",
+    "tiers": {
+      "stated": {
+        "label": "Asked for unprompted",
+        "weight": 1,
+        "note": "Sent over iMessage after going looking herself. The strongest read on what she actually wants."
+      },
+      "thumbed": {
+        "label": "👍 from the earlier short list",
+        "weight": 0.4,
+        "note": "Thumbs-up given when the roster was ~120 cars rather than ~3,000. Good evidence she would ACCEPT these; weak evidence she prefers them, because the menu chose most of it for her."
+      }
+    },
+    "tasteProfile": {
+      "suvShare": 0.7796610169491525,
+      "upscaleShare": 0.33898305084745756,
+      "electrifiedShare": 0.16949152542372878,
+      "favouredMakes": [
+        {
+          "make": "Jeep",
+          "weight": 3
+        },
+        {
+          "make": "Audi",
+          "weight": 1
+        },
+        {
+          "make": "Chevrolet",
+          "weight": 1
+        },
+        {
+          "make": "Jaguar",
+          "weight": 1
+        },
+        {
+          "make": "Volkswagen",
+          "weight": 1
+        },
+        {
+          "make": "BMW",
+          "weight": 1
+        },
+        {
+          "make": "Mercedes-Benz",
+          "weight": 1
+        },
+        {
+          "make": "Kia",
+          "weight": 0.8
+        },
+        {
+          "make": "Ford",
+          "weight": 0.8
+        },
+        {
+          "make": "Honda",
+          "weight": 0.4
+        },
+        {
+          "make": "MAZDA",
+          "weight": 0.4
+        },
+        {
+          "make": "Hyundai",
+          "weight": 0.4
+        }
+      ],
+      "medianYear": 2019,
+      "basis": "Weighted across 16 picks: 9 she asked for unprompted (full weight) and 7 thumbed from the earlier short list (0.4 weight, because that menu chose most of it for her)."
+    },
+    "baseline": {
+      "vin": "1N4AZ1BV8PC559108",
+      "name": "2023 Nissan Leaf S",
+      "priceUsd": 13488,
+      "sixYearTco": 31387,
+      "why": "The highest-scoring Nissan Leaf that has automatic braking confirmed standard and a clean title — the car this analysis keeps recommending. Chosen from the data, so if something displaces it the yardstick moves. Deliberately not the cheapest car in the sweep: measuring everything against a bargain-basement example makes every alternative look absurd and stops the comparison discriminating."
+    },
+    "deltaNote": "sixYearDelta is this car MINUS the baseline, so positive = dearer to own. safetyDelta counts confirmed safety equipment relative to the baseline; a negative value with a non-empty safetyUnverified means the gap may be missing data rather than a missing feature.",
+    "entries": [
+      {
+        "tier": "stated",
+        "tierWeight": 1,
+        "name": "2018 Audi Q5 2.0T Premium Plus",
+        "askedPriceUsd": 14199,
+        "vin": "WA1BNAFY3J2074736",
+        "matchQuality": "same-model-year",
+        "delta": {
+          "sixYearDelta": 15936,
+          "twoYearDelta": 4778,
+          "perMonthDelta": 221,
+          "costVerdict": "$15,936 more over six years — about $221/month.",
+          "safetyDelta": -1.5,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [],
+          "safetyNotes": [
+            "Automatic braking standard on both."
+          ]
+        }
+      },
+      {
+        "tier": "stated",
+        "tierWeight": 1,
+        "name": "2023 Chevrolet TrailBlazer LS",
+        "askedPriceUsd": null,
+        "vin": "KL79MNSL9PB044316",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 8214,
+          "twoYearDelta": 2142,
+          "perMonthDelta": 114,
+          "costVerdict": "$8,214 more over six years — about $114/month.",
+          "safetyDelta": -3,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [
+            "blind-spot"
+          ],
+          "safetyNotes": [
+            "Automatic braking standard on both.",
+            "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
+          ]
+        }
+      },
+      {
+        "tier": "stated",
+        "tierWeight": 1,
+        "name": "2021 Jeep Renegade Sport w/ Sport Appearance Group",
+        "askedPriceUsd": null,
+        "vin": "ZACNJCBB0MPN11286",
+        "matchQuality": "same-model-year",
+        "delta": {
+          "sixYearDelta": 9939,
+          "twoYearDelta": 3057,
+          "perMonthDelta": 138,
+          "costVerdict": "$9,939 more over six years — about $138/month.",
+          "safetyDelta": -1.5,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [],
+          "safetyNotes": [
+            "Automatic braking standard on both."
+          ]
+        }
+      },
+      {
+        "tier": "stated",
+        "tierWeight": 1,
+        "name": "2020 Jaguar F-PACE Premium",
+        "askedPriceUsd": null,
+        "vin": "SADCJ2GX4LA632334",
+        "matchQuality": "same-model-year",
+        "delta": {
+          "sixYearDelta": 16563,
+          "twoYearDelta": 5107,
+          "perMonthDelta": 230,
+          "costVerdict": "$16,563 more over six years — about $230/month.",
+          "safetyDelta": -3,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [
+            "blind-spot"
+          ],
+          "safetyNotes": [
+            "Automatic braking standard on both.",
+            "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
+          ]
+        }
+      },
+      {
+        "tier": "stated",
+        "tierWeight": 1,
+        "name": "2019 Jeep Renegade Sport",
+        "askedPriceUsd": null,
+        "vin": "ZACNJBAB7KPJ97788",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 7915,
+          "twoYearDelta": 2034,
+          "perMonthDelta": 110,
+          "costVerdict": "$7,915 more over six years — about $110/month.",
+          "safetyDelta": -3,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [
+            "blind-spot"
+          ],
+          "safetyNotes": [
+            "Automatic braking standard on both.",
+            "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
+          ]
+        }
+      },
+      {
+        "tier": "stated",
+        "tierWeight": 1,
+        "name": "2017 Jeep Compass Trailhawk w/ Navigation Group",
+        "askedPriceUsd": null,
+        "vin": "3C4NJDDB6HT646969",
+        "matchQuality": "same-model-year",
+        "delta": {
+          "sixYearDelta": 7650,
+          "twoYearDelta": 1541,
+          "perMonthDelta": 106,
+          "costVerdict": "$7,650 more over six years — about $106/month.",
+          "safetyDelta": -3,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [
+            "blind-spot"
+          ],
+          "safetyNotes": [
+            "Automatic braking standard on both.",
+            "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
+          ]
+        }
+      },
+      {
+        "tier": "stated",
+        "tierWeight": 1,
+        "name": "2021 Volkswagen Tiguan S",
+        "askedPriceUsd": null,
+        "vin": "3VV1B7AX3MM025384",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 9229,
+          "twoYearDelta": 2508,
+          "perMonthDelta": 128,
+          "costVerdict": "$9,229 more over six years — about $128/month.",
+          "safetyDelta": -1.5,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [],
+          "safetyNotes": [
+            "Automatic braking standard on both."
+          ]
+        }
+      },
+      {
+        "tier": "stated",
+        "tierWeight": 1,
+        "name": "2017 BMW 320i Sedan",
+        "askedPriceUsd": null,
+        "vin": "WBA8A9C56HK619680",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 13121,
+          "twoYearDelta": 3467,
+          "perMonthDelta": 182,
+          "costVerdict": "$13,121 more over six years — about $182/month.",
+          "safetyDelta": -5,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [
+            "AEB",
+            "blind-spot"
+          ],
+          "safetyNotes": [
+            "Automatic braking UNVERIFIED on this car; the baseline has it confirmed. Not a failure, but it needs checking.",
+            "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
+          ]
+        }
+      },
+      {
+        "tier": "stated",
+        "tierWeight": 1,
+        "name": "2016 Mercedes-Benz GLA 250 4MATIC",
+        "askedPriceUsd": null,
+        "vin": "WDCTG4GB1GJ203842",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 12760,
+          "twoYearDelta": 3390,
+          "perMonthDelta": 177,
+          "costVerdict": "$12,760 more over six years — about $177/month.",
+          "safetyDelta": -5,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [
+            "AEB",
+            "blind-spot"
+          ],
+          "safetyNotes": [
+            "Automatic braking UNVERIFIED on this car; the baseline has it confirmed. Not a failure, but it needs checking.",
+            "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
+          ]
+        }
+      },
+      {
+        "tier": "thumbed",
+        "tierWeight": 0.4,
+        "name": "2018 Kia Niro EX",
+        "askedPriceUsd": 12575,
+        "vin": "KNDCC3LC8J5132231",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 2332,
+          "twoYearDelta": 173,
+          "perMonthDelta": 32,
+          "costVerdict": "$2,332 more over six years — about $32/month.",
+          "safetyDelta": 0,
+          "safetyGapIsConfirmed": null,
+          "safetyVerdict": "same safety equipment as the baseline",
+          "safetyUnverified": [],
+          "safetyNotes": [
+            "Automatic braking standard on both."
+          ]
+        }
+      },
+      {
+        "tier": "thumbed",
+        "tierWeight": 0.4,
+        "name": "2018 Honda Clarity Plug-In Hybrid",
+        "askedPriceUsd": 14795,
+        "vin": "JHMZC5F18JC018157",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 2339,
+          "twoYearDelta": 396,
+          "perMonthDelta": 32,
+          "costVerdict": "$2,339 more over six years — about $32/month.",
+          "safetyDelta": -1.5,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [
+            "blind-spot"
+          ],
+          "safetyNotes": [
+            "Automatic braking standard on both.",
+            "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
+          ]
+        }
+      },
+      {
+        "tier": "thumbed",
+        "tierWeight": 0.4,
+        "name": "2021 MAZDA MAZDA3",
+        "askedPriceUsd": 12999,
+        "vin": "JM1BPAAL9M1339116",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 6223,
+          "twoYearDelta": 1526,
+          "perMonthDelta": 86,
+          "costVerdict": "$6,223 more over six years — about $86/month.",
+          "safetyDelta": 0,
+          "safetyGapIsConfirmed": null,
+          "safetyVerdict": "same safety equipment as the baseline",
+          "safetyUnverified": [],
+          "safetyNotes": [
+            "Automatic braking standard on both."
+          ]
+        }
+      },
+      {
+        "tier": "thumbed",
+        "tierWeight": 0.4,
+        "name": "2020 Kia Niro",
+        "askedPriceUsd": 12250,
+        "vin": "KNDCB3LC8L5369257",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 1601,
+          "twoYearDelta": -93,
+          "perMonthDelta": 22,
+          "costVerdict": "$1,601 more over six years — about $22/month.",
+          "safetyDelta": -1.5,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [
+            "blind-spot"
+          ],
+          "safetyNotes": [
+            "Automatic braking standard on both.",
+            "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
+          ]
+        }
+      },
+      {
+        "tier": "thumbed",
+        "tierWeight": 0.4,
+        "name": "2017 Ford C-MAX Energi Titanium",
+        "askedPriceUsd": 14230,
+        "vin": "1FADP5FU4HL114880",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 3765,
+          "twoYearDelta": 344,
+          "perMonthDelta": 52,
+          "costVerdict": "$3,765 more over six years — about $52/month.",
+          "safetyDelta": -3,
+          "safetyGapIsConfirmed": true,
+          "safetyVerdict": "less safety equipment than the baseline",
+          "safetyUnverified": [],
+          "safetyNotes": [
+            "Automatic braking standard on both.",
+            "Gives up the blind-spot monitoring the baseline has."
+          ]
+        }
+      },
+      {
+        "tier": "thumbed",
+        "tierWeight": 0.4,
+        "name": "2019 Hyundai Kona",
+        "askedPriceUsd": 13995,
+        "vin": "KM8K1CAA0KU294487",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 6961,
+          "twoYearDelta": 1887,
+          "perMonthDelta": 97,
+          "costVerdict": "$6,961 more over six years — about $97/month.",
+          "safetyDelta": -1.5,
+          "safetyGapIsConfirmed": false,
+          "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
+          "safetyUnverified": [
+            "blind-spot"
+          ],
+          "safetyNotes": [
+            "Automatic braking standard on both.",
+            "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
+          ]
+        }
+      },
+      {
+        "tier": "thumbed",
+        "tierWeight": 0.4,
+        "name": "2017 Ford C-MAX Energi SE",
+        "askedPriceUsd": 9613,
+        "vin": "1FADP5EUXHL104520",
+        "matchQuality": "exact-listing",
+        "delta": {
+          "sixYearDelta": 502,
+          "twoYearDelta": -1078,
+          "perMonthDelta": 7,
+          "costVerdict": "$502 more over six years — about $7/month.",
+          "safetyDelta": -3,
+          "safetyGapIsConfirmed": true,
+          "safetyVerdict": "less safety equipment than the baseline",
+          "safetyUnverified": [],
+          "safetyNotes": [
+            "Automatic braking standard on both.",
+            "Gives up the blind-spot monitoring the baseline has."
+          ]
+        }
+      }
+    ],
+    "comparison": {
+      "hers": {
+        "n": 16,
+        "medianPrice": 13995,
+        "medianYear": 2019,
+        "medianMiles": 84383,
+        "medianTco2": 14311,
+        "medianTco6": 39302,
+        "fuel": 9469,
+        "maintenance": 3361,
+        "repairs": 1464,
+        "insurance": 16979,
+        "depreciation": 6289,
+        "aebStandard": 14,
+        "topSafetyPick": 5,
+        "electrified": 3,
+        "salvage": 0,
+        "reliabilityConcern": 7
+      },
+      "algorithm": {
+        "n": 10,
+        "medianPrice": 11800,
+        "medianYear": 2021,
+        "medianMiles": 70725,
+        "medianTco2": 12234,
+        "medianTco6": 31387,
+        "fuel": 4393,
+        "maintenance": 2214,
+        "repairs": 691,
+        "insurance": 16386,
+        "depreciation": 5902,
+        "aebStandard": 10,
+        "topSafetyPick": 4,
+        "electrified": 5,
+        "salvage": 0,
+        "reliabilityConcern": 2
+      },
+      "deltas": {
+        "tco6": 7915,
+        "tco2": 2077,
+        "fuel": 5076,
+        "maintenance": 1147,
+        "repairs": 773,
+        "insurance": 593,
+        "depreciation": 387
+      },
+      "headline": "Jordyn's picks cost about $7,915 more to own over six years than the cars the numbers pick — a median of $39,302 against $31,387. The largest single difference is fuel, at $5,076 more. 14/16 have automatic braking as standard, against 10/10 of the algorithm's."
     }
   },
   "reliabilityByModelYear": {
@@ -45706,13 +46204,14 @@
                 "perMonthDelta": 22,
                 "costVerdict": "$1,601 more over six years — about $22/month.",
                 "safetyDelta": -1.5,
-                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyGapIsConfirmed": false,
+                "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
                 "safetyUnverified": [
                   "blind-spot"
                 ],
                 "safetyNotes": [
                   "Automatic braking standard on both.",
-                  "Gives up the blind-spot monitoring the baseline has."
+                  "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
                 ]
               },
               "safety": {
@@ -45741,7 +46240,8 @@
                 "perMonthDelta": 19,
                 "costVerdict": "$1,398 more over six years — about $19/month.",
                 "safetyDelta": -1.5,
-                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyGapIsConfirmed": false,
+                "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
                 "safetyUnverified": [],
                 "safetyNotes": [
                   "Automatic braking standard on both."
@@ -45773,13 +46273,14 @@
                 "perMonthDelta": 15,
                 "costVerdict": "$1,078 more over six years — about $15/month.",
                 "safetyDelta": -1.5,
-                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyGapIsConfirmed": false,
+                "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
                 "safetyUnverified": [
                   "blind-spot"
                 ],
                 "safetyNotes": [
                   "Automatic braking standard on both.",
-                  "Gives up the blind-spot monitoring the baseline has."
+                  "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
                 ]
               },
               "safety": {
@@ -45820,13 +46321,14 @@
                 "perMonthDelta": 53,
                 "costVerdict": "$3,847 more over six years — about $53/month.",
                 "safetyDelta": -3,
-                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyGapIsConfirmed": false,
+                "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
                 "safetyUnverified": [
                   "blind-spot"
                 ],
                 "safetyNotes": [
                   "Automatic braking standard on both.",
-                  "Gives up the blind-spot monitoring the baseline has."
+                  "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
                 ]
               },
               "safety": {
@@ -45855,13 +46357,14 @@
                 "perMonthDelta": 36,
                 "costVerdict": "$2,600 more over six years — about $36/month.",
                 "safetyDelta": -3,
-                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyGapIsConfirmed": false,
+                "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
                 "safetyUnverified": [
                   "blind-spot"
                 ],
                 "safetyNotes": [
                   "Automatic braking standard on both.",
-                  "Gives up the blind-spot monitoring the baseline has."
+                  "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
                 ]
               },
               "safety": {
@@ -45890,13 +46393,14 @@
                 "perMonthDelta": 51,
                 "costVerdict": "$3,647 more over six years — about $51/month.",
                 "safetyDelta": -1.5,
-                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyGapIsConfirmed": false,
+                "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
                 "safetyUnverified": [
                   "blind-spot"
                 ],
                 "safetyNotes": [
                   "Automatic braking standard on both.",
-                  "Gives up the blind-spot monitoring the baseline has."
+                  "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
                 ]
               },
               "safety": {
@@ -45937,13 +46441,14 @@
                 "perMonthDelta": 72,
                 "costVerdict": "$5,195 more over six years — about $72/month.",
                 "safetyDelta": -3,
-                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyGapIsConfirmed": false,
+                "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
                 "safetyUnverified": [
                   "blind-spot"
                 ],
                 "safetyNotes": [
                   "Automatic braking standard on both.",
-                  "Gives up the blind-spot monitoring the baseline has."
+                  "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
                 ]
               },
               "safety": {
@@ -45972,7 +46477,8 @@
                 "perMonthDelta": 64,
                 "costVerdict": "$4,613 more over six years — about $64/month.",
                 "safetyDelta": -1.5,
-                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyGapIsConfirmed": false,
+                "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
                 "safetyUnverified": [],
                 "safetyNotes": [
                   "Automatic braking standard on both."
@@ -46004,13 +46510,14 @@
                 "perMonthDelta": 71,
                 "costVerdict": "$5,093 more over six years — about $71/month.",
                 "safetyDelta": -3,
-                "safetyVerdict": "less safety equipment than the baseline",
+                "safetyGapIsConfirmed": false,
+                "safetyVerdict": "safety equipment unconfirmed where the baseline is confirmed — needs checking, not a known shortfall",
                 "safetyUnverified": [
                   "blind-spot"
                 ],
                 "safetyNotes": [
                   "Automatic braking standard on both.",
-                  "Gives up the blind-spot monitoring the baseline has."
+                  "Blind-spot monitoring UNCONFIRMED on this car; the baseline has it confirmed. That is missing paperwork, not a missing feature — check the car itself."
                 ]
               },
               "safety": {
