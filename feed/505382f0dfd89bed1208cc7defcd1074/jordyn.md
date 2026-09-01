@@ -38,83 +38,83 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
 
 | # | Vehicle | Price | Miles | Powertrain | 6-yr cost | Safety | Reliability |
 |---|---------|-------|-------|-----------|-----------|--------|-------------|
-| 1 | 2022 Nissan Leaf S | $13,694 | 33,693 | Battery electric | $31,323 | AEB+BSM | clean |
-| 2 | 2023 Nissan Leaf S | $13,488 | 52,213 | Battery electric | $31,199 | AEB+BSM | clean |
-| 3 | 2024 Nissan Leaf S | $13,990 | 63,830 | Battery electric | $31,717 | AEB+BSM | clean |
-| 4 | 2022 Hyundai Ioniq SE | $13,014 | 123,046 | Hybrid | $32,761 | AEB+BSM | clean |
-| 5 | 2021 Hyundai Elantra SE | $14,999 | 20,737 | Gasoline | $36,318 | AEB+BSM | ok |
-| 6 | 2022 Hyundai Elantra SE | $14,998 | 42,004 | Gasoline | $36,455 | AEB+BSM | ok |
-| 7 | 2018 Kia Niro EX | $12,575 | 113,256 | Hybrid | $33,433 | AEB+BSM | clean |
-| 8 | 2017 Hyundai Ioniq Limited | $11,800 | 80,887 | Battery electric | $30,065 | AEB+BSM | clean |
-| 9 | 2022 Hyundai Elantra SEL | $14,900 | 63,099 | Gasoline | $36,887 | AEB+BSM | ok |
-| 10 | 2021 Hyundai Elantra SEL | $12,999 | 101,199 | Gasoline | $36,454 | AEB+BSM | ok |
-| 11 | 2021 Nissan Leaf SL Plus | $15,000 | 41,300 | Battery electric | $32,788 | AEB+BSM | concern |
-| 12 | 2017 Kia Niro LX | $13,449 | 80,609 | Hybrid | $33,269 | AEB | clean |
-| 13 | 2021 Hyundai Elantra N Line | $14,999 | 96,161 | Gasoline | $38,005 | AEB+BSM | ok |
-| 14 | 2021 Kia Forte LXS | $13,985 | 44,352 | Gasoline | $36,033 | AEB | ok |
-| 15 | 2021 Kia Forte LXS | $14,985 | 36,121 | Gasoline | $36,662 | AEB | ok |
-| 16 | 2020 Hyundai Ioniq SE | $11,995 | 124,730 | Hybrid | $32,346 | AEB | ok |
-| 17 | 2021 Kia Forte Sedan | $11,789 | 93,415 | Gasoline | $35,443 | AEB | ok |
-| 18 | 2021 Kia Forte LXS | $12,235 | 102,028 | Gasoline | $36,037 | AEB | ok |
-| 19 | 2021 Kia Forte LXS | $14,638 | 69,967 | Gasoline | $37,241 | AEB | ok |
-| 20 | 2020 Kia Forte GT-Line | $14,638 | 64,057 | Gasoline | $37,270 | AEB | ok |
-| 21 | 2018 Honda Clarity Plug-In Hybrid | $14,795 | 121,900 | Plug-in hybrid | $33,394 | AEB | clean |
-| 22 | 2020 Kia Forte EX | $12,698 | 108,770 | Gasoline | $36,833 | AEB | ok |
-| 23 | 2017 Honda Civic EX | $13,998 | 122,251 | Gasoline | $38,462 | AEB+BSM | ok |
-| 24 | 2018 Nissan Leaf SV | $9,977 | 97,594 | Battery electric | $28,928 | AEB | concern |
-| 25 | 2017 MAZDA MAZDA3 Sport | $14,684 | 82,719 | Gasoline | $38,733 | AEB | ok |
-| 26 | 2021 MAZDA MAZDA3 s | $12,999 | 104,257 | Gasoline | $37,425 | AEB+BSM | ok |
-| 27 | 2023 Kia Forte LXS | $14,499 | 73,500 | Gasoline | $36,815 | AEB | watch |
-| 28 | 2020 Nissan Leaf SV | $11,894 | 82,683 | Battery electric | $30,347 | AEB | concern |
-| 29 | 2017 Ford C-MAX SE | $9,500 | 111,635 | Hybrid | $32,295 | AEB | ok |
-| 30 | 2019 Hyundai Elantra SEL | $13,388 | 58,515 | Gasoline | $36,054 | AEB+BSM | concern |
-| 31 | 2020 Kia Niro LX | $12,250 | 108,567 | Hybrid | $32,684 | AEB | clean |
-| 32 | 2021 Hyundai Elantra SEL | $13,600 | 104,508 | Gasoline | $37,043 | AEB+BSM | ok |
-| 33 | 2021 Hyundai Kona SEL | $12,745 | 86,657 | Gasoline | $37,031 | AEB+BSM | concern |
-| 34 | 2019 Nissan Leaf SV | $13,947 | 56,128 | Battery electric | $32,187 | AEB | concern |
-| 35 | 2017 Chevrolet Bolt Premier | $14,999 | 67,186 | Battery electric | $33,088 | AEB+BSM | concern |
-| 36 | 2020 Hyundai Elantra Value Edition | $12,995 | 87,194 | Gasoline | $36,302 | AEB+BSM | concern |
-| 37 | 2020 Hyundai Elantra SEL | $9,900 | 120,559 | Gasoline | $34,594 | AEB+BSM | concern |
-| 38 | 2020 Hyundai Elantra Value Edition | $12,855 | 95,023 | Gasoline | $36,395 | AEB+BSM | concern |
-| 39 | 2019 Hyundai Elantra Value Edition | $14,198 | 68,035 | Gasoline | $36,994 | AEB+BSM | concern |
-| 40 | 2017 Chevrolet Bolt Premier | $13,995 | 96,126 | Battery electric | $32,556 | AEB+BSM | concern |
-| 41 | 2019 Hyundai Elantra SEL | $14,482 | 65,532 | Gasoline | $37,165 | AEB+BSM | concern |
-| 42 | 2020 Hyundai Elantra SEL | $12,643 | 101,594 | Gasoline | $36,391 | AEB+BSM | concern |
-| 43 | 2020 Hyundai Elantra Value Edition | $14,290 | 80,467 | Gasoline | $37,211 | AEB+BSM | concern |
-| 44 | 2017 Chevrolet Volt LT | $9,984 | 91,306 | Plug-in hybrid | $28,586 | AEB | concern |
-| 45 | 2021 Kia Forte LXS | $10,994 | 104,149 | Gasoline | $35,046 | AEB | ok |
-| 46 | 2017 Ford C-MAX Energi Titanium | $14,230 | 57,719 | Plug-in hybrid | $34,546 | AEB | ok |
-| 47 | 2021 Kia Niro LXS | $14,638 | 114,062 | Hybrid | $34,603 | AEB | ok |
-| 48 | 2018 Chevrolet Volt LT | $10,175 | 110,555 | Plug-in hybrid | $29,260 | AEB | concern |
-| 49 | 2019 Hyundai Kona SEL | $12,378 | 101,279 | Gasoline | $37,549 | AEB+BSM | concern |
-| 50 | 2018 Chevrolet Bolt LT | $11,877 | 110,973 | Battery electric | $30,836 | AEB | concern |
-| 51 | 2017 Toyota Corolla LE | $12,500 | 115,379 | Gasoline | $37,458 | AEB | watch |
-| 52 | 2019 Kia Forte Sedan | $13,638 | 49,542 | Gasoline | $36,217 | AEB | concern |
-| 53 | 2020 Hyundai Kona SEL | $13,795 | 104,157 | Gasoline | $38,586 | AEB+BSM | concern |
-| 54 | 2017 Chevrolet Bolt LT | $14,991 | 51,584 | Battery electric | $32,860 | AEB | concern |
-| 55 | 2018 Chevrolet Volt LT | $13,977 | 77,862 | Plug-in hybrid | $31,712 | AEB | concern |
-| 56 | 2020 Hyundai Elantra SE | $13,995 | 59,291 | Gasoline | $36,399 | AEB | concern |
-| 57 | 2019 Kia Forte S | $11,995 | 79,853 | Gasoline | $35,679 | AEB | concern |
-| 58 | 2017 Toyota Corolla SE | $13,995 | 108,480 | Gasoline | $38,468 | AEB | watch |
-| 59 | 2019 Hyundai Kona SE | $13,995 | 41,578 | Gasoline | $37,252 | AEB | concern |
-| 60 | 2017 Toyota Corolla LE | $13,995 | 111,482 | Gasoline | $38,559 | AEB | watch |
-| 61 | 2019 Kia Forte S | $14,900 | 43,968 | Gasoline | $37,127 | AEB | concern |
-| 62 | 2019 Kia Forte LXS | $12,790 | 76,238 | Gasoline | $36,247 | AEB | concern |
-| 63 | 2020 Hyundai Elantra SE | $13,195 | 81,309 | Gasoline | $36,318 | AEB | concern |
-| 64 | 2019 Honda Civic Sport | $14,995 | 113,387 | Gasoline | $38,922 | AEB+BSM | concern |
-| 65 | 2021 Hyundai Kona SE | $12,700 | 94,148 | Gasoline | $37,178 | AEB | concern |
-| 66 | 2019 Kia Forte LXS | $13,995 | 65,727 | Gasoline | $36,967 | AEB | concern |
-| 67 | 2019 Kia Forte LXS | $13,995 | 68,230 | Gasoline | $37,036 | AEB | concern |
-| 68 | 2019 Kia Forte Sedan | $11,999 | 101,300 | Gasoline | $36,277 | AEB | concern |
-| 69 | 2017 Honda Civic EX | $14,688 | 123,067 | Gasoline | $39,047 | AEB+BSM | ok |
-| 70 | 2019 Kia Forte Sedan | $9,998 | 119,837 | Gasoline | $35,108 | AEB | concern |
-| 71 | 2021 Hyundai Kona SE | $13,995 | 84,931 | Gasoline | $38,030 | AEB | concern |
-| 72 | 2019 Hyundai Kona Ultimate | $14,799 | 113,988 | Gasoline | $39,932 | AEB+BSM | concern |
-| 73 | 2017 Ford C-MAX Energi SE | $9,613 | 81,117 | Plug-in hybrid | $31,346 | AEB | ok |
-| 74 | 2020 Hyundai Elantra SE | $10,995 | 120,236 | Gasoline | $35,507 | AEB | concern |
-| 75 | 2023 Kia Forte LXS | $14,999 | 64,864 | Gasoline | $37,036 | AEB | watch |
-| 76 | 2020 Hyundai Elantra SE | $10,995 | 124,038 | Gasoline | $35,606 | AEB | concern |
-| 77 | 2020 Hyundai Elantra SEL | $9,622 | 114,145 | Gasoline | $34,189 | AEB+BSM | concern |
+| 1 | 2023 Nissan Leaf S | $13,488 | 52,213 | Battery electric | $31,199 | AEB+BSM | ok |
+| 2 | 2024 Nissan Leaf S | $13,990 | 63,830 | Battery electric | $31,717 | AEB+BSM | ok |
+| 3 | 2021 Hyundai Elantra SE | $14,999 | 20,737 | Gasoline | $36,318 | AEB+BSM | ok |
+| 4 | 2022 Hyundai Ioniq SE | $13,014 | 123,046 | Hybrid | $32,761 | AEB+BSM | ok |
+| 5 | 2022 Hyundai Elantra SE | $14,998 | 42,004 | Gasoline | $36,455 | AEB+BSM | ok |
+| 6 | 2018 Kia Niro EX | $12,575 | 113,256 | Hybrid | $33,433 | AEB+BSM | ok |
+| 7 | 2017 Hyundai Ioniq Limited | $11,800 | 80,887 | Battery electric | $30,065 | AEB+BSM | ok |
+| 8 | 2022 Hyundai Elantra SEL | $14,900 | 63,099 | Gasoline | $36,887 | AEB+BSM | ok |
+| 9 | 2021 Hyundai Elantra SEL | $12,999 | 101,199 | Gasoline | $36,454 | AEB+BSM | ok |
+| 10 | 2021 Nissan Leaf SL Plus | $15,000 | 41,300 | Battery electric | $32,788 | AEB+BSM | concern |
+| 11 | 2021 Hyundai Elantra N Line | $14,999 | 96,161 | Gasoline | $38,005 | AEB+BSM | ok |
+| 12 | 2021 Kia Forte LXS | $13,985 | 44,352 | Gasoline | $36,033 | AEB | ok |
+| 13 | 2021 Kia Forte LXS | $14,985 | 36,121 | Gasoline | $36,662 | AEB | ok |
+| 14 | 2022 Nissan Leaf S | $13,694 | 33,693 | Battery electric | $31,323 | AEB+BSM | concern |
+| 15 | 2020 Hyundai Ioniq SE | $11,995 | 124,730 | Hybrid | $32,346 | AEB | ok |
+| 16 | 2021 Kia Forte Sedan | $11,789 | 93,415 | Gasoline | $35,443 | AEB | ok |
+| 17 | 2021 Kia Forte LXS | $12,235 | 102,028 | Gasoline | $36,037 | AEB | ok |
+| 18 | 2021 Kia Forte LXS | $14,638 | 69,967 | Gasoline | $37,241 | AEB | ok |
+| 19 | 2020 Kia Forte GT-Line | $14,638 | 64,057 | Gasoline | $37,270 | AEB | ok |
+| 20 | 2020 Kia Forte EX | $12,698 | 108,770 | Gasoline | $36,833 | AEB | ok |
+| 21 | 2017 Honda Civic EX | $13,998 | 122,251 | Gasoline | $38,462 | AEB+BSM | ok |
+| 22 | 2018 Nissan Leaf SV | $9,977 | 97,594 | Battery electric | $28,928 | AEB | concern |
+| 23 | 2017 MAZDA MAZDA3 Sport | $14,684 | 82,719 | Gasoline | $38,733 | AEB | ok |
+| 24 | 2021 MAZDA MAZDA3 s | $12,999 | 104,257 | Gasoline | $37,425 | AEB+BSM | ok |
+| 25 | 2023 Kia Forte LXS | $14,499 | 73,500 | Gasoline | $36,815 | AEB | watch |
+| 26 | 2020 Nissan Leaf SV | $11,894 | 82,683 | Battery electric | $30,347 | AEB | concern |
+| 27 | 2017 Ford C-MAX SE | $9,500 | 111,635 | Hybrid | $32,295 | AEB | ok |
+| 28 | 2019 Hyundai Elantra SEL | $13,388 | 58,515 | Gasoline | $36,054 | AEB+BSM | concern |
+| 29 | 2021 Hyundai Elantra SEL | $13,600 | 104,508 | Gasoline | $37,043 | AEB+BSM | ok |
+| 30 | 2020 Kia Niro LX | $12,250 | 108,567 | Hybrid | $32,684 | AEB | ok |
+| 31 | 2021 Hyundai Kona SEL | $12,745 | 86,657 | Gasoline | $37,031 | AEB+BSM | concern |
+| 32 | 2019 Nissan Leaf SV | $13,947 | 56,128 | Battery electric | $32,187 | AEB | concern |
+| 33 | 2017 Chevrolet Bolt Premier | $14,999 | 67,186 | Battery electric | $33,088 | AEB+BSM | concern |
+| 34 | 2020 Hyundai Elantra Value Edition | $12,995 | 87,194 | Gasoline | $36,302 | AEB+BSM | concern |
+| 35 | 2020 Hyundai Elantra SEL | $9,900 | 120,559 | Gasoline | $34,594 | AEB+BSM | concern |
+| 36 | 2020 Hyundai Elantra Value Edition | $12,855 | 95,023 | Gasoline | $36,395 | AEB+BSM | concern |
+| 37 | 2019 Hyundai Elantra Value Edition | $14,198 | 68,035 | Gasoline | $36,994 | AEB+BSM | concern |
+| 38 | 2017 Chevrolet Bolt Premier | $13,995 | 96,126 | Battery electric | $32,556 | AEB+BSM | concern |
+| 39 | 2019 Hyundai Elantra SEL | $14,482 | 65,532 | Gasoline | $37,165 | AEB+BSM | concern |
+| 40 | 2020 Hyundai Elantra SEL | $12,643 | 101,594 | Gasoline | $36,391 | AEB+BSM | concern |
+| 41 | 2020 Hyundai Elantra Value Edition | $14,290 | 80,467 | Gasoline | $37,211 | AEB+BSM | concern |
+| 42 | 2017 Chevrolet Volt LT | $9,984 | 91,306 | Plug-in hybrid | $28,586 | AEB | concern |
+| 43 | 2021 Kia Forte LXS | $10,994 | 104,149 | Gasoline | $35,046 | AEB | ok |
+| 44 | 2017 Ford C-MAX Energi Titanium | $14,230 | 57,719 | Plug-in hybrid | $34,546 | AEB | ok |
+| 45 | 2021 Kia Niro LXS | $14,638 | 114,062 | Hybrid | $34,603 | AEB | ok |
+| 46 | 2018 Chevrolet Volt LT | $10,175 | 110,555 | Plug-in hybrid | $29,260 | AEB | concern |
+| 47 | 2017 Kia Niro LX | $13,449 | 80,609 | Hybrid | $33,269 | AEB | concern |
+| 48 | 2019 Hyundai Kona SEL | $12,378 | 101,279 | Gasoline | $37,549 | AEB+BSM | concern |
+| 49 | 2018 Chevrolet Bolt LT | $11,877 | 110,973 | Battery electric | $30,836 | AEB | concern |
+| 50 | 2017 Toyota Corolla LE | $12,500 | 115,379 | Gasoline | $37,458 | AEB | watch |
+| 51 | 2019 Kia Forte Sedan | $13,638 | 49,542 | Gasoline | $36,217 | AEB | concern |
+| 52 | 2020 Hyundai Kona SEL | $13,795 | 104,157 | Gasoline | $38,586 | AEB+BSM | concern |
+| 53 | 2017 Chevrolet Bolt LT | $14,991 | 51,584 | Battery electric | $32,860 | AEB | concern |
+| 54 | 2018 Chevrolet Volt LT | $13,977 | 77,862 | Plug-in hybrid | $31,712 | AEB | concern |
+| 55 | 2020 Hyundai Elantra SE | $13,995 | 59,291 | Gasoline | $36,399 | AEB | concern |
+| 56 | 2019 Kia Forte S | $11,995 | 79,853 | Gasoline | $35,679 | AEB | concern |
+| 57 | 2017 Toyota Corolla SE | $13,995 | 108,480 | Gasoline | $38,468 | AEB | watch |
+| 58 | 2019 Hyundai Kona SE | $13,995 | 41,578 | Gasoline | $37,252 | AEB | concern |
+| 59 | 2017 Toyota Corolla LE | $13,995 | 111,482 | Gasoline | $38,559 | AEB | watch |
+| 60 | 2019 Kia Forte S | $14,900 | 43,968 | Gasoline | $37,127 | AEB | concern |
+| 61 | 2019 Kia Forte LXS | $12,790 | 76,238 | Gasoline | $36,247 | AEB | concern |
+| 62 | 2020 Hyundai Elantra SE | $13,195 | 81,309 | Gasoline | $36,318 | AEB | concern |
+| 63 | 2019 Honda Civic Sport | $14,995 | 113,387 | Gasoline | $38,922 | AEB+BSM | concern |
+| 64 | 2021 Hyundai Kona SE | $12,700 | 94,148 | Gasoline | $37,178 | AEB | concern |
+| 65 | 2019 Kia Forte LXS | $13,995 | 65,727 | Gasoline | $36,967 | AEB | concern |
+| 66 | 2019 Kia Forte LXS | $13,995 | 68,230 | Gasoline | $37,036 | AEB | concern |
+| 67 | 2019 Kia Forte Sedan | $11,999 | 101,300 | Gasoline | $36,277 | AEB | concern |
+| 68 | 2017 Honda Civic EX | $14,688 | 123,067 | Gasoline | $39,047 | AEB+BSM | ok |
+| 69 | 2019 Kia Forte Sedan | $9,998 | 119,837 | Gasoline | $35,108 | AEB | concern |
+| 70 | 2021 Hyundai Kona SE | $13,995 | 84,931 | Gasoline | $38,030 | AEB | concern |
+| 71 | 2019 Hyundai Kona Ultimate | $14,799 | 113,988 | Gasoline | $39,932 | AEB+BSM | concern |
+| 72 | 2017 Ford C-MAX Energi SE | $9,613 | 81,117 | Plug-in hybrid | $31,346 | AEB | ok |
+| 73 | 2020 Hyundai Elantra SE | $10,995 | 120,236 | Gasoline | $35,507 | AEB | concern |
+| 74 | 2023 Kia Forte LXS | $14,999 | 64,864 | Gasoline | $37,036 | AEB | watch |
+| 75 | 2020 Hyundai Elantra SE | $10,995 | 124,038 | Gasoline | $35,606 | AEB | concern |
+| 76 | 2020 Hyundai Elantra SEL | $9,622 | 114,145 | Gasoline | $34,189 | AEB+BSM | concern |
+| 77 | 2018 Honda Clarity Plug-In Hybrid | $14,795 | 121,900 | Plug-in hybrid | $33,394 | AEB | concern |
 | 78 | 2019 Hyundai Kona SE | $13,439 | 80,539 | Gasoline | $37,865 | AEB | concern |
 | 79 | 2020 Hyundai Kona SE | $14,999 | 64,598 | Gasoline | $38,541 | AEB | concern |
 | 80 | 2019 Hyundai Elantra SEL | $12,016 | 90,398 | Gasoline | $35,786 | AEB+BSM | concern |
@@ -148,12 +148,12 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
 | 108 | 2020 Toyota Camry SE | $13,971 | 98,302 | Gasoline | $38,070 | AEB | concern |
 | 109 | 2018 Toyota RAV4 AWD LE | $11,950 | 96,714 | Gasoline | $37,864 | AEB | concern |
 | 110 | 2019 Volkswagen e-Golf SE | $12,685 | 60,402 | Battery electric | $30,934 | — | ok |
-| 111 | 2019 Hyundai Ioniq Electric | $12,683 | 59,031 | Battery electric | $30,601 | — | clean |
-| 112 | 2020 Chevrolet Bolt LT | $13,990 | 98,213 | Battery electric | $32,450 | — | clean |
-| 113 | 2017 Kia Niro EX | $10,998 | 128,246 | Hybrid | $32,350 | BSM | clean |
-| 114 | 2017 Chevrolet Volt Premier | $10,000 | 125,076 | Plug-in hybrid | $29,402 | — | concern |
-| 115 | 2017 Honda Civic LX | $11,995 | 117,995 | Gasoline | $36,706 | — | ok |
-| 116 | 2018 Honda Civic LX | $14,990 | 82,711 | Gasoline | $38,273 | — | ok |
+| 111 | 2019 Hyundai Ioniq Electric | $12,683 | 59,031 | Battery electric | $30,601 | — | ok |
+| 112 | 2020 Chevrolet Bolt LT | $13,990 | 98,213 | Battery electric | $31,966 | — | concern |
+| 113 | 2017 Chevrolet Volt Premier | $10,000 | 125,076 | Plug-in hybrid | $29,402 | — | concern |
+| 114 | 2017 Honda Civic LX | $11,995 | 117,995 | Gasoline | $36,706 | — | ok |
+| 115 | 2018 Honda Civic LX | $14,990 | 82,711 | Gasoline | $38,273 | — | ok |
+| 116 | 2017 Kia Niro EX | $10,998 | 128,246 | Hybrid | $32,350 | BSM | concern |
 | 117 | 2017 Honda Civic LX | $12,995 | 114,004 | Gasoline | $37,399 | — | ok |
 | 118 | 2018 Chevrolet Volt LT | $10,977 | 102,267 | Plug-in hybrid | $29,745 | — | concern |
 | 119 | 2017 Honda Civic LX-P | $10,900 | 63,240 | Gasoline | $34,180 | — | ok |
@@ -161,44 +161,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
 
 ## Detail
 
-### 1. 2022 Nissan Leaf S — $13,694
-
-- VIN: `1N4AZ1BV1NC557777`
-- Mileage: 33,693 mi · Color: Super Black · Certified pre-owned
-- Location: Volkswagen of Olympia, Olympia WA (52 mi away)
-- Days on lot: 59
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/784707771
-- Powertrain: **Battery electric** · 150 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard · blind-spot standard (VIN-confirmed)
-  - IIHS: Top Safety Pick (2018–19 w/ good headlights)
-  - AEB standard on all 2018+. Blind-Spot Warning is SV and SL only — the base S does NOT have it.
-  - Also standard on this trim (S): fcw, lka, backupCam
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 4 recalls for the 2022 Nissan Leaf
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - Source: https://www.nhtsa.gov/vehicle/2022/NISSAN/LEAF
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":4,"milesLeft":66307,"effectiveYears":4,"note":"Federal battery warranty still covers roughly 4.0 more year(s) at 130 mi/wk — limited by age (4 yr left of 8). Transfers to you."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $13,694
-  - Sales tax: $1,383
-  - Fuel / electricity: $1,460
-  - Maintenance: $1,087
-  - Insurance: $16,897
-  - Registration: $1,860
-  - Major-repair reserve (expected): $205
-  - Less resale value: $-8,431
-  - **6-year total: $31,323** ($435/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,301
-- Note: Lowest-mileage car with AEB standard — 33,693 mi, best odds of lasting through Emma.
-
-### 2. 2023 Nissan Leaf S — $13,488
+### 1. 2023 Nissan Leaf S — $13,488
 
 - VIN: `1N4AZ1BV8PC559108`
 - Mileage: 52,213 mi · Color: Black · Certified pre-owned
@@ -211,10 +174,10 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - IIHS: Top Safety Pick (2018–19 w/ good headlights)
   - AEB standard on all 2018+. Blind-Spot Warning is SV and SL only — the base S does NOT have it.
   - Also standard on this trim (S): fcw, lka, rcta, backupCam
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 3 recalls for the 2023 Nissan Leaf
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Source: https://www.nhtsa.gov/vehicle/2023/NISSAN/LEAF
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 19 complaints, 0 recalls for the 2023 Nissan Leaf
+  - 19 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2023/NISSAN/LEAF%20(40%20KWH%20BATTERY)
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
 - Traction battery warranty: {"covered":true,"yearsLeft":5,"milesLeft":47787,"effectiveYears":5,"note":"Federal battery warranty still covers roughly 5.0 more year(s) at 130 mi/wk — limited by age (5 yr left of 8). Transfers to you."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
@@ -233,7 +196,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $31,199** ($433/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,215
 
-### 3. 2024 Nissan Leaf S — $13,990
+### 2. 2024 Nissan Leaf S — $13,990
 
 - VIN: `1N4AZ1BV5RC555617`
 - Mileage: 63,830 mi · Color: Super Black · Certified pre-owned
@@ -246,10 +209,10 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - IIHS: Top Safety Pick (2018–19 w/ good headlights)
   - AEB standard on all 2018+. Blind-Spot Warning is SV and SL only — the base S does NOT have it.
   - Also standard on this trim (S): fcw, lka, rcta, backupCam
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 0 recalls for the 2024 Nissan Leaf
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Source: https://www.nhtsa.gov/vehicle/2024/NISSAN/LEAF
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 10 complaints, 0 recalls for the 2024 Nissan Leaf
+  - 10 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2024/NISSAN/LEAF%20(40%20KWH%20BATTERY)%20%2B%20LEAF%20PLUS%20(60%20KWH%20BATTERY)
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
 - Traction battery warranty: {"covered":true,"yearsLeft":6,"milesLeft":36170,"effectiveYears":5.4,"note":"Federal battery warranty still covers roughly 5.4 more year(s) at 130 mi/wk — limited by mileage (36,170 mi left of 100k). Transfers to you."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
@@ -268,40 +231,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $31,717** ($441/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,432
 
-### 4. 2022 Hyundai Ioniq SE — $13,014
-
-- VIN: `KMHC75LC5NU279565`
-- Mileage: 123,046 mi · Color: Stellar Silver · Certified pre-owned
-- Location: Sunset Auto Wholesale Tacoma, Tacoma WA (29 mi away)
-- Days on lot: 75
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/783307454
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - IIHS: Top Safety Pick
-  - Hyundai SmartSense with AEB standard from 2020.
-  - Also standard on this trim (SE): fcw, lka, backupCam
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 0 recalls for the 2022 Hyundai Ioniq
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Source: https://www.nhtsa.gov/vehicle/2022/HYUNDAI/IONIQ
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $13,014
-  - Sales tax: $1,314
-  - Fuel / electricity: $4,425
-  - Maintenance: $2,604
-  - Insurance: $16,714
-  - Registration: $510
-  - Major-repair reserve (expected): $1,096
-  - Less resale value: $-6,098
-  - **6-year total: $32,761** ($455/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,185
-
-### 5. 2021 Hyundai Elantra SE — $14,999
+### 3. 2021 Hyundai Elantra SE — $14,999
 
 - VIN: `KMHLL4AG0MU191193`
 - Mileage: 20,737 mi · Color: Phantom Black · Certified pre-owned
@@ -335,7 +265,40 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,318** ($504/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,600
 
-### 6. 2022 Hyundai Elantra SE — $14,998
+### 4. 2022 Hyundai Ioniq SE — $13,014
+
+- VIN: `KMHC75LC5NU279565`
+- Mileage: 123,046 mi · Color: Stellar Silver · Certified pre-owned
+- Location: Sunset Auto Wholesale Tacoma, Tacoma WA (29 mi away)
+- Days on lot: 75
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/783307454
+- Powertrain: **Hybrid**
+  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - IIHS: Top Safety Pick
+  - Hyundai SmartSense with AEB standard from 2020.
+  - Also standard on this trim (SE): fcw, lka, backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 21 complaints, 0 recalls for the 2022 Hyundai Ioniq
+  - 21 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2022/HYUNDAI/IONIQ%20HYBRID
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $13,014
+  - Sales tax: $1,314
+  - Fuel / electricity: $4,425
+  - Maintenance: $2,604
+  - Insurance: $16,714
+  - Registration: $510
+  - Major-repair reserve (expected): $1,096
+  - Less resale value: $-6,098
+  - **6-year total: $32,761** ($455/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,185
+
+### 5. 2022 Hyundai Elantra SE — $14,998
 
 - VIN: `5NPLL4AGXNH082871`
 - Mileage: 42,004 mi · Color: Quartz White · Certified pre-owned
@@ -369,7 +332,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,455** ($506/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,644
 
-### 7. 2018 Kia Niro EX — $12,575
+### 6. 2018 Kia Niro EX — $12,575
 
 - VIN: `KNDCC3LC8J5132231`
 - Mileage: 113,256 mi · Color: Silky Silver · Certified pre-owned
@@ -382,11 +345,10 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - IIHS: Top Safety Pick (2017–19)
   - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
   - Also standard on this trim (EX Premium (PHEV), Graphite Edition (HEV)): fcw, lka, acc, backupCam
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 3 recalls for the 2018 Kia Niro
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - Source: https://www.nhtsa.gov/vehicle/2018/KIA/NIRO
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 57 complaints, 0 recalls for the 2018 Kia Niro
+  - 57 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2018/KIA/NIRO%20HYBRID
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
@@ -403,7 +365,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $33,433** ($464/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,347
 
-### 8. 2017 Hyundai Ioniq Limited — $11,800
+### 7. 2017 Hyundai Ioniq Limited — $11,800
 
 - VIN: `KMHC85LH9HU015424`
 - Mileage: 80,887 mi · Color: Symphony Air Silver · Certified pre-owned
@@ -416,10 +378,11 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - ⚠️ IIHS: IIHS rated the hybrid and plug-in version of this model — not the electric version. Structure is largely shared, so the result is reassuring, but this exact powertrain did not earn the award.
   - On the Hybrid, Forward Collision-Avoidance and Blind-Spot Warning are SEL/Limited/Ultimate — verify per-VIN. The Electric is trimmed differently: its Limited was the top trim and Hyundai reports the driver-assist suite as standard on it.
   - Also standard on this trim (Limited (Electric)): lka, acc, backupCam
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 0 recalls for the 2017 Hyundai Ioniq
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Source: https://www.nhtsa.gov/vehicle/2017/HYUNDAI/IONIQ
+- Reliability (model-year level): **ok** — confidence low
+  - NHTSA: 9 complaints, 2 recalls for the 2017 Hyundai Ioniq
+  - Only 9 NHTSA complaints on record — too few to draw a firm conclusion.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - Source: https://www.nhtsa.gov/vehicle/2017/HYUNDAI/IONIQ%20ELECTRIC
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
 - Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":19113,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 80,887 mi) — a pack failure would be entirely out of pocket."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
@@ -438,7 +401,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $30,065** ($418/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,307
 
-### 9. 2022 Hyundai Elantra SEL — $14,900
+### 8. 2022 Hyundai Elantra SEL — $14,900
 
 - VIN: `KMHLM4AG2NU328875`
 - Mileage: 63,099 mi · Color: Black · Certified pre-owned
@@ -472,7 +435,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,887** ($512/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,766
 
-### 10. 2021 Hyundai Elantra SEL — $12,999
+### 9. 2021 Hyundai Elantra SEL — $12,999
 
 - VIN: `5NPLM4AG2MH051531`
 - Mileage: 101,199 mi · Color: Fluid Metal · Certified pre-owned
@@ -506,7 +469,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,454** ($506/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,408
 
-### 11. 2021 Nissan Leaf SL Plus — $15,000
+### 10. 2021 Nissan Leaf SL Plus — $15,000
 
 - VIN: `1N4BZ1DV0MC553591`
 - Mileage: 41,300 mi · Color: Gray · Certified pre-owned
@@ -542,40 +505,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $32,788** ($455/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,041
 
-### 12. 2017 Kia Niro LX — $13,449
-
-- VIN: `KNDCB3LC8H5042770`
-- Mileage: 80,609 mi · Color: Deep Cerulean · Certified pre-owned
-- Location: Rairdon's Kia, Burlington WA (65 mi away)
-- Days on lot: 1
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789729249
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-- Safety: AEB standard (VIN-confirmed) · blind-spot trim
-  - IIHS: Top Safety Pick (2017–19)
-  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 4 recalls for the 2017 Kia Niro
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - Source: https://www.nhtsa.gov/vehicle/2017/KIA/NIRO
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $13,449
-  - Sales tax: $1,358
-  - Fuel / electricity: $4,867
-  - Maintenance: $2,378
-  - Insurance: $16,831
-  - Registration: $510
-  - Major-repair reserve (expected): $1,381
-  - Less resale value: $-5,944
-  - **6-year total: $33,269** ($462/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,965
-
-### 13. 2021 Hyundai Elantra N Line — $14,999
+### 11. 2021 Hyundai Elantra N Line — $14,999
 
 - VIN: `KMHLR4AF7MU164305`
 - Mileage: 96,161 mi · Color: Blue · Certified pre-owned
@@ -609,7 +539,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $38,005** ($528/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,132
 
-### 14. 2021 Kia Forte LXS — $13,985
+### 12. 2021 Kia Forte LXS — $13,985
 
 - VIN: `3KPF24AD3ME316700`
 - Mileage: 44,352 mi · Color: Silky Silver · Certified pre-owned
@@ -642,7 +572,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,033** ($500/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,391
 
-### 15. 2021 Kia Forte LXS — $14,985
+### 13. 2021 Kia Forte LXS — $14,985
 
 - VIN: `3KPF24AD1ME346729`
 - Mileage: 36,121 mi · Color: Gravity Gray · Certified pre-owned
@@ -675,7 +605,43 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,662** ($509/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,707
 
-### 16. 2020 Hyundai Ioniq SE — $11,995
+### 14. 2022 Nissan Leaf S — $13,694
+
+- VIN: `1N4AZ1BV1NC557777`
+- Mileage: 33,693 mi · Color: Super Black · Certified pre-owned
+- Location: Volkswagen of Olympia, Olympia WA (52 mi away)
+- Days on lot: 59
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/784707771
+- Powertrain: **Battery electric** · 150 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard · blind-spot standard (VIN-confirmed)
+  - IIHS: Top Safety Pick (2018–19 w/ good headlights)
+  - AEB standard on all 2018+. Blind-Spot Warning is SV and SL only — the base S does NOT have it.
+  - Also standard on this trim (S): fcw, lka, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 182 complaints, 0 recalls for the 2022 Nissan Leaf
+  - 85% of its 182 NHTSA complaints (154) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2022/NISSAN/LEAF%20(40%20KWH%20BATTERY)%20%2B%20LEAF%20PLUS%20(62%20KWH%20BATTERY)
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":4,"milesLeft":66307,"effectiveYears":4,"note":"Federal battery warranty still covers roughly 4.0 more year(s) at 130 mi/wk — limited by age (4 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $13,694
+  - Sales tax: $1,383
+  - Fuel / electricity: $1,460
+  - Maintenance: $1,087
+  - Insurance: $16,897
+  - Registration: $1,860
+  - Major-repair reserve (expected): $205
+  - Less resale value: $-8,431
+  - **6-year total: $31,323** ($435/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,301
+- Note: Lowest-mileage car with AEB standard — 33,693 mi, best odds of lasting through Emma.
+
+### 15. 2020 Hyundai Ioniq SE — $11,995
 
 - VIN: `KMHC75LC3LU233701`
 - Mileage: 124,730 mi · Color: Ceramic White · Certified pre-owned
@@ -707,7 +673,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $32,346** ($449/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,930
 
-### 17. 2021 Kia Forte Sedan — $11,789
+### 16. 2021 Kia Forte Sedan — $11,789
 
 - VIN: `3KPF24AD2ME403956`
 - Mileage: 93,415 mi · Color: Gravity Gray · Certified pre-owned
@@ -740,7 +706,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $35,443** ($492/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,955
 
-### 18. 2021 Kia Forte LXS — $12,235
+### 17. 2021 Kia Forte LXS — $12,235
 
 - VIN: `3KPF24ADXME270864`
 - Mileage: 102,028 mi · Color: Snow White Pearl · Certified pre-owned
@@ -773,7 +739,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,037** ($501/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,194
 
-### 19. 2021 Kia Forte LXS — $14,638
+### 18. 2021 Kia Forte LXS — $14,638
 
 - VIN: `3KPF24AD7ME306350`
 - Mileage: 69,967 mi · Color: Aurora Black · Certified pre-owned
@@ -806,7 +772,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,241** ($517/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,846
 
-### 20. 2020 Kia Forte GT-Line — $14,638
+### 19. 2020 Kia Forte GT-Line — $14,638
 
 - VIN: `3KPF34AD2LE139603`
 - Mileage: 64,057 mi · Color: Aurora Black Pearl · Certified pre-owned
@@ -838,41 +804,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,270** ($518/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,860
 
-### 21. 2018 Honda Clarity Plug-In Hybrid — $14,795
-
-- VIN: `JHMZC5F18JC018157`
-- Mileage: 121,900 mi · Color: Solar Silver Metallic · Certified pre-owned
-- Location: Rairdon's Nissan of Auburn, Auburn WA (16 mi away)
-- Days on lot: 11
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788797698
-- Powertrain: **Plug-in hybrid** · 47 mi electric range
-  - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
-- Safety: AEB standard · blind-spot trim
-  - IIHS: Top Safety Pick (2018–21)
-  - Honda Sensing standard. 47 mi EV range easily covers the barn run.
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 0 recalls for the 2018 Honda Clarity
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Source: https://www.nhtsa.gov/vehicle/2018/HONDA/CLARITY
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":0,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (8 yr, 121,900 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $14,795
-  - Sales tax: $1,494
-  - Fuel / electricity: $2,152
-  - Maintenance: $2,786
-  - Insurance: $17,195
-  - Registration: $960
-  - Major-repair reserve (expected): $1,875
-  - Less resale value: $-6,932
-  - **6-year total: $33,394** ($464/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,545
-
-### 22. 2020 Kia Forte EX — $12,698
+### 20. 2020 Kia Forte EX — $12,698
 
 - VIN: `3KPF54AD4LE226915`
 - Mileage: 108,770 mi · Color: Deep Sea Blue · Certified pre-owned
@@ -904,7 +836,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,833** ($512/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,496
 
-### 23. 2017 Honda Civic EX — $13,998
+### 21. 2017 Honda Civic EX — $13,998
 
 - VIN: `19XFC2F76HE059686`
 - Mileage: 122,251 mi · Color: Crystal Black Pearl · Certified pre-owned
@@ -938,7 +870,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $38,462** ($534/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,698
 
-### 24. 2018 Nissan Leaf SV — $9,977
+### 22. 2018 Nissan Leaf SV — $9,977
 
 - VIN: `1N4AZ1CP3JC313218`
 - Mileage: 97,594 mi · Color: Pearl White · Certified pre-owned
@@ -974,7 +906,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
 - Standout: true
 - Note: Cheapest car here with AEB standard AND an IIHS Top Safety Pick — the strongest safety-per-dollar pick on the page.
 
-### 25. 2017 MAZDA MAZDA3 Sport — $14,684
+### 23. 2017 MAZDA MAZDA3 Sport — $14,684
 
 - VIN: `3MZBN1U7XHM109692`
 - Mileage: 82,719 mi · Color: Sonic Silver Metallic · Certified pre-owned
@@ -1007,7 +939,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $38,733** ($538/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,858
 
-### 26. 2021 MAZDA MAZDA3 s — $12,999
+### 24. 2021 MAZDA MAZDA3 s — $12,999
 
 - VIN: `JM1BPAAL9M1339116`
 - Mileage: 104,257 mi · Certified pre-owned
@@ -1040,7 +972,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,425** ($520/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,731
 
-### 27. 2023 Kia Forte LXS — $14,499
+### 25. 2023 Kia Forte LXS — $14,499
 
 - VIN: `3KPF24ADXPE625780`
 - Mileage: 73,500 mi · Certified pre-owned
@@ -1073,7 +1005,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,815** ($511/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,708
 
-### 28. 2020 Nissan Leaf SV — $11,894
+### 26. 2020 Nissan Leaf SV — $11,894
 
 - VIN: `1N4AZ1CP9LC307653`
 - Mileage: 82,683 mi · Color: Super Black · Certified pre-owned
@@ -1109,7 +1041,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $30,347** ($421/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,854
 
-### 29. 2017 Ford C-MAX SE — $9,500
+### 27. 2017 Ford C-MAX SE — $9,500
 
 - VIN: `1FADP5AU6HL114550`
 - Mileage: 111,635 mi · Color: Ruby Red Metallic · Certified pre-owned
@@ -1142,7 +1074,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $32,295** ($449/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,350
 
-### 30. 2019 Hyundai Elantra SEL — $13,388
+### 28. 2019 Hyundai Elantra SEL — $13,388
 
 - VIN: `5NPD84LF4KH465193`
 - Mileage: 58,515 mi · Color: Quartz White Pearl · Certified pre-owned
@@ -1175,40 +1107,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,054** ($501/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,323
 
-### 31. 2020 Kia Niro LX — $12,250
-
-- VIN: `KNDCB3LC8L5369257`
-- Mileage: 108,567 mi · Color: Deep Cerulean · Certified pre-owned
-- Location: Gresham Subaru, Gresham OR (143 mi away)
-- Days on lot: 0
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789744936
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-- Safety: AEB standard (VIN-confirmed) · blind-spot trim
-  - IIHS: Top Safety Pick (2017–19)
-  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
-  - Also standard on this trim (LX, LXS): backupCam
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 1 recalls for the 2020 Kia Niro
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Source: https://www.nhtsa.gov/vehicle/2020/KIA/NIRO
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: yes · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $12,250
-  - Sales tax: $1,237
-  - Fuel / electricity: $4,867
-  - Maintenance: $2,542
-  - Insurance: $16,508
-  - Registration: $510
-  - Major-repair reserve (expected): $1,280
-  - Less resale value: $-5,740
-  - **6-year total: $32,684** ($454/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,075
-
-### 32. 2021 Hyundai Elantra SEL — $13,600
+### 29. 2021 Hyundai Elantra SEL — $13,600
 
 - VIN: `KMHLM4AG5MU193499`
 - Mileage: 104,508 mi · Color: Phantom Black · Certified pre-owned
@@ -1242,7 +1141,40 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,043** ($514/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,664
 
-### 33. 2021 Hyundai Kona SEL — $12,745
+### 30. 2020 Kia Niro LX — $12,250
+
+- VIN: `KNDCB3LC8L5369257`
+- Mileage: 108,567 mi · Color: Deep Cerulean · Certified pre-owned
+- Location: Gresham Subaru, Gresham OR (143 mi away)
+- Days on lot: 0
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789744936
+- Powertrain: **Hybrid**
+  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
+- Safety: AEB standard (VIN-confirmed) · blind-spot trim
+  - IIHS: Top Safety Pick (2017–19)
+  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
+  - Also standard on this trim (LX, LXS): backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 37 complaints, 0 recalls for the 2020 Kia Niro
+  - 37 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2020/KIA/NIRO%20HYBRID
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: yes · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $12,250
+  - Sales tax: $1,237
+  - Fuel / electricity: $4,867
+  - Maintenance: $2,542
+  - Insurance: $16,508
+  - Registration: $510
+  - Major-repair reserve (expected): $1,280
+  - Less resale value: $-5,740
+  - **6-year total: $32,684** ($454/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,075
+
+### 31. 2021 Hyundai Kona SEL — $12,745
 
 - VIN: `KM8K2CAA3MU603000`
 - Mileage: 86,657 mi · Color: Gray · Certified pre-owned
@@ -1275,7 +1207,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,031** ($514/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,579
 
-### 34. 2019 Nissan Leaf SV — $13,947
+### 32. 2019 Nissan Leaf SV — $13,947
 
 - VIN: `1N4AZ1CP6KC317183`
 - Mileage: 56,128 mi · Color: Brilliant Silver Metallic · Certified pre-owned
@@ -1311,7 +1243,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $32,187** ($447/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,797
 
-### 35. 2017 Chevrolet Bolt Premier — $14,999
+### 33. 2017 Chevrolet Bolt Premier — $14,999
 
 - VIN: `1G1FX6S09H4186687`
 - Mileage: 67,186 mi · Color: Arctic Blue · Certified pre-owned
@@ -1347,7 +1279,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - 2-year total (Jordyn only): $12,682
 - Note: Your higher-cost / better-EV benchmark — the best safety kit here (AEB + blind-spot) and a fresh battery. The branded title is the catch: cheaper to buy, harder to sell.
 
-### 36. 2020 Hyundai Elantra Value Edition — $12,995
+### 34. 2020 Hyundai Elantra Value Edition — $12,995
 
 - VIN: `5NPD84LF9LH537409`
 - Mileage: 87,194 mi · Color: Scarlet Red Pearl · Certified pre-owned
@@ -1380,7 +1312,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,302** ($504/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,359
 
-### 37. 2020 Hyundai Elantra SEL — $9,900
+### 35. 2020 Hyundai Elantra SEL — $9,900
 
 - VIN: `5NPD84LF5LH533177`
 - Mileage: 120,559 mi · Color: Machine Gray · Certified pre-owned
@@ -1413,7 +1345,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $34,594** ($480/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,464
 
-### 38. 2020 Hyundai Elantra Value Edition — $12,855
+### 36. 2020 Hyundai Elantra Value Edition — $12,855
 
 - VIN: `5NPD84LF1LH525481`
 - Mileage: 95,023 mi · Color: Lakeside Blue · Certified pre-owned
@@ -1446,7 +1378,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,395** ($505/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,371
 
-### 39. 2019 Hyundai Elantra Value Edition — $14,198
+### 37. 2019 Hyundai Elantra Value Edition — $14,198
 
 - VIN: `5NPD84LF2KH414436`
 - Mileage: 68,035 mi · Color: Lakeside Blue · Certified pre-owned
@@ -1479,7 +1411,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,994** ($514/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,719
 
-### 40. 2017 Chevrolet Bolt Premier — $13,995
+### 38. 2017 Chevrolet Bolt Premier — $13,995
 
 - VIN: `1G1FX6S08H4127310`
 - Mileage: 96,126 mi · Color: Includes (tus) Black Grille. · Certified pre-owned
@@ -1514,7 +1446,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $32,556** ($452/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,409
 
-### 41. 2019 Hyundai Elantra SEL — $14,482
+### 39. 2019 Hyundai Elantra SEL — $14,482
 
 - VIN: `KMHD84LF5KU782501`
 - Mileage: 65,532 mi · Color: Galactic Gray · Certified pre-owned
@@ -1547,7 +1479,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,165** ($516/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,805
 
-### 42. 2020 Hyundai Elantra SEL — $12,643
+### 40. 2020 Hyundai Elantra SEL — $12,643
 
 - VIN: `5NPD84LF0LH592556`
 - Mileage: 101,594 mi · Color: Quartz White Pearl · Certified pre-owned
@@ -1580,7 +1512,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,391** ($505/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,344
 
-### 43. 2020 Hyundai Elantra Value Edition — $14,290
+### 41. 2020 Hyundai Elantra Value Edition — $14,290
 
 - VIN: `KMHD84LF2LU999988`
 - Mileage: 80,467 mi · Color: Stellar Silver · Certified pre-owned
@@ -1613,7 +1545,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,211** ($517/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,798
 
-### 44. 2017 Chevrolet Volt LT — $9,984
+### 42. 2017 Chevrolet Volt LT — $9,984
 
 - VIN: `1G1RA6S51HU132620`
 - Mileage: 91,306 mi · Color: White · Certified pre-owned
@@ -1648,7 +1580,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $28,586** ($397/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,147
 
-### 45. 2021 Kia Forte LXS — $10,994
+### 43. 2021 Kia Forte LXS — $10,994
 
 - VIN: `3KPF24AD0ME383223`
 - Mileage: 104,149 mi · Color: Snow White Pearl · Certified pre-owned
@@ -1681,7 +1613,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $35,046** ($487/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,734
 
-### 46. 2017 Ford C-MAX Energi Titanium — $14,230
+### 44. 2017 Ford C-MAX Energi Titanium — $14,230
 
 - VIN: `1FADP5FU4HL114880`
 - Mileage: 57,719 mi · Color: Kona Blue Metallic · Certified pre-owned
@@ -1716,7 +1648,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $34,546** ($480/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,445
 
-### 47. 2021 Kia Niro LXS — $14,638
+### 45. 2021 Kia Niro LXS — $14,638
 
 - VIN: `KNDCB3LCXM5471922`
 - Mileage: 114,062 mi · Color: Silky Silver · Certified pre-owned
@@ -1749,7 +1681,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $34,603** ($481/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,960
 
-### 48. 2018 Chevrolet Volt LT — $10,175
+### 46. 2018 Chevrolet Volt LT — $10,175
 
 - VIN: `1G1RA6S55JU153766`
 - Mileage: 110,555 mi · Color: Satin Steel Metallic · Certified pre-owned
@@ -1784,7 +1716,39 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $29,260** ($406/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,702
 
-### 49. 2019 Hyundai Kona SEL — $12,378
+### 47. 2017 Kia Niro LX — $13,449
+
+- VIN: `KNDCB3LC8H5042770`
+- Mileage: 80,609 mi · Color: Deep Cerulean · Certified pre-owned
+- Location: Rairdon's Kia, Burlington WA (65 mi away)
+- Days on lot: 1
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789729249
+- Powertrain: **Hybrid**
+  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
+- Safety: AEB standard (VIN-confirmed) · blind-spot trim
+  - IIHS: Top Safety Pick (2017–19)
+  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 98 complaints, 1 recalls for the 2017 Kia Niro
+  - 36% of its 98 NHTSA complaints (35) concern the engine — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2017/KIA/NIRO%20HYBRID
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $13,449
+  - Sales tax: $1,358
+  - Fuel / electricity: $4,867
+  - Maintenance: $2,378
+  - Insurance: $16,831
+  - Registration: $510
+  - Major-repair reserve (expected): $1,381
+  - Less resale value: $-5,944
+  - **6-year total: $33,269** ($462/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,965
+
+### 48. 2019 Hyundai Kona SEL — $12,378
 
 - VIN: `KM8K22AA6KU230901`
 - Mileage: 101,279 mi · Color: Sonic Silver · Certified pre-owned
@@ -1817,7 +1781,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,549** ($522/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,694
 
-### 50. 2018 Chevrolet Bolt LT — $11,877
+### 49. 2018 Chevrolet Bolt LT — $11,877
 
 - VIN: `1G1FW6S08J4109771`
 - Mileage: 110,973 mi · Color: White · Certified pre-owned
@@ -1852,7 +1816,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $30,836** ($428/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,943
 
-### 51. 2017 Toyota Corolla LE — $12,500
+### 50. 2017 Toyota Corolla LE — $12,500
 
 - VIN: `5YFBURHEXHP689080`
 - Mileage: 115,379 mi · Color: Classic Silver Metallic · Certified pre-owned
@@ -1884,7 +1848,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,458** ($520/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,262
 
-### 52. 2019 Kia Forte Sedan — $13,638
+### 51. 2019 Kia Forte Sedan — $13,638
 
 - VIN: `3KPF24ADXKE081533`
 - Mileage: 49,542 mi · Color: Gravity Gray · Certified pre-owned
@@ -1916,7 +1880,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,217** ($503/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,403
 
-### 53. 2020 Hyundai Kona SEL — $13,795
+### 52. 2020 Hyundai Kona SEL — $13,795
 
 - VIN: `KM8K2CAA2LU473175`
 - Mileage: 104,157 mi · Color: Pulse Red · Certified pre-owned
@@ -1949,7 +1913,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $38,586** ($536/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,194
 
-### 54. 2017 Chevrolet Bolt LT — $14,991
+### 53. 2017 Chevrolet Bolt LT — $14,991
 
 - VIN: `1G1FW6S05H4187791`
 - Mileage: 51,584 mi · Color: Cajun Red Tintcoat · Certified pre-owned
@@ -1984,7 +1948,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $32,860** ($456/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,581
 
-### 55. 2018 Chevrolet Volt LT — $13,977
+### 54. 2018 Chevrolet Volt LT — $13,977
 
 - VIN: `1G1RA6S5XJU132153`
 - Mileage: 77,862 mi · Color: Cajun Red Metallic · Certified pre-owned
@@ -2019,7 +1983,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $31,712** ($440/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,918
 
-### 56. 2020 Hyundai Elantra SE — $13,995
+### 55. 2020 Hyundai Elantra SE — $13,995
 
 - VIN: `5NPD74LF6LH603448`
 - Mileage: 59,291 mi · Color: Portofino Grey · Certified pre-owned
@@ -2052,7 +2016,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,399** ($506/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,501
 
-### 57. 2019 Kia Forte S — $11,995
+### 56. 2019 Kia Forte S — $11,995
 
 - VIN: `3KPF34AD4KE026542`
 - Mileage: 79,853 mi · Color: Aurora Black Pearl · Certified pre-owned
@@ -2084,7 +2048,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $35,679** ($496/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,050
 
-### 58. 2017 Toyota Corolla SE — $13,995
+### 57. 2017 Toyota Corolla SE — $13,995
 
 - VIN: `2T1BURHE5HC868756`
 - Mileage: 108,480 mi · Color: White · Certified pre-owned
@@ -2116,7 +2080,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $38,468** ($534/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,706
 
-### 59. 2019 Hyundai Kona SE — $13,995
+### 58. 2019 Hyundai Kona SE — $13,995
 
 - VIN: `KM8K1CAA0KU294487`
 - Mileage: 41,578 mi · Color: Gray · Certified pre-owned
@@ -2149,7 +2113,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,252** ($517/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,796
 
-### 60. 2017 Toyota Corolla LE — $13,995
+### 59. 2017 Toyota Corolla LE — $13,995
 
 - VIN: `2T1BURHE9HC925511`
 - Mileage: 111,482 mi · Color: Classic Silver Metallic · Certified pre-owned
@@ -2181,7 +2145,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $38,559** ($536/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,736
 
-### 61. 2019 Kia Forte S — $14,900
+### 60. 2019 Kia Forte S — $14,900
 
 - VIN: `3KPF34AD2KE134075`
 - Mileage: 43,968 mi · Color: Gravity Gray · Certified pre-owned
@@ -2213,7 +2177,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,127** ($516/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,838
 
-### 62. 2019 Kia Forte LXS — $12,790
+### 61. 2019 Kia Forte LXS — $12,790
 
 - VIN: `3KPF24AD9KE138322`
 - Mileage: 76,238 mi · Color: Gravity Gray · Certified pre-owned
@@ -2245,7 +2209,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,247** ($503/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,315
 
-### 63. 2020 Hyundai Elantra SE — $13,195
+### 62. 2020 Hyundai Elantra SE — $13,195
 
 - VIN: `5NPD74LF1LH519182`
 - Mileage: 81,309 mi · Color: Lakeside Blue · Certified pre-owned
@@ -2278,7 +2242,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,318** ($504/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,387
 
-### 64. 2019 Honda Civic Sport — $14,995
+### 63. 2019 Honda Civic Sport — $14,995
 
 - VIN: `2HGFC2F81KH553654`
 - Mileage: 113,387 mi · Color: Silver · Certified pre-owned
@@ -2311,7 +2275,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $38,922** ($541/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,410
 
-### 65. 2021 Hyundai Kona SE — $12,700
+### 64. 2021 Hyundai Kona SE — $12,700
 
 - VIN: `KM8K1CAA9MU635792`
 - Mileage: 94,148 mi · Color: Pulse Red · Certified pre-owned
@@ -2344,7 +2308,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,178** ($516/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,628
 
-### 66. 2019 Kia Forte LXS — $13,995
+### 65. 2019 Kia Forte LXS — $13,995
 
 - VIN: `3KPF24AD5KE090737`
 - Mileage: 65,727 mi · Color: Clear White · Certified pre-owned
@@ -2376,7 +2340,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,967** ($513/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,688
 
-### 67. 2019 Kia Forte LXS — $13,995
+### 66. 2019 Kia Forte LXS — $13,995
 
 - VIN: `3KPF24AD0KE007165`
 - Mileage: 68,230 mi · Color: Clear White · Certified pre-owned
@@ -2408,7 +2372,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,036** ($514/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,710
 
-### 68. 2019 Kia Forte Sedan — $11,999
+### 67. 2019 Kia Forte Sedan — $11,999
 
 - VIN: `3KPF24ADXKE034552`
 - Mileage: 101,300 mi · Color: White · Certified pre-owned
@@ -2440,7 +2404,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,277** ($504/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,232
 
-### 69. 2017 Honda Civic EX — $14,688
+### 68. 2017 Honda Civic EX — $14,688
 
 - VIN: `2HGFC2F77HH519427`
 - Mileage: 123,067 mi · Color: Silver · Certified pre-owned
@@ -2474,7 +2438,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $39,047** ($542/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,941
 
-### 70. 2019 Kia Forte Sedan — $9,998
+### 69. 2019 Kia Forte Sedan — $9,998
 
 - VIN: `3KPF24AD0KE005383`
 - Mileage: 119,837 mi · Color: Grey · Certified pre-owned
@@ -2506,7 +2470,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $35,108** ($488/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,636
 
-### 71. 2021 Hyundai Kona SE — $13,995
+### 70. 2021 Hyundai Kona SE — $13,995
 
 - VIN: `KM8K12AA4MU660996`
 - Mileage: 84,931 mi · Color: Ultra Black Pearl · Certified pre-owned
@@ -2539,7 +2503,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $38,030** ($528/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,041
 
-### 72. 2019 Hyundai Kona Ultimate — $14,799
+### 71. 2019 Hyundai Kona Ultimate — $14,799
 
 - VIN: `KM8K5CA59KU369923`
 - Mileage: 113,988 mi · Color: Ultra Black Pearl · Certified pre-owned
@@ -2572,13 +2536,13 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $39,932** ($555/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,729
 
-### 73. 2017 Ford C-MAX Energi SE — $9,613
+### 72. 2017 Ford C-MAX Energi SE — $9,613
 
 - VIN: `1FADP5EUXHL104520`
 - Mileage: 81,117 mi · Color: Magnetic · Certified pre-owned
-- Location: Dick Hannah Subaru, Vancouver WA (134 mi away)
+- Location: Dick Hannah Dealerships, Vancouver WA (132 mi away)
 - Days on lot: 0
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789772136
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789783024
 - Powertrain: **Plug-in hybrid** · 19 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
 - Safety: AEB standard (VIN-confirmed) · blind-spot rare
@@ -2607,7 +2571,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $31,346** ($435/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,048
 
-### 74. 2020 Hyundai Elantra SE — $10,995
+### 73. 2020 Hyundai Elantra SE — $10,995
 
 - VIN: `5NPD74LF6LH519520`
 - Mileage: 120,236 mi · Color: Calypso Red · Certified pre-owned
@@ -2640,7 +2604,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $35,507** ($493/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,877
 
-### 75. 2023 Kia Forte LXS — $14,999
+### 74. 2023 Kia Forte LXS — $14,999
 
 - VIN: `3KPF24AD2PE540206`
 - Mileage: 64,864 mi · Color: Aurora Black Pearl · Certified pre-owned
@@ -2673,7 +2637,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $37,036** ($514/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,830
 
-### 76. 2020 Hyundai Elantra SE — $10,995
+### 75. 2020 Hyundai Elantra SE — $10,995
 
 - VIN: `5NPD74LF8LH530969`
 - Mileage: 124,038 mi · Color: White · Certified pre-owned
@@ -2706,7 +2670,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $35,606** ($495/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,906
 
-### 77. 2020 Hyundai Elantra SEL — $9,622
+### 76. 2020 Hyundai Elantra SEL — $9,622
 
 - VIN: `KMHD84LF2LU897428`
 - Mileage: 114,145 mi · Color: Scarlet Red Pearl · Certified pre-owned
@@ -2738,6 +2702,40 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - Less resale value: $-4,508
   - **6-year total: $34,189** ($475/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,301
+
+### 77. 2018 Honda Clarity Plug-In Hybrid — $14,795
+
+- VIN: `JHMZC5F18JC018157`
+- Mileage: 121,900 mi · Color: Solar Silver Metallic · Certified pre-owned
+- Location: Rairdon's Nissan of Auburn, Auburn WA (16 mi away)
+- Days on lot: 11
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788797698
+- Powertrain: **Plug-in hybrid** · 47 mi electric range
+  - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
+- Safety: AEB standard · blind-spot trim
+  - IIHS: Top Safety Pick (2018–21)
+  - Honda Sensing standard. 47 mi EV range easily covers the barn run.
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 134 complaints, 1 recalls for the 2018 Honda Clarity
+  - 32% of its 134 NHTSA complaints (43) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2018/HONDA/CLARITY%20PLUG-IN%20HYBRID
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":0,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (8 yr, 121,900 mi) — a pack failure would be entirely out of pocket."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $14,795
+  - Sales tax: $1,494
+  - Fuel / electricity: $2,152
+  - Maintenance: $2,786
+  - Insurance: $17,195
+  - Registration: $960
+  - Major-repair reserve (expected): $1,875
+  - Less resale value: $-6,932
+  - **6-year total: $33,394** ($464/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,545
 
 ### 78. 2019 Hyundai Kona SE — $13,439
 
@@ -3860,10 +3858,11 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
 - Safety: AEB trim · blind-spot trim
   - ⚠️ IIHS: IIHS rated the hybrid and plug-in version of this model — not the electric version. Structure is largely shared, so the result is reassuring, but this exact powertrain did not earn the award.
   - On the Hybrid, Forward Collision-Avoidance and Blind-Spot Warning are SEL/Limited/Ultimate — verify per-VIN. The Electric is trimmed differently: its Limited was the top trim and Hyundai reports the driver-assist suite as standard on it.
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 0 recalls for the 2019 Hyundai Ioniq
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Source: https://www.nhtsa.gov/vehicle/2019/HYUNDAI/IONIQ
+- Reliability (model-year level): **ok** — confidence low
+  - NHTSA: 6 complaints, 1 recalls for the 2019 Hyundai Ioniq
+  - Only 6 NHTSA complaints on record — too few to draw a firm conclusion.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - Source: https://www.nhtsa.gov/vehicle/2019/HYUNDAI/IONIQ%20ELECTRIC
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
 - Traction battery warranty: {"covered":true,"yearsLeft":1,"milesLeft":40969,"effectiveYears":1,"note":"Battery warranty nearly up — about 1.0 more year(s), whichever of 8yr/100k comes first. Little protection left for Jordyn, none for Emma."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
@@ -3895,10 +3894,12 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - IIHS: Good in most tests; headlights Marginal/Poor
   - AEB = Driver Confidence II package; blind-spot = Driver Confidence I. Neither is standard — confirm on the window sticker.
   - Also standard on this trim (LT): backupCam
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 0 recalls for the 2020 Chevrolet Bolt
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Source: https://www.nhtsa.gov/vehicle/2020/CHEVROLET/BOLT
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 172 complaints, 8 recalls for the 2020 Chevrolet Bolt
+  - 72% of its 172 NHTSA complaints (124) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - 8 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2020/CHEVROLET/BOLT%20EV
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
 - Traction battery warranty: {"covered":true,"yearsLeft":2,"milesLeft":1787,"effectiveYears":0.3,"note":"Battery warranty nearly up — about 0.3 more year(s), whichever of 8yr/100k comes first. Little protection left for Jordyn, none for Emma."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
@@ -3912,45 +3913,12 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - Maintenance: $1,618
   - Insurance: $16,977
   - Registration: $1,860
-  - Major-repair reserve (expected): $685
-  - Less resale value: $-8,534
-  - **6-year total: $32,450** ($451/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,724
+  - Major-repair reserve (expected): $561
+  - Less resale value: $-8,174
+  - **6-year total: $31,966** ($444/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,992
 
-### 113. 2017 Kia Niro EX — $10,998
-
-- VIN: `KNDCC3LC3H5045959`
-- Mileage: 128,246 mi · Color: Deep Cerulean · Certified pre-owned
-- Location: West Hills Honda, Bremerton WA (24 mi away)
-- Days on lot: 5
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789306260
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-- Safety: AEB trim · blind-spot standard (VIN-confirmed)
-  - IIHS: Top Safety Pick (2017–19)
-  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
-- Reliability (model-year level): **clean** — confidence low
-  - NHTSA: 0 complaints, 4 recalls for the 2017 Kia Niro
-  - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - Source: https://www.nhtsa.gov/vehicle/2017/KIA/NIRO
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: yes · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $10,998
-  - Sales tax: $1,111
-  - Fuel / electricity: $4,867
-  - Maintenance: $2,905
-  - Insurance: $16,169
-  - Registration: $510
-  - Major-repair reserve (expected): $1,927
-  - Less resale value: $-4,861
-  - **6-year total: $32,350** ($449/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,457
-
-### 114. 2017 Chevrolet Volt Premier — $10,000
+### 113. 2017 Chevrolet Volt Premier — $10,000
 
 - VIN: `1G1RD6S54HU217619`
 - Mileage: 125,076 mi · Color: Mosaic Black Metallic · Certified pre-owned
@@ -3984,7 +3952,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $29,402** ($408/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,399
 
-### 115. 2017 Honda Civic LX — $11,995
+### 114. 2017 Honda Civic LX — $11,995
 
 - VIN: `2HGFC2F62HH524476`
 - Mileage: 117,995 mi · Color: Red · Certified pre-owned
@@ -4017,7 +3985,7 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - **6-year total: $36,706** ($510/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,974
 
-### 116. 2018 Honda Civic LX — $14,990
+### 115. 2018 Honda Civic LX — $14,990
 
 - VIN: `2HGFC2F57JH545336`
 - Mileage: 82,711 mi · Color: Lunar Silver Metallic · Certified pre-owned
@@ -4050,6 +4018,38 @@ Every car we can find under $15k that could work as Jordyn's first car, grouped 
   - Less resale value: $-7,024
   - **6-year total: $38,273** ($532/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,207
+
+### 116. 2017 Kia Niro EX — $10,998
+
+- VIN: `KNDCC3LC3H5045959`
+- Mileage: 128,246 mi · Color: Deep Cerulean · Certified pre-owned
+- Location: West Hills Honda, Bremerton WA (24 mi away)
+- Days on lot: 5
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789306260
+- Powertrain: **Hybrid**
+  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
+- Safety: AEB trim · blind-spot standard (VIN-confirmed)
+  - IIHS: Top Safety Pick (2017–19)
+  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 98 complaints, 1 recalls for the 2017 Kia Niro
+  - 36% of its 98 NHTSA complaints (35) concern the engine — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2017/KIA/NIRO%20HYBRID
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: yes · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $10,998
+  - Sales tax: $1,111
+  - Fuel / electricity: $4,867
+  - Maintenance: $2,905
+  - Insurance: $16,169
+  - Registration: $510
+  - Major-repair reserve (expected): $1,927
+  - Less resale value: $-4,861
+  - **6-year total: $32,350** ($449/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,457
 
 ### 117. 2017 Honda Civic LX — $12,995
 

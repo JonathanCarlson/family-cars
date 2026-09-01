@@ -1,6 +1,6 @@
 ==========================================================================
 JORDYN'S FIRST CAR — 120 listings
-roster updated 2026-08-31 · feed generated 2026-09-01T01:34:46.745Z
+roster updated 2026-08-31 · feed generated 2026-09-01T03:07:43.831Z
 ==========================================================================
 
 Used cars under $15,000 near Bellevue WA, screened for teen-driver safety and ranked on total cost to own.
@@ -18,31 +18,31 @@ HOW TO READ THIS
 --------------------------------------------------------------------------
 TOP 10 OVERALL (powertrain-neutral — EVs get no bonus, they win on cost)
 --------------------------------------------------------------------------
-   1. 2022 Nissan Leaf S               $ 13694    33693mi  Battery electric                   elec 100%  6yr $ 31323  score 91.1
-   2. 2023 Nissan Leaf S               $ 13488    52213mi  Battery electric                   elec 100%  6yr $ 31199  score 90.7
-   3. 2024 Nissan Leaf S               $ 13990    63830mi  Battery electric                   elec 100%  6yr $ 31717  score 89.3
-   4. 2022 Hyundai Ioniq SE            $ 13014   123046mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 32761  score 84.3
-   5. 2021 Hyundai Elantra SE          $ 14999    20737mi  Gasoline                           elec   0%  6yr $ 36318  score 83.8
-   6. 2022 Hyundai Elantra SE          $ 14998    42004mi  Gasoline                           elec   0%  6yr $ 36455  score 83.5
-   7. 2018 Kia Niro EX                 $ 12575   113256mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 33433  score 83.3
-   8. 2017 Hyundai Ioniq Limited       $ 11800    80887mi  Battery electric                   elec 100%  6yr $ 30065  score 83.2
-   9. 2022 Hyundai Elantra SEL         $ 14900    63099mi  Gasoline                           elec   0%  6yr $ 36887  score 81.9
-  10. 2021 Hyundai Elantra SEL         $ 12999   101199mi  Gasoline                           elec   0%  6yr $ 36454  score 80.8
+   1. 2023 Nissan Leaf S               $ 13488    52213mi  Battery electric                   elec 100%  6yr $ 31199  score 89.8
+   2. 2024 Nissan Leaf S               $ 13990    63830mi  Battery electric                   elec 100%  6yr $ 31717  score 88.4
+   3. 2021 Hyundai Elantra SE          $ 14999    20737mi  Gasoline                           elec   0%  6yr $ 36318  score 83.8
+   4. 2022 Hyundai Ioniq SE            $ 13014   123046mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 32761  score 83.5
+   5. 2022 Hyundai Elantra SE          $ 14998    42004mi  Gasoline                           elec   0%  6yr $ 36455  score 83.5
+   6. 2018 Kia Niro EX                 $ 12575   113256mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 33433  score 82.5
+   7. 2017 Hyundai Ioniq Limited       $ 11800    80887mi  Battery electric                   elec 100%  6yr $ 30065  score 82.4
+   8. 2022 Hyundai Elantra SEL         $ 14900    63099mi  Gasoline                           elec   0%  6yr $ 36887  score 81.9
+   9. 2021 Hyundai Elantra SEL         $ 12999   101199mi  Gasoline                           elec   0%  6yr $ 36454  score 80.8
+  10. 2021 Nissan Leaf SL Plus         $ 15000    41300mi  Battery electric                   elec 100%  6yr $ 32788  score 80.7
 
 --------------------------------------------------------------------------
 TOP 10 ELECTRIC / PLUG-IN (ranked by share of miles actually driven on electricity)
 --------------------------------------------------------------------------
   Battery-electric and plug-in hybrids only, VIN-verified, ranked by overall fit — NOT by electric share. Ranking by share alone would put every 100%-electric BEV above every plug-in and hide the fact that a 53-mile Volt covers ~85% of these miles on electricity while costing several thousand less to own. Read electricDriveShare alongside the rank.
-   1. 2022 Nissan Leaf S               $ 13694    33693mi  Battery electric                   elec 100%  6yr $ 31323  score 91.1
-   2. 2023 Nissan Leaf S               $ 13488    52213mi  Battery electric                   elec 100%  6yr $ 31199  score 90.7
-   3. 2024 Nissan Leaf S               $ 13990    63830mi  Battery electric                   elec 100%  6yr $ 31717  score 89.3
-   4. 2017 Hyundai Ioniq Limited       $ 11800    80887mi  Battery electric                   elec 100%  6yr $ 30065  score 83.2
-   5. 2021 Nissan Leaf SL Plus         $ 15000    41300mi  Battery electric                   elec 100%  6yr $ 32788  score 80.7
-   6. 2018 Honda Clarity Plug-In Hybri $ 14795   121900mi  Plug-in hybrid                     elec  85%  6yr $ 33394  score 73.5
-   7. 2018 Nissan Leaf SV              $  9977    97594mi  Battery electric                   elec 100%  6yr $ 28928  score 71.7
-   8. 2020 Nissan Leaf SV              $ 11894    82683mi  Battery electric                   elec 100%  6yr $ 30347  score 71.1
-   9. 2019 Volkswagen e-Golf SE        $ 12685    60402mi  Battery electric                   elec 100%  6yr $ 30934  score 70.4
-  10. 2019 Hyundai Ioniq Electric      $ 12683    59031mi  Battery electric                   elec 100%  6yr $ 30601  score 69.8
+   1. 2023 Nissan Leaf S               $ 13488    52213mi  Battery electric                   elec 100%  6yr $ 31199  score 89.8
+   2. 2024 Nissan Leaf S               $ 13990    63830mi  Battery electric                   elec 100%  6yr $ 31717  score 88.4
+   3. 2017 Hyundai Ioniq Limited       $ 11800    80887mi  Battery electric                   elec 100%  6yr $ 30065  score 82.4
+   4. 2021 Nissan Leaf SL Plus         $ 15000    41300mi  Battery electric                   elec 100%  6yr $ 32788  score 80.7
+   5. 2022 Nissan Leaf S               $ 13694    33693mi  Battery electric                   elec 100%  6yr $ 31323  score 77.6
+   6. 2018 Nissan Leaf SV              $  9977    97594mi  Battery electric                   elec 100%  6yr $ 28928  score 71.7
+   7. 2020 Nissan Leaf SV              $ 11894    82683mi  Battery electric                   elec 100%  6yr $ 30347  score 71.1
+   8. 2019 Volkswagen e-Golf SE        $ 12685    60402mi  Battery electric                   elec 100%  6yr $ 30934  score 70.4
+   9. 2019 Nissan Leaf SV              $ 13947    56128mi  Battery electric                   elec 100%  6yr $ 32187  score 69.4
+  10. 2017 Chevrolet Bolt Premier      $ 14999    67186mi  Battery electric                   elec 100%  6yr $ 33088  score 69.3
 
 --------------------------------------------------------------------------
 COST ASSUMPTIONS (inputs to every total below)
@@ -62,61 +62,7 @@ COST ASSUMPTIONS (inputs to every total below)
     ! Washington's used-EV sales-tax exemption appears to have lapsed 2025-07-31 and is deliberately NOT modelled.
 
 ==========================================================================
-1. 2022 Nissan Leaf S — $13,694
-==========================================================================
-  VIN                     1N4AZ1BV1NC557777
-  odometer                33,693 mi
-  condition               Used · Super Black
-  where                   Volkswagen of Olympia, Olympia WA (52 mi)
-  days on lot             59
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/784707771
-  powertrain              Battery electric · 150 mi electric
-  electric drive share    100% of miles at 130 mi/week
-    evidence              NHTSA lists electric as the only fuel and no engine displacement.
-  AEB                     standard (model-year-typical)
-  blind-spot monitor      standard (vin-trim-confirmed)
-  IIHS                    Top Safety Pick (2018–19 w/ good headlights)
-  also standard (S)   forward-collision-warning, lane-keeping-assist, backup-camera
-  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    no
-    one owner             no
-  battery risk factor     0.47
-    Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-  reliability (2022 Nissan Leaf)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 4 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-    source                https://www.nhtsa.gov/vehicle/2022/NISSAN/LEAF
-  2-year cost to own
-    purchase 13694 + tax 1383 + fuel 487 + maint 362
-    + insurance 5632 + fees 620 + repairs 54 - resale 3763
-    = $12,301 ($513/mo over 13,520 mi)
-  6-year cost to own
-    purchase 13694 + tax 1383 + fuel 1460 + maint 1087
-    + insurance 16897 + fees 1860 + repairs 205 - resale 8431
-    = $31,323 ($435/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $205 to budget
-    worst single bill     $6,500 at ~1% — exposure, not budget
-     13% x $  660 = $  84  Suspension, steering or brake overhaul
-      3% x $ 2750 = $  69  Drive unit, inverter or onboard charger
-      1% x $ 6500 = $  39  Traction battery catastrophic failure (not degradation)
-      1% x $ 1450 = $  13  Battery thermal management / electric HVAC
-  battery health          89% now -> 72% in 6 yr (±6 percentage points)
-    range                 ~133 mi now -> ~108 mi (need ~19/day)
-    Passive air cooling — no liquid thermal management
-    (degradation affects range and resale, NOT counted as a repair)
-  still worth owning 2032?  likely (~90%)
-    ~74,253 mi, 10 yr old
-    - Only ~74k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-    - Projected ~108 mi of range at 72% health by 2032 — still far beyond the ~19 mi/day need.
-    - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
-
-==========================================================================
-2. 2023 Nissan Leaf S — $13,488
+1. 2023 Nissan Leaf S — $13,488
 ==========================================================================
   VIN                     1N4AZ1BV8PC559108
   odometer                52,213 mi
@@ -140,10 +86,10 @@ COST ASSUMPTIONS (inputs to every total below)
   battery risk factor     0.47
     Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
   reliability (2023 Nissan Leaf)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 3 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    source                https://www.nhtsa.gov/vehicle/2023/NISSAN/LEAF
+    band                  ok (confidence: medium)
+    NHTSA                 19 complaints · 0 recalls
+    - 19 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2023/NISSAN/LEAF%20(40%20KWH%20BATTERY)
   2-year cost to own
     purchase 13488 + tax 1362 + fuel 487 + maint 394
     + insurance 5614 + fees 620 + repairs 59 - resale 3679
@@ -169,7 +115,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-3. 2024 Nissan Leaf S — $13,990
+2. 2024 Nissan Leaf S — $13,990
 ==========================================================================
   VIN                     1N4AZ1BV5RC555617
   odometer                63,830 mi
@@ -193,10 +139,10 @@ COST ASSUMPTIONS (inputs to every total below)
   battery risk factor     0.44
     Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
   reliability (2024 Nissan Leaf)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 0 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    source                https://www.nhtsa.gov/vehicle/2024/NISSAN/LEAF
+    band                  ok (confidence: medium)
+    NHTSA                 10 complaints · 0 recalls
+    - 10 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2024/NISSAN/LEAF%20(40%20KWH%20BATTERY)%20%2B%20LEAF%20PLUS%20(60%20KWH%20BATTERY)
   2-year cost to own
     purchase 13990 + tax 1413 + fuel 487 + maint 412
     + insurance 5659 + fees 620 + repairs 54 - resale 3787
@@ -222,52 +168,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-4. 2022 Hyundai Ioniq SE — $13,014
-==========================================================================
-  VIN                     KMHC75LC5NU279565
-  odometer                123,046 mi
-  condition               Used · Stellar Silver
-  where                   Sunset Auto Wholesale Tacoma, Tacoma WA (29 mi)
-  days on lot             75
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/783307454
-  powertrain              Hybrid (gasoline, self-charging)
-  electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-  AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      standard (vin-trim-confirmed)
-  IIHS                    Top Safety Pick
-  also standard (SE)   forward-collision-warning, lane-keeping-assist, backup-camera
-  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    no
-    one owner             yes
-  reliability (2022 Hyundai Ioniq)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 0 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    source                https://www.nhtsa.gov/vehicle/2022/HYUNDAI/IONIQ
-  2-year cost to own
-    purchase 13014 + tax 1314 + fuel 1475 + maint 868
-    + insurance 5571 + fees 170 + repairs 314 - resale 2473
-    = $12,185 ($508/mo over 13,520 mi)
-  6-year cost to own
-    purchase 13014 + tax 1314 + fuel 4425 + maint 2604
-    + insurance 16714 + fees 510 + repairs 1096 - resale 6098
-    = $32,761 ($455/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,096 to budget
-    worst single bill     $5,000 at ~3% — exposure, not budget
-     13% x $ 2650 = $ 342  Hybrid traction battery failure
-     24% x $  950 = $ 229  Cooling, fuel or ignition system
-     28% x $  660 = $ 186  Suspension, steering or brake overhaul
-     11% x $ 1700 = $ 179  Catalytic converter / emissions system
-  still worth owning 2032?  probable (~78%)
-    ~163,606 mi, 10 yr old
-    - ~164k miles by 2032.
-
-==========================================================================
-5. 2021 Hyundai Elantra SE — $14,999
+3. 2021 Hyundai Elantra SE — $14,999
 ==========================================================================
   VIN                     KMHLL4AG0MU191193
   odometer                20,737 mi
@@ -313,7 +214,52 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~61k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-6. 2022 Hyundai Elantra SE — $14,998
+4. 2022 Hyundai Ioniq SE — $13,014
+==========================================================================
+  VIN                     KMHC75LC5NU279565
+  odometer                123,046 mi
+  condition               Used · Stellar Silver
+  where                   Sunset Auto Wholesale Tacoma, Tacoma WA (29 mi)
+  days on lot             75
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/783307454
+  powertrain              Hybrid (gasoline, self-charging)
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      standard (vin-trim-confirmed)
+  IIHS                    Top Safety Pick
+  also standard (SE)   forward-collision-warning, lane-keeping-assist, backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             yes
+  reliability (2022 Hyundai Ioniq)
+    band                  ok (confidence: medium)
+    NHTSA                 21 complaints · 0 recalls
+    - 21 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2022/HYUNDAI/IONIQ%20HYBRID
+  2-year cost to own
+    purchase 13014 + tax 1314 + fuel 1475 + maint 868
+    + insurance 5571 + fees 170 + repairs 314 - resale 2473
+    = $12,185 ($508/mo over 13,520 mi)
+  6-year cost to own
+    purchase 13014 + tax 1314 + fuel 4425 + maint 2604
+    + insurance 16714 + fees 510 + repairs 1096 - resale 6098
+    = $32,761 ($455/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,096 to budget
+    worst single bill     $5,000 at ~3% — exposure, not budget
+     13% x $ 2650 = $ 342  Hybrid traction battery failure
+     24% x $  950 = $ 229  Cooling, fuel or ignition system
+     28% x $  660 = $ 186  Suspension, steering or brake overhaul
+     11% x $ 1700 = $ 179  Catalytic converter / emissions system
+  still worth owning 2032?  probable (~78%)
+    ~163,606 mi, 10 yr old
+    - ~164k miles by 2032.
+
+==========================================================================
+5. 2022 Hyundai Elantra SE — $14,998
 ==========================================================================
   VIN                     5NPLL4AGXNH082871
   odometer                42,004 mi
@@ -359,7 +305,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~83k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-7. 2018 Kia Niro EX — $12,575
+6. 2018 Kia Niro EX — $12,575
 ==========================================================================
   VIN                     KNDCC3LC8J5132231
   odometer                113,256 mi
@@ -381,11 +327,10 @@ COST ASSUMPTIONS (inputs to every total below)
     accidents reported    no
     one owner             no
   reliability (2018 Kia Niro)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 3 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-    source                https://www.nhtsa.gov/vehicle/2018/KIA/NIRO
+    band                  ok (confidence: medium)
+    NHTSA                 57 complaints · 0 recalls
+    - 57 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2018/KIA/NIRO%20HYBRID
   2-year cost to own
     purchase 12575 + tax 1270 + fuel 1622 + maint 897
     + insurance 5532 + fees 170 + repairs 467 - resale 2389
@@ -406,7 +351,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~154k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-8. 2017 Hyundai Ioniq Limited — $11,800
+7. 2017 Hyundai Ioniq Limited — $11,800
 ==========================================================================
   VIN                     KMHC85LH9HU015424
   odometer                80,887 mi
@@ -430,10 +375,11 @@ COST ASSUMPTIONS (inputs to every total below)
   battery risk factor     0.6
     Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
   reliability (2017 Hyundai Ioniq)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 0 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    source                https://www.nhtsa.gov/vehicle/2017/HYUNDAI/IONIQ
+    band                  ok (confidence: low)
+    NHTSA                 9 complaints · 2 recalls
+    - Only 9 NHTSA complaints on record — too few to draw a firm conclusion.
+    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+    source                https://www.nhtsa.gov/vehicle/2017/HYUNDAI/IONIQ%20ELECTRIC
   2-year cost to own
     purchase 11800 + tax 1192 + fuel 406 + maint 529
     + insurance 5462 + fees 620 + repairs 233 - resale 2865
@@ -459,7 +405,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~125 mi of range at 74% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-9. 2022 Hyundai Elantra SEL — $14,900
+8. 2022 Hyundai Elantra SEL — $14,900
 ==========================================================================
   VIN                     KMHLM4AG2NU328875
   odometer                63,099 mi
@@ -505,7 +451,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~104k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-10. 2021 Hyundai Elantra SEL — $12,999
+9. 2021 Hyundai Elantra SEL — $12,999
 ==========================================================================
   VIN                     5NPLM4AG2MH051531
   odometer                101,199 mi
@@ -551,7 +497,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~142k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-11. 2021 Nissan Leaf SL Plus — $15,000
+10. 2021 Nissan Leaf SL Plus — $15,000
 ==========================================================================
   VIN                     1N4BZ1DV0MC553591
   odometer                41,300 mi
@@ -605,54 +551,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-12. 2017 Kia Niro LX — $13,449
-==========================================================================
-  VIN                     KNDCB3LC8H5042770
-  odometer                80,609 mi
-  condition               Used · Deep Cerulean
-  where                   Rairdon's Kia, Burlington WA (65 mi)
-  days on lot             1
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789729249
-  powertrain              Hybrid (gasoline, self-charging)
-  electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-  AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      trim (model-year-typical)
-  IIHS                    Top Safety Pick (2017–19)
-  also standard (trim)   backup-camera
-  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    no
-    one owner             no
-  reliability (2017 Kia Niro)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 4 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-    source                https://www.nhtsa.gov/vehicle/2017/KIA/NIRO
-  2-year cost to own
-    purchase 13449 + tax 1358 + fuel 1622 + maint 793
-    + insurance 5610 + fees 170 + repairs 401 - resale 2011
-    = $11,965 ($499/mo over 13,520 mi)
-  6-year cost to own
-    purchase 13449 + tax 1358 + fuel 4867 + maint 2378
-    + insurance 16831 + fees 510 + repairs 1381 - resale 5944
-    = $33,269 ($462/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,381 to budget
-    worst single bill     $5,000 at ~4% — exposure, not budget
-     16% x $ 2650 = $ 429  Hybrid traction battery failure
-     30% x $  950 = $ 289  Cooling, fuel or ignition system
-     36% x $  660 = $ 234  Suspension, steering or brake overhaul
-     13% x $ 1700 = $ 224  Catalytic converter / emissions system
-  still worth owning 2032?  probable (~72%)
-    ~121,169 mi, 15 yr old
-    - 15 years old by 2032 — parts availability and rust start to matter.
-    - Only ~121k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-
-==========================================================================
-13. 2021 Hyundai Elantra N Line — $14,999
+11. 2021 Hyundai Elantra N Line — $14,999
 ==========================================================================
   VIN                     KMHLR4AF7MU164305
   odometer                96,161 mi
@@ -698,7 +597,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~137k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-14. 2021 Kia Forte LXS — $13,985
+12. 2021 Kia Forte LXS — $13,985
 ==========================================================================
   VIN                     3KPF24AD3ME316700
   odometer                44,352 mi
@@ -743,7 +642,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~85k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-15. 2021 Kia Forte LXS — $14,985
+13. 2021 Kia Forte LXS — $14,985
 ==========================================================================
   VIN                     3KPF24AD1ME346729
   odometer                36,121 mi
@@ -788,7 +687,60 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~77k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-16. 2020 Hyundai Ioniq SE — $11,995
+14. 2022 Nissan Leaf S — $13,694
+==========================================================================
+  VIN                     1N4AZ1BV1NC557777
+  odometer                33,693 mi
+  condition               Used · Super Black
+  where                   Volkswagen of Olympia, Olympia WA (52 mi)
+  days on lot             59
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/784707771
+  powertrain              Battery electric · 150 mi electric
+  electric drive share    100% of miles at 130 mi/week
+    evidence              NHTSA lists electric as the only fuel and no engine displacement.
+  AEB                     standard (model-year-typical)
+  blind-spot monitor      standard (vin-trim-confirmed)
+  IIHS                    Top Safety Pick (2018–19 w/ good headlights)
+  also standard (S)   forward-collision-warning, lane-keeping-assist, backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             no
+  battery risk factor     0.47
+    Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+  reliability (2022 Nissan Leaf)
+    band                  concern (confidence: high)
+    NHTSA                 182 complaints · 0 recalls
+    - 85% of its 182 NHTSA complaints (154) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2022/NISSAN/LEAF%20(40%20KWH%20BATTERY)%20%2B%20LEAF%20PLUS%20(62%20KWH%20BATTERY)
+  2-year cost to own
+    purchase 13694 + tax 1383 + fuel 487 + maint 362
+    + insurance 5632 + fees 620 + repairs 54 - resale 3763
+    = $12,301 ($513/mo over 13,520 mi)
+  6-year cost to own
+    purchase 13694 + tax 1383 + fuel 1460 + maint 1087
+    + insurance 16897 + fees 1860 + repairs 205 - resale 8431
+    = $31,323 ($435/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $205 to budget
+    worst single bill     $6,500 at ~1% — exposure, not budget
+     13% x $  660 = $  84  Suspension, steering or brake overhaul
+      3% x $ 2750 = $  69  Drive unit, inverter or onboard charger
+      1% x $ 6500 = $  39  Traction battery catastrophic failure (not degradation)
+      1% x $ 1450 = $  13  Battery thermal management / electric HVAC
+  battery health          89% now -> 72% in 6 yr (±6 percentage points)
+    range                 ~133 mi now -> ~108 mi (need ~19/day)
+    Passive air cooling — no liquid thermal management
+    (degradation affects range and resale, NOT counted as a repair)
+  still worth owning 2032?  likely (~90%)
+    ~74,253 mi, 10 yr old
+    - Only ~74k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+    - Projected ~108 mi of range at 72% health by 2032 — still far beyond the ~19 mi/day need.
+    - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
+
+==========================================================================
+15. 2020 Hyundai Ioniq SE — $11,995
 ==========================================================================
   VIN                     KMHC75LC3LU233701
   odometer                124,730 mi
@@ -833,7 +785,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~165k miles by 2032.
 
 ==========================================================================
-17. 2021 Kia Forte Sedan — $11,789
+16. 2021 Kia Forte Sedan — $11,789
 ==========================================================================
   VIN                     3KPF24AD2ME403956
   odometer                93,415 mi
@@ -878,7 +830,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~134k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-18. 2021 Kia Forte LXS — $12,235
+17. 2021 Kia Forte LXS — $12,235
 ==========================================================================
   VIN                     3KPF24ADXME270864
   odometer                102,028 mi
@@ -923,7 +875,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~143k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-19. 2021 Kia Forte LXS — $14,638
+18. 2021 Kia Forte LXS — $14,638
 ==========================================================================
   VIN                     3KPF24AD7ME306350
   odometer                69,967 mi
@@ -968,7 +920,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~111k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-20. 2020 Kia Forte GT-Line — $14,638
+19. 2020 Kia Forte GT-Line — $14,638
 ==========================================================================
   VIN                     3KPF34AD2LE139603
   odometer                64,057 mi
@@ -1013,59 +965,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~105k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-21. 2018 Honda Clarity Plug-In Hybrid — $14,795
-==========================================================================
-  VIN                     JHMZC5F18JC018157
-  odometer                121,900 mi
-  condition               Used · Solar Silver Metallic
-  where                   Rairdon's Nissan of Auburn, Auburn WA (16 mi)
-  days on lot             11
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/788797698
-  powertrain              Plug-in hybrid · 47 mi electric
-  electric drive share    85% of miles at 130 mi/week
-    evidence              NHTSA classifies this VIN as a plug-in hybrid.
-  AEB                     standard (model-year-typical)
-  blind-spot monitor      trim (model-year-typical)
-  IIHS                    Top Safety Pick (2018–21)
-  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    no
-    one owner             no
-  battery risk factor     0.29
-    Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-  reliability (2018 Honda Clarity)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 0 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    source                https://www.nhtsa.gov/vehicle/2018/HONDA/CLARITY
-  2-year cost to own
-    purchase 14795 + tax 1494 + fuel 717 + maint 929
-    + insurance 5732 + fees 320 + repairs 542 - resale 2811
-    = $12,545 ($523/mo over 13,520 mi)
-  6-year cost to own
-    purchase 14795 + tax 1494 + fuel 2152 + maint 2786
-    + insurance 17195 + fees 960 + repairs 1875 - resale 6932
-    = $33,394 ($464/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,875 to budget
-    worst single bill     $6,500 at ~4% — exposure, not budget
-     38% x $  950 = $ 356  Cooling, fuel or ignition system
-     44% x $  660 = $ 288  Suspension, steering or brake overhaul
-      4% x $ 6500 = $ 286  Traction battery catastrophic failure (not degradation)
-     16% x $ 1700 = $ 275  Catalytic converter / emissions system
-  battery health          83% now -> 73% in 6 yr (±4 percentage points)
-    range                 ~39 mi now -> ~34 mi (need ~19/day)
-    Liquid-cooled pack with active thermal management
-    (degradation affects range and resale, NOT counted as a repair)
-  still worth owning 2032?  uncertain (~50%)
-    ~162,460 mi, 14 yr old
-    - 14 years old by 2032, which is old but ordinary for a car in this class.
-    - ~162k miles by 2032.
-    - Projected range of ~34 mi by 2032 gets tight for comfortable daily use.
-
-==========================================================================
-22. 2020 Kia Forte EX — $12,698
+20. 2020 Kia Forte EX — $12,698
 ==========================================================================
   VIN                     3KPF54AD4LE226915
   odometer                108,770 mi
@@ -1110,7 +1010,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~149k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-23. 2017 Honda Civic EX — $13,998
+21. 2017 Honda Civic EX — $13,998
 ==========================================================================
   VIN                     19XFC2F76HE059686
   odometer                122,251 mi
@@ -1157,7 +1057,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~163k miles by 2032.
 
 ==========================================================================
-24. 2018 Nissan Leaf SV — $9,977
+22. 2018 Nissan Leaf SV — $9,977
 ==========================================================================
   VIN                     1N4AZ1CP3JC313218
   odometer                97,594 mi
@@ -1210,7 +1110,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~88 mi of range at 58% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-25. 2017 MAZDA MAZDA3 Sport — $14,684
+23. 2017 MAZDA MAZDA3 Sport — $14,684
 ==========================================================================
   VIN                     3MZBN1U7XHM109692
   odometer                82,719 mi
@@ -1256,7 +1156,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~123k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-26. 2021 MAZDA MAZDA3 s — $12,999
+24. 2021 MAZDA MAZDA3 s — $12,999
 ==========================================================================
   VIN                     JM1BPAAL9M1339116
   odometer                104,257 mi
@@ -1301,7 +1201,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~145k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-27. 2023 Kia Forte LXS — $14,499
+25. 2023 Kia Forte LXS — $14,499
 ==========================================================================
   VIN                     3KPF24ADXPE625780
   odometer                73,500 mi
@@ -1346,7 +1246,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~114k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-28. 2020 Nissan Leaf SV — $11,894
+26. 2020 Nissan Leaf SV — $11,894
 ==========================================================================
   VIN                     1N4AZ1CP9LC307653
   odometer                82,683 mi
@@ -1400,7 +1300,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~96 mi of range at 64% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-29. 2017 Ford C-MAX SE — $9,500
+27. 2017 Ford C-MAX SE — $9,500
 ==========================================================================
   VIN                     1FADP5AU6HL114550
   odometer                111,635 mi
@@ -1446,7 +1346,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~152k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-30. 2019 Hyundai Elantra SEL — $13,388
+28. 2019 Hyundai Elantra SEL — $13,388
 ==========================================================================
   VIN                     5NPD84LF4KH465193
   odometer                58,515 mi
@@ -1492,53 +1392,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~99k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-31. 2020 Kia Niro LX — $12,250
-==========================================================================
-  VIN                     KNDCB3LC8L5369257
-  odometer                108,567 mi
-  condition               Used · Deep Cerulean
-  where                   Gresham Subaru, Gresham OR (143 mi)
-  days on lot             0
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789744936
-  powertrain              Hybrid (gasoline, self-charging)
-  electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-  AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      trim (model-year-typical)
-  IIHS                    Top Safety Pick (2017–19)
-  also standard (LX, LXS)   backup-camera
-  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    yes
-    one owner             yes
-  reliability (2020 Kia Niro)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 1 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    source                https://www.nhtsa.gov/vehicle/2020/KIA/NIRO
-  2-year cost to own
-    purchase 12250 + tax 1237 + fuel 1622 + maint 847
-    + insurance 5503 + fees 170 + repairs 369 - resale 2327
-    = $12,075 ($503/mo over 13,520 mi)
-  6-year cost to own
-    purchase 12250 + tax 1237 + fuel 4867 + maint 2542
-    + insurance 16508 + fees 510 + repairs 1280 - resale 5740
-    = $32,684 ($454/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,280 to budget
-    worst single bill     $5,000 at ~4% — exposure, not budget
-     15% x $ 2650 = $ 398  Hybrid traction battery failure
-     28% x $  950 = $ 268  Cooling, fuel or ignition system
-     33% x $  660 = $ 217  Suspension, steering or brake overhaul
-     12% x $ 1700 = $ 207  Catalytic converter / emissions system
-  still worth owning 2032?  likely (~82%)
-    ~149,127 mi, 12 yr old
-    - 12 years old by 2032, which is old but ordinary for a car in this class.
-    - Only ~149k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-
-==========================================================================
-32. 2021 Hyundai Elantra SEL — $13,600
+29. 2021 Hyundai Elantra SEL — $13,600
 ==========================================================================
   VIN                     KMHLM4AG5MU193499
   odometer                104,508 mi
@@ -1584,7 +1438,53 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~145k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-33. 2021 Hyundai Kona SEL — $12,745
+30. 2020 Kia Niro LX — $12,250
+==========================================================================
+  VIN                     KNDCB3LC8L5369257
+  odometer                108,567 mi
+  condition               Used · Deep Cerulean
+  where                   Gresham Subaru, Gresham OR (143 mi)
+  days on lot             0
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789744936
+  powertrain              Hybrid (gasoline, self-charging)
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      trim (model-year-typical)
+  IIHS                    Top Safety Pick (2017–19)
+  also standard (LX, LXS)   backup-camera
+  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    yes
+    one owner             yes
+  reliability (2020 Kia Niro)
+    band                  ok (confidence: medium)
+    NHTSA                 37 complaints · 0 recalls
+    - 37 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2020/KIA/NIRO%20HYBRID
+  2-year cost to own
+    purchase 12250 + tax 1237 + fuel 1622 + maint 847
+    + insurance 5503 + fees 170 + repairs 369 - resale 2327
+    = $12,075 ($503/mo over 13,520 mi)
+  6-year cost to own
+    purchase 12250 + tax 1237 + fuel 4867 + maint 2542
+    + insurance 16508 + fees 510 + repairs 1280 - resale 5740
+    = $32,684 ($454/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,280 to budget
+    worst single bill     $5,000 at ~4% — exposure, not budget
+     15% x $ 2650 = $ 398  Hybrid traction battery failure
+     28% x $  950 = $ 268  Cooling, fuel or ignition system
+     33% x $  660 = $ 217  Suspension, steering or brake overhaul
+     12% x $ 1700 = $ 207  Catalytic converter / emissions system
+  still worth owning 2032?  likely (~82%)
+    ~149,127 mi, 12 yr old
+    - 12 years old by 2032, which is old but ordinary for a car in this class.
+    - Only ~149k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+31. 2021 Hyundai Kona SEL — $12,745
 ==========================================================================
   VIN                     KM8K2CAA3MU603000
   odometer                86,657 mi
@@ -1629,7 +1529,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~127k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-34. 2019 Nissan Leaf SV — $13,947
+32. 2019 Nissan Leaf SV — $13,947
 ==========================================================================
   VIN                     1N4AZ1CP6KC317183
   odometer                56,128 mi
@@ -1683,7 +1583,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~96 mi of range at 64% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-35. 2017 Chevrolet Bolt Premier — $14,999
+33. 2017 Chevrolet Bolt Premier — $14,999
 ==========================================================================
   VIN                     1G1FX6S09H4186687
   odometer                67,186 mi
@@ -1736,7 +1636,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~177 mi of range at 75% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-36. 2020 Hyundai Elantra Value Edition — $12,995
+34. 2020 Hyundai Elantra Value Edition — $12,995
 ==========================================================================
   VIN                     5NPD84LF9LH537409
   odometer                87,194 mi
@@ -1782,7 +1682,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~128k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-37. 2020 Hyundai Elantra SEL — $9,900
+35. 2020 Hyundai Elantra SEL — $9,900
 ==========================================================================
   VIN                     5NPD84LF5LH533177
   odometer                120,559 mi
@@ -1828,7 +1728,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~161k miles by 2032.
 
 ==========================================================================
-38. 2020 Hyundai Elantra Value Edition — $12,855
+36. 2020 Hyundai Elantra Value Edition — $12,855
 ==========================================================================
   VIN                     5NPD84LF1LH525481
   odometer                95,023 mi
@@ -1874,7 +1774,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~136k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-39. 2019 Hyundai Elantra Value Edition — $14,198
+37. 2019 Hyundai Elantra Value Edition — $14,198
 ==========================================================================
   VIN                     5NPD84LF2KH414436
   odometer                68,035 mi
@@ -1920,7 +1820,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~109k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-40. 2017 Chevrolet Bolt Premier — $13,995
+38. 2017 Chevrolet Bolt Premier — $13,995
 ==========================================================================
   VIN                     1G1FX6S08H4127310
   odometer                96,126 mi
@@ -1973,7 +1873,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~174 mi of range at 73% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-41. 2019 Hyundai Elantra SEL — $14,482
+39. 2019 Hyundai Elantra SEL — $14,482
 ==========================================================================
   VIN                     KMHD84LF5KU782501
   odometer                65,532 mi
@@ -2019,7 +1919,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~106k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-42. 2020 Hyundai Elantra SEL — $12,643
+40. 2020 Hyundai Elantra SEL — $12,643
 ==========================================================================
   VIN                     5NPD84LF0LH592556
   odometer                101,594 mi
@@ -2065,7 +1965,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~142k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-43. 2020 Hyundai Elantra Value Edition — $14,290
+41. 2020 Hyundai Elantra Value Edition — $14,290
 ==========================================================================
   VIN                     KMHD84LF2LU999988
   odometer                80,467 mi
@@ -2111,7 +2011,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~121k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-44. 2017 Chevrolet Volt LT — $9,984
+42. 2017 Chevrolet Volt LT — $9,984
 ==========================================================================
   VIN                     1G1RA6S51HU132620
   odometer                91,306 mi
@@ -2164,7 +2064,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~39 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-45. 2021 Kia Forte LXS — $10,994
+43. 2021 Kia Forte LXS — $10,994
 ==========================================================================
   VIN                     3KPF24AD0ME383223
   odometer                104,149 mi
@@ -2209,7 +2109,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~145k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-46. 2017 Ford C-MAX Energi Titanium — $14,230
+44. 2017 Ford C-MAX Energi Titanium — $14,230
 ==========================================================================
   VIN                     1FADP5FU4HL114880
   odometer                57,719 mi
@@ -2262,7 +2162,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~14 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-47. 2021 Kia Niro LXS — $14,638
+45. 2021 Kia Niro LXS — $14,638
 ==========================================================================
   VIN                     KNDCB3LCXM5471922
   odometer                114,062 mi
@@ -2307,7 +2207,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~155k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-48. 2018 Chevrolet Volt LT — $10,175
+46. 2018 Chevrolet Volt LT — $10,175
 ==========================================================================
   VIN                     1G1RA6S55JU153766
   odometer                110,555 mi
@@ -2360,7 +2260,53 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~39 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-49. 2019 Hyundai Kona SEL — $12,378
+47. 2017 Kia Niro LX — $13,449
+==========================================================================
+  VIN                     KNDCB3LC8H5042770
+  odometer                80,609 mi
+  condition               Used · Deep Cerulean
+  where                   Rairdon's Kia, Burlington WA (65 mi)
+  days on lot             1
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789729249
+  powertrain              Hybrid (gasoline, self-charging)
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      trim (model-year-typical)
+  IIHS                    Top Safety Pick (2017–19)
+  also standard (trim)   backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             no
+  reliability (2017 Kia Niro)
+    band                  concern (confidence: high)
+    NHTSA                 98 complaints · 1 recalls
+    - 36% of its 98 NHTSA complaints (35) concern the engine — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2017/KIA/NIRO%20HYBRID
+  2-year cost to own
+    purchase 13449 + tax 1358 + fuel 1622 + maint 793
+    + insurance 5610 + fees 170 + repairs 401 - resale 2011
+    = $11,965 ($499/mo over 13,520 mi)
+  6-year cost to own
+    purchase 13449 + tax 1358 + fuel 4867 + maint 2378
+    + insurance 16831 + fees 510 + repairs 1381 - resale 5944
+    = $33,269 ($462/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,381 to budget
+    worst single bill     $5,000 at ~4% — exposure, not budget
+     16% x $ 2650 = $ 429  Hybrid traction battery failure
+     30% x $  950 = $ 289  Cooling, fuel or ignition system
+     36% x $  660 = $ 234  Suspension, steering or brake overhaul
+     13% x $ 1700 = $ 224  Catalytic converter / emissions system
+  still worth owning 2032?  probable (~72%)
+    ~121,169 mi, 15 yr old
+    - 15 years old by 2032 — parts availability and rust start to matter.
+    - Only ~121k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+48. 2019 Hyundai Kona SEL — $12,378
 ==========================================================================
   VIN                     KM8K22AA6KU230901
   odometer                101,279 mi
@@ -2406,7 +2352,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~142k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-50. 2018 Chevrolet Bolt LT — $11,877
+49. 2018 Chevrolet Bolt LT — $11,877
 ==========================================================================
   VIN                     1G1FW6S08J4109771
   odometer                110,973 mi
@@ -2459,7 +2405,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~175 mi of range at 73% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-51. 2017 Toyota Corolla LE — $12,500
+50. 2017 Toyota Corolla LE — $12,500
 ==========================================================================
   VIN                     5YFBURHEXHP689080
   odometer                115,379 mi
@@ -2505,7 +2451,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~156k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-52. 2019 Kia Forte Sedan — $13,638
+51. 2019 Kia Forte Sedan — $13,638
 ==========================================================================
   VIN                     3KPF24ADXKE081533
   odometer                49,542 mi
@@ -2550,7 +2496,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~90k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-53. 2020 Hyundai Kona SEL — $13,795
+52. 2020 Hyundai Kona SEL — $13,795
 ==========================================================================
   VIN                     KM8K2CAA2LU473175
   odometer                104,157 mi
@@ -2596,7 +2542,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~145k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-54. 2017 Chevrolet Bolt LT — $14,991
+53. 2017 Chevrolet Bolt LT — $14,991
 ==========================================================================
   VIN                     1G1FW6S05H4187791
   odometer                51,584 mi
@@ -2649,7 +2595,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~180 mi of range at 75% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-55. 2018 Chevrolet Volt LT — $13,977
+54. 2018 Chevrolet Volt LT — $13,977
 ==========================================================================
   VIN                     1G1RA6S5XJU132153
   odometer                77,862 mi
@@ -2702,7 +2648,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~40 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-56. 2020 Hyundai Elantra SE — $13,995
+55. 2020 Hyundai Elantra SE — $13,995
 ==========================================================================
   VIN                     5NPD74LF6LH603448
   odometer                59,291 mi
@@ -2748,7 +2694,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~100k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-57. 2019 Kia Forte S — $11,995
+56. 2019 Kia Forte S — $11,995
 ==========================================================================
   VIN                     3KPF34AD4KE026542
   odometer                79,853 mi
@@ -2793,7 +2739,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~120k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-58. 2017 Toyota Corolla SE — $13,995
+57. 2017 Toyota Corolla SE — $13,995
 ==========================================================================
   VIN                     2T1BURHE5HC868756
   odometer                108,480 mi
@@ -2839,7 +2785,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~149k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-59. 2019 Hyundai Kona SE — $13,995
+58. 2019 Hyundai Kona SE — $13,995
 ==========================================================================
   VIN                     KM8K1CAA0KU294487
   odometer                41,578 mi
@@ -2885,7 +2831,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~82k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-60. 2017 Toyota Corolla LE — $13,995
+59. 2017 Toyota Corolla LE — $13,995
 ==========================================================================
   VIN                     2T1BURHE9HC925511
   odometer                111,482 mi
@@ -2931,7 +2877,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~152k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-61. 2019 Kia Forte S — $14,900
+60. 2019 Kia Forte S — $14,900
 ==========================================================================
   VIN                     3KPF34AD2KE134075
   odometer                43,968 mi
@@ -2976,7 +2922,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~85k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-62. 2019 Kia Forte LXS — $12,790
+61. 2019 Kia Forte LXS — $12,790
 ==========================================================================
   VIN                     3KPF24AD9KE138322
   odometer                76,238 mi
@@ -3021,7 +2967,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~117k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-63. 2020 Hyundai Elantra SE — $13,195
+62. 2020 Hyundai Elantra SE — $13,195
 ==========================================================================
   VIN                     5NPD74LF1LH519182
   odometer                81,309 mi
@@ -3067,7 +3013,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~122k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-64. 2019 Honda Civic Sport — $14,995
+63. 2019 Honda Civic Sport — $14,995
 ==========================================================================
   VIN                     2HGFC2F81KH553654
   odometer                113,387 mi
@@ -3113,7 +3059,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~154k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-65. 2021 Hyundai Kona SE — $12,700
+64. 2021 Hyundai Kona SE — $12,700
 ==========================================================================
   VIN                     KM8K1CAA9MU635792
   odometer                94,148 mi
@@ -3158,7 +3104,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~135k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-66. 2019 Kia Forte LXS — $13,995
+65. 2019 Kia Forte LXS — $13,995
 ==========================================================================
   VIN                     3KPF24AD5KE090737
   odometer                65,727 mi
@@ -3203,7 +3149,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~106k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-67. 2019 Kia Forte LXS — $13,995
+66. 2019 Kia Forte LXS — $13,995
 ==========================================================================
   VIN                     3KPF24AD0KE007165
   odometer                68,230 mi
@@ -3248,7 +3194,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~109k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-68. 2019 Kia Forte Sedan — $11,999
+67. 2019 Kia Forte Sedan — $11,999
 ==========================================================================
   VIN                     3KPF24ADXKE034552
   odometer                101,300 mi
@@ -3293,7 +3239,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~142k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-69. 2017 Honda Civic EX — $14,688
+68. 2017 Honda Civic EX — $14,688
 ==========================================================================
   VIN                     2HGFC2F77HH519427
   odometer                123,067 mi
@@ -3340,7 +3286,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~164k miles by 2032.
 
 ==========================================================================
-70. 2019 Kia Forte Sedan — $9,998
+69. 2019 Kia Forte Sedan — $9,998
 ==========================================================================
   VIN                     3KPF24AD0KE005383
   odometer                119,837 mi
@@ -3385,7 +3331,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~160k miles by 2032.
 
 ==========================================================================
-71. 2021 Hyundai Kona SE — $13,995
+70. 2021 Hyundai Kona SE — $13,995
 ==========================================================================
   VIN                     KM8K12AA4MU660996
   odometer                84,931 mi
@@ -3430,7 +3376,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~125k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-72. 2019 Hyundai Kona Ultimate — $14,799
+71. 2019 Hyundai Kona Ultimate — $14,799
 ==========================================================================
   VIN                     KM8K5CA59KU369923
   odometer                113,988 mi
@@ -3476,14 +3422,14 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~155k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-73. 2017 Ford C-MAX Energi SE — $9,613
+72. 2017 Ford C-MAX Energi SE — $9,613
 ==========================================================================
   VIN                     1FADP5EUXHL104520
   odometer                81,117 mi
   condition               Used · Magnetic
-  where                   Dick Hannah Subaru, Vancouver WA (134 mi)
+  where                   Dick Hannah Dealerships, Vancouver WA (132 mi)
   days on lot             0
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789772136
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789783024
   powertrain              Plug-in hybrid · 19 mi electric
   electric drive share    20% of miles at 130 mi/week
     evidence              NHTSA classifies this VIN as a plug-in hybrid.
@@ -3529,7 +3475,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~14 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-74. 2020 Hyundai Elantra SE — $10,995
+73. 2020 Hyundai Elantra SE — $10,995
 ==========================================================================
   VIN                     5NPD74LF6LH519520
   odometer                120,236 mi
@@ -3575,7 +3521,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~161k miles by 2032.
 
 ==========================================================================
-75. 2023 Kia Forte LXS — $14,999
+74. 2023 Kia Forte LXS — $14,999
 ==========================================================================
   VIN                     3KPF24AD2PE540206
   odometer                64,864 mi
@@ -3620,7 +3566,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~105k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-76. 2020 Hyundai Elantra SE — $10,995
+75. 2020 Hyundai Elantra SE — $10,995
 ==========================================================================
   VIN                     5NPD74LF8LH530969
   odometer                124,038 mi
@@ -3666,7 +3612,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~165k miles by 2032.
 
 ==========================================================================
-77. 2020 Hyundai Elantra SEL — $9,622
+76. 2020 Hyundai Elantra SEL — $9,622
 ==========================================================================
   VIN                     KMHD84LF2LU897428
   odometer                114,145 mi
@@ -3710,6 +3656,58 @@ COST ASSUMPTIONS (inputs to every total below)
     ~154,705 mi, 12 yr old
     - 12 years old by 2032, which is old but ordinary for a car in this class.
     - Only ~155k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+77. 2018 Honda Clarity Plug-In Hybrid — $14,795
+==========================================================================
+  VIN                     JHMZC5F18JC018157
+  odometer                121,900 mi
+  condition               Used · Solar Silver Metallic
+  where                   Rairdon's Nissan of Auburn, Auburn WA (16 mi)
+  days on lot             11
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/788797698
+  powertrain              Plug-in hybrid · 47 mi electric
+  electric drive share    85% of miles at 130 mi/week
+    evidence              NHTSA classifies this VIN as a plug-in hybrid.
+  AEB                     standard (model-year-typical)
+  blind-spot monitor      trim (model-year-typical)
+  IIHS                    Top Safety Pick (2018–21)
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             no
+  battery risk factor     0.29
+    Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+  reliability (2018 Honda Clarity)
+    band                  concern (confidence: high)
+    NHTSA                 134 complaints · 1 recalls
+    - 32% of its 134 NHTSA complaints (43) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2018/HONDA/CLARITY%20PLUG-IN%20HYBRID
+  2-year cost to own
+    purchase 14795 + tax 1494 + fuel 717 + maint 929
+    + insurance 5732 + fees 320 + repairs 542 - resale 2811
+    = $12,545 ($523/mo over 13,520 mi)
+  6-year cost to own
+    purchase 14795 + tax 1494 + fuel 2152 + maint 2786
+    + insurance 17195 + fees 960 + repairs 1875 - resale 6932
+    = $33,394 ($464/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,875 to budget
+    worst single bill     $6,500 at ~4% — exposure, not budget
+     38% x $  950 = $ 356  Cooling, fuel or ignition system
+     44% x $  660 = $ 288  Suspension, steering or brake overhaul
+      4% x $ 6500 = $ 286  Traction battery catastrophic failure (not degradation)
+     16% x $ 1700 = $ 275  Catalytic converter / emissions system
+  battery health          83% now -> 73% in 6 yr (±4 percentage points)
+    range                 ~39 mi now -> ~34 mi (need ~19/day)
+    Liquid-cooled pack with active thermal management
+    (degradation affects range and resale, NOT counted as a repair)
+  still worth owning 2032?  uncertain (~50%)
+    ~162,460 mi, 14 yr old
+    - 14 years old by 2032, which is old but ordinary for a car in this class.
+    - ~162k miles by 2032.
+    - Projected range of ~34 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
 78. 2019 Hyundai Kona SE — $13,439
@@ -5288,10 +5286,11 @@ COST ASSUMPTIONS (inputs to every total below)
   battery risk factor     0.46
     Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
   reliability (2019 Hyundai Ioniq)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 0 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    source                https://www.nhtsa.gov/vehicle/2019/HYUNDAI/IONIQ
+    band                  ok (confidence: low)
+    NHTSA                 6 complaints · 1 recalls
+    - Only 6 NHTSA complaints on record — too few to draw a firm conclusion.
+    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+    source                https://www.nhtsa.gov/vehicle/2019/HYUNDAI/IONIQ%20ELECTRIC
   2-year cost to own
     purchase 12683 + tax 1281 + fuel 406 + maint 454
     + insurance 5541 + fees 620 + repairs 140 - resale 3459
@@ -5341,83 +5340,38 @@ COST ASSUMPTIONS (inputs to every total below)
   battery risk factor     0.32
     Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
   reliability (2020 Chevrolet Bolt)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 0 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    source                https://www.nhtsa.gov/vehicle/2020/CHEVROLET/BOLT
+    band                  concern (confidence: high)
+    NHTSA                 172 complaints · 8 recalls
+    - 72% of its 172 NHTSA complaints (124) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+    - 8 recall campaigns for this model year — check all are closed out for the VIN.
+    source                https://www.nhtsa.gov/vehicle/2020/CHEVROLET/BOLT%20EV
   2-year cost to own
     purchase 13990 + tax 1413 + fuel 454 + maint 539
-    + insurance 5659 + fees 620 + repairs 195 - resale 3844
-    = $12,724 ($530/mo over 13,520 mi)
+    + insurance 5659 + fees 620 + repairs 163 - resale 3144
+    = $11,992 ($500/mo over 13,520 mi)
   6-year cost to own
     purchase 13990 + tax 1413 + fuel 1363 + maint 1618
-    + insurance 16977 + fees 1860 + repairs 685 - resale 8534
-    = $32,450 ($451/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $685 to budget
-    worst single bill     $6,500 at ~3% — exposure, not budget
+    + insurance 16977 + fees 1860 + repairs 561 - resale 8174
+    = $31,966 ($444/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $561 to budget
+    worst single bill     $6,500 at ~1% — exposure, not budget
      31% x $  660 = $ 202  Suspension, steering or brake overhaul
-      3% x $ 6500 = $ 189  Traction battery catastrophic failure (not degradation)
       6% x $ 2750 = $ 168  Drive unit, inverter or onboard charger
       9% x $ 1450 = $ 126  Battery thermal management / electric HVAC
-  battery health          87% now -> 77% in 6 yr (±4 percentage points)
-    range                 ~225 mi now -> ~199 mi (need ~19/day)
-    Liquid-cooled pack with active thermal management
+      1% x $ 6500 = $  65  Traction battery catastrophic failure (not degradation)
+  battery health          89% now -> 79% in 6 yr (±4 percentage points)
+    range                 ~232 mi now -> ~206 mi (need ~19/day)
+    Liquid-cooled pack with active thermal management · PACK REPLACED UNDER RECALL
     (degradation affects range and resale, NOT counted as a repair)
   still worth owning 2032?  likely (~82%)
     ~138,773 mi, 12 yr old
     - 12 years old by 2032, which is old but ordinary for a car in this class.
     - Only ~139k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-    - Projected ~199 mi of range at 77% health by 2032 — still far beyond the ~19 mi/day need.
+    - Projected ~206 mi of range at 79% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-113. 2017 Kia Niro EX — $10,998
-==========================================================================
-  VIN                     KNDCC3LC3H5045959
-  odometer                128,246 mi
-  condition               Used · Deep Cerulean
-  where                   West Hills Honda, Bremerton WA (24 mi)
-  days on lot             5
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789306260
-  powertrain              Hybrid (gasoline, self-charging)
-  electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-  AEB                     trim (model-year-typical)
-  blind-spot monitor      standard (vin-trim-confirmed)
-  IIHS                    Top Safety Pick (2017–19)
-  also standard (trim)   backup-camera
-  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    yes
-    one owner             no
-  reliability (2017 Kia Niro)
-    band                  clean (confidence: low)
-    NHTSA                 0 complaints · 4 recalls
-    - No NHTSA complaints filed for this model year — but a low-volume car generates few complaints either way, so read this as "no red flags", not "proven reliable".
-    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-    source                https://www.nhtsa.gov/vehicle/2017/KIA/NIRO
-  2-year cost to own
-    purchase 10998 + tax 1111 + fuel 1622 + maint 968
-    + insurance 5390 + fees 170 + repairs 552 - resale 1644
-    = $11,457 ($477/mo over 13,520 mi)
-  6-year cost to own
-    purchase 10998 + tax 1111 + fuel 4867 + maint 2905
-    + insurance 16169 + fees 510 + repairs 1927 - resale 4861
-    = $32,350 ($449/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $1,927 to budget
-    worst single bill     $5,000 at ~6% — exposure, not budget
-     23% x $ 2650 = $ 599  Hybrid traction battery failure
-     42% x $  950 = $ 403  Cooling, fuel or ignition system
-     50% x $  660 = $ 327  Suspension, steering or brake overhaul
-     18% x $ 1700 = $ 313  Catalytic converter / emissions system
-  still worth owning 2032?  probable (~60%)
-    ~168,806 mi, 15 yr old
-    - 15 years old by 2032 — parts availability and rust start to matter.
-    - ~169k miles by 2032.
-
-==========================================================================
-114. 2017 Chevrolet Volt Premier — $10,000
+113. 2017 Chevrolet Volt Premier — $10,000
 ==========================================================================
   VIN                     1G1RD6S54HU217619
   odometer                125,076 mi
@@ -5469,7 +5423,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~38 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-115. 2017 Honda Civic LX — $11,995
+114. 2017 Honda Civic LX — $11,995
 ==========================================================================
   VIN                     2HGFC2F62HH524476
   odometer                117,995 mi
@@ -5515,7 +5469,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~159k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-116. 2018 Honda Civic LX — $14,990
+115. 2018 Honda Civic LX — $14,990
 ==========================================================================
   VIN                     2HGFC2F57JH545336
   odometer                82,711 mi
@@ -5560,6 +5514,52 @@ COST ASSUMPTIONS (inputs to every total below)
     ~123,271 mi, 14 yr old
     - 14 years old by 2032, which is old but ordinary for a car in this class.
     - Only ~123k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+116. 2017 Kia Niro EX — $10,998
+==========================================================================
+  VIN                     KNDCC3LC3H5045959
+  odometer                128,246 mi
+  condition               Used · Deep Cerulean
+  where                   West Hills Honda, Bremerton WA (24 mi)
+  days on lot             5
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789306260
+  powertrain              Hybrid (gasoline, self-charging)
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
+  AEB                     trim (model-year-typical)
+  blind-spot monitor      standard (vin-trim-confirmed)
+  IIHS                    Top Safety Pick (2017–19)
+  also standard (trim)   backup-camera
+  history report          NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    yes
+    one owner             no
+  reliability (2017 Kia Niro)
+    band                  concern (confidence: high)
+    NHTSA                 98 complaints · 1 recalls
+    - 36% of its 98 NHTSA complaints (35) concern the engine — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2017/KIA/NIRO%20HYBRID
+  2-year cost to own
+    purchase 10998 + tax 1111 + fuel 1622 + maint 968
+    + insurance 5390 + fees 170 + repairs 552 - resale 1644
+    = $11,457 ($477/mo over 13,520 mi)
+  6-year cost to own
+    purchase 10998 + tax 1111 + fuel 4867 + maint 2905
+    + insurance 16169 + fees 510 + repairs 1927 - resale 4861
+    = $32,350 ($449/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $1,927 to budget
+    worst single bill     $5,000 at ~6% — exposure, not budget
+     23% x $ 2650 = $ 599  Hybrid traction battery failure
+     42% x $  950 = $ 403  Cooling, fuel or ignition system
+     50% x $  660 = $ 327  Suspension, steering or brake overhaul
+     18% x $ 1700 = $ 313  Catalytic converter / emissions system
+  still worth owning 2032?  probable (~60%)
+    ~168,806 mi, 15 yr old
+    - 15 years old by 2032 — parts availability and rust start to matter.
+    - ~169k miles by 2032.
 
 ==========================================================================
 117. 2017 Honda Civic LX — $12,995
