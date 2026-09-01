@@ -2,7 +2,7 @@
   "feed": {
     "name": "jordyn-first-car",
     "schemaVersion": "1.4",
-    "generatedAt": "2026-09-01T15:43:59.522Z",
+    "generatedAt": "2026-09-01T16:17:39.567Z",
     "rosterUpdated": "2026-09-01",
     "listingCount": 74,
     "purpose": "Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.",
@@ -46791,9 +46791,19 @@
     "horizonYearsThroughEmma": 6,
     "gasolineUsdPerGallon": 6,
     "gasolinePriceBasis": "Bellevue, WA pump prices",
+    "premiumGasolineUsdPerGallon": 6.75,
+    "premiumGasolineNote": "Charged only to engines that specify premium (mainly the German and British cars). Roughly 12% over regular on the Eastside.",
     "electricityUsdPerKwh": 0.12,
-    "washingtonEvFeeUsdPerYear": null,
-    "washingtonPhevFeeUsdPerYear": null,
+    "washingtonRegistration": {
+      "note": "Bellevue is inside the Sound Transit RTA district, so annual tabs are partly VALUE-BASED, not flat. Total = base/weight fees + RTA MVET + any EV surcharge.",
+      "rtaMvetRate": 0.011,
+      "rtaMvetBasis": "Assessed on 85% of ORIGINAL MSRP depreciated by the 1990 statutory schedule (RCW 81.104.160(1)(c)), NOT on the price actually paid. A cheap used car with a high original MSRP therefore still owes real money.",
+      "evSurchargeUsdPerYear": 150,
+      "evSurchargeBasis": "RCW 46.17.323: $100 renewal + $50 electrification fee.",
+      "evSurchargeMinElectricRangeMi": 30,
+      "evSurchargeNote": "Plug-in hybrids below the range threshold owe nothing extra — e.g. a 19-mile Ford C-MAX Energi pays no EV surcharge.",
+      "weakestInput": "Original MSRP is ESTIMATED per model-year, not looked up per VIN. It is the weakest input in the registration line; each listing carries its own uncertainty string."
+    },
     "salesTaxRate": 0.101,
     "teenInsuranceBaseUsdPerYear": 2200,
     "teenInsuranceRateOfVehicleValue": 0.045,
@@ -46804,7 +46814,8 @@
       "ICE": 0.09
     },
     "knownWeaknesses": [
-      "Insurance is the single largest line item over six years and is an ESTIMATE. It has not been checked against a real teen-driver quote.",
+      "Insurance is the single largest line item over six years and is an ESTIMATE. It has not been checked against a real teen-driver quote. This is why baseline-relative deltas (jordynPicks, marketAnalysis.baselineComparison) are more trustworthy than absolute totals — insurance is roughly common across cars and largely cancels out of a comparison.",
+      "Original MSRP, which drives the RTA MVET portion of registration, is estimated per model-year rather than looked up per VIN.",
       "NHTSA complaint counts are not adjusted for sales volume, so raw counts are not comparable between a high-volume and a low-volume model.",
       "Washington's used-EV sales-tax exemption appears to have lapsed 2025-07-31 and is deliberately NOT modelled."
     ]

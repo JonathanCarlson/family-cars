@@ -1,6 +1,6 @@
 ==========================================================================
 JORDYN'S FIRST CAR — 74 listings
-roster updated 2026-09-01 · feed generated 2026-09-01T15:43:59.522Z
+roster updated 2026-09-01 · feed generated 2026-09-01T16:17:39.567Z
 ==========================================================================
 
 Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.
@@ -55,13 +55,14 @@ COST ASSUMPTIONS (inputs to every total below)
   horizons                2 yr (Jordyn) / 6 yr (through Emma)
   gasoline                $6/gal (Bellevue, WA pump prices)
   electricity             $0.12/kWh
-  WA road-use fee         $null/yr BEV · $null/yr PHEV
+  WA road-use fee         $undefined/yr BEV · $undefined/yr PHEV
   sales tax               10.1%
   teen insurance          $2200/yr + 4.5% of value
   maintenance $/mi        BEV 0.04 · PHEV 0.06 · HYB 0.06 · ICE 0.09
 
   Known weaknesses:
-    ! Insurance is the single largest line item over six years and is an ESTIMATE. It has not been checked against a real teen-driver quote.
+    ! Insurance is the single largest line item over six years and is an ESTIMATE. It has not been checked against a real teen-driver quote. This is why baseline-relative deltas (jordynPicks, marketAnalysis.baselineComparison) are more trustworthy than absolute totals — insurance is roughly common across cars and largely cancels out of a comparison.
+    ! Original MSRP, which drives the RTA MVET portion of registration, is estimated per model-year rather than looked up per VIN.
     ! NHTSA complaint counts are not adjusted for sales volume, so raw counts are not comparable between a high-volume and a low-volume model.
     ! Washington's used-EV sales-tax exemption appears to have lapsed 2025-07-31 and is deliberately NOT modelled.
 

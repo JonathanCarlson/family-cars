@@ -472,15 +472,32 @@ export function rosterFeed(data, allCars = null) {
       horizonYearsThroughEmma: a.emmaYears ?? null,
       gasolineUsdPerGallon: a.gasPerGallon ?? null,
       gasolinePriceBasis: 'Bellevue, WA pump prices',
+      premiumGasolineUsdPerGallon: a.premiumPerGallon ?? null,
+      premiumGasolineNote: 'Charged only to engines that specify premium (mainly the German and British cars). Roughly 12% over regular on the Eastside.',
       electricityUsdPerKwh: a.electricityPerKwh ?? null,
-      washingtonEvFeeUsdPerYear: a.waEvFeePerYear ?? null,
-      washingtonPhevFeeUsdPerYear: a.waPhevFeePerYear ?? null,
+      // Washington tabs are NOT a flat fee in Bellevue. Two earlier versions of
+      // this feed read key names the model does not use (waEvFeePerYear /
+      // waPhevFeePerYear) and published `null` for surcharges that ARE being
+      // charged, while omitting the value-based part altogether — so a reader
+      // could not have checked the largest structural assumption after
+      // insurance. Published in full now.
+      washingtonRegistration: {
+        note: 'Bellevue is inside the Sound Transit RTA district, so annual tabs are partly VALUE-BASED, not flat. Total = base/weight fees + RTA MVET + any EV surcharge.',
+        rtaMvetRate: a.rtaMvetRate ?? null,
+        rtaMvetBasis: 'Assessed on 85% of ORIGINAL MSRP depreciated by the 1990 statutory schedule (RCW 81.104.160(1)(c)), NOT on the price actually paid. A cheap used car with a high original MSRP therefore still owes real money.',
+        evSurchargeUsdPerYear: a.waEvSurchargePerYear ?? null,
+        evSurchargeBasis: 'RCW 46.17.323: $100 renewal + $50 electrification fee.',
+        evSurchargeMinElectricRangeMi: a.waEvSurchargeMinRangeMi ?? null,
+        evSurchargeNote: 'Plug-in hybrids below the range threshold owe nothing extra — e.g. a 19-mile Ford C-MAX Energi pays no EV surcharge.',
+        weakestInput: 'Original MSRP is ESTIMATED per model-year, not looked up per VIN. It is the weakest input in the registration line; each listing carries its own uncertainty string.',
+      },
       salesTaxRate: a.salesTaxRate ?? null,
       teenInsuranceBaseUsdPerYear: a.insuranceTeenBase ?? null,
       teenInsuranceRateOfVehicleValue: a.insuranceValueRate ?? null,
       maintenanceUsdPerMileByPowertrain: a.maintPerMile || null,
       knownWeaknesses: [
-        'Insurance is the single largest line item over six years and is an ESTIMATE. It has not been checked against a real teen-driver quote.',
+        'Insurance is the single largest line item over six years and is an ESTIMATE. It has not been checked against a real teen-driver quote. This is why baseline-relative deltas (jordynPicks, marketAnalysis.baselineComparison) are more trustworthy than absolute totals — insurance is roughly common across cars and largely cancels out of a comparison.',
+        'Original MSRP, which drives the RTA MVET portion of registration, is estimated per model-year rather than looked up per VIN.',
         'NHTSA complaint counts are not adjusted for sales volume, so raw counts are not comparable between a high-volume and a low-volume model.',
         'Washington\'s used-EV sales-tax exemption appears to have lapsed 2025-07-31 and is deliberately NOT modelled.',
       ],
