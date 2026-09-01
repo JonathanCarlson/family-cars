@@ -24,6 +24,97 @@
 // security-relevant code was one copy too many.
 const CARS_PUBLIC_URL = 'https://jonathancarlson.github.io/family-cars/cars.html';
 
+// ---------- Kate's picks (models Kate is flagging from her own pics) ----------
+// Kate is sending photos of EVs that catch her eye. This is a curated,
+// page-local list — deliberately NOT part of the Autotrader Mach-E roster — so
+// the nightly inventory refresh (which only rewrites data/cars.enc.json) never
+// clears it. To add a model as her pics come in, drop another object below.
+// `choices` breaks a model into the real used trims/batteries so she can see the
+// range/drive tradeoffs ("expand out the choices"); `deal` is the good-deal
+// price guidance so a genuinely good listing is easy to flag.
+const PICKS_INTRO = "Cars you're sending me that caught your eye \u2014 kept separate from the Mach-E list. "
+  + "Each one's broken out into the versions worth knowing about, with what a good used deal looks like so the deals are easy to spot. "
+  + "Send more pics and I'll keep adding to this page.";
+
+const PICKS = [
+  {
+    id: 'xc40-recharge',
+    title: 'Volvo XC40 Recharge / EX40',
+    tag: '\u26A1 Electric SUV',
+    sub: 'Compact electric SUV \u00B7 Kate flagged this one',
+    blurb: "The all-electric XC40 \u2014 same footprint as the Mach-E but a plusher, quieter Scandinavian cabin and Google built-in. Volvo renamed it EX40 for 2025, so used listings turn up under both names. A strong pick if you want an EV that drives like a small luxury SUV.",
+    deal: {
+      target: '$24k\u2013$31k for a 2021\u20132023 with under ~40k miles',
+      note: "Depreciation has been steep \u2014 good news buying used. A clean Twin Motor AWD in the low-to-mid $20s is a strong deal; anything under ~$26k with low miles and confirmed battery health is worth flagging fast.",
+    },
+    choices: [
+      {
+        name: 'Single Motor (FWD) \u2014 2022\u2013early 2023',
+        chips: ['69 kWh', 'FWD', '~223 mi EPA'],
+        note: 'Entry-level and the value play. Front-wheel drive; plenty for daily use.',
+      },
+      {
+        name: 'Twin Motor (AWD) \u2014 2021\u20132023',
+        chips: ['78 kWh', 'AWD', '208\u2013223 mi EPA'],
+        note: 'Quick (0\u201360 \u2248 4.7s) with AWD for winter, but the shortest range of the three. 2021 is 208 mi; 2022\u201323 nudged up to 223.',
+      },
+      {
+        name: 'Single Motor (RWD) \u2014 late 2023+ / EX40',
+        chips: ['79 kWh', 'RWD', 'up to ~293 mi EPA'],
+        note: 'The one to want for range \u2014 new rear-drive layout and newer battery. Priciest used, but by far the most miles per charge.',
+      },
+    ],
+    watch: [
+      'AWD range is modest (~208\u2013223 mi) \u2014 fine around town, tighter for road trips. Check real-world range for the exact year.',
+      'Battery warranty is 8 yr / 100k mi from the original in-service date \u2014 confirm how much is left.',
+      'Make sure infotainment/software is up to date; early cars had bugs that later updates fixed.',
+    ],
+    links: [
+      { label: 'Browse used XC40 Recharge on Autotrader', url: 'https://www.autotrader.com/cars-for-sale/volvo/xc40-recharge' },
+      { label: 'Also search "EX40" (the 2025 rename) on Autotrader', url: 'https://www.autotrader.com/cars-for-sale/volvo/ex40' },
+      { label: 'Edmunds XC40 Recharge \u2014 reviews & pricing', url: 'https://www.edmunds.com/volvo/xc40-recharge/' },
+    ],
+  },
+  {
+    id: 'bmw-i3',
+    title: 'BMW i3',
+    tag: '\u26A1 Electric city car',
+    sub: 'Quirky compact EV \u00B7 Kate flagged this one',
+    blurb: "Tiny, tall, carbon-fiber-bodied electric hatch with rear-hinged back doors \u2014 a genuinely fun, distinctive city car. Two flavors: pure-electric (BEV), or REx, which adds a small gas generator as an emergency range backup (it never drives the wheels). Cheap to buy and cheap to run; range is the main tradeoff.",
+    deal: {
+      target: '$10k\u2013$18k for a 2019\u20132021 (120Ah) with a healthy battery',
+      note: "The 2019+ 120Ah cars are the sweet spot \u2014 153 mi of BEV range for city/suburban use. A 120Ah under ~$15k with 80%+ battery health is a strong deal. REx versions typically run $1\u20132.5k more.",
+    },
+    choices: [
+      {
+        name: '2019\u20132021 \u00B7 120Ah battery',
+        chips: ['~38 kWh', '153 mi BEV', 'REx +~70 mi gas'],
+        note: 'The one to get \u2014 best range, liquid-cooled battery, sporty "i3s" option. Most future-proof.',
+      },
+      {
+        name: '2017\u20132018 \u00B7 94Ah battery',
+        chips: ['~27 kWh', '114\u2013124 mi BEV', 'REx +~70 mi gas'],
+        note: 'Good-value middle ground; range is usable for a commute.',
+      },
+      {
+        name: '2014\u20132016 \u00B7 60Ah battery',
+        chips: ['~19 kWh', '~81 mi BEV', 'REx +~70 mi gas'],
+        note: 'Cheapest, but short range \u2014 really a second/city car only.',
+      },
+    ],
+    watch: [
+      'Insist on a BMW-tool battery State-of-Health printout \u2014 below 80% SOH, walk away even if the dash range looks fine.',
+      'Most i3s have NO Apple CarPlay / Android Auto, even in later years.',
+      'Odd tire size can be pricey; on REx cars confirm the little gas engine starts and runs (stale-fuel issues if it sat).',
+    ],
+    links: [
+      { label: 'Browse used BMW i3 on Autotrader', url: 'https://www.autotrader.com/cars-for-sale/bmw/i3' },
+      { label: 'Recurrent \u2014 used i3 range & battery-health data', url: 'https://www.recurrentauto.com/guides/bmw-i3' },
+      { label: 'Edmunds BMW i3 \u2014 reviews & pricing', url: 'https://www.edmunds.com/bmw/i3/' },
+    ],
+  },
+];
+
 let DATA = null;
 
 const APP = createCarApp({
@@ -127,6 +218,7 @@ function render() {
   renderIntro();
   renderTrends();
   renderAnalysis();
+  renderPicks();
   renderFilters();
   renderCars();
   setupTabs();
@@ -443,16 +535,59 @@ function renderAnalysis() {
   host.innerHTML = yearCard + mileCard + regCard(reg) + caveatCard(reg);
 }
 
+// ---------- Kate's picks ----------
+function renderPicks() {
+  const host = $('#picks');
+  if (!host) return;
+  const cards = PICKS.map((p) => {
+    const choices = (p.choices || []).map((c) => `
+      <li class="pchoice">
+        <div class="pc-name">${esc(c.name)}</div>
+        <div class="pc-specs">${(c.chips || []).map((ch) => `<span class="pc-chip${/\bmi\b/.test(ch) ? ' rng' : ''}">${esc(ch)}</span>`).join('')}</div>
+        ${c.note ? `<div class="pc-note">${esc(c.note)}</div>` : ''}
+      </li>`).join('');
+    const watch = (p.watch || []).map((w) => `<li>${esc(w)}</li>`).join('');
+    const links = (p.links || []).map((l) => `<a class="plink" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">🔎 ${esc(l.label)} ↗</a>`).join('');
+    const deal = p.deal ? `
+      <div class="pdeal">
+        <span class="pd-ico" aria-hidden="true">🏷️</span>
+        <div class="pd-body">
+          <div class="pd-t"><b>Good-deal target:</b> ${esc(p.deal.target)}</div>
+          ${p.deal.note ? `<div class="pd-n">${esc(p.deal.note)}</div>` : ''}
+        </div>
+      </div>` : '';
+    return `
+      <div class="pickcard">
+        <div class="ptop">
+          <div style="min-width:0">
+            <h2>${esc(p.title)}</h2>
+            ${p.sub ? `<div class="psub">${esc(p.sub)}</div>` : ''}
+          </div>
+          ${p.tag ? `<span class="ptag">${esc(p.tag)}</span>` : ''}
+        </div>
+        ${p.blurb ? `<p class="pblurb">${esc(p.blurb)}</p>` : ''}
+        ${deal}
+        ${choices ? `<span class="psec-label">The choices</span><ul class="pchoices">${choices}</ul>` : ''}
+        ${watch ? `<span class="psec-label">Watch for</span><ul class="pwatch">${watch}</ul>` : ''}
+        ${links ? `<span class="psec-label">Browse listings</span><div class="plinks">${links}</div>` : ''}
+      </div>`;
+  }).join('');
+  host.innerHTML = `
+    <div class="card picks-intro">
+      <h2>💜 Kate's picks</h2>
+      <p class="muted" style="margin:6px 0 0;line-height:1.5">${esc(PICKS_INTRO)}</p>
+    </div>
+    ${cards}`;
+}
+
 // ---------- tabs ----------
 function switchTab(name) {
-  const cars = $('#panel-cars'), analysis = $('#panel-analysis');
-  if (!cars || !analysis) return;
-  const showAnalysis = name === 'analysis';
-  cars.hidden = showAnalysis;
-  analysis.hidden = !showAnalysis;
+  const panel = $('#panel-' + name);
+  if (!panel) return;
+  document.querySelectorAll('.cars-wrap .panel').forEach((p) => { p.hidden = (p !== panel); });
   document.querySelectorAll('#tabbar .tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === name));
-  // The picks bar only makes sense on the car list.
-  const sb = $('#sendbar'); if (sb) sb.hidden = showAnalysis || !sb.dataset.ready;
+  // The picks/send bar only makes sense on the car list.
+  const sb = $('#sendbar'); if (sb) sb.hidden = (name !== 'cars') || !sb.dataset.ready;
   window.scrollTo({ top: 0, behavior: 'auto' });
 }
 
