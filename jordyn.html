@@ -66,9 +66,23 @@
       position: static; bottom: auto; left: auto; right: auto; z-index: auto;
       background: transparent; backdrop-filter: none; border-top: 0;
       display: flex; gap: 6px; padding: 4px 16px 8px; max-width: 760px; margin: 0 auto;
-      /* Four tabs of nowrap text are wider than a phone. Without this the bar
-         forces the whole document wider than the viewport and EVERYTHING scrolls
-         sideways — the tab row has to scroll on its own instead. */
+      /* Four tabs of nowrap text are wider than a phone, so the bar must scroll
+         on its own rather than pushing the document wide.
+         ⚠️ min-width:0 is what MAKES that work. The shared styles.css sets
+         main#app to display:flex, so this nav is a flex ITEM, and a flex item's
+         default min-width:auto floors it at its content width — 592px inside a
+         375px viewport. overflow-x never gets a chance to engage, and the whole
+         page scrolls sideways instead. Same family of bug as the .tabbar
+         positioning inherited from the trip app; see car-site/SKILL.md. */
+      min-width: 0;
+      /* main#app is a COLUMN flex container, so its children are sized by their
+         content on the cross (horizontal) axis unless told to stretch. That is
+         why min-width:0 alone didn't help — the bar wasn't being shrunk, it was
+         being content-sized at 592px. Forcing the width is what actually
+         constrains it so overflow-x can scroll. */
+      width: 100%;
+      align-self: stretch;
+      box-sizing: border-box;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       scrollbar-width: none;
@@ -85,12 +99,46 @@
     }
     .tab.active { background: var(--blue); border-color: var(--blue); color: #fff; }
     .panel[hidden] { display: none; }
-    /* Belt and braces against sideways scroll: a single over-wide table or an
-       unbroken URL inside a card can widen the document just as effectively as
-       the tab bar did. */
-    html, body { max-width: 100%; overflow-x: hidden; }
-    .assump-tbl, .band-tbl { max-width: 100%; }
-    .card, .brow { overflow-wrap: anywhere; }
+    /* Do NOT set overflow-x:hidden on the document. It stops the page scrolling
+       sideways, but it does so by CLIPPING anything wider than the viewport —
+       so the six-column data tables became truncated AND unreachable. The fix
+       for a wide child is to let the CHILD scroll, never to hide the overflow. */
+    html, body { max-width: 100%; }
+    /* Every direct child of the flexed main#app needs min-width:0 for the same
+       reason as .tabbar — otherwise a wide table inside floors the whole column
+       at its content width and the page scrolls sideways. */
+    #app > *, .cars-wrap, .panel {
+      min-width: 0;
+      /* Same cross-axis rule as .tabbar: without stretch these are sized by
+         their widest child, so one wide table drags the whole column past the
+         viewport. */
+      align-self: stretch;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .card, .brow { overflow-wrap: anywhere; min-width: 0; }
+    /* Horizontal scroller for the data tables. They genuinely don't fit a phone,
+       and squeezing them made the narrow columns wrap one digit per line. */
+    .tscroll {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      /* Bleed to the card edges so it's obvious there is more to the right. */
+      margin: 0 -12px;
+      padding: 0 12px;
+    }
+    /* `min-width: max-content` on a table that is also `width: 100%` creates a
+       cyclic size resolution — the browser gave up and returned a 1,000,000px
+       table, which "scrolled" but to nowhere useful. Let the table size to its
+       own content instead, with a floor of the scroller width so short tables
+       still fill the card. */
+    .tscroll table { width: auto; min-width: 100%; }
+    /* Tell people the table scrolls. A cut-off table with no affordance reads as
+       broken rendering rather than as "there is more over here". */
+    .tscroll-hint {
+      font-size: 11px; color: var(--muted); margin: 4px 0 0; display: flex;
+      align-items: center; gap: 4px;
+    }
 
     /* ---- Controls ---- */
     #sortbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 6px 0 10px; }
@@ -178,7 +226,14 @@
   border-radius: 999px; padding: 6px 11px; font-size: 12px; cursor: pointer;
 }
 .hide-btn:hover { color: #e6ecff; border-color: #46527a; }
-.band-tbl th, .band-tbl td { font-size: 12px; padding: 5px 6px; text-align: left; }
+.band-tbl th, .band-tbl td {
+  font-size: 12px; padding: 5px 8px; text-align: left;
+  /* Without this the browser squeezes narrow columns until a three-digit
+     count wraps to one digit per line, which is how "1244" rendered as a
+     vertical stack. Let the table be wide and scroll instead. */
+  white-space: nowrap;
+}
+.band-tbl th:first-child, .band-tbl td:first-child { white-space: normal; min-width: 120px; }
 .band-tbl tr:first-child th { color: var(--muted); font-weight: 600; }
 .band-pref th, .band-pref td { background: #14251a; }
 .ins-h { font-size: 16px; margin: 0 0 6px; }
@@ -381,6 +436,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=3"></script>
-  <script src="jordyn.js?v=15"></script>
+  <script src="jordyn.js?v=16"></script>
 </body>
 </html>

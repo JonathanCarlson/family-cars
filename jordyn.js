@@ -477,10 +477,10 @@ function bandBlock(bands, budget) {
   return `
     <details class="assump">
       <summary>💰 Is a bigger budget worth it? <span class="tco-mo">tap for the comparison</span></summary>
-      <table class="assump-tbl band-tbl">
+      <div class="tscroll"><table class="assump-tbl band-tbl">
         <tr><th>Band</th><th>Found</th><th>AEB std</th><th>Electric</th><th>Median 6-yr cost</th><th>Median yr · mi</th></tr>
         ${rows}
-      </table>
+      </table></div><p class="tscroll-hint">← swipe the table sideways for the rest →</p>
       <p class="tco-note">$${((budget?.preferred ?? 15000) / 1000).toFixed(0)}k is still the target; the search runs to
       $${((budget?.searchedTo ?? 22000) / 1000).toFixed(0)}k so cost-to-own can argue for a pricier car rather than a rule
       excluding it. Spending more buys a newer car with fewer miles — but the median 6-year cost <b>rises</b> with price,
@@ -525,9 +525,9 @@ function assumptionsBlock(a) {
   return `
     <details class="assump">
       <summary>📐 What the cost figures assume <span class="tco-mo">tap to check the math</span></summary>
-      <table class="assump-tbl">
+      <div class="tscroll"><table class="assump-tbl">
         ${rows.map(([k, v, why]) => `<tr><th>${esc(k)}</th><td><b>${esc(v)}</b><div class="why">${esc(why)}</div></td></tr>`).join('')}
-      </table>
+      </table></div>
       <p class="tco-note">Not modelled: Washington's used-EV sales-tax exemption (up to $16,000 off the taxable price) ran
       2019&ndash;2025 and appears to have <b>lapsed</b>. Assuming a discount that no longer exists would tilt every ranking,
       so it is deliberately excluded &mdash; re-check before buying; if it is renewed it only helps the electrics.</p>
@@ -594,14 +594,14 @@ function renderInsights() {
     parts.push(`<div class="card">
       <h2 class="ins-h">💰 Does spending more help?</h2>
       <p class="ins-verdict">${esc(bs.verdict)}</p>
-      <table class="assump-tbl band-tbl">
+      <div class="tscroll"><table class="assump-tbl band-tbl">
         <tr><th>Budget</th><th>n</th><th>Median 6-yr</th><th>Median yr · mi</th><th>AEB std</th><th>Electric</th></tr>
         ${bs.rows.map((r) => `<tr${r.preferred ? ' class="band-pref"' : ''}>
           <th>${esc(r.label)}${r.preferred ? ' 🎯' : ''}</th>
           <td>${r.n}</td><td>${money(r.medianTco6)}</td>
           <td>${r.medianYear} · ${r.medianMiles != null ? Math.round(r.medianMiles / 1000) + 'k' : '—'}</td>
           <td>${r.aebStandardShare}%</td><td>${r.electrifiedShare}%</td></tr>`).join('')}
-      </table>
+      </table></div><p class="tscroll-hint">← swipe the table sideways for the rest →</p>
       <p class="tco-note">Where the money goes changes with the budget: cheap cars spend it on fuel and repairs,
       dear ones on purchase price and the insurance that scales with value.</p>
     </div>`);
@@ -622,10 +622,10 @@ function renderInsights() {
     parts.push(`<div class="card">
       <h2 class="ins-h">⚡ Electric, hybrid or petrol?</h2>
       <p class="ins-verdict">Compared <b>within the same budget</b>, so the answer isn't just "electric cars here are newer".</p>
-      <table class="assump-tbl band-tbl">
+      <div class="tscroll"><table class="assump-tbl band-tbl">
         <tr><th>Budget</th><th>Electric</th><th>Plug-in</th><th>Hybrid</th><th>Petrol</th></tr>
         ${bandRows}
-      </table>
+      </table></div><p class="tscroll-hint">← swipe the table sideways for the rest →</p>
       <p class="tco-note">Median 6-year cost to own. ${pw.confound ? esc(pw.confound) : ''}</p>
     </div>`);
   }
@@ -641,7 +641,7 @@ function renderInsights() {
       <h2 class="ins-h">🏅 Which cars actually hold up</h2>
       <p class="ins-verdict">Grouped by generation and battery, not just by name — a 24&nbsp;kWh Leaf and a 40&nbsp;kWh Leaf are different cars.
       Only groups that clear the safety floor for at least half their listings appear here.</p>
-      <table class="assump-tbl band-tbl">
+      <div class="tscroll"><table class="assump-tbl band-tbl">
         <tr><th>Car</th><th>n</th><th>6-yr cost</th><th>AEB std</th><th>2032</th></tr>
         ${cohorts.slice(0, 14).map((c) => `<tr>
           <th>${esc(c.label)}<div class="why">${esc((c.modelYears || []).join(', '))}</div></th>
@@ -649,7 +649,7 @@ function renderInsights() {
           <td>${money(c.medianTco6)}</td>
           <td>${c.safetyQualifiedPct}%${c.aebUnknown ? `<div class="why">${c.aebUnknown} unverified</div>` : ''}</td>
           <td>${c.viability2032 != null ? `${Math.round(c.viability2032 * 100)}%` : '—'}</td></tr>`).join('')}
-      </table>
+      </table></div><p class="tscroll-hint">← swipe the table sideways for the rest →</p>
       <p class="tco-note">“AEB std” is the share with automatic braking confirmed standard. Unverified is shown separately and is
       <b>not</b> counted as a failure — plenty of these cars have it, nobody has checked.</p>
     </div>`);
@@ -688,7 +688,7 @@ function renderInsights() {
     parts.push(`<div class="card">
       <details class="assump">
         <summary>📋 All models, aggregated by name <span class="tco-mo">the cruder view</span></summary>
-        <table class="assump-tbl band-tbl">
+        <div class="tscroll"><table class="assump-tbl band-tbl">
           <tr><th>Model</th><th>n</th><th>Median 6-yr</th><th>Safety</th><th>AEB std</th></tr>
           ${md.ranked.slice(0, 15).map((m) => `<tr>
             <th>${esc(m.model)}<div class="why">${esc(m.powertrains.join(' / '))}</div></th>
@@ -696,7 +696,7 @@ function renderInsights() {
             <td>${money(m.tco6.median)}</td>
             <td>${m.safetyScore == null ? '<span class="why">not assessed</span>' : `${m.safetyScore}/5`}</td>
             <td>${m.aebStandardShare}%</td></tr>`).join('')}
-        </table>
+        </table></div><p class="tscroll-hint">← swipe the table sideways for the rest →</p>
         <p class="tco-note">${esc(md.note)}</p>
       </details>
     </div>`);
@@ -741,7 +741,7 @@ function renderPicks() {
     parts.push(`<div class="card">
       <h2 class="ins-h">👤 What Jordyn's taste costs</h2>
       <p class="ins-verdict">${esc(cmp.headline)}</p>
-      <table class="assump-tbl band-tbl">
+      <div class="tscroll"><table class="assump-tbl band-tbl">
         <tr><th></th><th>Her picks</th><th>The numbers'</th><th>Difference</th></tr>
         ${row('6-year cost to own', h.medianTco6, a.medianTco6, d.tco6)}
         ${row('2-year cost (Jordyn only)', h.medianTco2, a.medianTco2, d.tco2)}
@@ -750,14 +750,14 @@ function renderPicks() {
         ${row('Major repairs (expected)', h.repairs, a.repairs, d.repairs)}
         ${row('Insurance', h.insurance, a.insurance, d.insurance)}
         ${row('Resale lost', h.depreciation, a.depreciation, d.depreciation)}
-      </table>
-      <table class="assump-tbl band-tbl">
+      </table></div><p class="tscroll-hint">← swipe the table sideways for the rest →</p>
+      <div class="tscroll"><table class="assump-tbl band-tbl">
         <tr><th>Safety</th><th>Her picks</th><th>The numbers'</th></tr>
         <tr><th>AEB standard</th><td>${h.aebStandard}/${h.n}</td><td>${a.aebStandard}/${a.n}</td></tr>
         <tr><th>IIHS Top Safety Pick</th><td>${h.topSafetyPick}/${h.n}</td><td>${a.topSafetyPick}/${a.n}</td></tr>
         <tr><th>Electric or plug-in</th><td>${h.electrified}/${h.n}</td><td>${a.electrified}/${a.n}</td></tr>
         <tr><th>Reliability flagged</th><td>${h.reliabilityConcern}/${h.n}</td><td>${a.reliabilityConcern}/${a.n}</td></tr>
-      </table>
+      </table></div><p class="tscroll-hint">← swipe the table sideways for the rest →</p>
       <p class="tco-note">${esc(p.disclaimer)}</p>
     </div>`);
   }
