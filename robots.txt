@@ -1,9 +1,18 @@
 # The car pages are public files whose privacy comes from an access key, and the
-# /feed/ paths are unguessable capability URLs holding PLAINTEXT rosters. Neither
-# should end up in a search index — being crawled is exactly how an "unguessable"
-# URL stops being unguessable.
+# /feed/ paths are unlisted capability URLs holding PLAINTEXT rosters.
 #
-# This is a courtesy signal to well-behaved crawlers, NOT a security control.
+# /feed/ is deliberately NOT disallowed. It was, briefly, and that was a mistake:
+# well-behaved AI fetchers (ChatGPT's browser among them) check robots.txt BEFORE
+# requesting a URL, so the Disallow made the feed unreadable by the exact clients
+# it exists to serve — while surfacing a vague "couldn't fetch it" that looked
+# like a Content-Type problem and sent us chasing the wrong bug.
+#
+# Blocking crawlers was never what protected the feed anyway. Search engines find
+# pages by following links; nothing links to these paths and the token is 128
+# bits of randomness. What protects it is that the URL is unguessable, and the
+# way to revoke it is to rotate the token (`--rotate-feed`), which changes the URL
+# and deletes the old directory.
+#
+# /data/ stays disallowed — encrypted blobs with nothing worth indexing.
 User-agent: *
-Disallow: /feed/
 Disallow: /data/

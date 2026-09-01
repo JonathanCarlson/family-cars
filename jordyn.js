@@ -179,8 +179,25 @@ function carCard(c) {
   else if (c.safety?.iihsNotRated) chips.push('<span class="sb" title="IIHS did not separately test this powertrain">🏆 IIHS — not this variant</span>');
   chips.push(`<span class="sb">${POWER_LABEL[c.power] || esc(c.power)}</span>`);
   if (c.evRange) chips.push(`<span class="sb">${c.evRange} mi electric</span>`);
+  // For a plug-in hybrid the interesting number isn't the battery size, it's how
+  // much of THIS family's driving actually happens on it — ~19 mi/day means a
+  // 50-mile battery is effectively an EV.
+  if (c.power === 'PHEV') {
+    const pct = Math.round(electricShareOf(c) * 100);
+    if (pct >= 90) chips.push(`<span class="sb sb-ok" title="At 130 mi/week your daily trips fit inside the battery">⚡ ~${pct}% electric driving</span>`);
+    else if (pct > 0) chips.push(`<span class="sb">⚡ ~${pct}% electric driving</span>`);
+  }
   if (c.powerSource === 'model-default') chips.push('<span class="sb sb-warn">⚠️ Powertrain unverified</span>');
   if (c.cert === 'Certified') chips.push('<span class="sb sb-ok">Certified</span>');
+  // Title history rides at the front of the chip row. A rebuilt total-loss car is
+  // not a footnote on a first car for a teenager.
+  const h = c.history || {};
+  if (h.salvageTitle === true) chips.unshift('<span class="sb sb-bad" title="Declared a total loss and rebuilt — repair quality unverifiable">🚨 Salvage title</span>');
+  if (h.frameDamage === true) chips.unshift('<span class="sb sb-bad" title="Frame damage on the vehicle history report">🚨 Frame damage</span>');
+  if (h.floodDamage === true) chips.unshift('<span class="sb sb-bad" title="Flood/water damage on the vehicle history report">🚨 Flood damage</span>');
+  if (h.accidentsReported === true) chips.push('<span class="sb sb-warn">Accident reported</span>');
+  else if (h.accidentsReported === false) chips.push('<span class="sb sb-ok">No accidents reported</span>');
+  if (h.oneOwner === true) chips.push('<span class="sb sb-ok">One owner</span>');
 
   return `
   <article class="car${c.standout ? ' standout' : ''}" data-vin="${esc(c.vin)}">
@@ -207,6 +224,9 @@ function carCard(c) {
       ${c.safety?.note ? `<p class="fineprint">🛡️ ${esc(c.safety.note)}</p>` : ''}
       ${c.safety?.iihsNotRated ? `<p class="fineprint">🏆 ${esc(c.safety.iihsNotRated)}</p>` : ''}
       ${c.batteryNote ? `<p class="fineprint">🔋 ${esc(c.batteryNote)}</p>` : ''}
+      ${h.salvageTitle === true ? '<p class="fineprint fineprint-bad">🚨 <b>Salvage title</b> — this car was declared a total loss and rebuilt. Repair quality can’t be judged from a listing, crash and airbag performance may be compromised, full coverage can be hard to get, and resale is far below a clean-title car — so the resale credit in the cost figures above is optimistic here.</p>' : ''}
+      ${h.frameDamage === true ? '<p class="fineprint fineprint-bad">🚨 <b>Frame damage reported</b> — affects the crash structure.</p>' : ''}
+      ${h.floodDamage === true ? '<p class="fineprint fineprint-bad">🚨 <b>Flood/water damage reported</b> — long-term electrical and corrosion risk, worse on a hybrid or EV.</p>' : ''}
       <div class="actions">
         <button class="vote up${vote === 'up' ? ' on' : ''}" data-v="up" type="button" aria-label="Thumbs up">👍</button>
         <button class="vote down${vote === 'down' ? ' on' : ''}" data-v="down" type="button" aria-label="Thumbs down">👎</button>
@@ -239,18 +259,39 @@ function passesFacets(c) {
 
 const SORTS = [
   { id: 'match-desc', label: '⭐ Best overall' },
+  { id: 'electric-desc', label: '⚡ Most electric driving' },
   { id: 'tco-asc', label: '💸 Cheapest to own' },
   { id: 'price-asc', label: '🏷️ Lowest price' },
   { id: 'miles-asc', label: '🛣️ Fewest miles' },
   { id: 'year-desc', label: '📅 Newest' },
 ];
+
+/**
+ * Share of miles this car would actually cover on electricity at 130 mi/week.
+ *
+ * This is the honest way to express "primarily electric drive". A plug-in hybrid
+ * is not half-measure here: the daily need is about 19 miles, so a Volt's 53-mile
+ * battery covers essentially every trip and it runs as a de-facto EV — while a
+ * short-range PHEV does not. Ranking on battery presence would flatten that
+ * distinction; ranking on electric miles preserves it.
+ */
+function electricShareOf(c) {
+  if (c.power === 'BEV') return 1;
+  const s = tcoOf(c)?.evShare;
+  return typeof s === 'number' ? s : 0;
+}
+
 function sortCars(list) {
   const a = [...list];
   if (SORT === 'tco-asc') a.sort((x, y) => (tcoOf(x)?.total ?? 9e9) - (tcoOf(y)?.total ?? 9e9));
   else if (SORT === 'price-asc') a.sort((x, y) => (x.price ?? 9e9) - (y.price ?? 9e9));
   else if (SORT === 'miles-asc') a.sort((x, y) => (x.miles ?? 9e9) - (y.miles ?? 9e9));
   else if (SORT === 'year-desc') a.sort((x, y) => (y.year ?? 0) - (x.year ?? 0));
-  else a.sort((x, y) => (y.matchScore ?? 0) - (x.matchScore ?? 0));
+  else if (SORT === 'electric-desc') {
+    // Electric share first, then the normal ranking inside each band, so this
+    // stays "best electric cars" rather than "any electric car, in any order".
+    a.sort((x, y) => (electricShareOf(y) - electricShareOf(x)) || ((y.matchScore ?? 0) - (x.matchScore ?? 0)));
+  } else a.sort((x, y) => (y.matchScore ?? 0) - (x.matchScore ?? 0));
   return a;
 }
 

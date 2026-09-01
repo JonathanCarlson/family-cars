@@ -21,6 +21,7 @@ import { dirname, join } from 'node:path';
 import { webcrypto as crypto } from 'node:crypto';
 import { buildUnlockBlob, newPassphrase, newToken, resolveSecret, writeFeed } from './car-access.mjs';
 import { rosterMarkdown } from './feed-markdown.mjs';
+import { rosterFeed, feedText } from './feed-json.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -113,9 +114,14 @@ const feed = resolveSecret({
   file: FEED_FILE, env: 'TRIP_JORDYN_FEED', rotate: ROTATE_FEED,
   generate: () => newToken(16), minLength: 16, label: 'build/jordyn-feed.txt',
 });
+const feedDoc = rosterFeed(data);
 writeFeed({
   root: ROOT, token: feed.value, name: 'jordyn',
-  json: data, markdown: rosterMarkdown(data, 'jordyn'),
+  files: {
+    json: feedDoc,                    // application/json — the canonical contract
+    txt: feedText(feedDoc),           // text/plain — same data, rendered from the JSON
+    md: rosterMarkdown(data, 'jordyn'),
+  },
 });
 
 const shareUrl = `${PUBLIC_BASE}/jordyn.html#k=${jKey}`;
@@ -134,6 +140,7 @@ console.log(`    PASSPHRASE (type it into the page if the link has no #k=) — $
 console.log(`    ${pass.value}`);
 console.log('');
 console.log('    MACHINE-READABLE FEED — plaintext, no JS needed, for server-side fetchers:');
-console.log(`    ${feedUrl}.md      (best for an LLM)`);
-console.log(`    ${feedUrl}.json    (structured)`);
+console.log(`    ${feedUrl}.json    ← give THIS to an LLM (application/json)`);
+console.log(`    ${feedUrl}.txt     (text/plain — same data, if JSON is rejected)`);
+console.log(`    ${feedUrl}.md      (text/markdown — some fetchers refuse this type)`);
 console.log('');

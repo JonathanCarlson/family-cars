@@ -132,25 +132,35 @@ export async function buildUnlockBlob(realKey, passphrase) {
  * Write the plaintext feed under feed/<token>/ and remove any older token
  * directories. Leaving a stale directory behind would keep a rotated — that is,
  * REVOKED — URL serving data, which is the one thing rotation exists to prevent.
+ *
+ * `files` maps extension → content. Multiple formats exist because fetchers are
+ * picky about Content-Type: GitHub Pages serves .md as `text/markdown`, which
+ * some readers (ChatGPT's among them) refuse outright. `.json` and `.txt` get
+ * `application/json` and `text/plain`, which everything accepts.
  */
-export function writeFeed({ root, token, name, json, markdown }) {
+export function writeFeed({ root, token, name, files }) {
   const feedRoot = join(root, 'feed');
   mkdirSync(feedRoot, { recursive: true });
+  const exts = Object.keys(files);
 
   for (const entry of readdirSync(feedRoot, { withFileTypes: true })) {
     if (!entry.isDirectory() || entry.name === token) continue;
-    const stale = join(feedRoot, entry.name, `${name}.json`);
-    if (!existsSync(stale)) continue; // another roster's token dir — leave it alone
-    rmSync(stale, { force: true });
-    rmSync(join(feedRoot, entry.name, `${name}.md`), { force: true });
-    if (readdirSync(join(feedRoot, entry.name)).length === 0) {
-      rmSync(join(feedRoot, entry.name), { recursive: true, force: true });
-    }
+    const dir = join(feedRoot, entry.name);
+    // Only clear OUR roster's files — the other roster keeps its own token dir.
+    const mine = readdirSync(dir).filter((f) => f.startsWith(`${name}.`));
+    if (!mine.length) continue;
+    for (const f of mine) rmSync(join(dir, f), { force: true });
+    if (readdirSync(dir).length === 0) rmSync(dir, { recursive: true, force: true });
   }
 
   const dir = join(feedRoot, token);
   mkdirSync(dir, { recursive: true });
-  writeFileSync(join(dir, `${name}.json`), JSON.stringify(json, null, 2), 'utf8');
-  writeFileSync(join(dir, `${name}.md`), markdown, 'utf8');
-  return { dir, jsonPath: join(dir, `${name}.json`), mdPath: join(dir, `${name}.md`) };
+  const written = [];
+  for (const ext of exts) {
+    const body = typeof files[ext] === 'string' ? files[ext] : JSON.stringify(files[ext], null, 2);
+    const p = join(dir, `${name}.${ext}`);
+    writeFileSync(p, body, 'utf8');
+    written.push(p);
+  }
+  return { dir, written };
 }

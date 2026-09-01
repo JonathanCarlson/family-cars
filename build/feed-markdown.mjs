@@ -84,7 +84,18 @@ function carSection(c, i) {
     L.push(`- Traction battery warranty: ${b.summary || JSON.stringify(b)}`);
   }
   if (c.batteryNote) L.push(`- Battery: ${c.batteryNote}`);
-
+  if (c.history) {
+    const h = c.history;
+    const tri = (v) => (v === null || v === undefined ? 'not reported' : v ? 'yes' : 'no');
+    L.push(`- Vehicle history: ${h.reportAvailable ? h.badges.join(', ') : 'no report attached to this listing'}`);
+    L.push(`  - Salvage title: ${tri(h.salvageTitle)} · Accidents reported: ${tri(h.accidentsReported)} · One owner: ${tri(h.oneOwner)}`);
+    if (h.salvageTitle === true) {
+      L.push('  - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).');
+    }
+    if (h.frameDamage === true) L.push('  - ⚠️ **Frame damage reported.**');
+    if (h.floodDamage === true) L.push('  - ⚠️ **Flood/water damage reported.**');
+    L.push('  - `not reported` means neither badge was present — it is absence of data, not a clean record.');
+  }
   if (c.tco6) {
     L.push('- Cost to own:');
     L.push(...tcoLines(c.tco6));

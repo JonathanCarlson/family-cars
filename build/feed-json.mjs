@@ -1,0 +1,476 @@
+// feed-json.mjs — the machine-readable contract for a roster.
+//
+// This is deliberately NOT a dump of the page's internal state. The page object
+// carries UI scaffolding, uses short keys whose units are implicit, and changes
+// shape whenever the page is refactored. A consumer that parsed it would be
+// silently coupled to our render code and would break without warning.
+//
+// So the feed is an explicit, versioned contract:
+//   · every field is named in full, with units in the name or the schema
+//   · the schema travels WITH the data, so a reader never has to guess
+//   · unknown is `null` and is documented as distinct from `false`
+//
+// That last rule is the important one. Nearly every data-quality bug in this
+// project came from collapsing "we don't know" into a confident value: a
+// powertrain inferred from a model name, an IIHS award borrowed from a variant
+// that was never tested, a missing safety field read as "not equipped". The feed
+// exposes provenance next to each claim so a reader can tell a measured fact
+// from an assumption, and so can this project's future self.
+
+const POWER_LABEL = {
+  BEV: 'Battery electric',
+  PHEV: 'Plug-in hybrid',
+  HYB: 'Hybrid (gasoline, self-charging)',
+  ICE: 'Gasoline',
+};
+
+const round = (n) => (n == null ? null : Math.round(n));
+
+function powertrainOf(c) {
+  const verified = c.powerSource === 'vin' || c.powerSource === 'listing';
+  return {
+    type: c.power || null,
+    label: c.power ? POWER_LABEL[c.power] || c.power : null,
+    isPlugIn: c.power === 'BEV' || c.power === 'PHEV',
+    electricRangeMi: c.evRange ?? null,
+    source: c.powerSource || null,
+    evidence: c.powerEvidence || null,
+    vinVerified: verified,
+    // Only emitted when it applies. See fieldNotes.powertrain for the standing rule.
+    caution: verified
+      ? null
+      : 'Powertrain could NOT be established from the VIN. Range, energy cost, battery risk and maintenance rate for this listing are model-level assumptions, not facts about this car.',
+  };
+}
+
+function equipmentEvidence(state, source) {
+  if (!state) return { equipped: null, confidence: 'unknown' };
+  const vin = source === 'vin';
+  return {
+    equipped: state === 'standard' ? true : null,
+    rawState: state,
+    confidence: vin ? 'vin-trim-confirmed' : 'model-year-typical',
+  };
+}
+
+function safetyOf(c) {
+  const s = c.safety;
+  if (!s) return null;
+  const v = c.vinSafety || {};
+  const alsoStandard = ['fcw', 'lka', 'acc', 'rcta', 'backupCam']
+    .filter((k) => v[k] === 'standard')
+    .map((k) => ({
+      fcw: 'forward-collision-warning',
+      lka: 'lane-keeping-assist',
+      acc: 'adaptive-cruise-control',
+      rcta: 'rear-cross-traffic-alert',
+      backupCam: 'backup-camera',
+    }[k]));
+
+  return {
+    automaticEmergencyBraking: equipmentEvidence(s.aeb, s.aebSource),
+    blindSpotMonitoring: equipmentEvidence(s.bsm, s.bsmSource),
+    iihsAward: s.iihs || null,
+    iihsNotRatedNote: s.iihsNotRated || null,
+    vinTrim: v.trim || null,
+    alsoStandardOnThisTrim: alsoStandard,
+    note: s.note || null,
+  };
+}
+
+function batteryOf(c) {
+  if (c.power !== 'BEV' && c.power !== 'PHEV') {
+    return { applicable: false };
+  }
+  const w = c.batteryWarranty;
+  return {
+    applicable: true,
+    riskFactor: c.batteryRisk ?? null,
+    note: c.batteryNote || null,
+    federalWarranty: w
+      ? {
+        summary: w.summary || null,
+        yearsTotal: w.years ?? null,
+        milesTotal: w.miles ?? null,
+        expiresApprox: w.expires || null,
+        remaining: w.remaining || null,
+      }
+      : null,
+  };
+}
+
+function reliabilityOf(c) {
+  const r = c.reliability;
+  if (!r) return null;
+  return {
+    scope: 'model-year',
+    appliesTo: `${r.year} ${r.make} ${r.model}`,
+    band: r.band || null,
+    confidence: r.confidence || null,
+    nhtsaComplaints: r.complaints ?? null,
+    nhtsaSevereComplaints: r.severeComplaints ?? null,
+    nhtsaRecalls: r.recalls ?? null,
+    batteryRecall: r.batteryRecall ?? null,
+    topComplaintComponents: r.topComponents || [],
+    reasons: r.reasons || [],
+    sourceUrl: r.source || null,
+  };
+}
+
+function historyOf(c) {
+  const h = c.history;
+  if (!h || !h.reportAvailable) {
+    return {
+      reportAvailable: false,
+      salvageTitle: null,
+      frameDamage: null,
+      floodDamage: null,
+      accidentsReported: null,
+      oneOwner: null,
+      personalUseOnly: null,
+      badges: h?.badges || [],
+    };
+  }
+  const out = {
+    reportAvailable: true,
+    salvageTitle: h.salvageTitle ?? null,
+    frameDamage: h.frameDamage ?? null,
+    floodDamage: h.floodDamage ?? null,
+    accidentsReported: h.accidentsReported ?? null,
+    oneOwner: h.oneOwner ?? null,
+    personalUseOnly: h.personalUseOnly ?? null,
+    badges: h.badges || [],
+  };
+  const warnings = [];
+  if (out.salvageTitle === true) {
+    warnings.push('SALVAGE TITLE: declared a total loss and rebuilt. Structural repair quality is unverifiable from a listing, crash and airbag performance may be compromised, some insurers will not write full coverage, and resale is far below a clean-title equivalent — so resaleValueRecovered in costToOwn is optimistic for this car.');
+  }
+  if (out.frameDamage === true) warnings.push('FRAME DAMAGE reported — affects crash-structure integrity.');
+  if (out.floodDamage === true) warnings.push('FLOOD/WATER DAMAGE reported — long-term electrical and corrosion risk, particularly severe in an EV or hybrid.');
+  if (warnings.length) out.warnings = warnings;
+  return out;
+}
+
+function tcoOf(t) {
+  if (!t || !t.items) return null;
+  const i = t.items;
+  return {
+    years: t.years,
+    milesDriven: t.miles,
+    powertrainUsed: t.power,
+    electricMilesShare: t.evShare ?? null,
+    costs: {
+      purchasePrice: round(i.purchase),
+      salesTax: round(i.salesTax),
+      fuelAndElectricity: round(i.energy),
+      maintenance: round(i.maintenance),
+      insurance: round(i.insurance),
+      registrationAndFees: round(i.registration),
+      batteryAllowance: round(i.batteryAllowance),
+    },
+    resaleValueRecovered: round(i.depreciation),
+    totalCostOfOwnership: round(t.total),
+    averagePerMonth: round(t.perMonth),
+  };
+}
+
+function listingOf(c) {
+  return {
+    id: c.id,
+    vin: c.vin,
+    year: c.year,
+    make: c.make,
+    model: c.model,
+    trim: c.trim || null,
+    displayName: c.label,
+
+    askingPriceUsd: c.price ?? null,
+    priceRecentlyReduced: Boolean(c.priceNote),
+    odometerMiles: c.miles ?? null,
+    exteriorColor: c.color || null,
+    condition: c.cert || null,
+
+    sourceUrl: c.url || null,
+    photoUrl: c.photo || null,
+    dealerAndLocation: c.location || null,
+    distanceFromBellevueMi: c.distanceMi ?? null,
+    daysOnLot: c.daysOnLot ?? null,
+    firstSeenInThisFeed: c.firstSeen || null,
+    stillListed: c.stale !== true,
+
+    powertrain: powertrainOf(c),
+    electricDriveShare: c.power === 'BEV' ? 1 : (c.tco6?.evShare ?? (c.power === 'ICE' || c.power === 'HYB' ? 0 : null)),
+    safety: safetyOf(c),
+    battery: batteryOf(c),
+    // Reliability is a property of the MODEL-YEAR, not of this listing, so it is
+    // stored once in reliabilityByModelYear and referenced by key. Inlining it
+    // repeated the same paragraphs across every car sharing a model-year (51
+    // distinct model-years across 121 listings) for no added information.
+    reliabilityKey: c.reliability ? `${c.reliability.year} ${c.reliability.make} ${c.reliability.model}` : null,
+    vehicleHistory: historyOf(c),
+    costToOwn: { twoYear: tcoOf(c.tco2), sixYear: tcoOf(c.tco6) },
+
+    ranking: {
+      safetyTier: c.tier || null,
+      matchScore: c.matchScore ?? null,
+      flags: c.flags || [],
+    },
+    humanNote: c.note || null,
+  };
+}
+
+/**
+ * Build the full feed document.
+ * @param {object} data the decrypted roster (build/jordyn.json)
+ */
+export function rosterFeed(data) {
+  const a = data.assumptions || {};
+  const cars = data.cars || [];
+  const listings = cars.map(listingOf);
+
+  // Reliability is per model-year; store it once and reference by key.
+  const reliabilityByModelYear = {};
+  for (const c of cars) {
+    const r = reliabilityOf(c);
+    if (!r) continue;
+    reliabilityByModelYear[r.appliesTo] = r;
+  }
+
+  const byScore = [...listings].sort((x, y) => (y.ranking.matchScore ?? 0) - (x.ranking.matchScore ?? 0));
+  const brief = (l) => ({
+    vin: l.vin,
+    name: `${l.displayName}${l.trim ? ` ${l.trim}` : ''}`,
+    askingPriceUsd: l.askingPriceUsd,
+    odometerMiles: l.odometerMiles,
+    powertrain: l.powertrain.label,
+    electricDriveShare: l.electricDriveShare,
+    sixYearCostUsd: l.costToOwn.sixYear?.totalCostOfOwnership ?? null,
+    twoYearCostUsd: l.costToOwn.twoYear?.totalCostOfOwnership ?? null,
+    matchScore: l.ranking.matchScore,
+    salvageTitle: l.vehicleHistory.salvageTitle,
+    accidentsReported: l.vehicleHistory.accidentsReported,
+    sourceUrl: l.sourceUrl,
+  });
+
+  // Two shortlists, deliberately. The overall ranking is powertrain-neutral —
+  // electric cars earn their place on cost, not on a thumb on the scale. But the
+  // stated preference is a strong bias toward primarily-electric driving, and
+  // burying that in a filter would make it invisible to a reader of this feed.
+  // So the bias lives here, as an explicit second list, instead of being smuggled
+  // into matchScore where it would silently distort every cost comparison.
+  const plugIn = byScore.filter((l) => l.powertrain.isPlugIn && l.powertrain.vinVerified);
+
+  return {
+    feed: {
+      name: 'jordyn-first-car',
+      schemaVersion: '1.1',
+      generatedAt: new Date().toISOString(),
+      rosterUpdated: data.updated || null,
+      listingCount: cars.length,
+      purpose: 'Used cars under $15,000 near Bellevue WA, screened for teen-driver safety and ranked on total cost to own.',
+      refresh: 'Regenerated nightly from live Autotrader inventory. Listings appear and sell quickly — always confirm against sourceUrl before acting.',
+      howToReadThis: [
+        'null means UNKNOWN and is always distinct from false. Never render a null as a negative.',
+        'Powertrain is resolved from the VIN via NHTSA vPIC, never from the model name. Check powertrain.vinVerified before trusting electricRangeMi or energy costs.',
+        'Safety equipment carries a confidence level. "vin-trim-confirmed" is manufacturer-reported for that trim; "model-year-typical" is research, not a fact about this car.',
+        'reliability lives in reliabilityByModelYear, keyed by listing.reliabilityKey. It is model-year scope and says nothing about the condition of the individual car.',
+        'vehicleHistory badges are affirming/negating pairs; null means not reported, NOT the negative.',
+        'Start from shortlists.topOverall and shortlists.topElectric — the full listings array is long.',
+        'All money is US dollars, whole units. All distances are miles.',
+      ],
+      canonicalPage: 'https://jonathancarlson.github.io/family-cars/jordyn.html',
+      alternateFormats: { markdown: './jordyn.md', plainText: './jordyn.txt', json: './jordyn.json' },
+      privacy: 'Unlisted capability URL. Not encrypted — treat the URL itself as the secret.',
+    },
+
+    // Stated ONCE here rather than repeated on all 121 listings. The per-listing
+    // objects carry only what actually varies (evidence strings, warnings that
+    // apply); these are the standing rules for interpreting those fields.
+    fieldNotes: {
+      'listing.powertrain': 'Resolved from the VIN via NHTSA vPIC, never from the model name — a "Hyundai Ioniq" is sold as a hybrid, a plug-in hybrid AND a battery EV. `vinVerified: false` means range/energy/battery figures are model-level assumptions; a `caution` string is then present.',
+      'listing.electricDriveShare': 'Fraction of miles actually driven on electricity at 130 mi/week (~19 mi/day). 1 = battery-electric. A plug-in hybrid with ~50 miles of range approaches 1 at this duty cycle, i.e. it runs as a de-facto EV; a short-range plug-in does not. This is the meaningful measure of "primarily electric drive", not battery presence.',
+      'listing.safety.*.confidence': '"vin-trim-confirmed" = the manufacturer reports this as standard for this VIN\'s trim (NHTSA vPIC). "model-year-typical" = model-year research, NOT confirmed for this car. "unknown" = no data. vPIC is a paperwork record, not a physical inspection — confirm on the vehicle.',
+      'listing.safety.*.equipped': 'true only when confirmed standard. null means unconfirmed, which is NOT the same as absent — many manufacturers simply do not submit this field (Toyota reports blind-spot for 0 of its listings here).',
+      'listing.safety.iihsAward': 'IIHS does not test every powertrain variant of a model. An award applies to the variant named in it, which may differ from this car; iihsNotRatedNote flags that case.',
+      'listing.battery.riskFactor': '0 = no modelled degradation/replacement exposure; higher = more. Feeds the batteryAllowance line in costToOwn.',
+      'listing.battery.federalWarranty': 'US federal minimum is 8 years / 100,000 miles on the traction battery, transferable to subsequent owners. Some states and manufacturers exceed it.',
+      'reliabilityByModelYear.*.band': 'clean | ok | watch | concern | unknown — a qualitative band, NOT a numeric score. Scope is the model-year, so it says nothing about the condition of an individual car. Get a pre-purchase inspection.',
+      'reliabilityByModelYear.*.sourceUrl': 'Triangulated from freely accessible public sources, primarily NHTSA complaints/recalls. NOT J.D. Power and NOT Consumer Reports. Complaint counts are not adjusted for sales volume, so raw counts are not comparable between a high-volume and a low-volume model.',
+      'listing.vehicleHistory': 'From the dealer-supplied CARFAX/AutoCheck summary on the listing. Badges come in affirming/negating pairs, so true AND false are both affirmative statements from the report; null means NEITHER badge was present, i.e. NOT REPORTED. Never read null as the negative. Always pull a full VIN history before buying.',
+      'listing.costToOwn': 'totalCostOfOwnership = purchasePrice + salesTax + fuelAndElectricity + maintenance + insurance + registrationAndFees + batteryAllowance − resaleValueRecovered. Inputs are in costAssumptions.',
+      'listing.ranking.matchScore': 'Internal 0-100 fit score used to order the page: safety, then cost to own, then longevity, multiplied by reliability and title-history factors. Powertrain-neutral by design — electric cars are not given a bonus, so where they win they win on cost. Not a quality rating.',
+      'listing.stillListed': 'false means the car was in a previous scan but the latest one no longer returns it — probably sold.',
+    },
+
+    shortlists: {
+      note: 'Two rankings on purpose. topOverall is powertrain-neutral. topElectric applies the stated preference for primarily-electric driving, kept as a separate list so the bias is visible rather than hidden inside matchScore.',
+      topOverall: byScore.slice(0, 10).map(brief),
+      topElectric: {
+        note: 'Battery-electric and plug-in hybrids only, VIN-verified, ranked by overall fit — NOT by electric share. Ranking by share alone would put every 100%-electric BEV above every plug-in and hide the fact that a 53-mile Volt covers ~85% of these miles on electricity while costing several thousand less to own. Read electricDriveShare alongside the rank.',
+        cars: [...plugIn]
+          .sort((x, y) => ((y.ranking.matchScore ?? 0) - (x.ranking.matchScore ?? 0)) || ((y.electricDriveShare ?? 0) - (x.electricDriveShare ?? 0)))
+          .slice(0, 10)
+          .map(brief),
+        cheapestToOwn: [...plugIn]
+          .filter((l) => l.costToOwn.sixYear)
+          .sort((x, y) => x.costToOwn.sixYear.totalCostOfOwnership - y.costToOwn.sixYear.totalCostOfOwnership)
+          .slice(0, 5)
+          .map(brief),
+      },
+    },
+
+    reliabilityByModelYear,
+
+    costAssumptions: {
+      note: 'These are the INPUTS to every costToOwn figure. Change one and every total moves.',
+      milesPerWeek: a.milesPerWeek ?? null,
+      milesPerYear: a.milesPerYear ?? null,
+      horizonYearsJordyn: a.jordynYears ?? null,
+      horizonYearsThroughEmma: a.emmaYears ?? null,
+      gasolineUsdPerGallon: a.gasPerGallon ?? null,
+      gasolinePriceBasis: 'Bellevue, WA pump prices',
+      electricityUsdPerKwh: a.electricityPerKwh ?? null,
+      washingtonEvFeeUsdPerYear: a.waEvFeePerYear ?? null,
+      washingtonPhevFeeUsdPerYear: a.waPhevFeePerYear ?? null,
+      salesTaxRate: a.salesTaxRate ?? null,
+      teenInsuranceBaseUsdPerYear: a.insuranceTeenBase ?? null,
+      teenInsuranceRateOfVehicleValue: a.insuranceValueRate ?? null,
+      maintenanceUsdPerMileByPowertrain: a.maintPerMile || null,
+      knownWeaknesses: [
+        'Insurance is the single largest line item over six years and is an ESTIMATE. It has not been checked against a real teen-driver quote.',
+        'NHTSA complaint counts are not adjusted for sales volume, so raw counts are not comparable between a high-volume and a low-volume model.',
+        'Washington\'s used-EV sales-tax exemption appears to have lapsed 2025-07-31 and is deliberately NOT modelled.',
+      ],
+    },
+
+    listings: listings,
+  };
+}
+
+/**
+ * Plain-text rendering, generated FROM the feed object above so the two can
+ * never disagree. Exists because some fetchers reject text/markdown but accept
+ * text/plain.
+ */
+export function feedText(feed) {
+  const L = [];
+  const rule = (ch = '=') => ch.repeat(74);
+  const f = feed.feed;
+
+  L.push(rule());
+  L.push(`JORDYN'S FIRST CAR — ${f.listingCount} listings`);
+  L.push(`roster updated ${f.rosterUpdated} · feed generated ${f.generatedAt}`);
+  L.push(rule());
+  L.push('');
+  L.push(f.purpose);
+  L.push(f.refresh);
+  L.push('');
+  L.push('HOW TO READ THIS');
+  for (const line of f.howToReadThis) L.push(`  * ${line}`);
+  L.push('');
+
+  const sl = feed.shortlists;
+  if (sl) {
+    const row = (c, i) => {
+      const pct = c.electricDriveShare == null ? '  ?' : `${String(Math.round(c.electricDriveShare * 100)).padStart(3)}%`;
+      return `  ${String(i + 1).padStart(2)}. ${c.name.padEnd(32).slice(0, 32)} $${String(c.askingPriceUsd).padStart(6)}  ` +
+        `${String(c.odometerMiles).padStart(7)}mi  ${(c.powertrain || '').padEnd(34).slice(0, 34)} elec ${pct}  ` +
+        `6yr $${String(c.sixYearCostUsd).padStart(6)}  score ${c.matchScore}`;
+    };
+    L.push(rule('-'));
+    L.push('TOP 10 OVERALL (powertrain-neutral — EVs get no bonus, they win on cost)');
+    L.push(rule('-'));
+    sl.topOverall.forEach((c, i) => L.push(row(c, i)));
+    L.push('');
+    L.push(rule('-'));
+    L.push('TOP 10 ELECTRIC / PLUG-IN (ranked by share of miles actually driven on electricity)');
+    L.push(rule('-'));
+    L.push(`  ${sl.topElectric.note}`);
+    sl.topElectric.cars.forEach((c, i) => L.push(row(c, i)));
+    L.push('');
+  }
+
+  const a = feed.costAssumptions;
+  L.push(rule('-'));
+  L.push('COST ASSUMPTIONS (inputs to every total below)');
+  L.push(rule('-'));
+  L.push(`  driving                 ${a.milesPerWeek} mi/week (${a.milesPerYear} mi/year)`);
+  L.push(`  horizons                ${a.horizonYearsJordyn} yr (Jordyn) / ${a.horizonYearsThroughEmma} yr (through Emma)`);
+  L.push(`  gasoline                $${a.gasolineUsdPerGallon}/gal (${a.gasolinePriceBasis})`);
+  L.push(`  electricity             $${a.electricityUsdPerKwh}/kWh`);
+  L.push(`  WA road-use fee         $${a.washingtonEvFeeUsdPerYear}/yr BEV · $${a.washingtonPhevFeeUsdPerYear}/yr PHEV`);
+  L.push(`  sales tax               ${(a.salesTaxRate * 100).toFixed(1)}%`);
+  L.push(`  teen insurance          $${a.teenInsuranceBaseUsdPerYear}/yr + ${(a.teenInsuranceRateOfVehicleValue * 100).toFixed(1)}% of value`);
+  const m = a.maintenanceUsdPerMileByPowertrain || {};
+  L.push(`  maintenance $/mi        BEV ${m.BEV} · PHEV ${m.PHEV} · HYB ${m.HYB} · ICE ${m.ICE}`);
+  L.push('');
+  L.push('  Known weaknesses:');
+  for (const w of a.knownWeaknesses) L.push(`    ! ${w}`);
+  L.push('');
+
+  feed.listings.forEach((c, i) => {
+    L.push(rule());
+    L.push(`${i + 1}. ${c.displayName}${c.trim ? ` ${c.trim}` : ''} — $${(c.askingPriceUsd || 0).toLocaleString('en-US')}`);
+    L.push(rule());
+    L.push(`  VIN                     ${c.vin}`);
+    L.push(`  odometer                ${(c.odometerMiles || 0).toLocaleString('en-US')} mi`);
+    L.push(`  condition               ${c.condition}${c.exteriorColor ? ` · ${c.exteriorColor}` : ''}`);
+    L.push(`  where                   ${c.dealerAndLocation || '?'}${c.distanceFromBellevueMi != null ? ` (${c.distanceFromBellevueMi} mi)` : ''}`);
+    if (c.daysOnLot != null) L.push(`  days on lot             ${c.daysOnLot}`);
+    L.push(`  listing                 ${c.sourceUrl}`);
+
+    const p = c.powertrain;
+    L.push(`  powertrain              ${p.label}${p.electricRangeMi ? ` · ${p.electricRangeMi} mi electric` : ''}`);
+    if (c.electricDriveShare != null) L.push(`  electric drive share    ${Math.round(c.electricDriveShare * 100)}% of miles at 130 mi/week`);
+    L.push(`    evidence              ${p.evidence || 'none recorded'}`);
+    if (p.caution) L.push(`    !! ${p.caution}`);
+
+    if (c.safety) {
+      const s = c.safety;
+      const eq = (e) => (e.equipped === true ? 'standard' : e.rawState || 'unknown');
+      L.push(`  AEB                     ${eq(s.automaticEmergencyBraking)} (${s.automaticEmergencyBraking.confidence})`);
+      L.push(`  blind-spot monitor      ${eq(s.blindSpotMonitoring)} (${s.blindSpotMonitoring.confidence})`);
+      if (s.iihsAward) L.push(`  IIHS                    ${s.iihsAward}`);
+      if (s.iihsNotRatedNote) L.push(`  IIHS caution            ${s.iihsNotRatedNote}`);
+      if (s.alsoStandardOnThisTrim.length) L.push(`  also standard (${s.vinTrim || 'trim'})   ${s.alsoStandardOnThisTrim.join(', ')}`);
+    }
+
+    const h = c.vehicleHistory;
+    const tri = (v) => (v === null ? 'not reported' : v ? 'yes' : 'no');
+    L.push(`  history report          ${h.reportAvailable ? h.badges.join(', ') : 'none attached'}`);
+    L.push(`    salvage title         ${tri(h.salvageTitle)}`);
+    L.push(`    frame damage          ${tri(h.frameDamage)}`);
+    L.push(`    flood damage          ${tri(h.floodDamage)}`);
+    L.push(`    accidents reported    ${tri(h.accidentsReported)}`);
+    L.push(`    one owner             ${tri(h.oneOwner)}`);
+    for (const w of h.warnings || []) L.push(`    !! ${w}`);
+
+    if (c.battery.applicable) {
+      L.push(`  battery risk factor     ${c.battery.riskFactor}`);
+      if (c.battery.note) L.push(`    ${c.battery.note}`);
+      if (c.battery.federalWarranty?.summary) L.push(`    warranty              ${c.battery.federalWarranty.summary}`);
+    }
+
+    if (c.reliabilityKey) {
+      const r = (feed.reliabilityByModelYear || {})[c.reliabilityKey];
+      if (r) {
+        L.push(`  reliability (${r.appliesTo})`);
+        L.push(`    band                  ${r.band} (confidence: ${r.confidence})`);
+        L.push(`    NHTSA                 ${r.nhtsaComplaints} complaints · ${r.nhtsaRecalls} recalls`);
+        for (const reason of r.reasons) L.push(`    - ${reason}`);
+        if (r.sourceUrl) L.push(`    source                ${r.sourceUrl}`);
+      }
+    }
+    for (const [label, t] of [['2-year', c.costToOwn.twoYear], ['6-year', c.costToOwn.sixYear]]) {
+      if (!t) continue;
+      const q = t.costs;
+      L.push(`  ${label} cost to own`);
+      L.push(`    purchase ${q.purchasePrice} + tax ${q.salesTax} + fuel ${q.fuelAndElectricity} + maint ${q.maintenance}`);
+      L.push(`    + insurance ${q.insurance} + fees ${q.registrationAndFees} + battery ${q.batteryAllowance} - resale ${t.resaleValueRecovered}`);
+      L.push(`    = $${(t.totalCostOfOwnership || 0).toLocaleString('en-US')} ($${t.averagePerMonth}/mo over ${(t.milesDriven || 0).toLocaleString('en-US')} mi)`);
+    }
+    L.push('');
+  });
+
+  return L.join('\n');
+}

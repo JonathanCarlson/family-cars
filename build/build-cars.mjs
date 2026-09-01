@@ -128,7 +128,7 @@ const feed = resolveSecret({
 });
 writeFeed({
   root: ROOT, token: feed.value, name: 'cars',
-  json: data, markdown: rosterMarkdown(data, 'cars'),
+  files: { json: data, md: rosterMarkdown(data, 'cars') },
 });
 
 const shareUrl = `${PUBLIC_BASE}/cars.html#k=${carKey}`;
@@ -151,5 +151,5 @@ console.log(`    PASSPHRASE (type it into the page if the link has no #k=) — $
 console.log(`    ${pass.value}`);
 console.log('');
 console.log('    MACHINE-READABLE FEED — plaintext, no JS needed, for server-side fetchers:');
-console.log(`    ${feedUrl}.md      (best for an LLM)`);
-console.log(`    ${feedUrl}.json    (structured)`);
+console.log(`    ${feedUrl}.json    (application/json)`);
+console.log(`    ${feedUrl}.md      (text/markdown — some fetchers refuse this type)`);

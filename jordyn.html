@@ -146,10 +146,15 @@
     }
     .sb-ok { color: #8fd8a0; border-color: #2f5c3c; background: #14251a; }
     .sb-warn { color: #f0c674; border-color: #5c4a1f; background: #241f12; }
+/* Reserved for facts that should stop you reading further — a rebuilt total
+   loss, frame or flood damage. Deliberately louder than .sb-warn, which means
+   "check this", not "this is disqualifying". */
+.sb-bad { color: #ff9a9a; border-color: #7a2f2f; background: #2a1414; font-weight: 600; }
     .sb-bad { color: #e08b8b; border-color: #5c2f2f; background: #241414; }
 
     .standout-note { font-size: 12.5px; color: var(--accent); margin: 9px 0 0; line-height: 1.45; }
     .fineprint { font-size: 11.5px; color: var(--muted); margin: 7px 0 0; line-height: 1.45; }
+.fineprint-bad { color: #ffb3b3; background: #2a1414; border: 1px solid #7a2f2f; border-radius: 8px; padding: 7px 9px; }
 
     /* ---- TCO disclosure ---- */
     .tco { margin-top: 10px; background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; }
@@ -301,6 +306,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=3"></script>
-  <script src="jordyn.js?v=7"></script>
+  <script src="jordyn.js?v=8"></script>
 </body>
 </html>
