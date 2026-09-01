@@ -43,14 +43,17 @@ const POWER_LABEL = { BEV: '⚡ Electric', PHEV: '🔌 Plug-in hybrid', HYB: '�
 
 /**
  * The safety headline. Never claims a trim-gated feature is actually present.
- * A 🔎 marks a claim confirmed against THIS car's VIN in NHTSA's database,
- * rather than inferred from what was typical that model year.
+ *
+ * Wording note: vPIC records equipment against the VIN's TRIM as the maker
+ * submitted it, not against a physical inspection of that individual car. So we
+ * say "standard on this trim", not "this car definitely has it" — the honest
+ * claim, and still far stronger than a model-year guess.
  */
 function safetyBadge(c) {
   const vin = c.safety?.aebSource === 'vin';
   if (c.tier === 'confirmed') {
     return vin
-      ? '<span class="sb sb-ok" title="Confirmed from this car\'s VIN">🔎 AEB confirmed — this VIN</span>'
+      ? '<span class="sb sb-ok" title="Manufacturer reports this as standard for this VIN\'s trim">🔎 AEB standard — this trim</span>'
       : '<span class="sb sb-ok">✅ AEB standard this year</span>';
   }
   if (c.tier === 'verify') return '<span class="sb sb-warn">⚠️ AEB optional — verify VIN</span>';
@@ -61,7 +64,7 @@ function bsmBadge(c) {
   const vin = c.safety?.bsmSource === 'vin';
   if (b === 'standard') {
     return vin
-      ? '<span class="sb sb-ok" title="Confirmed from this car\'s VIN">🔎 Blind-spot confirmed — this VIN</span>'
+      ? '<span class="sb sb-ok" title="Manufacturer reports this as standard for this VIN\'s trim">🔎 Blind-spot standard — this trim</span>'
       : '<span class="sb sb-ok">✅ Blind-spot standard</span>';
   }
   if (b === 'trim') return '<span class="sb sb-warn">⚠️ Blind-spot — verify trim</span>';
@@ -71,17 +74,73 @@ function bsmBadge(c) {
 /** Extras NHTSA confirms for this specific VIN — shown only when present. */
 function vinExtras(c) {
   const v = c.vinSafety;
-  if (!v) return '';
-  const bits = [];
-  if (v.trim) bits.push(`Trim <b>${esc(v.trim)}</b>`);
-  const std = [];
-  if (v.lka === 'standard') std.push('lane-keep');
-  if (v.acc === 'standard') std.push('adaptive cruise');
-  if (v.rcta === 'standard') std.push('rear cross-traffic alert');
-  if (v.fcw === 'standard') std.push('forward-collision warning');
-  if (std.length) bits.push(`also standard: ${std.join(', ')}`);
-  if (!bits.length) return '';
-  return `<p class="fineprint">🔎 <b>From this VIN</b> — ${bits.join(' · ')}.</p>`;
+  const out = [];
+  // Powertrain provenance first — range and running costs all hang off it, and
+  // getting it from the model name instead of the VIN is what produced a 1.6 L
+  // Ioniq Hybrid advertised as a 170-mile battery EV.
+  if (c.powerEvidence) {
+    const icon = c.powerSource === 'model-default' ? '⚠️' : '⚡';
+    out.push(`<p class="fineprint">${icon} <b>Powertrain</b> — ${esc(c.powerEvidence)}</p>`);
+  }
+  if (v) {
+    const bits = [];
+    if (v.trim) bits.push(`Trim <b>${esc(v.trim)}</b>`);
+    const std = [];
+    if (v.lka === 'standard') std.push('lane-keep');
+    if (v.acc === 'standard') std.push('adaptive cruise');
+    if (v.rcta === 'standard') std.push('rear cross-traffic alert');
+    if (v.fcw === 'standard') std.push('forward-collision warning');
+    if (std.length) bits.push(`also standard: ${std.join(', ')}`);
+    if (bits.length) out.push(`<p class="fineprint">🔎 <b>From this VIN</b> — ${bits.join(' · ')}.</p>`);
+  }
+  return out.join('');
+}
+
+const REL_LABEL = {
+  clean: ['🟢', 'Clean record'],
+  ok: ['🟢', 'No red flags'],
+  watch: ['🟡', 'Worth asking about'],
+  concern: ['🔴', 'Known problem pattern'],
+  unknown: ['⚪', 'Not enough data'],
+};
+
+/**
+ * Reliability panel — evidence and its source, never a bare score.
+ *
+ * Two things are kept deliberately separate, per the brief: what's known about
+ * the MODEL YEAR (NHTSA complaints/recalls) and what's true of THIS CAR (battery
+ * warranty remaining, pack age/mileage). A good model with an out-of-warranty
+ * pack is not the same risk as a good model with five years of coverage left.
+ */
+function reliabilityBlock(c) {
+  const r = c.reliability;
+  const w = c.batteryWarranty;
+  if (!r && !w) return '';
+  const parts = [];
+
+  if (r) {
+    const [icon, label] = REL_LABEL[r.band] || REL_LABEL.unknown;
+    const conf = r.confidence === 'high' ? 'strong evidence'
+      : r.confidence === 'medium' ? 'moderate evidence' : 'thin evidence';
+    parts.push(`
+      <div class="rel-head">${icon} <b>${label}</b> <span class="rel-conf">${conf}</span></div>
+      <ul class="rel-list">${r.reasons.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
+      <div class="rel-stats">${r.complaints} complaint${r.complaints === 1 ? '' : 's'} · ${r.recalls} recall campaign${r.recalls === 1 ? '' : 's'}${r.topComponents?.length ? ` · most cited: ${esc(r.topComponents[0].component.toLowerCase())}` : ''}</div>`);
+  }
+
+  if (w) {
+    parts.push(`<div class="rel-batt">${w.covered ? '🔋' : '⚠️'} <b>Battery warranty</b> — ${esc(w.note)}</div>`);
+  }
+
+  if (r) {
+    parts.push(`<p class="rel-caveat">${esc(r.caveat)} <a href="${esc(r.source)}" target="_blank" rel="noopener">Check the NHTSA record ↗</a></p>`);
+  }
+
+  return `
+    <details class="rel">
+      <summary>🔧 Reliability &amp; battery <span class="tco-mo">what the public record says</span></summary>
+      <div class="rel-body">${parts.join('')}</div>
+    </details>`;
 }
 
 const tcoOf = (c) => (HORIZON === 2 ? c.tco2 : c.tco6);
@@ -116,8 +175,10 @@ function carCard(c) {
   const note = COMMENTS[c.vin] || '';
   const chips = [safetyBadge(c), bsmBadge(c)];
   if (/Top Safety Pick/.test(c.safety?.iihs || '')) chips.push('<span class="sb sb-ok">🏆 IIHS Top Safety Pick</span>');
+  else if (c.safety?.iihsNotRated) chips.push('<span class="sb" title="IIHS did not separately test this powertrain">🏆 IIHS — not this variant</span>');
   chips.push(`<span class="sb">${POWER_LABEL[c.power] || esc(c.power)}</span>`);
   if (c.evRange) chips.push(`<span class="sb">${c.evRange} mi electric</span>`);
+  if (c.powerSource === 'model-default') chips.push('<span class="sb sb-warn">⚠️ Powertrain unverified</span>');
   if (c.cert === 'Certified') chips.push('<span class="sb sb-ok">Certified</span>');
 
   return `
@@ -140,8 +201,10 @@ function carCard(c) {
       <div class="chips">${chips.join('')}</div>
       ${c.note ? `<p class="standout-note">⭐ ${esc(c.note)}</p>` : ''}
       ${tcoBlock(c)}
+      ${reliabilityBlock(c)}
       ${vinExtras(c)}
       ${c.safety?.note ? `<p class="fineprint">🛡️ ${esc(c.safety.note)}</p>` : ''}
+      ${c.safety?.iihsNotRated ? `<p class="fineprint">🏆 ${esc(c.safety.iihsNotRated)}</p>` : ''}
       ${c.batteryNote ? `<p class="fineprint">🔋 ${esc(c.batteryNote)}</p>` : ''}
       <div class="actions">
         <button class="vote up${vote === 'up' ? ' on' : ''}" data-v="up" type="button" aria-label="Thumbs up">👍</button>
