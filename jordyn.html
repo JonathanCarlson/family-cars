@@ -271,6 +271,14 @@
 .opp:first-of-type { border-top: 0; }
 .opp-h { font-size: 14px; font-weight: 600; }
 .opp-s { font-size: 12px; color: var(--muted); margin: 2px 0 4px; }
+/* Deliberately quiet next to "Send my picks" — clearing is destructive and
+   should never be the easy mis-tap. */
+.clear-btn {
+  background: transparent; color: var(--muted); border: 1px solid #2c3550;
+  border-radius: 999px; padding: 8px 14px; font-size: 13px; cursor: pointer;
+  margin-left: auto; white-space: nowrap;
+}
+.clear-btn:hover { color: #ffb3b3; border-color: #7a2f2f; }
 
     /* ---- TCO disclosure ---- */
     .tco { margin-top: 10px; background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; }
@@ -341,8 +349,7 @@
     /* ---- Sticky send bar ---- */
     .sendbar {
       position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-      display: flex; align-items: center; gap: 12px;
-      padding: 10px 16px calc(10px + var(--safe-bottom));
+      display: flex; align-items: center; gap: 12px;      padding: 10px 16px calc(10px + var(--safe-bottom));
       background: rgba(15,21,42,.96); border-top: 1px solid var(--border);
       backdrop-filter: blur(12px);
     }
@@ -427,6 +434,7 @@
 
   <div id="sendbar" class="sendbar" hidden>
     <div class="tally" id="tally"></div>
+    <button id="clear-btn" class="clear-btn" type="button" hidden>Clear</button>
     <button id="send-btn" disabled>Send my picks</button>
   </div>
 
@@ -436,6 +444,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=3"></script>
-  <script src="jordyn.js?v=16"></script>
+  <script src="jordyn.js?v=18"></script>
 </body>
 </html>

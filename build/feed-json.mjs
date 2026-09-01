@@ -333,7 +333,7 @@ export function rosterFeed(data, allCars = null) {
   return {
     feed: {
       name: 'jordyn-first-car',
-      schemaVersion: '1.3',
+      schemaVersion: '1.4',
       generatedAt: new Date().toISOString(),
       rosterUpdated: data.updated || null,
       listingCount: cars.length,
@@ -356,6 +356,7 @@ export function rosterFeed(data, allCars = null) {
         'listings[] holds full detail for the shortlisted cars. Every car the sweep found is in the companion file jordyn-all.json (see allCars.url) — use it for market-wide questions.',
         'marketAnalysis is where the population-level answers live: cohorts (model + generation + powertrain + battery, NOT model name), a safety-gated primary ranking, opportunities found from the data, and the methodology needed to challenge any of it.',
         'Safety is a GATE, not a weight. marketAnalysis.safetyFirst excludes a car only when AEB is CONFIRMED ABSENT — never when it is merely unverified.',
+        'jordynPicks is what SHE chose, scored with the same model as everything else. It is never a filter on the rankings. Read entries[].delta against jordynPicks.baseline, and weight `stated` picks above `thumbed` ones.',
         'All money is US dollars, whole units. All distances are miles.',
       ],
       canonicalPage: 'https://jonathancarlson.github.io/family-cars/jordyn.html',
@@ -403,6 +404,39 @@ export function rosterFeed(data, allCars = null) {
           .map(brief),
       },
     },
+
+    // Her own picks, with every car measured against the same baseline. Kept out
+    // of `shortlists` deliberately: these are taste, not ranking, and merging the
+    // two would let a preference quietly become a recommendation. The deltas are
+    // the useful part — absolute six-year totals move with the insurance
+    // estimate, but the gap between two cars largely survives it.
+    jordynPicks: data.picks
+      ? {
+        note: data.picks.disclaimer,
+        tiers: data.picks.tiers,
+        tasteProfile: data.picks.taste ?? null,
+        baseline: data.picks.baseline
+          ? {
+            vin: data.picks.baseline.vin,
+            name: data.picks.baseline.name,
+            priceUsd: data.picks.baseline.priceUsd,
+            sixYearTco: data.picks.baseline.sixYearTco,
+            why: data.picks.baseline.why,
+          }
+          : null,
+        deltaNote: 'sixYearDelta is this car MINUS the baseline, so positive = dearer to own. safetyDelta counts confirmed safety equipment relative to the baseline; a negative value with a non-empty safetyUnverified means the gap may be missing data rather than a missing feature.',
+        entries: data.picks.entries.map((e) => ({
+          tier: e.tier,
+          tierWeight: e.weight,
+          name: [e.year, e.make, e.model, e.trim].filter(Boolean).join(' '),
+          askedPriceUsd: e.askedPrice ?? null,
+          vin: e.vin,
+          matchQuality: e.match,
+          delta: e.delta ?? null,
+        })),
+        comparison: data.picks.comparison ?? null,
+      }
+      : null,
 
     reliabilityByModelYear,
     repairHazardCatalog: hazardCatalog(cars),

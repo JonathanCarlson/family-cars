@@ -730,6 +730,43 @@ function renderPicks() {
   const byVin = new Map((DATA.cars || []).map((c) => [c.vin, c]));
   const parts = [];
 
+  // --- the reference car everything is measured against -------------------
+  const base = p.baseline;
+  if (base) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">📏 The yardstick: ${esc(base.name)}</h2>
+      <p class="ins-verdict"><b>${money(base.sixYearTco)}</b> over six years · ${money(base.perMonth)}/month · ${money(base.priceUsd)} to buy · ${milesFmt(base.odometerMiles)}</p>
+      <p class="tco-note">${esc(base.why)} Everything below is priced as a difference from this car, because
+      “${money(base.sixYearTco)}” on its own doesn’t help anyone decide — “${money(3000)} more than the Leaf” does.</p>
+      <p class="tco-note">⚠️ Teen insurance is still an estimate rather than a real quote, and it is the largest single line.
+      That makes these <b>differences</b> more trustworthy than the totals — insurance is roughly common across cars, so it
+      largely cancels out of a comparison.</p>
+    </div>`);
+  }
+
+  // --- what stepping up actually costs ------------------------------------
+  if (p.ladder?.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">🪜 What more money actually buys</h2>
+      <p class="ins-verdict">Three options at each step up from the baseline, ranked by how close they are to what Jordyn
+      picked. Every one has automatic braking confirmed standard and a clean title — the step up buys taste, not safety.</p>
+    </div>`);
+    for (const band of p.ladder) {
+      const cars = band.cars.map((b) => byVin.get(b.vin)).filter(Boolean);
+      if (!cars.length) continue;
+      parts.push(`<div class="card">
+        <h2 class="ins-h">${esc(band.label)} <span class="tier-n">${band.candidateCount} to choose from</span></h2>
+        <p class="tier-blurb">${esc(band.blurb)}</p>
+        ${band.cars.map((b) => `<div class="opp">
+          <div class="opp-h">${esc(b.name)}</div>
+          <div class="opp-s">${money(b.priceUsd)} · ${milesFmt(b.odometerMiles)} · ${esc(POWER_LABEL[b.powertrain] || b.powertrain)}</div>
+          <div class="opp-s"><b>${esc(b.delta?.costVerdict || '')}</b> · ${esc(b.delta?.safetyVerdict || '')}</div>
+          ${(b.delta?.safetyNotes || []).length ? `<ul class="rel-list">${b.delta.safetyNotes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : ''}
+        </div>`).join('')}
+      </div>${cars.map(carCard).join('')}`);
+    }
+  }
+
   const cmp = p.comparison;
   if (cmp?.headline) {
     const h = cmp.hers; const a = cmp.algorithm; const d = cmp.deltas;
@@ -779,27 +816,46 @@ function renderPicks() {
     }
   }
 
-  // Her individual picks.
+  // Her individual picks, grouped by how strong a signal each group is.
   const entries = p.entries || [];
-  const cards = entries.map((e) => {
-    const c = e.vin ? byVin.get(e.vin) : null;
-    const title = `${e.year} ${e.make} ${e.model}${e.trim ? ` ${e.trim}` : ''}`;
-    if (!c) {
-      return `<div class="card"><div class="brow-t">${esc(title)}</div>
-        <p class="fineprint">Nothing like this is in the current search — it may have sold, or it sits outside the price, year or mileage limits.</p></div>`;
-    }
-    const matchNote = e.match === 'exact-listing'
-      ? 'This is the exact car she sent.'
-      : e.match === 'same-model-year'
-        ? 'Her exact listing is no longer in the sweep; this is the closest same-year example currently for sale.'
-        : 'Her exact listing is gone; this is the closest equivalent currently for sale.';
-    return `<div class="pick-wrap">
-      <p class="fineprint">📌 <b>${esc(title)}</b> — ${esc(matchNote)}</p>
-      ${carCard(c)}
-    </div>`;
+  const tiers = p.tiers || {};
+  const order = ['stated', 'thumbed'];
+  const groups = order.filter((t) => entries.some((e) => (e.tier || 'stated') === t));
+  const cards = groups.map((tierId) => {
+    const meta = tiers[tierId] || {};
+    const rows = entries.filter((e) => (e.tier || 'stated') === tierId).map((e) => {
+      const c = e.vin ? byVin.get(e.vin) : null;
+      const title = `${e.year} ${e.make} ${e.model}${e.trim ? ` ${e.trim}` : ''}`;
+      if (!c) {
+        return `<div class="card"><div class="brow-t">${esc(title)}</div>
+          <p class="fineprint">Nothing like this is in the current search — it may have sold, or it sits outside the price, year or mileage limits.</p></div>`;
+      }
+      const matchNote = e.match === 'exact-listing'
+        ? 'This is the exact car she sent.'
+        : e.match === 'same-model-year'
+          ? 'Her exact listing is no longer in the sweep; this is the closest same-year example currently for sale.'
+          : 'Her exact listing is gone; this is the closest equivalent currently for sale.';
+      // The delta is the point of this page: what does wanting THIS one cost,
+      // against the yardstick, in money and in safety.
+      const d = e.delta;
+      const deltaLine = d ? `<p class="fineprint ${d.sixYearDelta > 3000 ? 'fineprint-bad' : ''}">
+          📊 <b>vs the ${esc(p.baseline?.name || 'baseline')}:</b> ${esc(d.costVerdict)} · ${esc(d.safetyVerdict)}
+          ${(d.safetyNotes || []).length ? `<br>${d.safetyNotes.map(esc).join(' ')}` : ''}
+          ${(d.safetyUnverified || []).length ? `<br><i>Unverified on this car: ${d.safetyUnverified.map(esc).join(', ')} — worth checking, not a failure.</i>` : ''}
+        </p>` : '';
+      return `<div class="pick-wrap">
+        <p class="fineprint">📌 <b>${esc(title)}</b> — ${esc(matchNote)}</p>
+        ${deltaLine}
+        ${carCard(c)}
+      </div>`;
+    }).join('');
+    return `<div class="card">
+        <h2 class="ins-h">${esc(meta.label || tierId)} <span class="tier-n">${entries.filter((e) => (e.tier || 'stated') === tierId).length}</span></h2>
+        <p class="tier-blurb">${esc(meta.note || '')}</p>
+        ${meta.weight != null ? `<p class="tco-note">Counted at <b>${meta.weight}×</b> weight when working out what to recommend.</p>` : ''}
+      </div>${rows}`;
   }).join('');
-  parts.push(`<div class="card"><h2 class="ins-h">Her nine picks, costed</h2>
-    <p class="tier-blurb">Each resolved against live inventory and run through the same model as everything else.</p></div>${cards}`);
+  parts.push(cards);
 
   // The overlap: premium badges that are also cheap to run.
   const lux = DATA.luxuryEvs;
@@ -929,8 +985,45 @@ function renderTally() {
   const down = Object.values(VOTES).filter((v) => v === 'down').length;
   const notes = Object.keys(COMMENTS).length;
   $('#tally').textContent = `${up} 👍  ${down} 👎  ${notes} 📝`;
-  $('#send-btn').disabled = up + down + notes === 0;
+  const empty = up + down + notes === 0;
+  $('#send-btn').disabled = empty;
+  // Nothing to clear when nothing is marked — and once something is, there has
+  // to be a way out. Picks used to live in localStorage forever with no control
+  // to reset them, so a second round of voting started on top of the first.
+  $('#clear-btn').hidden = empty && HIDDEN.size === 0;
   $('#sendbar').hidden = false;
+}
+
+/**
+ * Wipe this device's marks.
+ *
+ * Deliberately confirms first — someone who has worked through 500 cars should
+ * not lose it to a stray tap — and clears hidden cars too, because "start again"
+ * that leaves a third of the list invisible isn't starting again.
+ */
+function clearPicks() {
+  const up = Object.values(VOTES).filter((v) => v === 'up').length;
+  const down = Object.values(VOTES).filter((v) => v === 'down').length;
+  const notes = Object.keys(COMMENTS).length;
+  const bits = [];
+  if (up) bits.push(`${up} 👍`);
+  if (down) bits.push(`${down} 👎`);
+  if (notes) bits.push(`${notes} note${notes === 1 ? '' : 's'}`);
+  if (HIDDEN.size) bits.push(`${HIDDEN.size} hidden`);
+  if (!bits.length) return;
+  if (!window.confirm(`Clear ${bits.join(', ')} from this phone?\n\nThis only affects this device — anything already sent stays sent.`)) return;
+
+  for (const k of Object.keys(VOTES)) delete VOTES[k];
+  for (const k of Object.keys(COMMENTS)) delete COMMENTS[k];
+  HIDDEN.clear();
+  APP.saveVotes();
+  APP.saveComments();
+  saveHidden();
+  renderControls();
+  renderList();
+  renderPicks();
+  renderTally();
+  toast('Cleared — start fresh');
 }
 
 // ---------- tabs ----------
@@ -1004,6 +1097,7 @@ function wireDelegates() {
       return;
     }
     if (e.target.closest('#send-btn')) sendPicks();
+    if (e.target.closest('#clear-btn')) clearPicks();
   });
 
   document.addEventListener('change', (e) => {
@@ -1040,9 +1134,33 @@ function sendPicks() {
   const downs = Object.entries(VOTES).filter(([, v]) => v === 'down').map(([vin]) => line(vin, '👎')).filter(Boolean);
   const orphan = Object.keys(COMMENTS).filter((vin) => !VOTES[vin]).map((vin) => line(vin, '📝')).filter(Boolean);
   const text = ["Jordyn's car picks:", '', ...ups, ...(downs.length ? ['', ...downs] : []), ...(orphan.length ? ['', ...orphan] : [])].join('\n');
-  if (navigator.share) navigator.share({ text }).catch(() => { /* cancelled */ });
+  if (navigator.share) navigator.share({ text }).then(offerClear).catch(() => { /* cancelled */ });
   else navigator.clipboard?.writeText(text).then(() => {
     $('#send-btn').textContent = 'Copied ✓';
     setTimeout(() => { $('#send-btn').textContent = 'Send my picks'; }, 1800);
+    offerClear();
   });
+}
+
+/**
+ * Offer to reset after a successful send.
+ *
+ * The moment right after sending is the only one where clearing is obviously
+ * safe, and it is exactly when people put the phone down and forget. Without it
+ * the next round of voting starts on top of the last one and the two get sent
+ * together.
+ */
+function offerClear() {
+  setTimeout(() => {
+    if (!Object.keys(VOTES).length && !Object.keys(COMMENTS).length) return;
+    if (!window.confirm('Picks sent. Clear them from this phone so the next round starts fresh?')) return;
+    for (const k of Object.keys(VOTES)) delete VOTES[k];
+    for (const k of Object.keys(COMMENTS)) delete COMMENTS[k];
+    APP.saveVotes();
+    APP.saveComments();
+    renderList();
+    renderPicks();
+    renderTally();
+    toast('Cleared — ready for the next round');
+  }, 700);
 }
