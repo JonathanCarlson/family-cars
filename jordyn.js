@@ -564,7 +564,7 @@ function renderFamily() {
   el.innerHTML = parts.join('');
 }
 
-
+function renderIntro() {
   const s = DATA.stats || {};
   const a = DATA.assumptions || {};
   // The header subtitle was hardcoded to "under $15k", which stopped being true
