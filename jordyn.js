@@ -427,6 +427,7 @@ function render() {
   renderIntro();
   renderControls();
   renderList();
+  renderFamily();
   renderInsights();
   renderPicks();
   renderGuide();
@@ -434,7 +435,136 @@ function render() {
   wireDelegates();
 }
 
-function renderIntro() {
+function renderFamily() {
+  const f = DATA.family;
+  const el = $('#family-body');
+  if (!el) return;
+  if (!f) { el.innerHTML = '<div class="card"><p class="tco-note">Family comparison not available in this build.</p></div>'; return; }
+
+  const h = f.highlander;
+  const ref = f.referencePlan;
+  const parts = [];
+
+  parts.push(`<div class="card">
+    <h2 class="ins-h">👨‍👩‍👧 One car, two drivers</h2>
+    <p class="ins-verdict">${esc(f.what)}</p>
+    <p class="tco-note"><b>Why the answer isn't obvious:</b> ${esc(f.whyItMatters)}</p>
+  </div>`);
+
+  // The crossover IS the answer, so it goes first.
+  const x = f.crossover;
+  if (x?.cars?.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">🎯 The sweet spot <span class="tier-n">${x.count} car${x.count === 1 ? '' : 's'}</span></h2>
+      <p class="ins-verdict">${esc(x.what)}</p>
+      <p class="tco-note">Cost alone would tell you to buy a $5,000 smart fortwo. Nobody is swapping a Highlander for
+      that, so it is filtered out here: a car only appears if Kate would genuinely rather drive it.</p>
+      ${x.cars.map((c) => `<div class="opp">
+        <div class="opp-h">${esc(c.name)} <span class="tier-n">${esc(c.upgrade.verdict.replace('-', ' '))}</span></div>
+        <div class="opp-s">${money(c.priceUsd)} · ${milesFmt(c.odometerMiles)} · ${esc(POWER_LABEL[c.powertrain] || c.powertrain)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''}</div>
+        <div class="tscroll"><table class="assump-tbl band-tbl">
+          <tr><th>If this car goes to…</th><th>This car alone</th><th>Both cars together</th></tr>
+          <tr><td>👩 Kate <span class="why">(Jordyn takes the Highlander)</span></td>
+              <td>${money(c.thisCarOnlyIfKate)}</td><td><b>${money(c.familyTotalIfKate)}</b></td></tr>
+          <tr><td>👧 Jordyn <span class="why">(Kate keeps the Highlander)</span></td>
+              <td>${money(c.thisCarOnlyIfJordyn)}</td><td><b>${money(c.familyTotalIfJordyn)}</b></td></tr>
+        </table></div>
+        <div class="opp-s">${c.vsReferencePlan > 0 ? `<b>${money(c.vsReferencePlan)} less</b> than buying the reference car for Jordyn` : `${money(Math.abs(c.vsReferencePlan))} more than the plan to beat`}</div>
+        <ul class="rel-list">
+          ${c.upgrade.gains.map((g) => `<li>✅ <b>${esc(g.dim)}</b> — ${esc(g.detail)}</li>`).join('')}
+          ${c.upgrade.losses.map((l) => `<li>⚠️ <b>${esc(l.dim)}</b> — ${esc(l.detail)}</li>`).join('')}
+        </ul>
+      </div>`).join('')}
+    </div>`);
+  } else {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">🎯 The sweet spot</h2>
+      <p class="ins-verdict">No car currently clears both tests at once — a genuine upgrade on the Highlander for Kate
+      <i>and</i> cheaper for the household than buying the reference car for Jordyn.</p>
+      <p class="tco-note">That is a real answer, not a gap: it means the Highlander is doing its job well enough that
+      swapping it does not pay yet. The table below shows how close the near misses are.</p>
+    </div>`);
+  }
+
+  parts.push(`<div class="card">
+    <h2 class="ins-h">📏 The plan to beat</h2>
+    <p class="ins-verdict"><b>${esc(ref.car)}</b> → Jordyn, Kate keeps the Highlander · household <b>${money(ref.familyTotal)}</b></p>
+    <p class="tco-note">${esc(ref.note)}</p>
+    <p class="fineprint">Cash cap ${money(f.cashCapUsd)} — ${esc(f.cashCapNote)}</p>
+  </div>`);
+
+  parts.push(`<div class="card">
+    <h2 class="ins-h">🚙 The bar it has to clear</h2>
+    <p class="ins-verdict"><b>${esc(h.label)}</b> · ${esc(String(h.mpg))} mpg · ${milesFmt(h.odometerMiles)} (est.)</p>
+    <p class="tco-note">${esc(h.note)}</p>
+    <ul class="rel-list">
+      <li>Automatic braking, blind-spot, forward-collision, lane-keep and rear-cross-traffic all <b>confirmed standard</b> against this VIN.</li>
+      <li>${esc(h.curbWeightLb.toLocaleString('en-US'))} lb, 3 rows, ${esc(String(h.seats))} seats, AWD — mass is protective, and IIHS is consistent that heavier is safer for a teen.</li>
+      <li>${esc(h.mpgBasis)}</li>
+    </ul>
+    <p class="fineprint fineprint-bad">⚠️ ${esc(h.odometerBasis)} ${esc(h.valueBasis)}</p>
+  </div>`);
+
+  // Which Highlander costs actually move with the driver. The intuition is only
+  // half right, so it is worth showing rather than asserting.
+  const split = (f.ranked || []).find((r) => r.highlanderSplit)?.highlanderSplit;
+  if (split?.length) {
+    const LABEL = {
+      energy: 'Fuel', maintenance: 'Maintenance', insurance: 'Insurance',
+      majorRepairReserve: 'Major repairs', registration: 'Tabs + fees',
+      resaleValueRecovered: 'Resale recovered', salesTax: 'Sales tax', purchase: 'Purchase (owned)',
+    };
+    parts.push(`<div class="card">
+      <h2 class="ins-h">🔀 What changes on the Highlander</h2>
+      <p class="tier-blurb">The Highlander is on both sides of every comparison, but it does not cost the same
+      on each. Tabs are genuinely fixed. Fuel, maintenance and repairs scale with miles — and <b>insurance is the
+      biggest swing of all</b>, because a teen rated on it costs far more than an adult. Resale moves too: whoever
+      drives it puts twice the miles on the clock.</p>
+      <div class="tscroll"><table class="assump-tbl band-tbl">
+        <tr><th>Line</th><th>Kate drives it</th><th>Jordyn drives it</th><th>Swing</th></tr>
+        ${split.map((s) => `<tr>
+          <td>${esc(LABEL[s.line] || s.line)}</td>
+          <td>${money(s.highlanderWithKate)}</td>
+          <td>${money(s.highlanderWithJordyn)}</td>
+          <td>${s.fixed ? '<span class="why">fixed</span>' : `${money(Math.abs(s.delta))}`}</td>
+        </tr>`).join('')}
+      </table></div><p class="tscroll-hint">← swipe the table sideways for the rest →</p>
+    </div>`);
+  }
+
+  const rows = (f.ranked || []).filter((r) => r.priceUsd <= f.cashCapUsd).slice(0, 16);
+  if (rows.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">📊 Everything under ${money(f.cashCapUsd)}, both ways round</h2>
+      <p class="tier-blurb">"Upgrade?" is judged against Kate's Highlander. "vs plan" is the household total with the car
+      given to Kate, against buying the reference car for Jordyn.</p>
+      <div class="tscroll"><table class="assump-tbl band-tbl">
+        <tr><th>Car</th><th>Price</th><th>Upgrade?</th><th>Give it to</th><th>vs plan</th></tr>
+        ${rows.map((r) => {
+    const better = (r.vsReferencePlan ?? 0) > 0;
+    const v = r.upgrade?.verdict ?? '?';
+    const icon = v === 'clear-upgrade' ? '✅' : v === 'trade-off' ? '🟡' : v === 'sidegrade' ? '➖' : '❌';
+    return `<tr>
+          <td>${esc(r.name)}</td>
+          <td>${money(r.priceUsd)}</td>
+          <td>${icon} ${esc(v.replace('-', ' '))}</td>
+          <td>${r.bestAssignment === 'kate' ? '👩 Kate' : '👧 Jordyn'}</td>
+          <td class="${better ? 'dlt-good' : 'dlt-bad'}">${better ? '−' : '+'}${money(Math.abs(r.vsReferencePlan ?? 0))}</td>
+        </tr>`;
+  }).join('')}
+      </table></div><p class="tscroll-hint">← swipe the table sideways for the rest →</p>
+    </div>`);
+  }
+
+  parts.push(`<div class="card">
+    <h2 class="ins-h">⚠️ What would change this</h2>
+    <p class="tco-note">${esc(f.caveat)}</p>
+  </div>`);
+
+  el.innerHTML = parts.join('');
+}
+
+
   const s = DATA.stats || {};
   const a = DATA.assumptions || {};
   // The header subtitle was hardcoded to "under $15k", which stopped being true
