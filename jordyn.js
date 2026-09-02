@@ -486,12 +486,49 @@ function renderFamily() {
     </div>`);
   }
 
+  // What she actually asked about, answered directly — even when it's over cap.
+  const si = f.statedInterests || [];
+  if (si.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">⭐ The two Kate asked about</h2>
+      <p class="tier-blurb">Shown whatever they cost, because "why isn't the car I asked about here?" deserves an
+      answer rather than silence.</p>
+      ${si.map((s) => {
+    if (!s.best) return `<div class="opp"><div class="opp-h">${esc(s.label)}</div><div class="opp-s">${esc(s.verdict)}</div></div>`;
+    const b = s.best;
+    return `<div class="opp">
+        <div class="opp-h">${esc(b.name)} ${s.overCashCap ? '<span class="tier-n">over cash cap</span>' : '<span class="tier-n">in budget</span>'}</div>
+        <div class="opp-s">${money(b.priceUsd)} · ${milesFmt(b.odometerMiles)}${b.evRangeMi ? ` · ${b.evRangeMi} mi range` : ''} · ${s.found} found</div>
+        <div class="opp-s"><b>Household ${money(b.familyTotalIfKate)}</b> if Kate drives it${b.vsReferencePlan > 0 ? ` — ${money(b.vsReferencePlan)} less than the plan to beat` : ''}</div>
+        <div class="opp-s">${esc(s.verdict)}</div>
+      </div>`;
+  }).join('')}
+    </div>`);
+  }
+
   parts.push(`<div class="card">
     <h2 class="ins-h">📏 The plan to beat</h2>
     <p class="ins-verdict"><b>${esc(ref.car)}</b> → Jordyn, Kate keeps the Highlander · household <b>${money(ref.familyTotal)}</b></p>
     <p class="tco-note">${esc(ref.note)}</p>
     <p class="fineprint">Cash cap ${money(f.cashCapUsd)} — ${esc(f.cashCapNote)}</p>
   </div>`);
+
+  // Why the household number looks big. Without this the totals read as
+  // implausible, and they should — most of it isn't caused by this decision.
+  const w = (f.ranked || []).find((r) => r.whatTheTotalIs)?.whatTheTotalIs;
+  if (w) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">🧾 Why that number looks big</h2>
+      <p class="tier-blurb">It covers <b>two cars for six years</b>, and most of it is not caused by buying anything.</p>
+      <ul class="rel-list">
+        <li><b>${money(w.teenInsuranceAddition)}</b> — ${esc(w.teenInsuranceNote)}</li>
+        <li><b>${money(w.highlanderShare)}</b> — ${esc(w.highlanderNote)}</li>
+        <li><b>${money(w.capitalNotCash)}</b> — ${esc(w.capitalNote)}</li>
+      </ul>
+      <p class="tco-note">So the figure to compare between plans is the <b>difference</b>, not the total. The
+      total is there so the difference can be checked, not because the household is about to write that cheque.</p>
+    </div>`);
+  }
 
   parts.push(`<div class="card">
     <h2 class="ins-h">🚙 The bar it has to clear</h2>
