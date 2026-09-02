@@ -465,6 +465,7 @@ function kateCostBreakdown(c) {
       <tr class="tco-total"><td>Total</td><td>${money(sum)}</td></tr>
     </table>
     <p class="tco-note">At Kate's ${(DATA.family?.milesPerYear?.kate ?? 13520).toLocaleString('en-US')} mi/yr over six years.
+    ${c.kwhPer100mi ? `Charging assumes <b>${c.kwhPer100mi} kWh/100mi</b>${c.kwhSource === 'epa' ? ' (EPA measured)' : ' <i>(class default — not measured for this model)</i>'}. ` : ''}
     Resale is shown as a negative because it comes back to you — the car is not written down to zero.</p>
     <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">Full safety, reliability and repair detail ↓</a></p>
   </details>`;
