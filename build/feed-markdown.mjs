@@ -113,9 +113,27 @@ function assumptionsSection(a) {
   const L = ['## Cost assumptions', ''];
   L.push(`- Driving: ${a.milesPerWeek} mi/week (${num(a.milesPerYear)} mi/year)`);
   L.push(`- Horizon: ${a.jordynYears} years for Jordyn, ${a.emmaYears} years if Emma inherits it`);
-  L.push(`- Gasoline: $${a.gasPerGallon.toFixed(2)}/gal (Bellevue, WA)`);
-  L.push(`- Electricity: $${a.electricityPerKwh.toFixed(2)}/kWh`);
-  L.push(`- WA EV road-use fee: $${a.waEvFeePerYear}/yr (BEV), $${a.waPhevFeePerYear}/yr (PHEV)`);
+  L.push(`- Gasoline: $${a.gasPerGallon.toFixed(2)}/gal (Bellevue, WA)${a.premiumPerGallon ? `, premium $${a.premiumPerGallon.toFixed(2)}/gal where the engine requires it` : ''}`);
+  // Averaged over the hold, not a single flat rate: PSE prices are rising fast
+  // enough that Jordyn's two years and the six-year through-Emma case are
+  // genuinely different numbers.
+  if (a.electricityRateByYear) {
+    const yrs = Object.keys(a.electricityRateByYear).map(Number).sort((x, y) => x - y);
+    const mean = (n) => yrs.slice(0, n).reduce((s, y) => s + a.electricityRateByYear[y], 0) / n;
+    L.push(`- Electricity: $${mean(a.jordynYears).toFixed(3)}/kWh over ${a.jordynYears} yr, $${mean(a.emmaYears).toFixed(3)}/kWh over ${a.emmaYears} yr`);
+    L.push(`  (PSE Schedule 7 **Tier-2 marginal** rate — the cost of the next kWh, excluding the fixed $7.49/mo basic charge, which is paid whether or not you own an EV. Rising from $${a.electricityRateByYear[yrs[0]]}/kWh in ${yrs[0]}.)`);
+  } else if (a.electricityPerKwh) {
+    L.push(`- Electricity: $${a.electricityPerKwh.toFixed(2)}/kWh`);
+  }
+  // These read waEvFeePerYear/waPhevFeePerYear for months — key names the model
+  // does not define — so the markdown feed rendered a literal "undefined/yr".
+  // Registration is not a flat fee in Bellevue anyway; it is mostly value-based.
+  if (a.waEvSurchargePerYear) {
+    L.push(`- WA EV surcharge: $${a.waEvSurchargePerYear}/yr for plug-ins with ${a.waEvSurchargeMinRangeMi}+ mi of electric range (shorter-range plug-ins owe nothing)`);
+  }
+  if (a.rtaMvetRate) {
+    L.push(`- WA tabs: ${(a.rtaMvetRate * 100).toFixed(1)}% Sound Transit RTA excise on 85% of ORIGINAL MSRP (not the price paid), depreciated by the 1990 statutory schedule, plus base/weight fees`);
+  }
   L.push(`- Sales tax: ${(a.salesTaxRate * 100).toFixed(1)}%`);
   L.push(`- Teen insurance: $${num(a.insuranceTeenBase)}/yr + ${(a.insuranceValueRate * 100).toFixed(1)}% of vehicle value`);
   const m = a.maintPerMile || {};

@@ -474,7 +474,22 @@ export function rosterFeed(data, allCars = null) {
       gasolinePriceBasis: 'Bellevue, WA pump prices',
       premiumGasolineUsdPerGallon: a.premiumPerGallon ?? null,
       premiumGasolineNote: 'Charged only to engines that specify premium (mainly the German and British cars). Roughly 12% over regular on the Eastside.',
-      electricityUsdPerKwh: a.electricityPerKwh ?? null,
+      electricityUsdPerKwh: a.electricityRateByYear
+        ? Object.values(a.electricityRateByYear).reduce((s, v) => s + v, 0) / Object.values(a.electricityRateByYear).length
+        : (a.electricityPerKwh ?? null),
+      electricity: {
+        note: 'PSE Schedule 7 is TIERED at 600 kWh/month. This is the Tier-2 MARGINAL all-in rate — the cost of the next kWh — NOT the blended average. A Level 2 charger adds roughly 250-350 kWh/month, which pushes essentially any household into Tier 2. The fixed $7.49/month basic charge is deliberately EXCLUDED: it is paid whether or not the family owns an EV, so charging it to the car would overstate every electric option.',
+        ratePerKwhByYear: a.electricityRateByYear ?? null,
+        anchor: 'Verified $0.206882/kWh Tier-2 all-in, PSE "Summary of Total Current Prices - Electric" effective 2026-05-01. https://www.pse.com/en/pages/rates/schedule-summaries',
+        forwardCurve: 'PSE filed a three-year rate plan on 2026-02-27 (UTC dockets 260005 electric / 260006 gas) requesting Schedule 7 increases of +16.75% (2027), +3.76% (2028), +8.81% (2029), effective early 2027. https://www.pse.com/en/pages/rates/pending-utc-filings/2026-general-rate-case',
+        scenario: 'Midpoint of the as-filed request and a conservative case where the UTC approves roughly two-thirds of it, with 3-4%/yr thereafter. The UTC rarely grants a filing in full, so taking it at face value would overstate; assuming a small approval would understate.',
+        sixYearAverage: a.electricityRateBounds
+          ? { conservative: a.electricityRateBounds.conservative6yr, asFiled: a.electricityRateBounds.asFiled6yr }
+          : null,
+        historicalContext: 'PSE\'s all-in residential rate went from ~$0.102/kWh (Jul 2020) to $0.2017/kWh (May 2026) — a 12.4%/yr CAGR, most of it after Jan 2024. The 3-4%/yr assumed beyond 2029 is well BELOW that, so the risk on these figures is skewed toward being too low.',
+        extrapolationWarning: '2030-2032 is extrapolation. No filed rate case covers those years.',
+        upsideNotModelled: `PSE Schedule 327 super-off-peak (12am-7am) is about $${a.electricitySuperOffPeakPerKwh ?? '0.121'}/kWh all-in and would nearly halve charging cost, but enrolment is capped at 2,500 accounts statewide so it is not the base case.`,
+      },
       // Washington tabs are NOT a flat fee in Bellevue. Two earlier versions of
       // this feed read key names the model does not use (waEvFeePerYear /
       // waPhevFeePerYear) and published `null` for surcharges that ARE being
@@ -557,7 +572,7 @@ export function feedText(feed) {
   L.push(`  driving                 ${a.milesPerWeek} mi/week (${a.milesPerYear} mi/year)`);
   L.push(`  horizons                ${a.horizonYearsJordyn} yr (Jordyn) / ${a.horizonYearsThroughEmma} yr (through Emma)`);
   L.push(`  gasoline                $${a.gasolineUsdPerGallon}/gal (${a.gasolinePriceBasis})`);
-  L.push(`  electricity             $${a.electricityUsdPerKwh}/kWh`);
+  L.push(`  electricity             $${typeof a.electricityUsdPerKwh === 'number' ? a.electricityUsdPerKwh.toFixed(3) : a.electricityUsdPerKwh}/kWh (PSE Sch 7 Tier-2 marginal, 6yr avg)`);
   L.push(`  WA road-use fee         $${a.washingtonEvFeeUsdPerYear}/yr BEV · $${a.washingtonPhevFeeUsdPerYear}/yr PHEV`);
   L.push(`  sales tax               ${(a.salesTaxRate * 100).toFixed(1)}%`);
   L.push(`  teen insurance          $${a.teenInsuranceBaseUsdPerYear}/yr + ${(a.teenInsuranceRateOfVehicleValue * 100).toFixed(1)}% of value`);
