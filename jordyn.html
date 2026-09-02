@@ -167,6 +167,9 @@
     .tier { margin: 22px 0 8px; }
     .tier-h { font-size: 15px; margin: 0 0 2px; display: flex; align-items: center; gap: 8px; }
     .tier-n { font-size: 12px; font-weight: 600; color: var(--muted); background: var(--bg2); border: 1px solid var(--border); border-radius: 999px; padding: 1px 8px; }
+    /* Brief highlight when you arrive from a link in the family plan, so the
+       card you asked for is obvious after the scroll. */
+    .car.flash { outline: 3px solid var(--accent, #4a9); outline-offset: 3px; transition: outline-color .5s ease; }
     .tier-blurb { font-size: 12.5px; color: var(--muted); margin: 0 0 12px; line-height: 1.4; }
     .tier-verify .tier-h { color: #f0c674; }
     .tier-no .tier-h { color: #e08b8b; }
@@ -449,6 +452,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=3"></script>
-  <script src="jordyn.js?v=20"></script>
+  <script src="jordyn.js?v=21"></script>
 </body>
 </html>

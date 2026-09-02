@@ -435,6 +435,41 @@ function render() {
   wireDelegates();
 }
 
+/**
+ * Line-by-line cost for ONE car at Kate's mileage, plus a jump to its full card.
+ *
+ * The headline number invites exactly one question — why is this one $32k and
+ * that one $28k? Answering "trust the model" would defeat the purpose, so the
+ * lines are here and the deeper safety/reliability detail is one tap away
+ * rather than duplicated.
+ */
+function kateCostBreakdown(c) {
+  const it = c.kateItems;
+  if (!it) return '';
+  const LABEL = {
+    purchase: 'Purchase price',
+    salesTax: 'Sales tax',
+    energy: 'Fuel / charging',
+    maintenance: 'Maintenance',
+    insurance: 'Insurance',
+    registration: 'Tabs + fees',
+    majorRepairReserve: 'Major repairs (expected)',
+    resaleValueRecovered: 'Resale recovered',
+  };
+  const rows = Object.entries(it).filter(([, v]) => v !== 0);
+  const sum = rows.reduce((s, [, v]) => s + v, 0);
+  return `<details class="tco">
+    <summary><b>${money(c.thisCarOnlyIfKate)}</b> for this car alone, if Kate drives it — see why</summary>
+    <table class="tco-tbl">
+      ${rows.map(([k, v]) => `<tr><td>${esc(LABEL[k] || k)}</td><td>${money(v)}</td></tr>`).join('')}
+      <tr class="tco-total"><td>Total</td><td>${money(sum)}</td></tr>
+    </table>
+    <p class="tco-note">At Kate's ${(DATA.family?.milesPerYear?.kate ?? 13520).toLocaleString('en-US')} mi/yr over six years.
+    Resale is shown as a negative because it comes back to you — the car is not written down to zero.</p>
+    <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">Full safety, reliability and repair detail ↓</a></p>
+  </details>`;
+}
+
 function renderFamily() {
   const f = DATA.family;
   const el = $('#family-body');
@@ -444,6 +479,15 @@ function renderFamily() {
   const h = f.highlander;
   const ref = f.referencePlan;
   const parts = [];
+
+  // The baseline goes FIRST — every number below is relative to it, so reading
+  // them in any other order means holding a comparison against an unknown.
+  parts.push(`<div class="card">
+    <h2 class="ins-h">📏 The plan to beat</h2>
+    <p class="ins-verdict"><b>${esc(ref.car)}</b> → Jordyn, Kate keeps the Highlander · household <b>${money(ref.familyTotal)}</b></p>
+    <p class="tco-note">${esc(ref.note)}</p>
+    <p class="fineprint">Cash cap ${money(f.cashCapUsd)} — ${esc(f.cashCapNote)}</p>
+  </div>`);
 
   parts.push(`<div class="card">
     <h2 class="ins-h">👨‍👩‍👧 One car, two drivers</h2>
@@ -470,6 +514,7 @@ function renderFamily() {
               <td>${money(c.thisCarOnlyIfJordyn)}</td><td><b>${money(c.familyTotalIfJordyn)}</b></td></tr>
         </table></div>
         <div class="opp-s">${c.vsReferencePlan > 0 ? `<b>${money(c.vsReferencePlan)} less</b> than buying the reference car for Jordyn` : `${money(Math.abs(c.vsReferencePlan))} more than the plan to beat`}</div>
+        ${kateCostBreakdown(c)}
         <ul class="rel-list">
           ${c.upgrade.gains.map((g) => `<li>✅ <b>${esc(g.dim)}</b> — ${esc(g.detail)}</li>`).join('')}
           ${c.upgrade.losses.map((l) => `<li>⚠️ <b>${esc(l.dim)}</b> — ${esc(l.detail)}</li>`).join('')}
@@ -501,17 +546,11 @@ function renderFamily() {
         <div class="opp-s">${money(b.priceUsd)} · ${milesFmt(b.odometerMiles)}${b.evRangeMi ? ` · ${b.evRangeMi} mi range` : ''} · ${s.found} found</div>
         <div class="opp-s"><b>Household ${money(b.familyTotalIfKate)}</b> if Kate drives it${b.vsReferencePlan > 0 ? ` — ${money(b.vsReferencePlan)} less than the plan to beat` : ''}</div>
         <div class="opp-s">${esc(s.verdict)}</div>
+        ${kateCostBreakdown(b)}
       </div>`;
   }).join('')}
     </div>`);
   }
-
-  parts.push(`<div class="card">
-    <h2 class="ins-h">📏 The plan to beat</h2>
-    <p class="ins-verdict"><b>${esc(ref.car)}</b> → Jordyn, Kate keeps the Highlander · household <b>${money(ref.familyTotal)}</b></p>
-    <p class="tco-note">${esc(ref.note)}</p>
-    <p class="fineprint">Cash cap ${money(f.cashCapUsd)} — ${esc(f.cashCapNote)}</p>
-  </div>`);
 
   // Why the household number looks big. Without this the totals read as
   // implausible, and they should — most of it isn't caused by this decision.
@@ -1195,14 +1234,58 @@ function clearPicks() {
 
 // ---------- tabs ----------
 function switchTab(name) {
-  $('#panel-cars').hidden = name !== 'cars';
-  $('#panel-picks').hidden = name !== 'picks';
-  $('#panel-insights').hidden = name !== 'insights';
-  $('#panel-guide').hidden = name !== 'guide';
-  document.querySelectorAll('#tabbar .tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === name));
+  // Derived from the tab bar, NOT a hardcoded list. The previous version named
+  // four panels explicitly; adding the family tab therefore left #panel-family
+  // permanently visible, sitting on top of whichever panel you selected. Every
+  // tab looked dead because the content never appeared to change.
+  //
+  // The layout audit missed it because it measured the document after clicking
+  // rather than asserting the right panel became visible — so it now checks
+  // that too.
+  document.querySelectorAll('#tabbar .tab').forEach((b) => {
+    const t = b.dataset.tab;
+    const panel = document.getElementById(`panel-${t}`);
+    if (panel) panel.hidden = t !== name;
+    b.classList.toggle('active', t === name);
+  });
   // The send bar follows the votable views — her picks are votable too.
   $('#sendbar').hidden = !(name === 'cars' || name === 'picks');
   window.scrollTo(0, 0);
+}
+
+/**
+ * Jump from a car in the family plan to its full card.
+ *
+ * The family tab answers "what does this cost the household"; the detail card
+ * answers "why". Rather than duplicate the card, switch to the cars tab and
+ * scroll to it — and fall back to the browse view first, since the shortlist
+ * only renders a curated subset and the car may not be in it.
+ */
+function gotoCar(vin) {
+  const find = () => document.querySelector(`#cars-grid .car[data-vin="${CSS.escape(vin)}"]`);
+  switchTab('cars');
+
+  // Try the current view, then the other one. The family candidates live in the
+  // shortlist and the long tail lives in browse, so which view holds a given
+  // car depends on the car — guessing one and giving up silently would send you
+  // to an empty page with no explanation.
+  let el = find();
+  if (!el) {
+    for (const v of ['shortlist', 'browse']) {
+      if (VIEW === v) continue;
+      VIEW = v;
+      document.querySelectorAll('#viewbar .vw').forEach((b) => b.classList.toggle('on', b.dataset.view === VIEW));
+      renderControls();
+      renderList();
+      el = find();
+      if (el) break;
+    }
+  }
+  if (!el) return false;
+  el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  el.classList.add('flash');
+  setTimeout(() => el.classList.remove('flash'), 2200);
+  return true;
 }
 
 // ---------- interaction ----------
@@ -1212,6 +1295,14 @@ function wireDelegates() {
   wired = true;
 
   document.querySelectorAll('#tabbar .tab').forEach((b) => b.addEventListener('click', () => switchTab(b.dataset.tab)));
+
+  // "Why does this cost what it costs?" — jump to the car's full card.
+  document.addEventListener('click', (e) => {
+    const g = e.target.closest('[data-goto-vin]');
+    if (!g) return;
+    e.preventDefault();
+    gotoCar(g.dataset.gotoVin);
+  });
 
   document.addEventListener('click', (e) => {
     const vw = e.target.closest('.vw');
