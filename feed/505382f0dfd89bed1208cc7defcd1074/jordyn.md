@@ -1,13 +1,13 @@
 # Jordyn's first car
 _Safety first, then cost to own · 130 mi/week · $15k target, searched to $22k_
 
-**106 listings** · updated 2026-09-01
+**103 listings** · updated 2026-09-02
 
 > This is a plaintext export of a private family car roster, generated
 > nightly from live dealer inventory. Prices and availability change daily;
 > always confirm against the listing URL before acting on anything here.
 
-Every car we can find that could work as Jordyn's first car — 3703 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
+Every car we can find that could work as Jordyn's first car — 4525 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
 
 ## How to read this
 
@@ -30,7 +30,7 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
 - WA EV surcharge: $150/yr for plug-ins with 30+ mi of electric range (shorter-range plug-ins owe nothing)
 - WA tabs: 1.1% Sound Transit RTA excise on 85% of ORIGINAL MSRP (not the price paid), depreciated by the 1990 statutory schedule, plus base/weight fees
 - Sales tax: 10.1%
-- Teen insurance: $2,400/yr + 4.5% of vehicle value
+- Teen insurance: $—/yr + 2.2% of vehicle value
 - Maintenance per mile: BEV $0.04 · PHEV $0.06 · hybrid $0.06 · gas $0.09
 
 > Insurance is the largest single line and is an estimate, not a quote.
@@ -40,112 +40,109 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
 
 | # | Vehicle | Price | Miles | Powertrain | 6-yr cost | Safety | Reliability |
 |---|---------|-------|-------|-----------|-----------|--------|-------------|
-| 1 | 2023 Nissan Leaf S | $13,488 | 52,213 | Battery electric | $34,066 | AEB+BSM | ok |
-| 2 | 2021 Hyundai Elantra SE | $14,999 | 20,737 | Gasoline | $36,656 | AEB+BSM | ok |
-| 3 | 2017 Nissan Leaf S | $6,995 | 32,563 | Battery electric | $27,521 | AEB | ok |
-| 4 | 2017 Nissan Leaf S | $7,790 | 31,046 | Battery electric | $28,310 | AEB | ok |
-| 5 | 2017 Nissan Leaf S | $7,995 | 27,076 | Battery electric | $28,498 | AEB | ok |
-| 6 | 2022 Hyundai Ioniq Blue | $21,048 | 37,615 | Hybrid | $38,611 | AEB+BSM | ok |
-| 7 | 2017 Hyundai Ioniq Limited | $11,800 | 80,887 | Battery electric | $32,142 | AEB+BSM | ok |
-| 8 | 2018 Kia Niro EX | $12,575 | 113,256 | Hybrid | $34,603 | AEB+BSM | ok |
-| 9 | 2018 Kia Niro EX Premium | $16,972 | 72,730 | Plug-in hybrid | $36,469 | AEB+BSM | ok |
-| 10 | 2019 Hyundai Ioniq Blue | $16,991 | 23,502 | Hybrid | $35,534 | AEB | ok |
-| 11 | 2017 Nissan Leaf SV | $7,977 | 70,617 | Battery electric | $28,988 | AEB | ok |
-| 12 | 2021 Nissan Versa SV | $11,654 | 70,725 | Gasoline | $35,499 | AEB+BSM | ok |
-| 13 | 2021 Nissan Leaf SL Plus | $15,000 | 41,300 | Battery electric | $35,436 | AEB+BSM | concern |
-| 14 | 2022 Hyundai Ioniq SE | $13,014 | 123,046 | Hybrid | $35,094 | AEB+BSM | ok |
-| 15 | 2019 Honda Insight LX | $18,940 | 40,000 | Hybrid | $37,633 | AEB | ok |
-| 16 | 2024 Kia Soul LX | $16,990 | 32,226 | Gasoline | $39,444 | AEB+BSM | ok |
-| 17 | 2022 Nissan Leaf S | $15,238 | 39,835 | Battery electric | $35,519 | AEB+BSM | concern |
-| 18 | 2020 Hyundai Ioniq SE | $11,995 | 124,730 | Hybrid | $34,118 | AEB | ok |
-| 19 | 2024 Kia Forte LXS | $19,700 | 2,644 | Gasoline | $41,097 | AEB | ok |
-| 20 | 2023 Kia Niro Wind | $19,990 | 39,464 | Battery electric | $39,977 | AEB+BSM | ok |
-| 21 | 2017 Kia Rio LX | $6,969 | 90,685 | Gasoline | $33,133 | AEB | ok |
-| 22 | 2025 Nissan Versa SR | $20,500 | 962 | Gasoline | $41,238 | AEB+BSM | ok |
-| 23 | 2022 Chevrolet Bolt EUV LT | $19,945 | 38,652 | Battery electric | $39,612 | AEB | ok |
-| 24 | 2019 FIAT 500 e | $15,200 | 35,445 | Battery electric | $36,206 | AEB | unknown |
-| 25 | 2022 Chevrolet Bolt EUV LT | $17,189 | 68,297 | Battery electric | $37,812 | AEB | ok |
-| 26 | 2021 Hyundai Accent SE | $8,499 | 50,815 | Gasoline | $31,770 | AEB | ok |
-| 27 | 2018 Nissan Leaf SV | $9,977 | 97,594 | Battery electric | $31,445 | AEB | concern |
-| 28 | 2019 Ford Fusion SE | $8,900 | 96,029 | Hybrid | $33,679 | AEB+BSM | concern |
-| 29 | 2021 MAZDA MAZDA3 s | $12,999 | 104,257 | Gasoline | $39,105 | AEB+BSM | ok |
-| 30 | 2017 Ford C-MAX SE | $9,500 | 111,635 | Hybrid | $35,051 | AEB | ok |
-| 31 | 2020 Kia Niro LX | $12,250 | 108,567 | Hybrid | $34,299 | AEB | ok |
-| 32 | 2017 Ford C-MAX Energi Titanium | $14,230 | 57,719 | Plug-in hybrid | $36,447 | AEB | ok |
-| 33 | 2017 Ford Focus Electric Hatchback | $9,995 | 31,313 | Battery electric | $31,676 | AEB | concern |
-| 34 | 2018 Toyota Prius C Four | $13,999 | 100,749 | Hybrid | $35,391 | AEB | ok |
-| 35 | 2021 Hyundai Sonata Blue | $12,999 | 106,023 | Hybrid | $34,651 | AEB+BSM | concern |
-| 36 | 2023 Hyundai Kona SE | $15,750 | 62,815 | Battery electric | $36,243 | AEB+BSM | concern |
-| 37 | 2021 Chevrolet Trax LT | $13,750 | 64,801 | Gasoline | $40,541 | AEB | ok |
-| 38 | 2022 Volvo XC40 P8 Recharge Plus | $15,897 | 119,977 | Battery electric | $40,015 | AEB+BSM | ok |
-| 39 | 2021 Chevrolet Bolt LT | $17,995 | 36,416 | Battery electric | $37,824 | AEB | concern |
-| 40 | 2017 Chevrolet Spark LS | $4,500 | 85,709 | Gasoline | $31,994 | AEB | ok |
-| 41 | 2017 Chevrolet Volt LT | $9,984 | 91,306 | Plug-in hybrid | $32,557 | AEB | concern |
-| 42 | 2019 Hyundai Kona SE | $13,995 | 41,578 | Gasoline | $38,805 | AEB | concern |
-| 43 | 2023 Nissan Ariya FWD | $15,841 | 102,848 | Battery electric | $38,409 | AEB+BSM | concern |
-| 44 | 2017 Hyundai Elantra SE | $6,999 | 96,224 | Gasoline | $32,371 | AEB | concern |
-| 45 | 2021 Jeep Renegade Latitude | $15,750 | 46,074 | Gasoline | $41,689 | AEB+BSM | concern |
-| 46 | 2017 Ford C-MAX Energi SE | $9,613 | 81,117 | Plug-in hybrid | $33,441 | AEB | ok |
-| 47 | 2018 Mitsubishi Outlander SEL | $11,999 | 96,653 | Plug-in hybrid | $34,154 | AEB | ok |
-| 48 | 2023 Volkswagen Taos S | $21,995 | 3,024 | Gasoline | $44,450 | AEB+BSM | concern |
-| 49 | 2017 Jeep Patriot Sport | $5,700 | 99,342 | Gasoline | $35,444 | AEB | ok |
-| 50 | 2019 Chevrolet Trax LS | $9,495 | 80,905 | Gasoline | $37,175 | AEB | concern |
-| 51 | 2018 Honda Clarity Plug-In Hybrid | $14,795 | 121,900 | Plug-in hybrid | $36,312 | AEB | concern |
-| 52 | 2021 Chevrolet TrailBlazer LS | $14,995 | 48,534 | Gasoline | $40,004 | AEB | concern |
-| 53 | 2020 Chevrolet Trax LT | $11,500 | 69,800 | Gasoline | $38,267 | AEB | concern |
-| 54 | 2019 Jeep Renegade Sport | $12,490 | 48,587 | Gasoline | $39,839 | AEB | concern |
-| 55 | 2021 Chevrolet Equinox LT | $8,995 | 149,131 | Gasoline | $39,940 | AEB+BSM | concern |
-| 56 | 2023 Chevrolet TrailBlazer LS | $12,638 | 123,095 | Gasoline | $42,010 | AEB | ok |
-| 57 | 2017 Jeep Compass Trailhawk | $12,471 | 50,876 | Gasoline | $39,541 | AEB | concern |
-| 58 | 2021 Volkswagen ID.4 Pro | $17,209 | 55,573 | Battery electric | $38,607 | AEB+BSM | concern |
-| 59 | 2020 Kia Soul LX | $8,490 | 126,795 | Gasoline | $35,538 | AEB | concern |
-| 60 | 2019 Jeep Renegade Altitude | $11,342 | 74,762 | Gasoline | $39,306 | AEB | concern |
-| 61 | 2017 Kia Niro LX | $9,500 | 140,055 | Hybrid | $32,587 | AEB | concern |
-| 62 | 2020 Jaguar F-PACE S | $19,101 | 75,378 | Gasoline | $53,622 | AEB | unknown |
-| 63 | 2017 Audi A3 e-tron Premium Plus | $15,788 | 60,483 | Plug-in hybrid | $40,428 | AEB | ok |
-| 64 | 2018 Kia Forte LX | $5,995 | 115,922 | Gasoline | $32,783 | AEB | concern |
-| 65 | 2019 Kia Forte LXS | $7,995 | 137,944 | Gasoline | $34,928 | AEB | concern |
-| 66 | 2017 Chevrolet Volt LT | $7,598 | 125,724 | Plug-in hybrid | $31,800 | AEB | concern |
-| 67 | 2018 Audi Q5 2.0T Premium Plus | $14,000 | 101,390 | Gasoline | $47,877 | AEB+BSM | concern |
-| 68 | 2021 Volkswagen Tiguan S | $12,971 | 94,996 | Gasoline | $41,897 | AEB+BSM | concern |
-| 69 | 2021 Volkswagen Tiguan S | $11,168 | 112,097 | Gasoline | $41,138 | AEB+BSM | concern |
-| 70 | 2019 Jeep Renegade Sport | $7,995 | 102,755 | Gasoline | $37,602 | AEB | concern |
-| 71 | 2021 Jeep Compass Sport | $10,888 | 128,875 | Gasoline | $41,317 | AEB | concern |
-| 72 | 2023 Buick Encore GX Select | $16,245 | 716 | Gasoline | $39,688 | AEB | ok |
-| 73 | 2018 Tesla Model 3 Mid Range | $14,999 | 69,459 | Battery electric | $37,746 | AEB+BSM | ok |
-| 74 | 2020 Ford Fusion SE | $9,900 | 63,235 | Hybrid | $33,188 | AEB+BSM | concern |
-| 75 | 2022 Kia Niro EX | $15,645 | 62,812 | Battery electric | $36,213 | BSM | ok |
-| 76 | 2019 Volkswagen e-Golf SE | $12,685 | 60,402 | Battery electric | $34,076 | — | ok |
-| 77 | 2019 Chevrolet Bolt Premier | $19,950 | 2,165 | Battery electric | $39,718 | BSM | concern |
-| 78 | 2020 Chevrolet Bolt LT | $13,990 | 98,213 | Battery electric | $35,461 | — | concern |
-| 79 | 2019 BMW i3 s | $16,995 | 89,305 | Battery electric | $40,171 | — | ok |
-| 80 | 2015 smart fortwo electric drive | $5,000 | 39,816 | Battery electric | $26,340 | — | unknown |
-| 81 | 2015 Nissan Leaf S | $5,480 | 42,310 | Battery electric | $26,282 | — | ok |
-| 82 | 2017 FIAT 500 e | $8,000 | 32,300 | Battery electric | $28,994 | — | ok |
-| 83 | 2015 smart fortwo electric drive | $7,499 | 44,682 | Battery electric | $28,890 | — | unknown |
-| 84 | 2017 FIAT 500 e | $8,615 | 44,490 | Battery electric | $29,747 | — | ok |
-| 85 | 2016 Nissan Leaf SL | $7,991 | 60,074 | Battery electric | $28,963 | — | ok |
-| 86 | 2016 FIAT 500 e | $7,998 | 71,397 | Battery electric | $29,631 | — | ok |
-| 87 | 2015 Nissan Leaf S | $7,999 | 57,218 | Battery electric | $29,038 | — | ok |
-| 88 | 2016 Nissan Leaf S | $5,777 | 61,688 | Battery electric | $26,745 | — | ok |
-| 89 | 2015 Nissan Leaf S | $7,999 | 93,877 | Battery electric | $29,542 | — | ok |
-| 90 | 2015 Chevrolet Spark LT | $4,100 | 68,320 | Battery electric | $26,322 | — | concern |
-| 91 | 2016 BMW i3 w/ Range Extender | $11,977 | 65,498 | Plug-in hybrid | $35,929 | — | ok |
-| 92 | 2015 Chevrolet Spark LT | $6,994 | 65,001 | Battery electric | $29,133 | — | concern |
-| 93 | 2016 Kia Soul EV + | $9,000 | 48,222 | Battery electric | $30,041 | — | concern |
-| 94 | 2015 FIAT 500 e | $8,999 | 40,501 | Battery electric | $30,275 | — | concern |
-| 95 | 2016 Kia Soul EV + | $9,195 | 54,443 | Battery electric | $30,313 | — | concern |
-| 96 | 2015 FIAT 500 e | $5,998 | 95,451 | Battery electric | $28,140 | — | concern |
-| 97 | 2015 BMW i3 w/ Range Extender | $11,995 | 87,909 | Plug-in hybrid | $37,259 | — | ok |
-| 98 | 2017 BMW 320i Sedan | $14,490 | 52,144 | Gasoline | $44,900 | — | unknown |
-| 99 | 2016 Mercedes-Benz GLA 250 4MATIC | $14,999 | 52,000 | Gasoline | $44,510 | — | unknown |
-| 100 | 2017 BMW 330e | $14,000 | 87,000 | Plug-in hybrid | $39,964 | — | unknown |
-| 101 | 2016 BMW X5 xDrive40e | $13,990 | 82,311 | Plug-in hybrid | $40,082 | — | concern |
-| 102 | 2016 BMW X5 xDrive40e | $11,858 | 109,038 | Plug-in hybrid | $39,482 | — | concern |
-| 103 | 2016 Audi A3 e-tron Prestige | $8,500 | 120,249 | Plug-in hybrid | $37,373 | — | concern |
-| 104 | 2017 BMW X5 xDrive40e | $10,895 | 130,594 | Plug-in hybrid | $39,657 | — | concern |
-| 105 | 2017 BMW X5 xDrive40e | $14,000 | 74,000 | Plug-in hybrid | $39,425 | — | concern |
-| 106 | 2024 MINI Cooper SE | $16,895 | 17,617 | Battery electric | $37,901 | — | ok |
+| 1 | 2023 Nissan Leaf S | $13,488 | 52,213 | Battery electric | $35,804 | AEB+BSM | ok |
+| 2 | 2021 Hyundai Elantra SE | $14,999 | 20,737 | Gasoline | $38,186 | AEB+BSM | ok |
+| 3 | 2022 Hyundai Ioniq Blue | $21,048 | 37,615 | Hybrid | $39,306 | AEB+BSM | ok |
+| 4 | 2017 Nissan Leaf S | $6,995 | 32,563 | Battery electric | $30,155 | AEB | ok |
+| 5 | 2017 Hyundai Ioniq Limited | $11,800 | 80,887 | Battery electric | $34,114 | AEB+BSM | ok |
+| 6 | 2017 Nissan Leaf S | $7,790 | 31,046 | Battery electric | $30,835 | AEB | ok |
+| 7 | 2018 Kia Niro EX | $12,575 | 113,256 | Hybrid | $36,468 | AEB+BSM | ok |
+| 8 | 2017 Nissan Leaf S | $7,995 | 27,076 | Battery electric | $30,994 | AEB | ok |
+| 9 | 2021 Kia Forte LXS | $13,985 | 44,352 | Gasoline | $38,479 | AEB | ok |
+| 10 | 2017 Nissan Leaf SV | $7,977 | 70,617 | Battery electric | $31,487 | AEB | ok |
+| 11 | 2024 Kia Soul LX | $16,990 | 32,226 | Gasoline | $40,700 | AEB+BSM | ok |
+| 12 | 2023 Kia Niro Wind | $19,990 | 39,464 | Battery electric | $40,819 | AEB+BSM | ok |
+| 13 | 2025 Nissan Versa SR | $20,500 | 962 | Gasoline | $42,009 | AEB+BSM | ok |
+| 14 | 2022 Nissan Leaf S | $15,238 | 39,835 | Battery electric | $37,016 | AEB+BSM | concern |
+| 15 | 2023 Nissan Versa S | $14,500 | 24,388 | Gasoline | $38,118 | AEB | ok |
+| 16 | 2022 Chevrolet Bolt EUV LT | $19,945 | 38,652 | Battery electric | $40,460 | AEB | ok |
+| 17 | 2020 Hyundai Ioniq SE | $11,995 | 124,730 | Hybrid | $36,062 | AEB | ok |
+| 18 | 2022 Chevrolet Bolt EUV LT | $17,189 | 68,297 | Battery electric | $39,040 | AEB | ok |
+| 19 | 2019 FIAT 500 e | $15,200 | 35,445 | Battery electric | $37,708 | AEB | unknown |
+| 20 | 2017 Kia Rio LX | $6,969 | 90,685 | Gasoline | $35,771 | AEB | ok |
+| 21 | 2018 Kia Niro EX Premium | $17,500 | 60,746 | Plug-in hybrid | $37,866 | AEB+BSM | ok |
+| 22 | 2024 Kia Niro Wind | $26,793 | 1,221 | Battery electric | $46,324 | AEB+BSM | ok |
+| 23 | 2021 Hyundai Accent SE | $8,499 | 50,815 | Gasoline | $34,197 | AEB | ok |
+| 24 | 2018 Nissan Leaf SV | $9,977 | 97,594 | Battery electric | $33,668 | AEB | concern |
+| 25 | 2021 MAZDA MAZDA3 s | $12,999 | 104,257 | Gasoline | $40,911 | AEB+BSM | ok |
+| 26 | 2022 Chevrolet Bolt EUV LT | $16,881 | 96,379 | Battery electric | $39,852 | AEB | ok |
+| 27 | 2019 Ford Fusion SE | $8,900 | 96,029 | Hybrid | $36,051 | AEB+BSM | concern |
+| 28 | 2021 Chevrolet Trax LT | $15,998 | 24,553 | Gasoline | $42,744 | AEB | ok |
+| 29 | 2020 Tesla Model 3 Standard Range Plus | $27,490 | 1,007 | Battery electric | $48,673 | AEB+BSM | ok |
+| 30 | 2017 Ford C-MAX Energi Titanium | $14,230 | 57,719 | Plug-in hybrid | $38,083 | AEB | ok |
+| 31 | 2020 Kia Niro LX | $12,250 | 108,567 | Hybrid | $36,208 | AEB | ok |
+| 32 | 2023 Hyundai Kona SE | $15,750 | 62,815 | Battery electric | $37,669 | AEB+BSM | concern |
+| 33 | 2018 Toyota Prius C Four | $13,999 | 100,748 | Hybrid | $37,059 | AEB | ok |
+| 34 | 2021 Hyundai Sonata Blue | $12,999 | 106,023 | Hybrid | $36,457 | AEB+BSM | concern |
+| 35 | 2017 Ford Focus Electric Hatchback | $9,995 | 31,313 | Battery electric | $33,896 | AEB | concern |
+| 36 | 2023 Polestar Polestar 2 | $20,000 | 83,417 | Battery electric | $43,867 | AEB+BSM | ok |
+| 37 | 2022 Volvo XC40 P8 Recharge Plus | $15,897 | 119,977 | Battery electric | $41,421 | AEB+BSM | ok |
+| 38 | 2019 Hyundai Kona SE | $13,995 | 41,578 | Gasoline | $40,473 | AEB | concern |
+| 39 | 2023 Nissan Ariya FWD | $15,841 | 102,848 | Battery electric | $39,823 | AEB+BSM | concern |
+| 40 | 2027 Chevrolet Bolt LT | $26,998 | 1,441 | Battery electric | $46,391 | AEB | ok |
+| 41 | 2017 Chevrolet Volt LT | $9,984 | 91,306 | Plug-in hybrid | $34,779 | AEB | concern |
+| 42 | 2023 Chevrolet TrailBlazer LT | $15,995 | 61,348 | Gasoline | $42,722 | AEB | ok |
+| 43 | 2017 Chevrolet Spark LS | $4,500 | 85,709 | Gasoline | $34,973 | AEB | ok |
+| 44 | 2021 Jeep Renegade Latitude | $15,750 | 46,074 | Gasoline | $43,115 | AEB+BSM | concern |
+| 45 | 2022 Volkswagen Tiguan SE | $15,991 | 40,104 | Gasoline | $43,302 | AEB+BSM | concern |
+| 46 | 2017 Hyundai Elantra SE | $6,999 | 96,224 | Gasoline | $35,005 | AEB | concern |
+| 47 | 2020 Hyundai Elantra SEL | $8,192 | 114,145 | Gasoline | $36,573 | AEB+BSM | concern |
+| 48 | 2023 Chevrolet Bolt EUV LT | $16,960 | 60,000 | Battery electric | $39,154 | AEB | concern |
+| 49 | 2017 Ford C-MAX Energi SE | $9,613 | 81,117 | Plug-in hybrid | $35,714 | AEB | ok |
+| 50 | 2018 Mitsubishi Outlander SEL | $11,999 | 96,653 | Plug-in hybrid | $36,098 | AEB | ok |
+| 51 | 2018 Honda Clarity Plug-In Hybrid | $14,695 | 121,900 | Plug-in hybrid | $37,795 | AEB | concern |
+| 52 | 2019 Chevrolet Trax LS | $9,495 | 80,905 | Gasoline | $39,464 | AEB | concern |
+| 53 | 2020 Jaguar F-PACE S | $19,101 | 75,378 | Gasoline | $54,586 | AEB | unknown |
+| 54 | 2021 Volkswagen ID.4 Pro | $16,997 | 55,573 | Battery electric | $39,652 | AEB+BSM | concern |
+| 55 | 2019 Jeep Renegade Sport | $12,490 | 48,587 | Gasoline | $41,716 | AEB | concern |
+| 56 | 2017 Jeep Compass Trailhawk | $12,471 | 50,876 | Gasoline | $41,420 | AEB | concern |
+| 57 | 2021 Chevrolet Equinox LT | $8,995 | 149,131 | Gasoline | $42,298 | AEB+BSM | concern |
+| 58 | 2023 Chevrolet TrailBlazer LS | $12,638 | 123,095 | Gasoline | $43,866 | AEB | ok |
+| 59 | 2017 Kia Niro LX | $9,500 | 140,055 | Hybrid | $34,876 | AEB | concern |
+| 60 | 2020 Kia Soul LX | $8,490 | 126,795 | Gasoline | $37,967 | AEB | concern |
+| 61 | 2017 Audi A3 e-tron Premium Plus | $15,788 | 60,520 | Plug-in hybrid | $41,855 | AEB | ok |
+| 62 | 2020 Jeep Compass Sport | $14,998 | 58,982 | Gasoline | $43,058 | AEB | concern |
+| 63 | 2018 Toyota Camry LE | $19,795 | 93,755 | Hybrid | $40,355 | AEB | concern |
+| 64 | 2018 Audi Q5 2.0T Premium Plus | $14,000 | 101,390 | Gasoline | $49,545 | AEB+BSM | concern |
+| 65 | 2017 Chevrolet Volt LT | $7,598 | 125,724 | Plug-in hybrid | $34,352 | AEB | concern |
+| 66 | 2018 Kia Forte LX | $5,995 | 115,922 | Gasoline | $35,555 | AEB | concern |
+| 67 | 2021 Volkswagen Tiguan S | $12,971 | 94,996 | Gasoline | $43,707 | AEB+BSM | concern |
+| 68 | 2019 Jeep Renegade Sport | $7,995 | 102,755 | Gasoline | $40,098 | AEB | concern |
+| 69 | 2023 Buick Encore GX Select | $16,245 | 716 | Gasoline | $41,046 | AEB | ok |
+| 70 | 2023 Kia Soul LX | $11,900 | 28,023 | Gasoline | $37,014 | AEB | ok |
+| 71 | 2018 Tesla Model 3 Mid Range | $14,999 | 69,459 | Battery electric | $39,276 | AEB+BSM | ok |
+| 72 | 2021 Honda Accord Hybrid | $13,500 | 123,400 | Hybrid | $37,640 | AEB | concern |
+| 73 | 2019 Volkswagen e-Golf SE | $12,685 | 60,404 | Battery electric | $35,925 | — | ok |
+| 74 | 2020 Chevrolet Bolt LT | $16,750 | 16,765 | Battery electric | $37,902 | — | concern |
+| 75 | 2020 Chevrolet Bolt LT | $13,990 | 98,213 | Battery electric | $37,131 | — | concern |
+| 76 | 2019 BMW i3 s | $16,995 | 89,305 | Battery electric | $41,425 | — | ok |
+| 77 | 2015 smart fortwo electric drive | $5,000 | 39,816 | Battery electric | $29,250 | — | unknown |
+| 78 | 2015 Nissan Leaf S | $5,480 | 42,310 | Battery electric | $29,125 | — | ok |
+| 79 | 2017 FIAT 500 e | $8,000 | 32,300 | Battery electric | $31,490 | — | ok |
+| 80 | 2015 smart fortwo electric drive | $7,499 | 44,682 | Battery electric | $31,455 | — | unknown |
+| 81 | 2017 FIAT 500 e | $8,615 | 44,490 | Battery electric | $32,158 | — | ok |
+| 82 | 2016 Nissan Leaf SL | $7,991 | 60,074 | Battery electric | $31,460 | — | ok |
+| 83 | 2016 FIAT 500 e | $7,998 | 71,397 | Battery electric | $32,128 | — | ok |
+| 84 | 2015 Nissan Leaf S | $7,999 | 57,218 | Battery electric | $31,534 | — | ok |
+| 85 | 2016 Nissan Leaf S | $5,777 | 61,688 | Battery electric | $29,548 | — | ok |
+| 86 | 2015 Nissan Leaf S | $7,999 | 93,877 | Battery electric | $32,038 | — | ok |
+| 87 | 2015 Chevrolet Spark LT | $4,100 | 68,320 | Battery electric | $29,356 | — | concern |
+| 88 | 2016 BMW i3 w/ Range Extender | $11,977 | 65,498 | Plug-in hybrid | $37,876 | — | ok |
+| 89 | 2016 Kia Soul EV + | $9,000 | 48,222 | Battery electric | $32,399 | — | concern |
+| 90 | 2015 Chevrolet Spark LT | $6,994 | 65,001 | Battery electric | $31,768 | — | concern |
+| 91 | 2015 FIAT 500 e | $8,999 | 40,501 | Battery electric | $32,633 | — | concern |
+| 92 | 2016 Kia Soul EV + | $9,195 | 54,443 | Battery electric | $32,644 | — | concern |
+| 93 | 2015 FIAT 500 e | $5,998 | 95,451 | Battery electric | $30,913 | — | concern |
+| 94 | 2017 BMW 320i Sedan | $14,490 | 52,144 | Gasoline | $46,501 | — | unknown |
+| 95 | 2016 Mercedes-Benz GLA 250 4MATIC | $14,999 | 52,000 | Gasoline | $46,040 | — | unknown |
+| 96 | 2015 BMW i3 w/ Range Extender | $11,995 | 87,909 | Plug-in hybrid | $39,203 | — | ok |
+| 97 | 2017 BMW 330e | $14,000 | 87,000 | Plug-in hybrid | $41,632 | — | unknown |
+| 98 | 2016 BMW X5 xDrive40e | $13,990 | 82,311 | Plug-in hybrid | $41,752 | — | concern |
+| 99 | 2016 BMW X5 xDrive40e | $11,858 | 109,038 | Plug-in hybrid | $41,445 | — | concern |
+| 100 | 2016 Audi A3 e-tron Prestige | $8,500 | 120,249 | Plug-in hybrid | $39,800 | — | concern |
+| 101 | 2017 BMW X5 xDrive40e | $14,000 | 74,000 | Plug-in hybrid | $41,093 | — | concern |
+| 102 | 2017 BMW X5 xDrive40e | $10,895 | 130,594 | Plug-in hybrid | $41,753 | — | concern |
+| 103 | 2024 MINI Cooper SE | $16,895 | 17,617 | Battery electric | $39,169 | — | ok |
 
 ## Detail
 
@@ -177,11 +174,11 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,362
   - Fuel / electricity: $3,203
   - Maintenance: $1,075
-  - Insurance: $18,042
+  - Insurance: $19,780
   - Registration: $2,172
   - Major-repair reserve (expected): $187
-  - **6-year total: $34,066** ($473/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,348
+  - **6-year total: $35,804** ($497/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,927
 
 ### 2. 2021 Hyundai Elantra SE — $14,999
 
@@ -210,111 +207,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,515
   - Fuel / electricity: $6,490
   - Maintenance: $2,141
-  - Insurance: $18,450
+  - Insurance: $19,980
   - Registration: $1,368
   - Major-repair reserve (expected): $461
-  - **6-year total: $36,656** ($509/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,766
+  - **6-year total: $38,186** ($530/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,276
 
-### 3. 2017 Nissan Leaf S — $6,995
-
-- VIN: `1N4BZ0CP1HC307474`
-- Mileage: 32,563 mi · Color: Blue · Certified pre-owned
-- Location: The Car Outlet LLC, Kent WA (12 mi away)
-- Days on lot: 4
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789672168
-- Powertrain: **Battery electric** · 107 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2017 Nissan Leaf. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 14 complaints, 0 recalls for the 2017 Nissan Leaf
-  - 14 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2017/NISSAN/LEAF%20BEV
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":67437,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 32,563 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $6,995
-  - Sales tax: $706
-  - Fuel / electricity: $3,203
-  - Maintenance: $1,137
-  - Insurance: $16,289
-  - Registration: $1,824
-  - Major-repair reserve (expected): $381
-  - **6-year total: $27,521** ($382/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $9,503
-- Standout: true
-- Note: Lowest 6-year cost to own with AEB standard — about $382/mo all-in, and it should still be a good car when Emma drives.
-
-### 4. 2017 Nissan Leaf S — $7,790
-
-- VIN: `1N4BZ0CP8HC311540`
-- Mileage: 31,046 mi · Color: Deep Blue Pearl · Certified pre-owned
-- Location: Four-Ten Auto Sales, Bonney Lake WA (27 mi away)
-- Days on lot: 83
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/782779277
-- Powertrain: **Battery electric** · 107 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2017 Nissan Leaf. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 14 complaints, 0 recalls for the 2017 Nissan Leaf
-  - 14 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2017/NISSAN/LEAF%20BEV
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":68954,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 31,046 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $7,790
-  - Sales tax: $787
-  - Fuel / electricity: $3,203
-  - Maintenance: $1,137
-  - Insurance: $16,503
-  - Registration: $1,872
-  - Major-repair reserve (expected): $375
-  - **6-year total: $28,310** ($393/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $9,818
-
-### 5. 2017 Nissan Leaf S — $7,995
-
-- VIN: `1N4BZ0CP7HC311013`
-- Mileage: 27,076 mi · Color: Deep Blue Pearl · Certified pre-owned
-- Location: Auto Connections of Bellevue, Bellevue WA (5 mi away)
-- Days on lot: 3
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789694040
-- Powertrain: **Battery electric** · 107 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2017 Nissan Leaf. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 14 complaints, 0 recalls for the 2017 Nissan Leaf
-  - 14 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2017/NISSAN/LEAF%20BEV
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":72924,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 27,076 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $7,995
-  - Sales tax: $807
-  - Fuel / electricity: $3,203
-  - Maintenance: $1,137
-  - Insurance: $16,559
-  - Registration: $1,890
-  - Major-repair reserve (expected): $352
-  - **6-year total: $28,498** ($396/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $9,897
-
-### 6. 2022 Hyundai Ioniq Blue — $21,048
+### 3. 2022 Hyundai Ioniq Blue — $21,048
 
 - VIN: `KMHC65LC4NU274392`
 - Mileage: 37,615 mi · Color: Amazon Gray · Certified pre-owned
@@ -340,13 +239,47 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $2,126
   - Fuel / electricity: $4,132
   - Maintenance: $1,411
-  - Insurance: $20,083
+  - Insurance: $20,778
   - Registration: $1,674
   - Major-repair reserve (expected): $441
-  - **6-year total: $38,611** ($536/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,165
+  - **6-year total: $39,306** ($546/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,397
 
-### 7. 2017 Hyundai Ioniq Limited — $11,800
+### 4. 2017 Nissan Leaf S — $6,995
+
+- VIN: `1N4BZ0CP1HC307474`
+- Mileage: 32,563 mi · Color: Blue · Certified pre-owned
+- Location: The Car Outlet LLC, Kent WA (12 mi away)
+- Days on lot: 4
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789672168
+- Powertrain: **Battery electric** · 107 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2017 Nissan Leaf. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 14 complaints, 0 recalls for the 2017 Nissan Leaf
+  - 14 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2017/NISSAN/LEAF%20BEV
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":67437,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 32,563 mi) — a pack failure would be entirely out of pocket."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $6,995
+  - Sales tax: $706
+  - Fuel / electricity: $3,203
+  - Maintenance: $1,137
+  - Insurance: $18,923
+  - Registration: $1,824
+  - Major-repair reserve (expected): $381
+  - **6-year total: $30,155** ($419/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,381
+- Standout: true
+- Note: Lowest 6-year cost to own with AEB standard — about $419/mo all-in, and it should still be a good car when Emma drives.
+
+### 5. 2017 Hyundai Ioniq Limited — $11,800
 
 - VIN: `KMHC85LH9HU015424`
 - Mileage: 80,887 mi · Color: Symphony Air Silver · Certified pre-owned
@@ -375,13 +308,45 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,192
   - Fuel / electricity: $2,669
   - Maintenance: $1,349
-  - Insurance: $17,586
+  - Insurance: $19,558
   - Registration: $2,124
   - Major-repair reserve (expected): $691
-  - **6-year total: $32,142** ($446/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,191
+  - **6-year total: $34,114** ($474/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,848
 
-### 8. 2018 Kia Niro EX — $12,575
+### 6. 2017 Nissan Leaf S — $7,790
+
+- VIN: `1N4BZ0CP8HC311540`
+- Mileage: 31,046 mi · Color: Deep Blue Pearl · Certified pre-owned
+- Location: Four-Ten Auto Sales, Bonney Lake WA (27 mi away)
+- Days on lot: 83
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/782779277
+- Powertrain: **Battery electric** · 107 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2017 Nissan Leaf. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 14 complaints, 0 recalls for the 2017 Nissan Leaf
+  - 14 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2017/NISSAN/LEAF%20BEV
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":68954,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 31,046 mi) — a pack failure would be entirely out of pocket."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $7,790
+  - Sales tax: $787
+  - Fuel / electricity: $3,203
+  - Maintenance: $1,137
+  - Insurance: $19,028
+  - Registration: $1,872
+  - Major-repair reserve (expected): $375
+  - **6-year total: $30,835** ($428/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,660
+
+### 7. 2018 Kia Niro EX — $12,575
 
 - VIN: `KNDCC3LC8J5132231`
 - Mileage: 113,256 mi · Color: Silky Silver · Certified pre-owned
@@ -407,79 +372,77 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,270
   - Fuel / electricity: $4,987
   - Maintenance: $2,314
-  - Insurance: $17,795
+  - Insurance: $19,660
   - Registration: $1,278
   - Major-repair reserve (expected): $1,383
-  - **6-year total: $34,603** ($481/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,080
+  - **6-year total: $36,468** ($507/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,701
 
-### 9. 2018 Kia Niro EX Premium — $16,972
+### 8. 2017 Nissan Leaf S — $7,995
 
-- VIN: `KNDCC3LDXJ5149007`
-- Mileage: 72,730 mi · Color: White · Certified pre-owned
-- Location: Lancaster Auto Group, Portland OR (139 mi away)
-- Days on lot: 31
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787255373
-- Powertrain: **Plug-in hybrid** · 26 mi electric range
-  - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - IIHS: Top Safety Pick (2017–19)
-  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
-  - Also standard on this trim (EX Premium (PHEV), Graphite Edition (HEV)): fcw, lka, acc, backupCam
+- VIN: `1N4BZ0CP7HC311013`
+- Mileage: 27,076 mi · Color: Deep Blue Pearl · Certified pre-owned
+- Location: Auto Connections of Bellevue, Bellevue WA (5 mi away)
+- Days on lot: 3
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789694040
+- Powertrain: **Battery electric** · 107 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2017 Nissan Leaf. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
 - Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 13 complaints, 0 recalls for the 2018 Kia Niro
-  - 13 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2018/KIA/NIRO%20PLUG-IN%20HYBRID
+  - NHTSA: 14 complaints, 0 recalls for the 2017 Nissan Leaf
+  - 14 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2017/NISSAN/LEAF%20BEV
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":27270,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (8 yr, 72,730 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":72924,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 27,076 mi) — a pack failure would be entirely out of pocket."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $7,995
+  - Sales tax: $807
+  - Fuel / electricity: $3,203
+  - Maintenance: $1,137
+  - Insurance: $19,055
+  - Registration: $1,890
+  - Major-repair reserve (expected): $352
+  - **6-year total: $30,994** ($430/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,729
+
+### 9. 2021 Kia Forte LXS — $13,985
+
+- VIN: `3KPF24AD3ME316700`
+- Mileage: 44,352 mi · Color: Silky Silver · Certified pre-owned
+- Location: Wilsonville Subaru, Wilsonville OR (159 mi away)
+- Days on lot: 88
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/782471714
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
+- Safety: AEB standard · blind-spot trim
+  - IIHS: Top Safety Pick (2019+)
+  - Forward Collision-Avoidance Assist standard from 2019.
+  - Also standard on this trim (FE, LXS): lka, backupCam
+- Reliability (model-year level): **ok** — confidence high
+  - NHTSA: 67 complaints, 2 recalls for the 2021 Kia Forte
+  - 67 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2021/KIA/FORTE
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $16,972
-  - Sales tax: $1,714
-  - Fuel / electricity: $4,118
-  - Maintenance: $1,929
-  - Insurance: $18,982
-  - Registration: $1,554
-  - Major-repair reserve (expected): $1,122
-  - **6-year total: $36,469** ($507/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,707
+  - Purchase price: $13,985
+  - Sales tax: $1,412
+  - Fuel / electricity: $7,158
+  - Maintenance: $2,300
+  - Insurance: $19,846
+  - Registration: $1,308
+  - Major-repair reserve (expected): $645
+  - **6-year total: $38,479** ($534/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,472
 
-### 10. 2019 Hyundai Ioniq Blue — $16,991
-
-- VIN: `KMHC65LC3KU107663`
-- Mileage: 23,502 mi · Color: White · Certified pre-owned
-- Location: Lancaster Auto Group, Portland OR (139 mi away)
-- Days on lot: 21
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788017803
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-- Safety: AEB standard (VIN-confirmed) · blind-spot trim
-  - IIHS: Top Safety Pick (2017–19)
-  - On the Hybrid, Forward Collision-Avoidance and Blind-Spot Warning are SEL/Limited/Ultimate — verify per-VIN. The Electric is trimmed differently: its Limited was the top trim and Hyundai reports the driver-assist suite as standard on it.
-  - Also standard on this trim (Blue (HEV)): backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 16 complaints, 1 recalls for the 2019 Hyundai Ioniq
-  - 16 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2019/HYUNDAI/IONIQ%20HYBRID
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED
-  - Salvage title: no · Accidents reported: no · One owner: not reported
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $16,991
-  - Sales tax: $1,716
-  - Fuel / electricity: $4,203
-  - Maintenance: $1,510
-  - Insurance: $18,988
-  - Registration: $1,542
-  - Major-repair reserve (expected): $517
-  - **6-year total: $35,534** ($494/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,465
-
-### 11. 2017 Nissan Leaf SV — $7,977
+### 10. 2017 Nissan Leaf SV — $7,977
 
 - VIN: `1N4BZ0CP2HC301649`
 - Mileage: 70,617 mi · Color: Pearl White · Certified pre-owned
@@ -505,144 +468,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $806
   - Fuel / electricity: $3,203
   - Maintenance: $1,376
-  - Insurance: $16,554
+  - Insurance: $19,053
   - Registration: $1,884
   - Major-repair reserve (expected): $584
-  - **6-year total: $28,988** ($403/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,108
+  - **6-year total: $31,487** ($437/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,941
 
-### 12. 2021 Nissan Versa SV — $11,654
-
-- VIN: `3N1CN8EV6ML888850`
-- Mileage: 70,725 mi · Color: Brilliant Silver Metallic · Certified pre-owned
-- Location: One Stop Yakima, Yakima WA (104 mi away)
-- Days on lot: 85
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/782650858
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.6 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2021 Nissan Versa. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (SV): fcw, lka, backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 31 complaints, 3 recalls for the 2021 Nissan Versa
-  - 31 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2021/NISSAN/VERSA
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $11,654
-  - Sales tax: $1,177
-  - Fuel / electricity: $6,836
-  - Maintenance: $2,832
-  - Insurance: $17,547
-  - Registration: $1,176
-  - Major-repair reserve (expected): $898
-  - **6-year total: $35,499** ($493/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,120
-
-### 13. 2021 Nissan Leaf SL Plus — $15,000
-
-- VIN: `1N4BZ1DV0MC553591`
-- Mileage: 41,300 mi · Color: Gray · Certified pre-owned
-- Location: Private Seller Exchange, Olympia WA (51 mi away)
-- Days on lot: 3
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789726694
-- Powertrain: **Battery electric** · 215 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - IIHS: Top Safety Pick (2018–19 w/ good headlights)
-  - AEB standard on all 2018+. Blind-Spot Warning is SV and SL only — the base S does NOT have it.
-  - Also standard on this trim (SL): fcw, lka, acc, backupCam
-- Reliability (model-year level): **concern** — confidence medium
-  - NHTSA: 53 complaints, 4 recalls for the 2021 Nissan Leaf
-  - 74% of its 53 NHTSA complaints (39) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - Source: https://www.nhtsa.gov/vehicle/2021/NISSAN/LEAF
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":3,"milesLeft":58700,"effectiveYears":3,"note":"Federal battery warranty still covers roughly 3.0 more year(s) at 130 mi/wk — limited by age (3 yr left of 8). Transfers to you."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $15,000
-  - Sales tax: $1,515
-  - Fuel / electricity: $3,203
-  - Maintenance: $1,061
-  - Insurance: $18,450
-  - Registration: $2,268
-  - Major-repair reserve (expected): $244
-  - **6-year total: $35,436** ($492/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,972
-
-### 14. 2022 Hyundai Ioniq SE — $13,014
-
-- VIN: `KMHC75LC5NU279565`
-- Mileage: 123,046 mi · Color: Stellar Silver · Certified pre-owned
-- Location: Sunset Auto Wholesale Tacoma, Tacoma WA (29 mi away)
-- Days on lot: 77
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/783307454
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - IIHS: Top Safety Pick
-  - Hyundai SmartSense with AEB standard from 2020.
-  - Also standard on this trim (SE): fcw, lka, backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 21 complaints, 0 recalls for the 2022 Hyundai Ioniq
-  - 21 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2022/HYUNDAI/IONIQ%20HYBRID
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $13,014
-  - Sales tax: $1,314
-  - Fuel / electricity: $4,393
-  - Maintenance: $2,214
-  - Insurance: $17,914
-  - Registration: $1,224
-  - Major-repair reserve (expected): $932
-  - **6-year total: $35,094** ($487/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,531
-
-### 15. 2019 Honda Insight LX — $18,940
-
-- VIN: `19XZE4F16KE026290`
-- Mileage: 40,000 mi · Color: Black · Certified pre-owned
-- Location: Private Seller Exchange, Carnation WA (13 mi away)
-- Days on lot: 19
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788290651
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.5 L engine.
-- Safety: AEB standard (VIN-confirmed) · blind-spot trim
-  - IIHS: Top Safety Pick (2019–22)
-  - Honda Sensing (incl. Collision Mitigation Braking) standard on every Insight. Blind-spot is Touring; other trims get LaneWatch camera.
-  - Also standard on this trim (LX): fcw, lka, acc, backupCam
-- Reliability (model-year level): **ok** — confidence high
-  - NHTSA: 97 complaints, 8 recalls for the 2019 Honda Insight
-  - 97 NHTSA complaints, no single system dominating.
-  - 8 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2019/HONDA/INSIGHT
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $18,940
-  - Sales tax: $1,913
-  - Fuel / electricity: $4,653
-  - Maintenance: $1,429
-  - Insurance: $19,514
-  - Registration: $1,662
-  - Major-repair reserve (expected): $594
-  - **6-year total: $37,633** ($523/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,233
-
-### 16. 2024 Kia Soul LX — $16,990
+### 11. 2024 Kia Soul LX — $16,990
 
 - VIN: `KNDJ23AU7R7233931`
 - Mileage: 32,226 mi · Color: Snow White Pearl · Certified pre-owned
@@ -667,110 +499,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,716
   - Fuel / electricity: $7,677
   - Maintenance: $1,978
-  - Insurance: $18,987
+  - Insurance: $20,243
   - Registration: $1,476
   - Major-repair reserve (expected): $348
-  - **6-year total: $39,444** ($548/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,981
+  - **6-year total: $40,700** ($565/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,400
 
-### 17. 2022 Nissan Leaf S — $15,238
-
-- VIN: `1N4AZ1BV0NC558693`
-- Mileage: 39,835 mi · Color: Deep Blue Pearl · Certified pre-owned
-- Location: Lithia Toyota of Springfield, Springfield OR (246 mi away)
-- Days on lot: 52
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785453432
-- Powertrain: **Battery electric** · 149 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard · blind-spot standard (VIN-confirmed)
-  - IIHS: Top Safety Pick (2018–19 w/ good headlights)
-  - AEB standard on all 2018+. Blind-Spot Warning is SV and SL only — the base S does NOT have it.
-  - Also standard on this trim (S): fcw, lka, backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 182 complaints, 0 recalls for the 2022 Nissan Leaf
-  - 85% of its 182 NHTSA complaints (154) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2022/NISSAN/LEAF%20(40%20KWH%20BATTERY)%20%2B%20LEAF%20PLUS%20(62%20KWH%20BATTERY)
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":4,"milesLeft":60165,"effectiveYears":4,"note":"Federal battery warranty still covers roughly 4.0 more year(s) at 130 mi/wk — limited by age (4 yr left of 8). Transfers to you."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $15,238
-  - Sales tax: $1,539
-  - Fuel / electricity: $3,203
-  - Maintenance: $1,022
-  - Insurance: $18,514
-  - Registration: $2,244
-  - Major-repair reserve (expected): $201
-  - **6-year total: $35,519** ($493/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,324
-
-### 18. 2020 Hyundai Ioniq SE — $11,995
-
-- VIN: `KMHC75LC3LU233701`
-- Mileage: 124,730 mi · Color: Ceramic White · Certified pre-owned
-- Location: Sheppard Motors, Eugene OR (244 mi away)
-- Days on lot: 9
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789130709
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-- Safety: AEB standard · blind-spot trim
-  - IIHS: Top Safety Pick
-  - Hyundai SmartSense with AEB standard from 2020.
-- Reliability (model-year level): **ok** — confidence low
-  - NHTSA: 1 complaints, 0 recalls for the 2020 Hyundai Ioniq
-  - Only 1 NHTSA complaint on record — too few to draw a firm conclusion.
-  - Source: https://www.nhtsa.gov/vehicle/2020/HYUNDAI/IONIQ
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $11,995
-  - Sales tax: $1,211
-  - Fuel / electricity: $4,457
-  - Maintenance: $2,312
-  - Insurance: $17,639
-  - Registration: $1,218
-  - Major-repair reserve (expected): $1,208
-  - **6-year total: $34,118** ($474/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,748
-
-### 19. 2024 Kia Forte LXS — $19,700
-
-- VIN: `3KPF24AD2RE782383`
-- Mileage: 2,644 mi · Color: Deep Sea Blue · Certified pre-owned
-- Location: Go Kia Renton, Renton WA (7 mi away)
-- Days on lot: 12
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788919633
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot trim
-  - IIHS: Top Safety Pick (2019+)
-  - Forward Collision-Avoidance Assist standard from 2019.
-  - Also standard on this trim (LX, LXS): fcw, lka, backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 24 complaints, 0 recalls for the 2024 Kia Forte
-  - 24 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2024/KIA/FORTE
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $19,700
-  - Sales tax: $1,990
-  - Fuel / electricity: $7,375
-  - Maintenance: $1,978
-  - Insurance: $19,719
-  - Registration: $1,632
-  - Major-repair reserve (expected): $219
-  - **6-year total: $41,097** ($571/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,435
-
-### 20. 2023 Kia Niro Wind — $19,990
+### 12. 2023 Kia Niro Wind — $19,990
 
 - VIN: `KNDCR3L13P5035248`
 - Mileage: 39,464 mi · Color: Aurora Black Pearl · Certified pre-owned
@@ -798,44 +533,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $2,019
   - Fuel / electricity: $3,203
   - Maintenance: $935
-  - Insurance: $19,797
+  - Insurance: $20,639
   - Registration: $2,544
   - Major-repair reserve (expected): $183
-  - **6-year total: $39,977** ($555/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $15,621
+  - **6-year total: $40,819** ($567/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,902
 
-### 21. 2017 Kia Rio LX — $6,969
-
-- VIN: `KNADM4A34H6113736`
-- Mileage: 90,685 mi · Color: Bright Silver · Certified pre-owned
-- Location: Bud Clary Chevrolet - Toyota of Moses Lake, Moses Lake WA (140 mi away)
-- Days on lot: 32
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787184819
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.6 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2017 Kia Rio. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 31 complaints, 2 recalls for the 2017 Kia Rio
-  - 31 NHTSA complaints, no single system dominating.
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - Source: https://www.nhtsa.gov/vehicle/2017/KIA/RIO
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $6,969
-  - Sales tax: $704
-  - Fuel / electricity: $7,825
-  - Maintenance: $3,212
-  - Insurance: $16,282
-  - Registration: $924
-  - Major-repair reserve (expected): $1,495
-  - **6-year total: $33,133** ($460/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,044
-
-### 22. 2025 Nissan Versa SR — $20,500
+### 13. 2025 Nissan Versa SR — $20,500
 
 - VIN: `3N1CN8FV3SL888624`
 - Mileage: 962 mi · Color: Scarlet Ember · Certified pre-owned
@@ -860,13 +564,78 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $2,071
   - Fuel / electricity: $6,836
   - Maintenance: $2,026
-  - Insurance: $19,935
+  - Insurance: $20,706
   - Registration: $1,668
   - Major-repair reserve (expected): $186
-  - **6-year total: $41,238** ($573/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,982
+  - **6-year total: $42,009** ($583/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,239
 
-### 23. 2022 Chevrolet Bolt EUV LT — $19,945
+### 14. 2022 Nissan Leaf S — $15,238
+
+- VIN: `1N4AZ1BV0NC558693`
+- Mileage: 39,835 mi · Color: Deep Blue Pearl · Certified pre-owned
+- Location: Lithia Toyota of Springfield, Springfield OR (246 mi away)
+- Days on lot: 52
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785453432
+- Powertrain: **Battery electric** · 149 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard · blind-spot standard (VIN-confirmed)
+  - IIHS: Top Safety Pick (2018–19 w/ good headlights)
+  - AEB standard on all 2018+. Blind-Spot Warning is SV and SL only — the base S does NOT have it.
+  - Also standard on this trim (S): fcw, lka, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 184 complaints, 0 recalls for the 2022 Nissan Leaf
+  - 85% of its 184 NHTSA complaints (156) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2022/NISSAN/LEAF%20(40%20KWH%20BATTERY)%20%2B%20LEAF%20PLUS%20(62%20KWH%20BATTERY)
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":4,"milesLeft":60165,"effectiveYears":4,"note":"Federal battery warranty still covers roughly 4.0 more year(s) at 130 mi/wk — limited by age (4 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $15,238
+  - Sales tax: $1,539
+  - Fuel / electricity: $3,203
+  - Maintenance: $1,022
+  - Insurance: $20,011
+  - Registration: $2,244
+  - Major-repair reserve (expected): $201
+  - **6-year total: $37,016** ($514/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,823
+
+### 15. 2023 Nissan Versa S — $14,500
+
+- VIN: `3N1CN8DV7PL830753`
+- Mileage: 24,388 mi · Color: Gun Metallic · Certified pre-owned
+- Location: Nissan of Everett, Everett WA (24 mi away)
+- Days on lot: 3
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789712360
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.6 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2023 Nissan Versa. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (S): fcw, lka, backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 37 complaints, 1 recalls for the 2023 Nissan Versa
+  - 37 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2023/NISSAN/VERSA
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $14,500
+  - Sales tax: $1,465
+  - Fuel / electricity: $6,836
+  - Maintenance: $2,159
+  - Insurance: $19,914
+  - Registration: $1,326
+  - Major-repair reserve (expected): $394
+  - **6-year total: $38,118** ($529/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,548
+
+### 16. 2022 Chevrolet Bolt EUV LT — $19,945
 
 - VIN: `1G1FY6S07N4121796`
 - Mileage: 38,652 mi · Color: Bright Blue Metallic · Certified pre-owned
@@ -895,46 +664,44 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $2,014
   - Fuel / electricity: $2,990
   - Maintenance: $1,314
-  - Insurance: $19,785
+  - Insurance: $20,633
   - Registration: $2,514
   - Major-repair reserve (expected): $276
-  - **6-year total: $39,612** ($550/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,187
+  - **6-year total: $40,460** ($562/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,470
 
-### 24. 2019 FIAT 500 e — $15,200
+### 17. 2020 Hyundai Ioniq SE — $11,995
 
-- VIN: `3C3CFFGE3KT680213`
-- Mileage: 35,445 mi · Color: Granito Lucente (granite Cryst · Certified pre-owned
-- Location: Go Hyundai of Renton, Renton WA (7 mi away)
-- Days on lot: 17
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788426969
-- Powertrain: **Battery electric** · 84 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2019 FIAT 500. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (Battery Electric): backupCam
-- Reliability (model-year level): **unknown** — confidence none
-  - NHTSA: 0 complaints, 0 recalls for the 2019 FIAT 500
-  - Could not match "500" to a model name NHTSA publishes for the 2019 FIAT, so no complaint or recall history was retrieved. This is ABSENCE OF DATA — it is not a clean record.
-  - Source: https://www.nhtsa.gov/vehicle/2019/FIAT/500
-  - Caveat: No NHTSA record was retrieved for this vehicle. Check the NHTSA page directly before treating it as trouble-free.
-- Traction battery warranty: {"covered":true,"yearsLeft":1,"milesLeft":64555,"effectiveYears":1,"note":"Battery warranty nearly up — about 1.0 more year(s), whichever of 8yr/100k comes first. Little protection left for Jordyn, none for Emma."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
+- VIN: `KMHC75LC3LU233701`
+- Mileage: 124,730 mi · Color: Ceramic White · Certified pre-owned
+- Location: Sheppard Motors, Eugene OR (244 mi away)
+- Days on lot: 9
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789130709
+- Powertrain: **Hybrid**
+  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
+- Safety: AEB standard · blind-spot trim
+  - IIHS: Top Safety Pick
+  - Hyundai SmartSense with AEB standard from 2020.
+- Reliability (model-year level): **ok** — confidence low
+  - NHTSA: 1 complaints, 0 recalls for the 2020 Hyundai Ioniq
+  - Only 1 NHTSA complaint on record — too few to draw a firm conclusion.
+  - Source: https://www.nhtsa.gov/vehicle/2020/HYUNDAI/IONIQ
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $15,200
-  - Sales tax: $1,535
-  - Fuel / electricity: $3,630
-  - Maintenance: $1,164
-  - Insurance: $18,504
-  - Registration: $2,334
-  - Major-repair reserve (expected): $397
-  - **6-year total: $36,206** ($503/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,044
+  - Purchase price: $11,995
+  - Sales tax: $1,211
+  - Fuel / electricity: $4,457
+  - Maintenance: $2,312
+  - Insurance: $19,583
+  - Registration: $1,218
+  - Major-repair reserve (expected): $1,208
+  - **6-year total: $36,062** ($501/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,396
 
-### 25. 2022 Chevrolet Bolt EUV LT — $17,189
+### 18. 2022 Chevrolet Bolt EUV LT — $17,189
 
 - VIN: `1G1FY6S0XN4108363`
 - Mileage: 68,297 mi · Color: Silver Flare Metallic · Certified pre-owned
@@ -963,13 +730,145 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,736
   - Fuel / electricity: $2,990
   - Maintenance: $1,572
-  - Insurance: $19,041
+  - Insurance: $20,269
   - Registration: $2,358
   - Major-repair reserve (expected): $380
-  - **6-year total: $37,812** ($525/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,630
+  - **6-year total: $39,040** ($542/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,039
 
-### 26. 2021 Hyundai Accent SE — $8,499
+### 19. 2019 FIAT 500 e — $15,200
+
+- VIN: `3C3CFFGE3KT680213`
+- Mileage: 35,445 mi · Color: Granito Lucente (granite Cryst · Certified pre-owned
+- Location: Go Hyundai of Renton, Renton WA (7 mi away)
+- Days on lot: 17
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788426969
+- Powertrain: **Battery electric** · 84 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2019 FIAT 500. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (Battery Electric): backupCam
+- Reliability (model-year level): **unknown** — confidence none
+  - NHTSA: 0 complaints, 0 recalls for the 2019 FIAT 500
+  - Could not match "500" to a model name NHTSA publishes for the 2019 FIAT, so no complaint or recall history was retrieved. This is ABSENCE OF DATA — it is not a clean record.
+  - Source: https://www.nhtsa.gov/vehicle/2019/FIAT/500
+  - Caveat: No NHTSA record was retrieved for this vehicle. Check the NHTSA page directly before treating it as trouble-free.
+- Traction battery warranty: {"covered":true,"yearsLeft":1,"milesLeft":64555,"effectiveYears":1,"note":"Battery warranty nearly up — about 1.0 more year(s), whichever of 8yr/100k comes first. Little protection left for Jordyn, none for Emma."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $15,200
+  - Sales tax: $1,535
+  - Fuel / electricity: $3,630
+  - Maintenance: $1,164
+  - Insurance: $20,006
+  - Registration: $2,334
+  - Major-repair reserve (expected): $397
+  - **6-year total: $37,708** ($524/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,545
+
+### 20. 2017 Kia Rio LX — $6,969
+
+- VIN: `KNADM4A34H6113736`
+- Mileage: 90,685 mi · Color: Bright Silver · Certified pre-owned
+- Location: Bud Clary Chevrolet - Toyota of Moses Lake, Moses Lake WA (140 mi away)
+- Days on lot: 32
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787184819
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.6 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2017 Kia Rio. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 31 complaints, 2 recalls for the 2017 Kia Rio
+  - 31 NHTSA complaints, no single system dominating.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - Source: https://www.nhtsa.gov/vehicle/2017/KIA/RIO
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $6,969
+  - Sales tax: $704
+  - Fuel / electricity: $7,825
+  - Maintenance: $3,212
+  - Insurance: $18,920
+  - Registration: $924
+  - Major-repair reserve (expected): $1,495
+  - **6-year total: $35,771** ($497/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,924
+
+### 21. 2018 Kia Niro EX Premium — $17,500
+
+- VIN: `KNDCC3LD4J5144563`
+- Mileage: 60,746 mi · Color: Gravity Blue · Certified pre-owned
+- Location: Royal Moore Auto Center, Hillsboro OR (147 mi away)
+- Days on lot: 0
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789943127
+- Powertrain: **Plug-in hybrid** · 26 mi electric range
+  - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - IIHS: Top Safety Pick (2017–19)
+  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
+  - Also standard on this trim (EX Premium (PHEV), Graphite Edition (HEV)): fcw, lka, acc, backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 13 complaints, 0 recalls for the 2018 Kia Niro
+  - 13 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2018/KIA/NIRO%20PLUG-IN%20HYBRID
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":39254,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (8 yr, 60,746 mi) — a pack failure would be entirely out of pocket."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: yes · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $17,500
+  - Sales tax: $1,768
+  - Fuel / electricity: $4,118
+  - Maintenance: $1,815
+  - Insurance: $20,310
+  - Registration: $1,584
+  - Major-repair reserve (expected): $1,001
+  - **6-year total: $37,866** ($526/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,197
+
+### 22. 2024 Kia Niro Wind — $26,793
+
+- VIN: `KNDCR3L16R5098086`
+- Mileage: 1,221 mi · Color: Mineral Blue · Certified pre-owned
+- Location: Chuck Olson Chevrolet, Seattle WA (16 mi away)
+- Days on lot: 49
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785651121
+- Powertrain: **Battery electric** · 253 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - ⚠️ IIHS: IIHS rated the hybrid and plug-in version of this model — not the electric version. Structure is largely shared, so the result is reassuring, but this exact powertrain did not earn the award.
+  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
+  - Also standard on this trim (Wind): fcw, lka, acc, rcta, backupCam
+- Reliability (model-year level): **ok** — confidence low
+  - NHTSA: 9 complaints, 1 recalls for the 2024 Kia Niro
+  - Only 9 NHTSA complaints on record — too few to draw a firm conclusion.
+  - Source: https://www.nhtsa.gov/vehicle/2024/KIA/NIRO
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":6,"milesLeft":98779,"effectiveYears":6,"note":"Federal battery warranty still covers roughly 6.0 more year(s) at 130 mi/wk — limited by age (6 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $26,793
+  - Sales tax: $2,706
+  - Fuel / electricity: $3,203
+  - Maintenance: $879
+  - Insurance: $21,537
+  - Registration: $2,946
+  - Major-repair reserve (expected): $84
+  - **6-year total: $46,324** ($643/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $16,906
+
+### 23. 2021 Hyundai Accent SE — $8,499
 
 - VIN: `3KPC24A66ME132355`
 - Mileage: 50,815 mi · Color: Black · Certified pre-owned
@@ -994,13 +893,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $858
   - Fuel / electricity: $6,649
   - Maintenance: $2,364
-  - Insurance: $16,695
+  - Insurance: $19,122
   - Registration: $990
   - Major-repair reserve (expected): $683
-  - **6-year total: $31,770** ($441/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,122
+  - **6-year total: $34,197** ($475/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,931
 
-### 27. 2018 Nissan Leaf SV — $9,977
+### 24. 2018 Nissan Leaf SV — $9,977
 
 - VIN: `1N4AZ1CP3JC313218`
 - Mileage: 97,594 mi · Color: Pearl White · Certified pre-owned
@@ -1027,45 +926,15 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,008
   - Fuel / electricity: $3,203
   - Maintenance: $1,527
-  - Insurance: $17,094
+  - Insurance: $19,317
   - Registration: $2,016
   - Major-repair reserve (expected): $663
-  - **6-year total: $31,445** ($437/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,874
+  - **6-year total: $33,668** ($468/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,615
+- Standout: true
+- Note: Cheapest car here with AEB standard AND an IIHS Top Safety Pick — the strongest safety-per-dollar pick on the page.
 
-### 28. 2019 Ford Fusion SE — $8,900
-
-- VIN: `3FA6P0LU8KR256593`
-- Mileage: 96,029 mi · Certified pre-owned
-- Location: THE PRICE KING AUTO SALES, Lakewood WA (32 mi away)
-- Days on lot: 96
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/781625152
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 2 L engine.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2019 Ford Fusion. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (SE Hybrid): fcw, lka, acc, backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 371 complaints, 3 recalls for the 2019 Ford Fusion
-  - 57% of its 371 NHTSA complaints (212) concern the engine — a concentrated pattern, not scattered noise.
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - Source: https://www.nhtsa.gov/vehicle/2019/FORD/FUSION
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $8,900
-  - Sales tax: $899
-  - Fuel / electricity: $5,781
-  - Maintenance: $3,457
-  - Insurance: $16,803
-  - Registration: $1,044
-  - Major-repair reserve (expected): $1,831
-  - **6-year total: $33,679** ($468/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,183
-
-### 29. 2021 MAZDA MAZDA3 s — $12,999
+### 25. 2021 MAZDA MAZDA3 s — $12,999
 
 - VIN: `JM1BPAAL9M1339116`
 - Mileage: 104,257 mi · Certified pre-owned
@@ -1091,77 +960,144 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,313
   - Fuel / electricity: $8,085
   - Maintenance: $3,081
-  - Insurance: $17,910
+  - Insurance: $19,716
   - Registration: $1,254
   - Major-repair reserve (expected): $1,076
-  - **6-year total: $39,105** ($543/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $15,388
+  - **6-year total: $40,911** ($568/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,990
 
-### 30. 2017 Ford C-MAX SE — $9,500
+### 26. 2022 Chevrolet Bolt EUV LT — $16,881
 
-- VIN: `1FADP5AU6HL114550`
-- Mileage: 111,635 mi · Color: Ruby Red Metallic · Certified pre-owned
-- Location: Newport Ford, Newport OR (221 mi away)
-- Days on lot: 98
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/777822076
+- VIN: `1G1FY6S02N4107515`
+- Mileage: 96,379 mi · Color: Gray Ghost Metallic · Certified pre-owned
+- Location: Art Gamblin Motors, Enumclaw WA (26 mi away)
+- Days on lot: 17
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788450212
+- Powertrain: **Battery electric** · 247 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot trim
+  - IIHS: Good in most tests
+  - Chevy Safety Assist (incl. AEB) standard from 2022.
+  - Also standard on this trim (LT): fcw, lka, backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 26 complaints, 4 recalls for the 2022 Chevrolet Bolt EUV
+  - 26 NHTSA complaints, no single system dominating.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - Source: https://www.nhtsa.gov/vehicle/2022/CHEVROLET/BOLT%20EUV
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":4,"milesLeft":3621,"effectiveYears":0.5,"note":"Battery warranty nearly up — about 0.5 more year(s), whichever of 8yr/100k comes first. Little protection left for Jordyn, none for Emma."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $16,881
+  - Sales tax: $1,705
+  - Fuel / electricity: $2,990
+  - Maintenance: $1,817
+  - Insurance: $20,228
+  - Registration: $2,340
+  - Major-repair reserve (expected): $513
+  - **6-year total: $39,852** ($554/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $16,333
+
+### 27. 2019 Ford Fusion SE — $8,900
+
+- VIN: `3FA6P0LU8KR256593`
+- Mileage: 96,029 mi · Certified pre-owned
+- Location: THE PRICE KING AUTO SALES, Lakewood WA (32 mi away)
+- Days on lot: 96
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/781625152
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 2 L engine.
-- Safety: AEB standard (VIN-confirmed) · blind-spot rare
-  - IIHS: Good frontal
-  - Very little driver-assist tech was offered — usually fails the teen safety bar.
-  - Also standard on this trim (SE FHEV): backupCam
-- Reliability (model-year level): **ok** — confidence low
-  - NHTSA: 1 complaints, 1 recalls for the 2017 Ford C-MAX
-  - Only 1 NHTSA complaint on record — too few to draw a firm conclusion.
-  - Source: https://www.nhtsa.gov/vehicle/2017/FORD/C-MAX
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2019 Ford Fusion. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (SE Hybrid): fcw, lka, acc, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 371 complaints, 3 recalls for the 2019 Ford Fusion
+  - 57% of its 371 NHTSA complaints (212) concern the engine — a concentrated pattern, not scattered noise.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - Source: https://www.nhtsa.gov/vehicle/2019/FORD/FUSION
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $8,900
+  - Sales tax: $899
+  - Fuel / electricity: $5,781
+  - Maintenance: $3,457
+  - Insurance: $19,175
+  - Registration: $1,044
+  - Major-repair reserve (expected): $1,831
+  - **6-year total: $36,051** ($501/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,974
+
+### 28. 2021 Chevrolet Trax LT — $15,998
+
+- VIN: `KL7CJPSM3MB363936`
+- Mileage: 24,553 mi · Color: Silver Ice Metallic · Certified pre-owned
+- Location: McLoughlin Chevrolet, Milwaukie OR (151 mi away)
+- Days on lot: 12
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788950524
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.4 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2021 Chevrolet Trax. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (1LT): fcw, backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 24 complaints, 0 recalls for the 2021 Chevrolet Trax
+  - 24 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2021/CHEVROLET/TRAX
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $15,998
+  - Sales tax: $1,616
+  - Fuel / electricity: $9,289
+  - Maintenance: $2,972
+  - Insurance: $20,112
+  - Registration: $1,428
+  - Major-repair reserve (expected): $681
+  - **6-year total: $42,744** ($594/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,823
+
+### 29. 2020 Tesla Model 3 Standard Range Plus — $27,490
+
+- VIN: `5YJ3E1EA2LF504190`
+- Mileage: 1,007 mi · Color: Pearl White · Certified pre-owned
+- Location: Diplomat Motors - Portland, Portland OR (145 mi away)
+- Days on lot: 54
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785314483
+- Powertrain: **Battery electric** · 250 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2020 Tesla Model 3. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+- Reliability (model-year level): **ok** — confidence high
+  - NHTSA: 447 complaints, 21 recalls for the 2020 Tesla Model 3
+  - 447 NHTSA complaints, no single system dominating.
+  - 21 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2020/TESLA/MODEL%203
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":2,"milesLeft":98993,"effectiveYears":2,"note":"Federal battery warranty still covers roughly 2.0 more year(s) at 130 mi/wk — limited by age (2 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $9,500
-  - Sales tax: $960
-  - Fuel / electricity: $6,054
-  - Maintenance: $3,837
-  - Insurance: $16,965
-  - Registration: $1,080
-  - Major-repair reserve (expected): $2,447
-  - **6-year total: $35,051** ($487/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,216
+  - Purchase price: $27,490
+  - Sales tax: $2,776
+  - Fuel / electricity: $3,630
+  - Maintenance: $1,739
+  - Insurance: $21,629
+  - Registration: $3,054
+  - Major-repair reserve (expected): $317
+  - **6-year total: $48,673** ($676/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $17,943
 
-### 31. 2020 Kia Niro LX — $12,250
-
-- VIN: `KNDCB3LC8L5369257`
-- Mileage: 108,567 mi · Color: Deep Cerulean · Certified pre-owned
-- Location: Gresham Subaru, Gresham OR (143 mi away)
-- Days on lot: 2
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789744936
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-- Safety: AEB standard (VIN-confirmed) · blind-spot trim
-  - IIHS: Top Safety Pick (2017–19)
-  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
-  - Also standard on this trim (LX, LXS): backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 37 complaints, 0 recalls for the 2020 Kia Niro
-  - 37 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2020/KIA/NIRO%20HYBRID
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: yes · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $12,250
-  - Sales tax: $1,237
-  - Fuel / electricity: $4,987
-  - Maintenance: $2,186
-  - Insurance: $17,708
-  - Registration: $1,230
-  - Major-repair reserve (expected): $1,100
-  - **6-year total: $34,299** ($476/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,447
-
-### 32. 2017 Ford C-MAX Energi Titanium — $14,230
+### 30. 2017 Ford C-MAX Energi Titanium — $14,230
 
 - VIN: `1FADP5FU4HL114880`
 - Mileage: 57,719 mi · Color: Kona Blue Metallic · Certified pre-owned
@@ -1189,110 +1125,45 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,437
   - Fuel / electricity: $5,156
   - Maintenance: $2,997
-  - Insurance: $18,242
+  - Insurance: $19,878
   - Registration: $1,374
   - Major-repair reserve (expected): $1,746
-  - **6-year total: $36,447** ($506/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,058
+  - **6-year total: $38,083** ($529/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,603
 
-### 33. 2017 Ford Focus Electric Hatchback — $9,995
+### 31. 2020 Kia Niro LX — $12,250
 
-- VIN: `1FADP3R43HL293042`
-- Mileage: 31,313 mi · Color: Black · Certified pre-owned
-- Location: Emerald Motors, Blaine WA (99 mi away)
-- Days on lot: 17
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788441661
-- Powertrain: **Battery electric** · 115 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2017 Ford Focus. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (BEV): backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 901 complaints, 10 recalls for the 2017 Ford Focus
-  - 50% of its 901 NHTSA complaints (453) concern the powertrain — a concentrated pattern, not scattered noise.
-  - 10 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2017/FORD/FOCUS
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":68687,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 31,313 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED
-  - Salvage title: no · Accidents reported: no · One owner: not reported
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $9,995
-  - Sales tax: $1,009
-  - Fuel / electricity: $3,630
-  - Maintenance: $1,761
-  - Insurance: $17,099
-  - Registration: $2,010
-  - Major-repair reserve (expected): $674
-  - **6-year total: $31,676** ($440/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,883
-
-### 34. 2018 Toyota Prius C Four — $13,999
-
-- VIN: `JTDKDTB38J1605319`
-- Mileage: 100,749 mi · Color: Black Sand Pearl · Certified pre-owned
-- Location: Dick Hannah Dealerships, Vancouver WA (132 mi away)
-- Days on lot: 26
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787658558
+- VIN: `KNDCB3LC8L5369257`
+- Mileage: 108,567 mi · Color: Deep Cerulean · Certified pre-owned
+- Location: Gresham Subaru, Gresham OR (143 mi away)
+- Days on lot: 2
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789744936
 - Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.5 L engine.
+  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
 - Safety: AEB standard (VIN-confirmed) · blind-spot trim
   - IIHS: Top Safety Pick (2017–19)
-  - TSS-P standard. 25 mi electric range covers the 32-mi barn round trip only partly — it runs as a hybrid after.
-- Reliability (model-year level): **ok** — confidence low
-  - NHTSA: 6 complaints, 2 recalls for the 2018 Toyota Prius C
-  - Only 6 NHTSA complaints on record — too few to draw a firm conclusion.
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - Source: https://www.nhtsa.gov/vehicle/2018/TOYOTA/PRIUS%20C
+  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
+  - Also standard on this trim (LX, LXS): backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 37 complaints, 0 recalls for the 2020 Kia Niro
+  - 37 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2020/KIA/NIRO%20HYBRID
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: yes · One owner: no
+- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: yes · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $13,999
-  - Sales tax: $1,414
-  - Fuel / electricity: $5,314
-  - Maintenance: $2,042
-  - Insurance: $18,180
-  - Registration: $1,362
-  - Major-repair reserve (expected): $1,182
-  - **6-year total: $35,391** ($492/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,166
+  - Purchase price: $12,250
+  - Sales tax: $1,237
+  - Fuel / electricity: $4,987
+  - Maintenance: $2,186
+  - Insurance: $19,617
+  - Registration: $1,230
+  - Major-repair reserve (expected): $1,100
+  - **6-year total: $36,208** ($503/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,083
 
-### 35. 2021 Hyundai Sonata Blue — $12,999
-
-- VIN: `KMHL24JJ9MA025867`
-- Mileage: 106,023 mi · Color: Portofino Gray · Certified pre-owned
-- Location: One Stop Yakima, Yakima WA (102 mi away)
-- Days on lot: 5
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789590404
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 2 L engine.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2021 Hyundai Sonata. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (Blue): fcw, lka, acc, rcta, backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 130 complaints, 4 recalls for the 2021 Hyundai Sonata
-  - 28% of its 130 NHTSA complaints (37) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2021/HYUNDAI/SONATA
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $12,999
-  - Sales tax: $1,313
-  - Fuel / electricity: $4,698
-  - Maintenance: $2,095
-  - Insurance: $17,910
-  - Registration: $1,254
-  - Major-repair reserve (expected): $954
-  - **6-year total: $34,651** ($481/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,955
-
-### 36. 2023 Hyundai Kona SE — $15,750
+### 32. 2023 Hyundai Kona SE — $15,750
 
 - VIN: `KM8K23AG9PU174017`
 - Mileage: 62,815 mi · Color: Abyss Black Pearl · Certified pre-owned
@@ -1320,44 +1191,142 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,591
   - Fuel / electricity: $2,990
   - Maintenance: $1,071
-  - Insurance: $18,653
+  - Insurance: $20,079
   - Registration: $2,298
   - Major-repair reserve (expected): $234
-  - **6-year total: $36,243** ($503/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,672
+  - **6-year total: $37,669** ($523/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,147
 
-### 37. 2021 Chevrolet Trax LT — $13,750
+### 33. 2018 Toyota Prius C Four — $13,999
 
-- VIN: `KL7CJPSB6MB325700`
-- Mileage: 64,801 mi · Color: Midnight Blue Metallic · Certified pre-owned
-- Location: Kia of Warrenton, Warrenton OR (127 mi away)
-- Days on lot: 110
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/780485746
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.4 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2021 Chevrolet Trax. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (1LT): fcw, backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 24 complaints, 0 recalls for the 2021 Chevrolet Trax
-  - 24 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2021/CHEVROLET/TRAX
+- VIN: `JTDKDTB38J1605319`
+- Mileage: 100,748 mi · Color: Black Sand Pearl · Certified pre-owned
+- Location: Dick Hannah Dealerships, Vancouver WA (132 mi away)
+- Days on lot: 26
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787658558
+- Powertrain: **Hybrid**
+  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.5 L engine.
+- Safety: AEB standard (VIN-confirmed) · blind-spot trim
+  - IIHS: Top Safety Pick (2017–19)
+  - TSS-P standard. 25 mi electric range covers the 32-mi barn round trip only partly — it runs as a hybrid after.
+- Reliability (model-year level): **ok** — confidence low
+  - NHTSA: 6 complaints, 2 recalls for the 2018 Toyota Prius C
+  - Only 6 NHTSA complaints on record — too few to draw a firm conclusion.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - Source: https://www.nhtsa.gov/vehicle/2018/TOYOTA/PRIUS%20C
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: yes · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $13,999
+  - Sales tax: $1,414
+  - Fuel / electricity: $5,314
+  - Maintenance: $2,042
+  - Insurance: $19,848
+  - Registration: $1,362
+  - Major-repair reserve (expected): $1,182
+  - **6-year total: $37,059** ($515/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,722
+
+### 34. 2021 Hyundai Sonata Blue — $12,999
+
+- VIN: `KMHL24JJ9MA025867`
+- Mileage: 106,023 mi · Color: Portofino Gray · Certified pre-owned
+- Location: One Stop Yakima, Yakima WA (102 mi away)
+- Days on lot: 5
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789590404
+- Powertrain: **Hybrid**
+  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 2 L engine.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2021 Hyundai Sonata. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (Blue): fcw, lka, acc, rcta, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 130 complaints, 4 recalls for the 2021 Hyundai Sonata
+  - 28% of its 130 NHTSA complaints (37) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2021/HYUNDAI/SONATA
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $13,750
-  - Sales tax: $1,389
-  - Fuel / electricity: $9,289
-  - Maintenance: $3,556
-  - Insurance: $18,113
-  - Registration: $1,296
-  - Major-repair reserve (expected): $1,104
-  - **6-year total: $40,541** ($563/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,859
+  - Purchase price: $12,999
+  - Sales tax: $1,313
+  - Fuel / electricity: $4,698
+  - Maintenance: $2,095
+  - Insurance: $19,716
+  - Registration: $1,254
+  - Major-repair reserve (expected): $954
+  - **6-year total: $36,457** ($506/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,557
 
-### 38. 2022 Volvo XC40 P8 Recharge Plus — $15,897
+### 35. 2017 Ford Focus Electric Hatchback — $9,995
+
+- VIN: `1FADP3R43HL293042`
+- Mileage: 31,313 mi · Color: Black · Certified pre-owned
+- Location: Emerald Motors, Blaine WA (99 mi away)
+- Days on lot: 17
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788441661
+- Powertrain: **Battery electric** · 115 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2017 Ford Focus. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (BEV): backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 901 complaints, 10 recalls for the 2017 Ford Focus
+  - 50% of its 901 NHTSA complaints (453) concern the powertrain — a concentrated pattern, not scattered noise.
+  - 10 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2017/FORD/FOCUS
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":68687,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 31,313 mi) — a pack failure would be entirely out of pocket."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED
+  - Salvage title: no · Accidents reported: no · One owner: not reported
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $9,995
+  - Sales tax: $1,009
+  - Fuel / electricity: $3,630
+  - Maintenance: $1,761
+  - Insurance: $19,319
+  - Registration: $2,010
+  - Major-repair reserve (expected): $674
+  - **6-year total: $33,896** ($471/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,623
+
+### 36. 2023 Polestar Polestar 2 — $20,000
+
+- VIN: `YSMED3KA8PL135113`
+- Mileage: 83,417 mi · Color: Snow Metallic · Certified pre-owned
+- Location: Top Gear Motors, Lynnwood WA (20 mi away)
+- Days on lot: 11
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789018367
+- Powertrain: **Battery electric** · 260 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2023 Polestar Polestar 2. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+- Reliability (model-year level): **ok** — confidence high
+  - NHTSA: 114 complaints, 4 recalls for the 2023 Polestar Polestar 2
+  - 114 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2023/POLESTAR/POLESTAR%202
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":5,"milesLeft":16583,"effectiveYears":2.5,"note":"Federal battery warranty still covers roughly 2.5 more year(s) at 130 mi/wk — limited by mileage (16,583 mi left of 100k). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $20,000
+  - Sales tax: $2,020
+  - Fuel / electricity: $3,630
+  - Maintenance: $1,976
+  - Insurance: $20,640
+  - Registration: $2,544
+  - Major-repair reserve (expected): $526
+  - **6-year total: $43,867** ($609/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $18,738
+
+### 37. 2022 Volvo XC40 P8 Recharge Plus — $15,897
 
 - VIN: `YV4ED3UR6N2762763`
 - Mileage: 119,977 mi · Color: Thunder Grey Metalli · Certified pre-owned
@@ -1384,78 +1353,110 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,606
   - Fuel / electricity: $3,630
   - Maintenance: $2,399
-  - Insurance: $18,692
+  - Insurance: $20,098
   - Registration: $2,286
   - Major-repair reserve (expected): $882
-  - **6-year total: $40,015** ($556/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $17,145
+  - **6-year total: $41,421** ($575/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $17,613
 
-### 39. 2021 Chevrolet Bolt LT — $17,995
+### 38. 2019 Hyundai Kona SE — $13,995
 
-- VIN: `1G1FW6S03M4108225`
-- Mileage: 36,416 mi · Color: Summit White · Certified pre-owned
-- Location: 405 Motors, Woodinville WA (15 mi away)
-- Days on lot: 34
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/786923378
-- Powertrain: **Battery electric** · 259 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- VIN: `KM8K1CAA0KU294487`
+- Mileage: 41,578 mi · Color: Gray · Certified pre-owned
+- Location: LOYAL MOTORS, Bellevue WA (4 mi away)
+- Days on lot: 9
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789102178
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
 - Safety: AEB standard (VIN-confirmed) · blind-spot trim
-  - IIHS: Good in most tests; headlights Marginal/Poor
-  - AEB = Driver Confidence II package; blind-spot = Driver Confidence I. Neither is standard — confirm on the window sticker.
-  - Also standard on this trim (LT): fcw, backupCam
+  - IIHS: Top Safety Pick (2019–21)
+  - Forward Collision-Avoidance Assist standard 2019+. The IIHS award covers the gas Kona; Kona Electric is a separate rating. Most listings are the gas version — check before assuming.
+  - Also standard on this trim (SE): fcw, lka, backupCam
 - Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 67 complaints, 5 recalls for the 2021 Chevrolet Bolt
-  - 72% of its 67 NHTSA complaints (48) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - 5 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2021/CHEVROLET/BOLT%20EV
+  - NHTSA: 187 complaints, 1 recalls for the 2019 Hyundai Kona
+  - 73% of its 187 NHTSA complaints (137) concern the engine — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2019/HYUNDAI/KONA
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":3,"milesLeft":63584,"effectiveYears":3,"note":"Federal battery warranty still covers roughly 3.0 more year(s) at 130 mi/wk — limited by age (3 yr left of 8). Transfers to you."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $17,995
-  - Sales tax: $1,817
-  - Fuel / electricity: $2,990
-  - Maintenance: $1,333
-  - Insurance: $19,259
-  - Registration: $2,442
-  - Major-repair reserve (expected): $312
-  - **6-year total: $37,824** ($525/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,004
+  - Purchase price: $13,995
+  - Sales tax: $1,413
+  - Fuel / electricity: $8,914
+  - Maintenance: $2,358
+  - Insurance: $19,847
+  - Registration: $1,356
+  - Major-repair reserve (expected): $771
+  - **6-year total: $40,473** ($562/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,986
 
-### 40. 2017 Chevrolet Spark LS — $4,500
+### 39. 2023 Nissan Ariya FWD — $15,841
 
-- VIN: `KL8CB6SA7HC789296`
-- Mileage: 85,709 mi · Color: Turquoise · Certified pre-owned
-- Location: Atlas Automotive Sales, Hayden ID (250 mi away)
-- Days on lot: 23
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787906869
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.4 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2017 Chevrolet Spark. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (LS): backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 29 complaints, 1 recalls for the 2017 Chevrolet Spark
-  - 29 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2017/CHEVROLET/SPARK
+- VIN: `JN1AF0BA8PM407210`
+- Mileage: 102,848 mi · Color: Black · Certified pre-owned
+- Location: Platt Auto Group, Milwaukee OR (152 mi away)
+- Days on lot: 48
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785831467
+- Powertrain: **Battery electric** · 216 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2023 Nissan Ariya. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+- Reliability (model-year level): **concern** — confidence medium
+  - NHTSA: 39 complaints, 4 recalls for the 2023 Nissan Ariya
+  - 72% of its 39 NHTSA complaints (28) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - Source: https://www.nhtsa.gov/vehicle/2023/NISSAN/ARIYA
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: yes · One owner: no
+- Traction battery warranty: {"covered":false,"yearsLeft":5,"milesLeft":0,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (3 yr, 102,848 mi) — a pack failure would be entirely out of pocket."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $4,500
-  - Sales tax: $455
-  - Fuel / electricity: $7,137
-  - Maintenance: $4,310
-  - Insurance: $15,615
-  - Registration: $768
-  - Major-repair reserve (expected): $1,971
-  - **6-year total: $31,994** ($444/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,591
+  - Purchase price: $15,841
+  - Sales tax: $1,600
+  - Fuel / electricity: $3,630
+  - Maintenance: $1,415
+  - Insurance: $20,091
+  - Registration: $2,304
+  - Major-repair reserve (expected): $437
+  - **6-year total: $39,823** ($553/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $17,075
+
+### 40. 2027 Chevrolet Bolt LT — $26,998
+
+- VIN: `1G1FY6EV0VF107086`
+- Mileage: 1,441 mi · Color: Summit White · Certified pre-owned
+- Location: McLoughlin Chevrolet, Milwaukie OR (151 mi away)
+- Days on lot: 7
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789369215
+- Powertrain: **Battery electric** · 262 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard · blind-spot trim
+  - IIHS: Good in most tests
+  - Chevy Safety Assist (incl. AEB) standard from 2022.
+  - Also standard on this trim (LT): backupCam
+- Reliability (model-year level): **ok** — confidence low
+  - NHTSA: 4 complaints, 1 recalls for the 2027 Chevrolet Bolt
+  - Only 4 NHTSA complaints on record — too few to draw a firm conclusion.
+  - Source: https://www.nhtsa.gov/vehicle/2027/CHEVROLET/BOLT%20EV
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":8,"milesLeft":98559,"effectiveYears":8,"note":"Federal battery warranty still covers roughly 8.0 more year(s) at 130 mi/wk — limited by age (8 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $26,998
+  - Sales tax: $2,727
+  - Fuel / electricity: $2,990
+  - Maintenance: $1,149
+  - Insurance: $21,564
+  - Registration: $2,904
+  - Major-repair reserve (expected): $74
+  - **6-year total: $46,391** ($644/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $18,220
 
 ### 41. 2017 Chevrolet Volt LT — $9,984
 
@@ -1485,109 +1486,75 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,008
   - Fuel / electricity: $3,683
   - Maintenance: $2,946
-  - Insurance: $17,096
+  - Insurance: $19,318
   - Registration: $2,010
   - Major-repair reserve (expected): $1,958
-  - **6-year total: $32,557** ($452/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,787
+  - **6-year total: $34,779** ($483/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,527
 
-### 42. 2019 Hyundai Kona SE — $13,995
+### 42. 2023 Chevrolet TrailBlazer LT — $15,995
 
-- VIN: `KM8K1CAA0KU294487`
-- Mileage: 41,578 mi · Color: Gray · Certified pre-owned
-- Location: LOYAL MOTORS, Bellevue WA (4 mi away)
+- VIN: `KL79MPS21PB033605`
+- Mileage: 61,348 mi · Color: Summit White · Certified pre-owned
+- Location: Primasing Motors, Lebanon OR (212 mi away)
 - Days on lot: 9
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789102178
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789124596
 - Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot trim
-  - IIHS: Top Safety Pick (2019–21)
-  - Forward Collision-Avoidance Assist standard 2019+. The IIHS award covers the gas Kona; Kona Electric is a separate rating. Most listings are the gas version — check before assuming.
-  - Also standard on this trim (SE): fcw, lka, backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 187 complaints, 1 recalls for the 2019 Hyundai Kona
-  - 73% of its 187 NHTSA complaints (137) concern the engine — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2019/HYUNDAI/KONA
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.2 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2023 Chevrolet TrailBlazer. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (LT): fcw, lka, backupCam
+- Reliability (model-year level): **ok** — confidence high
+  - NHTSA: 66 complaints, 0 recalls for the 2023 Chevrolet TrailBlazer
+  - 66 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2023/CHEVROLET/TRAILBLAZER
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $13,995
-  - Sales tax: $1,413
-  - Fuel / electricity: $8,914
-  - Maintenance: $2,358
-  - Insurance: $18,179
-  - Registration: $1,356
-  - Major-repair reserve (expected): $771
-  - **6-year total: $38,805** ($539/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,430
-
-### 43. 2023 Nissan Ariya FWD — $15,841
-
-- VIN: `JN1AF0BA8PM407210`
-- Mileage: 102,848 mi · Color: Black · Certified pre-owned
-- Location: Platt Auto Group, Milwaukee OR (152 mi away)
-- Days on lot: 48
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785831467
-- Powertrain: **Battery electric** · 216 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2023 Nissan Ariya. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **concern** — confidence medium
-  - NHTSA: 39 complaints, 4 recalls for the 2023 Nissan Ariya
-  - 72% of its 39 NHTSA complaints (28) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - Source: https://www.nhtsa.gov/vehicle/2023/NISSAN/ARIYA
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":5,"milesLeft":0,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (3 yr, 102,848 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $15,841
-  - Sales tax: $1,600
-  - Fuel / electricity: $3,630
-  - Maintenance: $1,415
-  - Insurance: $18,677
-  - Registration: $2,304
-  - Major-repair reserve (expected): $437
-  - **6-year total: $38,409** ($533/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $16,604
+  - Purchase price: $15,995
+  - Sales tax: $1,615
+  - Fuel / electricity: $8,139
+  - Maintenance: $3,316
+  - Insurance: $20,111
+  - Registration: $1,416
+  - Major-repair reserve (expected): $803
+  - **6-year total: $42,722** ($593/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $16,523
 
-### 44. 2017 Hyundai Elantra SE — $6,999
+### 43. 2017 Chevrolet Spark LS — $4,500
 
-- VIN: `5NPD74LFXHH165976`
-- Mileage: 96,224 mi · Color: Gray · Certified pre-owned
-- Location: Venture Auto Sales III, Lakewood WA (32 mi away)
-- Days on lot: 222
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/770641205
+- VIN: `KL8CB6SA7HC789296`
+- Mileage: 85,709 mi · Color: Turquoise · Certified pre-owned
+- Location: Atlas Automotive Sales, Hayden ID (250 mi away)
+- Days on lot: 23
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787906869
 - Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.4 L.
 - Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2017 Hyundai Elantra. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (SE Base): backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 764 complaints, 4 recalls for the 2017 Hyundai Elantra
-  - 38% of its 764 NHTSA complaints (292) concern the engine — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2017/HYUNDAI/ELANTRA
+  - No curated safety profile for the 2017 Chevrolet Spark. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (LS): backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 29 complaints, 1 recalls for the 2017 Chevrolet Spark
+  - 29 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2017/CHEVROLET/SPARK
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
+- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $6,999
-  - Sales tax: $707
-  - Fuel / electricity: $6,953
-  - Maintenance: $3,253
-  - Insurance: $16,290
-  - Registration: $924
-  - Major-repair reserve (expected): $1,541
-  - **6-year total: $32,371** ($450/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,895
+  - Purchase price: $4,500
+  - Sales tax: $455
+  - Fuel / electricity: $7,137
+  - Maintenance: $4,310
+  - Insurance: $18,594
+  - Registration: $768
+  - Major-repair reserve (expected): $1,971
+  - **6-year total: $34,973** ($486/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,584
 
-### 45. 2021 Jeep Renegade Latitude — $15,750
+### 44. 2021 Jeep Renegade Latitude — $15,750
 
 - VIN: `ZACNJCBB0MPN11286`
 - Mileage: 46,074 mi · Color: Granite Crystal Metallic Clear · Certified pre-owned
@@ -1612,13 +1579,142 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,591
   - Fuel / electricity: $9,506
   - Maintenance: $3,108
-  - Insurance: $18,653
+  - Insurance: $20,079
   - Registration: $1,410
   - Major-repair reserve (expected): $878
-  - **6-year total: $41,689** ($579/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,697
+  - **6-year total: $43,115** ($599/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,172
 
-### 46. 2017 Ford C-MAX Energi SE — $9,613
+### 45. 2022 Volkswagen Tiguan SE — $15,991
+
+- VIN: `3VV2B7AX0NM055884`
+- Mileage: 40,104 mi · Color: Silver · Certified pre-owned
+- Location: Columbia Motors, Portland OR (143 mi away)
+- Days on lot: 14
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788691898
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2022 Volkswagen Tiguan. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (4Motion SE): fcw, lka, acc, rcta, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 260 complaints, 5 recalls for the 2022 Volkswagen Tiguan
+  - 44% of its 260 NHTSA complaints (115) concern the engine — a concentrated pattern, not scattered noise.
+  - 5 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2022/VOLKSWAGEN/TIGUAN
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $15,991
+  - Sales tax: $1,615
+  - Fuel / electricity: $9,657
+  - Maintenance: $3,112
+  - Insurance: $20,111
+  - Registration: $1,392
+  - Major-repair reserve (expected): $772
+  - **6-year total: $43,302** ($601/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,510
+
+### 46. 2017 Hyundai Elantra SE — $6,999
+
+- VIN: `5NPD74LFXHH165976`
+- Mileage: 96,224 mi · Color: Gray · Certified pre-owned
+- Location: Venture Auto Sales III, Lakewood WA (32 mi away)
+- Days on lot: 222
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/770641205
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2017 Hyundai Elantra. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (SE Base): backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 764 complaints, 4 recalls for the 2017 Hyundai Elantra
+  - 38% of its 764 NHTSA complaints (292) concern the engine — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2017/HYUNDAI/ELANTRA
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $6,999
+  - Sales tax: $707
+  - Fuel / electricity: $6,953
+  - Maintenance: $3,253
+  - Insurance: $18,924
+  - Registration: $924
+  - Major-repair reserve (expected): $1,541
+  - **6-year total: $35,005** ($486/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,773
+
+### 47. 2020 Hyundai Elantra SEL — $8,192
+
+- VIN: `KMHD84LF2LU897428`
+- Mileage: 114,145 mi · Color: Scarlet Red Pearl · Certified pre-owned
+- Location: Ford of Kirkland, Kirkland WA (10 mi away)
+- Days on lot: 24
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787864272
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - IIHS: Top Safety Pick (2019+)
+  - Forward Collision-Avoidance standard on SEL and up from 2020.
+  - Also standard on this trim (SEL, Value Edition & Limited): fcw, lka, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 247 complaints, 3 recalls for the 2020 Hyundai Elantra
+  - 43% of its 247 NHTSA complaints (105) concern the engine — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2020/HYUNDAI/ELANTRA
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: yes · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $8,192
+  - Sales tax: $827
+  - Fuel / electricity: $7,054
+  - Maintenance: $3,319
+  - Insurance: $19,081
+  - Registration: $984
+  - Major-repair reserve (expected): $1,314
+  - **6-year total: $36,573** ($508/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,607
+
+### 48. 2023 Chevrolet Bolt EUV LT — $16,960
+
+- VIN: `1G1FY6S0XP4199282`
+- Mileage: 60,000 mi · Color: White · Certified pre-owned
+- Location: Private Seller Exchange, Philomath OR (216 mi away)
+- Days on lot: 78
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/783246639
+- Powertrain: **Battery electric** · 247 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot trim
+  - IIHS: Good in most tests
+  - Chevy Safety Assist (incl. AEB) standard from 2022.
+  - Also standard on this trim (LT): fcw, lka, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 114 complaints, 0 recalls for the 2023 Chevrolet Bolt EUV
+  - 32% of its 114 NHTSA complaints (37) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2023/CHEVROLET/BOLT%20EUV
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":5,"milesLeft":40000,"effectiveYears":5,"note":"Federal battery warranty still covers roughly 5.0 more year(s) at 130 mi/wk — limited by age (5 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $16,960
+  - Sales tax: $1,713
+  - Fuel / electricity: $2,990
+  - Maintenance: $1,462
+  - Insurance: $20,239
+  - Registration: $2,370
+  - Major-repair reserve (expected): $315
+  - **6-year total: $39,154** ($544/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,748
+
+### 49. 2017 Ford C-MAX Energi SE — $9,613
 
 - VIN: `1FADP5EUXHL104520`
 - Mileage: 81,117 mi · Color: Magnetic · Certified pre-owned
@@ -1646,13 +1742,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $971
   - Fuel / electricity: $5,156
   - Maintenance: $3,361
-  - Insurance: $16,996
+  - Insurance: $19,269
   - Registration: $1,086
   - Major-repair reserve (expected): $2,159
-  - **6-year total: $33,441** ($464/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,029
+  - **6-year total: $35,714** ($496/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,787
 
-### 47. 2018 Mitsubishi Outlander SEL — $11,999
+### 50. 2018 Mitsubishi Outlander SEL — $11,999
 
 - VIN: `JA4J24A58JZ071938`
 - Mileage: 96,653 mi · Color: Quartz Brown Metallic · Certified pre-owned
@@ -1679,74 +1775,46 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,212
   - Fuel / electricity: $5,108
   - Maintenance: $2,432
-  - Insurance: $17,640
+  - Insurance: $19,584
   - Registration: $1,242
   - Major-repair reserve (expected): $1,535
-  - **6-year total: $34,154** ($474/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,376
+  - **6-year total: $36,098** ($501/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,024
 
-### 48. 2023 Volkswagen Taos S — $21,995
+### 51. 2018 Honda Clarity Plug-In Hybrid — $14,695
 
-- VIN: `3VVCX7B21PM343389`
-- Mileage: 3,024 mi · Color: Grey · Certified pre-owned
-- Location: Los Munoz Auto Sales, Burien WA (10 mi away)
-- Days on lot: 95
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/781733356
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.5 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2023 Volkswagen Taos. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (S): fcw, rcta, backupCam
+- VIN: `JHMZC5F18JC018157`
+- Mileage: 121,900 mi · Color: Solar Silver Metallic · Certified pre-owned
+- Location: Rairdon's Nissan of Auburn, Auburn WA (16 mi away)
+- Days on lot: 13
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788797698
+- Powertrain: **Plug-in hybrid** · 48 mi electric range
+  - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
+- Safety: AEB standard · blind-spot trim
+  - IIHS: Top Safety Pick (2018–21)
+  - Honda Sensing standard. 47 mi EV range easily covers the barn run.
 - Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 102 complaints, 0 recalls for the 2023 Volkswagen Taos
-  - 41% of its 102 NHTSA complaints (42) concern the engine — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2023/VOLKSWAGEN/TAOS
+  - NHTSA: 134 complaints, 1 recalls for the 2018 Honda Clarity
+  - 32% of its 134 NHTSA complaints (43) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2018/HONDA/CLARITY%20PLUG-IN%20HYBRID
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":0,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (8 yr, 121,900 mi) — a pack failure would be entirely out of pocket."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $21,995
-  - Sales tax: $2,221
-  - Fuel / electricity: $7,701
-  - Maintenance: $2,918
-  - Insurance: $20,339
-  - Registration: $1,758
-  - Major-repair reserve (expected): $376
-  - **6-year total: $44,450** ($617/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $15,632
+  - Purchase price: $14,695
+  - Sales tax: $1,484
+  - Fuel / electricity: $3,683
+  - Maintenance: $2,173
+  - Insurance: $19,940
+  - Registration: $2,310
+  - Major-repair reserve (expected): $1,464
+  - **6-year total: $37,795** ($525/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,594
 
-### 49. 2017 Jeep Patriot Sport — $5,700
-
-- VIN: `1C4NJPBAXHD141549`
-- Mileage: 99,342 mi · Color: Black Clearcoat · Certified pre-owned
-- Location: Rairdon's Dodge Chrysler Jeep RAM of Marysville, Arlington WA (41 mi away)
-- Days on lot: 31
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787291844
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2017 Jeep Patriot. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 59 complaints, 0 recalls for the 2017 Jeep Patriot
-  - 59 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2017/JEEP/PATRIOT
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: yes · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $5,700
-  - Sales tax: $576
-  - Fuel / electricity: $9,289
-  - Maintenance: $4,460
-  - Insurance: $15,939
-  - Registration: $846
-  - Major-repair reserve (expected): $2,133
-  - **6-year total: $35,444** ($492/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,915
-
-### 50. 2019 Chevrolet Trax LS — $9,495
+### 52. 2019 Chevrolet Trax LS — $9,495
 
 - VIN: `3GNCJKSB1KL242099`
 - Mileage: 80,905 mi · Color: Silver Ice Metallic · Certified pre-owned
@@ -1771,108 +1839,79 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $959
   - Fuel / electricity: $8,599
   - Maintenance: $4,043
-  - Insurance: $16,964
+  - Insurance: $19,253
   - Registration: $1,080
   - Major-repair reserve (expected): $1,586
-  - **6-year total: $37,175** ($516/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,104
+  - **6-year total: $39,464** ($548/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,867
 
-### 51. 2018 Honda Clarity Plug-In Hybrid — $14,795
+### 53. 2020 Jaguar F-PACE S — $19,101
 
-- VIN: `JHMZC5F18JC018157`
-- Mileage: 121,900 mi · Color: Solar Silver Metallic · Certified pre-owned
-- Location: Rairdon's Nissan of Auburn, Auburn WA (16 mi away)
-- Days on lot: 13
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788797698
-- Powertrain: **Plug-in hybrid** · 48 mi electric range
-  - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
-- Safety: AEB standard · blind-spot trim
-  - IIHS: Top Safety Pick (2018–21)
-  - Honda Sensing standard. 47 mi EV range easily covers the barn run.
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 134 complaints, 1 recalls for the 2018 Honda Clarity
-  - 32% of its 134 NHTSA complaints (43) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2018/HONDA/CLARITY%20PLUG-IN%20HYBRID
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":0,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (8 yr, 121,900 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- VIN: `SADCM2FV4LA641266`
+- Mileage: 75,378 mi · Color: Borealis Black Gloss · Certified pre-owned
+- Location: One Stop Yakima, Yakima WA (102 mi away)
+- Days on lot: 85
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/782650777
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 3 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2020 Jaguar F-PACE. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (S): lka, backupCam
+- Reliability (model-year level): **unknown** — confidence none
+  - NHTSA: 0 complaints, 0 recalls for the 2020 Jaguar F-PACE
+  - Could not match "F-PACE" to a model name NHTSA publishes for the 2020 Jaguar, so no complaint or recall history was retrieved. This is ABSENCE OF DATA — it is not a clean record.
+  - Source: https://www.nhtsa.gov/vehicle/2020/JAGUAR/F-PACE
+  - Caveat: No NHTSA record was retrieved for this vehicle. Check the NHTSA page directly before treating it as trouble-free.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $14,795
-  - Sales tax: $1,494
-  - Fuel / electricity: $3,683
-  - Maintenance: $2,173
-  - Insurance: $18,395
-  - Registration: $2,316
-  - Major-repair reserve (expected): $1,464
-  - **6-year total: $36,312** ($504/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,114
+  - Purchase price: $19,101
+  - Sales tax: $1,929
+  - Fuel / electricity: $13,487
+  - Maintenance: $6,654
+  - Insurance: $20,521
+  - Registration: $1,644
+  - Major-repair reserve (expected): $2,351
+  - **6-year total: $54,586** ($758/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $19,970
 
-### 52. 2021 Chevrolet TrailBlazer LS — $14,995
+### 54. 2021 Volkswagen ID.4 Pro — $16,997
 
-- VIN: `KL79MMS25MB114763`
-- Mileage: 48,534 mi · Color: Summit White · Certified pre-owned
-- Location: Primasing Motors, Lebanon OR (212 mi away)
-- Days on lot: 9
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789124597
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.2 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2021 Chevrolet TrailBlazer. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (LS): fcw, lka, backupCam
+- VIN: `WVGRMPE21MP032057`
+- Mileage: 55,573 mi · Color: Silver Metallic · Certified pre-owned
+- Location: Rairdon's Kia, Burlington WA (65 mi away)
+- Days on lot: 10
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789088320
+- Powertrain: **Battery electric** · 260 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2021 Volkswagen ID.4. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (Pro): fcw, lka, acc, rcta, backupCam
 - Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 190 complaints, 4 recalls for the 2021 Chevrolet TrailBlazer
-  - 29% of its 190 NHTSA complaints (56) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2021/CHEVROLET/TRAILBLAZER
+  - NHTSA: 330 complaints, 11 recalls for the 2021 Volkswagen ID.4
+  - 61% of its 330 NHTSA complaints (201) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - 11 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2021/VOLKSWAGEN/ID.4
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
+- Traction battery warranty: {"covered":true,"yearsLeft":3,"milesLeft":44427,"effectiveYears":3,"note":"Federal battery warranty still covers roughly 3.0 more year(s) at 130 mi/wk — limited by age (3 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $14,995
-  - Sales tax: $1,514
-  - Fuel / electricity: $8,278
-  - Maintenance: $3,237
-  - Insurance: $18,449
-  - Registration: $1,368
-  - Major-repair reserve (expected): $929
-  - **6-year total: $40,004** ($556/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,187
+  - Purchase price: $16,997
+  - Sales tax: $1,717
+  - Fuel / electricity: $3,630
+  - Maintenance: $1,564
+  - Insurance: $20,244
+  - Registration: $2,388
+  - Major-repair reserve (expected): $466
+  - **6-year total: $39,652** ($551/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,911
 
-### 53. 2020 Chevrolet Trax LT — $11,500
-
-- VIN: `KL7CJLSB1LB062703`
-- Mileage: 69,800 mi · Color: Black · Certified pre-owned
-- Location: M Cars, Portland OR (145 mi away)
-- Days on lot: 7
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789262166
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.4 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2020 Chevrolet Trax. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (1LT): backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 94 complaints, 0 recalls for the 2020 Chevrolet Trax
-  - 39% of its 94 NHTSA complaints (37) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2020/CHEVROLET/TRAX
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $11,500
-  - Sales tax: $1,162
-  - Fuel / electricity: $8,599
-  - Maintenance: $3,740
-  - Insurance: $17,505
-  - Registration: $1,188
-  - Major-repair reserve (expected): $1,296
-  - **6-year total: $38,267** ($531/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,670
-
-### 54. 2019 Jeep Renegade Sport — $12,490
+### 55. 2019 Jeep Renegade Sport — $12,490
 
 - VIN: `ZACNJBAB7KPJ97788`
 - Mileage: 48,587 mi · Color: Black Clearcoat · Certified pre-owned
@@ -1897,75 +1936,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,261
   - Fuel / electricity: $9,893
   - Maintenance: $3,324
-  - Insurance: $17,772
+  - Insurance: $19,649
   - Registration: $1,266
   - Major-repair reserve (expected): $1,134
-  - **6-year total: $39,839** ($553/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,699
+  - **6-year total: $41,716** ($579/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,325
 
-### 55. 2021 Chevrolet Equinox LT — $8,995
-
-- VIN: `3GNAXTEVXMS161998`
-- Mileage: 149,131 mi · Color: Silver · Certified pre-owned
-- Location: 507 Motorsports, Roy WA (46 mi away)
-- Days on lot: 57
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785023783
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.5 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2021 Chevrolet Equinox. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (LT (2FL)): fcw, lka, rcta, backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 91 complaints, 4 recalls for the 2021 Chevrolet Equinox
-  - 34% of its 91 NHTSA complaints (31) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2021/CHEVROLET/EQUINOX
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $8,995
-  - Sales tax: $908
-  - Fuel / electricity: $8,914
-  - Maintenance: $5,207
-  - Insurance: $16,829
-  - Registration: $1,014
-  - Major-repair reserve (expected): $1,993
-  - **6-year total: $39,940** ($555/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $15,155
-
-### 56. 2023 Chevrolet TrailBlazer LS — $12,638
-
-- VIN: `KL79MNSL9PB044316`
-- Mileage: 123,095 mi · Color: Sterling Gray Metallic · Certified pre-owned
-- Location: Gage Auto Sales, Milwaukie OR (149 mi away)
-- Days on lot: 111
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/780391759
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.3 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2023 Chevrolet TrailBlazer. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (LS): fcw, lka, backupCam
-- Reliability (model-year level): **ok** — confidence high
-  - NHTSA: 66 complaints, 0 recalls for the 2023 Chevrolet TrailBlazer
-  - 66 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2023/CHEVROLET/TRAILBLAZER
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $12,638
-  - Sales tax: $1,276
-  - Fuel / electricity: $8,754
-  - Maintenance: $4,525
-  - Insurance: $17,812
-  - Registration: $1,218
-  - Major-repair reserve (expected): $1,294
-  - **6-year total: $42,010** ($583/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $16,662
-
-### 57. 2017 Jeep Compass Trailhawk — $12,471
+### 56. 2017 Jeep Compass Trailhawk — $12,471
 
 - VIN: `3C4NJDDB6HT646969`
 - Mileage: 50,876 mi · Color: Gray · Certified pre-owned
@@ -1991,110 +1968,75 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,260
   - Fuel / electricity: $9,506
   - Maintenance: $3,535
-  - Insurance: $17,767
+  - Insurance: $19,646
   - Registration: $1,266
   - Major-repair reserve (expected): $1,391
-  - **6-year total: $39,541** ($549/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,158
+  - **6-year total: $41,420** ($575/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,785
 
-### 58. 2021 Volkswagen ID.4 Pro — $17,209
+### 57. 2021 Chevrolet Equinox LT — $8,995
 
-- VIN: `WVGRMPE21MP032057`
-- Mileage: 55,573 mi · Color: Silver Metallic · Certified pre-owned
-- Location: Rairdon's Kia, Burlington WA (65 mi away)
-- Days on lot: 10
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789088320
-- Powertrain: **Battery electric** · 260 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- VIN: `3GNAXTEVXMS161998`
+- Mileage: 149,131 mi · Color: Silver · Certified pre-owned
+- Location: 507 Motorsports, Roy WA (46 mi away)
+- Days on lot: 57
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785023783
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.5 L.
 - Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2021 Volkswagen ID.4. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (Pro): fcw, lka, acc, rcta, backupCam
+  - No curated safety profile for the 2021 Chevrolet Equinox. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (LT (2FL)): fcw, lka, rcta, backupCam
 - Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 330 complaints, 11 recalls for the 2021 Volkswagen ID.4
-  - 61% of its 330 NHTSA complaints (201) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - 11 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2021/VOLKSWAGEN/ID.4
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":3,"milesLeft":44427,"effectiveYears":3,"note":"Federal battery warranty still covers roughly 3.0 more year(s) at 130 mi/wk — limited by age (3 yr left of 8). Transfers to you."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: yes · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $17,209
-  - Sales tax: $1,738
-  - Fuel / electricity: $3,630
-  - Maintenance: $1,564
-  - Insurance: $19,046
-  - Registration: $2,400
-  - Major-repair reserve (expected): $466
-  - **6-year total: $38,607** ($536/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,586
-
-### 59. 2020 Kia Soul LX — $8,490
-
-- VIN: `KNDJ23AU7L7088526`
-- Mileage: 126,795 mi · Color: Sparkling Silver · Certified pre-owned
-- Location: Power Kia of Salem, Salem OR (185 mi away)
-- Days on lot: 49
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785681731
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2020 Kia Soul. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (LX, S, X-Line): backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 372 complaints, 1 recalls for the 2020 Kia Soul
-  - 65% of its 372 NHTSA complaints (242) concern the engine — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2020/KIA/SOUL
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $8,490
-  - Sales tax: $857
-  - Fuel / electricity: $7,677
-  - Maintenance: $3,539
-  - Insurance: $16,692
-  - Registration: $1,008
-  - Major-repair reserve (expected): $1,436
-  - **6-year total: $35,538** ($494/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,538
-
-### 60. 2019 Jeep Renegade Altitude — $11,342
-
-- VIN: `ZACNJABB3KPK13185`
-- Mileage: 74,762 mi · Color: Black Clearcoat · Certified pre-owned
-- Location: Gladstone Mitsubishi, Milwaukee OR (152 mi away)
-- Days on lot: 1
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/786052863
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2.4 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2019 Jeep Renegade. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (Latitude, North, Longitude): backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 79 complaints, 4 recalls for the 2019 Jeep Renegade
-  - 35% of its 79 NHTSA complaints (28) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2019/JEEP/RENEGADE
+  - NHTSA: 91 complaints, 4 recalls for the 2021 Chevrolet Equinox
+  - 34% of its 91 NHTSA complaints (31) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2021/CHEVROLET/EQUINOX
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $11,342
-  - Sales tax: $1,146
-  - Fuel / electricity: $9,506
-  - Maintenance: $3,823
-  - Insurance: $17,462
-  - Registration: $1,194
-  - Major-repair reserve (expected): $1,463
-  - **6-year total: $39,306** ($546/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,781
+  - Purchase price: $8,995
+  - Sales tax: $908
+  - Fuel / electricity: $8,914
+  - Maintenance: $5,207
+  - Insurance: $19,187
+  - Registration: $1,014
+  - Major-repair reserve (expected): $1,993
+  - **6-year total: $42,298** ($587/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,941
 
-### 61. 2017 Kia Niro LX — $9,500
+### 58. 2023 Chevrolet TrailBlazer LS — $12,638
+
+- VIN: `KL79MNSL9PB044316`
+- Mileage: 123,095 mi · Color: Sterling Gray Metallic · Certified pre-owned
+- Location: Gage Auto Sales, Milwaukie OR (149 mi away)
+- Days on lot: 111
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/780391759
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.3 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2023 Chevrolet TrailBlazer. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (LS): fcw, lka, backupCam
+- Reliability (model-year level): **ok** — confidence high
+  - NHTSA: 66 complaints, 0 recalls for the 2023 Chevrolet TrailBlazer
+  - 66 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2023/CHEVROLET/TRAILBLAZER
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $12,638
+  - Sales tax: $1,276
+  - Fuel / electricity: $8,754
+  - Maintenance: $4,525
+  - Insurance: $19,668
+  - Registration: $1,218
+  - Major-repair reserve (expected): $1,294
+  - **6-year total: $43,866** ($609/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $17,281
+
+### 59. 2017 Kia Niro LX — $9,500
 
 - VIN: `KNDCB3LCXH5096393`
 - Mileage: 140,055 mi · Color: Silky Silver · Certified pre-owned
@@ -2119,48 +2061,48 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $960
   - Fuel / electricity: $4,987
   - Maintenance: $2,611
-  - Insurance: $16,965
+  - Insurance: $19,254
   - Registration: $1,080
   - Major-repair reserve (expected): $1,774
-  - **6-year total: $32,587** ($453/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,018
+  - **6-year total: $34,876** ($484/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,781
 - Note: Cheapest car here with AEB standard AND an IIHS Top Safety Pick — the strongest safety-per-dollar pick on the page.
 
-### 62. 2020 Jaguar F-PACE S — $19,101
+### 60. 2020 Kia Soul LX — $8,490
 
-- VIN: `SADCM2FV4LA641266`
-- Mileage: 75,378 mi · Color: Borealis Black Gloss · Certified pre-owned
-- Location: One Stop Yakima, Yakima WA (102 mi away)
-- Days on lot: 85
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/782650777
+- VIN: `KNDJ23AU7L7088526`
+- Mileage: 126,795 mi · Color: Sparkling Silver · Certified pre-owned
+- Location: Power Kia of Salem, Salem OR (185 mi away)
+- Days on lot: 49
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785681731
 - Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 3 L.
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
 - Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2020 Jaguar F-PACE. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (S): lka, backupCam
-- Reliability (model-year level): **unknown** — confidence none
-  - NHTSA: 0 complaints, 0 recalls for the 2020 Jaguar F-PACE
-  - Could not match "F-PACE" to a model name NHTSA publishes for the 2020 Jaguar, so no complaint or recall history was retrieved. This is ABSENCE OF DATA — it is not a clean record.
-  - Source: https://www.nhtsa.gov/vehicle/2020/JAGUAR/F-PACE
-  - Caveat: No NHTSA record was retrieved for this vehicle. Check the NHTSA page directly before treating it as trouble-free.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
+  - No curated safety profile for the 2020 Kia Soul. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (LX, S, X-Line): backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 372 complaints, 1 recalls for the 2020 Kia Soul
+  - 65% of its 372 NHTSA complaints (242) concern the engine — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2020/KIA/SOUL
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $19,101
-  - Sales tax: $1,929
-  - Fuel / electricity: $13,487
-  - Maintenance: $6,654
-  - Insurance: $19,557
-  - Registration: $1,644
-  - Major-repair reserve (expected): $2,351
-  - **6-year total: $53,622** ($745/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $19,649
+  - Purchase price: $8,490
+  - Sales tax: $857
+  - Fuel / electricity: $7,677
+  - Maintenance: $3,539
+  - Insurance: $19,121
+  - Registration: $1,008
+  - Major-repair reserve (expected): $1,436
+  - **6-year total: $37,967** ($527/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,348
 
-### 63. 2017 Audi A3 e-tron Premium Plus — $15,788
+### 61. 2017 Audi A3 e-tron Premium Plus — $15,788
 
 - VIN: `WAUTPBFF3HA136710`
-- Mileage: 60,483 mi · Color: Mythos Black Metallic · Certified pre-owned
+- Mileage: 60,520 mi · Color: Mythos Black Metallic · Certified pre-owned
 - Location: Price Ford of Yakima Valley, Yakima WA (102 mi away)
 - Days on lot: 24
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787835232
@@ -2174,7 +2116,7 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - 36 NHTSA complaints, no single system dominating.
   - Source: https://www.nhtsa.gov/vehicle/2017/AUDI/A3
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":39517,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 60,483 mi) — a pack failure would be entirely out of pocket."}
+- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":39480,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 60,520 mi) — a pack failure would be entirely out of pocket."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
 - Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
   - Salvage title: no · Accidents reported: yes · One owner: no
@@ -2183,75 +2125,110 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Purchase price: $15,788
   - Sales tax: $1,595
   - Fuel / electricity: $6,468
-  - Maintenance: $3,859
-  - Insurance: $18,663
+  - Maintenance: $3,860
+  - Insurance: $20,084
   - Registration: $1,470
-  - Major-repair reserve (expected): $2,276
-  - **6-year total: $40,428** ($562/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,407
+  - Major-repair reserve (expected): $2,281
+  - **6-year total: $41,855** ($581/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,882
 
-### 64. 2018 Kia Forte LX — $5,995
+### 62. 2020 Jeep Compass Sport — $14,998
 
-- VIN: `3KPFK4A70JE241685`
-- Mileage: 115,922 mi · Color: Silver · Certified pre-owned
-- Location: 507 Motorsports, Roy WA (46 mi away)
-- Days on lot: 310
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/763546075
+- VIN: `3C4NJCAB3LT243085`
+- Mileage: 58,982 mi · Color: Diamond Black Crystal Pearl Co · Certified pre-owned
+- Location: Toyota Of Tacoma, Tacoma WA (29 mi away)
+- Days on lot: 26
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787736433
 - Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2.4 L.
 - Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2018 Kia Forte. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - No curated safety profile for the 2020 Jeep Compass. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (Sport): backupCam
 - Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 134 complaints, 3 recalls for the 2018 Kia Forte
-  - 46% of its 134 NHTSA complaints (61) concern the engine — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2018/KIA/FORTE
+  - NHTSA: 138 complaints, 1 recalls for the 2020 Jeep Compass
+  - 59% of its 138 NHTSA complaints (82) concern the engine — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2020/JEEP/COMPASS
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: yes · One owner: no
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $5,995
-  - Sales tax: $605
-  - Fuel / electricity: $7,465
-  - Maintenance: $3,509
-  - Insurance: $16,019
-  - Registration: $864
-  - Major-repair reserve (expected): $1,634
-  - **6-year total: $32,783** ($455/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,653
+  - Purchase price: $14,998
+  - Sales tax: $1,515
+  - Fuel / electricity: $9,360
+  - Maintenance: $3,438
+  - Insurance: $19,980
+  - Registration: $1,398
+  - Major-repair reserve (expected): $1,137
+  - **6-year total: $43,058** ($598/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,130
 
-### 65. 2019 Kia Forte LXS — $7,995
+### 63. 2018 Toyota Camry LE — $19,795
 
-- VIN: `3KPF24AD0KE043003`
-- Mileage: 137,944 mi · Color: Blue · Certified pre-owned
-- Location: Atlas Automotive Sales, Hayden ID (250 mi away)
-- Days on lot: 37
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/786702033
+- VIN: `4T1B31HK2JU002432`
+- Mileage: 93,755 mi · Color: Gray · Certified pre-owned
+- Location: Pacific Motors LLC, Hillsboro OR (147 mi away)
+- Days on lot: 130
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/778624913
+- Powertrain: **Hybrid**
+  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 2.5 L engine.
+- Safety: AEB standard (VIN-confirmed) · blind-spot trim
+  - IIHS: Top Safety Pick+ (2018+)
+  - Toyota Safety Sense standard on all 2018+ Camry. One of the strongest safety picks here.
+  - Also standard on this trim (LE Hybrid): fcw, lka, acc, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 736 complaints, 8 recalls for the 2018 Toyota Camry
+  - 26% of its 736 NHTSA complaints (193) concern the powertrain — a concentrated pattern, not scattered noise.
+  - 8 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2018/TOYOTA/CAMRY
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: yes · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $19,795
+  - Sales tax: $1,999
+  - Fuel / electricity: $4,689
+  - Maintenance: $1,980
+  - Insurance: $20,613
+  - Registration: $1,728
+  - Major-repair reserve (expected): $1,123
+  - **6-year total: $40,355** ($560/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,076
+
+### 64. 2018 Audi Q5 2.0T Premium Plus — $14,000
+
+- VIN: `WA1BNAFY3J2074736`
+- Mileage: 101,390 mi · Color: Gray · Certified pre-owned
+- Location: Private Seller Exchange, Seattle WA (7 mi away)
+- Days on lot: 79
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/783159462
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
-- Safety: AEB standard · blind-spot trim
-  - IIHS: Top Safety Pick (2019+)
-  - Forward Collision-Avoidance Assist standard from 2019.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2018 Audi Q5. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (quattro Premium Plus): fcw, backupCam
 - Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 147 complaints, 2 recalls for the 2019 Kia Forte
-  - 32% of its 147 NHTSA complaints (47) concern the powertrain — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2019/KIA/FORTE
+  - NHTSA: 201 complaints, 6 recalls for the 2018 Audi Q5
+  - 36% of its 201 NHTSA complaints (73) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - 6 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2018/AUDI/Q5
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: yes · One owner: no
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $7,995
-  - Sales tax: $807
-  - Fuel / electricity: $7,054
-  - Maintenance: $3,761
-  - Insurance: $16,559
-  - Registration: $984
-  - Major-repair reserve (expected): $1,698
-  - **6-year total: $34,928** ($485/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,206
+  - Purchase price: $14,000
+  - Sales tax: $1,414
+  - Fuel / electricity: $11,040
+  - Maintenance: $6,873
+  - Insurance: $19,848
+  - Registration: $1,362
+  - Major-repair reserve (expected): $3,094
+  - **6-year total: $49,545** ($688/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $17,819
 
-### 66. 2017 Chevrolet Volt LT — $7,598
+### 65. 2017 Chevrolet Volt LT — $7,598
 
 - VIN: `1G1RA6S52HU119357`
 - Mileage: 125,724 mi · Color: White · Certified pre-owned
@@ -2279,45 +2256,43 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $767
   - Fuel / electricity: $3,683
   - Maintenance: $3,395
-  - Insurance: $16,451
+  - Insurance: $19,003
   - Registration: $1,866
   - Major-repair reserve (expected): $2,474
-  - **6-year total: $31,800** ($442/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,149
+  - **6-year total: $34,352** ($477/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,999
 
-### 67. 2018 Audi Q5 2.0T Premium Plus — $14,000
+### 66. 2018 Kia Forte LX — $5,995
 
-- VIN: `WA1BNAFY3J2074736`
-- Mileage: 101,390 mi · Color: Gray · Certified pre-owned
-- Location: Private Seller Exchange, Seattle WA (7 mi away)
-- Days on lot: 79
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/783159462
+- VIN: `3KPFK4A70JE241685`
+- Mileage: 115,922 mi · Color: Silver · Certified pre-owned
+- Location: 507 Motorsports, Roy WA (46 mi away)
+- Days on lot: 310
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/763546075
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2018 Audi Q5. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (quattro Premium Plus): fcw, backupCam
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2018 Kia Forte. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
 - Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 201 complaints, 6 recalls for the 2018 Audi Q5
-  - 36% of its 201 NHTSA complaints (73) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - 6 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2018/AUDI/Q5
+  - NHTSA: 134 complaints, 3 recalls for the 2018 Kia Forte
+  - 46% of its 134 NHTSA complaints (61) concern the engine — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2018/KIA/FORTE
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
+- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $14,000
-  - Sales tax: $1,414
-  - Fuel / electricity: $11,040
-  - Maintenance: $6,873
-  - Insurance: $18,180
-  - Registration: $1,362
-  - Major-repair reserve (expected): $3,094
-  - **6-year total: $47,877** ($665/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $17,263
+  - Purchase price: $5,995
+  - Sales tax: $605
+  - Fuel / electricity: $7,465
+  - Maintenance: $3,509
+  - Insurance: $18,791
+  - Registration: $864
+  - Major-repair reserve (expected): $1,634
+  - **6-year total: $35,555** ($494/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,577
 
-### 68. 2021 Volkswagen Tiguan S — $12,971
+### 67. 2021 Volkswagen Tiguan S — $12,971
 
 - VIN: `3VV1B7AX3MM025384`
 - Mileage: 94,996 mi · Color: Deep Black · Certified pre-owned
@@ -2343,45 +2318,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,310
   - Fuel / electricity: $9,469
   - Maintenance: $4,323
-  - Insurance: $17,902
+  - Insurance: $19,712
   - Registration: $1,254
   - Major-repair reserve (expected): $1,480
-  - **6-year total: $41,897** ($582/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $16,044
+  - **6-year total: $43,707** ($607/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $16,648
 
-### 69. 2021 Volkswagen Tiguan S — $11,168
-
-- VIN: `3VV1B7AX2MM076780`
-- Mileage: 112,097 mi · Color: Silver Metallic · Certified pre-owned
-- Location: Ron Tonkin Chevrolet, Portland OR (142 mi away)
-- Days on lot: 1
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789822781
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2021 Volkswagen Tiguan. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (S): fcw, rcta, backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 136 complaints, 5 recalls for the 2021 Volkswagen Tiguan
-  - 40% of its 136 NHTSA complaints (55) concern the engine — a concentrated pattern, not scattered noise.
-  - 5 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2021/VOLKSWAGEN/TIGUAN
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: yes · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $11,168
-  - Sales tax: $1,128
-  - Fuel / electricity: $9,469
-  - Maintenance: $4,672
-  - Insurance: $17,415
-  - Registration: $1,146
-  - Major-repair reserve (expected): $1,666
-  - **6-year total: $41,138** ($571/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $15,886
-
-### 70. 2019 Jeep Renegade Sport — $7,995
+### 68. 2019 Jeep Renegade Sport — $7,995
 
 - VIN: `ZACNJAAB8KPK49178`
 - Mileage: 102,755 mi · Color: Orange · Certified pre-owned
@@ -2406,44 +2349,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $807
   - Fuel / electricity: $9,506
   - Maintenance: $4,357
-  - Insurance: $16,559
+  - Insurance: $19,055
   - Registration: $984
   - Major-repair reserve (expected): $1,823
-  - **6-year total: $37,602** ($522/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,506
+  - **6-year total: $40,098** ($557/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,338
 
-### 71. 2021 Jeep Compass Sport — $10,888
-
-- VIN: `3C4NJDAB0MT549328`
-- Mileage: 128,875 mi · Color: Granite Crystal Metallic Clear · Certified pre-owned
-- Location: One Stop Yakima, Yakima WA (102 mi away)
-- Days on lot: 75
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/783554493
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2.4 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2021 Jeep Compass. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (Sport): fcw, backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 77 complaints, 0 recalls for the 2021 Jeep Compass
-  - 47% of its 77 NHTSA complaints (36) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2021/JEEP/COMPASS
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $10,888
-  - Sales tax: $1,100
-  - Fuel / electricity: $9,506
-  - Maintenance: $4,688
-  - Insurance: $17,340
-  - Registration: $1,128
-  - Major-repair reserve (expected): $1,731
-  - **6-year total: $41,317** ($574/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $16,142
-
-### 72. 2023 Buick Encore GX Select — $16,245
+### 69. 2023 Buick Encore GX Select — $16,245
 
 - VIN: `KL4MMDSL6PB120897`
 - Mileage: 716 mi · Color: Silver · Certified pre-owned
@@ -2469,13 +2381,45 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,641
   - Fuel / electricity: $8,139
   - Maintenance: $2,610
-  - Insurance: $18,786
+  - Insurance: $20,144
   - Registration: $1,428
   - Major-repair reserve (expected): $336
-  - **6-year total: $39,688** ($551/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,830
+  - **6-year total: $41,046** ($570/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,283
 
-### 73. 2018 Tesla Model 3 Mid Range — $14,999
+### 70. 2023 Kia Soul LX — $11,900
+
+- VIN: `KNDJ23AU3P7213981`
+- Mileage: 28,023 mi · Certified pre-owned
+- Location: THE PRICE KING AUTO SALES, Lakewood WA (32 mi away)
+- Days on lot: 31
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787259360
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2023 Kia Soul. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (LX, S): fcw, lka, backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 49 complaints, 4 recalls for the 2023 Kia Soul
+  - 49 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2023/KIA/SOUL
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: SALVAGE_TITLE, ONE_OWNER
+  - Salvage title: yes · Accidents reported: not reported · One owner: yes
+  - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $11,900
+  - Sales tax: $1,202
+  - Fuel / electricity: $7,677
+  - Maintenance: $2,041
+  - Insurance: $19,571
+  - Registration: $1,182
+  - Major-repair reserve (expected): $398
+  - **6-year total: $37,014** ($514/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,138
+
+### 71. 2018 Tesla Model 3 Mid Range — $14,999
 
 - VIN: `5YJ3E1EA6JF013800`
 - Mileage: 69,459 mi · Color: White · Certified pre-owned
@@ -2487,8 +2431,8 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
 - Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
   - No curated safety profile for the 2018 Tesla Model 3. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
 - Reliability (model-year level): **ok** — confidence high
-  - NHTSA: 1007 complaints, 19 recalls for the 2018 Tesla Model 3
-  - 1007 NHTSA complaints, no single system dominating.
+  - NHTSA: 1008 complaints, 19 recalls for the 2018 Tesla Model 3
+  - 1008 NHTSA complaints, no single system dominating.
   - 19 recall campaigns for this model year — check all are closed out for the VIN.
   - Source: https://www.nhtsa.gov/vehicle/2018/TESLA/MODEL%203
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
@@ -2503,83 +2447,49 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,515
   - Fuel / electricity: $3,630
   - Maintenance: $2,221
-  - Insurance: $18,450
+  - Insurance: $19,980
   - Registration: $2,328
   - Major-repair reserve (expected): $1,018
-  - **6-year total: $37,746** ($524/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,646
+  - **6-year total: $39,276** ($546/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,156
 
-### 74. 2020 Ford Fusion SE — $9,900
+### 72. 2021 Honda Accord Hybrid — $13,500
 
-- VIN: `3FA6P0LU3LR239945`
-- Mileage: 63,235 mi · Certified pre-owned
-- Location: THE PRICE KING AUTO SALES, Lakewood WA (32 mi away)
-- Days on lot: 10
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789061248
+- VIN: `1HGCV3F14MA018129`
+- Mileage: 123,400 mi · Certified pre-owned
+- Location: M Cars, Portland OR (145 mi away)
+- Days on lot: 13
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788732578
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 2 L engine.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2020 Ford Fusion. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (SE Hybrid): fcw, lka, acc, rcta, backupCam
+- Safety: AEB standard (VIN-confirmed) · blind-spot trim
+  - IIHS: Top Safety Pick+ (2018+)
+  - Honda Sensing standard on every 2018+ Accord.
+  - Also standard on this trim (Hybrid): fcw, lka, acc, backupCam
 - Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 178 complaints, 3 recalls for the 2020 Ford Fusion
-  - 37% of its 178 NHTSA complaints (66) concern the powertrain — a concentrated pattern, not scattered noise.
-  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - Source: https://www.nhtsa.gov/vehicle/2020/FORD/FUSION
+  - NHTSA: 225 complaints, 4 recalls for the 2021 Honda Accord
+  - 32% of its 225 NHTSA complaints (71) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2021/HONDA/ACCORD
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
 - Vehicle history: SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: yes · Accidents reported: yes · One owner: no
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $9,900
-  - Sales tax: $1,000
-  - Fuel / electricity: $5,781
-  - Maintenance: $2,877
-  - Insurance: $17,073
-  - Registration: $1,092
-  - Major-repair reserve (expected): $1,252
-  - **6-year total: $33,188** ($461/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,670
+  - Purchase price: $13,500
+  - Sales tax: $1,364
+  - Fuel / electricity: $5,070
+  - Maintenance: $2,072
+  - Insurance: $19,782
+  - Registration: $1,284
+  - Major-repair reserve (expected): $978
+  - **6-year total: $37,640** ($523/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,543
 
-### 75. 2022 Kia Niro EX — $15,645
-
-- VIN: `KNDCC3LG5N5142496`
-- Mileage: 62,812 mi · Color: Steel Gray · Certified pre-owned
-- Location: Knudtsen Foothills Mazda Lincoln, Spokane WA (221 mi away)
-- Days on lot: 9
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789106371
-- Powertrain: **Battery electric** · 239 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB trim · blind-spot standard (VIN-confirmed)
-  - ⚠️ IIHS: IIHS rated the hybrid and plug-in version of this model — not the electric version. Structure is largely shared, so the result is reassuring, but this exact powertrain did not earn the award.
-  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
-  - Also standard on this trim (S, EX): lka, acc, rcta, backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 30 complaints, 1 recalls for the 2022 Kia Niro
-  - 30 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2022/KIA/NIRO
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":4,"milesLeft":37188,"effectiveYears":4,"note":"Federal battery warranty still covers roughly 4.0 more year(s) at 130 mi/wk — limited by age (4 yr left of 8). Transfers to you."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, ONE_OWNER, FREE_REPORT
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $15,645
-  - Sales tax: $1,580
-  - Fuel / electricity: $3,203
-  - Maintenance: $1,111
-  - Insurance: $18,624
-  - Registration: $2,268
-  - Major-repair reserve (expected): $295
-  - **6-year total: $36,213** ($503/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,267
-
-### 76. 2019 Volkswagen e-Golf SE — $12,685
+### 73. 2019 Volkswagen e-Golf SE — $12,685
 
 - VIN: `WVWKR7AUXKW918489`
-- Mileage: 60,402 mi · Color: Reflex Silver Metallic · Certified pre-owned
+- Mileage: 60,404 mi · Color: Reflex Silver Metallic · Certified pre-owned
 - Location: Eastside Subaru, Kirkland WA (10 mi away)
 - Days on lot: 2
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789752956
@@ -2593,7 +2503,7 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Only 6 NHTSA complaints on record — too few to draw a firm conclusion.
   - Source: https://www.nhtsa.gov/vehicle/2019/VOLKSWAGEN/E-GOLF
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":1,"milesLeft":39598,"effectiveYears":1,"note":"Battery warranty nearly up — about 1.0 more year(s), whichever of 8yr/100k comes first. Little protection left for Jordyn, none for Emma."}
+- Traction battery warranty: {"covered":true,"yearsLeft":1,"milesLeft":39596,"effectiveYears":1,"note":"Battery warranty nearly up — about 1.0 more year(s), whichever of 8yr/100k comes first. Little protection left for Jordyn, none for Emma."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
@@ -2603,49 +2513,49 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,281
   - Fuel / electricity: $3,096
   - Maintenance: $1,687
-  - Insurance: $17,825
+  - Insurance: $19,674
   - Registration: $2,172
   - Major-repair reserve (expected): $567
-  - **6-year total: $34,076** ($473/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,417
+  - **6-year total: $35,925** ($499/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,033
 
-### 77. 2019 Chevrolet Bolt Premier — $19,950
+### 74. 2020 Chevrolet Bolt LT — $16,750
 
-- VIN: `1G1FZ6S01K4100001`
-- Mileage: 2,165 mi · Color: Gray Metallic · Certified pre-owned
+- VIN: `1G1FW6S04L4120656`
+- Mileage: 16,765 mi · Color: Black Metallic · Certified pre-owned
 - Location: Energy Auto Sales, Monroe WA (24 mi away)
-- Days on lot: 39
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/786562603
-- Powertrain: **Battery electric** · 238 mi electric range
+- Days on lot: 45
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/786051462
+- Powertrain: **Battery electric** · 259 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB trim · blind-spot standard (VIN-confirmed)
+- Safety: AEB trim · blind-spot trim
   - IIHS: Good in most tests; headlights Marginal/Poor
   - AEB = Driver Confidence II package; blind-spot = Driver Confidence I. Neither is standard — confirm on the window sticker.
-  - Also standard on this trim (Premier): backupCam
+  - Also standard on this trim (LT): backupCam
 - Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 175 complaints, 6 recalls for the 2019 Chevrolet Bolt
-  - 74% of its 175 NHTSA complaints (129) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - NHTSA: 172 complaints, 8 recalls for the 2020 Chevrolet Bolt
+  - 72% of its 172 NHTSA complaints (124) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
   - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - 6 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2019/CHEVROLET/BOLT%20EV
+  - 8 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2020/CHEVROLET/BOLT%20EV
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":1,"milesLeft":97835,"effectiveYears":1,"note":"Battery warranty nearly up — about 1.0 more year(s), whichever of 8yr/100k comes first. Little protection left for Jordyn, none for Emma."}
+- Traction battery warranty: {"covered":true,"yearsLeft":2,"milesLeft":83235,"effectiveYears":2,"note":"Federal battery warranty still covers roughly 2.0 more year(s) at 130 mi/wk — limited by age (2 yr left of 8). Transfers to you."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $19,950
-  - Sales tax: $2,015
+  - Purchase price: $16,750
+  - Sales tax: $1,692
   - Fuel / electricity: $2,990
-  - Maintenance: $1,398
-  - Insurance: $19,787
-  - Registration: $2,622
-  - Major-repair reserve (expected): $236
-  - **6-year total: $39,718** ($552/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,622
+  - Maintenance: $1,359
+  - Insurance: $20,211
+  - Registration: $2,406
+  - Major-repair reserve (expected): $264
+  - **6-year total: $37,902** ($526/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,923
 
-### 78. 2020 Chevrolet Bolt LT — $13,990
+### 75. 2020 Chevrolet Bolt LT — $13,990
 
 - VIN: `1G1FY6S02L4122903`
 - Mileage: 98,213 mi · Color: Oasis Blue · Certified pre-owned
@@ -2675,13 +2585,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,413
   - Fuel / electricity: $2,990
   - Maintenance: $1,909
-  - Insurance: $18,177
+  - Insurance: $19,847
   - Registration: $2,238
   - Major-repair reserve (expected): $662
-  - **6-year total: $35,461** ($493/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,666
+  - **6-year total: $37,131** ($516/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,223
 
-### 79. 2019 BMW i3 s — $16,995
+### 76. 2019 BMW i3 s — $16,995
 
 - VIN: `WBY8P6C51K7E09726`
 - Mileage: 89,305 mi · Color: Fluid Black W/Bmw I Frozen Blu · Certified pre-owned
@@ -2709,13 +2619,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,716
   - Fuel / electricity: $3,203
   - Maintenance: $2,789
-  - Insurance: $18,989
+  - Insurance: $20,243
   - Registration: $2,442
   - Major-repair reserve (expected): $1,221
-  - **6-year total: $40,171** ($558/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $15,535
+  - **6-year total: $41,425** ($575/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,953
 
-### 80. 2015 smart fortwo electric drive — $5,000
+### 77. 2015 smart fortwo electric drive — $5,000
 
 - VIN: `WMEEJ9AAXFK836914`
 - Mileage: 39,816 mi · Color: Silver · Certified pre-owned
@@ -2741,13 +2651,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $505
   - Fuel / electricity: $3,630
   - Maintenance: $1,350
-  - Insurance: $15,750
+  - Insurance: $18,660
   - Registration: $1,710
   - Major-repair reserve (expected): $621
-  - **6-year total: $26,340** ($366/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $8,903
+  - **6-year total: $29,250** ($406/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $9,873
 
-### 81. 2015 Nissan Leaf S — $5,480
+### 78. 2015 Nissan Leaf S — $5,480
 
 - VIN: `1N4AZ0CPXFC315257`
 - Mileage: 42,310 mi · Color: White · Certified pre-owned
@@ -2773,13 +2683,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $553
   - Fuel / electricity: $3,203
   - Maintenance: $1,245
-  - Insurance: $15,880
+  - Insurance: $18,723
   - Registration: $1,746
   - Major-repair reserve (expected): $501
-  - **6-year total: $26,282** ($365/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $9,043
+  - **6-year total: $29,125** ($405/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $9,991
 
-### 82. 2017 FIAT 500 e — $8,000
+### 79. 2017 FIAT 500 e — $8,000
 
 - VIN: `3C3CFFGE9HT500855`
 - Mileage: 32,300 mi · Color: Orange · Certified pre-owned
@@ -2805,13 +2715,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $808
   - Fuel / electricity: $3,630
   - Maintenance: $1,224
-  - Insurance: $16,560
+  - Insurance: $19,056
   - Registration: $1,890
   - Major-repair reserve (expected): $475
-  - **6-year total: $28,994** ($403/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $9,900
+  - **6-year total: $31,490** ($437/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,732
 
-### 83. 2015 smart fortwo electric drive — $7,499
+### 80. 2015 smart fortwo electric drive — $7,499
 
 - VIN: `WMEEJ9AA2FK840231`
 - Mileage: 44,682 mi · Certified pre-owned
@@ -2837,13 +2747,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $757
   - Fuel / electricity: $3,630
   - Maintenance: $1,386
-  - Insurance: $16,425
+  - Insurance: $18,990
   - Registration: $1,872
   - Major-repair reserve (expected): $660
-  - **6-year total: $28,890** ($401/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $9,878
+  - **6-year total: $31,455** ($437/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,733
 
-### 84. 2017 FIAT 500 e — $8,615
+### 81. 2017 FIAT 500 e — $8,615
 
 - VIN: `3C3CFFGE7HT704571`
 - Mileage: 44,490 mi · Color: Nero Puro (straight Black) · Certified pre-owned
@@ -2869,13 +2779,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $870
   - Fuel / electricity: $3,630
   - Maintenance: $1,293
-  - Insurance: $16,726
+  - Insurance: $19,137
   - Registration: $1,926
   - Major-repair reserve (expected): $556
-  - **6-year total: $29,747** ($413/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,175
+  - **6-year total: $32,158** ($447/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,979
 
-### 85. 2016 Nissan Leaf SL — $7,991
+### 82. 2016 Nissan Leaf SL — $7,991
 
 - VIN: `1N4BZ0CP9GC306278`
 - Mileage: 60,074 mi · Color: Brilliant Silver · Certified pre-owned
@@ -2901,13 +2811,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $807
   - Fuel / electricity: $3,203
   - Maintenance: $1,335
-  - Insurance: $16,558
+  - Insurance: $19,055
   - Registration: $1,890
   - Major-repair reserve (expected): $571
-  - **6-year total: $28,963** ($402/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,116
+  - **6-year total: $31,460** ($437/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,949
 
-### 86. 2016 FIAT 500 e — $7,998
+### 83. 2016 FIAT 500 e — $7,998
 
 - VIN: `3C3CFFGE3GT193116`
 - Mileage: 71,397 mi · Color: Gray · Certified pre-owned
@@ -2933,13 +2843,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $808
   - Fuel / electricity: $3,630
   - Maintenance: $1,519
-  - Insurance: $16,559
+  - Insurance: $19,056
   - Registration: $1,890
   - Major-repair reserve (expected): $788
-  - **6-year total: $29,631** ($412/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,145
+  - **6-year total: $32,128** ($446/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,977
 
-### 87. 2015 Nissan Leaf S — $7,999
+### 84. 2015 Nissan Leaf S — $7,999
 
 - VIN: `1N4AZ0CP6FC326059`
 - Mileage: 57,218 mi · Color: Pearl White · Certified pre-owned
@@ -2965,13 +2875,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $808
   - Fuel / electricity: $3,203
   - Maintenance: $1,345
-  - Insurance: $16,560
+  - Insurance: $19,056
   - Registration: $1,902
   - Major-repair reserve (expected): $595
-  - **6-year total: $29,038** ($403/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,176
+  - **6-year total: $31,534** ($438/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,008
 
-### 88. 2016 Nissan Leaf S — $5,777
+### 85. 2016 Nissan Leaf S — $5,777
 
 - VIN: `1N4AZ0CPXGC300713`
 - Mileage: 61,688 mi · Color: Super Black · Certified pre-owned
@@ -2997,13 +2907,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $583
   - Fuel / electricity: $3,203
   - Maintenance: $1,345
-  - Insurance: $15,960
+  - Insurance: $18,763
   - Registration: $1,752
   - Major-repair reserve (expected): $577
-  - **6-year total: $26,745** ($371/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $9,216
+  - **6-year total: $29,548** ($410/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,150
 
-### 89. 2015 Nissan Leaf S — $7,999
+### 86. 2015 Nissan Leaf S — $7,999
 
 - VIN: `1N4AZ0CP5FC319541`
 - Mileage: 93,877 mi · Color: Gun Metallic · Certified pre-owned
@@ -3029,13 +2939,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $808
   - Fuel / electricity: $3,203
   - Maintenance: $1,591
-  - Insurance: $16,560
+  - Insurance: $19,056
   - Registration: $1,902
   - Major-repair reserve (expected): $822
-  - **6-year total: $29,542** ($410/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,374
+  - **6-year total: $32,038** ($445/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,206
 
-### 90. 2015 Chevrolet Spark LT — $4,100
+### 87. 2015 Chevrolet Spark LT — $4,100
 
 - VIN: `KL8CL6S00FC771174`
 - Mileage: 68,320 mi · Color: Blue · Certified pre-owned
@@ -3062,13 +2972,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $414
   - Fuel / electricity: $3,630
   - Maintenance: $1,841
-  - Insurance: $15,507
+  - Insurance: $18,541
   - Registration: $1,656
   - Major-repair reserve (expected): $994
-  - **6-year total: $26,322** ($366/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $8,842
+  - **6-year total: $29,356** ($408/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $9,853
 
-### 91. 2016 BMW i3 w/ Range Extender — $11,977
+### 88. 2016 BMW i3 w/ Range Extender — $11,977
 
 - VIN: `WBY1Z4C58GV506874`
 - Mileage: 65,498 mi · Color: Ionic Silver Metallic · Certified pre-owned
@@ -3095,13 +3005,45 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,210
   - Fuel / electricity: $3,803
   - Maintenance: $3,977
-  - Insurance: $17,634
+  - Insurance: $19,581
   - Registration: $2,142
   - Major-repair reserve (expected): $2,538
-  - **6-year total: $35,929** ($499/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,819
+  - **6-year total: $37,876** ($526/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,468
 
-### 92. 2015 Chevrolet Spark LT — $6,994
+### 89. 2016 Kia Soul EV + — $9,000
+
+- VIN: `KNDJX3AE5G7013422`
+- Mileage: 48,222 mi · Color: Titanium Gray Metallic · Certified pre-owned
+- Location: Lee Johnson Nissan of Kirkland, Kirkland WA (11 mi away)
+- Days on lot: 35
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/786614282
+- Powertrain: **Battery electric** · 93 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB unknown · blind-spot unknown
+  - No curated safety profile for the 2016 Kia Soul. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 809 complaints, 2 recalls for the 2016 Kia Soul
+  - 81% of its 809 NHTSA complaints (657) concern the engine — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2016/KIA/SOUL
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":51778,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (10 yr, 48,222 mi) — a pack failure would be entirely out of pocket."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $9,000
+  - Sales tax: $909
+  - Fuel / electricity: $3,630
+  - Maintenance: $1,186
+  - Insurance: $19,188
+  - Registration: $1,956
+  - Major-repair reserve (expected): $549
+  - **6-year total: $32,399** ($450/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,114
+
+### 90. 2015 Chevrolet Spark LT — $6,994
 
 - VIN: `KL8CL6S01FC808393`
 - Mileage: 65,001 mi · Color: Summit White · Certified pre-owned
@@ -3128,45 +3070,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $706
   - Fuel / electricity: $3,630
   - Maintenance: $1,812
-  - Insurance: $16,288
+  - Insurance: $18,923
   - Registration: $1,842
   - Major-repair reserve (expected): $966
-  - **6-year total: $29,133** ($405/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $9,932
+  - **6-year total: $31,768** ($441/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,811
 
-### 93. 2016 Kia Soul EV + — $9,000
-
-- VIN: `KNDJX3AE5G7013422`
-- Mileage: 48,222 mi · Color: Titanium Gray Metallic · Certified pre-owned
-- Location: Lee Johnson Nissan of Kirkland, Kirkland WA (11 mi away)
-- Days on lot: 35
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/786614282
-- Powertrain: **Battery electric** · 93 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB unknown · blind-spot unknown
-  - No curated safety profile for the 2016 Kia Soul. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 809 complaints, 2 recalls for the 2016 Kia Soul
-  - 81% of its 809 NHTSA complaints (657) concern the engine — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2016/KIA/SOUL
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":51778,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (10 yr, 48,222 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $9,000
-  - Sales tax: $909
-  - Fuel / electricity: $3,630
-  - Maintenance: $1,186
-  - Insurance: $16,830
-  - Registration: $1,956
-  - Major-repair reserve (expected): $549
-  - **6-year total: $30,041** ($417/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,328
-
-### 94. 2015 FIAT 500 e — $8,999
+### 91. 2015 FIAT 500 e — $8,999
 
 - VIN: `3C3CFFGE5FT709698`
 - Mileage: 40,501 mi · Color: Luce Blu · Certified pre-owned
@@ -3193,13 +3103,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $909
   - Fuel / electricity: $3,630
   - Maintenance: $1,328
-  - Insurance: $16,830
+  - Insurance: $19,188
   - Registration: $1,968
   - Major-repair reserve (expected): $617
-  - **6-year total: $30,275** ($420/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,422
+  - **6-year total: $32,633** ($453/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,208
 
-### 95. 2016 Kia Soul EV + — $9,195
+### 92. 2016 Kia Soul EV + — $9,195
 
 - VIN: `KNDJX3AE8G7013804`
 - Mileage: 54,443 mi · Color: Bright Silver Metallic · Certified pre-owned
@@ -3225,13 +3135,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $929
   - Fuel / electricity: $3,630
   - Maintenance: $1,226
-  - Insurance: $16,883
+  - Insurance: $19,214
   - Registration: $1,968
   - Major-repair reserve (expected): $588
-  - **6-year total: $30,313** ($421/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,429
+  - **6-year total: $32,644** ($453/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,206
 
-### 96. 2015 FIAT 500 e — $5,998
+### 93. 2015 FIAT 500 e — $5,998
 
 - VIN: `3C3CFFGE5FT741177`
 - Mileage: 95,451 mi · Color: Charcoal · Certified pre-owned
@@ -3258,13 +3168,74 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $606
   - Fuel / electricity: $3,630
   - Maintenance: $1,725
-  - Insurance: $16,019
+  - Insurance: $18,792
   - Registration: $1,776
   - Major-repair reserve (expected): $1,033
-  - **6-year total: $28,140** ($391/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $9,569
+  - **6-year total: $30,913** ($429/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,493
 
-### 97. 2015 BMW i3 w/ Range Extender — $11,995
+### 94. 2017 BMW 320i Sedan — $14,490
+
+- VIN: `WBA8A9C56HK619680`
+- Mileage: 52,144 mi · Color: Mineral Gray Metallic · Certified pre-owned
+- Location: Diplomat Motors - Portland, Portland OR (145 mi away)
+- Days on lot: 77
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/783327821
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
+- Safety: AEB unknown · blind-spot unknown
+  - No curated safety profile for the 2017 BMW 320i. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (3-Series): backupCam
+- Reliability (model-year level): **unknown** — confidence none
+  - NHTSA: 0 complaints, 0 recalls for the 2017 BMW 320i
+  - Could not match "320i" to a model name NHTSA publishes for the 2017 BMW, so no complaint or recall history was retrieved. This is ABSENCE OF DATA — it is not a clean record.
+  - Source: https://www.nhtsa.gov/vehicle/2017/BMW/320I
+  - Caveat: No NHTSA record was retrieved for this vehicle. Check the NHTSA page directly before treating it as trouble-free.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $14,490
+  - Sales tax: $1,463
+  - Fuel / electricity: $10,530
+  - Maintenance: $5,448
+  - Insurance: $19,913
+  - Registration: $1,392
+  - Major-repair reserve (expected): $2,159
+  - **6-year total: $46,501** ($646/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,446
+
+### 95. 2016 Mercedes-Benz GLA 250 4MATIC — $14,999
+
+- VIN: `WDCTG4GB1GJ203842`
+- Mileage: 52,000 mi · Color: White · Certified pre-owned
+- Location: Private Seller Exchange, Tualatin OR (154 mi away)
+- Days on lot: 13
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788787454
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
+- Safety: AEB unknown · blind-spot unknown
+  - No curated safety profile for the 2016 Mercedes-Benz GLA 250. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+- Reliability (model-year level): **unknown** — confidence none
+  - NHTSA: 0 complaints, 0 recalls for the 2016 Mercedes-Benz GLA 250
+  - Could not match "GLA 250" to a model name NHTSA publishes for the 2016 Mercedes-Benz, so no complaint or recall history was retrieved. This is ABSENCE OF DATA — it is not a clean record.
+  - Source: https://www.nhtsa.gov/vehicle/2016/MERCEDES-BENZ/GLA%20250
+  - Caveat: No NHTSA record was retrieved for this vehicle. Check the NHTSA page directly before treating it as trouble-free.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $14,999
+  - Sales tax: $1,515
+  - Fuel / electricity: $9,920
+  - Maintenance: $5,224
+  - Insurance: $19,980
+  - Registration: $1,428
+  - Major-repair reserve (expected): $2,181
+  - **6-year total: $46,040** ($639/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,302
+
+### 96. 2015 BMW i3 w/ Range Extender — $11,995
 
 - VIN: `WBY1Z4C53FV501807`
 - Mileage: 87,909 mi · Color: Arravani Gray W/Bmw I Frozen B · Certified pre-owned
@@ -3291,74 +3262,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,211
   - Fuel / electricity: $3,803
   - Maintenance: $4,499
-  - Insurance: $17,639
+  - Insurance: $19,583
   - Registration: $2,160
   - Major-repair reserve (expected): $3,315
-  - **6-year total: $37,259** ($517/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,222
+  - **6-year total: $39,203** ($544/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,870
 
-### 98. 2017 BMW 320i Sedan — $14,490
-
-- VIN: `WBA8A9C56HK619680`
-- Mileage: 52,144 mi · Color: Mineral Gray Metallic · Certified pre-owned
-- Location: Diplomat Motors - Portland, Portland OR (145 mi away)
-- Days on lot: 77
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/783327821
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
-- Safety: AEB unknown · blind-spot unknown
-  - No curated safety profile for the 2017 BMW 320i. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (3-Series): backupCam
-- Reliability (model-year level): **unknown** — confidence none
-  - NHTSA: 0 complaints, 0 recalls for the 2017 BMW 320i
-  - Could not match "320i" to a model name NHTSA publishes for the 2017 BMW, so no complaint or recall history was retrieved. This is ABSENCE OF DATA — it is not a clean record.
-  - Source: https://www.nhtsa.gov/vehicle/2017/BMW/320I
-  - Caveat: No NHTSA record was retrieved for this vehicle. Check the NHTSA page directly before treating it as trouble-free.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $14,490
-  - Sales tax: $1,463
-  - Fuel / electricity: $10,530
-  - Maintenance: $5,448
-  - Insurance: $18,312
-  - Registration: $1,392
-  - Major-repair reserve (expected): $2,159
-  - **6-year total: $44,900** ($624/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,912
-
-### 99. 2016 Mercedes-Benz GLA 250 4MATIC — $14,999
-
-- VIN: `WDCTG4GB1GJ203842`
-- Mileage: 52,000 mi · Color: White · Certified pre-owned
-- Location: Private Seller Exchange, Tualatin OR (154 mi away)
-- Days on lot: 13
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788787454
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
-- Safety: AEB unknown · blind-spot unknown
-  - No curated safety profile for the 2016 Mercedes-Benz GLA 250. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **unknown** — confidence none
-  - NHTSA: 0 complaints, 0 recalls for the 2016 Mercedes-Benz GLA 250
-  - Could not match "GLA 250" to a model name NHTSA publishes for the 2016 Mercedes-Benz, so no complaint or recall history was retrieved. This is ABSENCE OF DATA — it is not a clean record.
-  - Source: https://www.nhtsa.gov/vehicle/2016/MERCEDES-BENZ/GLA%20250
-  - Caveat: No NHTSA record was retrieved for this vehicle. Check the NHTSA page directly before treating it as trouble-free.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $14,999
-  - Sales tax: $1,515
-  - Fuel / electricity: $9,920
-  - Maintenance: $5,224
-  - Insurance: $18,450
-  - Registration: $1,428
-  - Major-repair reserve (expected): $2,181
-  - **6-year total: $44,510** ($618/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,792
-
-### 100. 2017 BMW 330e — $14,000
+### 97. 2017 BMW 330e — $14,000
 
 - VIN: `WBA8E1C38HA158542`
 - Mileage: 87,000 mi · Color: Black · Certified pre-owned
@@ -3385,13 +3295,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,414
   - Fuel / electricity: $6,468
   - Maintenance: $4,310
-  - Insurance: $18,180
+  - Insurance: $19,848
   - Registration: $1,362
   - Major-repair reserve (expected): $2,823
-  - **6-year total: $39,964** ($555/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,218
+  - **6-year total: $41,632** ($578/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,774
 
-### 101. 2016 BMW X5 xDrive40e — $13,990
+### 98. 2016 BMW X5 xDrive40e — $13,990
 
 - VIN: `5UXKT0C52G0S78284`
 - Mileage: 82,311 mi · Color: Dark Graphite · Certified pre-owned
@@ -3418,13 +3328,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,413
   - Fuel / electricity: $6,468
   - Maintenance: $4,305
-  - Insurance: $18,177
+  - Insurance: $19,847
   - Registration: $1,368
   - Major-repair reserve (expected): $2,948
-  - **6-year total: $40,082** ($557/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,245
+  - **6-year total: $41,752** ($580/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,802
 
-### 102. 2016 BMW X5 xDrive40e — $11,858
+### 99. 2016 BMW X5 xDrive40e — $11,858
 
 - VIN: `5UXKT0C58G0S76006`
 - Mileage: 109,038 mi · Color: Mineral Silver Metallic · Certified pre-owned
@@ -3451,13 +3361,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,198
   - Fuel / electricity: $6,468
   - Maintenance: $4,825
-  - Insurance: $17,602
+  - Insurance: $19,565
   - Registration: $1,230
   - Major-repair reserve (expected): $3,580
-  - **6-year total: $39,482** ($548/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,310
+  - **6-year total: $41,445** ($576/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,965
 
-### 103. 2016 Audi A3 e-tron Prestige — $8,500
+### 100. 2016 Audi A3 e-tron Prestige — $8,500
 
 - VIN: `WAUSPBFFXGA083529`
 - Mileage: 120,249 mi · Color: Gray · Certified pre-owned
@@ -3483,47 +3393,13 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $859
   - Fuel / electricity: $6,468
   - Maintenance: $5,129
-  - Insurance: $16,695
+  - Insurance: $19,122
   - Registration: $1,020
   - Major-repair reserve (expected): $3,919
-  - **6-year total: $37,373** ($519/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,767
+  - **6-year total: $39,800** ($553/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,576
 
-### 104. 2017 BMW X5 xDrive40e — $10,895
-
-- VIN: `5UXKT0C3XH0V97934`
-- Mileage: 130,594 mi · Color: Alpine White · Certified pre-owned
-- Location: Seaview GMC, Lynnwood WA (20 mi away)
-- Days on lot: 58
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/784940142
-- Powertrain: **Plug-in hybrid** · 14 mi electric range
-  - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
-- Safety: AEB unknown · blind-spot unknown
-  - No curated safety profile for the 2017 BMW X5. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (xDrive40e): backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 73 complaints, 6 recalls for the 2017 BMW X5
-  - 44% of its 73 NHTSA complaints (32) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - 6 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2017/BMW/X5
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":0,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 130,594 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $10,895
-  - Sales tax: $1,100
-  - Fuel / electricity: $6,468
-  - Maintenance: $5,159
-  - Insurance: $17,342
-  - Registration: $1,170
-  - Major-repair reserve (expected): $3,782
-  - **6-year total: $39,657** ($551/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,221
-
-### 105. 2017 BMW X5 xDrive40e — $14,000
+### 101. 2017 BMW X5 xDrive40e — $14,000
 
 - VIN: `5UXKT0C38H0V97012`
 - Mileage: 74,000 mi · Color: Black · Certified pre-owned
@@ -3551,13 +3427,47 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,414
   - Fuel / electricity: $6,468
   - Maintenance: $4,057
-  - Insurance: $18,180
+  - Insurance: $19,848
   - Registration: $1,362
   - Major-repair reserve (expected): $2,537
-  - **6-year total: $39,425** ($548/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $13,051
+  - **6-year total: $41,093** ($571/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,607
 
-### 106. 2024 MINI Cooper SE — $16,895
+### 102. 2017 BMW X5 xDrive40e — $10,895
+
+- VIN: `5UXKT0C3XH0V97934`
+- Mileage: 130,594 mi · Color: Alpine White · Certified pre-owned
+- Location: Seaview GMC, Lynnwood WA (20 mi away)
+- Days on lot: 58
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/784940142
+- Powertrain: **Plug-in hybrid** · 14 mi electric range
+  - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
+- Safety: AEB unknown · blind-spot unknown
+  - No curated safety profile for the 2017 BMW X5. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (xDrive40e): backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 73 complaints, 6 recalls for the 2017 BMW X5
+  - 44% of its 73 NHTSA complaints (32) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - 6 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2017/BMW/X5
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":0,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (9 yr, 130,594 mi) — a pack failure would be entirely out of pocket."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $10,895
+  - Sales tax: $1,100
+  - Fuel / electricity: $6,468
+  - Maintenance: $5,159
+  - Insurance: $19,438
+  - Registration: $1,170
+  - Major-repair reserve (expected): $3,782
+  - **6-year total: $41,753** ($580/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,919
+
+### 103. 2024 MINI Cooper SE — $16,895
 
 - VIN: `WMW13DJ09R2V91896`
 - Mileage: 17,617 mi · Color: White · Certified pre-owned
@@ -3584,8 +3494,8 @@ Every car we can find that could work as Jordyn's first car — 3703 listings se
   - Sales tax: $1,706
   - Fuel / electricity: $3,630
   - Maintenance: $1,584
-  - Insurance: $18,962
+  - Insurance: $20,230
   - Registration: $2,370
   - Major-repair reserve (expected): $189
-  - **6-year total: $37,901** ($526/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,083
+  - **6-year total: $39,169** ($544/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,505
