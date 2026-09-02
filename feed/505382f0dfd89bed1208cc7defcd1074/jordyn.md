@@ -1,13 +1,13 @@
 # Jordyn's first car
 _Safety first, then cost to own · 130 mi/week · $15k target, searched to $22k_
 
-**103 listings** · updated 2026-09-02
+**104 listings** · updated 2026-09-02
 
 > This is a plaintext export of a private family car roster, generated
 > nightly from live dealer inventory. Prices and availability change daily;
 > always confirm against the listing URL before acting on anything here.
 
-Every car we can find that could work as Jordyn's first car — 4525 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
+Every car we can find that could work as Jordyn's first car — 4533 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
 
 ## How to read this
 
@@ -95,54 +95,55 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
 | 53 | 2020 Jaguar F-PACE S | $19,101 | 75,378 | Gasoline | $54,586 | AEB | unknown |
 | 54 | 2021 Volkswagen ID.4 Pro | $16,997 | 55,573 | Battery electric | $39,652 | AEB+BSM | concern |
 | 55 | 2019 Jeep Renegade Sport | $12,490 | 48,587 | Gasoline | $41,716 | AEB | concern |
-| 56 | 2017 Jeep Compass Trailhawk | $12,471 | 50,876 | Gasoline | $41,420 | AEB | concern |
-| 57 | 2021 Chevrolet Equinox LT | $8,995 | 149,131 | Gasoline | $42,298 | AEB+BSM | concern |
-| 58 | 2023 Chevrolet TrailBlazer LS | $12,638 | 123,095 | Gasoline | $43,866 | AEB | ok |
-| 59 | 2017 Kia Niro LX | $9,500 | 140,055 | Hybrid | $34,876 | AEB | concern |
-| 60 | 2020 Kia Soul LX | $8,490 | 126,795 | Gasoline | $37,967 | AEB | concern |
-| 61 | 2017 Audi A3 e-tron Premium Plus | $15,788 | 60,520 | Plug-in hybrid | $41,855 | AEB | ok |
-| 62 | 2020 Jeep Compass Sport | $14,998 | 58,982 | Gasoline | $43,058 | AEB | concern |
-| 63 | 2018 Toyota Camry LE | $19,795 | 93,755 | Hybrid | $40,355 | AEB | concern |
-| 64 | 2018 Audi Q5 2.0T Premium Plus | $14,000 | 101,390 | Gasoline | $49,545 | AEB+BSM | concern |
-| 65 | 2017 Chevrolet Volt LT | $7,598 | 125,724 | Plug-in hybrid | $34,352 | AEB | concern |
-| 66 | 2018 Kia Forte LX | $5,995 | 115,922 | Gasoline | $35,555 | AEB | concern |
-| 67 | 2021 Volkswagen Tiguan S | $12,971 | 94,996 | Gasoline | $43,707 | AEB+BSM | concern |
-| 68 | 2019 Jeep Renegade Sport | $7,995 | 102,755 | Gasoline | $40,098 | AEB | concern |
-| 69 | 2023 Buick Encore GX Select | $16,245 | 716 | Gasoline | $41,046 | AEB | ok |
-| 70 | 2023 Kia Soul LX | $11,900 | 28,023 | Gasoline | $37,014 | AEB | ok |
-| 71 | 2018 Tesla Model 3 Mid Range | $14,999 | 69,459 | Battery electric | $39,276 | AEB+BSM | ok |
-| 72 | 2021 Honda Accord Hybrid | $13,500 | 123,400 | Hybrid | $37,640 | AEB | concern |
-| 73 | 2019 Volkswagen e-Golf SE | $12,685 | 60,404 | Battery electric | $35,925 | — | ok |
-| 74 | 2020 Chevrolet Bolt LT | $16,750 | 16,765 | Battery electric | $37,902 | — | concern |
-| 75 | 2020 Chevrolet Bolt LT | $13,990 | 98,213 | Battery electric | $37,131 | — | concern |
-| 76 | 2019 BMW i3 s | $16,995 | 89,305 | Battery electric | $41,425 | — | ok |
-| 77 | 2015 smart fortwo electric drive | $5,000 | 39,816 | Battery electric | $29,250 | — | unknown |
-| 78 | 2015 Nissan Leaf S | $5,480 | 42,310 | Battery electric | $29,125 | — | ok |
-| 79 | 2017 FIAT 500 e | $8,000 | 32,300 | Battery electric | $31,490 | — | ok |
-| 80 | 2015 smart fortwo electric drive | $7,499 | 44,682 | Battery electric | $31,455 | — | unknown |
-| 81 | 2017 FIAT 500 e | $8,615 | 44,490 | Battery electric | $32,158 | — | ok |
-| 82 | 2016 Nissan Leaf SL | $7,991 | 60,074 | Battery electric | $31,460 | — | ok |
-| 83 | 2016 FIAT 500 e | $7,998 | 71,397 | Battery electric | $32,128 | — | ok |
-| 84 | 2015 Nissan Leaf S | $7,999 | 57,218 | Battery electric | $31,534 | — | ok |
-| 85 | 2016 Nissan Leaf S | $5,777 | 61,688 | Battery electric | $29,548 | — | ok |
-| 86 | 2015 Nissan Leaf S | $7,999 | 93,877 | Battery electric | $32,038 | — | ok |
-| 87 | 2015 Chevrolet Spark LT | $4,100 | 68,320 | Battery electric | $29,356 | — | concern |
-| 88 | 2016 BMW i3 w/ Range Extender | $11,977 | 65,498 | Plug-in hybrid | $37,876 | — | ok |
-| 89 | 2016 Kia Soul EV + | $9,000 | 48,222 | Battery electric | $32,399 | — | concern |
-| 90 | 2015 Chevrolet Spark LT | $6,994 | 65,001 | Battery electric | $31,768 | — | concern |
-| 91 | 2015 FIAT 500 e | $8,999 | 40,501 | Battery electric | $32,633 | — | concern |
-| 92 | 2016 Kia Soul EV + | $9,195 | 54,443 | Battery electric | $32,644 | — | concern |
-| 93 | 2015 FIAT 500 e | $5,998 | 95,451 | Battery electric | $30,913 | — | concern |
-| 94 | 2017 BMW 320i Sedan | $14,490 | 52,144 | Gasoline | $46,501 | — | unknown |
-| 95 | 2016 Mercedes-Benz GLA 250 4MATIC | $14,999 | 52,000 | Gasoline | $46,040 | — | unknown |
-| 96 | 2015 BMW i3 w/ Range Extender | $11,995 | 87,909 | Plug-in hybrid | $39,203 | — | ok |
-| 97 | 2017 BMW 330e | $14,000 | 87,000 | Plug-in hybrid | $41,632 | — | unknown |
-| 98 | 2016 BMW X5 xDrive40e | $13,990 | 82,311 | Plug-in hybrid | $41,752 | — | concern |
-| 99 | 2016 BMW X5 xDrive40e | $11,858 | 109,038 | Plug-in hybrid | $41,445 | — | concern |
-| 100 | 2016 Audi A3 e-tron Prestige | $8,500 | 120,249 | Plug-in hybrid | $39,800 | — | concern |
-| 101 | 2017 BMW X5 xDrive40e | $14,000 | 74,000 | Plug-in hybrid | $41,093 | — | concern |
-| 102 | 2017 BMW X5 xDrive40e | $10,895 | 130,594 | Plug-in hybrid | $41,753 | — | concern |
-| 103 | 2024 MINI Cooper SE | $16,895 | 17,617 | Battery electric | $39,169 | — | ok |
+| 56 | 2022 Ford Mustang Mach-E Select | $22,490 | 72,305 | Battery electric | $45,368 | AEB+BSM | concern |
+| 57 | 2017 Jeep Compass Trailhawk | $12,471 | 50,876 | Gasoline | $41,420 | AEB | concern |
+| 58 | 2021 Chevrolet Equinox LT | $8,995 | 149,131 | Gasoline | $42,298 | AEB+BSM | concern |
+| 59 | 2023 Chevrolet TrailBlazer LS | $12,638 | 123,095 | Gasoline | $43,866 | AEB | ok |
+| 60 | 2017 Kia Niro LX | $9,500 | 140,055 | Hybrid | $34,876 | AEB | concern |
+| 61 | 2020 Kia Soul LX | $8,490 | 126,795 | Gasoline | $37,967 | AEB | concern |
+| 62 | 2017 Audi A3 e-tron Premium Plus | $15,788 | 60,520 | Plug-in hybrid | $41,855 | AEB | ok |
+| 63 | 2020 Jeep Compass Sport | $14,998 | 58,982 | Gasoline | $43,058 | AEB | concern |
+| 64 | 2018 Toyota Camry LE | $19,795 | 93,755 | Hybrid | $40,355 | AEB | concern |
+| 65 | 2018 Audi Q5 2.0T Premium Plus | $14,000 | 101,390 | Gasoline | $49,545 | AEB+BSM | concern |
+| 66 | 2017 Chevrolet Volt LT | $7,598 | 125,724 | Plug-in hybrid | $34,352 | AEB | concern |
+| 67 | 2018 Kia Forte LX | $5,995 | 115,922 | Gasoline | $35,555 | AEB | concern |
+| 68 | 2021 Volkswagen Tiguan S | $12,971 | 94,996 | Gasoline | $43,707 | AEB+BSM | concern |
+| 69 | 2019 Jeep Renegade Sport | $7,995 | 102,755 | Gasoline | $40,098 | AEB | concern |
+| 70 | 2023 Buick Encore GX Select | $16,245 | 716 | Gasoline | $41,046 | AEB | ok |
+| 71 | 2023 Kia Soul LX | $11,900 | 28,023 | Gasoline | $37,014 | AEB | ok |
+| 72 | 2018 Tesla Model 3 Mid Range | $14,999 | 69,459 | Battery electric | $39,276 | AEB+BSM | ok |
+| 73 | 2021 Honda Accord Hybrid | $13,500 | 123,400 | Hybrid | $37,640 | AEB | concern |
+| 74 | 2019 Volkswagen e-Golf SE | $12,685 | 60,404 | Battery electric | $35,925 | — | ok |
+| 75 | 2020 Chevrolet Bolt LT | $16,750 | 16,765 | Battery electric | $37,902 | — | concern |
+| 76 | 2020 Chevrolet Bolt LT | $13,990 | 98,213 | Battery electric | $37,131 | — | concern |
+| 77 | 2019 BMW i3 s | $16,995 | 89,305 | Battery electric | $41,425 | — | ok |
+| 78 | 2015 smart fortwo electric drive | $5,000 | 39,816 | Battery electric | $29,250 | — | unknown |
+| 79 | 2015 Nissan Leaf S | $5,480 | 42,310 | Battery electric | $29,125 | — | ok |
+| 80 | 2017 FIAT 500 e | $8,000 | 32,300 | Battery electric | $31,490 | — | ok |
+| 81 | 2015 smart fortwo electric drive | $7,499 | 44,682 | Battery electric | $31,455 | — | unknown |
+| 82 | 2017 FIAT 500 e | $8,615 | 44,490 | Battery electric | $32,158 | — | ok |
+| 83 | 2016 Nissan Leaf SL | $7,991 | 60,074 | Battery electric | $31,460 | — | ok |
+| 84 | 2016 FIAT 500 e | $7,998 | 71,397 | Battery electric | $32,128 | — | ok |
+| 85 | 2015 Nissan Leaf S | $7,999 | 57,218 | Battery electric | $31,534 | — | ok |
+| 86 | 2016 Nissan Leaf S | $5,777 | 61,688 | Battery electric | $29,548 | — | ok |
+| 87 | 2015 Nissan Leaf S | $7,999 | 93,877 | Battery electric | $32,038 | — | ok |
+| 88 | 2015 Chevrolet Spark LT | $4,100 | 68,320 | Battery electric | $29,356 | — | concern |
+| 89 | 2016 BMW i3 w/ Range Extender | $11,977 | 65,498 | Plug-in hybrid | $37,876 | — | ok |
+| 90 | 2016 Kia Soul EV + | $9,000 | 48,222 | Battery electric | $32,399 | — | concern |
+| 91 | 2015 Chevrolet Spark LT | $6,994 | 65,001 | Battery electric | $31,768 | — | concern |
+| 92 | 2015 FIAT 500 e | $8,999 | 40,501 | Battery electric | $32,633 | — | concern |
+| 93 | 2016 Kia Soul EV + | $9,195 | 54,443 | Battery electric | $32,644 | — | concern |
+| 94 | 2015 FIAT 500 e | $5,998 | 95,451 | Battery electric | $30,913 | — | concern |
+| 95 | 2017 BMW 320i Sedan | $14,490 | 52,144 | Gasoline | $46,501 | — | unknown |
+| 96 | 2016 Mercedes-Benz GLA 250 4MATIC | $14,999 | 52,000 | Gasoline | $46,040 | — | unknown |
+| 97 | 2015 BMW i3 w/ Range Extender | $11,995 | 87,909 | Plug-in hybrid | $39,203 | — | ok |
+| 98 | 2017 BMW 330e | $14,000 | 87,000 | Plug-in hybrid | $41,632 | — | unknown |
+| 99 | 2016 BMW X5 xDrive40e | $13,990 | 82,311 | Plug-in hybrid | $41,752 | — | concern |
+| 100 | 2016 BMW X5 xDrive40e | $11,858 | 109,038 | Plug-in hybrid | $41,445 | — | concern |
+| 101 | 2016 Audi A3 e-tron Prestige | $8,500 | 120,249 | Plug-in hybrid | $39,800 | — | concern |
+| 102 | 2017 BMW X5 xDrive40e | $14,000 | 74,000 | Plug-in hybrid | $41,093 | — | concern |
+| 103 | 2017 BMW X5 xDrive40e | $10,895 | 130,594 | Plug-in hybrid | $41,753 | — | concern |
+| 104 | 2024 MINI Cooper SE | $16,895 | 17,617 | Battery electric | $39,169 | — | ok |
 
 ## Detail
 
@@ -1942,7 +1943,40 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $41,716** ($579/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,325
 
-### 56. 2017 Jeep Compass Trailhawk — $12,471
+### 56. 2022 Ford Mustang Mach-E Select — $22,490
+
+- VIN: `3FMTK1RM4NMA02515`
+- Mileage: 72,305 mi · Color: Rapid Red Metallic Tinted Clea · Certified pre-owned
+- Location: PNW Luxury Cars, Lakewood WA (30 mi away)
+- Days on lot: 88
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/780112771
+- Powertrain: **Battery electric** · 247 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2022 Ford Mustang Mach-E. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (Select): fcw, lka, acc, rcta, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 134 complaints, 0 recalls for the 2022 Ford Mustang Mach-E
+  - 69% of its 134 NHTSA complaints (93) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2022/FORD/MUSTANG%20MACH-E
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":4,"milesLeft":27695,"effectiveYears":4,"note":"Federal battery warranty still covers roughly 4.0 more year(s) at 130 mi/wk — limited by age (4 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $22,490
+  - Sales tax: $2,271
+  - Fuel / electricity: $3,630
+  - Maintenance: $1,921
+  - Insurance: $20,969
+  - Registration: $2,652
+  - Major-repair reserve (expected): $517
+  - **6-year total: $45,368** ($630/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $18,777
+
+### 57. 2017 Jeep Compass Trailhawk — $12,471
 
 - VIN: `3C4NJDDB6HT646969`
 - Mileage: 50,876 mi · Color: Gray · Certified pre-owned
@@ -1974,7 +2008,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $41,420** ($575/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,785
 
-### 57. 2021 Chevrolet Equinox LT — $8,995
+### 58. 2021 Chevrolet Equinox LT — $8,995
 
 - VIN: `3GNAXTEVXMS161998`
 - Mileage: 149,131 mi · Color: Silver · Certified pre-owned
@@ -2005,7 +2039,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $42,298** ($587/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,941
 
-### 58. 2023 Chevrolet TrailBlazer LS — $12,638
+### 59. 2023 Chevrolet TrailBlazer LS — $12,638
 
 - VIN: `KL79MNSL9PB044316`
 - Mileage: 123,095 mi · Color: Sterling Gray Metallic · Certified pre-owned
@@ -2036,7 +2070,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $43,866** ($609/mo over 40,560 mi)
   - 2-year total (Jordyn only): $17,281
 
-### 59. 2017 Kia Niro LX — $9,500
+### 60. 2017 Kia Niro LX — $9,500
 
 - VIN: `KNDCB3LCXH5096393`
 - Mileage: 140,055 mi · Color: Silky Silver · Certified pre-owned
@@ -2068,7 +2102,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - 2-year total (Jordyn only): $12,781
 - Note: Cheapest car here with AEB standard AND an IIHS Top Safety Pick — the strongest safety-per-dollar pick on the page.
 
-### 60. 2020 Kia Soul LX — $8,490
+### 61. 2020 Kia Soul LX — $8,490
 
 - VIN: `KNDJ23AU7L7088526`
 - Mileage: 126,795 mi · Color: Sparkling Silver · Certified pre-owned
@@ -2099,7 +2133,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $37,967** ($527/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,348
 
-### 61. 2017 Audi A3 e-tron Premium Plus — $15,788
+### 62. 2017 Audi A3 e-tron Premium Plus — $15,788
 
 - VIN: `WAUTPBFF3HA136710`
 - Mileage: 60,520 mi · Color: Mythos Black Metallic · Certified pre-owned
@@ -2132,7 +2166,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $41,855** ($581/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,882
 
-### 62. 2020 Jeep Compass Sport — $14,998
+### 63. 2020 Jeep Compass Sport — $14,998
 
 - VIN: `3C4NJCAB3LT243085`
 - Mileage: 58,982 mi · Color: Diamond Black Crystal Pearl Co · Certified pre-owned
@@ -2163,7 +2197,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $43,058** ($598/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,130
 
-### 63. 2018 Toyota Camry LE — $19,795
+### 64. 2018 Toyota Camry LE — $19,795
 
 - VIN: `4T1B31HK2JU002432`
 - Mileage: 93,755 mi · Color: Gray · Certified pre-owned
@@ -2196,7 +2230,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $40,355** ($560/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,076
 
-### 64. 2018 Audi Q5 2.0T Premium Plus — $14,000
+### 65. 2018 Audi Q5 2.0T Premium Plus — $14,000
 
 - VIN: `WA1BNAFY3J2074736`
 - Mileage: 101,390 mi · Color: Gray · Certified pre-owned
@@ -2228,7 +2262,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $49,545** ($688/mo over 40,560 mi)
   - 2-year total (Jordyn only): $17,819
 
-### 65. 2017 Chevrolet Volt LT — $7,598
+### 66. 2017 Chevrolet Volt LT — $7,598
 
 - VIN: `1G1RA6S52HU119357`
 - Mileage: 125,724 mi · Color: White · Certified pre-owned
@@ -2262,7 +2296,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $34,352** ($477/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,999
 
-### 66. 2018 Kia Forte LX — $5,995
+### 67. 2018 Kia Forte LX — $5,995
 
 - VIN: `3KPFK4A70JE241685`
 - Mileage: 115,922 mi · Color: Silver · Certified pre-owned
@@ -2292,7 +2326,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $35,555** ($494/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,577
 
-### 67. 2021 Volkswagen Tiguan S — $12,971
+### 68. 2021 Volkswagen Tiguan S — $12,971
 
 - VIN: `3VV1B7AX3MM025384`
 - Mileage: 94,996 mi · Color: Deep Black · Certified pre-owned
@@ -2324,7 +2358,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $43,707** ($607/mo over 40,560 mi)
   - 2-year total (Jordyn only): $16,648
 
-### 68. 2019 Jeep Renegade Sport — $7,995
+### 69. 2019 Jeep Renegade Sport — $7,995
 
 - VIN: `ZACNJAAB8KPK49178`
 - Mileage: 102,755 mi · Color: Orange · Certified pre-owned
@@ -2355,7 +2389,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $40,098** ($557/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,338
 
-### 69. 2023 Buick Encore GX Select — $16,245
+### 70. 2023 Buick Encore GX Select — $16,245
 
 - VIN: `KL4MMDSL6PB120897`
 - Mileage: 716 mi · Color: Silver · Certified pre-owned
@@ -2387,7 +2421,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $41,046** ($570/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,283
 
-### 70. 2023 Kia Soul LX — $11,900
+### 71. 2023 Kia Soul LX — $11,900
 
 - VIN: `KNDJ23AU3P7213981`
 - Mileage: 28,023 mi · Certified pre-owned
@@ -2419,7 +2453,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $37,014** ($514/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,138
 
-### 71. 2018 Tesla Model 3 Mid Range — $14,999
+### 72. 2018 Tesla Model 3 Mid Range — $14,999
 
 - VIN: `5YJ3E1EA6JF013800`
 - Mileage: 69,459 mi · Color: White · Certified pre-owned
@@ -2453,7 +2487,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $39,276** ($546/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,156
 
-### 72. 2021 Honda Accord Hybrid — $13,500
+### 73. 2021 Honda Accord Hybrid — $13,500
 
 - VIN: `1HGCV3F14MA018129`
 - Mileage: 123,400 mi · Certified pre-owned
@@ -2486,7 +2520,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $37,640** ($523/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,543
 
-### 73. 2019 Volkswagen e-Golf SE — $12,685
+### 74. 2019 Volkswagen e-Golf SE — $12,685
 
 - VIN: `WVWKR7AUXKW918489`
 - Mileage: 60,404 mi · Color: Reflex Silver Metallic · Certified pre-owned
@@ -2519,7 +2553,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $35,925** ($499/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,033
 
-### 74. 2020 Chevrolet Bolt LT — $16,750
+### 75. 2020 Chevrolet Bolt LT — $16,750
 
 - VIN: `1G1FW6S04L4120656`
 - Mileage: 16,765 mi · Color: Black Metallic · Certified pre-owned
@@ -2555,7 +2589,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $37,902** ($526/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,923
 
-### 75. 2020 Chevrolet Bolt LT — $13,990
+### 76. 2020 Chevrolet Bolt LT — $13,990
 
 - VIN: `1G1FY6S02L4122903`
 - Mileage: 98,213 mi · Color: Oasis Blue · Certified pre-owned
@@ -2591,7 +2625,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $37,131** ($516/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,223
 
-### 76. 2019 BMW i3 s — $16,995
+### 77. 2019 BMW i3 s — $16,995
 
 - VIN: `WBY8P6C51K7E09726`
 - Mileage: 89,305 mi · Color: Fluid Black W/Bmw I Frozen Blu · Certified pre-owned
@@ -2625,7 +2659,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $41,425** ($575/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,953
 
-### 77. 2015 smart fortwo electric drive — $5,000
+### 78. 2015 smart fortwo electric drive — $5,000
 
 - VIN: `WMEEJ9AAXFK836914`
 - Mileage: 39,816 mi · Color: Silver · Certified pre-owned
@@ -2657,7 +2691,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $29,250** ($406/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,873
 
-### 78. 2015 Nissan Leaf S — $5,480
+### 79. 2015 Nissan Leaf S — $5,480
 
 - VIN: `1N4AZ0CPXFC315257`
 - Mileage: 42,310 mi · Color: White · Certified pre-owned
@@ -2689,7 +2723,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $29,125** ($405/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,991
 
-### 79. 2017 FIAT 500 e — $8,000
+### 80. 2017 FIAT 500 e — $8,000
 
 - VIN: `3C3CFFGE9HT500855`
 - Mileage: 32,300 mi · Color: Orange · Certified pre-owned
@@ -2721,7 +2755,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $31,490** ($437/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,732
 
-### 80. 2015 smart fortwo electric drive — $7,499
+### 81. 2015 smart fortwo electric drive — $7,499
 
 - VIN: `WMEEJ9AA2FK840231`
 - Mileage: 44,682 mi · Certified pre-owned
@@ -2753,7 +2787,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $31,455** ($437/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,733
 
-### 81. 2017 FIAT 500 e — $8,615
+### 82. 2017 FIAT 500 e — $8,615
 
 - VIN: `3C3CFFGE7HT704571`
 - Mileage: 44,490 mi · Color: Nero Puro (straight Black) · Certified pre-owned
@@ -2785,7 +2819,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $32,158** ($447/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,979
 
-### 82. 2016 Nissan Leaf SL — $7,991
+### 83. 2016 Nissan Leaf SL — $7,991
 
 - VIN: `1N4BZ0CP9GC306278`
 - Mileage: 60,074 mi · Color: Brilliant Silver · Certified pre-owned
@@ -2817,7 +2851,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $31,460** ($437/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,949
 
-### 83. 2016 FIAT 500 e — $7,998
+### 84. 2016 FIAT 500 e — $7,998
 
 - VIN: `3C3CFFGE3GT193116`
 - Mileage: 71,397 mi · Color: Gray · Certified pre-owned
@@ -2849,7 +2883,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $32,128** ($446/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,977
 
-### 84. 2015 Nissan Leaf S — $7,999
+### 85. 2015 Nissan Leaf S — $7,999
 
 - VIN: `1N4AZ0CP6FC326059`
 - Mileage: 57,218 mi · Color: Pearl White · Certified pre-owned
@@ -2881,7 +2915,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $31,534** ($438/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,008
 
-### 85. 2016 Nissan Leaf S — $5,777
+### 86. 2016 Nissan Leaf S — $5,777
 
 - VIN: `1N4AZ0CPXGC300713`
 - Mileage: 61,688 mi · Color: Super Black · Certified pre-owned
@@ -2913,7 +2947,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $29,548** ($410/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,150
 
-### 86. 2015 Nissan Leaf S — $7,999
+### 87. 2015 Nissan Leaf S — $7,999
 
 - VIN: `1N4AZ0CP5FC319541`
 - Mileage: 93,877 mi · Color: Gun Metallic · Certified pre-owned
@@ -2945,7 +2979,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $32,038** ($445/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,206
 
-### 87. 2015 Chevrolet Spark LT — $4,100
+### 88. 2015 Chevrolet Spark LT — $4,100
 
 - VIN: `KL8CL6S00FC771174`
 - Mileage: 68,320 mi · Color: Blue · Certified pre-owned
@@ -2978,7 +3012,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $29,356** ($408/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,853
 
-### 88. 2016 BMW i3 w/ Range Extender — $11,977
+### 89. 2016 BMW i3 w/ Range Extender — $11,977
 
 - VIN: `WBY1Z4C58GV506874`
 - Mileage: 65,498 mi · Color: Ionic Silver Metallic · Certified pre-owned
@@ -3011,7 +3045,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $37,876** ($526/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,468
 
-### 89. 2016 Kia Soul EV + — $9,000
+### 90. 2016 Kia Soul EV + — $9,000
 
 - VIN: `KNDJX3AE5G7013422`
 - Mileage: 48,222 mi · Color: Titanium Gray Metallic · Certified pre-owned
@@ -3043,7 +3077,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $32,399** ($450/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,114
 
-### 90. 2015 Chevrolet Spark LT — $6,994
+### 91. 2015 Chevrolet Spark LT — $6,994
 
 - VIN: `KL8CL6S01FC808393`
 - Mileage: 65,001 mi · Color: Summit White · Certified pre-owned
@@ -3076,7 +3110,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $31,768** ($441/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,811
 
-### 91. 2015 FIAT 500 e — $8,999
+### 92. 2015 FIAT 500 e — $8,999
 
 - VIN: `3C3CFFGE5FT709698`
 - Mileage: 40,501 mi · Color: Luce Blu · Certified pre-owned
@@ -3109,7 +3143,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $32,633** ($453/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,208
 
-### 92. 2016 Kia Soul EV + — $9,195
+### 93. 2016 Kia Soul EV + — $9,195
 
 - VIN: `KNDJX3AE8G7013804`
 - Mileage: 54,443 mi · Color: Bright Silver Metallic · Certified pre-owned
@@ -3141,7 +3175,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $32,644** ($453/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,206
 
-### 93. 2015 FIAT 500 e — $5,998
+### 94. 2015 FIAT 500 e — $5,998
 
 - VIN: `3C3CFFGE5FT741177`
 - Mileage: 95,451 mi · Color: Charcoal · Certified pre-owned
@@ -3174,7 +3208,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $30,913** ($429/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,493
 
-### 94. 2017 BMW 320i Sedan — $14,490
+### 95. 2017 BMW 320i Sedan — $14,490
 
 - VIN: `WBA8A9C56HK619680`
 - Mileage: 52,144 mi · Color: Mineral Gray Metallic · Certified pre-owned
@@ -3205,7 +3239,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $46,501** ($646/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,446
 
-### 95. 2016 Mercedes-Benz GLA 250 4MATIC — $14,999
+### 96. 2016 Mercedes-Benz GLA 250 4MATIC — $14,999
 
 - VIN: `WDCTG4GB1GJ203842`
 - Mileage: 52,000 mi · Color: White · Certified pre-owned
@@ -3235,7 +3269,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $46,040** ($639/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,302
 
-### 96. 2015 BMW i3 w/ Range Extender — $11,995
+### 97. 2015 BMW i3 w/ Range Extender — $11,995
 
 - VIN: `WBY1Z4C53FV501807`
 - Mileage: 87,909 mi · Color: Arravani Gray W/Bmw I Frozen B · Certified pre-owned
@@ -3268,7 +3302,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $39,203** ($544/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,870
 
-### 97. 2017 BMW 330e — $14,000
+### 98. 2017 BMW 330e — $14,000
 
 - VIN: `WBA8E1C38HA158542`
 - Mileage: 87,000 mi · Color: Black · Certified pre-owned
@@ -3301,7 +3335,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $41,632** ($578/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,774
 
-### 98. 2016 BMW X5 xDrive40e — $13,990
+### 99. 2016 BMW X5 xDrive40e — $13,990
 
 - VIN: `5UXKT0C52G0S78284`
 - Mileage: 82,311 mi · Color: Dark Graphite · Certified pre-owned
@@ -3334,7 +3368,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $41,752** ($580/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,802
 
-### 99. 2016 BMW X5 xDrive40e — $11,858
+### 100. 2016 BMW X5 xDrive40e — $11,858
 
 - VIN: `5UXKT0C58G0S76006`
 - Mileage: 109,038 mi · Color: Mineral Silver Metallic · Certified pre-owned
@@ -3367,7 +3401,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $41,445** ($576/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,965
 
-### 100. 2016 Audi A3 e-tron Prestige — $8,500
+### 101. 2016 Audi A3 e-tron Prestige — $8,500
 
 - VIN: `WAUSPBFFXGA083529`
 - Mileage: 120,249 mi · Color: Gray · Certified pre-owned
@@ -3399,7 +3433,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $39,800** ($553/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,576
 
-### 101. 2017 BMW X5 xDrive40e — $14,000
+### 102. 2017 BMW X5 xDrive40e — $14,000
 
 - VIN: `5UXKT0C38H0V97012`
 - Mileage: 74,000 mi · Color: Black · Certified pre-owned
@@ -3433,7 +3467,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $41,093** ($571/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,607
 
-### 102. 2017 BMW X5 xDrive40e — $10,895
+### 103. 2017 BMW X5 xDrive40e — $10,895
 
 - VIN: `5UXKT0C3XH0V97934`
 - Mileage: 130,594 mi · Color: Alpine White · Certified pre-owned
@@ -3467,7 +3501,7 @@ Every car we can find that could work as Jordyn's first car — 4525 listings se
   - **6-year total: $41,753** ($580/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,919
 
-### 103. 2024 MINI Cooper SE — $16,895
+### 104. 2024 MINI Cooper SE — $16,895
 
 - VIN: `WMW13DJ09R2V91896`
 - Mileage: 17,617 mi · Color: White · Certified pre-owned
