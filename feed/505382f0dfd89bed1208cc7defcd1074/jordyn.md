@@ -7,7 +7,7 @@ _Safety first, then cost to own · 130 mi/week · $15k target, searched to $22k_
 > nightly from live dealer inventory. Prices and availability change daily;
 > always confirm against the listing URL before acting on anything here.
 
-Every car we can find that could work as Jordyn's first car — 4534 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
+Every car we can find that could work as Jordyn's first car — 4529 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
 
 ## How to read this
 
@@ -84,10 +84,10 @@ Every car we can find that could work as Jordyn's first car — 4534 listings se
 | 42 | 2017 Chevrolet Volt LT | $9,984 | 91,306 | Plug-in hybrid | $34,779 | AEB | concern |
 | 43 | 2023 Chevrolet TrailBlazer LT | $15,995 | 61,348 | Gasoline | $42,722 | AEB | ok |
 | 44 | 2017 Chevrolet Spark LS | $4,500 | 85,709 | Gasoline | $34,973 | AEB | ok |
-| 45 | 2021 Jeep Renegade Latitude | $15,750 | 46,074 | Gasoline | $43,115 | AEB+BSM | concern |
-| 46 | 2022 Volkswagen Tiguan SE | $15,991 | 40,104 | Gasoline | $43,302 | AEB+BSM | concern |
-| 47 | 2017 Hyundai Elantra SE | $6,999 | 96,224 | Gasoline | $35,005 | AEB | concern |
-| 48 | 2020 Hyundai Elantra SEL | $8,192 | 114,145 | Gasoline | $36,573 | AEB+BSM | concern |
+| 45 | 2022 Volkswagen Tiguan SE | $15,991 | 40,104 | Gasoline | $43,302 | AEB+BSM | concern |
+| 46 | 2017 Hyundai Elantra SE | $6,999 | 96,224 | Gasoline | $35,005 | AEB | concern |
+| 47 | 2020 Hyundai Elantra SEL | $8,192 | 114,145 | Gasoline | $36,573 | AEB+BSM | concern |
+| 48 | 2021 Jeep Renegade Limited | $19,690 | 17,237 | Gasoline | $45,363 | AEB+BSM | concern |
 | 49 | 2023 Chevrolet Bolt EUV LT | $16,960 | 60,000 | Battery electric | $39,214 | AEB | concern |
 | 50 | 2017 Ford C-MAX Energi SE | $9,613 | 81,117 | Plug-in hybrid | $35,714 | AEB | ok |
 | 51 | 2018 Mitsubishi Outlander SEL | $11,999 | 96,653 | Plug-in hybrid | $36,098 | AEB | ok |
@@ -1589,38 +1589,7 @@ Every car we can find that could work as Jordyn's first car — 4534 listings se
   - **6-year total: $34,973** ($486/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,584
 
-### 45. 2021 Jeep Renegade Latitude — $15,750
-
-- VIN: `ZACNJCBB0MPN11286`
-- Mileage: 46,074 mi · Color: Granite Crystal Metallic Clear · Certified pre-owned
-- Location: Rairdon's Dodge Chrysler Jeep RAM of Marysville, Arlington WA (41 mi away)
-- Days on lot: 3
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789740203
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2.4 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2021 Jeep Renegade. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (Latitude): fcw, lka, rcta, backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 66 complaints, 2 recalls for the 2021 Jeep Renegade
-  - 42% of its 66 NHTSA complaints (28) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2021/JEEP/RENEGADE
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $15,750
-  - Sales tax: $1,591
-  - Fuel / electricity: $9,506
-  - Maintenance: $3,108
-  - Insurance: $20,079
-  - Registration: $1,410
-  - Major-repair reserve (expected): $878
-  - **6-year total: $43,115** ($599/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $15,172
-
-### 46. 2022 Volkswagen Tiguan SE — $15,991
+### 45. 2022 Volkswagen Tiguan SE — $15,991
 
 - VIN: `3VV2B7AX0NM055884`
 - Mileage: 40,104 mi · Color: Silver · Certified pre-owned
@@ -1652,7 +1621,7 @@ Every car we can find that could work as Jordyn's first car — 4534 listings se
   - **6-year total: $43,302** ($601/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,510
 
-### 47. 2017 Hyundai Elantra SE — $6,999
+### 46. 2017 Hyundai Elantra SE — $6,999
 
 - VIN: `5NPD74LFXHH165976`
 - Mileage: 96,224 mi · Color: Gray · Certified pre-owned
@@ -1683,7 +1652,7 @@ Every car we can find that could work as Jordyn's first car — 4534 listings se
   - **6-year total: $35,005** ($486/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,773
 
-### 48. 2020 Hyundai Elantra SEL — $8,192
+### 47. 2020 Hyundai Elantra SEL — $8,192
 
 - VIN: `KMHD84LF2LU897428`
 - Mileage: 114,145 mi · Color: Scarlet Red Pearl · Certified pre-owned
@@ -1714,6 +1683,37 @@ Every car we can find that could work as Jordyn's first car — 4534 listings se
   - Major-repair reserve (expected): $1,314
   - **6-year total: $36,573** ($508/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,607
+
+### 48. 2021 Jeep Renegade Limited — $19,690
+
+- VIN: `ZACNJDD12MPM41008`
+- Mileage: 17,237 mi · Color: Colorado Red Clearcoat · Certified pre-owned
+- Location: Dick's Hillsboro Honda, Hillsboro OR (147 mi away)
+- Days on lot: 26
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/786034597
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.3 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2021 Jeep Renegade. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (Limited): fcw, lka, rcta, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 66 complaints, 2 recalls for the 2021 Jeep Renegade
+  - 42% of its 66 NHTSA complaints (28) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2021/JEEP/RENEGADE
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $19,690
+  - Sales tax: $1,989
+  - Fuel / electricity: $9,469
+  - Maintenance: $2,897
+  - Insurance: $20,599
+  - Registration: $1,644
+  - Major-repair reserve (expected): $585
+  - **6-year total: $45,363** ($630/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,844
 
 ### 49. 2023 Chevrolet Bolt EUV LT — $16,960
 

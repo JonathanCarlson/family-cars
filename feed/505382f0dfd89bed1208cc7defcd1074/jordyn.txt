@@ -1,6 +1,6 @@
 ==========================================================================
 JORDYN'S FIRST CAR — 104 listings
-roster updated 2026-09-02 · feed generated 2026-09-02T21:00:15.078Z
+roster updated 2026-09-02 · feed generated 2026-09-02T21:10:31.619Z
 ==========================================================================
 
 Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.
@@ -2245,51 +2245,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Expected repairs are 44% of the purchase price — repairs may outrun the car's value.
 
 ==========================================================================
-45. 2021 Jeep Renegade Latitude — $15,750
-==========================================================================
-  VIN                     ZACNJCBB0MPN11286
-  odometer                46,074 mi
-  condition               Used · Granite Crystal Metallic Clear
-  where                   Rairdon's Dodge Chrysler Jeep RAM of Marysville, Arlington WA (41 mi)
-  days on lot             3
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789740203
-  powertrain              Gasoline
-  electric drive share    0% of miles at 130 mi/week
-    evidence              NHTSA lists gasoline as the only fuel, 2.4 L.
-  AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      standard (vin-trim-confirmed)
-  also standard (Latitude)   forward-collision-warning, lane-keeping-assist, rear-cross-traffic-alert, backup-camera
-  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    no
-    one owner             yes
-  reliability (2021 Jeep Renegade)
-    band                  concern (confidence: high)
-    NHTSA                 66 complaints · 2 recalls
-    - 42% of its 66 NHTSA complaints (28) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-    source                https://www.nhtsa.gov/vehicle/2021/JEEP/RENEGADE
-  2-year cost to own
-    purchase 15750 + tax 1591 + fuel 3169 + maint 1036
-    + insurance 6693 + fees 470 + repairs 258 - resale null
-    = $15,172 ($632/mo over 13,520 mi)
-  6-year cost to own
-    purchase 15750 + tax 1591 + fuel 9506 + maint 3108
-    + insurance 20079 + fees 1410 + repairs 878 - resale null
-    = $43,115 ($599/mo over 40,560 mi)
-  repair outlook (6 yr)   expected $878 to budget
-    worst single bill     $5,750 at ~2% — exposure, not budget
-     17% x $ 1265 = $ 215  Suspension, steering or brake overhaul
-      4% x $ 4313 = $ 177  Automatic transmission failure
-     14% x $ 1093 = $ 158  Cooling, fuel or ignition system
-      6% x $ 1955 = $ 123  Catalytic converter / emissions system
-  still worth owning 2032?  likely (~90%)
-    ~86,634 mi, 11 yr old
-    - Only ~87k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-
-==========================================================================
-46. 2022 Volkswagen Tiguan SE — $15,991
+45. 2022 Volkswagen Tiguan SE — $15,991
 ==========================================================================
   VIN                     3VV2B7AX0NM055884
   odometer                40,104 mi
@@ -2334,7 +2290,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~81k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-47. 2017 Hyundai Elantra SE — $6,999
+46. 2017 Hyundai Elantra SE — $6,999
 ==========================================================================
   VIN                     5NPD74LFXHH165976
   odometer                96,224 mi
@@ -2379,7 +2335,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~137k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-48. 2020 Hyundai Elantra SEL — $8,192
+47. 2020 Hyundai Elantra SEL — $8,192
 ==========================================================================
   VIN                     KMHD84LF2LU897428
   odometer                114,145 mi
@@ -2423,6 +2379,50 @@ COST ASSUMPTIONS (inputs to every total below)
     ~154,705 mi, 12 yr old
     - 12 years old by 2032, which is old but ordinary for a car in this class.
     - Only ~155k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+
+==========================================================================
+48. 2021 Jeep Renegade Limited — $19,690
+==========================================================================
+  VIN                     ZACNJDD12MPM41008
+  odometer                17,237 mi
+  condition               Used · Colorado Red Clearcoat
+  where                   Dick's Hillsboro Honda, Hillsboro OR (147 mi)
+  days on lot             26
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/786034597
+  powertrain              Gasoline
+  electric drive share    0% of miles at 130 mi/week
+    evidence              NHTSA lists gasoline as the only fuel, 1.3 L.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      standard (vin-trim-confirmed)
+  also standard (Limited)   forward-collision-warning, lane-keeping-assist, rear-cross-traffic-alert, backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             yes
+  reliability (2021 Jeep Renegade)
+    band                  concern (confidence: high)
+    NHTSA                 66 complaints · 2 recalls
+    - 42% of its 66 NHTSA complaints (28) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    source                https://www.nhtsa.gov/vehicle/2021/JEEP/RENEGADE
+  2-year cost to own
+    purchase 19690 + tax 1989 + fuel 3156 + maint 966
+    + insurance 6866 + fees 548 + repairs 173 - resale null
+    = $15,844 ($660/mo over 13,520 mi)
+  6-year cost to own
+    purchase 19690 + tax 1989 + fuel 9469 + maint 2897
+    + insurance 20599 + fees 1644 + repairs 585 - resale null
+    = $45,363 ($630/mo over 40,560 mi)
+  repair outlook (6 yr)   expected $585 to budget
+    worst single bill     $5,750 at ~1% — exposure, not budget
+     11% x $ 1265 = $ 143  Suspension, steering or brake overhaul
+      3% x $ 4313 = $ 116  Automatic transmission failure
+     10% x $ 1093 = $ 106  Cooling, fuel or ignition system
+      4% x $ 1955 = $  82  Catalytic converter / emissions system
+  still worth owning 2032?  likely (~90%)
+    ~57,797 mi, 11 yr old
+    - Only ~58k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
 49. 2023 Chevrolet Bolt EUV LT — $16,960
