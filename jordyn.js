@@ -488,6 +488,10 @@ function renderFamily() {
     <h2 class="ins-h">📏 The plan to beat</h2>
     <p class="ins-verdict"><b>${esc(ref.car)}</b> → Jordyn, Kate keeps the Highlander · household <b>${money(ref.familyTotal)}</b></p>
     <p class="tco-note">${esc(ref.note)}</p>
+    ${f.cheapestJordynPlan ? `<p class="ins-verdict" style="margin-top:10px">…but the <b>cheapest</b> way to buy Jordyn a safe car is
+      <b>${esc(f.cheapestJordynPlan.car)}</b> at ${money(f.cheapestJordynPlan.priceUsd)} — household <b>${money(f.cheapestJordynPlan.familyTotal)}</b>.</p>
+    <p class="tco-note">${esc(f.cheapestJordynPlan.note)} Both numbers are shown because a saving measured against
+    only the first one can be mostly an artefact of which car the scorer happened to pick.</p>` : ''}
     <p class="fineprint">Cash cap ${money(f.cashCapUsd)} — ${esc(f.cashCapNote)}</p>
   </div>`);
 
@@ -515,7 +519,10 @@ function renderFamily() {
           <tr><td>👧 Jordyn <span class="why">(Kate keeps the Highlander)</span></td>
               <td>${money(c.thisCarOnlyIfJordyn)}</td><td><b>${money(c.familyTotalIfJordyn)}</b></td></tr>
         </table></div>
-        <div class="opp-s">${c.vsReferencePlan > 0 ? `<b>${money(c.vsReferencePlan)} less</b> than buying the reference car for Jordyn` : `${money(Math.abs(c.vsReferencePlan))} more than the plan to beat`}</div>
+        <div class="opp-s">${c.vsReferencePlan > 0 ? `<b>${money(c.vsReferencePlan)} less</b> than buying the reference car for Jordyn` : `${money(Math.abs(c.vsReferencePlan))} more than the plan to beat`}${
+  c.vsCheapestJordynPlan != null
+    ? ` · vs the <b>cheapest</b> Jordyn plan: ${c.vsCheapestJordynPlan > 0 ? `${money(c.vsCheapestJordynPlan)} less` : `<b>${money(Math.abs(c.vsCheapestJordynPlan))} more</b>`}`
+    : ''}</div>
         ${kateCostBreakdown(c)}
         <ul class="rel-list">
           ${c.upgrade.gains.map((g) => `<li>✅ <b>${esc(g.dim)}</b> — ${esc(g.detail)}</li>`).join('')}
