@@ -428,6 +428,8 @@ function render() {
   renderControls();
   renderList();
   renderFamily();
+  renderBand('jordyn', '#jordyn-body');
+  renderBand('kate', '#kate-body');
   renderInsights();
   renderPicks();
   renderGuide();
@@ -470,6 +472,67 @@ function kateCostBreakdown(c) {
     Resale is shown as a negative because it comes back to you — the car is not written down to zero.</p>
     <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">Full safety, reliability and repair detail ↓</a></p>
   </details>`;
+}
+
+/**
+ * One band's view: the cars we're specifically watching, in full, then
+ * everything else grouped with a range and two exemplars.
+ *
+ * Deliberately NOT a list of every car. At ~4,500 listings a full list is a
+ * spreadsheet with a scrollbar; the summary carries almost all the
+ * decision-relevant information in one line per group.
+ */
+function renderBand(bandId, elId) {
+  const el = $(elId);
+  if (!el) return;
+  const b = DATA.bands?.[bandId];
+  if (!b) { el.innerHTML = '<div class="card"><p class="tco-note">Not available in this build.</p></div>'; return; }
+
+  const parts = [];
+  parts.push(`<div class="card">
+    <h2 class="ins-h">${bandId === 'kate' ? '👩' : '👧'} ${esc(b.label)} <span class="tier-n">${b.totalInBand} in range</span></h2>
+    <p class="ins-verdict">${esc(b.decidedBy)}</p>
+    <p class="tco-note"><b>Powertrain:</b> ${esc(b.powertrainRule)}</p>
+    <p class="tco-note">${esc(b.note)}</p>
+  </div>`);
+
+  for (const w of (b.watchlist || [])) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">⭐ ${esc(w.label)} <span class="tier-n">${w.count} found</span></h2>
+      <p class="tier-blurb">${esc(w.why)} Listed individually rather than summarised — "which ones are out there?" is the actual question.</p>
+      ${w.note ? `<p class="tco-note">${esc(w.note)}</p>` : ''}
+      ${w.cars.map((c) => `<div class="opp">
+        <div class="opp-h">${esc(c.name)}</div>
+        <div class="opp-s">${money(c.priceUsd)} · ${milesFmt(c.odometerMiles)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''} · 6yr ${money(c.sixYearTco)}</div>
+        <div class="opp-s">${c.safety?.meets ? '✅ automatic braking confirmed' : '⚠️ automatic braking unconfirmed'}</div>
+        <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">Full detail ↓</a></p>
+      </div>`).join('')}
+    </div>`);
+  }
+
+  if (b.cohorts?.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">📦 Everything else, grouped</h2>
+      <p class="tier-blurb">Grouped by model, generation and battery — <b>not</b> by model name. A 2013 Leaf and a 2023
+      Leaf share a badge and nothing else, so averaging them would be meaningless. Two exemplars each: the best of the
+      group, and the cheapest to own that still clears the safety floor.</p>
+      ${b.cohorts.map((c) => `<div class="opp">
+        <div class="opp-h">${esc(c.label)} <span class="tier-n">${c.count} cars</span></div>
+        <div class="opp-s">${c.yearRange ? `${c.yearRange.min}–${c.yearRange.max}` : ''} · ${money(c.priceUsd?.min)}–${money(c.priceUsd?.max)} · <b>6yr ${money(c.sixYearTco?.min)}–${money(c.sixYearTco?.max)}</b></div>
+        <div class="opp-s">Automatic braking standard on ${c.safetyQualifiedPct}% of them${c.generationNote ? ` · ${esc(c.generationNote)}` : ''}</div>
+        <ul class="rel-list">
+          ${c.exemplars.map((e) => `<li><b>${esc(e.role)}:</b> ${esc(e.name)} — ${money(e.priceUsd)}, 6yr ${money(e.sixYearTco)}
+            <a href="#" class="listing" data-goto-vin="${esc(e.vin)}">detail ↓</a></li>`).join('')}
+        </ul>
+      </div>`).join('')}
+    </div>`);
+  }
+
+  if (b.longTail) {
+    parts.push(`<div class="card"><p class="tco-note">${esc(b.longTail)}</p></div>`);
+  }
+
+  el.innerHTML = parts.join('');
 }
 
 function renderFamily() {

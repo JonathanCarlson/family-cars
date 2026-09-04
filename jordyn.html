@@ -402,7 +402,9 @@
 
     <nav id="tabbar" class="tabbar" hidden>
       <button class="tab active" type="button" data-tab="family">👨‍👩‍👧 Family plan</button>
-      <button class="tab" type="button" data-tab="cars">🚗 The cars</button>
+      <button class="tab" type="button" data-tab="jordyn">👧 For Jordyn</button>
+      <button class="tab" type="button" data-tab="kate">👩 For Kate</button>
+      <button class="tab" type="button" data-tab="cars">🚗 All cars</button>
       <button class="tab" type="button" data-tab="picks">👤 Jordyn's picks</button>
       <button class="tab" type="button" data-tab="insights">📊 What the data says</button>
       <button class="tab" type="button" data-tab="guide">📋 Buyer's guide</button>
@@ -413,6 +415,14 @@
 
       <section id="panel-family" class="panel">
         <div id="family-body"></div>
+      </section>
+
+      <section id="panel-jordyn" class="panel" hidden>
+        <div id="jordyn-body"></div>
+      </section>
+
+      <section id="panel-kate" class="panel" hidden>
+        <div id="kate-body"></div>
       </section>
 
       <section id="panel-cars" class="panel" hidden>
@@ -452,6 +462,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=3"></script>
-  <script src="jordyn.js?v=24"></script>
+  <script src="jordyn.js?v=25"></script>
 </body>
 </html>
