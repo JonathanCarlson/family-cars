@@ -1,6 +1,6 @@
 ==========================================================================
 JORDYN'S FIRST CAR — 171 listings
-roster updated 2026-09-04 · feed generated 2026-09-04T22:48:38.685Z
+roster updated 2026-09-04 · feed generated 2026-09-04T23:08:16.332Z
 ==========================================================================
 
 Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.
@@ -18,6 +18,7 @@ HOW TO READ THIS
   * Safety is a GATE, not a weight. marketAnalysis.safetyFirst excludes a car only when AEB is CONFIRMED ABSENT — never when it is merely unverified.
   * jordynPicks is what SHE chose, scored with the same model as everything else. It is never a filter on the rankings. Read entries[].delta against jordynPicks.baseline, and weight `stated` picks above `thumbed` ones.
   * bands is the curated view: start there rather than with listings[] or allCars. bands.kate is BATTERY-ELECTRIC ONLY by rule — the absence of petrol cars there is deliberate, not a gap in the data.
+  * ODOMETER vs ANNUAL MILEAGE: the Highlander's odometer is 135,000 (highlanderAndPlans.highlander.odometerMiles). Every field ending in MilesPerYear is annual driving — 17,000 is what Kate drives in a year, NOT a mileage reading.
   * All money is US dollars, whole units. All distances are miles.
 
 --------------------------------------------------------------------------

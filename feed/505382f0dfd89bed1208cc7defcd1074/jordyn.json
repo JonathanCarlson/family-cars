@@ -2,7 +2,7 @@
   "feed": {
     "name": "jordyn-first-car",
     "schemaVersion": "1.5",
-    "generatedAt": "2026-09-04T22:48:38.685Z",
+    "generatedAt": "2026-09-04T23:08:16.332Z",
     "rosterUpdated": "2026-09-04",
     "listingCount": 171,
     "purpose": "Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.",
@@ -26,6 +26,7 @@
       "Safety is a GATE, not a weight. marketAnalysis.safetyFirst excludes a car only when AEB is CONFIRMED ABSENT — never when it is merely unverified.",
       "jordynPicks is what SHE chose, scored with the same model as everything else. It is never a filter on the rankings. Read entries[].delta against jordynPicks.baseline, and weight `stated` picks above `thumbed` ones.",
       "bands is the curated view: start there rather than with listings[] or allCars. bands.kate is BATTERY-ELECTRIC ONLY by rule — the absence of petrol cars there is deliberate, not a gap in the data.",
+      "ODOMETER vs ANNUAL MILEAGE: the Highlander's odometer is 135,000 (highlanderAndPlans.highlander.odometerMiles). Every field ending in MilesPerYear is annual driving — 17,000 is what Kate drives in a year, NOT a mileage reading.",
       "All money is US dollars, whole units. All distances are miles."
     ],
     "canonicalPage": "https://jonathancarlson.github.io/family-cars/jordyn.html",
@@ -3431,6 +3432,369 @@
       "note": "1333 cars in range. The models you have named are listed individually; the rest are grouped by model, generation and battery — a 2013 Leaf and a 2023 Leaf share a badge and nothing else, so grouping on the name alone would average incomparable cars.",
       "longTail": "11 more cars in 9 groups too small to summarise (fewer than 3 of a kind). They are still costed and still searchable under Browse."
     }
+  },
+  "highlanderAndPlans": {
+    "note": "The Highlander is ALREADY OWNED. odometerMiles is its actual mileage; milesPerYear figures are annual driving. Do not confuse the two.",
+    "highlander": {
+      "car": "2017 Toyota Highlander Limited",
+      "vin": "5TDDZRFH9HS378691",
+      "odometerMiles": 135000,
+      "mpg": 22,
+      "worthToKeepUsd": 21000,
+      "worthToKeepBasis": "Median dealer asking price for 32 comparable 2016-18 Highlanders at 110-165k miles within 250 miles of 98006, Autotrader 2026-09-04. Context only — not realisable without a private sale.",
+      "tradeInUsd": 15960,
+      "tradeInBasis": "VERIFIED — KBB trade-in value for this VIN, Good condition, ZIP 98006, 2026-09-04. Range $14,810–$17,110.",
+      "tradeInTaxCreditUsd": 1724,
+      "tradeInTaxCreditBasis": "RCW 82.08.010(1)(a)(i) excludes separately stated like-kind trade-in from taxable selling price. At 10.8% that is $1,724 on a $15,960 trade.",
+      "tradeInFrictionUsd": 3316,
+      "tradeInFrictionNote": "Trading destroys about $5,040 of value (what it is worth to keep, less what a dealer gives), of which Washington's trade-in sales-tax credit returns $1,724. Net friction ≈ $3,316.",
+      "ifJordynDrivesIt": {
+        "milesPerYear": 6760,
+        "runningUsd": 18162,
+        "perMonthUsd": 252,
+        "valueIn2032Usd": 9038
+      },
+      "ifKateKeepsIt": {
+        "milesPerYear": 13520,
+        "runningUsd": 33178,
+        "perMonthUsd": 461,
+        "valueIn2032Usd": 7834
+      },
+      "note": "Running cost only — fuel, maintenance, tabs and the expected major-repair reserve. It excludes the teen-driver insurance addition, which the household pays because Jordyn starts driving at all, not because she drives this particular car.",
+      "risk": {
+        "source": "NHTSA complaintsByVehicle, MY2017 Toyota Highlander, queried 2026-09-04",
+        "complaintCount": 264,
+        "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=toyota&model=highlander&modelYear=2017",
+        "hazards": [
+          {
+            "id": "ua80-transmission",
+            "label": "UA80 8-speed transmission failure",
+            "costUsd": [
+              10000,
+              11000
+            ],
+            "clusterMiles": [
+              70000,
+              120000
+            ],
+            "likelihood": "elevated",
+            "note": "First model year of the UA80. Multiple owners report the replacement transmission is backordered with no US supply — so the risk is not only the bill but the car being off the road for months."
+          },
+          {
+            "id": "timing-cover-leak",
+            "label": "2GR-FKS timing-cover oil leak (FIPG sealant at the T junction)",
+            "costUsd": [
+              5400,
+              5400
+            ],
+            "clusterMiles": [
+              60000,
+              85000
+            ],
+            "likelihood": "known-issue",
+            "note": "Requires full engine removal. Documented across Toyota/Lexus V6 applications 2014–2019."
+          }
+        ],
+        "verdict": "The premise that this is a low-risk known quantity does not survive the complaint file. It is a first-year powertrain with a documented five-figure failure mode and a parts-supply problem."
+      },
+      "odometerMilesNote": "ACTUAL ODOMETER READING, not annual mileage."
+    },
+    "plans": [
+      {
+        "id": "one-for-jordyn",
+        "label": "Buy one for Jordyn, keep the Highlander",
+        "whoGetsWhat": "2021 Hyundai Elantra SE → Jordyn · Highlander → Kate",
+        "buys": [
+          {
+            "vin": "KMHLL4AG0MU191193",
+            "name": "2021 Hyundai Elantra SE",
+            "driver": "Jordyn",
+            "priceUsd": 14999,
+            "milesPerYear": 6760,
+            "sixYearRunningUsd": 33452,
+            "endValueUsd": 6231
+          }
+        ],
+        "stickerUsd": 14999,
+        "tradeInUsd": 0,
+        "taxableUsd": 14999,
+        "salesTaxUsd": 1620,
+        "taxSavedByTradeIn": 0,
+        "feesUsd": 228,
+        "cashNeededNowUsd": 16847,
+        "sixYearRunningUsd": 75804,
+        "endValueUsd": 14065,
+        "sixYearNetUsd": 78586,
+        "isCheapest": false,
+        "vsCheapestUsd": 16188,
+        "changes": {
+          "byCapability": {
+            "threeRow": {
+              "label": "Three rows / 6+ seats",
+              "why": "Carrying more than five people at once.",
+              "stillCovered": true,
+              "coveredBy": [
+                {
+                  "label": "2017 Toyota Highlander Limited",
+                  "confidence": "vin-confirmed"
+                }
+              ],
+              "uncertain": false
+            },
+            "towing": {
+              "label": "Towing",
+              "why": "Occasional trailer / hauling.",
+              "stillCovered": true,
+              "coveredBy": [
+                {
+                  "label": "2017 Toyota Highlander Limited",
+                  "confidence": "vin-confirmed"
+                },
+                {
+                  "label": "Ford F150",
+                  "confidence": "owner-confirmed"
+                }
+              ],
+              "uncertain": false
+            },
+            "snow": {
+              "label": "Confident in snow",
+              "why": "Passes, mountains, winter.",
+              "stillCovered": true,
+              "coveredBy": [
+                {
+                  "label": "2017 Toyota Highlander Limited",
+                  "confidence": "vin-confirmed"
+                },
+                {
+                  "label": "Ford F150",
+                  "confidence": "owner-confirmed"
+                }
+              ],
+              "uncertain": false
+            },
+            "longTrip": {
+              "label": "Long drives without planning",
+              "why": "Several hundred miles without a charging stop that needs thinking about.",
+              "stillCovered": true,
+              "coveredBy": [
+                {
+                  "label": "2017 Toyota Highlander Limited",
+                  "confidence": "vin-confirmed"
+                },
+                {
+                  "label": "Ford F150",
+                  "confidence": "owner-confirmed"
+                },
+                {
+                  "label": "2021 Hyundai Elantra",
+                  "confidence": "derived"
+                }
+              ],
+              "uncertain": false
+            }
+          },
+          "considerations": [],
+          "summary": "Nothing about the way the family uses its cars would change.",
+          "caveat": "Towing is inferred from body type and is not published per-VIN; snow is read from vPIC drive type where available. None of this filters or ranks anything — it is context for a person to weigh."
+        }
+      },
+      {
+        "id": "one-for-kate",
+        "label": "Buy one for Kate, Jordyn takes the Highlander",
+        "whoGetsWhat": "2023 Volvo C40 P8 Recharge Plus → Kate · Highlander → Jordyn",
+        "buys": [
+          {
+            "vin": "YV4ED3GL6P2043104",
+            "name": "2023 Volvo C40 P8 Recharge Plus",
+            "driver": "Kate",
+            "priceUsd": 26990,
+            "milesPerYear": 13520,
+            "sixYearRunningUsd": 21597,
+            "endValueUsd": 15715
+          }
+        ],
+        "stickerUsd": 26990,
+        "tradeInUsd": 0,
+        "taxableUsd": 26990,
+        "salesTaxUsd": 2915,
+        "taxSavedByTradeIn": 0,
+        "feesUsd": 228,
+        "cashNeededNowUsd": 30133,
+        "sixYearRunningUsd": 63333,
+        "endValueUsd": 24753,
+        "sixYearNetUsd": 68713,
+        "isCheapest": false,
+        "vsCheapestUsd": 6315,
+        "changes": {
+          "byCapability": {
+            "threeRow": {
+              "label": "Three rows / 6+ seats",
+              "why": "Carrying more than five people at once.",
+              "stillCovered": true,
+              "coveredBy": [
+                {
+                  "label": "2017 Toyota Highlander Limited",
+                  "confidence": "vin-confirmed"
+                }
+              ],
+              "uncertain": false
+            },
+            "towing": {
+              "label": "Towing",
+              "why": "Occasional trailer / hauling.",
+              "stillCovered": true,
+              "coveredBy": [
+                {
+                  "label": "2017 Toyota Highlander Limited",
+                  "confidence": "vin-confirmed"
+                },
+                {
+                  "label": "Ford F150",
+                  "confidence": "owner-confirmed"
+                }
+              ],
+              "uncertain": false
+            },
+            "snow": {
+              "label": "Confident in snow",
+              "why": "Passes, mountains, winter.",
+              "stillCovered": true,
+              "coveredBy": [
+                {
+                  "label": "2017 Toyota Highlander Limited",
+                  "confidence": "vin-confirmed"
+                },
+                {
+                  "label": "Ford F150",
+                  "confidence": "owner-confirmed"
+                }
+              ],
+              "uncertain": false
+            },
+            "longTrip": {
+              "label": "Long drives without planning",
+              "why": "Several hundred miles without a charging stop that needs thinking about.",
+              "stillCovered": true,
+              "coveredBy": [
+                {
+                  "label": "2017 Toyota Highlander Limited",
+                  "confidence": "vin-confirmed"
+                },
+                {
+                  "label": "Ford F150",
+                  "confidence": "owner-confirmed"
+                }
+              ],
+              "uncertain": false
+            }
+          },
+          "considerations": [],
+          "summary": "Nothing about the way the family uses its cars would change.",
+          "caveat": "Towing is inferred from body type and is not published per-VIN; snow is read from vPIC drive type where available. None of this filters or ranks anything — it is context for a person to weigh."
+        }
+      },
+      {
+        "id": "two-and-trade",
+        "label": "Buy two and trade the Highlander in",
+        "whoGetsWhat": "2021 Hyundai Elantra SE → Jordyn · 2023 Volvo C40 P8 Recharge Plus → Kate · Highlander traded",
+        "buys": [
+          {
+            "vin": "KMHLL4AG0MU191193",
+            "name": "2021 Hyundai Elantra SE",
+            "driver": "Jordyn",
+            "priceUsd": 14999,
+            "milesPerYear": 6760,
+            "sixYearRunningUsd": 33452,
+            "endValueUsd": 6231
+          },
+          {
+            "vin": "YV4ED3GL6P2043104",
+            "name": "2023 Volvo C40 P8 Recharge Plus",
+            "driver": "Kate",
+            "priceUsd": 26990,
+            "milesPerYear": 13520,
+            "sixYearRunningUsd": 21597,
+            "endValueUsd": 15715
+          }
+        ],
+        "stickerUsd": 41989,
+        "tradeInUsd": 15960,
+        "taxableUsd": 26029,
+        "salesTaxUsd": 2811,
+        "taxSavedByTradeIn": 1724,
+        "feesUsd": 455,
+        "cashNeededNowUsd": 29295,
+        "sixYearRunningUsd": 55049,
+        "endValueUsd": 21946,
+        "sixYearNetUsd": 62398,
+        "isCheapest": true,
+        "vsCheapestUsd": 0,
+        "changes": {
+          "byCapability": {
+            "threeRow": {
+              "label": "Three rows / 6+ seats",
+              "why": "Carrying more than five people at once.",
+              "stillCovered": false,
+              "coveredBy": [],
+              "uncertain": true
+            },
+            "towing": {
+              "label": "Towing",
+              "why": "Occasional trailer / hauling.",
+              "stillCovered": true,
+              "coveredBy": [
+                {
+                  "label": "Ford F150",
+                  "confidence": "owner-confirmed"
+                }
+              ],
+              "uncertain": false
+            },
+            "snow": {
+              "label": "Confident in snow",
+              "why": "Passes, mountains, winter.",
+              "stillCovered": true,
+              "coveredBy": [
+                {
+                  "label": "Ford F150",
+                  "confidence": "owner-confirmed"
+                }
+              ],
+              "uncertain": false
+            },
+            "longTrip": {
+              "label": "Long drives without planning",
+              "why": "Several hundred miles without a charging stop that needs thinking about.",
+              "stillCovered": true,
+              "coveredBy": [
+                {
+                  "label": "Ford F150",
+                  "confidence": "owner-confirmed"
+                },
+                {
+                  "label": "2021 Hyundai Elantra",
+                  "confidence": "derived"
+                }
+              ],
+              "uncertain": false
+            }
+          },
+          "considerations": [
+            {
+              "key": "threeRow",
+              "label": "Three rows / 6+ seats",
+              "why": "Carrying more than five people at once.",
+              "prompt": "Nothing in the fleet would do this as comfortably. Not a blocker — worth deciding whether it matters."
+            }
+          ],
+          "summary": "Everything still works, but this plan would make three rows / 6+ seats less convenient. Worth Kate thinking through — not a blocker.",
+          "caveat": "Towing is inferred from body type and is not published per-VIN; snow is read from vPIC drive type where available. None of this filters or ranks anything — it is context for a person to weigh."
+        }
+      }
+    ],
+    "method": "Every plan covers the same six years and is credited for everything it still owns at the end. Cash needed now is the constraint; six-year net is the decision. Keeping the Highlander is charged the trade-in value forgone today — otherwise keeping looks free relative to trading, which is the error that makes the answer seem obvious before it has been worked out.",
+    "caveat": "Trade-in value $15,960 is a VERIFIED KBB figure for this VIN (Good condition, ZIP 98006, 2026-09-04; range $14,810–$17,110)."
   },
   "jordynPicks": {
     "note": "These are not a filter and they do not affect any ranking or cost figure. They are analysed with exactly the same model as every other car so the two views can be compared honestly.",
@@ -7921,12 +8285,12 @@
             "medianPrice": 18995,
             "medianYear": 2018,
             "medianMiles": 96654,
-            "medianTco2": 16702,
+            "medianTco2": 16992,
             "medianTco6": 44735,
             "medianEnergy": 5081,
             "medianMaintenance": 2129,
             "medianRepairReserve": 1147,
-            "medianResale": 8020,
+            "medianResale": 8035,
             "medianViability2032": 0.78,
             "safetyQualified": 39
           },
@@ -15977,10 +16341,10 @@
           },
           "tco6": {
             "min": 40798,
-            "median": 42922,
+            "median": 42997,
             "max": 48547
           },
-          "medianRepairReserve": 1197,
+          "medianRepairReserve": 1225,
           "medianResale": 7991,
           "medianEnergy": 4662,
           "medianMaintenance": 2029,
@@ -16467,7 +16831,7 @@
               "priceUsd": 13999,
               "odometerMiles": 51221,
               "dealerAndLocation": "RS Motors, Bellevue WA",
-              "distanceFromBellevueMi": 4,
+              "distanceFromBellevueMi": 22,
               "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789435371",
               "safety": {
                 "meets": true,
@@ -51672,7 +52036,7 @@
         "insuranceTeenAdditionPerYear": 2400,
         "insuranceTeenAdditionSource": "Agent via JC 2026-09-01: +$200/mo to add Jordyn to a two-car policy.",
         "kateMilesPerYear": 13520,
-        "highlanderMilesToday": 17000,
+        "highlanderMilesPerYearToday": 17000,
         "salesTaxRate": 0.108,
         "salesTaxBasis": "Bellevue 98006: 10.3% combined general rate (DOR address lookup, 2026-09-04) + 0.5% additional motor-vehicle tax (RCW 82.08.020(3), raised from 0.3% on 2026-01-01)."
       },
@@ -51903,6 +52267,10 @@
     "note": "These are the INPUTS to every costToOwn figure. Change one and every total moves.",
     "milesPerWeek": 130,
     "milesPerYear": 6760,
+    "milesPerYearNote": "ANNUAL driving distances. The Highlander's ODOMETER (135,000) is a separate field on highlanderAndPlans.highlander.odometerMiles — do not read an annual figure as a mileage reading.",
+    "jordynMilesPerYear": 6760,
+    "kateMilesPerYear": 13520,
+    "highlanderMilesPerYearToday": 17000,
     "horizonYearsJordyn": 2,
     "horizonYearsThroughEmma": 6,
     "gasolineUsdPerGallon": 6,
