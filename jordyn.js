@@ -500,6 +500,7 @@ function renderBand(bandId, elId) {
     parts.push(`<div class="card">
       <h2 class="ins-h">⭐ ${esc(w.label)} <span class="tier-n">${w.count} found</span></h2>
       <p class="tier-blurb">${esc(w.why)} Listed individually rather than summarised — "which ones are out there?" is the actual question.</p>
+      ${w.priceUsd ? `<p class="opp-s">${money(w.priceUsd.min)}–${money(w.priceUsd.max)} · 6yr ${money(w.sixYearTco?.min)}–${money(w.sixYearTco?.max)}</p>` : ''}
       ${w.note ? `<p class="tco-note">${esc(w.note)}</p>` : ''}
       ${w.cars.map((c) => `<div class="opp">
         <div class="opp-h">${esc(c.name)}</div>
@@ -507,6 +508,7 @@ function renderBand(bandId, elId) {
         <div class="opp-s">${c.safety?.meets ? '✅ automatic braking confirmed' : '⚠️ automatic braking unconfirmed'}</div>
         <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">Full detail ↓</a></p>
       </div>`).join('')}
+      ${w.more ? `<p class="tco-note">${esc(w.more)}</p>` : ''}
     </div>`);
   }
 
@@ -545,6 +547,47 @@ function renderFamily() {
   const ref = f.referencePlan;
   const parts = [];
 
+  // The Highlander's position, first — every plan below is measured against it.
+  const P = DATA.plans;
+  if (P?.highlander) {
+    const hp = P.highlander;
+    parts.push(`<div class="card">
+      <h2 class="ins-h">🚙 Where the Highlander stands</h2>
+      <p class="ins-verdict"><b>${esc(hp.car)}</b> · ${milesFmt(hp.odometerMiles)} · ${esc(String(hp.mpg))} mpg</p>
+      <div class="tscroll"><table class="assump-tbl band-tbl">
+        <tr><th>Trade-in today (KBB)</th><td><b>${money(hp.tradeInUsd)}</b></td></tr>
+        <tr><th>WA trade-in sales-tax credit</th><td>+${money(hp.tradeInTaxCreditUsd)}</td></tr>
+        <tr><th>Run it 6 yrs — Jordyn (${(hp.ifJordynDrivesIt.milesPerYear).toLocaleString()} mi/yr)</th><td>${money(hp.ifJordynDrivesIt.runningUsd)} · ${money(hp.ifJordynDrivesIt.perMonthUsd)}/mo</td></tr>
+        <tr><th>Run it 6 yrs — Kate (${(hp.ifKateKeepsIt.milesPerYear).toLocaleString()} mi/yr)</th><td>${money(hp.ifKateKeepsIt.runningUsd)} · ${money(hp.ifKateKeepsIt.perMonthUsd)}/mo</td></tr>
+      </table></div>
+      <p class="tco-note">${esc(hp.note)}</p>
+      ${hp.risk ? `<p class="fineprint fineprint-bad">⚠️ ${esc(hp.risk.verdict)} NHTSA has ${hp.risk.complaintCount} complaints on file for this model year; the dominant one is an 8-speed transmission failure quoted at $10,000–$11,000, clustering at 70k–120k miles.</p>` : ''}
+    </div>`);
+  }
+
+  // The three plans, on one basis.
+  if (P?.plans?.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">🔀 The three ways to do this</h2>
+      <p class="tier-blurb">${esc(P.method)}</p>
+      <div class="tscroll"><table class="assump-tbl band-tbl">
+        <tr><th>Plan</th><th>Cash now</th><th>6-yr net</th><th>vs best</th></tr>
+        ${P.plans.map((p) => `<tr>
+          <td>${p.isCheapest ? '★ ' : ''}${esc(p.label)}<div class="why">${esc(p.whoGetsWhat)}</div></td>
+          <td>${money(p.cashNeededNowUsd)}</td>
+          <td><b>${money(p.sixYearNetUsd)}</b></td>
+          <td class="${p.vsCheapestUsd ? 'dlt-bad' : 'dlt-good'}">${p.vsCheapestUsd ? `+${money(p.vsCheapestUsd)}` : 'best'}</td>
+        </tr>`).join('')}
+      </table></div><p class="tscroll-hint">← swipe the table sideways for the rest →</p>
+      ${P.plans.filter((p) => p.changes?.considerations?.length).map((p) => `<div class="opp">
+        <div class="opp-h">${esc(p.label)} — what would change</div>
+        <div class="opp-s">${esc(p.changes.summary)}</div>
+        <ul class="rel-list">${p.changes.considerations.map((t) => `<li><b>${esc(t.label)}</b> — ${esc(t.why)} ${esc(t.prompt)}</li>`).join('')}</ul>
+      </div>`).join('')}
+      <p class="fineprint">${esc(P.caveat)}</p>
+    </div>`);
+  }
+
   // The baseline goes FIRST — every number below is relative to it, so reading
   // them in any other order means holding a comparison against an unknown.
   parts.push(`<div class="card">
@@ -576,12 +619,15 @@ function renderFamily() {
         <div class="opp-h">${esc(c.name)} <span class="tier-n">${esc(c.upgrade.verdict.replace('-', ' '))}</span></div>
         <div class="opp-s">${money(c.priceUsd)} · ${milesFmt(c.odometerMiles)} · ${esc(POWER_LABEL[c.powertrain] || c.powertrain)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''}</div>
         <div class="tscroll"><table class="assump-tbl band-tbl">
-          <tr><th>If this car goes to…</th><th>This car alone</th><th>Both cars together</th></tr>
+          <tr><th>If this car goes to…</th><th>This car alone</th><th>Both cars together</th><th>Added vs doing nothing</th></tr>
           <tr><td>👩 Kate <span class="why">(Jordyn takes the Highlander)</span></td>
-              <td>${money(c.thisCarOnlyIfKate)}</td><td><b>${money(c.familyTotalIfKate)}</b></td></tr>
+              <td>${money(c.thisCarOnlyIfKate)}</td><td><b>${money(c.familyTotalIfKate)}</b></td>
+              <td><b>${money(c.addedIfKate)}</b></td></tr>
           <tr><td>👧 Jordyn <span class="why">(Kate keeps the Highlander)</span></td>
-              <td>${money(c.thisCarOnlyIfJordyn)}</td><td><b>${money(c.familyTotalIfJordyn)}</b></td></tr>
+              <td>${money(c.thisCarOnlyIfJordyn)}</td><td><b>${money(c.familyTotalIfJordyn)}</b></td>
+              <td><b>${money(c.addedIfJordyn)}</b></td></tr>
         </table></div>
+        <p class="fineprint">"Added" is against doing nothing — Kate keeping the Highlander at 17,000 mi/yr with no teen on the policy. It is the only one of the three that is new money.</p>
         <div class="opp-s">${c.vsReferencePlan > 0 ? `<b>${money(c.vsReferencePlan)} less</b> than buying the reference car for Jordyn` : `${money(Math.abs(c.vsReferencePlan))} more than the plan to beat`}${
   c.vsCheapestJordynPlan != null
     ? ` · vs the <b>cheapest</b> Jordyn plan: ${c.vsCheapestJordynPlan > 0 ? `${money(c.vsCheapestJordynPlan)} less` : `<b>${money(Math.abs(c.vsCheapestJordynPlan))} more</b>`}`
@@ -629,15 +675,20 @@ function renderFamily() {
   const w = (f.ranked || []).find((r) => r.whatTheTotalIs)?.whatTheTotalIs;
   if (w) {
     parts.push(`<div class="card">
-      <h2 class="ins-h">🧾 Why that number looks big</h2>
-      <p class="tier-blurb">It covers <b>two cars for six years</b>, and most of it is not caused by buying anything.</p>
+      <h2 class="ins-h">🧾 Why that number looks big — and what to compare instead</h2>
+      <p class="ins-verdict">Doing <b>nothing</b> already costs <b>${money(w.doNothingTotal)}</b> over six years
+      (${money(w.doNothingTotal / 72)}/month).</p>
+      <p class="tco-note">${esc(w.doNothingNote)} Most of it is fuel: a 22 mpg V6 doing 17,000 miles a year at
+      $6/gal burns roughly $28,000 of petrol over six years. <b>That is the money already being spent</b>, and it is
+      why the household totals look large — they are not a cheque anyone is about to write.</p>
+      <p class="tco-note">So the figure to react to is <b>what a plan ADDS</b> to that, not the gross total. And it
+      is why selling the Highlander does not follow from these numbers: its cost is mostly fuel Kate burns whatever
+      she drives, plus insurance and tabs the family already pays.</p>
       <ul class="rel-list">
         <li><b>${money(w.teenInsuranceAddition)}</b> — ${esc(w.teenInsuranceNote)}</li>
         <li><b>${money(w.highlanderShare)}</b> — ${esc(w.highlanderNote)}</li>
         <li><b>${money(w.capitalNotCash)}</b> — ${esc(w.capitalNote)}</li>
       </ul>
-      <p class="tco-note">So the figure to compare between plans is the <b>difference</b>, not the total. The
-      total is there so the difference can be checked, not because the household is about to write that cheque.</p>
     </div>`);
   }
 
