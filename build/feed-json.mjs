@@ -333,7 +333,7 @@ export function rosterFeed(data, allCars = null) {
   return {
     feed: {
       name: 'jordyn-first-car',
-      schemaVersion: '1.4',
+      schemaVersion: '1.5',
       generatedAt: new Date().toISOString(),
       rosterUpdated: data.updated || null,
       listingCount: cars.length,
@@ -357,6 +357,7 @@ export function rosterFeed(data, allCars = null) {
         'marketAnalysis is where the population-level answers live: cohorts (model + generation + powertrain + battery, NOT model name), a safety-gated primary ranking, opportunities found from the data, and the methodology needed to challenge any of it.',
         'Safety is a GATE, not a weight. marketAnalysis.safetyFirst excludes a car only when AEB is CONFIRMED ABSENT — never when it is merely unverified.',
         'jordynPicks is what SHE chose, scored with the same model as everything else. It is never a filter on the rankings. Read entries[].delta against jordynPicks.baseline, and weight `stated` picks above `thumbed` ones.',
+        'bands is the curated view: start there rather than with listings[] or allCars. bands.kate is BATTERY-ELECTRIC ONLY by rule — the absence of petrol cars there is deliberate, not a gap in the data.',
         'All money is US dollars, whole units. All distances are miles.',
       ],
       canonicalPage: 'https://jonathancarlson.github.io/family-cars/jordyn.html',
@@ -410,6 +411,23 @@ export function rosterFeed(data, allCars = null) {
     // two would let a preference quietly become a recommendation. The deltas are
     // the useful part — absolute six-year totals move with the insurance
     // estimate, but the gap between two cars largely survives it.
+    // The two search bands, in the same shape the page shows them: models the
+    // family has NAMED listed individually, everything else grouped by model +
+    // generation + battery with a range and two exemplars.
+    //
+    // Emitted because the raw 4,600-car list answers "what exists" but not
+    // "what should we look at" — and a client reading this feed has exactly the
+    // same problem the page did.
+    bands: data.bands
+      ? {
+        note: 'Two candidate sets with different rules. Jordyn: $5-15k, any powertrain, decided on safety then cost to own. Kate: $15-25k, BATTERY-ELECTRIC ONLY (petrol, hybrid and plug-in hybrid are all excluded), decided on comfort and whether it is an upgrade on her 2017 Highlander Limited.',
+        cohortNote: 'Cohorts are model + generation + battery, NOT model name. A 2013 Leaf and a 2023 Leaf share a badge and nothing else, so a range built on the name alone would average incomparable cars.',
+        exemplarNote: 'Two per cohort: the best of the group by overall fit, and the cheapest to own that still clears the safety floor. Deliberately not the two cheapest, which surfaces the worst-condition examples and makes every group look like a bargain it is not.',
+        jordyn: data.bands.jordyn,
+        kate: data.bands.kate,
+      }
+      : null,
+
     jordynPicks: data.picks
       ? {
         note: data.picks.disclaimer,

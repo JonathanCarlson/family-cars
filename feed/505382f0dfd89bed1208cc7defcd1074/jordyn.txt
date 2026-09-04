@@ -1,6 +1,6 @@
 ==========================================================================
 JORDYN'S FIRST CAR — 157 listings
-roster updated 2026-09-04 · feed generated 2026-09-04T21:02:22.703Z
+roster updated 2026-09-04 · feed generated 2026-09-04T21:15:48.929Z
 ==========================================================================
 
 Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.
@@ -17,6 +17,7 @@ HOW TO READ THIS
   * marketAnalysis is where the population-level answers live: cohorts (model + generation + powertrain + battery, NOT model name), a safety-gated primary ranking, opportunities found from the data, and the methodology needed to challenge any of it.
   * Safety is a GATE, not a weight. marketAnalysis.safetyFirst excludes a car only when AEB is CONFIRMED ABSENT — never when it is merely unverified.
   * jordynPicks is what SHE chose, scored with the same model as everything else. It is never a filter on the rankings. Read entries[].delta against jordynPicks.baseline, and weight `stated` picks above `thumbed` ones.
+  * bands is the curated view: start there rather than with listings[] or allCars. bands.kate is BATTERY-ELECTRIC ONLY by rule — the absence of petrol cars there is deliberate, not a gap in the data.
   * All money is US dollars, whole units. All distances are miles.
 
 --------------------------------------------------------------------------

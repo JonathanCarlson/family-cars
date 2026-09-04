@@ -1,8 +1,8 @@
 {
   "feed": {
     "name": "jordyn-first-car",
-    "schemaVersion": "1.4",
-    "generatedAt": "2026-09-04T21:02:22.703Z",
+    "schemaVersion": "1.5",
+    "generatedAt": "2026-09-04T21:15:48.929Z",
     "rosterUpdated": "2026-09-04",
     "listingCount": 157,
     "purpose": "Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.",
@@ -25,6 +25,7 @@
       "marketAnalysis is where the population-level answers live: cohorts (model + generation + powertrain + battery, NOT model name), a safety-gated primary ranking, opportunities found from the data, and the methodology needed to challenge any of it.",
       "Safety is a GATE, not a weight. marketAnalysis.safetyFirst excludes a car only when AEB is CONFIRMED ABSENT — never when it is merely unverified.",
       "jordynPicks is what SHE chose, scored with the same model as everything else. It is never a filter on the rankings. Read entries[].delta against jordynPicks.baseline, and weight `stated` picks above `thumbed` ones.",
+      "bands is the curated view: start there rather than with listings[] or allCars. bands.kate is BATTERY-ELECTRIC ONLY by rule — the absence of petrol cars there is deliberate, not a gap in the data.",
       "All money is US dollars, whole units. All distances are miles."
     ],
     "canonicalPage": "https://jonathancarlson.github.io/family-cars/jordyn.html",
@@ -415,6 +416,2714 @@
           "sourceUrl": "https://www.autotrader.com/cars-for-sale/vehicle/779105686"
         }
       ]
+    }
+  },
+  "bands": {
+    "note": "Two candidate sets with different rules. Jordyn: $5-15k, any powertrain, decided on safety then cost to own. Kate: $15-25k, BATTERY-ELECTRIC ONLY (petrol, hybrid and plug-in hybrid are all excluded), decided on comfort and whether it is an upgrade on her 2017 Highlander Limited.",
+    "cohortNote": "Cohorts are model + generation + battery, NOT model name. A 2013 Leaf and a 2023 Leaf share a badge and nothing else, so a range built on the name alone would average incomparable cars.",
+    "exemplarNote": "Two per cohort: the best of the group by overall fit, and the cheapest to own that still clears the safety floor. Deliberately not the two cheapest, which surfaces the worst-condition examples and makes every group look like a bargain it is not.",
+    "jordyn": {
+      "band": "jordyn",
+      "label": "Jordyn $5–15k",
+      "decidedBy": "Safety first, then cost to own.",
+      "priceRange": {
+        "min": 5000,
+        "max": 15000
+      },
+      "powertrainRule": "Any powertrain. A safe, cheap hybrid or petrol car is a perfectly good first car.",
+      "totalInBand": 1838,
+      "watchlist": [],
+      "cohorts": [
+        {
+          "key": "fiat|500|BEV",
+          "label": "FIAT 500 · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 8,
+          "safetyQualified": 1,
+          "safetyQualifiedPct": 13,
+          "priceUsd": {
+            "min": 5998,
+            "median": 8380,
+            "max": 13995
+          },
+          "sixYearTco": {
+            "min": 32391,
+            "median": 34007,
+            "max": 34784
+          },
+          "odometerMiles": {
+            "min": 28290,
+            "median": 44490,
+            "max": 95451
+          },
+          "yearRange": {
+            "min": 2015,
+            "median": 2017,
+            "max": 2019
+          },
+          "exemplars": [
+            {
+              "vin": "3C3CFFGE1KT802728",
+              "name": "2019 FIAT 500 e",
+              "priceUsd": 13995,
+              "odometerMiles": 28290,
+              "powertrain": "BEV",
+              "evRangeMi": 84,
+              "sixYearTco": 34784,
+              "matchScore": 73.4,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/790034644",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "kia|soul|BEV",
+          "label": "Kia Soul · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 3,
+          "safetyQualified": 1,
+          "safetyQualifiedPct": 33,
+          "priceUsd": {
+            "min": 9000,
+            "median": 9195,
+            "max": 9998
+          },
+          "sixYearTco": {
+            "min": 34546,
+            "median": 34827,
+            "max": 35332
+          },
+          "odometerMiles": {
+            "min": 35871,
+            "median": 48222,
+            "max": 54443
+          },
+          "yearRange": {
+            "min": 2016,
+            "median": 2016,
+            "max": 2017
+          },
+          "exemplars": [
+            {
+              "vin": "KNDJP3AE6H7021014",
+              "name": "2017 Kia Soul EV",
+              "priceUsd": 9998,
+              "odometerMiles": 35871,
+              "powertrain": "BEV",
+              "evRangeMi": 93,
+              "sixYearTco": 35332,
+              "matchScore": 61.7,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789228706",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "volkswagen|e-golf|BEV|24 kwh",
+          "label": "Volkswagen e-Golf 24 kWh · electric",
+          "generation": "24 kWh",
+          "generationNote": "~83 mi.",
+          "powertrain": "BEV",
+          "count": 4,
+          "safetyQualified": 0,
+          "safetyQualifiedPct": 0,
+          "priceUsd": {
+            "min": 8000,
+            "median": 8980,
+            "max": 11990
+          },
+          "sixYearTco": {
+            "min": 33869,
+            "median": 34977,
+            "max": 37747
+          },
+          "odometerMiles": {
+            "min": 43963,
+            "median": 69930,
+            "max": 75689
+          },
+          "yearRange": {
+            "min": 2016,
+            "median": 2016,
+            "max": 2016
+          },
+          "exemplars": [
+            {
+              "vin": "WVWKP7AU9GW917198",
+              "name": "2016 Volkswagen e-Golf SE",
+              "priceUsd": 8000,
+              "odometerMiles": 67000,
+              "powertrain": "BEV",
+              "evRangeMi": 83,
+              "sixYearTco": 33869,
+              "matchScore": 58.9,
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789433098",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "nissan|leaf|BEV|30 kwh",
+          "label": "Nissan Leaf 30 kWh · electric",
+          "generation": "30 kWh",
+          "generationNote": "107 mi when new. Still passively cooled.",
+          "powertrain": "BEV",
+          "count": 8,
+          "safetyQualified": 4,
+          "safetyQualifiedPct": 50,
+          "priceUsd": {
+            "min": 5584,
+            "median": 7991,
+            "max": 11197
+          },
+          "sixYearTco": {
+            "min": 34339,
+            "median": 35595,
+            "max": 37977
+          },
+          "odometerMiles": {
+            "min": 19975,
+            "median": 60074,
+            "max": 78401
+          },
+          "yearRange": {
+            "min": 2016,
+            "median": 2017,
+            "max": 2017
+          },
+          "exemplars": [
+            {
+              "vin": "1N4BZ0CP1HC307474",
+              "name": "2017 Nissan Leaf S",
+              "priceUsd": 6995,
+              "odometerMiles": 32563,
+              "powertrain": "BEV",
+              "evRangeMi": 107,
+              "sixYearTco": 34888,
+              "matchScore": 72.3,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789672168",
+              "role": "best of this group"
+            },
+            {
+              "vin": "1N4BZ0CP2HC301649",
+              "name": "2017 Nissan Leaf SV",
+              "priceUsd": 5584,
+              "odometerMiles": 70617,
+              "powertrain": "BEV",
+              "evRangeMi": 107,
+              "sixYearTco": 34339,
+              "matchScore": 71.6,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788817735",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "fiat|500|ICE",
+          "label": "FIAT 500 · petrol",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "ICE",
+          "count": 3,
+          "safetyQualified": 1,
+          "safetyQualifiedPct": 33,
+          "priceUsd": {
+            "min": 7495,
+            "median": 8450,
+            "max": 12598
+          },
+          "sixYearTco": {
+            "min": 35944,
+            "median": 36550,
+            "max": 39256
+          },
+          "odometerMiles": {
+            "min": 14825,
+            "median": 41412,
+            "max": 53841
+          },
+          "yearRange": {
+            "min": 2015,
+            "median": 2018,
+            "max": 2019
+          },
+          "exemplars": [
+            {
+              "vin": "3C3CFFKH6KT731415",
+              "name": "2019 FIAT 500 Pop Hatchback",
+              "priceUsd": 8450,
+              "odometerMiles": 14825,
+              "powertrain": "ICE",
+              "evRangeMi": null,
+              "sixYearTco": 35944,
+              "matchScore": 32.1,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789343266",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "hyundai|ioniq|BEV",
+          "label": "Hyundai Ioniq · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 3,
+          "safetyQualified": 2,
+          "safetyQualifiedPct": 67,
+          "priceUsd": {
+            "min": 11205,
+            "median": 11800,
+            "max": 12683
+          },
+          "sixYearTco": {
+            "min": 35986,
+            "median": 37386,
+            "max": 37523
+          },
+          "odometerMiles": {
+            "min": 59031,
+            "median": 72091,
+            "max": 80887
+          },
+          "yearRange": {
+            "min": 2017,
+            "median": 2019,
+            "max": 2020
+          },
+          "exemplars": [
+            {
+              "vin": "KMHC85LH9HU015424",
+              "name": "2017 Hyundai Ioniq Limited",
+              "priceUsd": 11800,
+              "odometerMiles": 80887,
+              "powertrain": "BEV",
+              "evRangeMi": 124,
+              "sixYearTco": 37386,
+              "matchScore": 73.5,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "not-rated-for-this-variant",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789625640",
+              "role": "best of this group"
+            },
+            {
+              "vin": "KMHC85LJ2LU067697",
+              "name": "2020 Hyundai Ioniq Limited",
+              "priceUsd": 11205,
+              "odometerMiles": 72091,
+              "powertrain": "BEV",
+              "evRangeMi": 170,
+              "sixYearTco": 35986,
+              "matchScore": 71.2,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "not-rated-for-this-variant",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/790051447",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "ford|focus|BEV",
+          "label": "Ford Focus · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 4,
+          "safetyQualified": 2,
+          "safetyQualifiedPct": 50,
+          "priceUsd": {
+            "min": 9988,
+            "median": 10998,
+            "max": 12995
+          },
+          "sixYearTco": {
+            "min": 35879,
+            "median": 37419,
+            "max": 39061
+          },
+          "odometerMiles": {
+            "min": 9861,
+            "median": 31313,
+            "max": 44645
+          },
+          "yearRange": {
+            "min": 2016,
+            "median": 2017,
+            "max": 2018
+          },
+          "exemplars": [
+            {
+              "vin": "1FADP3R43HL293042",
+              "name": "2017 Ford Focus Electric Hatchback",
+              "priceUsd": 9995,
+              "odometerMiles": 31313,
+              "powertrain": "BEV",
+              "evRangeMi": 115,
+              "sixYearTco": 36471,
+              "matchScore": 60.3,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788441661",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "kia|optima|HYB",
+          "label": "Kia Optima · hybrid",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "HYB",
+          "count": 3,
+          "safetyQualified": 0,
+          "safetyQualifiedPct": 0,
+          "priceUsd": {
+            "min": 7900,
+            "median": 10790,
+            "max": 12727
+          },
+          "sixYearTco": {
+            "min": 35435,
+            "median": 37950,
+            "max": 38526
+          },
+          "odometerMiles": {
+            "min": 57204,
+            "median": 112504,
+            "max": 114070
+          },
+          "yearRange": {
+            "min": 2017,
+            "median": 2017,
+            "max": 2017
+          },
+          "exemplars": [
+            {
+              "vin": "KNAGT4LE0H5014559",
+              "name": "2017 Kia Optima Premium",
+              "priceUsd": 10790,
+              "odometerMiles": 112504,
+              "powertrain": "HYB",
+              "evRangeMi": null,
+              "sixYearTco": 37950,
+              "matchScore": 45.6,
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788372028",
+              "role": "best of this group"
+            },
+            {
+              "vin": "KNAGT4LC5H5006732",
+              "name": "2017 Kia Optima Premium",
+              "priceUsd": 7900,
+              "odometerMiles": 114070,
+              "powertrain": "HYB",
+              "evRangeMi": null,
+              "sixYearTco": 35435,
+              "matchScore": 19.3,
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/785142752",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "kia|rio|ICE",
+          "label": "Kia Rio · petrol",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "ICE",
+          "count": 13,
+          "safetyQualified": 2,
+          "safetyQualifiedPct": 15,
+          "priceUsd": {
+            "min": 5500,
+            "median": 8492,
+            "max": 14995
+          },
+          "sixYearTco": {
+            "min": 36924,
+            "median": 37971,
+            "max": 41347
+          },
+          "odometerMiles": {
+            "min": 41613,
+            "median": 89993,
+            "max": 117156
+          },
+          "yearRange": {
+            "min": 2015,
+            "median": 2018,
+            "max": 2021
+          },
+          "exemplars": [
+            {
+              "vin": "3KPA25AD2ME429750",
+              "name": "2021 Kia Rio S",
+              "priceUsd": 14995,
+              "odometerMiles": 47647,
+              "powertrain": "ICE",
+              "evRangeMi": null,
+              "sixYearTco": 40026,
+              "matchScore": 67.4,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789312606",
+              "role": "best of this group"
+            },
+            {
+              "vin": "KNADM4A34H6113736",
+              "name": "2017 Kia Rio LX",
+              "priceUsd": 6980,
+              "odometerMiles": 90685,
+              "powertrain": "ICE",
+              "evRangeMi": null,
+              "sixYearTco": 37971,
+              "matchScore": 65.9,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/787184819",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "chevrolet|volt|PHEV|gen 2",
+          "label": "Chevrolet Volt gen 2 · plug-in hybrid",
+          "generation": "gen 2",
+          "generationNote": "53 mi electric, 5 seats, far better car.",
+          "powertrain": "PHEV",
+          "count": 9,
+          "safetyQualified": 5,
+          "safetyQualifiedPct": 56,
+          "priceUsd": {
+            "min": 7118,
+            "median": 9984,
+            "max": 14240
+          },
+          "sixYearTco": {
+            "min": 36094,
+            "median": 38283,
+            "max": 42080
+          },
+          "odometerMiles": {
+            "min": 77660,
+            "median": 110555,
+            "max": 137183
+          },
+          "yearRange": {
+            "min": 2016,
+            "median": 2017,
+            "max": 2018
+          },
+          "exemplars": [
+            {
+              "vin": "1G1RA6S5XJU132153",
+              "name": "2018 Chevrolet Volt LT",
+              "priceUsd": 11477,
+              "odometerMiles": 77862,
+              "powertrain": "PHEV",
+              "evRangeMi": 53,
+              "sixYearTco": 38702,
+              "matchScore": 58.3,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/783760525",
+              "role": "best of this group"
+            },
+            {
+              "vin": "1G1RA6S52HU119357",
+              "name": "2017 Chevrolet Volt LT",
+              "priceUsd": 7598,
+              "odometerMiles": 125724,
+              "powertrain": "PHEV",
+              "evRangeMi": 53,
+              "sixYearTco": 38023,
+              "matchScore": 48,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/775545290",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "chevrolet|spark|ICE",
+          "label": "Chevrolet Spark · petrol",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "ICE",
+          "count": 26,
+          "safetyQualified": 11,
+          "safetyQualifiedPct": 42,
+          "priceUsd": {
+            "min": 5499,
+            "median": 8999,
+            "max": 14900
+          },
+          "sixYearTco": {
+            "min": 35238,
+            "median": 38538,
+            "max": 43359
+          },
+          "odometerMiles": {
+            "min": 19229,
+            "median": 82487,
+            "max": 142521
+          },
+          "yearRange": {
+            "min": 2015,
+            "median": 2019,
+            "max": 2022
+          },
+          "exemplars": [
+            {
+              "vin": "KL8CB6SA6MC740178",
+              "name": "2021 Chevrolet Spark LS",
+              "priceUsd": 12777,
+              "odometerMiles": 39978,
+              "powertrain": "ICE",
+              "evRangeMi": null,
+              "sixYearTco": 37784,
+              "matchScore": 71.5,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/786004486",
+              "role": "best of this group"
+            },
+            {
+              "vin": "KL8CA6SA7HC733670",
+              "name": "2017 Chevrolet Spark LS",
+              "priceUsd": 8489,
+              "odometerMiles": 84004,
+              "powertrain": "ICE",
+              "evRangeMi": null,
+              "sixYearTco": 37533,
+              "matchScore": 66.9,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/682493384",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "ford|c-max|PHEV",
+          "label": "Ford C-MAX · plug-in hybrid",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "PHEV",
+          "count": 5,
+          "safetyQualified": 2,
+          "safetyQualifiedPct": 40,
+          "priceUsd": {
+            "min": 7699,
+            "median": 9300,
+            "max": 11502
+          },
+          "sixYearTco": {
+            "min": 37502,
+            "median": 38543,
+            "max": 39180
+          },
+          "odometerMiles": {
+            "min": 69050,
+            "median": 89061,
+            "max": 115279
+          },
+          "yearRange": {
+            "min": 2015,
+            "median": 2016,
+            "max": 2017
+          },
+          "exemplars": [
+            {
+              "vin": "1FADP5EU3HL106089",
+              "name": "2017 Ford C-MAX Energi SE",
+              "priceUsd": 11502,
+              "odometerMiles": 69050,
+              "powertrain": "PHEV",
+              "evRangeMi": 20,
+              "sixYearTco": 39180,
+              "matchScore": 62.2,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "absent",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789704464",
+              "role": "best of this group"
+            },
+            {
+              "vin": "1FADP5EUXHL104520",
+              "name": "2017 Ford C-MAX Energi SE",
+              "priceUsd": 9613,
+              "odometerMiles": 81118,
+              "powertrain": "PHEV",
+              "evRangeMi": 20,
+              "sixYearTco": 38543,
+              "matchScore": 55.1,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "absent",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789783024",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "hyundai|sonata|HYB",
+          "label": "Hyundai Sonata · hybrid",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "HYB",
+          "count": 7,
+          "safetyQualified": 1,
+          "safetyQualifiedPct": 14,
+          "priceUsd": {
+            "min": 6900,
+            "median": 10727,
+            "max": 12999
+          },
+          "sixYearTco": {
+            "min": 34809,
+            "median": 38716,
+            "max": 41922
+          },
+          "odometerMiles": {
+            "min": 77384,
+            "median": 109470,
+            "max": 136533
+          },
+          "yearRange": {
+            "min": 2015,
+            "median": 2016,
+            "max": 2021
+          },
+          "exemplars": [
+            {
+              "vin": "KMHL24JJ9MA025867",
+              "name": "2021 Hyundai Sonata Blue",
+              "priceUsd": 12999,
+              "odometerMiles": 106023,
+              "powertrain": "HYB",
+              "evRangeMi": null,
+              "sixYearTco": 41221,
+              "matchScore": 57.9,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789590404",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "chevrolet|bolt|BEV|60 kwh (recall era)",
+          "label": "Chevrolet Bolt 60 kWh (recall era) · electric",
+          "generation": "60 kWh (recall era)",
+          "generationNote": "LG pack; most were REPLACED under recall.",
+          "powertrain": "BEV",
+          "count": 3,
+          "safetyQualified": 3,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 13579,
+            "median": 14991,
+            "max": 14999
+          },
+          "sixYearTco": {
+            "min": 38657,
+            "median": 38920,
+            "max": 39176
+          },
+          "odometerMiles": {
+            "min": 51584,
+            "median": 67186,
+            "max": 96126
+          },
+          "yearRange": {
+            "min": 2017,
+            "median": 2017,
+            "max": 2017
+          },
+          "exemplars": [
+            {
+              "vin": "1G1FX6S09H4186687",
+              "name": "2017 Chevrolet Bolt Premier",
+              "priceUsd": 14999,
+              "odometerMiles": 67186,
+              "powertrain": "BEV",
+              "evRangeMi": 238,
+              "sixYearTco": 39176,
+              "matchScore": 63.3,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/786919701",
+              "role": "best of this group"
+            },
+            {
+              "vin": "1G1FX6S08H4127310",
+              "name": "2017 Chevrolet Bolt Premier",
+              "priceUsd": 13579,
+              "odometerMiles": 96126,
+              "powertrain": "BEV",
+              "evRangeMi": 238,
+              "sixYearTco": 38657,
+              "matchScore": 62.4,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789061464",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "kia|niro|HYB",
+          "label": "Kia Niro · hybrid",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "HYB",
+          "count": 6,
+          "safetyQualified": 5,
+          "safetyQualifiedPct": 83,
+          "priceUsd": {
+            "min": 9500,
+            "median": 12250,
+            "max": 14638
+          },
+          "sixYearTco": {
+            "min": 37717,
+            "median": 39325,
+            "max": 41202
+          },
+          "odometerMiles": {
+            "min": 108567,
+            "median": 114062,
+            "max": 140055
+          },
+          "yearRange": {
+            "min": 2017,
+            "median": 2018,
+            "max": 2021
+          },
+          "exemplars": [
+            {
+              "vin": "KNDCC3LC8J5132231",
+              "name": "2018 Kia Niro EX",
+              "priceUsd": 12575,
+              "odometerMiles": 113256,
+              "powertrain": "HYB",
+              "evRangeMi": null,
+              "sixYearTco": 39542,
+              "matchScore": 73.5,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "top-safety-pick",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788854318",
+              "role": "best of this group"
+            },
+            {
+              "vin": "KNDCB3LC7H5049371",
+              "name": "2017 Kia Niro LX",
+              "priceUsd": 10249,
+              "odometerMiles": 111634,
+              "powertrain": "HYB",
+              "evRangeMi": null,
+              "sixYearTco": 37717,
+              "matchScore": 60.6,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "top-safety-pick",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/790173574",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "nissan|leaf|BEV|40 kwh (gen 2)",
+          "label": "Nissan Leaf 40 kWh (gen 2) · electric",
+          "generation": "40 kWh (gen 2)",
+          "generationNote": "150 mi, new body, AEB widely standard.",
+          "powertrain": "BEV",
+          "count": 6,
+          "safetyQualified": 6,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 6984,
+            "median": 13694,
+            "max": 14750
+          },
+          "sixYearTco": {
+            "min": 35754,
+            "median": 39476,
+            "max": 40301
+          },
+          "odometerMiles": {
+            "min": 18372,
+            "median": 62298,
+            "max": 97594
+          },
+          "yearRange": {
+            "min": 2018,
+            "median": 2022,
+            "max": 2022
+          },
+          "exemplars": [
+            {
+              "vin": "1N4BZ1BV3MC555337",
+              "name": "2021 Nissan Leaf S Plus",
+              "priceUsd": 12990,
+              "odometerMiles": 62298,
+              "powertrain": "BEV",
+              "evRangeMi": 226,
+              "sixYearTco": 39416,
+              "matchScore": 71.9,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "top-safety-pick",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/790183331",
+              "role": "best of this group"
+            },
+            {
+              "vin": "1N4AZ1CP3JC313218",
+              "name": "2018 Nissan Leaf SV",
+              "priceUsd": 6984,
+              "odometerMiles": 97594,
+              "powertrain": "BEV",
+              "evRangeMi": 151,
+              "sixYearTco": 35754,
+              "matchScore": 64.4,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "top-safety-pick",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789139688",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "toyota|prius c|HYB",
+          "label": "Toyota Prius C · hybrid",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "HYB",
+          "count": 4,
+          "safetyQualified": 0,
+          "safetyQualifiedPct": 0,
+          "priceUsd": {
+            "min": 11999,
+            "median": 13461,
+            "max": 14788
+          },
+          "sixYearTco": {
+            "min": 38436,
+            "median": 39568,
+            "max": 40319
+          },
+          "odometerMiles": {
+            "min": 98429,
+            "median": 119991,
+            "max": 128340
+          },
+          "yearRange": {
+            "min": 2015,
+            "median": 2015,
+            "max": 2015
+          },
+          "exemplars": [
+            {
+              "vin": "JTDKDTB36F1093356",
+              "name": "2015 Toyota Prius C Three",
+              "priceUsd": 13277,
+              "odometerMiles": 102203,
+              "powertrain": "HYB",
+              "evRangeMi": null,
+              "sixYearTco": 39060,
+              "matchScore": 45,
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788868425",
+              "role": "best of this group"
+            },
+            {
+              "vin": "JTDKDTB38F1106026",
+              "name": "2015 Toyota Prius C Two",
+              "priceUsd": 11999,
+              "odometerMiles": 128340,
+              "powertrain": "HYB",
+              "evRangeMi": null,
+              "sixYearTco": 38436,
+              "matchScore": 37.8,
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/784935957",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "honda|fit|ICE",
+          "label": "Honda Fit · petrol",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "ICE",
+          "count": 13,
+          "safetyQualified": 2,
+          "safetyQualifiedPct": 15,
+          "priceUsd": {
+            "min": 7900,
+            "median": 11771,
+            "max": 14600
+          },
+          "sixYearTco": {
+            "min": 38209,
+            "median": 39766,
+            "max": 41952
+          },
+          "odometerMiles": {
+            "min": 30296,
+            "median": 95995,
+            "max": 137263
+          },
+          "yearRange": {
+            "min": 2015,
+            "median": 2016,
+            "max": 2020
+          },
+          "exemplars": [
+            {
+              "vin": "3HGGK5H66LM710067",
+              "name": "2020 Honda Fit Sport",
+              "priceUsd": 14600,
+              "odometerMiles": 95995,
+              "powertrain": "ICE",
+              "evRangeMi": null,
+              "sixYearTco": 41287,
+              "matchScore": 53.1,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788296893",
+              "role": "best of this group"
+            },
+            {
+              "vin": "3HGGK5H88KM716257",
+              "name": "2019 Honda Fit EX",
+              "priceUsd": 9800,
+              "odometerMiles": 133463,
+              "powertrain": "ICE",
+              "evRangeMi": null,
+              "sixYearTco": 39766,
+              "matchScore": 20.1,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789169876",
+              "role": "cheapest to own here"
+            }
+          ]
+        }
+      ],
+      "note": "1838 cars in range. The models you have named are listed individually; the rest are grouped by model, generation and battery — a 2013 Leaf and a 2023 Leaf share a badge and nothing else, so grouping on the name alone would average incomparable cars.",
+      "longTail": "103 more cars in 82 groups too small to summarise (fewer than 3 of a kind). They are still costed and still searchable under Browse."
+    },
+    "kate": {
+      "band": "kate",
+      "label": "Kate $15–25k",
+      "decidedBy": "Comfort, and an upgrade (or honest lateral move) on the 2017 Highlander Limited.",
+      "priceRange": {
+        "min": 15000,
+        "max": 25000
+      },
+      "powertrainRule": "Battery-electric only — petrol, hybrid and plug-in hybrid are all excluded from this band.",
+      "totalInBand": 646,
+      "watchlist": [
+        {
+          "id": "xc40",
+          "label": "Volvo XC40 / C40 Recharge",
+          "why": "Kate named this one.",
+          "count": 8,
+          "cars": [
+            {
+              "vin": "YV4ED3URXM2567960",
+              "name": "2021 Volvo XC40 P8 Recharge",
+              "priceUsd": 16570,
+              "odometerMiles": 69140,
+              "powertrain": "BEV",
+              "evRangeMi": 208,
+              "sixYearTco": 42077,
+              "matchScore": 58.9,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/790176287"
+            },
+            {
+              "vin": "YV4ED3UR6N2762763",
+              "name": "2022 Volvo XC40 P8 Recharge Plus",
+              "priceUsd": 15897,
+              "odometerMiles": 119977,
+              "powertrain": "BEV",
+              "evRangeMi": 208,
+              "sixYearTco": 43598,
+              "matchScore": 60.5,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/786889854"
+            },
+            {
+              "vin": "YV4ED3UR9M2574513",
+              "name": "2021 Volvo XC40 P8 Recharge",
+              "priceUsd": 21490,
+              "odometerMiles": 67143,
+              "powertrain": "BEV",
+              "evRangeMi": 208,
+              "sixYearTco": 45618,
+              "matchScore": 55.2,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/783908878"
+            },
+            {
+              "vin": "YV4ED3UR7M2528100",
+              "name": "2021 Volvo XC40 P8 Recharge",
+              "priceUsd": 21000,
+              "odometerMiles": 75167,
+              "powertrain": "BEV",
+              "evRangeMi": 208,
+              "sixYearTco": 45627,
+              "matchScore": 54.8,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/790143131"
+            },
+            {
+              "vin": "YV4ED3UR9M2523576",
+              "name": "2021 Volvo XC40 P8 Recharge",
+              "priceUsd": 21800,
+              "odometerMiles": 63758,
+              "powertrain": "BEV",
+              "evRangeMi": 208,
+              "sixYearTco": 45703,
+              "matchScore": 49,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788959931"
+            },
+            {
+              "vin": "YV4ED3UR9N2756052",
+              "name": "2022 Volvo XC40 P8 Recharge Plus",
+              "priceUsd": 21500,
+              "odometerMiles": 73010,
+              "powertrain": "BEV",
+              "evRangeMi": 208,
+              "sixYearTco": 45998,
+              "matchScore": 63.8,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/787428623"
+            },
+            {
+              "vin": "YV4ED3UB4N2731479",
+              "name": "2022 Volvo XC40 P8 Recharge Ultimate",
+              "priceUsd": 21495,
+              "odometerMiles": 80513,
+              "powertrain": "BEV",
+              "evRangeMi": 223,
+              "sixYearTco": 46366,
+              "matchScore": 63.4,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789297024"
+            },
+            {
+              "vin": "YV4ED3UL4P2965584",
+              "name": "2023 Volvo XC40 Recharge Plus",
+              "priceUsd": 23995,
+              "odometerMiles": 58874,
+              "powertrain": "BEV",
+              "evRangeMi": 223,
+              "sixYearTco": 47473,
+              "matchScore": 55.5,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/779356616"
+            }
+          ],
+          "note": null
+        },
+        {
+          "id": "mache",
+          "label": "Ford Mustang Mach-E",
+          "why": "Kate named this one.",
+          "count": 4,
+          "cars": [
+            {
+              "vin": "3FMTK1RM4NMA02515",
+              "name": "2022 Ford Mustang Mach-E Select",
+              "priceUsd": 22490,
+              "odometerMiles": 72305,
+              "powertrain": "BEV",
+              "evRangeMi": 247,
+              "sixYearTco": 50461,
+              "matchScore": 54.9,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/780112771"
+            },
+            {
+              "vin": "3FMTK3SU8MMA10475",
+              "name": "2021 Ford Mustang Mach-E Premium",
+              "priceUsd": 22695,
+              "odometerMiles": 65680,
+              "powertrain": "BEV",
+              "evRangeMi": 270,
+              "sixYearTco": 50579,
+              "matchScore": 40,
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788499612"
+            },
+            {
+              "vin": "3FMTK1R45PMA75542",
+              "name": "2023 Ford Mustang Mach-E Select",
+              "priceUsd": 24988,
+              "odometerMiles": 44989,
+              "powertrain": "BEV",
+              "evRangeMi": 247,
+              "sixYearTco": 51306,
+              "matchScore": 56.1,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788962837"
+            },
+            {
+              "vin": "3FMTK3R73MMA42539",
+              "name": "2021 Ford Mustang Mach-E Premium",
+              "priceUsd": 24800,
+              "odometerMiles": 60360,
+              "powertrain": "BEV",
+              "evRangeMi": 300,
+              "sixYearTco": 51904,
+              "matchScore": 40.2,
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/786024656"
+            }
+          ],
+          "note": null
+        }
+      ],
+      "cohorts": [
+        {
+          "key": "chevrolet|bolt|BEV|60 kwh (recall era)",
+          "label": "Chevrolet Bolt 60 kWh (recall era) · electric",
+          "generation": "60 kWh (recall era)",
+          "generationNote": "LG pack; most were REPLACED under recall.",
+          "powertrain": "BEV",
+          "count": 17,
+          "safetyQualified": 8,
+          "safetyQualifiedPct": 47,
+          "priceUsd": {
+            "min": 15188,
+            "median": 17591,
+            "max": 23254
+          },
+          "sixYearTco": {
+            "min": 39077,
+            "median": 40172,
+            "max": 43606
+          },
+          "odometerMiles": {
+            "min": 2165,
+            "median": 31202,
+            "max": 94033
+          },
+          "yearRange": {
+            "min": 2017,
+            "median": 2019,
+            "max": 2021
+          },
+          "exemplars": [
+            {
+              "vin": "1G1FZ6S0XM4109461",
+              "name": "2021 Chevrolet Bolt Premier",
+              "priceUsd": 19999,
+              "odometerMiles": 16677,
+              "powertrain": "BEV",
+              "evRangeMi": 259,
+              "sixYearTco": 41334,
+              "matchScore": 65.1,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789270108",
+              "role": "best of this group"
+            },
+            {
+              "vin": "1G1FX6S0XH4180090",
+              "name": "2017 Chevrolet Bolt Premier",
+              "priceUsd": 15995,
+              "odometerMiles": 48915,
+              "powertrain": "BEV",
+              "evRangeMi": 238,
+              "sixYearTco": 39569,
+              "matchScore": 63.6,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788504276",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "nissan|leaf|BEV|40 kwh (gen 2)",
+          "label": "Nissan Leaf 40 kWh (gen 2) · electric",
+          "generation": "40 kWh (gen 2)",
+          "generationNote": "150 mi, new body, AEB widely standard.",
+          "powertrain": "BEV",
+          "count": 6,
+          "safetyQualified": 6,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 15000,
+            "median": 16938,
+            "max": 19674
+          },
+          "sixYearTco": {
+            "min": 40639,
+            "median": 42430,
+            "max": 44097
+          },
+          "odometerMiles": {
+            "min": 20934,
+            "median": 41300,
+            "max": 44777
+          },
+          "yearRange": {
+            "min": 2019,
+            "median": 2021,
+            "max": 2022
+          },
+          "exemplars": [
+            {
+              "vin": "1N4BZ1DV0MC553591",
+              "name": "2021 Nissan Leaf SL Plus",
+              "priceUsd": 15000,
+              "odometerMiles": 41300,
+              "powertrain": "BEV",
+              "evRangeMi": 215,
+              "sixYearTco": 40639,
+              "matchScore": 72,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "top-safety-pick",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789726694",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "nissan|leaf|BEV|40 kwh (facelift)",
+          "label": "Nissan Leaf 40 kWh (facelift) · electric",
+          "generation": "40 kWh (facelift)",
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 61,
+          "safetyQualified": 61,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 15983,
+            "median": 18566,
+            "max": 21586
+          },
+          "sixYearTco": {
+            "min": 41232,
+            "median": 42752,
+            "max": 45233
+          },
+          "odometerMiles": {
+            "min": 129,
+            "median": 15872,
+            "max": 49505
+          },
+          "yearRange": {
+            "min": 2023,
+            "median": 2024,
+            "max": 2025
+          },
+          "exemplars": [
+            {
+              "vin": "1N4AZ1BV8PC557147",
+              "name": "2023 Nissan Leaf S",
+              "priceUsd": 16713,
+              "odometerMiles": 17102,
+              "powertrain": "BEV",
+              "evRangeMi": 149,
+              "sixYearTco": 41531,
+              "matchScore": 77.2,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "top-safety-pick",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/778504591",
+              "role": "best of this group"
+            },
+            {
+              "vin": "1N4AZ1BV8SC561403",
+              "name": "2025 Nissan Leaf S",
+              "priceUsd": 15984,
+              "odometerMiles": 31575,
+              "powertrain": "BEV",
+              "evRangeMi": 149,
+              "sixYearTco": 41232,
+              "matchScore": 75.8,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "top-safety-pick",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788121938",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "fisker|ocean|BEV",
+          "label": "Fisker Ocean · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 5,
+          "safetyQualified": 0,
+          "safetyQualifiedPct": 0,
+          "priceUsd": {
+            "min": 15990,
+            "median": 18488,
+            "max": 19995
+          },
+          "sixYearTco": {
+            "min": 41309,
+            "median": 44006,
+            "max": 45487
+          },
+          "odometerMiles": {
+            "min": 5087,
+            "median": 12285,
+            "max": 29029
+          },
+          "yearRange": {
+            "min": 2023,
+            "median": 2023,
+            "max": 2023
+          },
+          "exemplars": [
+            {
+              "vin": "VCF1ZBU27PG003836",
+              "name": "2023 Fisker Ocean One",
+              "priceUsd": 15990,
+              "odometerMiles": 12285,
+              "powertrain": "BEV",
+              "evRangeMi": 360,
+              "sixYearTco": 41309,
+              "matchScore": 47.4,
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789801560",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "nissan|ariya|BEV",
+          "label": "Nissan Ariya · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 17,
+          "safetyQualified": 17,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 15841,
+            "median": 19990,
+            "max": 21908
+          },
+          "sixYearTco": {
+            "min": 43363,
+            "median": 45625,
+            "max": 47542
+          },
+          "odometerMiles": {
+            "min": 22882,
+            "median": 31457,
+            "max": 102848
+          },
+          "yearRange": {
+            "min": 2023,
+            "median": 2023,
+            "max": 2024
+          },
+          "exemplars": [
+            {
+              "vin": "JN1CF0BB3RM737003",
+              "name": "2024 Nissan Ariya AWD",
+              "priceUsd": 21706,
+              "odometerMiles": 33621,
+              "powertrain": "BEV",
+              "evRangeMi": 205,
+              "sixYearTco": 47496,
+              "matchScore": 65.6,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789608133",
+              "role": "best of this group"
+            },
+            {
+              "vin": "JN1AF0BA8PM407210",
+              "name": "2023 Nissan Ariya FWD",
+              "priceUsd": 15841,
+              "odometerMiles": 102848,
+              "powertrain": "BEV",
+              "evRangeMi": 216,
+              "sixYearTco": 43363,
+              "matchScore": 57.8,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/785831467",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "mini|cooper|BEV",
+          "label": "MINI Cooper · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 5,
+          "safetyQualified": 4,
+          "safetyQualifiedPct": 80,
+          "priceUsd": {
+            "min": 16895,
+            "median": 19988,
+            "max": 21789
+          },
+          "sixYearTco": {
+            "min": 42600,
+            "median": 46150,
+            "max": 47956
+          },
+          "odometerMiles": {
+            "min": 17617,
+            "median": 34963,
+            "max": 55643
+          },
+          "yearRange": {
+            "min": 2022,
+            "median": 2023,
+            "max": 2024
+          },
+          "exemplars": [
+            {
+              "vin": "WMW13DJ00N2S09734",
+              "name": "2022 MINI Cooper SE",
+              "priceUsd": 19988,
+              "odometerMiles": 31715,
+              "powertrain": "BEV",
+              "evRangeMi": 114,
+              "sixYearTco": 46150,
+              "matchScore": 60.5,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788866240",
+              "role": "best of this group"
+            },
+            {
+              "vin": "WMW13DJ03N2R37323",
+              "name": "2022 MINI Cooper SE",
+              "priceUsd": 18998,
+              "odometerMiles": 55643,
+              "powertrain": "BEV",
+              "evRangeMi": 114,
+              "sixYearTco": 45613,
+              "matchScore": 58.4,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788471357",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "hyundai|kona|BEV|2nd gen",
+          "label": "Hyundai Kona 2nd gen · electric",
+          "generation": "2nd gen",
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 16,
+          "safetyQualified": 16,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 15250,
+            "median": 21644,
+            "max": 24995
+          },
+          "sixYearTco": {
+            "min": 40571,
+            "median": 46537,
+            "max": 49986
+          },
+          "odometerMiles": {
+            "min": 7311,
+            "median": 24441,
+            "max": 62815
+          },
+          "yearRange": {
+            "min": 2023,
+            "median": 2023,
+            "max": 2024
+          },
+          "exemplars": [
+            {
+              "vin": "KM8K23AG9PU174017",
+              "name": "2023 Hyundai Kona SE",
+              "priceUsd": 15250,
+              "odometerMiles": 62815,
+              "powertrain": "BEV",
+              "evRangeMi": 258,
+              "sixYearTco": 40571,
+              "matchScore": 60.5,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "not-rated-for-this-variant",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/786101378",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "polestar|polestar 2|BEV",
+          "label": "Polestar Polestar 2 · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 10,
+          "safetyQualified": 6,
+          "safetyQualifiedPct": 60,
+          "priceUsd": {
+            "min": 16988,
+            "median": 20700,
+            "max": 21900
+          },
+          "sixYearTco": {
+            "min": 45210,
+            "median": 46817,
+            "max": 48309
+          },
+          "odometerMiles": {
+            "min": 23652,
+            "median": 75657,
+            "max": 101244
+          },
+          "yearRange": {
+            "min": 2021,
+            "median": 2023,
+            "max": 2024
+          },
+          "exemplars": [
+            {
+              "vin": "YSMEG3KA4PL116159",
+              "name": "2023 Polestar Polestar 2",
+              "priceUsd": 20950,
+              "odometerMiles": 29842,
+              "powertrain": "BEV",
+              "evRangeMi": 270,
+              "sixYearTco": 47042,
+              "matchScore": 66.2,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/780925766",
+              "role": "best of this group"
+            },
+            {
+              "vin": "YSMEG3KA9PL145074",
+              "name": "2023 Polestar Polestar 2",
+              "priceUsd": 16988,
+              "odometerMiles": 97638,
+              "powertrain": "BEV",
+              "evRangeMi": 270,
+              "sixYearTco": 45227,
+              "matchScore": 62.5,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789996402",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "chevrolet|bolt|BEV|65 kwh (post-refresh)",
+          "label": "Chevrolet Bolt 65 kWh (post-refresh) · electric",
+          "generation": "65 kWh (post-refresh)",
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 8,
+          "safetyQualified": 8,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 17999,
+            "median": 21997,
+            "max": 24995
+          },
+          "sixYearTco": {
+            "min": 43543,
+            "median": 47318,
+            "max": 50388
+          },
+          "odometerMiles": {
+            "min": 20150,
+            "median": 36139,
+            "max": 50569
+          },
+          "yearRange": {
+            "min": 2022,
+            "median": 2023,
+            "max": 2023
+          },
+          "exemplars": [
+            {
+              "vin": "1G1FX6S08P4207690",
+              "name": "2023 Chevrolet Bolt LT",
+              "priceUsd": 23990,
+              "odometerMiles": 21153,
+              "powertrain": "BEV",
+              "evRangeMi": 259,
+              "sixYearTco": 49329,
+              "matchScore": 67.7,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789709631",
+              "role": "best of this group"
+            },
+            {
+              "vin": "1G1FW6S06P4115948",
+              "name": "2023 Chevrolet Bolt LT",
+              "priceUsd": 17999,
+              "odometerMiles": 48805,
+              "powertrain": "BEV",
+              "evRangeMi": 259,
+              "sixYearTco": 43543,
+              "matchScore": 63.5,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/787933637",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "chevrolet|bolt euv|BEV",
+          "label": "Chevrolet Bolt EUV · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 30,
+          "safetyQualified": 30,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 16881,
+            "median": 22240,
+            "max": 24996
+          },
+          "sixYearTco": {
+            "min": 42806,
+            "median": 47626,
+            "max": 51655
+          },
+          "odometerMiles": {
+            "min": 5431,
+            "median": 36510,
+            "max": 96379
+          },
+          "yearRange": {
+            "min": 2022,
+            "median": 2023,
+            "max": 2023
+          },
+          "exemplars": [
+            {
+              "vin": "1G1FY6S07N4121796",
+              "name": "2022 Chevrolet Bolt EUV LT",
+              "priceUsd": 19725,
+              "odometerMiles": 38652,
+              "powertrain": "BEV",
+              "evRangeMi": 247,
+              "sixYearTco": 44572,
+              "matchScore": 65.2,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/787715359",
+              "role": "best of this group"
+            },
+            {
+              "vin": "1G1FY6S0XN4108363",
+              "name": "2022 Chevrolet Bolt EUV LT",
+              "priceUsd": 17189,
+              "odometerMiles": 68297,
+              "powertrain": "BEV",
+              "evRangeMi": 247,
+              "sixYearTco": 42806,
+              "matchScore": 64.1,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/784797833",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "volkswagen|id.4|BEV",
+          "label": "Volkswagen ID.4 · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 113,
+          "safetyQualified": 113,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 15333,
+            "median": 21983,
+            "max": 24990
+          },
+          "sixYearTco": {
+            "min": 42597,
+            "median": 47685,
+            "max": 51419
+          },
+          "odometerMiles": {
+            "min": 13734,
+            "median": 32800,
+            "max": 114474
+          },
+          "yearRange": {
+            "min": 2021,
+            "median": 2023,
+            "max": 2024
+          },
+          "exemplars": [
+            {
+              "vin": "1V2BMPE88RC006952",
+              "name": "2024 Volkswagen ID.4 2WD",
+              "priceUsd": 19900,
+              "odometerMiles": 15203,
+              "powertrain": "BEV",
+              "evRangeMi": 206,
+              "sixYearTco": 45238,
+              "matchScore": 62.1,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/787194719",
+              "role": "best of this group"
+            },
+            {
+              "vin": "WVGRMPE21MP032057",
+              "name": "2021 Volkswagen ID.4 Pro",
+              "priceUsd": 16997,
+              "odometerMiles": 55573,
+              "powertrain": "BEV",
+              "evRangeMi": 260,
+              "sixYearTco": 42597,
+              "matchScore": 52.4,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789088320",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "tesla|model 3|BEV|pre-refresh",
+          "label": "Tesla Model 3 pre-refresh · electric",
+          "generation": "pre-refresh",
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 99,
+          "safetyQualified": 99,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 16998,
+            "median": 21400,
+            "max": 24995
+          },
+          "sixYearTco": {
+            "min": 44872,
+            "median": 48010,
+            "max": 51387
+          },
+          "odometerMiles": {
+            "min": 31252,
+            "median": 78586,
+            "max": 142667
+          },
+          "yearRange": {
+            "min": 2018,
+            "median": 2019,
+            "max": 2020
+          },
+          "exemplars": [
+            {
+              "vin": "5YJ3E1EA2LF614396",
+              "name": "2020 Tesla Model 3 Standard Range Plus",
+              "priceUsd": 18699,
+              "odometerMiles": 56300,
+              "powertrain": "BEV",
+              "evRangeMi": 220,
+              "sixYearTco": 45337,
+              "matchScore": 65.7,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/766442591",
+              "role": "best of this group"
+            },
+            {
+              "vin": "5YJ3E1EA7JF041265",
+              "name": "2018 Tesla Model 3 Mid Range",
+              "priceUsd": 16999,
+              "odometerMiles": 74871,
+              "powertrain": "BEV",
+              "evRangeMi": 260,
+              "sixYearTco": 44872,
+              "matchScore": 64.5,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/781270607",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "tesla|model s|BEV",
+          "label": "Tesla Model S · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 22,
+          "safetyQualified": 4,
+          "safetyQualifiedPct": 18,
+          "priceUsd": {
+            "min": 15990,
+            "median": 19990,
+            "max": 21995
+          },
+          "sixYearTco": {
+            "min": 43823,
+            "median": 48019,
+            "max": 50832
+          },
+          "odometerMiles": {
+            "min": 41134,
+            "median": 99099,
+            "max": 138632
+          },
+          "yearRange": {
+            "min": 2015,
+            "median": 2016,
+            "max": 2018
+          },
+          "exemplars": [
+            {
+              "vin": "5YJSA1E26JF248701",
+              "name": "2018 Tesla Model S 75D",
+              "priceUsd": 17998,
+              "odometerMiles": 79636,
+              "powertrain": "BEV",
+              "evRangeMi": 259,
+              "sixYearTco": 47384,
+              "matchScore": 58.9,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/779351135",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "audi|e-tron|BEV",
+          "label": "Audi e-tron · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 3,
+          "safetyQualified": 0,
+          "safetyQualifiedPct": 0,
+          "priceUsd": {
+            "min": 18047,
+            "median": 18961,
+            "max": 20789
+          },
+          "sixYearTco": {
+            "min": 46530,
+            "median": 48059,
+            "max": 48755
+          },
+          "odometerMiles": {
+            "min": 62105,
+            "median": 75809,
+            "max": 128809
+          },
+          "yearRange": {
+            "min": 2019,
+            "median": 2019,
+            "max": 2019
+          },
+          "exemplars": [
+            {
+              "vin": "WA1LAAGE8KB022976",
+              "name": "2019 Audi e-tron Premium Plus",
+              "priceUsd": 18961,
+              "odometerMiles": 62105,
+              "powertrain": "BEV",
+              "evRangeMi": 204,
+              "sixYearTco": 46530,
+              "matchScore": 40.3,
+              "safety": {
+                "meets": false,
+                "aeb": "unknown",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": false,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is UNVERIFIED — it may well be fitted, but nobody has confirmed it. Do not read this as a failure."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/777140042",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "kia|niro|BEV",
+          "label": "Kia Niro · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 83,
+          "safetyQualified": 80,
+          "safetyQualifiedPct": 96,
+          "priceUsd": {
+            "min": 15977,
+            "median": 23180,
+            "max": 24998
+          },
+          "sixYearTco": {
+            "min": 41228,
+            "median": 48363,
+            "max": 50342
+          },
+          "odometerMiles": {
+            "min": 9171,
+            "median": 26109,
+            "max": 101646
+          },
+          "yearRange": {
+            "min": 2019,
+            "median": 2023,
+            "max": 2025
+          },
+          "exemplars": [
+            {
+              "vin": "KNDCR3L11P5030968",
+              "name": "2023 Kia Niro Wind",
+              "priceUsd": 19950,
+              "odometerMiles": 28587,
+              "powertrain": "BEV",
+              "evRangeMi": 253,
+              "sixYearTco": 45006,
+              "matchScore": 67.4,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "not-rated-for-this-variant",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/782068816",
+              "role": "best of this group"
+            }
+          ]
+        },
+        {
+          "key": "hyundai|ioniq 6|BEV",
+          "label": "Hyundai Ioniq 6 · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 5,
+          "safetyQualified": 5,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 19791,
+            "median": 24435,
+            "max": 24942
+          },
+          "sixYearTco": {
+            "min": 44454,
+            "median": 49153,
+            "max": 50192
+          },
+          "odometerMiles": {
+            "min": 15505,
+            "median": 24424,
+            "max": 102608
+          },
+          "yearRange": {
+            "min": 2023,
+            "median": 2023,
+            "max": 2024
+          },
+          "exemplars": [
+            {
+              "vin": "KMHM34AA0PA033295",
+              "name": "2023 Hyundai Ioniq 6 SEL",
+              "priceUsd": 24435,
+              "odometerMiles": 24424,
+              "powertrain": "BEV",
+              "evRangeMi": 305,
+              "sixYearTco": 49153,
+              "matchScore": 60.3,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "not-rated-for-this-variant",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789510419",
+              "role": "best of this group"
+            },
+            {
+              "vin": "KMHM34AC1PA043173",
+              "name": "2023 Hyundai Ioniq 6 SEL",
+              "priceUsd": 19995,
+              "odometerMiles": 15505,
+              "powertrain": "BEV",
+              "evRangeMi": 270,
+              "sixYearTco": 44454,
+              "matchScore": 27.8,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "not-rated-for-this-variant",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788732969",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "kia|ev6|BEV",
+          "label": "Kia EV6 · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 10,
+          "safetyQualified": 10,
+          "safetyQualifiedPct": 100,
+          "priceUsd": {
+            "min": 20777,
+            "median": 24200,
+            "max": 24990
+          },
+          "sixYearTco": {
+            "min": 47490,
+            "median": 49249,
+            "max": 51232
+          },
+          "odometerMiles": {
+            "min": 10356,
+            "median": 38562,
+            "max": 90745
+          },
+          "yearRange": {
+            "min": 2022,
+            "median": 2023,
+            "max": 2024
+          },
+          "exemplars": [
+            {
+              "vin": "KNDC34LA0P5104341",
+              "name": "2023 Kia EV6 Wind",
+              "priceUsd": 22799,
+              "odometerMiles": 32179,
+              "powertrain": "BEV",
+              "evRangeMi": 310,
+              "sixYearTco": 47908,
+              "matchScore": 56.4,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/785871941",
+              "role": "best of this group"
+            },
+            {
+              "vin": "KNDC34LAXR5200576",
+              "name": "2024 Kia EV6 Wind",
+              "priceUsd": 20900,
+              "odometerMiles": 71443,
+              "powertrain": "BEV",
+              "evRangeMi": 310,
+              "sixYearTco": 47490,
+              "matchScore": 55,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/782383947",
+              "role": "cheapest to own here"
+            }
+          ]
+        },
+        {
+          "key": "tesla|model x|BEV",
+          "label": "Tesla Model X · electric",
+          "generation": null,
+          "generationNote": null,
+          "powertrain": "BEV",
+          "count": 5,
+          "safetyQualified": 2,
+          "safetyQualifiedPct": 40,
+          "priceUsd": {
+            "min": 19989,
+            "median": 19999,
+            "max": 24490
+          },
+          "sixYearTco": {
+            "min": 48524,
+            "median": 49306,
+            "max": 54429
+          },
+          "odometerMiles": {
+            "min": 116979,
+            "median": 130140,
+            "max": 135456
+          },
+          "yearRange": {
+            "min": 2016,
+            "median": 2016,
+            "max": 2019
+          },
+          "exemplars": [
+            {
+              "vin": "5YJXCBE27KF180187",
+              "name": "2019 Tesla Model X",
+              "priceUsd": 24490,
+              "odometerMiles": 130140,
+              "powertrain": "BEV",
+              "evRangeMi": 250,
+              "sixYearTco": 54429,
+              "matchScore": 58,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/786454939",
+              "role": "best of this group"
+            },
+            {
+              "vin": "5YJXCAE26JF142541",
+              "name": "2018 Tesla Model X 75D",
+              "priceUsd": 21490,
+              "odometerMiles": 121824,
+              "powertrain": "BEV",
+              "evRangeMi": 238,
+              "sixYearTco": 51549,
+              "matchScore": 54.6,
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/789805866",
+              "role": "cheapest to own here"
+            }
+          ]
+        }
+      ],
+      "note": "646 cars in range. The models you have named are listed individually; the rest are grouped by model, generation and battery — a 2013 Leaf and a 2023 Leaf share a badge and nothing else, so grouping on the name alone would average incomparable cars.",
+      "longTail": "12 more cars in 10 groups too small to summarise (fewer than 3 of a kind). They are still costed and still searchable under Browse."
     }
   },
   "jordynPicks": {
