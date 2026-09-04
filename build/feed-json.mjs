@@ -358,6 +358,7 @@ export function rosterFeed(data, allCars = null) {
         'Safety is a GATE, not a weight. marketAnalysis.safetyFirst excludes a car only when AEB is CONFIRMED ABSENT — never when it is merely unverified.',
         'jordynPicks is what SHE chose, scored with the same model as everything else. It is never a filter on the rankings. Read entries[].delta against jordynPicks.baseline, and weight `stated` picks above `thumbed` ones.',
         'bands is the curated view: start there rather than with listings[] or allCars. bands.kate is BATTERY-ELECTRIC ONLY by rule — the absence of petrol cars there is deliberate, not a gap in the data.',
+        'ODOMETER vs ANNUAL MILEAGE: the Highlander\'s odometer is 135,000 (highlanderAndPlans.highlander.odometerMiles). Every field ending in MilesPerYear is annual driving — 17,000 is what Kate drives in a year, NOT a mileage reading.',
         'All money is US dollars, whole units. All distances are miles.',
       ],
       canonicalPage: 'https://jonathancarlson.github.io/family-cars/jordyn.html',
@@ -428,6 +429,24 @@ export function rosterFeed(data, allCars = null) {
       }
       : null,
 
+    // The car the family already owns, and the three plans built around it.
+    // Published because a feed reader otherwise sees only
+    // `costAssumptions.highlanderMilesPerYearToday` and has no odometer to
+    // disambiguate it against — which is exactly how 17,000 mi/yr got read as
+    // a 17,000-mile odometer.
+    highlanderAndPlans: data.plans
+      ? {
+        note: 'The Highlander is ALREADY OWNED. odometerMiles is its actual mileage; milesPerYear figures are annual driving. Do not confuse the two.',
+        highlander: {
+          ...data.plans.highlander,
+          odometerMilesNote: 'ACTUAL ODOMETER READING, not annual mileage.',
+        },
+        plans: data.plans.plans,
+        method: data.plans.method,
+        caveat: data.plans.caveat,
+      }
+      : null,
+
     jordynPicks: data.picks
       ? {
         note: data.picks.disclaimer,
@@ -486,6 +505,10 @@ export function rosterFeed(data, allCars = null) {
       note: 'These are the INPUTS to every costToOwn figure. Change one and every total moves.',
       milesPerWeek: a.milesPerWeek ?? null,
       milesPerYear: a.milesPerYear ?? null,
+      milesPerYearNote: 'ANNUAL driving distances. The Highlander\'s ODOMETER (135,000) is a separate field on highlanderAndPlans.highlander.odometerMiles — do not read an annual figure as a mileage reading.',
+      jordynMilesPerYear: a.milesPerYear ?? null,
+      kateMilesPerYear: a.kateMilesPerYear ?? null,
+      highlanderMilesPerYearToday: a.highlanderMilesPerYearToday ?? null,
       horizonYearsJordyn: a.jordynYears ?? null,
       horizonYearsThroughEmma: a.emmaYears ?? null,
       gasolineUsdPerGallon: a.gasPerGallon ?? null,
