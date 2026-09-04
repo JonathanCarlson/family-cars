@@ -7,7 +7,7 @@ _Safety first, then cost to own · 130 mi/week · $15k target, searched to $22k_
 > nightly from live dealer inventory. Prices and availability change daily;
 > always confirm against the listing URL before acting on anything here.
 
-Every car we can find that could work as Jordyn's first car — 4730 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
+Every car we can find that could work as Jordyn's first car — 4728 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
 
 ## How to read this
 
@@ -44,7 +44,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
 | 2 | 2023 Nissan Leaf S | $13,488 | 52,213 | Battery electric | $39,773 | AEB+BSM | ok |
 | 3 | 2023 Nissan Leaf S | $16,713 | 17,102 | Battery electric | $41,648 | AEB+BSM | ok |
 | 4 | 2025 Nissan Leaf S | $15,984 | 31,575 | Battery electric | $41,344 | AEB+BSM | ok |
-| 5 | 2018 Kia Niro EX | $18,864 | 52,359 | Plug-in hybrid | $41,047 | AEB+BSM | ok |
+| 5 | 2018 Kia Niro EX | $19,264 | 52,359 | Plug-in hybrid | $41,282 | AEB+BSM | ok |
 | 6 | 2022 Hyundai Ioniq Blue | $21,048 | 37,615 | Hybrid | $43,941 | AEB+BSM | ok |
 | 7 | 2017 Hyundai Ioniq Limited | $11,800 | 80,887 | Battery electric | $37,468 | AEB+BSM | ok |
 | 8 | 2018 Kia Niro EX | $12,575 | 113,256 | Hybrid | $39,630 | AEB+BSM | ok |
@@ -349,7 +349,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $41,344** ($574/mo over 40,560 mi)
   - 2-year total (Jordyn only): $16,193
 
-### 5. 2018 Kia Niro EX — $18,864
+### 5. 2018 Kia Niro EX — $19,264
 
 - VIN: `KNDCD3LDXJ5213253`
 - Mileage: 52,359 mi · Color: Snow White Pearl · Certified pre-owned
@@ -373,15 +373,15 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $18,864
-  - Sales tax: $2,037
+  - Purchase price: $19,264
+  - Sales tax: $2,081
   - Fuel / electricity: $4,118
   - Maintenance: $1,735
   - Insurance: $22,734
-  - Registration: $1,668
+  - Registration: $1,692
   - Major-repair reserve (expected): $919
-  - **6-year total: $41,047** ($570/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,397
+  - **6-year total: $41,282** ($573/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $14,493
 
 ### 6. 2022 Hyundai Ioniq Blue — $21,048
 

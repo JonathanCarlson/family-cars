@@ -1,6 +1,6 @@
 ==========================================================================
 JORDYN'S FIRST CAR — 171 listings
-roster updated 2026-09-04 · feed generated 2026-09-04T23:08:16.332Z
+roster updated 2026-09-04 · feed generated 2026-09-04T23:47:32.208Z
 ==========================================================================
 
 Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.
@@ -28,7 +28,7 @@ TOP 10 OVERALL (powertrain-neutral — EVs get no bonus, they win on cost)
    2. 2023 Nissan Leaf S               $ 13488    52213mi  Battery electric                   elec 100%  6yr $ 39773  score 77.6
    3. 2023 Nissan Leaf S               $ 16713    17102mi  Battery electric                   elec 100%  6yr $ 41648  score 76.9
    4. 2025 Nissan Leaf S               $ 15984    31575mi  Battery electric                   elec 100%  6yr $ 41344  score 75.5
-   5. 2018 Kia Niro EX                 $ 18864    52359mi  Plug-in hybrid                     elec  45%  6yr $ 41047  score 73.8
+   5. 2018 Kia Niro EX                 $ 19264    52359mi  Plug-in hybrid                     elec  45%  6yr $ 41282  score 73.4
    6. 2022 Hyundai Ioniq Blue          $ 21048    37615mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 43941  score 73.4
    7. 2017 Hyundai Ioniq Limited       $ 11800    80887mi  Battery electric                   elec 100%  6yr $ 37468  score 73.3
    8. 2018 Kia Niro EX                 $ 12575   113256mi  Hybrid (gasoline, self-charging)   elec   0%  6yr $ 39630  score 73.3
@@ -42,7 +42,7 @@ TOP 10 ELECTRIC / PLUG-IN (ranked by share of miles actually driven on electrici
    1. 2023 Nissan Leaf S               $ 13488    52213mi  Battery electric                   elec 100%  6yr $ 39773  score 77.6
    2. 2023 Nissan Leaf S               $ 16713    17102mi  Battery electric                   elec 100%  6yr $ 41648  score 76.9
    3. 2025 Nissan Leaf S               $ 15984    31575mi  Battery electric                   elec 100%  6yr $ 41344  score 75.5
-   4. 2018 Kia Niro EX                 $ 18864    52359mi  Plug-in hybrid                     elec  45%  6yr $ 41047  score 73.8
+   4. 2018 Kia Niro EX                 $ 19264    52359mi  Plug-in hybrid                     elec  45%  6yr $ 41282  score 73.4
    5. 2017 Hyundai Ioniq Limited       $ 11800    80887mi  Battery electric                   elec 100%  6yr $ 37468  score 73.3
    6. 2019 FIAT 500 e                  $ 13995    28290mi  Battery electric                   elec 100%  6yr $ 34882  score 73.2
    7. 2017 Nissan Leaf S               $  6995    32563mi  Battery electric                   elec 100%  6yr $ 34937  score 72.2
@@ -274,7 +274,7 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-5. 2018 Kia Niro EX — $18,864
+5. 2018 Kia Niro EX — $19,264
 ==========================================================================
   VIN                     KNDCD3LDXJ5213253
   odometer                52,359 mi
@@ -303,13 +303,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - 13 NHTSA complaints, no single system dominating.
     source                https://www.nhtsa.gov/vehicle/2018/KIA/NIRO%20PLUG-IN%20HYBRID
   2-year cost to own
-    purchase 18864 + tax 2037 + fuel 1329 + maint 578
-    + insurance 7578 + fees 556 + repairs 263 - resale null
-    = $14,397 ($600/mo over 13,520 mi)
+    purchase 19264 + tax 2081 + fuel 1329 + maint 578
+    + insurance 7578 + fees 564 + repairs 263 - resale null
+    = $14,493 ($604/mo over 13,520 mi)
   6-year cost to own
-    purchase 18864 + tax 2037 + fuel 4118 + maint 1735
-    + insurance 22734 + fees 1668 + repairs 919 - resale null
-    = $41,047 ($570/mo over 40,560 mi)
+    purchase 19264 + tax 2081 + fuel 4118 + maint 1735
+    + insurance 22734 + fees 1692 + repairs 919 - resale null
+    = $41,282 ($573/mo over 40,560 mi)
   repair outlook (6 yr)   expected $919 to budget
     worst single bill     $5,590 at ~3% — exposure, not budget
      21% x $  817 = $ 175  Cooling, fuel or ignition system
