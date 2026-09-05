@@ -2,8 +2,8 @@
   "feed": {
     "name": "jordyn-first-car",
     "schemaVersion": "1.5",
-    "generatedAt": "2026-09-05T07:01:06.530Z",
-    "rosterUpdated": "2026-09-04",
+    "generatedAt": "2026-09-05T07:29:17.827Z",
+    "rosterUpdated": "2026-09-05",
     "listingCount": 165,
     "purpose": "Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.",
     "budget": {
@@ -11086,7 +11086,7 @@
   },
   "allCars": {
     "count": 4730,
-    "generated": "2026-09-04",
+    "generated": "2026-09-05",
     "note": "Every car found by the nightly sweep, not just those published to the page. Slim records: the full repair, reliability and battery detail for shortlisted cars lives in listings[]. Fields are flat: aeb/bsm rather than a nested safety object, and tco2/tco6 are plain dollar totals rather than breakdowns.",
     "url": "./jordyn-all.json"
   },
@@ -11115,9 +11115,9 @@
         "minUsd": 3000,
         "maxUsd": 15000,
         "n": 1860,
-        "medianPrice": 11571,
+        "medianPrice": 11590,
         "medianYear": 2017,
-        "medianMiles": 101047,
+        "medianMiles": 101000,
         "medianTco2": 10869,
         "medianTco6": 30370,
         "aebConfirmed": 322,
@@ -11175,15 +11175,15 @@
           "ICE": {
             "n": 1735,
             "share": 93,
-            "medianPrice": 11590,
+            "medianPrice": 11595,
             "medianYear": 2017,
-            "medianMiles": 101594,
+            "medianMiles": 101537,
             "medianTco2": 10999,
             "medianTco6": 30626,
             "medianEnergy": 9360,
-            "medianMaintenance": 4327,
-            "medianRepairReserve": 2015,
-            "medianResale": 4748,
+            "medianMaintenance": 4326,
+            "medianRepairReserve": 2012,
+            "medianResale": 4750,
             "medianViability2032": 0.72,
             "safetyQualified": 296
           }
@@ -11276,25 +11276,25 @@
         "preferred": false,
         "minUsd": 17500,
         "maxUsd": 20000,
-        "n": 668,
+        "n": 669,
         "medianPrice": 18998,
         "medianYear": 2023,
-        "medianMiles": 35844,
+        "medianMiles": 35952,
         "medianTco2": 12768,
         "medianTco6": 32395,
-        "aebConfirmed": 571,
+        "aebConfirmed": 572,
         "aebAbsent": 0,
         "aebUnknown": 97,
-        "bsmConfirmed": 449,
-        "safetyQualified": 571,
-        "safetyQualifiedPct": 85,
+        "bsmConfirmed": 450,
+        "safetyQualified": 572,
+        "safetyQualifiedPct": 86,
         "powertrains": {
           "BEV": {
-            "n": 158,
+            "n": 159,
             "share": 24,
-            "medianPrice": 19425,
+            "medianPrice": 19400,
             "medianYear": 2023,
-            "medianMiles": 44894,
+            "medianMiles": 46033,
             "medianTco2": 12333,
             "medianTco6": 31175,
             "medianEnergy": 3246,
@@ -11302,7 +11302,7 @@
             "medianRepairReserve": 290,
             "medianResale": 11103,
             "medianViability2032": 0.9,
-            "safetyQualified": 135
+            "safetyQualified": 136
           },
           "PHEV": {
             "n": 30,
@@ -16997,7 +16997,7 @@
           },
           "tco2": {
             "min": 9596,
-            "median": 10823,
+            "median": 10828,
             "max": 12875
           },
           "tco6": {
@@ -17076,7 +17076,7 @@
               "model": "Insight",
               "trim": "Touring",
               "priceUsd": 18699,
-              "odometerMiles": 82224,
+              "odometerMiles": 82323,
               "dealerAndLocation": "Sunset Auto Wholesale Tacoma, Tacoma WA",
               "distanceFromBellevueMi": 29,
               "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/788597569",
@@ -17094,9 +17094,9 @@
                 "accidentsReported": false,
                 "oneOwner": false
               },
-              "twoYearTco": 10823,
-              "sixYearTco": 27513,
-              "majorRepairReserve": 910,
+              "twoYearTco": 10828,
+              "sixYearTco": 27515,
+              "majorRepairReserve": 911,
               "expectedResale": 7768,
               "matchScore": 86.4,
               "viability2032": 0.82,
@@ -28911,7 +28911,7 @@
           "generation": null,
           "generationNote": null,
           "batteryKwh": null,
-          "n": 66,
+          "n": 65,
           "rankable": true,
           "modelYears": [
             2015,
@@ -28930,7 +28930,7 @@
           },
           "miles": {
             "min": 19043,
-            "median": 115917,
+            "median": 115561,
             "max": 149815
           },
           "tco2": {
@@ -28946,7 +28946,7 @@
           "medianRepairReserve": 2272,
           "medianResale": 4825,
           "medianEnergy": 9893,
-          "medianMaintenance": 4789,
+          "medianMaintenance": 4788,
           "medianInsurance": 8304,
           "serviceIndex": 1.15,
           "safety": {
@@ -28954,7 +28954,7 @@
             "meetsFloorPct": 6,
             "aebConfirmed": 4,
             "aebAbsent": 0,
-            "aebUnknown": 62,
+            "aebUnknown": 61,
             "bsmConfirmed": 4,
             "bsmConfirmedPct": 6,
             "topSafetyPick": 0,
@@ -28963,7 +28963,7 @@
           "viability2032": {
             "median": 0.72,
             "expectedAge": 13,
-            "expectedMiles": 156477
+            "expectedMiles": 156121
           },
           "battery": null,
           "reliability": {
@@ -34631,6 +34631,215 @@
           ]
         },
         {
+          "key": "jeep|compass|ICE",
+          "label": "Jeep Compass · petrol",
+          "make": "Jeep",
+          "model": "Compass",
+          "powertrain": "ICE",
+          "generation": null,
+          "generationNote": null,
+          "batteryKwh": null,
+          "n": 93,
+          "rankable": true,
+          "modelYears": [
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "price": {
+            "min": 6195,
+            "median": 18511,
+            "max": 22000
+          },
+          "miles": {
+            "min": 4095,
+            "median": 44066,
+            "max": 149930
+          },
+          "tco2": {
+            "min": 9099,
+            "median": 13262,
+            "max": 16002
+          },
+          "tco6": {
+            "min": 27178,
+            "median": 33743,
+            "max": 37410
+          },
+          "medianRepairReserve": 578,
+          "medianResale": 8055,
+          "medianEnergy": 8817,
+          "medianMaintenance": 2897,
+          "medianInsurance": 9582,
+          "serviceIndex": 1.15,
+          "safety": {
+            "meetsFloor": 62,
+            "meetsFloorPct": 67,
+            "aebConfirmed": 62,
+            "aebAbsent": 0,
+            "aebUnknown": 31,
+            "bsmConfirmed": 56,
+            "bsmConfirmedPct": 60,
+            "topSafetyPick": 0,
+            "note": "aebUnknown is NOT a failure — it means unverified. Only aebAbsent is a confirmed negative."
+          },
+          "viability2032": {
+            "median": 0.9,
+            "expectedAge": 12,
+            "expectedMiles": 84626
+          },
+          "battery": null,
+          "reliability": {
+            "worstBand": "concern",
+            "confidence": "medium",
+            "queriedAs": "COMPASS",
+            "sourceUrl": "https://www.nhtsa.gov/vehicle/2024/JEEP/COMPASS",
+            "dataQuality": "52 complaints on record"
+          },
+          "exemplars": [
+            {
+              "vin": "3C4NJCBB4MT550149",
+              "year": 2021,
+              "make": "Jeep",
+              "model": "Compass",
+              "trim": "Latitude",
+              "priceUsd": 14881,
+              "odometerMiles": 74852,
+              "dealerAndLocation": "Market Place Auto, Puyallup WA",
+              "distanceFromBellevueMi": 26,
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/771042127",
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "vehicleHistory": {
+                "salvageTitle": false,
+                "accidentsReported": false,
+                "oneOwner": false
+              },
+              "twoYearTco": 12241,
+              "sixYearTco": 31204,
+              "majorRepairReserve": 1177,
+              "expectedResale": 6535,
+              "matchScore": 66,
+              "viability2032": 0.9,
+              "whyNotable": "$2,539 cheaper to own than a typical one · AEB confirmed against the VIN · model-year has a concentrated NHTSA complaint pattern"
+            },
+            {
+              "vin": "3C4NJDBB2MT557719",
+              "year": 2021,
+              "make": "Jeep",
+              "model": "Compass",
+              "trim": "Latitude",
+              "priceUsd": 14700,
+              "odometerMiles": 74873,
+              "dealerAndLocation": "ST HELENS CHRYSLER DODGE JEEP RAM, Saint Helens OR",
+              "distanceFromBellevueMi": 122,
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/785782669",
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "vehicleHistory": {
+                "salvageTitle": false,
+                "accidentsReported": false,
+                "oneOwner": true
+              },
+              "twoYearTco": 12243,
+              "sixYearTco": 31276,
+              "majorRepairReserve": 1177,
+              "expectedResale": 6456,
+              "matchScore": 65.9,
+              "viability2032": 0.9,
+              "whyNotable": "$2,467 cheaper to own than a typical one · one owner, no accidents reported · AEB confirmed against the VIN · model-year has a concentrated NHTSA complaint pattern"
+            },
+            {
+              "vin": "3C4NJDBN2ST557999",
+              "year": 2025,
+              "make": "Jeep",
+              "model": "Compass",
+              "trim": "Latitude",
+              "priceUsd": 16971,
+              "odometerMiles": 5542,
+              "dealerAndLocation": "GP Motor Company",
+              "distanceFromBellevueMi": 12,
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/785604154",
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "vehicleHistory": {
+                "salvageTitle": true,
+                "accidentsReported": null,
+                "oneOwner": true
+              },
+              "twoYearTco": 11796,
+              "sixYearTco": 31469,
+              "majorRepairReserve": 234,
+              "expectedResale": 7050,
+              "matchScore": 37.9,
+              "viability2032": 0.9,
+              "whyNotable": "$2,274 cheaper to own than a typical one · 87% fewer miles than typical · ⚠️ SALVAGE TITLE — this is why it is cheap · AEB confirmed against the VIN"
+            },
+            {
+              "vin": "3C4NJDBB8MT584147",
+              "year": 2021,
+              "make": "Jeep",
+              "model": "Compass",
+              "trim": "Latitude",
+              "priceUsd": 14999,
+              "odometerMiles": 76063,
+              "dealerAndLocation": "University Auto Center, Ellensburg WA",
+              "distanceFromBellevueMi": 85,
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/784843448",
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "unknown",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": false,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "vehicleHistory": {
+                "salvageTitle": false,
+                "accidentsReported": false,
+                "oneOwner": false
+              },
+              "twoYearTco": 12408,
+              "sixYearTco": 31526,
+              "majorRepairReserve": 1191,
+              "expectedResale": 6619,
+              "matchScore": 65.5,
+              "viability2032": 0.9,
+              "whyNotable": "$2,217 cheaper to own than a typical one · AEB confirmed against the VIN · model-year has a concentrated NHTSA complaint pattern"
+            }
+          ]
+        },
+        {
           "key": "ford|taurus|ICE",
           "label": "Ford Taurus · petrol",
           "make": "Ford",
@@ -34828,215 +35037,6 @@
               "matchScore": 60.7,
               "viability2032": 0.72,
               "whyNotable": "$1,604 dearer to own than a typical one · 41% fewer miles than typical"
-            }
-          ]
-        },
-        {
-          "key": "jeep|compass|ICE",
-          "label": "Jeep Compass · petrol",
-          "make": "Jeep",
-          "model": "Compass",
-          "powertrain": "ICE",
-          "generation": null,
-          "generationNote": null,
-          "batteryKwh": null,
-          "n": 92,
-          "rankable": true,
-          "modelYears": [
-            2015,
-            2016,
-            2017,
-            2018,
-            2019,
-            2020,
-            2021,
-            2022,
-            2023,
-            2024,
-            2025
-          ],
-          "price": {
-            "min": 6195,
-            "median": 18638,
-            "max": 22000
-          },
-          "miles": {
-            "min": 4095,
-            "median": 44066,
-            "max": 149930
-          },
-          "tco2": {
-            "min": 9099,
-            "median": 13429,
-            "max": 16002
-          },
-          "tco6": {
-            "min": 27178,
-            "median": 33776,
-            "max": 37410
-          },
-          "medianRepairReserve": 578,
-          "medianResale": 8163,
-          "medianEnergy": 8817,
-          "medianMaintenance": 2897,
-          "medianInsurance": 9618,
-          "serviceIndex": 1.15,
-          "safety": {
-            "meetsFloor": 62,
-            "meetsFloorPct": 67,
-            "aebConfirmed": 62,
-            "aebAbsent": 0,
-            "aebUnknown": 30,
-            "bsmConfirmed": 56,
-            "bsmConfirmedPct": 61,
-            "topSafetyPick": 0,
-            "note": "aebUnknown is NOT a failure — it means unverified. Only aebAbsent is a confirmed negative."
-          },
-          "viability2032": {
-            "median": 0.9,
-            "expectedAge": 12,
-            "expectedMiles": 84626
-          },
-          "battery": null,
-          "reliability": {
-            "worstBand": "concern",
-            "confidence": "medium",
-            "queriedAs": "COMPASS",
-            "sourceUrl": "https://www.nhtsa.gov/vehicle/2024/JEEP/COMPASS",
-            "dataQuality": "52 complaints on record"
-          },
-          "exemplars": [
-            {
-              "vin": "3C4NJCBB4MT550149",
-              "year": 2021,
-              "make": "Jeep",
-              "model": "Compass",
-              "trim": "Latitude",
-              "priceUsd": 14881,
-              "odometerMiles": 74852,
-              "dealerAndLocation": "Market Place Auto, Puyallup WA",
-              "distanceFromBellevueMi": 26,
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/771042127",
-              "safety": {
-                "meets": true,
-                "aeb": "confirmed",
-                "bsm": "unknown",
-                "iihs": "no-award",
-                "aebVinConfirmed": true,
-                "bsmVinConfirmed": false,
-                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
-              },
-              "vehicleHistory": {
-                "salvageTitle": false,
-                "accidentsReported": false,
-                "oneOwner": false
-              },
-              "twoYearTco": 12241,
-              "sixYearTco": 31204,
-              "majorRepairReserve": 1177,
-              "expectedResale": 6535,
-              "matchScore": 66,
-              "viability2032": 0.9,
-              "whyNotable": "$2,572 cheaper to own than a typical one · AEB confirmed against the VIN · model-year has a concentrated NHTSA complaint pattern"
-            },
-            {
-              "vin": "3C4NJDBB2MT557719",
-              "year": 2021,
-              "make": "Jeep",
-              "model": "Compass",
-              "trim": "Latitude",
-              "priceUsd": 14700,
-              "odometerMiles": 74873,
-              "dealerAndLocation": "ST HELENS CHRYSLER DODGE JEEP RAM, Saint Helens OR",
-              "distanceFromBellevueMi": 122,
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/785782669",
-              "safety": {
-                "meets": true,
-                "aeb": "confirmed",
-                "bsm": "unknown",
-                "iihs": "no-award",
-                "aebVinConfirmed": true,
-                "bsmVinConfirmed": false,
-                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
-              },
-              "vehicleHistory": {
-                "salvageTitle": false,
-                "accidentsReported": false,
-                "oneOwner": true
-              },
-              "twoYearTco": 12243,
-              "sixYearTco": 31276,
-              "majorRepairReserve": 1177,
-              "expectedResale": 6456,
-              "matchScore": 65.9,
-              "viability2032": 0.9,
-              "whyNotable": "$2,500 cheaper to own than a typical one · one owner, no accidents reported · AEB confirmed against the VIN · model-year has a concentrated NHTSA complaint pattern"
-            },
-            {
-              "vin": "3C4NJDBN2ST557999",
-              "year": 2025,
-              "make": "Jeep",
-              "model": "Compass",
-              "trim": "Latitude",
-              "priceUsd": 16971,
-              "odometerMiles": 5542,
-              "dealerAndLocation": "GP Motor Company",
-              "distanceFromBellevueMi": 12,
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/785604154",
-              "safety": {
-                "meets": true,
-                "aeb": "confirmed",
-                "bsm": "confirmed",
-                "iihs": "no-award",
-                "aebVinConfirmed": true,
-                "bsmVinConfirmed": true,
-                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
-              },
-              "vehicleHistory": {
-                "salvageTitle": true,
-                "accidentsReported": null,
-                "oneOwner": true
-              },
-              "twoYearTco": 11796,
-              "sixYearTco": 31469,
-              "majorRepairReserve": 234,
-              "expectedResale": 7050,
-              "matchScore": 37.9,
-              "viability2032": 0.9,
-              "whyNotable": "$2,307 cheaper to own than a typical one · 87% fewer miles than typical · ⚠️ SALVAGE TITLE — this is why it is cheap · AEB confirmed against the VIN"
-            },
-            {
-              "vin": "3C4NJDBB8MT584147",
-              "year": 2021,
-              "make": "Jeep",
-              "model": "Compass",
-              "trim": "Latitude",
-              "priceUsd": 14999,
-              "odometerMiles": 76063,
-              "dealerAndLocation": "University Auto Center, Ellensburg WA",
-              "distanceFromBellevueMi": 85,
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/784843448",
-              "safety": {
-                "meets": true,
-                "aeb": "confirmed",
-                "bsm": "unknown",
-                "iihs": "no-award",
-                "aebVinConfirmed": true,
-                "bsmVinConfirmed": false,
-                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
-              },
-              "vehicleHistory": {
-                "salvageTitle": false,
-                "accidentsReported": false,
-                "oneOwner": false
-              },
-              "twoYearTco": 12408,
-              "sixYearTco": 31526,
-              "majorRepairReserve": 1191,
-              "expectedResale": 6619,
-              "matchScore": 65.5,
-              "viability2032": 0.9,
-              "whyNotable": "$2,250 cheaper to own than a typical one · AEB confirmed against the VIN · model-year has a concentrated NHTSA complaint pattern"
             }
           ]
         },
@@ -49988,7 +49988,7 @@
             2023
           ],
           "price": {
-            "min": 19997,
+            "min": 17900,
             "median": 25500,
             "max": 27987
           },
@@ -50003,7 +50003,7 @@
             "max": 21668
           },
           "tco6": {
-            "min": 35530,
+            "min": 33346,
             "median": 39614,
             "max": 44516
           },
@@ -50045,6 +50045,39 @@
             "dataQuality": "2732 complaints on record"
           },
           "exemplars": [
+            {
+              "vin": "5YJYGDEE8LF025826",
+              "year": 2020,
+              "make": "Tesla",
+              "model": "Model Y",
+              "trim": "Long Range",
+              "priceUsd": 17900,
+              "odometerMiles": 113707,
+              "dealerAndLocation": "THE PRICE KING AUTO SALES, Lakewood WA",
+              "distanceFromBellevueMi": 32,
+              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/790148000",
+              "safety": {
+                "meets": true,
+                "aeb": "confirmed",
+                "bsm": "confirmed",
+                "iihs": "no-award",
+                "aebVinConfirmed": true,
+                "bsmVinConfirmed": true,
+                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
+              },
+              "vehicleHistory": {
+                "salvageTitle": true,
+                "accidentsReported": null,
+                "oneOwner": true
+              },
+              "twoYearTco": 14789,
+              "sixYearTco": 33346,
+              "majorRepairReserve": 1167,
+              "expectedResale": 11178,
+              "matchScore": 31,
+              "viability2032": 0.82,
+              "whyNotable": "$6,268 cheaper to own than a typical one · ⚠️ SALVAGE TITLE — this is why it is cheap · AEB confirmed against the VIN"
+            },
             {
               "vin": "5YJYGDEE6LF050479",
               "year": 2020,
@@ -50143,39 +50176,6 @@
               "matchScore": 65.4,
               "viability2032": 0.82,
               "whyNotable": "$3,165 cheaper to own than a typical one · AEB confirmed against the VIN"
-            },
-            {
-              "vin": "5YJYGDEE8LF025826",
-              "year": 2020,
-              "make": "Tesla",
-              "model": "Model Y",
-              "trim": "Long Range",
-              "priceUsd": 22000,
-              "odometerMiles": 113707,
-              "dealerAndLocation": "THE PRICE KING AUTO SALES, Lakewood WA",
-              "distanceFromBellevueMi": 32,
-              "listingUrl": "https://www.autotrader.com/cars-for-sale/vehicle/790148000",
-              "safety": {
-                "meets": true,
-                "aeb": "confirmed",
-                "bsm": "confirmed",
-                "iihs": "no-award",
-                "aebVinConfirmed": true,
-                "bsmVinConfirmed": true,
-                "reason": "Automatic emergency braking is standard — confirmed against this VIN's trim."
-              },
-              "vehicleHistory": {
-                "salvageTitle": true,
-                "accidentsReported": null,
-                "oneOwner": true
-              },
-              "twoYearTco": 16752,
-              "sixYearTco": 36601,
-              "majorRepairReserve": 1167,
-              "expectedResale": 13738,
-              "matchScore": 28.6,
-              "viability2032": 0.82,
-              "whyNotable": "$3,013 cheaper to own than a typical one · ⚠️ SALVAGE TITLE — this is why it is cheap · AEB confirmed against the VIN"
             }
           ]
         },
@@ -53083,7 +53083,7 @@
           "powertrain": "HYB",
           "medianPrice": 18699,
           "medianMiles": 81432,
-          "medianTco2": 10823,
+          "medianTco2": 10828,
           "medianTco6": 27559,
           "safetyQualifiedPct": 100,
           "aebUnknown": 0,
@@ -53812,7 +53812,7 @@
           "powertrain": "HYB",
           "medianPrice": 18699,
           "medianMiles": 81432,
-          "medianTco2": 10823,
+          "medianTco2": 10828,
           "medianTco6": 27559,
           "safetyQualifiedPct": 100,
           "aebUnknown": 0,

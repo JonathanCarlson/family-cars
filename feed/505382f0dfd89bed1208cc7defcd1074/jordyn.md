@@ -1,7 +1,7 @@
 # Jordyn's first car
 _Safety first, then cost to own · 130 mi/week · $15k target, searched to $22k_
 
-**165 listings** · updated 2026-09-04
+**165 listings** · updated 2026-09-05
 
 > This is a plaintext export of a private family car roster, generated
 > nightly from live dealer inventory. Prices and availability change daily;
