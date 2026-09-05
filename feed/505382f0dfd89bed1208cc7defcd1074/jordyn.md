@@ -1,13 +1,13 @@
 # Jordyn's first car
 _Safety first, then cost to own · 130 mi/week · $15k target, searched to $22k_
 
-**168 listings** · updated 2026-09-04
+**165 listings** · updated 2026-09-04
 
 > This is a plaintext export of a private family car roster, generated
 > nightly from live dealer inventory. Prices and availability change daily;
 > always confirm against the listing URL before acting on anything here.
 
-Every car we can find that could work as Jordyn's first car — 4730 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
+Every car we can find that could work as Jordyn's first car — 4729 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging, teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
 
 ## How to read this
 
@@ -43,171 +43,168 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
 | 1 | 2021 Hyundai Elantra SE | $14,999 | 20,737 | Gasoline | $26,903 | AEB+BSM | ok |
 | 2 | 2023 Nissan Leaf S | $13,488 | 52,213 | Battery electric | $25,373 | AEB+BSM | ok |
 | 3 | 2023 Nissan Leaf S | $16,713 | 17,102 | Battery electric | $27,248 | AEB+BSM | ok |
-| 4 | 2025 Nissan Leaf S | $15,984 | 31,575 | Battery electric | $26,944 | AEB+BSM | ok |
-| 5 | 2022 Hyundai Ioniq Blue | $21,048 | 37,615 | Hybrid | $29,541 | AEB+BSM | ok |
-| 6 | 2018 Kia Niro EX | $19,264 | 52,359 | Plug-in hybrid | $27,062 | AEB+BSM | ok |
-| 7 | 2021 Nissan Kicks S | $15,777 | 15,985 | Gasoline | $27,050 | AEB+BSM | ok |
-| 8 | 2018 Kia Niro EX | $12,575 | 113,256 | Hybrid | $25,410 | AEB+BSM | ok |
-| 9 | 2021 Nissan Versa SV | $11,654 | 70,725 | Gasoline | $25,354 | AEB+BSM | ok |
-| 10 | 2021 Kia Forte LXS | $13,985 | 44,352 | Gasoline | $27,065 | AEB | ok |
-| 11 | 2021 Hyundai Venue SEL | $14,995 | 63,261 | Gasoline | $26,420 | AEB+BSM | ok |
-| 12 | 2019 Honda Insight LX | $18,760 | 40,000 | Hybrid | $26,479 | AEB | ok |
-| 13 | 2021 Nissan Leaf SL Plus | $15,000 | 41,300 | Battery electric | $26,344 | AEB+BSM | concern |
-| 14 | 2017 Hyundai Ioniq Limited | $11,800 | 80,887 | Battery electric | $23,068 | AEB+BSM | ok |
-| 15 | 2021 Nissan Leaf S Plus | $12,990 | 62,298 | Battery electric | $25,107 | AEB+BSM | concern |
-| 16 | 2021 Chevrolet Spark LS | $12,777 | 39,978 | Gasoline | $23,474 | AEB | ok |
-| 17 | 2024 Kia Soul LX | $16,900 | 32,826 | Gasoline | $30,029 | AEB+BSM | ok |
-| 18 | 2021 Chevrolet Spark ACTIV | $17,968 | 19,562 | Gasoline | $26,273 | AEB | ok |
-| 19 | 2021 Kia Rio S | $14,995 | 47,647 | Gasoline | $25,731 | AEB | ok |
-| 20 | 2020 Hyundai Ioniq Limited | $11,205 | 72,091 | Battery electric | $21,664 | AEB | ok |
-| 21 | 2020 Ford Escape SE Sport | $21,198 | 30,055 | Hybrid | $30,744 | AEB+BSM | ok |
-| 22 | 2018 Tesla Model 3 Long Range | $14,999 | 68,139 | Battery electric | $28,953 | AEB+BSM | ok |
-| 23 | 2023 Kia Niro Wind | $19,950 | 28,587 | Battery electric | $30,926 | AEB+BSM | ok |
-| 24 | 2022 Chevrolet Bolt EUV LT | $19,725 | 38,652 | Battery electric | $30,310 | AEB | ok |
-| 25 | 2020 Tesla Model 3 Standard Range Plus | $18,699 | 56,300 | Battery electric | $31,067 | AEB+BSM | ok |
-| 26 | 2022 Chevrolet Bolt EUV LT | $17,189 | 68,297 | Battery electric | $28,526 | AEB | ok |
-| 27 | 2021 Chevrolet Trax LT | $14,998 | 24,553 | Gasoline | $28,868 | AEB | ok |
-| 28 | 2018 Tesla Model 3 Mid Range | $16,999 | 74,871 | Battery electric | $30,591 | AEB+BSM | ok |
-| 29 | 2023 Chevrolet Bolt LT | $17,999 | 48,805 | Battery electric | $29,269 | AEB | ok |
-| 30 | 2023 Polestar Polestar 2 | $20,950 | 29,842 | Battery electric | $32,789 | AEB+BSM | ok |
-| 31 | 2018 Kia Niro EX Premium | $17,500 | 60,746 | Plug-in hybrid | $26,192 | AEB+BSM | ok |
-| 32 | 2021 Chevrolet Bolt Premier | $19,999 | 16,677 | Battery electric | $27,074 | AEB+BSM | concern |
-| 33 | 2025 Nissan Versa S | $17,900 | 2,162 | Gasoline | $29,751 | AEB | ok |
-| 34 | 2023 Volvo C40 P8 Recharge Plus | $26,990 | 12,753 | Battery electric | $34,375 | AEB+BSM | ok |
-| 35 | 2021 Tesla Model 3 Standard Range Plus | $24,100 | 38,148 | Battery electric | $34,521 | AEB+BSM | ok |
-| 36 | 2017 Toyota Prius Prime Premium | $16,577 | 86,847 | Plug-in hybrid | $24,964 | AEB | watch |
-| 37 | 2017 Toyota Prius Two | $18,999 | 94,936 | Hybrid | $27,161 | AEB | watch |
-| 38 | 2024 Nissan Ariya AWD | $21,706 | 33,621 | Battery electric | $33,428 | AEB+BSM | ok |
-| 39 | 2018 Kia Niro EX | $11,990 | 108,612 | Plug-in hybrid | $24,138 | AEB+BSM | ok |
-| 40 | 2023 Volvo C40 P8 Recharge Plus | $25,999 | 31,274 | Battery electric | $33,760 | AEB+BSM | ok |
-| 41 | 2022 Volvo XC40 P8 Recharge Plus | $21,500 | 73,010 | Battery electric | $31,928 | AEB+BSM | ok |
-| 42 | 2023 Volvo C40 P8 Recharge Ultimate | $26,490 | 34,025 | Battery electric | $34,129 | AEB+BSM | ok |
-| 43 | 2023 Polestar Polestar 2 | $16,988 | 97,638 | Battery electric | $30,946 | AEB+BSM | ok |
-| 44 | 2023 Volvo C40 P8 Recharge Ultimate | $25,552 | 43,606 | Battery electric | $33,768 | AEB+BSM | ok |
-| 45 | 2022 Volvo XC40 P8 Recharge Plus | $15,897 | 119,977 | Battery electric | $29,489 | AEB+BSM | ok |
-| 46 | 2024 Volkswagen ID.4 2WD | $19,900 | 15,203 | Battery electric | $31,157 | AEB+BSM | concern |
-| 47 | 2022 Volvo XC40 P8 Recharge Ultimate | $21,495 | 80,513 | Battery electric | $32,296 | AEB+BSM | ok |
-| 48 | 2022 MINI Cooper SE | $19,988 | 31,715 | Battery electric | $31,890 | AEB | ok |
-| 49 | 2021 Chevrolet Bolt LT | $18,790 | 31,202 | Battery electric | $26,311 | AEB | concern |
-| 50 | 2022 Mitsubishi Mirage SE | $11,999 | 43,924 | Gasoline | $24,659 | AEB | ok |
-| 51 | 2023 Hyundai Kona SE | $15,250 | 62,815 | Battery electric | $26,458 | AEB+BSM | concern |
-| 52 | 2021 Tesla Model 3 Standard Range Plus | $18,999 | 100,707 | Battery electric | $32,913 | AEB+BSM | ok |
-| 53 | 2018 Nissan Leaf SV | $6,984 | 97,594 | Battery electric | $21,403 | AEB | concern |
-| 54 | 2022 MINI Cooper SE | $18,998 | 55,643 | Battery electric | $31,346 | AEB | ok |
-| 55 | 2024 Kia Niro Wind | $26,793 | 1,221 | Battery electric | $37,992 | AEB+BSM | ok |
-| 56 | 2020 Tesla Model 3 Standard Range Plus | $27,490 | 1,007 | Battery electric | $36,886 | AEB+BSM | ok |
-| 57 | 2023 Chevrolet TrailBlazer ACTIV | $17,190 | 46,991 | Gasoline | $32,830 | AEB | ok |
-| 58 | 2019 Ford Fusion SE | $8,900 | 96,029 | Hybrid | $27,144 | AEB+BSM | concern |
-| 59 | 2023 Nissan Ariya FWD | $15,841 | 102,848 | Battery electric | $29,254 | AEB+BSM | concern |
-| 60 | 2019 Hyundai Kona SE | $13,995 | 41,578 | Gasoline | $29,424 | AEB | concern |
-| 61 | 2021 Hyundai Sonata Blue | $12,999 | 106,023 | Hybrid | $26,912 | AEB+BSM | concern |
-| 62 | 2021 Kia Niro LXS | $14,638 | 114,062 | Hybrid | $27,085 | AEB | ok |
-| 63 | 2018 Tesla Model S 75D | $17,998 | 79,636 | Battery electric | $33,110 | AEB+BSM | watch |
-| 64 | 2021 Jeep Renegade Limited | $19,338 | 17,237 | Gasoline | $31,407 | AEB+BSM | concern |
-| 65 | 2023 Toyota bZ4X FWD | $19,744 | 111,471 | Battery electric | $33,676 | AEB+BSM | ok |
-| 66 | 2022 Volkswagen Tiguan SE | $15,991 | 40,104 | Gasoline | $32,489 | AEB+BSM | concern |
-| 67 | 2021 Kia Soul LX | $11,990 | 64,131 | Gasoline | $26,789 | AEB | concern |
-| 68 | 2024 Jeep Compass Latitude | $16,690 | 51,199 | Gasoline | $32,738 | AEB+BSM | ok |
-| 69 | 2021 Jeep Renegade Latitude | $14,560 | 78,421 | Gasoline | $30,951 | AEB+BSM | concern |
-| 70 | 2023 Chevrolet Bolt EUV LT | $16,960 | 60,000 | Battery electric | $28,598 | AEB | concern |
-| 71 | 2021 Volkswagen Tiguan S | $15,981 | 49,261 | Gasoline | $33,872 | AEB+BSM | concern |
-| 72 | 2020 Hyundai Elantra SEL | $8,192 | 114,145 | Gasoline | $25,884 | AEB+BSM | concern |
-| 73 | 2021 Volvo XC40 P8 Recharge | $25,500 | 25,118 | Battery electric | $33,742 | AEB+BSM | concern |
-| 74 | 2021 Volvo XC40 P8 Recharge | $21,490 | 67,143 | Battery electric | $31,549 | AEB+BSM | concern |
-| 75 | 2021 Volvo XC40 P8 Recharge | $16,570 | 69,140 | Battery electric | $31,640 | AEB+BSM | concern |
-| 76 | 2023 Chevrolet TrailBlazer LS | $12,638 | 123,095 | Gasoline | $32,351 | AEB | ok |
-| 77 | 2023 Volvo C40 P8 Recharge Plus | $25,235 | 47,105 | Battery electric | $33,726 | AEB+BSM | ok |
-| 78 | 2021 Chevrolet Trax LT | $11,195 | 95,630 | Gasoline | $28,579 | AEB | ok |
-| 79 | 2021 Volvo XC40 P8 Recharge | $21,000 | 75,167 | Battery electric | $31,554 | AEB+BSM | concern |
-| 80 | 2018 Honda Clarity Plug-In Hybrid | $14,695 | 121,900 | Plug-in hybrid | $26,712 | AEB | concern |
-| 81 | 2027 Chevrolet Bolt LT | $27,998 | 1,441 | Battery electric | $38,925 | AEB | ok |
-| 82 | 2023 Volvo XC40 Recharge Plus | $23,995 | 58,874 | Battery electric | $33,421 | AEB+BSM | concern |
-| 83 | 2021 Volkswagen ID.4 Pro | $16,997 | 55,573 | Battery electric | $28,496 | AEB+BSM | concern |
-| 84 | 2021 Chevrolet Equinox LT | $8,995 | 149,131 | Gasoline | $32,006 | AEB+BSM | concern |
-| 85 | 2021 Kia Soul LX | $10,995 | 122,702 | Gasoline | $27,525 | AEB | concern |
-| 86 | 2021 Jeep Compass Latitude | $14,881 | 74,852 | Gasoline | $31,204 | AEB | concern |
-| 87 | 2022 Ford Mustang Mach-E Select | $26,791 | 22,859 | Battery electric | $38,203 | AEB+BSM | concern |
-| 88 | 2023 Ford Mustang Mach-E Select | $26,887 | 22,090 | Battery electric | $38,184 | AEB+BSM | concern |
-| 89 | 2019 Kia Forte LXS | $7,995 | 137,944 | Gasoline | $24,947 | AEB | concern |
-| 90 | 2023 Ford Mustang Mach-E Select | $24,988 | 44,989 | Battery electric | $37,261 | AEB+BSM | concern |
-| 91 | 2023 Ford Mustang Mach-E Select | $26,863 | 33,687 | Battery electric | $38,235 | AEB+BSM | concern |
-| 92 | 2022 Ford Mustang Mach-E Select | $22,490 | 72,305 | Battery electric | $36,399 | AEB+BSM | concern |
-| 93 | 2023 Ford Mustang Mach-E Select | $26,990 | 37,979 | Battery electric | $38,387 | AEB+BSM | concern |
-| 94 | 2023 Ford Mustang Mach-E Select | $27,999 | 33,230 | Battery electric | $39,062 | AEB+BSM | concern |
-| 95 | 2018 Tesla Model X 75D | $21,490 | 121,824 | Battery electric | $37,300 | AEB+BSM | watch |
-| 96 | 2021 Volvo XC40 P8 Recharge | $21,800 | 63,758 | Battery electric | $31,635 | AEB+BSM | concern |
-| 97 | 2020 Jaguar F-PACE Premium | $14,999 | 84,383 | Gasoline | $40,793 | AEB | unknown |
-| 98 | 2023 Ford Mustang Mach-E Select | $26,521 | 60,423 | Battery electric | $39,164 | AEB+BSM | concern |
-| 99 | 2023 Buick Encore GX Select | $16,245 | 716 | Gasoline | $30,285 | AEB | ok |
-| 100 | 2023 Kia Soul LX | $11,900 | 28,023 | Gasoline | $25,344 | AEB | ok |
-| 101 | 2021 Honda Accord Hybrid | $13,500 | 123,400 | Hybrid | $27,906 | AEB | concern |
-| 102 | 2018 Audi Q5 2.0T Premium Plus | $14,197 | 63,387 | Gasoline | $36,975 | AEB+BSM | concern |
-| 103 | 2019 Volkswagen e-Golf SE | $12,685 | 60,404 | Battery electric | $24,296 | — | ok |
-| 104 | 2017 Chevrolet Bolt Premier | $14,999 | 67,186 | Battery electric | $24,881 | BSM | concern |
-| 105 | 2021 MAZDA MAZDA3 s | $13,199 | 104,257 | Gasoline | $30,069 | BSM | ok |
-| 106 | 2017 Chevrolet Bolt Premier | $13,579 | 96,126 | Battery electric | $24,353 | BSM | concern |
-| 107 | 2019 Chevrolet Bolt LT | $16,145 | 41,679 | Battery electric | $24,790 | — | concern |
-| 108 | 2020 Kia Niro LX | $12,250 | 108,567 | Hybrid | $25,191 | — | ok |
-| 109 | 2017 Kia Niro LX | $10,249 | 111,634 | Hybrid | $23,569 | — | concern |
-| 110 | 2018 Chevrolet Volt LT | $11,477 | 77,862 | Plug-in hybrid | $24,383 | — | concern |
-| 111 | 2019 BMW i3 s | $16,995 | 89,305 | Battery electric | $27,600 | — | ok |
-| 112 | 2017 Chevrolet Volt LT | $9,984 | 91,306 | Plug-in hybrid | $23,805 | — | concern |
-| 113 | 2020 BMW i3 | $20,490 | 40,750 | Plug-in hybrid | $28,379 | — | unknown |
-| 114 | 2017 BMW i3 w/ Range Extender | $11,700 | 86,788 | Plug-in hybrid | $25,610 | — | ok |
-| 115 | 2018 Chevrolet Volt LT | $8,477 | 102,267 | Plug-in hybrid | $21,754 | — | concern |
-| 116 | 2020 Hyundai Accent SE | $13,190 | 49,511 | Gasoline | $26,264 | — | ok |
-| 117 | 2017 Nissan Leaf S | $6,995 | 32,563 | Battery electric | $20,537 | — | ok |
-| 118 | 2017 Nissan Leaf S | $7,790 | 31,046 | Battery electric | $21,117 | — | ok |
-| 119 | 2017 Nissan Leaf S | $7,995 | 27,076 | Battery electric | $21,251 | — | ok |
-| 120 | 2016 Volkswagen e-Golf SE | $11,990 | 43,963 | Battery electric | $23,431 | — | unknown |
-| 121 | 2015 smart fortwo electric drive | $5,000 | 39,816 | Battery electric | $16,151 | — | unknown |
-| 122 | 2015 smart fortwo electric drive | $7,499 | 44,682 | Battery electric | $18,872 | — | unknown |
-| 123 | 2017 Nissan Leaf SV | $5,584 | 70,617 | Battery electric | $19,978 | — | ok |
-| 124 | 2016 BMW i3 w/ Range Extender | $9,477 | 65,498 | Plug-in hybrid | $23,768 | — | ok |
-| 125 | 2016 Volkswagen e-Golf SE | $8,000 | 67,000 | Battery electric | $19,525 | — | unknown |
-| 126 | 2016 Volkswagen e-Golf SE | $8,980 | 69,930 | Battery electric | $20,640 | — | unknown |
-| 127 | 2016 Volkswagen e-Golf SE | $8,700 | 75,689 | Battery electric | $20,435 | — | unknown |
-| 128 | 2016 Ford C-MAX Energi SEL | $9,300 | 89,061 | Plug-in hybrid | $23,802 | — | ok |
-| 129 | 2021 Hyundai Accent SE | $8,499 | 50,815 | Gasoline | $21,981 | — | ok |
-| 130 | 2018 Ford Focus Electric Hatchback | $12,995 | 9,861 | Battery electric | $24,752 | — | concern |
-| 131 | 2023 Fisker Ocean One | $15,990 | 12,285 | Battery electric | $27,021 | — | concern |
-| 132 | 2016 Nissan Leaf S | $5,777 | 61,688 | Battery electric | $20,091 | — | ok |
-| 133 | 2017 Kia Soul EV | $9,998 | 35,871 | Battery electric | $21,002 | — | concern |
-| 134 | 2016 Kia Soul EV + | $9,000 | 48,222 | Battery electric | $20,209 | — | concern |
-| 135 | 2016 Kia Soul EV + | $9,195 | 54,443 | Battery electric | $20,491 | — | concern |
-| 136 | 2021 Polestar Polestar 2 | $16,999 | 101,244 | Battery electric | $30,929 | — | ok |
-| 137 | 2015 BMW i3 w/ Range Extender | $11,995 | 87,909 | Plug-in hybrid | $26,484 | — | ok |
-| 138 | 2019 Jeep Renegade Sport | $12,490 | 48,587 | Gasoline | $28,869 | — | concern |
-| 139 | 2016 Mercedes-Benz GLA 250 4MATIC | $14,999 | 52,000 | Gasoline | $35,015 | — | unknown |
-| 140 | 2017 Kia Optima Premium | $10,790 | 112,504 | Hybrid | $23,625 | — | concern |
-| 141 | 2015 Toyota Prius C Two | $14,788 | 98,429 | Hybrid | $26,022 | — | concern |
-| 142 | 2017 Jeep Compass Trailhawk | $12,471 | 50,876 | Gasoline | $29,373 | — | concern |
-| 143 | 2017 BMW 320i Sedan | $14,490 | 52,144 | Gasoline | $36,392 | — | unknown |
-| 144 | 2015 Ford C-MAX Energi SEL | $7,699 | 103,132 | Plug-in hybrid | $23,155 | — | ok |
-| 145 | 2016 Ford Focus Electric Hatchback | $9,988 | 13,030 | Battery electric | $21,549 | — | concern |
-| 146 | 2019 Audi e-tron Premium Plus | $18,961 | 62,105 | Battery electric | $32,443 | — | concern |
-| 147 | 2016 Audi A3 e-tron Prestige | $8,500 | 120,249 | Plug-in hybrid | $27,427 | — | concern |
-| 148 | 2016 BMW X5 xDrive40e | $12,192 | 109,038 | Plug-in hybrid | $30,072 | — | concern |
-| 149 | 2015 Toyota Prius C Two | $11,999 | 128,340 | Hybrid | $24,120 | — | concern |
-| 150 | 2021 Ford Mustang Mach-E Premium | $25,225 | 37,438 | Battery electric | $37,803 | — | concern |
-| 151 | 2021 Ford Mustang Mach-E Premium | $22,695 | 65,680 | Battery electric | $36,518 | — | concern |
-| 152 | 2021 Ford Mustang Mach-E Premium | $24,800 | 60,360 | Battery electric | $37,857 | — | concern |
-| 153 | 2016 BMW X5 xDrive40e | $13,999 | 90,455 | Plug-in hybrid | $30,876 | — | concern |
-| 154 | 2021 Ford Mustang Mach-E Premium | $26,711 | 52,043 | Battery electric | $39,096 | — | concern |
-| 155 | 2024 MINI Cooper SE | $16,895 | 17,617 | Battery electric | $28,319 | — | ok |
-| 156 | 2017 Kia Optima Premium | $7,900 | 114,070 | Hybrid | $21,090 | — | concern |
-| 157 | 2019 FIAT 500 e | $13,995 | 28,290 | Battery electric | $20,482 | — | unknown |
-| 158 | 2018 FIAT 500 e | $10,929 | 35,100 | Battery electric | $18,366 | — | ok |
-| 159 | 2017 FIAT 500 e | $8,000 | 32,300 | Battery electric | $19,022 | — | ok |
-| 160 | 2017 FIAT 500 e | $8,380 | 44,490 | Battery electric | $19,573 | — | ok |
-| 161 | 2016 FIAT 500 e | $7,998 | 71,397 | Battery electric | $19,663 | — | ok |
-| 162 | 2016 FIAT 500 e | $7,998 | 87,101 | Battery electric | $19,900 | — | ok |
-| 163 | 2017 Ford C-MAX Energi SE | $11,502 | 69,050 | Plug-in hybrid | $24,860 | — | ok |
-| 164 | 2018 FIAT 500 Lounge | $12,598 | 53,841 | Gasoline | $24,945 | — | ok |
-| 165 | 2015 FIAT 500 e | $8,999 | 40,501 | Battery electric | $20,370 | — | concern |
-| 166 | 2017 Ford C-MAX Energi SE | $9,613 | 81,118 | Plug-in hybrid | $24,210 | — | ok |
-| 167 | 2015 FIAT 500 e | $5,998 | 95,451 | Battery electric | $18,033 | — | concern |
-| 168 | 2019 FIAT 500 Pop Hatchback | $8,450 | 14,825 | Gasoline | $21,604 | — | unknown |
+| 4 | 2022 Hyundai Ioniq Blue | $21,048 | 37,615 | Hybrid | $29,541 | AEB+BSM | ok |
+| 5 | 2018 Kia Niro EX | $19,264 | 52,359 | Plug-in hybrid | $27,062 | AEB+BSM | ok |
+| 6 | 2021 Nissan Kicks S | $15,777 | 15,985 | Gasoline | $27,050 | AEB+BSM | ok |
+| 7 | 2018 Kia Niro EX | $12,575 | 113,256 | Hybrid | $25,410 | AEB+BSM | ok |
+| 8 | 2021 Nissan Versa SV | $11,654 | 70,725 | Gasoline | $25,354 | AEB+BSM | ok |
+| 9 | 2021 Kia Forte LXS | $13,985 | 44,352 | Gasoline | $27,065 | AEB | ok |
+| 10 | 2021 Hyundai Venue SEL | $14,995 | 63,261 | Gasoline | $26,420 | AEB+BSM | ok |
+| 11 | 2019 Honda Insight LX | $18,760 | 40,000 | Hybrid | $26,479 | AEB | ok |
+| 12 | 2021 Nissan Leaf SL Plus | $15,000 | 41,300 | Battery electric | $26,344 | AEB+BSM | concern |
+| 13 | 2017 Hyundai Ioniq Limited | $11,800 | 80,887 | Battery electric | $23,068 | AEB+BSM | ok |
+| 14 | 2021 Nissan Leaf S Plus | $12,990 | 62,298 | Battery electric | $25,107 | AEB+BSM | concern |
+| 15 | 2021 Chevrolet Spark LS | $12,777 | 39,978 | Gasoline | $23,474 | AEB | ok |
+| 16 | 2024 Kia Soul LX | $16,900 | 32,826 | Gasoline | $30,029 | AEB+BSM | ok |
+| 17 | 2021 Chevrolet Spark ACTIV | $17,968 | 19,562 | Gasoline | $26,273 | AEB | ok |
+| 18 | 2021 Kia Rio S | $14,995 | 47,647 | Gasoline | $25,731 | AEB | ok |
+| 19 | 2020 Hyundai Ioniq Limited | $11,205 | 72,091 | Battery electric | $21,664 | AEB | ok |
+| 20 | 2020 Ford Escape SE Sport | $21,198 | 30,055 | Hybrid | $30,744 | AEB+BSM | ok |
+| 21 | 2018 Tesla Model 3 Long Range | $14,999 | 68,139 | Battery electric | $28,953 | AEB+BSM | ok |
+| 22 | 2023 Kia Niro Wind | $19,950 | 28,587 | Battery electric | $30,926 | AEB+BSM | ok |
+| 23 | 2022 Chevrolet Bolt EUV LT | $19,725 | 38,652 | Battery electric | $30,310 | AEB | ok |
+| 24 | 2020 Tesla Model 3 Standard Range Plus | $18,699 | 56,300 | Battery electric | $31,067 | AEB+BSM | ok |
+| 25 | 2022 Chevrolet Bolt EUV LT | $17,189 | 68,297 | Battery electric | $28,526 | AEB | ok |
+| 26 | 2021 Chevrolet Trax LT | $14,998 | 24,553 | Gasoline | $28,868 | AEB | ok |
+| 27 | 2023 Chevrolet Bolt LT | $17,999 | 48,805 | Battery electric | $29,269 | AEB | ok |
+| 28 | 2023 Polestar Polestar 2 | $20,950 | 29,842 | Battery electric | $32,789 | AEB+BSM | ok |
+| 29 | 2018 Kia Niro EX Premium | $17,500 | 60,746 | Plug-in hybrid | $26,192 | AEB+BSM | ok |
+| 30 | 2021 Chevrolet Bolt Premier | $19,999 | 16,677 | Battery electric | $27,074 | AEB+BSM | concern |
+| 31 | 2025 Nissan Versa S | $17,900 | 2,162 | Gasoline | $29,751 | AEB | ok |
+| 32 | 2023 Volvo C40 P8 Recharge Plus | $26,990 | 12,753 | Battery electric | $34,375 | AEB+BSM | ok |
+| 33 | 2021 Tesla Model 3 Standard Range Plus | $24,100 | 38,148 | Battery electric | $34,521 | AEB+BSM | ok |
+| 34 | 2017 Toyota Prius Prime Premium | $16,577 | 86,847 | Plug-in hybrid | $24,964 | AEB | watch |
+| 35 | 2017 Toyota Prius Two | $18,999 | 94,936 | Hybrid | $27,161 | AEB | watch |
+| 36 | 2024 Nissan Ariya AWD | $21,706 | 33,621 | Battery electric | $33,428 | AEB+BSM | ok |
+| 37 | 2023 Volvo C40 P8 Recharge Plus | $26,999 | 19,863 | Battery electric | $34,413 | AEB+BSM | ok |
+| 38 | 2018 Kia Niro EX | $11,990 | 108,612 | Plug-in hybrid | $24,138 | AEB+BSM | ok |
+| 39 | 2023 Volvo C40 P8 Recharge Plus | $25,999 | 31,274 | Battery electric | $33,760 | AEB+BSM | ok |
+| 40 | 2022 Volvo XC40 P8 Recharge Plus | $21,500 | 73,010 | Battery electric | $31,928 | AEB+BSM | ok |
+| 41 | 2023 Polestar Polestar 2 | $16,988 | 97,638 | Battery electric | $30,946 | AEB+BSM | ok |
+| 42 | 2022 Volvo XC40 P8 Recharge Plus | $15,897 | 119,977 | Battery electric | $29,489 | AEB+BSM | ok |
+| 43 | 2024 Volkswagen ID.4 2WD | $19,900 | 15,203 | Battery electric | $31,157 | AEB+BSM | concern |
+| 44 | 2022 Volvo XC40 P8 Recharge Ultimate | $21,495 | 80,513 | Battery electric | $32,296 | AEB+BSM | ok |
+| 45 | 2022 MINI Cooper SE | $19,988 | 31,715 | Battery electric | $31,890 | AEB | ok |
+| 46 | 2021 Chevrolet Bolt LT | $18,790 | 31,202 | Battery electric | $26,311 | AEB | concern |
+| 47 | 2022 Mitsubishi Mirage SE | $11,999 | 43,924 | Gasoline | $24,659 | AEB | ok |
+| 48 | 2023 Hyundai Kona SE | $15,250 | 62,815 | Battery electric | $26,458 | AEB+BSM | concern |
+| 49 | 2018 Nissan Leaf SV | $6,984 | 97,594 | Battery electric | $21,403 | AEB | concern |
+| 50 | 2025 Hyundai Ioniq 6 SE | $25,949 | 15,659 | Battery electric | $36,375 | AEB+BSM | ok |
+| 51 | 2024 Kia Niro Wind | $26,793 | 1,221 | Battery electric | $37,992 | AEB+BSM | ok |
+| 52 | 2020 Tesla Model 3 Standard Range Plus | $27,490 | 1,007 | Battery electric | $36,886 | AEB+BSM | ok |
+| 53 | 2023 Chevrolet TrailBlazer ACTIV | $17,190 | 46,991 | Gasoline | $32,830 | AEB | ok |
+| 54 | 2019 Ford Fusion SE | $8,900 | 96,029 | Hybrid | $27,144 | AEB+BSM | concern |
+| 55 | 2023 Nissan Ariya FWD | $15,841 | 102,848 | Battery electric | $29,254 | AEB+BSM | concern |
+| 56 | 2019 Hyundai Kona SE | $13,995 | 41,578 | Gasoline | $29,424 | AEB | concern |
+| 57 | 2021 Hyundai Sonata Blue | $12,999 | 106,023 | Hybrid | $26,912 | AEB+BSM | concern |
+| 58 | 2021 Kia Niro LXS | $14,638 | 114,062 | Hybrid | $27,085 | AEB | ok |
+| 59 | 2018 Tesla Model S 75D | $17,998 | 79,636 | Battery electric | $33,110 | AEB+BSM | watch |
+| 60 | 2021 Jeep Renegade Limited | $19,338 | 17,237 | Gasoline | $31,407 | AEB+BSM | concern |
+| 61 | 2023 Toyota bZ4X FWD | $19,744 | 111,471 | Battery electric | $33,676 | AEB+BSM | ok |
+| 62 | 2022 Volkswagen Tiguan SE | $15,991 | 40,104 | Gasoline | $32,489 | AEB+BSM | concern |
+| 63 | 2021 Kia Soul LX | $11,990 | 64,131 | Gasoline | $26,789 | AEB | concern |
+| 64 | 2024 Jeep Compass Latitude | $16,690 | 51,199 | Gasoline | $32,738 | AEB+BSM | ok |
+| 65 | 2021 Jeep Renegade Latitude | $14,560 | 78,421 | Gasoline | $30,951 | AEB+BSM | concern |
+| 66 | 2023 Chevrolet Bolt EUV LT | $16,960 | 60,000 | Battery electric | $28,598 | AEB | concern |
+| 67 | 2021 Volkswagen Tiguan S | $15,981 | 49,261 | Gasoline | $33,872 | AEB+BSM | concern |
+| 68 | 2020 Hyundai Elantra SEL | $8,192 | 114,145 | Gasoline | $25,884 | AEB+BSM | concern |
+| 69 | 2021 Volvo XC40 P8 Recharge | $25,500 | 25,118 | Battery electric | $33,742 | AEB+BSM | concern |
+| 70 | 2021 Volvo XC40 P8 Recharge | $21,490 | 67,143 | Battery electric | $31,549 | AEB+BSM | concern |
+| 71 | 2021 Volvo XC40 P8 Recharge | $16,570 | 69,140 | Battery electric | $31,640 | AEB+BSM | concern |
+| 72 | 2023 Chevrolet TrailBlazer LS | $12,638 | 123,095 | Gasoline | $32,351 | AEB | ok |
+| 73 | 2023 Volvo C40 P8 Recharge Plus | $25,235 | 47,105 | Battery electric | $33,726 | AEB+BSM | ok |
+| 74 | 2021 Chevrolet Trax LT | $11,195 | 95,630 | Gasoline | $28,579 | AEB | ok |
+| 75 | 2021 Volvo XC40 P8 Recharge | $21,000 | 75,167 | Battery electric | $31,554 | AEB+BSM | concern |
+| 76 | 2018 Honda Clarity Plug-In Hybrid | $14,695 | 121,900 | Plug-in hybrid | $26,712 | AEB | concern |
+| 77 | 2027 Chevrolet Bolt LT | $27,998 | 1,441 | Battery electric | $38,925 | AEB | ok |
+| 78 | 2023 Volvo XC40 Recharge Plus | $23,995 | 58,874 | Battery electric | $33,421 | AEB+BSM | concern |
+| 79 | 2020 Chevrolet Equinox LS | $14,973 | 54,760 | Gasoline | $31,232 | AEB | concern |
+| 80 | 2021 Volkswagen ID.4 Pro | $16,997 | 55,573 | Battery electric | $28,496 | AEB+BSM | concern |
+| 81 | 2021 Kia Soul LX | $10,995 | 122,702 | Gasoline | $27,525 | AEB | concern |
+| 82 | 2021 Jeep Compass Latitude | $14,881 | 74,852 | Gasoline | $31,204 | AEB | concern |
+| 83 | 2022 Ford Mustang Mach-E Select | $26,791 | 22,859 | Battery electric | $38,203 | AEB+BSM | concern |
+| 84 | 2023 Ford Mustang Mach-E Select | $26,887 | 22,090 | Battery electric | $38,184 | AEB+BSM | concern |
+| 85 | 2019 Kia Forte LXS | $7,995 | 137,944 | Gasoline | $24,947 | AEB | concern |
+| 86 | 2023 Ford Mustang Mach-E Select | $24,988 | 44,989 | Battery electric | $37,261 | AEB+BSM | concern |
+| 87 | 2023 Ford Mustang Mach-E Select | $26,863 | 33,687 | Battery electric | $38,235 | AEB+BSM | concern |
+| 88 | 2022 Ford Mustang Mach-E Select | $22,490 | 72,305 | Battery electric | $36,399 | AEB+BSM | concern |
+| 89 | 2023 Ford Mustang Mach-E Select | $26,990 | 37,979 | Battery electric | $38,387 | AEB+BSM | concern |
+| 90 | 2023 Ford Mustang Mach-E Select | $27,999 | 33,230 | Battery electric | $39,062 | AEB+BSM | concern |
+| 91 | 2021 Volvo XC40 P8 Recharge | $21,800 | 63,758 | Battery electric | $31,635 | AEB+BSM | concern |
+| 92 | 2023 Ford Mustang Mach-E Select | $26,521 | 60,423 | Battery electric | $39,164 | AEB+BSM | concern |
+| 93 | 2020 Jaguar F-PACE S | $19,101 | 75,378 | Gasoline | $44,693 | AEB | unknown |
+| 94 | 2023 Buick Encore GX Select | $16,245 | 716 | Gasoline | $30,285 | AEB | ok |
+| 95 | 2023 Kia Soul LX | $11,900 | 28,023 | Gasoline | $25,344 | AEB | ok |
+| 96 | 2019 Tesla Model 3 Long Range | $17,950 | 52,931 | Battery electric | $30,658 | AEB+BSM | ok |
+| 97 | 2023 Hyundai Ioniq 6 SEL | $19,995 | 15,505 | Battery electric | $30,194 | AEB+BSM | concern |
+| 98 | 2023 Tesla Model 3 Standard Range | $22,197 | 15,376 | Battery electric | $33,358 | AEB+BSM | watch |
+| 99 | 2021 Honda Accord Hybrid | $13,500 | 123,400 | Hybrid | $27,906 | AEB | concern |
+| 100 | 2018 Audi Q5 2.0T Premium Plus | $14,197 | 63,387 | Gasoline | $36,975 | AEB+BSM | concern |
+| 101 | 2019 Volkswagen e-Golf SE | $12,685 | 60,404 | Battery electric | $24,296 | — | ok |
+| 102 | 2020 Kia Niro LXS | $19,229 | 45,624 | Plug-in hybrid | $28,538 | — | ok |
+| 103 | 2017 Chevrolet Bolt Premier | $14,999 | 67,186 | Battery electric | $24,881 | BSM | concern |
+| 104 | 2021 MAZDA MAZDA3 s | $13,199 | 104,257 | Gasoline | $30,069 | BSM | ok |
+| 105 | 2017 Chevrolet Bolt Premier | $13,579 | 96,126 | Battery electric | $24,353 | BSM | concern |
+| 106 | 2019 Chevrolet Bolt LT | $16,145 | 41,679 | Battery electric | $24,790 | — | concern |
+| 107 | 2017 Kia Niro LX | $10,249 | 111,634 | Hybrid | $23,569 | — | concern |
+| 108 | 2018 Chevrolet Volt LT | $11,477 | 77,862 | Plug-in hybrid | $24,383 | — | concern |
+| 109 | 2019 BMW i3 s | $16,995 | 89,305 | Battery electric | $27,600 | — | ok |
+| 110 | 2017 Chevrolet Volt LT | $9,984 | 91,306 | Plug-in hybrid | $23,805 | — | concern |
+| 111 | 2020 BMW i3 | $20,490 | 40,750 | Plug-in hybrid | $28,379 | — | unknown |
+| 112 | 2017 BMW i3 w/ Range Extender | $11,700 | 86,788 | Plug-in hybrid | $25,610 | — | ok |
+| 113 | 2018 Chevrolet Volt LT | $8,477 | 102,267 | Plug-in hybrid | $21,754 | — | concern |
+| 114 | 2020 Hyundai Accent SE | $13,190 | 49,511 | Gasoline | $26,264 | — | ok |
+| 115 | 2017 Nissan Leaf S | $6,995 | 32,563 | Battery electric | $20,537 | — | ok |
+| 116 | 2017 Nissan Leaf S | $7,500 | 31,046 | Battery electric | $20,909 | — | ok |
+| 117 | 2017 Nissan Leaf S | $7,995 | 27,076 | Battery electric | $21,251 | — | ok |
+| 118 | 2016 Volkswagen e-Golf SE | $11,990 | 43,963 | Battery electric | $23,431 | — | unknown |
+| 119 | 2015 smart fortwo electric drive | $5,000 | 39,816 | Battery electric | $16,151 | — | unknown |
+| 120 | 2017 Nissan Leaf SV | $5,584 | 70,617 | Battery electric | $19,978 | — | ok |
+| 121 | 2016 BMW i3 w/ Range Extender | $9,477 | 65,498 | Plug-in hybrid | $23,768 | — | ok |
+| 122 | 2016 Volkswagen e-Golf SE | $8,000 | 67,000 | Battery electric | $19,525 | — | unknown |
+| 123 | 2016 Volkswagen e-Golf SE | $8,980 | 69,930 | Battery electric | $20,640 | — | unknown |
+| 124 | 2016 Volkswagen e-Golf SE | $8,700 | 75,689 | Battery electric | $20,435 | — | unknown |
+| 125 | 2016 Ford C-MAX Energi SEL | $9,300 | 89,061 | Plug-in hybrid | $23,802 | — | ok |
+| 126 | 2021 Hyundai Accent SE | $8,499 | 50,815 | Gasoline | $21,981 | — | ok |
+| 127 | 2018 Ford Focus Electric Hatchback | $12,995 | 9,861 | Battery electric | $24,752 | — | concern |
+| 128 | 2023 Fisker Ocean One | $15,990 | 12,285 | Battery electric | $27,021 | — | concern |
+| 129 | 2016 Nissan Leaf S | $5,777 | 61,688 | Battery electric | $20,091 | — | ok |
+| 130 | 2017 Kia Soul EV | $9,998 | 35,871 | Battery electric | $21,002 | — | concern |
+| 131 | 2016 Kia Soul EV + | $9,000 | 48,222 | Battery electric | $20,209 | — | concern |
+| 132 | 2016 Kia Soul EV + | $9,195 | 54,443 | Battery electric | $20,491 | — | concern |
+| 133 | 2021 Polestar Polestar 2 | $16,999 | 101,244 | Battery electric | $30,929 | — | ok |
+| 134 | 2015 BMW i3 w/ Range Extender | $11,995 | 87,909 | Plug-in hybrid | $26,484 | — | ok |
+| 135 | 2019 Jeep Renegade Sport | $12,490 | 48,587 | Gasoline | $28,869 | — | concern |
+| 136 | 2016 Mercedes-Benz GLA 250 4MATIC | $14,999 | 52,000 | Gasoline | $35,015 | — | unknown |
+| 137 | 2017 Kia Optima Premium | $10,790 | 112,504 | Hybrid | $23,625 | — | concern |
+| 138 | 2015 Toyota Prius C Two | $14,788 | 98,429 | Hybrid | $26,022 | — | concern |
+| 139 | 2017 Jeep Compass Trailhawk | $12,471 | 50,876 | Gasoline | $29,373 | — | concern |
+| 140 | 2017 BMW 320i Sedan | $14,490 | 52,144 | Gasoline | $36,392 | — | unknown |
+| 141 | 2015 Ford C-MAX Energi SEL | $7,699 | 103,132 | Plug-in hybrid | $23,155 | — | ok |
+| 142 | 2016 Ford Focus Electric Hatchback | $9,988 | 13,030 | Battery electric | $21,549 | — | concern |
+| 143 | 2019 Audi e-tron Premium Plus | $18,961 | 62,105 | Battery electric | $32,443 | — | concern |
+| 144 | 2016 Audi A3 e-tron Prestige | $8,500 | 120,249 | Plug-in hybrid | $27,427 | — | concern |
+| 145 | 2016 BMW X5 xDrive40e | $12,192 | 109,038 | Plug-in hybrid | $30,072 | — | concern |
+| 146 | 2015 Toyota Prius C Two | $11,999 | 128,340 | Hybrid | $24,120 | — | concern |
+| 147 | 2021 Ford Mustang Mach-E Premium | $25,225 | 37,438 | Battery electric | $37,803 | — | concern |
+| 148 | 2021 Ford Mustang Mach-E Premium | $22,695 | 65,680 | Battery electric | $36,518 | — | concern |
+| 149 | 2021 Ford Mustang Mach-E Premium | $24,800 | 60,360 | Battery electric | $37,857 | — | concern |
+| 150 | 2016 BMW X5 xDrive40e | $13,999 | 90,455 | Plug-in hybrid | $30,876 | — | concern |
+| 151 | 2021 Ford Mustang Mach-E Premium | $26,995 | 46,874 | Battery electric | $39,234 | — | concern |
+| 152 | 2024 MINI Cooper SE | $16,895 | 17,617 | Battery electric | $28,319 | — | ok |
+| 153 | 2017 Kia Optima Premium | $7,900 | 114,070 | Hybrid | $21,090 | — | concern |
+| 154 | 2019 FIAT 500 e | $13,995 | 28,290 | Battery electric | $20,482 | — | unknown |
+| 155 | 2018 FIAT 500 e | $10,929 | 35,100 | Battery electric | $18,366 | — | ok |
+| 156 | 2017 FIAT 500 e | $8,000 | 32,300 | Battery electric | $19,022 | — | ok |
+| 157 | 2017 FIAT 500 e | $8,380 | 44,490 | Battery electric | $19,573 | — | ok |
+| 158 | 2016 FIAT 500 e | $7,998 | 71,397 | Battery electric | $19,663 | — | ok |
+| 159 | 2016 FIAT 500 e | $7,998 | 87,101 | Battery electric | $19,900 | — | ok |
+| 160 | 2017 Ford C-MAX Energi SE | $11,502 | 69,050 | Plug-in hybrid | $24,860 | — | ok |
+| 161 | 2018 FIAT 500 Lounge | $12,598 | 53,841 | Gasoline | $24,945 | — | ok |
+| 162 | 2015 FIAT 500 e | $8,999 | 40,501 | Battery electric | $20,370 | — | concern |
+| 163 | 2017 Ford C-MAX Energi SE | $9,613 | 81,118 | Plug-in hybrid | $24,210 | — | ok |
+| 164 | 2015 FIAT 500 e | $5,998 | 95,451 | Battery electric | $18,033 | — | concern |
+| 165 | 2019 FIAT 500 Pop Hatchback | $8,450 | 14,825 | Gasoline | $21,604 | — | unknown |
 
 ## Detail
 
@@ -312,41 +309,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,248** ($378/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,247
 
-### 4. 2025 Nissan Leaf S — $15,984
-
-- VIN: `1N4AZ1BV8SC561403`
-- Mileage: 31,575 mi · Color: Gun Metallic · Certified pre-owned
-- Location: Volkswagen of McMinnville, Mcminnville OR (168 mi away)
-- Days on lot: 22
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788121938
-- Powertrain: **Battery electric** · 149 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - IIHS: Top Safety Pick (2018–19 w/ good headlights)
-  - AEB standard on all 2018+. Blind-Spot Warning is SV and SL only — the base S does NOT have it.
-  - Also standard on this trim (S): fcw, lka, rcta, backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 14 complaints, 0 recalls for the 2025 Nissan Leaf
-  - 14 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2025/NISSAN/LEAF%20(40%20KWH%20BATTERY)%20%2B%20LEAF%20PLUS%20(60%20KWH%20BATTERY)
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":7,"milesLeft":68425,"effectiveYears":7,"note":"Federal battery warranty still covers roughly 7.0 more year(s) at 130 mi/wk — limited by age (7 yr left of 8). Transfers to you."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for passively-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $15,984
-  - Sales tax: $1,726
-  - Fuel / electricity: $3,246
-  - Maintenance: $936
-  - Insurance: $9,168
-  - Registration: $2,310
-  - Major-repair reserve (expected): $91
-  - **6-year total: $26,944** ($374/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,393
-
-### 5. 2022 Hyundai Ioniq Blue — $21,048
+### 4. 2022 Hyundai Ioniq Blue — $21,048
 
 - VIN: `KMHC65LC4NU274392`
 - Mileage: 37,615 mi · Color: Amazon Gray · Certified pre-owned
@@ -378,7 +341,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $29,541** ($410/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,240
 
-### 6. 2018 Kia Niro EX — $19,264
+### 5. 2018 Kia Niro EX — $19,264
 
 - VIN: `KNDCD3LDXJ5213253`
 - Mileage: 52,359 mi · Color: Snow White Pearl · Certified pre-owned
@@ -412,7 +375,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,062** ($376/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,753
 
-### 7. 2021 Nissan Kicks S — $15,777
+### 6. 2021 Nissan Kicks S — $15,777
 
 - VIN: `3N1CP5BV2ML555302`
 - Mileage: 15,985 mi · Color: Super Black · Certified pre-owned
@@ -443,7 +406,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,050** ($376/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,669
 
-### 8. 2018 Kia Niro EX — $12,575
+### 7. 2018 Kia Niro EX — $12,575
 
 - VIN: `KNDCC3LC8J5132231`
 - Mileage: 113,256 mi · Color: Silky Silver · Certified pre-owned
@@ -475,7 +438,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $25,410** ($353/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,074
 
-### 9. 2021 Nissan Versa SV — $11,654
+### 8. 2021 Nissan Versa SV — $11,654
 
 - VIN: `3N1CN8EV6ML888850`
 - Mileage: 70,725 mi · Color: Brilliant Silver Metallic · Certified pre-owned
@@ -506,7 +469,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $25,354** ($352/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,793
 
-### 10. 2021 Kia Forte LXS — $13,985
+### 9. 2021 Kia Forte LXS — $13,985
 
 - VIN: `3KPF24AD3ME316700`
 - Mileage: 44,352 mi · Color: Silky Silver · Certified pre-owned
@@ -538,7 +501,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,065** ($376/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,733
 
-### 11. 2021 Hyundai Venue SEL — $14,995
+### 10. 2021 Hyundai Venue SEL — $14,995
 
 - VIN: `KMHRC8A31MU102844`
 - Mileage: 63,261 mi · Color: Galactic Gray · Certified pre-owned
@@ -569,7 +532,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,420** ($367/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,316
 
-### 12. 2019 Honda Insight LX — $18,760
+### 11. 2019 Honda Insight LX — $18,760
 
 - VIN: `19XZE4F16KE026290`
 - Mileage: 40,000 mi · Color: Black · Certified pre-owned
@@ -602,7 +565,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,479** ($368/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,596
 
-### 13. 2021 Nissan Leaf SL Plus — $15,000
+### 12. 2021 Nissan Leaf SL Plus — $15,000
 
 - VIN: `1N4BZ1DV0MC553591`
 - Mileage: 41,300 mi · Color: Gray · Certified pre-owned
@@ -637,7 +600,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,344** ($366/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,010
 
-### 14. 2017 Hyundai Ioniq Limited — $11,800
+### 13. 2017 Hyundai Ioniq Limited — $11,800
 
 - VIN: `KMHC85LH9HU015424`
 - Mileage: 80,887 mi · Color: Symphony Air Silver · Certified pre-owned
@@ -672,7 +635,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $23,068** ($320/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,221
 
-### 15. 2021 Nissan Leaf S Plus — $12,990
+### 14. 2021 Nissan Leaf S Plus — $12,990
 
 - VIN: `1N4BZ1BV3MC555337`
 - Mileage: 62,298 mi · Color: Brilliant Silver Metallic · Certified pre-owned
@@ -707,7 +670,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $25,107** ($349/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,103
 
-### 16. 2021 Chevrolet Spark LS — $12,777
+### 15. 2021 Chevrolet Spark LS — $12,777
 
 - VIN: `KL8CB6SA6MC740178`
 - Mileage: 39,978 mi · Color: Toasted Marshmallow Metallic · Certified pre-owned
@@ -738,7 +701,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $23,474** ($326/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,329
 
-### 17. 2024 Kia Soul LX — $16,900
+### 16. 2024 Kia Soul LX — $16,900
 
 - VIN: `KNDJ23AU5R7228646`
 - Mileage: 32,826 mi · Color: Snow White Pearl · Certified pre-owned
@@ -769,7 +732,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $30,029** ($417/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,932
 
-### 18. 2021 Chevrolet Spark ACTIV — $17,968
+### 17. 2021 Chevrolet Spark ACTIV — $17,968
 
 - VIN: `KL8CH6SA4MC228711`
 - Mileage: 19,562 mi · Color: Mystic Blue Metallic · Certified pre-owned
@@ -800,7 +763,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,273** ($365/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,496
 
-### 19. 2021 Kia Rio S — $14,995
+### 18. 2021 Kia Rio S — $14,995
 
 - VIN: `3KPA25AD2ME429750`
 - Mileage: 47,647 mi · Color: Steel Gray · Certified pre-owned
@@ -831,7 +794,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $25,731** ($357/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,476
 
-### 20. 2020 Hyundai Ioniq Limited — $11,205
+### 19. 2020 Hyundai Ioniq Limited — $11,205
 
 - VIN: `KMHC85LJ2LU067697`
 - Mileage: 72,091 mi · Color: Ceramic White · Certified pre-owned
@@ -865,7 +828,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $21,664** ($301/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,525
 
-### 21. 2020 Ford Escape SE Sport — $21,198
+### 20. 2020 Ford Escape SE Sport — $21,198
 
 - VIN: `1FMCU0BZ6LUB74130`
 - Mileage: 30,055 mi · Color: Agate Black Metallic · Certified pre-owned
@@ -898,7 +861,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $30,744** ($427/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,109
 
-### 22. 2018 Tesla Model 3 Long Range — $14,999
+### 21. 2018 Tesla Model 3 Long Range — $14,999
 
 - VIN: `5YJ3E1EB4JF067010`
 - Mileage: 68,139 mi · Color: Pearl White Multi-coat · Certified pre-owned
@@ -931,7 +894,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $28,953** ($402/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,767
 
-### 23. 2023 Kia Niro Wind — $19,950
+### 22. 2023 Kia Niro Wind — $19,950
 
 - VIN: `KNDCR3L11P5030968`
 - Mileage: 28,587 mi · Color: Snow White Pearl · Certified pre-owned
@@ -965,7 +928,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $30,926** ($430/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,168
 
-### 24. 2022 Chevrolet Bolt EUV LT — $19,725
+### 23. 2022 Chevrolet Bolt EUV LT — $19,725
 
 - VIN: `1G1FY6S07N4121796`
 - Mileage: 38,652 mi · Color: Bright Blue Metallic · Certified pre-owned
@@ -1000,7 +963,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $30,310** ($421/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,162
 
-### 25. 2020 Tesla Model 3 Standard Range Plus — $18,699
+### 24. 2020 Tesla Model 3 Standard Range Plus — $18,699
 
 - VIN: `5YJ3E1EA2LF614396`
 - Mileage: 56,300 mi · Color: White · Certified pre-owned
@@ -1033,7 +996,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $31,067** ($431/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,832
 
-### 26. 2022 Chevrolet Bolt EUV LT — $17,189
+### 25. 2022 Chevrolet Bolt EUV LT — $17,189
 
 - VIN: `1G1FY6S0XN4108363`
 - Mileage: 68,297 mi · Color: Silver Flare Metallic · Certified pre-owned
@@ -1068,7 +1031,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $28,526** ($396/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,610
 
-### 27. 2021 Chevrolet Trax LT — $14,998
+### 26. 2021 Chevrolet Trax LT — $14,998
 
 - VIN: `KL7CJPSM3MB363936`
 - Mileage: 24,553 mi · Color: Silver Ice Metallic · Certified pre-owned
@@ -1099,40 +1062,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $28,868** ($401/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,230
 
-### 28. 2018 Tesla Model 3 Mid Range — $16,999
-
-- VIN: `5YJ3E1EA7JF041265`
-- Mileage: 74,871 mi · Color: Gray · Certified pre-owned
-- Location: Private Seller Exchange, Bellevue WA (0 mi away)
-- Days on lot: 103
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/781270607
-- Powertrain: **Battery electric** · 260 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2018 Tesla Model 3. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **ok** — confidence high
-  - NHTSA: 1008 complaints, 19 recalls for the 2018 Tesla Model 3
-  - 1008 NHTSA complaints, no single system dominating.
-  - 19 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2018/TESLA/MODEL%203
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":25129,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (8 yr, 74,871 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $16,999
-  - Sales tax: $1,836
-  - Fuel / electricity: $2,990
-  - Maintenance: $1,973
-  - Insurance: $10,524
-  - Registration: $2,454
-  - Major-repair reserve (expected): $1,065
-  - **6-year total: $30,591** ($425/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $11,512
-
-### 29. 2023 Chevrolet Bolt LT — $17,999
+### 27. 2023 Chevrolet Bolt LT — $17,999
 
 - VIN: `1G1FW6S06P4115948`
 - Mileage: 48,805 mi · Color: Gray Ghost Metallic · Certified pre-owned
@@ -1166,7 +1096,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $29,269** ($407/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,267
 
-### 30. 2023 Polestar Polestar 2 — $20,950
+### 28. 2023 Polestar Polestar 2 — $20,950
 
 - VIN: `YSMEG3KA4PL116159`
 - Mileage: 29,842 mi · Color: Magnesium Metallic · Certified pre-owned
@@ -1198,7 +1128,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $32,789** ($455/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,929
 
-### 31. 2018 Kia Niro EX Premium — $17,500
+### 29. 2018 Kia Niro EX Premium — $17,500
 
 - VIN: `KNDCC3LD4J5144563`
 - Mileage: 60,746 mi · Color: Gravity Blue · Certified pre-owned
@@ -1232,7 +1162,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,192** ($364/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,387
 
-### 32. 2021 Chevrolet Bolt Premier — $19,999
+### 30. 2021 Chevrolet Bolt Premier — $19,999
 
 - VIN: `1G1FZ6S0XM4109461`
 - Mileage: 16,677 mi · Color: Cayenne Orange Metallic · Certified pre-owned
@@ -1268,7 +1198,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,074** ($376/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,485
 
-### 33. 2025 Nissan Versa S — $17,900
+### 31. 2025 Nissan Versa S — $17,900
 
 - VIN: `3N1CN8DVXSL885870`
 - Mileage: 2,162 mi · Color: Gun Metallic · Certified pre-owned
@@ -1299,7 +1229,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $29,751** ($413/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,136
 
-### 34. 2023 Volvo C40 P8 Recharge Plus — $26,990
+### 32. 2023 Volvo C40 P8 Recharge Plus — $26,990
 
 - VIN: `YV4ED3GL6P2043104`
 - Mileage: 12,753 mi · Color: Onyx Black Metallic · Certified pre-owned
@@ -1332,7 +1262,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $34,375** ($477/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,125
 
-### 35. 2021 Tesla Model 3 Standard Range Plus — $24,100
+### 33. 2021 Tesla Model 3 Standard Range Plus — $24,100
 
 - VIN: `5YJ3E1EA8MF840704`
 - Mileage: 38,148 mi · Certified pre-owned
@@ -1365,7 +1295,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $34,521** ($479/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,169
 
-### 36. 2017 Toyota Prius Prime Premium — $16,577
+### 34. 2017 Toyota Prius Prime Premium — $16,577
 
 - VIN: `JTDKARFP9H3006212`
 - Mileage: 86,847 mi · Color: Blizzard Pearl · Certified pre-owned
@@ -1399,7 +1329,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - 2-year total (Jordyn only): $8,355
 - Note: Cheapest car here with AEB standard AND an IIHS Top Safety Pick — the strongest safety-per-dollar pick on the page.
 
-### 37. 2017 Toyota Prius Two — $18,999
+### 35. 2017 Toyota Prius Two — $18,999
 
 - VIN: `JTDKBRFU8H3552776`
 - Mileage: 94,936 mi · Color: White · Certified pre-owned
@@ -1430,7 +1360,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,161** ($377/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,491
 
-### 38. 2024 Nissan Ariya AWD — $21,706
+### 36. 2024 Nissan Ariya AWD — $21,706
 
 - VIN: `JN1CF0BB3RM737003`
 - Mileage: 33,621 mi · Color: Boulder Gray Pearl · Certified pre-owned
@@ -1462,7 +1392,40 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $33,428** ($464/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,974
 
-### 39. 2018 Kia Niro EX — $11,990
+### 37. 2023 Volvo C40 P8 Recharge Plus — $26,999
+
+- VIN: `YV4ED3GL3P2050446`
+- Mileage: 19,863 mi · Color: Thunder Gray Metallic · Certified pre-owned
+- Location: Mercedes-Benz of Bellingham, Bellingham WA (84 mi away)
+- Days on lot: 112
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/780170467
+- Powertrain: **Battery electric** · 226 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2023 Volvo C40. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (Plus Dark): fcw, lka, backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 23 complaints, 0 recalls for the 2023 Volvo C40
+  - 23 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2023/VOLVO/C40%20RECHARGE%20TWIN
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":5,"milesLeft":80137,"effectiveYears":5,"note":"Federal battery warranty still covers roughly 5.0 more year(s) at 130 mi/wk — limited by age (5 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $26,999
+  - Sales tax: $2,916
+  - Fuel / electricity: $4,111
+  - Maintenance: $1,308
+  - Insurance: $7,572
+  - Registration: $3,126
+  - Major-repair reserve (expected): $229
+  - **6-year total: $34,413** ($478/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $13,359
+
+### 38. 2018 Kia Niro EX — $11,990
 
 - VIN: `KNDCD3LD3J5186056`
 - Mileage: 108,612 mi · Color: Aurora Black Pearl · Certified pre-owned
@@ -1496,7 +1459,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,138** ($335/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,408
 
-### 40. 2023 Volvo C40 P8 Recharge Plus — $25,999
+### 39. 2023 Volvo C40 P8 Recharge Plus — $25,999
 
 - VIN: `YV4ED3GL3P2035512`
 - Mileage: 31,274 mi · Color: Black / Stone · Certified pre-owned
@@ -1529,7 +1492,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $33,760** ($469/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,847
 
-### 41. 2022 Volvo XC40 P8 Recharge Plus — $21,500
+### 40. 2022 Volvo XC40 P8 Recharge Plus — $21,500
 
 - VIN: `YV4ED3UR9N2756052`
 - Mileage: 73,010 mi · Color: Black · Certified pre-owned
@@ -1562,40 +1525,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $31,928** ($443/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,242
 
-### 42. 2023 Volvo C40 P8 Recharge Ultimate — $26,490
-
-- VIN: `YV4ED3GM8P2028628`
-- Mileage: 34,025 mi · Color: Thunder Gray Metallic · Certified pre-owned
-- Location: D&C Motor Company, Portland OR (152 mi away)
-- Days on lot: 66
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/784397030
-- Powertrain: **Battery electric** · 226 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2023 Volvo C40. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (Ultimate Dark): fcw, lka, backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 23 complaints, 0 recalls for the 2023 Volvo C40
-  - 23 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2023/VOLVO/C40%20RECHARGE%20TWIN
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":5,"milesLeft":65975,"effectiveYears":5,"note":"Federal battery warranty still covers roughly 5.0 more year(s) at 130 mi/wk — limited by age (5 yr left of 8). Transfers to you."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $26,490
-  - Sales tax: $2,861
-  - Fuel / electricity: $4,111
-  - Maintenance: $1,308
-  - Insurance: $7,572
-  - Registration: $3,102
-  - Major-repair reserve (expected): $277
-  - **6-year total: $34,129** ($474/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,200
-
-### 43. 2023 Polestar Polestar 2 — $16,988
+### 41. 2023 Polestar Polestar 2 — $16,988
 
 - VIN: `YSMEG3KA9PL145074`
 - Mileage: 97,638 mi · Color: White · Certified pre-owned
@@ -1627,40 +1557,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $30,946** ($430/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,391
 
-### 44. 2023 Volvo C40 P8 Recharge Ultimate — $25,552
-
-- VIN: `YV4ED3GM3P2045059`
-- Mileage: 43,606 mi · Color: Crystal White · Certified pre-owned
-- Location: Ron Tonkin Mazda of Portland, Portland OR (142 mi away)
-- Days on lot: 73
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/783787404
-- Powertrain: **Battery electric** · 226 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2023 Volvo C40. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (Ultimate Dark): fcw, lka, backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 23 complaints, 0 recalls for the 2023 Volvo C40
-  - 23 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2023/VOLVO/C40%20RECHARGE%20TWIN
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":5,"milesLeft":56394,"effectiveYears":5,"note":"Federal battery warranty still covers roughly 5.0 more year(s) at 130 mi/wk — limited by age (5 yr left of 8). Transfers to you."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $25,552
-  - Sales tax: $2,760
-  - Fuel / electricity: $4,111
-  - Maintenance: $1,386
-  - Insurance: $7,572
-  - Registration: $3,042
-  - Major-repair reserve (expected): $318
-  - **6-year total: $33,768** ($469/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,568
-
-### 45. 2022 Volvo XC40 P8 Recharge Plus — $15,897
+### 42. 2022 Volvo XC40 P8 Recharge Plus — $15,897
 
 - VIN: `YV4ED3UR6N2762763`
 - Mileage: 119,977 mi · Color: Thunder Grey Metalli · Certified pre-owned
@@ -1693,7 +1590,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $29,489** ($410/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,692
 
-### 46. 2024 Volkswagen ID.4 2WD — $19,900
+### 43. 2024 Volkswagen ID.4 2WD — $19,900
 
 - VIN: `1V2BMPE88RC006952`
 - Mileage: 15,203 mi · Color: Pure White · Certified pre-owned
@@ -1728,7 +1625,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $31,157** ($433/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,108
 
-### 47. 2022 Volvo XC40 P8 Recharge Ultimate — $21,495
+### 44. 2022 Volvo XC40 P8 Recharge Ultimate — $21,495
 
 - VIN: `YV4ED3UB4N2731479`
 - Mileage: 80,513 mi · Color: Crystal White Metallic · Certified pre-owned
@@ -1761,7 +1658,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $32,296** ($449/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,667
 
-### 48. 2022 MINI Cooper SE — $19,988
+### 45. 2022 MINI Cooper SE — $19,988
 
 - VIN: `WMW13DJ00N2S09734`
 - Mileage: 31,715 mi · Color: Black Metallic · Certified pre-owned
@@ -1795,7 +1692,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $31,890** ($443/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,068
 
-### 49. 2021 Chevrolet Bolt LT — $18,790
+### 46. 2021 Chevrolet Bolt LT — $18,790
 
 - VIN: `1G1FY6S02M4108338`
 - Mileage: 31,202 mi · Color: Summit White · Certified pre-owned
@@ -1831,7 +1728,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,311** ($365/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,231
 
-### 50. 2022 Mitsubishi Mirage SE — $11,999
+### 47. 2022 Mitsubishi Mirage SE — $11,999
 
 - VIN: `ML32AWHJ3NH005386`
 - Mileage: 43,924 mi · Color: Black · Certified pre-owned
@@ -1862,7 +1759,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,659** ($342/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,202
 
-### 51. 2023 Hyundai Kona SE — $15,250
+### 48. 2023 Hyundai Kona SE — $15,250
 
 - VIN: `KM8K23AG9PU174017`
 - Mileage: 62,815 mi · Color: Abyss Black Pearl · Certified pre-owned
@@ -1896,40 +1793,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,458** ($367/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,398
 
-### 52. 2021 Tesla Model 3 Standard Range Plus — $18,999
-
-- VIN: `5YJ3E1EA6MF086718`
-- Mileage: 100,707 mi · Color: Gray · Certified pre-owned
-- Location: Seattle Finest Motors, Lynnwood WA (21 mi away)
-- Days on lot: 18
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788486980
-- Powertrain: **Battery electric** · 263 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2021 Tesla Model 3. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **ok** — confidence high
-  - NHTSA: 657 complaints, 22 recalls for the 2021 Tesla Model 3
-  - 657 NHTSA complaints, no single system dominating.
-  - 22 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2021/TESLA/MODEL%203
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":3,"milesLeft":0,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (5 yr, 100,707 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $18,999
-  - Sales tax: $2,052
-  - Fuel / electricity: $2,990
-  - Maintenance: $2,095
-  - Insurance: $10,524
-  - Registration: $2,502
-  - Major-repair reserve (expected): $952
-  - **6-year total: $32,913** ($457/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $14,812
-
-### 53. 2018 Nissan Leaf SV — $6,984
+### 49. 2018 Nissan Leaf SV — $6,984
 
 - VIN: `1N4AZ1CP3JC313218`
 - Mileage: 97,594 mi · Color: Pearl White · Certified pre-owned
@@ -1964,41 +1828,42 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
 - Standout: true
 - Note: Lowest 6-year cost to own with AEB standard — about $297/mo all-in, and it should still be a good car when Emma drives.
 
-### 54. 2022 MINI Cooper SE — $18,998
+### 50. 2025 Hyundai Ioniq 6 SE — $25,949
 
-- VIN: `WMW13DJ03N2R37323`
-- Mileage: 55,643 mi · Color: British Racing Green · Certified pre-owned
-- Location: Sandberg Northwest Volvo, Lynnwood WA (21 mi away)
-- Days on lot: 18
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788471357
-- Powertrain: **Battery electric** · 114 mi electric range
+- VIN: `KMHM14AB1SA085980`
+- Mileage: 15,659 mi · Color: Curated Silver · Certified pre-owned
+- Location: Lee Johnson Hyundai of Everett, Everett WA (26 mi away)
+- Days on lot: 46
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/786082315
+- Powertrain: **Battery electric** · 240 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2022 MINI Cooper. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (Cooper SE): lka, backupCam
-- Reliability (model-year level): **ok** — confidence low
-  - NHTSA: 2 complaints, 2 recalls for the 2022 MINI Cooper
-  - Only 2 NHTSA complaints on record — too few to draw a firm conclusion.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - ⚠️ IIHS: IIHS rated the hybrid and plug-in version of this model — not the electric version. Structure is largely shared, so the result is reassuring, but this exact powertrain did not earn the award.
+  - Hyundai SmartSense with AEB standard from 2020.
+  - Also standard on this trim (SE Standard Range): fcw, lka, acc, rcta, backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 34 complaints, 3 recalls for the 2025 Hyundai Ioniq 6
+  - 34 NHTSA complaints, no single system dominating.
   - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
-  - Source: https://www.nhtsa.gov/vehicle/2022/MINI/COOPER%20SE%20%2B%20COOPER%20S
+  - Source: https://www.nhtsa.gov/vehicle/2025/HYUNDAI/IONIQ%206
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":4,"milesLeft":44357,"effectiveYears":4,"note":"Federal battery warranty still covers roughly 4.0 more year(s) at 130 mi/wk — limited by age (4 yr left of 8). Transfers to you."}
+- Traction battery warranty: {"covered":true,"yearsLeft":7,"milesLeft":84341,"effectiveYears":7,"note":"Federal battery warranty still covers roughly 7.0 more year(s) at 130 mi/wk — limited by age (7 yr left of 8). Transfers to you."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $18,998
-  - Sales tax: $2,052
-  - Fuel / electricity: $3,630
-  - Maintenance: $1,648
-  - Insurance: $10,182
-  - Registration: $2,460
-  - Major-repair reserve (expected): $487
-  - **6-year total: $31,346** ($435/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,941
+  - Purchase price: $25,949
+  - Sales tax: $2,802
+  - Fuel / electricity: $2,669
+  - Maintenance: $901
+  - Insurance: $12,498
+  - Registration: $2,880
+  - Major-repair reserve (expected): $83
+  - **6-year total: $36,375** ($505/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,162
 
-### 55. 2024 Kia Niro Wind — $26,793
+### 51. 2024 Kia Niro Wind — $26,793
 
 - VIN: `KNDCR3L16R5098086`
 - Mileage: 1,221 mi · Color: Mineral Blue · Certified pre-owned
@@ -2032,7 +1897,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $37,992** ($528/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,254
 
-### 56. 2020 Tesla Model 3 Standard Range Plus — $27,490
+### 52. 2020 Tesla Model 3 Standard Range Plus — $27,490
 
 - VIN: `5YJ3E1EA2LF504190`
 - Mileage: 1,007 mi · Color: Pearl White · Certified pre-owned
@@ -2065,7 +1930,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $36,886** ($512/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,161
 
-### 57. 2023 Chevrolet TrailBlazer ACTIV — $17,190
+### 53. 2023 Chevrolet TrailBlazer ACTIV — $17,190
 
 - VIN: `KL79MSSL5PB044005`
 - Mileage: 46,991 mi · Color: Sterling Gray Metallic · Certified pre-owned
@@ -2096,7 +1961,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $32,830** ($456/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,962
 
-### 58. 2019 Ford Fusion SE — $8,900
+### 54. 2019 Ford Fusion SE — $8,900
 
 - VIN: `3FA6P0LU8KR256593`
 - Mileage: 96,029 mi · Certified pre-owned
@@ -2128,7 +1993,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,144** ($377/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,046
 
-### 59. 2023 Nissan Ariya FWD — $15,841
+### 55. 2023 Nissan Ariya FWD — $15,841
 
 - VIN: `JN1AF0BA8PM407210`
 - Mileage: 102,848 mi · Color: Black · Certified pre-owned
@@ -2161,7 +2026,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $29,254** ($406/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,624
 
-### 60. 2019 Hyundai Kona SE — $13,995
+### 56. 2019 Hyundai Kona SE — $13,995
 
 - VIN: `KM8K1CAA0KU294487`
 - Mileage: 41,578 mi · Color: Gray · Certified pre-owned
@@ -2193,7 +2058,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $29,424** ($409/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,368
 
-### 61. 2021 Hyundai Sonata Blue — $12,999
+### 57. 2021 Hyundai Sonata Blue — $12,999
 
 - VIN: `KMHL24JJ9MA025867`
 - Mileage: 106,023 mi · Color: Portofino Gray · Certified pre-owned
@@ -2224,7 +2089,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,912** ($374/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,436
 
-### 62. 2021 Kia Niro LXS — $14,638
+### 58. 2021 Kia Niro LXS — $14,638
 
 - VIN: `KNDCB3LCXM5471922`
 - Mileage: 114,062 mi · Color: Silky Silver · Certified pre-owned
@@ -2256,7 +2121,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,085** ($376/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,058
 
-### 63. 2018 Tesla Model S 75D — $17,998
+### 59. 2018 Tesla Model S 75D — $17,998
 
 - VIN: `5YJSA1E26JF248701`
 - Mileage: 79,636 mi · Color: Black · Certified pre-owned
@@ -2289,7 +2154,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $33,110** ($460/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,550
 
-### 64. 2021 Jeep Renegade Limited — $19,338
+### 60. 2021 Jeep Renegade Limited — $19,338
 
 - VIN: `ZACNJDD12MPM41008`
 - Mileage: 17,237 mi · Color: Colorado Red Clearcoat · Certified pre-owned
@@ -2320,7 +2185,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $31,407** ($436/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,270
 
-### 65. 2023 Toyota bZ4X FWD — $19,744
+### 61. 2023 Toyota bZ4X FWD — $19,744
 
 - VIN: `JTMAAAAA3PA000836`
 - Mileage: 111,471 mi · Color: Heavy Metal · Certified pre-owned
@@ -2353,7 +2218,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $33,676** ($468/mo over 40,560 mi)
   - 2-year total (Jordyn only): $16,015
 
-### 66. 2022 Volkswagen Tiguan SE — $15,991
+### 62. 2022 Volkswagen Tiguan SE — $15,991
 
 - VIN: `3VV2B7AX0NM055884`
 - Mileage: 40,104 mi · Color: Silver · Certified pre-owned
@@ -2385,7 +2250,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $32,489** ($451/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,980
 
-### 67. 2021 Kia Soul LX — $11,990
+### 63. 2021 Kia Soul LX — $11,990
 
 - VIN: `KNDJ22AU9M7786759`
 - Mileage: 64,131 mi · Color: Snow White Pearl · Certified pre-owned
@@ -2416,7 +2281,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,789** ($372/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,152
 
-### 68. 2024 Jeep Compass Latitude — $16,690
+### 64. 2024 Jeep Compass Latitude — $16,690
 
 - VIN: `3C4NJDBNXRT604139`
 - Mileage: 51,199 mi · Color: 16490 · Certified pre-owned
@@ -2447,7 +2312,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $32,738** ($455/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,451
 
-### 69. 2021 Jeep Renegade Latitude — $14,560
+### 65. 2021 Jeep Renegade Latitude — $14,560
 
 - VIN: `ZACNJDB18MPM63730`
 - Mileage: 78,421 mi · Color: Omaha Orange Clearcoat · Certified pre-owned
@@ -2478,7 +2343,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $30,951** ($430/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,227
 
-### 70. 2023 Chevrolet Bolt EUV LT — $16,960
+### 66. 2023 Chevrolet Bolt EUV LT — $16,960
 
 - VIN: `1G1FY6S0XP4199282`
 - Mileage: 60,000 mi · Color: White · Certified pre-owned
@@ -2512,7 +2377,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $28,598** ($397/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,305
 
-### 71. 2021 Volkswagen Tiguan S — $15,981
+### 67. 2021 Volkswagen Tiguan S — $15,981
 
 - VIN: `3VV0B7AX1MM136656`
 - Mileage: 49,261 mi · Color: Silver · Certified pre-owned
@@ -2544,7 +2409,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $33,872** ($470/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,305
 
-### 72. 2020 Hyundai Elantra SEL — $8,192
+### 68. 2020 Hyundai Elantra SEL — $8,192
 
 - VIN: `KMHD84LF2LU897428`
 - Mileage: 114,145 mi · Color: Scarlet Red Pearl · Certified pre-owned
@@ -2576,7 +2441,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $25,884** ($360/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,083
 
-### 73. 2021 Volvo XC40 P8 Recharge — $25,500
+### 69. 2021 Volvo XC40 P8 Recharge — $25,500
 
 - VIN: `YV4ED3UR8M2526002`
 - Mileage: 25,118 mi · Color: White · Certified pre-owned
@@ -2609,7 +2474,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $33,742** ($469/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,940
 
-### 74. 2021 Volvo XC40 P8 Recharge — $21,490
+### 70. 2021 Volvo XC40 P8 Recharge — $21,490
 
 - VIN: `YV4ED3UR9M2574513`
 - Mileage: 67,143 mi · Color: Thunder Gray Metallic · Certified pre-owned
@@ -2642,7 +2507,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $31,549** ($438/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,367
 
-### 75. 2021 Volvo XC40 P8 Recharge — $16,570
+### 71. 2021 Volvo XC40 P8 Recharge — $16,570
 
 - VIN: `YV4ED3URXM2567960`
 - Mileage: 69,140 mi · Color: Gray · Certified pre-owned
@@ -2675,7 +2540,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $31,640** ($439/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,484
 
-### 76. 2023 Chevrolet TrailBlazer LS — $12,638
+### 72. 2023 Chevrolet TrailBlazer LS — $12,638
 
 - VIN: `KL79MNSL9PB044316`
 - Mileage: 123,095 mi · Color: Sterling Gray Metallic · Certified pre-owned
@@ -2706,7 +2571,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $32,351** ($449/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,502
 
-### 77. 2023 Volvo C40 P8 Recharge Plus — $25,235
+### 73. 2023 Volvo C40 P8 Recharge Plus — $25,235
 
 - VIN: `YV4ED3GL2P2055864`
 - Mileage: 47,105 mi · Color: Silver Dawn Metallic · Certified pre-owned
@@ -2739,7 +2604,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $33,726** ($468/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,678
 
-### 78. 2021 Chevrolet Trax LT — $11,195
+### 74. 2021 Chevrolet Trax LT — $11,195
 
 - VIN: `KL7CJLSB3MB309334`
 - Mileage: 95,630 mi · Color: Silver · Certified pre-owned
@@ -2770,7 +2635,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $28,579** ($397/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,379
 
-### 79. 2021 Volvo XC40 P8 Recharge — $21,000
+### 75. 2021 Volvo XC40 P8 Recharge — $21,000
 
 - VIN: `YV4ED3UR7M2528100`
 - Mileage: 75,167 mi · Color: Green · Certified pre-owned
@@ -2803,7 +2668,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $31,554** ($438/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,625
 
-### 80. 2018 Honda Clarity Plug-In Hybrid — $14,695
+### 76. 2018 Honda Clarity Plug-In Hybrid — $14,695
 
 - VIN: `JHMZC5F18JC018157`
 - Mileage: 121,900 mi · Color: Solar Silver Metallic · Certified pre-owned
@@ -2836,7 +2701,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,712** ($371/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,968
 
-### 81. 2027 Chevrolet Bolt LT — $27,998
+### 77. 2027 Chevrolet Bolt LT — $27,998
 
 - VIN: `1G1FY6EV0VF107086`
 - Mileage: 1,441 mi · Color: Summit White · Certified pre-owned
@@ -2870,7 +2735,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $38,925** ($541/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,966
 
-### 82. 2023 Volvo XC40 Recharge Plus — $23,995
+### 78. 2023 Volvo XC40 Recharge Plus — $23,995
 
 - VIN: `YV4ED3UL4P2965584`
 - Mileage: 58,874 mi · Color: Black · Certified pre-owned
@@ -2903,7 +2768,38 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $33,421** ($464/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,967
 
-### 83. 2021 Volkswagen ID.4 Pro — $16,997
+### 79. 2020 Chevrolet Equinox LS — $14,973
+
+- VIN: `3GNAXHEV8LS582081`
+- Mileage: 54,760 mi · Color: Nightfall Gray Metallic · Certified pre-owned
+- Location: Dick Hannah Chevrolet, Sandy OR (149 mi away)
+- Days on lot: 49
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785857704
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.5 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2020 Chevrolet Equinox. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (LS): fcw, lka, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 303 complaints, 4 recalls for the 2020 Chevrolet Equinox
+  - 31% of its 303 NHTSA complaints (94) concern the engine — a concentrated pattern, not scattered noise.
+  - Source: https://www.nhtsa.gov/vehicle/2020/CHEVROLET/EQUINOX
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $14,973
+  - Sales tax: $1,617
+  - Fuel / electricity: $8,599
+  - Maintenance: $3,445
+  - Insurance: $8,652
+  - Registration: $1,578
+  - Major-repair reserve (expected): $1,121
+  - **6-year total: $31,232** ($434/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,088
+
+### 80. 2021 Volkswagen ID.4 Pro — $16,997
 
 - VIN: `WVGRMPE21MP032057`
 - Mileage: 55,573 mi · Color: Silver Metallic · Certified pre-owned
@@ -2938,38 +2834,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $28,496** ($396/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,279
 
-### 84. 2021 Chevrolet Equinox LT — $8,995
-
-- VIN: `3GNAXTEVXMS161998`
-- Mileage: 149,131 mi · Color: Silver · Certified pre-owned
-- Location: 507 Motorsports, Roy WA (46 mi away)
-- Days on lot: 59
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/785023783
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.5 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2021 Chevrolet Equinox. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (LT (2FL)): fcw, lka, rcta, backupCam
-- Reliability (model-year level): **concern** — confidence high
-  - NHTSA: 91 complaints, 4 recalls for the 2021 Chevrolet Equinox
-  - 34% of its 91 NHTSA complaints (31) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
-  - Source: https://www.nhtsa.gov/vehicle/2021/CHEVROLET/EQUINOX
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $8,995
-  - Sales tax: $971
-  - Fuel / electricity: $8,914
-  - Maintenance: $5,207
-  - Insurance: $8,652
-  - Registration: $1,194
-  - Major-repair reserve (expected): $1,993
-  - **6-year total: $32,006** ($445/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $12,552
-
-### 85. 2021 Kia Soul LX — $10,995
+### 81. 2021 Kia Soul LX — $10,995
 
 - VIN: `KNDJ23AU2M7771137`
 - Mileage: 122,702 mi · Color: Silver · Certified pre-owned
@@ -3000,7 +2865,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,525** ($382/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,627
 
-### 86. 2021 Jeep Compass Latitude — $14,881
+### 82. 2021 Jeep Compass Latitude — $14,881
 
 - VIN: `3C4NJCBB4MT550149`
 - Mileage: 74,852 mi · Color: Diamond Black Crystal Pearlcoa · Certified pre-owned
@@ -3031,7 +2896,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $31,204** ($433/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,241
 
-### 87. 2022 Ford Mustang Mach-E Select — $26,791
+### 83. 2022 Ford Mustang Mach-E Select — $26,791
 
 - VIN: `3FMTK1RM5NMA20490`
 - Mileage: 22,859 mi · Color: Red Metallic · Certified pre-owned
@@ -3064,7 +2929,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $38,203** ($531/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,501
 
-### 88. 2023 Ford Mustang Mach-E Select — $26,887
+### 84. 2023 Ford Mustang Mach-E Select — $26,887
 
 - VIN: `3FMTK1RM4PMA40474`
 - Mileage: 22,090 mi · Color: White · Certified pre-owned
@@ -3097,7 +2962,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $38,184** ($530/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,775
 
-### 89. 2019 Kia Forte LXS — $7,995
+### 85. 2019 Kia Forte LXS — $7,995
 
 - VIN: `3KPF24AD0KE043003`
 - Mileage: 137,944 mi · Color: Blue · Certified pre-owned
@@ -3128,7 +2993,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,947** ($346/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,916
 
-### 90. 2023 Ford Mustang Mach-E Select — $24,988
+### 86. 2023 Ford Mustang Mach-E Select — $24,988
 
 - VIN: `3FMTK1R45PMA75542`
 - Mileage: 44,989 mi · Color: Vapor Blue · Certified pre-owned
@@ -3161,7 +3026,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $37,261** ($518/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,743
 
-### 91. 2023 Ford Mustang Mach-E Select — $26,863
+### 87. 2023 Ford Mustang Mach-E Select — $26,863
 
 - VIN: `3FMTK1SSXPMA13241`
 - Mileage: 33,687 mi · Color: White · Certified pre-owned
@@ -3194,7 +3059,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $38,235** ($531/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,606
 
-### 92. 2022 Ford Mustang Mach-E Select — $22,490
+### 88. 2022 Ford Mustang Mach-E Select — $22,490
 
 - VIN: `3FMTK1RM4NMA02515`
 - Mileage: 72,305 mi · Color: Rapid Red Metallic Tinted Clea · Certified pre-owned
@@ -3227,7 +3092,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $36,399** ($506/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,897
 
-### 93. 2023 Ford Mustang Mach-E Select — $26,990
+### 89. 2023 Ford Mustang Mach-E Select — $26,990
 
 - VIN: `3FMTK1RM5PMA29600`
 - Mileage: 37,979 mi · Color: Grabber Blue Metallic · Certified pre-owned
@@ -3260,7 +3125,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $38,387** ($533/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,963
 
-### 94. 2023 Ford Mustang Mach-E Select — $27,999
+### 90. 2023 Ford Mustang Mach-E Select — $27,999
 
 - VIN: `3FMTK1SS5PMA01577`
 - Mileage: 33,230 mi · Color: Blue · Certified pre-owned
@@ -3293,40 +3158,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $39,062** ($543/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,976
 
-### 95. 2018 Tesla Model X 75D — $21,490
-
-- VIN: `5YJXCAE26JF142541`
-- Mileage: 121,824 mi · Color: Black · Certified pre-owned
-- Location: Diplomat Motors - Portland, Portland OR (145 mi away)
-- Days on lot: 3
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789805866
-- Powertrain: **Battery electric** · 238 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2018 Tesla Model X. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **watch** — confidence high
-  - NHTSA: 2348 complaints, 19 recalls for the 2018 Tesla Model X
-  - 415 of 2348 complaints involve a crash, fire or injury.
-  - 19 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2018/TESLA/MODEL%20S%2090D%20%2B%20MODEL%203%20%2B%20MODEL%20S%2060D%20%2B%20MODEL%20S%2075D%20%2B%20MODEL%20S%20P100D%20%2B%20MODEL%20S%20P90D%20%2B%20MODEL%20X%2060D%20%2B%20MODEL%20X%2075D%20%2B%20MODEL%20X%2090D%20%2B%20MODEL%20X%20P100D%20%2B%20MODEL%20X%20P90D
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":0,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (8 yr, 121,824 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $21,490
-  - Sales tax: $2,321
-  - Fuel / electricity: $3,630
-  - Maintenance: $2,425
-  - Insurance: $11,634
-  - Registration: $2,736
-  - Major-repair reserve (expected): $1,503
-  - **6-year total: $37,300** ($518/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $16,284
-
-### 96. 2021 Volvo XC40 P8 Recharge — $21,800
+### 91. 2021 Volvo XC40 P8 Recharge — $21,800
 
 - VIN: `YV4ED3UR9M2523576`
 - Mileage: 63,758 mi · Color: Crystal White · Certified pre-owned
@@ -3359,38 +3191,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $31,635** ($439/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,249
 
-### 97. 2020 Jaguar F-PACE Premium — $14,999
-
-- VIN: `SADCJ2GX4LA632334`
-- Mileage: 84,383 mi · Color: Yulong White Metallic · Certified pre-owned
-- Location: The Car Connection, Everett WA (23 mi away)
-- Days on lot: 91
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/782365074
-- Powertrain: **Gasoline**
-  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
-- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
-  - No curated safety profile for the 2020 Jaguar F-PACE. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-  - Also standard on this trim (Premium): fcw, lka, backupCam
-- Reliability (model-year level): **unknown** — confidence none
-  - NHTSA: 0 complaints, 0 recalls for the 2020 Jaguar F-PACE
-  - Could not match "F-PACE" to a model name NHTSA publishes for the 2020 Jaguar, so no complaint or recall history was retrieved. This is ABSENCE OF DATA — it is not a clean record.
-  - Source: https://www.nhtsa.gov/vehicle/2020/JAGUAR/F-PACE
-  - Caveat: No NHTSA record was retrieved for this vehicle. Check the NHTSA page directly before treating it as trouble-free.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $14,999
-  - Sales tax: $1,620
-  - Fuel / electricity: $11,267
-  - Maintenance: $6,959
-  - Insurance: $10,494
-  - Registration: $1,398
-  - Major-repair reserve (expected): $2,533
-  - **6-year total: $40,793** ($567/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $15,314
-
-### 98. 2023 Ford Mustang Mach-E Select — $26,521
+### 92. 2023 Ford Mustang Mach-E Select — $26,521
 
 - VIN: `3FMTK1RM3PMA14318`
 - Mileage: 60,423 mi · Color: Grabber Blue · Certified pre-owned
@@ -3423,7 +3224,38 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $39,164** ($544/mo over 40,560 mi)
   - 2-year total (Jordyn only): $17,459
 
-### 99. 2023 Buick Encore GX Select — $16,245
+### 93. 2020 Jaguar F-PACE S — $19,101
+
+- VIN: `SADCM2FV4LA641266`
+- Mileage: 75,378 mi · Color: Borealis Black Gloss · Certified pre-owned
+- Location: One Stop Yakima, Yakima WA (102 mi away)
+- Days on lot: 87
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/782650777
+- Powertrain: **Gasoline**
+  - Determined from the VIN: NHTSA lists gasoline as the only fuel, 3 L.
+- Safety: AEB standard (VIN-confirmed) · blind-spot unknown
+  - No curated safety profile for the 2020 Jaguar F-PACE. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+  - Also standard on this trim (S): lka, backupCam
+- Reliability (model-year level): **unknown** — confidence none
+  - NHTSA: 0 complaints, 0 recalls for the 2020 Jaguar F-PACE
+  - Could not match "F-PACE" to a model name NHTSA publishes for the 2020 Jaguar, so no complaint or recall history was retrieved. This is ABSENCE OF DATA — it is not a clean record.
+  - Source: https://www.nhtsa.gov/vehicle/2020/JAGUAR/F-PACE
+  - Caveat: No NHTSA record was retrieved for this vehicle. Check the NHTSA page directly before treating it as trouble-free.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $19,101
+  - Sales tax: $2,063
+  - Fuel / electricity: $13,487
+  - Maintenance: $6,654
+  - Insurance: $10,494
+  - Registration: $1,644
+  - Major-repair reserve (expected): $2,351
+  - **6-year total: $44,693** ($621/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $16,762
+
+### 94. 2023 Buick Encore GX Select — $16,245
 
 - VIN: `KL4MMDSL6PB120897`
 - Mileage: 716 mi · Color: Silver · Certified pre-owned
@@ -3455,7 +3287,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $30,285** ($421/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,771
 
-### 100. 2023 Kia Soul LX — $11,900
+### 95. 2023 Kia Soul LX — $11,900
 
 - VIN: `KNDJ23AU3P7213981`
 - Mileage: 28,023 mi · Certified pre-owned
@@ -3487,7 +3319,113 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $25,344** ($352/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,303
 
-### 101. 2021 Honda Accord Hybrid — $13,500
+### 96. 2019 Tesla Model 3 Long Range — $17,950
+
+- VIN: `5YJ3E1EB5KF194396`
+- Mileage: 52,931 mi · Color: Black · Certified pre-owned
+- Location: Honest Car Sales, Edmonds WA (18 mi away)
+- Days on lot: 6
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789668607
+- Powertrain: **Battery electric** · 220 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2019 Tesla Model 3. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+- Reliability (model-year level): **ok** — confidence high
+  - NHTSA: 608 complaints, 22 recalls for the 2019 Tesla Model 3
+  - 608 NHTSA complaints, no single system dominating.
+  - 22 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2019/TESLA/MODEL%203
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":1,"milesLeft":47069,"effectiveYears":1,"note":"Battery warranty nearly up — about 1.0 more year(s), whichever of 8yr/100k comes first. Little protection left for Jordyn, none for Emma."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: SALVAGE_TITLE, NO_ONE_OWNER
+  - Salvage title: yes · Accidents reported: not reported · One owner: no
+  - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $17,950
+  - Sales tax: $1,939
+  - Fuel / electricity: $2,990
+  - Maintenance: $1,719
+  - Insurance: $10,524
+  - Registration: $2,502
+  - Major-repair reserve (expected): $756
+  - **6-year total: $30,658** ($426/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,510
+
+### 97. 2023 Hyundai Ioniq 6 SEL — $19,995
+
+- VIN: `KMHM34AC1PA043173`
+- Mileage: 15,505 mi · Color: Silver · Certified pre-owned
+- Location: Konkin Auto Group, Portland OR (143 mi away)
+- Days on lot: 15
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788732969
+- Powertrain: **Battery electric** · 270 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - ⚠️ IIHS: IIHS rated the hybrid and plug-in version of this model — not the electric version. Structure is largely shared, so the result is reassuring, but this exact powertrain did not earn the award.
+  - Hyundai SmartSense with AEB standard from 2020.
+  - Also standard on this trim (SEL): fcw, lka, acc, rcta, backupCam
+- Reliability (model-year level): **concern** — confidence medium
+  - NHTSA: 56 complaints, 5 recalls for the 2023 Hyundai Ioniq 6
+  - 70% of its 56 NHTSA complaints (39) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - 5 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2023/HYUNDAI/IONIQ%206
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":5,"milesLeft":84495,"effectiveYears":5,"note":"Federal battery warranty still covers roughly 5.0 more year(s) at 130 mi/wk — limited by age (5 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: SALVAGE_TITLE, NO_ONE_OWNER
+  - Salvage title: yes · Accidents reported: not reported · One owner: no
+  - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $19,995
+  - Sales tax: $2,159
+  - Fuel / electricity: $2,669
+  - Maintenance: $960
+  - Insurance: $10,518
+  - Registration: $2,544
+  - Major-repair reserve (expected): $124
+  - **6-year total: $30,194** ($419/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $11,313
+
+### 98. 2023 Tesla Model 3 Standard Range — $22,197
+
+- VIN: `5YJ3E1EA3PF556515`
+- Mileage: 15,376 mi · Certified pre-owned
+- Location: GOLDEN ACE MOTORS LLC, Everett WA (27 mi away)
+- Days on lot: 29
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787611095
+- Powertrain: **Battery electric** · 272 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2023 Tesla Model 3. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+- Reliability (model-year level): **watch** — confidence high
+  - NHTSA: 417 complaints, 12 recalls for the 2023 Tesla Model 3
+  - 81 of 417 complaints involve a crash, fire or injury.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - 12 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2023/TESLA/MODEL%203
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":5,"milesLeft":84624,"effectiveYears":5,"note":"Federal battery warranty still covers roughly 5.0 more year(s) at 130 mi/wk — limited by age (5 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: SALVAGE_TITLE, NO_ONE_OWNER
+  - Salvage title: yes · Accidents reported: not reported · One owner: no
+  - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $22,197
+  - Sales tax: $2,397
+  - Fuel / electricity: $2,990
+  - Maintenance: $1,377
+  - Insurance: $11,250
+  - Registration: $2,670
+  - Major-repair reserve (expected): $218
+  - **6-year total: $33,358** ($463/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $12,500
+
+### 99. 2021 Honda Accord Hybrid — $13,500
 
 - VIN: `1HGCV3F14MA018129`
 - Mileage: 123,400 mi · Certified pre-owned
@@ -3520,7 +3458,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,906** ($388/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,361
 
-### 102. 2018 Audi Q5 2.0T Premium Plus — $14,197
+### 100. 2018 Audi Q5 2.0T Premium Plus — $14,197
 
 - VIN: `WA1BNAFY2J2220172`
 - Mileage: 63,387 mi · Color: Black · Certified pre-owned
@@ -3553,7 +3491,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $36,975** ($514/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,827
 
-### 103. 2019 Volkswagen e-Golf SE — $12,685
+### 101. 2019 Volkswagen e-Golf SE — $12,685
 
 - VIN: `WVWKR7AUXKW918489`
 - Mileage: 60,404 mi · Color: Reflex Silver Metallic · Certified pre-owned
@@ -3586,7 +3524,40 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,296** ($337/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,216
 
-### 104. 2017 Chevrolet Bolt Premier — $14,999
+### 102. 2020 Kia Niro LXS — $19,229
+
+- VIN: `KNDCM3LD2L5443243`
+- Mileage: 45,624 mi · Color: Aurora Black Pearl · Certified pre-owned
+- Location: Dick Hannah Kia, Vancouver WA (134 mi away)
+- Days on lot: 59
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/784997325
+- Powertrain: **Plug-in hybrid** · 26 mi electric range
+  - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
+- Safety: AEB trim · blind-spot trim
+  - IIHS: Top Safety Pick (2017–19)
+  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
+- Reliability (model-year level): **ok** — confidence low
+  - NHTSA: 5 complaints, 0 recalls for the 2020 Kia Niro
+  - Only 5 NHTSA complaints on record — too few to draw a firm conclusion.
+  - Source: https://www.nhtsa.gov/vehicle/2020/KIA/NIRO%20PLUG-IN%20HYBRID
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":2,"milesLeft":54376,"effectiveYears":2,"note":"Federal battery warranty still covers roughly 2.0 more year(s) at 130 mi/wk — limited by age (2 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own:
+  - Purchase price: $19,229
+  - Sales tax: $2,077
+  - Fuel / electricity: $4,118
+  - Maintenance: $1,587
+  - Insurance: $10,260
+  - Registration: $1,836
+  - Major-repair reserve (expected): $672
+  - **6-year total: $28,538** ($396/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $10,239
+
+### 103. 2017 Chevrolet Bolt Premier — $14,999
 
 - VIN: `1G1FX6S09H4186687`
 - Mileage: 67,186 mi · Color: Arctic Blue · Certified pre-owned
@@ -3620,7 +3591,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,881** ($346/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,987
 
-### 105. 2021 MAZDA MAZDA3 s — $13,199
+### 104. 2021 MAZDA MAZDA3 s — $13,199
 
 - VIN: `JM1BPAAL9M1339116`
 - Mileage: 104,257 mi · Certified pre-owned
@@ -3652,7 +3623,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $30,069** ($418/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,475
 
-### 106. 2017 Chevrolet Bolt Premier — $13,579
+### 105. 2017 Chevrolet Bolt Premier — $13,579
 
 - VIN: `1G1FX6S08H4127310`
 - Mileage: 96,126 mi · Color: Includes (tus) Black Grille. · Certified pre-owned
@@ -3686,7 +3657,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,353** ($338/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,010
 
-### 107. 2019 Chevrolet Bolt LT — $16,145
+### 106. 2019 Chevrolet Bolt LT — $16,145
 
 - VIN: `1G1FY6S06K4103608`
 - Mileage: 41,679 mi · Color: Nightfall Gray Metallic · Certified pre-owned
@@ -3722,39 +3693,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,790** ($344/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,673
 
-### 108. 2020 Kia Niro LX — $12,250
-
-- VIN: `KNDCB3LC8L5369257`
-- Mileage: 108,567 mi · Color: Deep Cerulean · Certified pre-owned
-- Location: Gresham Subaru, Gresham OR (143 mi away)
-- Days on lot: 4
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789744936
-- Powertrain: **Hybrid**
-  - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
-- Safety: AEB trim · blind-spot trim
-  - IIHS: Top Safety Pick (2017–19)
-  - AEB and blind-spot are EX/Touring; base LX/FE often has neither. The IIHS award covers the hybrid, not the Niro EV.
-  - Also standard on this trim (LX, LXS): backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 38 complaints, 0 recalls for the 2020 Kia Niro
-  - 38 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2020/KIA/NIRO%20HYBRID
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: yes · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $12,250
-  - Sales tax: $1,323
-  - Fuel / electricity: $4,987
-  - Maintenance: $2,186
-  - Insurance: $8,334
-  - Registration: $1,410
-  - Major-repair reserve (expected): $1,100
-  - **6-year total: $25,191** ($350/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $10,468
-
-### 109. 2017 Kia Niro LX — $10,249
+### 107. 2017 Kia Niro LX — $10,249
 
 - VIN: `KNDCB3LC7H5049371`
 - Mileage: 111,634 mi · Color: Snow White Pearl · Certified pre-owned
@@ -3785,7 +3724,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $23,569** ($327/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,528
 
-### 110. 2018 Chevrolet Volt LT — $11,477
+### 108. 2018 Chevrolet Volt LT — $11,477
 
 - VIN: `1G1RA6S5XJU132153`
 - Mileage: 77,862 mi · Color: Cajun Red Metallic · Certified pre-owned
@@ -3819,7 +3758,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,383** ($339/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,495
 
-### 111. 2019 BMW i3 s — $16,995
+### 109. 2019 BMW i3 s — $16,995
 
 - VIN: `WBY8P6C51K7E09726`
 - Mileage: 89,305 mi · Color: Fluid Black W/Bmw I Frozen Blu · Certified pre-owned
@@ -3853,7 +3792,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,600** ($383/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,423
 
-### 112. 2017 Chevrolet Volt LT — $9,984
+### 110. 2017 Chevrolet Volt LT — $9,984
 
 - VIN: `1G1RA6S51HU132620`
 - Mileage: 91,306 mi · Color: White · Certified pre-owned
@@ -3887,7 +3826,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $23,805** ($331/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,916
 
-### 113. 2020 BMW i3 — $20,490
+### 111. 2020 BMW i3 — $20,490
 
 - VIN: `WBY8P4C02L7G18371`
 - Mileage: 40,750 mi · Color: Fluid Black W/Bmw I Frozen Blu · Certified pre-owned
@@ -3921,7 +3860,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $28,379** ($394/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,159
 
-### 114. 2017 BMW i3 w/ Range Extender — $11,700
+### 112. 2017 BMW i3 w/ Range Extender — $11,700
 
 - VIN: `WBY1Z8C32HV890335`
 - Mileage: 86,788 mi · Color: Mineral Gray W/Bmw I Frozen Bl · Certified pre-owned
@@ -3956,7 +3895,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $25,610** ($356/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,420
 
-### 115. 2018 Chevrolet Volt LT — $8,477
+### 113. 2018 Chevrolet Volt LT — $8,477
 
 - VIN: `1G1RC6S58JU114132`
 - Mileage: 102,267 mi · Color: Summit White · Certified pre-owned
@@ -3989,7 +3928,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $21,754** ($302/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,006
 
-### 116. 2020 Hyundai Accent SE — $13,190
+### 114. 2020 Hyundai Accent SE — $13,190
 
 - VIN: `3KPC24A6XLE096829`
 - Mileage: 49,511 mi · Color: Silver · Certified pre-owned
@@ -4019,7 +3958,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,264** ($365/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,284
 
-### 117. 2017 Nissan Leaf S — $6,995
+### 115. 2017 Nissan Leaf S — $6,995
 
 - VIN: `1N4BZ0CP1HC307474`
 - Mileage: 32,563 mi · Color: Blue · Certified pre-owned
@@ -4052,7 +3991,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - 2-year total (Jordyn only): $7,206
 - Note: Lowest 6-year cost to own with AEB standard — about $485/mo all-in, and it should still be a good car when Emma drives.
 
-### 118. 2017 Nissan Leaf S — $7,790
+### 116. 2017 Nissan Leaf S — $7,500
 
 - VIN: `1N4BZ0CP8HC311540`
 - Mileage: 31,046 mi · Color: Deep Blue Pearl · Certified pre-owned
@@ -4074,17 +4013,17 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $7,790
-  - Sales tax: $841
+  - Purchase price: $7,500
+  - Sales tax: $810
   - Fuel / electricity: $3,246
   - Maintenance: $1,182
   - Insurance: $9,168
-  - Registration: $1,872
+  - Registration: $1,860
   - Major-repair reserve (expected): $375
-  - **6-year total: $21,117** ($293/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $7,455
+  - **6-year total: $20,909** ($290/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $7,366
 
-### 119. 2017 Nissan Leaf S — $7,995
+### 117. 2017 Nissan Leaf S — $7,995
 
 - VIN: `1N4BZ0CP7HC311013`
 - Mileage: 27,076 mi · Color: Deep Blue Pearl · Certified pre-owned
@@ -4116,7 +4055,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $21,251** ($295/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,517
 
-### 120. 2016 Volkswagen e-Golf SE — $11,990
+### 118. 2016 Volkswagen e-Golf SE — $11,990
 
 - VIN: `WVWKP7AU1GW911430`
 - Mileage: 43,963 mi · Color: Pacific Blue · Certified pre-owned
@@ -4148,7 +4087,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $23,431** ($325/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,580
 
-### 121. 2015 smart fortwo electric drive — $5,000
+### 119. 2015 smart fortwo electric drive — $5,000
 
 - VIN: `WMEEJ9AAXFK836914`
 - Mileage: 39,816 mi · Color: Silver · Certified pre-owned
@@ -4180,39 +4119,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $16,151** ($224/mo over 40,560 mi)
   - 2-year total (Jordyn only): $5,530
 
-### 122. 2015 smart fortwo electric drive — $7,499
-
-- VIN: `WMEEJ9AA2FK840231`
-- Mileage: 44,682 mi · Certified pre-owned
-- Location: D  Angelo European Auto Sales, Hillsboro OR (145 mi away)
-- Days on lot: 93
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/782070862
-- Powertrain: **Battery electric** · 68 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB unknown · blind-spot unknown
-  - No curated safety profile for the 2015 smart fortwo. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **unknown** — confidence none
-  - NHTSA: 0 complaints, 0 recalls for the 2015 smart fortwo
-  - Could not match "fortwo" to a model name NHTSA publishes for the 2015 smart, so no complaint or recall history was retrieved. This is ABSENCE OF DATA — it is not a clean record.
-  - Source: https://www.nhtsa.gov/vehicle/2015/SMART/FORTWO
-  - Caveat: No NHTSA record was retrieved for this vehicle. Check the NHTSA page directly before treating it as trouble-free.
-- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":55318,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (11 yr, 44,682 mi) — a pack failure would be entirely out of pocket."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
-  - Purchase price: $7,499
-  - Sales tax: $810
-  - Fuel / electricity: $3,630
-  - Maintenance: $1,386
-  - Insurance: $6,354
-  - Registration: $1,872
-  - Major-repair reserve (expected): $660
-  - **6-year total: $18,872** ($262/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $6,574
-
-### 123. 2017 Nissan Leaf SV — $5,584
+### 120. 2017 Nissan Leaf SV — $5,584
 
 - VIN: `1N4BZ0CP2HC301649`
 - Mileage: 70,617 mi · Color: Pearl White · Certified pre-owned
@@ -4245,7 +4152,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - 2-year total (Jordyn only): $6,958
 - Note: Lowest 6-year cost to own with AEB standard — about $477/mo all-in, and it should still be a good car when Emma drives.
 
-### 124. 2016 BMW i3 w/ Range Extender — $9,477
+### 121. 2016 BMW i3 w/ Range Extender — $9,477
 
 - VIN: `WBY1Z4C58GV506874`
 - Mileage: 65,498 mi · Color: Ionic Silver Metallic · Certified pre-owned
@@ -4278,7 +4185,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $23,768** ($330/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,802
 
-### 125. 2016 Volkswagen e-Golf SE — $8,000
+### 122. 2016 Volkswagen e-Golf SE — $8,000
 
 - VIN: `WVWKP7AU9GW917198`
 - Mileage: 67,000 mi · Color: White · Certified pre-owned
@@ -4310,7 +4217,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $19,525** ($271/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,006
 
-### 126. 2016 Volkswagen e-Golf SE — $8,980
+### 123. 2016 Volkswagen e-Golf SE — $8,980
 
 - VIN: `WVWKP7AU1GW913517`
 - Mileage: 69,930 mi · Color: Pure White · Certified pre-owned
@@ -4342,7 +4249,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $20,640** ($287/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,465
 
-### 127. 2016 Volkswagen e-Golf SE — $8,700
+### 124. 2016 Volkswagen e-Golf SE — $8,700
 
 - VIN: `WVWKP7AUXGW901334`
 - Mileage: 75,689 mi · Color: Pure White · Certified pre-owned
@@ -4374,7 +4281,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $20,435** ($284/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,376
 
-### 128. 2016 Ford C-MAX Energi SEL — $9,300
+### 125. 2016 Ford C-MAX Energi SEL — $9,300
 
 - VIN: `1FADP5CU8GL117767`
 - Mileage: 89,061 mi · Color: White · Certified pre-owned
@@ -4406,7 +4313,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $23,802** ($331/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,851
 
-### 129. 2021 Hyundai Accent SE — $8,499
+### 126. 2021 Hyundai Accent SE — $8,499
 
 - VIN: `3KPC24A66ME132355`
 - Mileage: 50,815 mi · Color: Black · Certified pre-owned
@@ -4437,7 +4344,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $21,981** ($305/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,899
 
-### 130. 2018 Ford Focus Electric Hatchback — $12,995
+### 127. 2018 Ford Focus Electric Hatchback — $12,995
 
 - VIN: `1FADP3R43JL296142`
 - Mileage: 9,861 mi · Color: Silver · Certified pre-owned
@@ -4471,7 +4378,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,752** ($344/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,136
 
-### 131. 2023 Fisker Ocean One — $15,990
+### 128. 2023 Fisker Ocean One — $15,990
 
 - VIN: `VCF1ZBU27PG003836`
 - Mileage: 12,285 mi · Color: Blue · Certified pre-owned
@@ -4505,7 +4412,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,021** ($375/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,955
 
-### 132. 2016 Nissan Leaf S — $5,777
+### 129. 2016 Nissan Leaf S — $5,777
 
 - VIN: `1N4AZ0CPXGC300713`
 - Mileage: 61,688 mi · Color: Super Black · Certified pre-owned
@@ -4537,7 +4444,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $20,091** ($279/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,024
 
-### 133. 2017 Kia Soul EV — $9,998
+### 130. 2017 Kia Soul EV — $9,998
 
 - VIN: `KNDJP3AE6H7021014`
 - Mileage: 35,871 mi · Color: Blue · Certified pre-owned
@@ -4570,7 +4477,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $21,002** ($292/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,375
 
-### 134. 2016 Kia Soul EV + — $9,000
+### 131. 2016 Kia Soul EV + — $9,000
 
 - VIN: `KNDJX3AE5G7013422`
 - Mileage: 48,222 mi · Color: Titanium Gray Metallic · Certified pre-owned
@@ -4602,7 +4509,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $20,209** ($281/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,093
 
-### 135. 2016 Kia Soul EV + — $9,195
+### 132. 2016 Kia Soul EV + — $9,195
 
 - VIN: `KNDJX3AE8G7013804`
 - Mileage: 54,443 mi · Color: Bright Silver Metallic · Certified pre-owned
@@ -4634,7 +4541,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $20,491** ($285/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,197
 
-### 136. 2021 Polestar Polestar 2 — $16,999
+### 133. 2021 Polestar Polestar 2 — $16,999
 
 - VIN: `LPSED3KA7ML010961`
 - Mileage: 101,244 mi · Color: Void · Certified pre-owned
@@ -4668,7 +4575,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $30,929** ($430/mo over 40,560 mi)
   - 2-year total (Jordyn only): $13,730
 
-### 137. 2015 BMW i3 w/ Range Extender — $11,995
+### 134. 2015 BMW i3 w/ Range Extender — $11,995
 
 - VIN: `WBY1Z4C53FV501807`
 - Mileage: 87,909 mi · Color: Arravani Gray W/Bmw I Frozen B · Certified pre-owned
@@ -4701,7 +4608,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,484** ($368/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,686
 
-### 138. 2019 Jeep Renegade Sport — $12,490
+### 135. 2019 Jeep Renegade Sport — $12,490
 
 - VIN: `ZACNJBAB7KPJ97788`
 - Mileage: 48,587 mi · Color: Black Clearcoat · Certified pre-owned
@@ -4732,7 +4639,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $28,869** ($401/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,101
 
-### 139. 2016 Mercedes-Benz GLA 250 4MATIC — $14,999
+### 136. 2016 Mercedes-Benz GLA 250 4MATIC — $14,999
 
 - VIN: `WDCTG4GB1GJ203842`
 - Mileage: 52,000 mi · Color: White · Certified pre-owned
@@ -4762,7 +4669,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $35,015** ($486/mo over 40,560 mi)
   - 2-year total (Jordyn only): $11,697
 
-### 140. 2017 Kia Optima Premium — $10,790
+### 137. 2017 Kia Optima Premium — $10,790
 
 - VIN: `KNAGT4LE0H5014559`
 - Mileage: 112,504 mi · Color: Aurora Black · Certified pre-owned
@@ -4793,7 +4700,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $23,625** ($328/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,605
 
-### 141. 2015 Toyota Prius C Two — $14,788
+### 138. 2015 Toyota Prius C Two — $14,788
 
 - VIN: `JTDKDTB33F1580305`
 - Mileage: 98,429 mi · Color: Black Sand Pearl · Certified pre-owned
@@ -4823,7 +4730,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $26,022** ($361/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,725
 
-### 142. 2017 Jeep Compass Trailhawk — $12,471
+### 139. 2017 Jeep Compass Trailhawk — $12,471
 
 - VIN: `3C4NJDDB6HT646969`
 - Mileage: 50,876 mi · Color: Gray · Certified pre-owned
@@ -4855,7 +4762,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $29,373** ($408/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,827
 
-### 143. 2017 BMW 320i Sedan — $14,490
+### 140. 2017 BMW 320i Sedan — $14,490
 
 - VIN: `WBA8A9C56HK619680`
 - Mileage: 52,144 mi · Color: Mineral Gray Metallic · Certified pre-owned
@@ -4886,7 +4793,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $36,392** ($505/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,144
 
-### 144. 2015 Ford C-MAX Energi SEL — $7,699
+### 141. 2015 Ford C-MAX Energi SEL — $7,699
 
 - VIN: `1FADP5CU4FL110331`
 - Mileage: 103,132 mi · Color: Grey · Certified pre-owned
@@ -4919,7 +4826,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $23,155** ($322/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,592
 
-### 145. 2016 Ford Focus Electric Hatchback — $9,988
+### 142. 2016 Ford Focus Electric Hatchback — $9,988
 
 - VIN: `1FADP3R45GL246268`
 - Mileage: 13,030 mi · Color: White · Certified pre-owned
@@ -4952,7 +4859,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $21,549** ($299/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,559
 
-### 146. 2019 Audi e-tron Premium Plus — $18,961
+### 143. 2019 Audi e-tron Premium Plus — $18,961
 
 - VIN: `WA1LAAGE8KB022976`
 - Mileage: 62,105 mi · Color: Mythos Black Metallic · Certified pre-owned
@@ -4986,7 +4893,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $32,443** ($451/mo over 40,560 mi)
   - 2-year total (Jordyn only): $12,180
 
-### 147. 2016 Audi A3 e-tron Prestige — $8,500
+### 144. 2016 Audi A3 e-tron Prestige — $8,500
 
 - VIN: `WAUSPBFFXGA083529`
 - Mileage: 120,249 mi · Color: Gray · Certified pre-owned
@@ -5018,7 +4925,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $27,427** ($381/mo over 40,560 mi)
   - 2-year total (Jordyn only): $9,491
 
-### 148. 2016 BMW X5 xDrive40e — $12,192
+### 145. 2016 BMW X5 xDrive40e — $12,192
 
 - VIN: `5UXKT0C58G0S76006`
 - Mileage: 109,038 mi · Color: Mineral Silver Metallic · Certified pre-owned
@@ -5051,7 +4958,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $30,072** ($418/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,240
 
-### 149. 2015 Toyota Prius C Two — $11,999
+### 146. 2015 Toyota Prius C Two — $11,999
 
 - VIN: `JTDKDTB38F1106026`
 - Mileage: 128,340 mi · Color: Super White · Certified pre-owned
@@ -5081,7 +4988,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,120** ($335/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,592
 
-### 150. 2021 Ford Mustang Mach-E Premium — $25,225
+### 147. 2021 Ford Mustang Mach-E Premium — $25,225
 
 - VIN: `3FMTK3SS1MMA35815`
 - Mileage: 37,438 mi · Color: Infinite Blue Metallic Tinted  · Certified pre-owned
@@ -5113,7 +5020,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $37,803** ($525/mo over 40,560 mi)
   - 2-year total (Jordyn only): $14,323
 
-### 151. 2021 Ford Mustang Mach-E Premium — $22,695
+### 148. 2021 Ford Mustang Mach-E Premium — $22,695
 
 - VIN: `3FMTK3SU8MMA10475`
 - Mileage: 65,680 mi · Color: Blue Metallic · Certified pre-owned
@@ -5145,7 +5052,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $36,518** ($507/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,088
 
-### 152. 2021 Ford Mustang Mach-E Premium — $24,800
+### 149. 2021 Ford Mustang Mach-E Premium — $24,800
 
 - VIN: `3FMTK3R73MMA42539`
 - Mileage: 60,360 mi · Color: Blue Metallic · Certified pre-owned
@@ -5177,7 +5084,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $37,857** ($526/mo over 40,560 mi)
   - 2-year total (Jordyn only): $15,546
 
-### 153. 2016 BMW X5 xDrive40e — $13,999
+### 150. 2016 BMW X5 xDrive40e — $13,999
 
 - VIN: `5UXKT0C57G0S75252`
 - Mileage: 90,455 mi · Color: Bronze · Certified pre-owned
@@ -5210,13 +5117,13 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $30,876** ($429/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,242
 
-### 154. 2021 Ford Mustang Mach-E Premium — $26,711
+### 151. 2021 Ford Mustang Mach-E Premium — $26,995
 
-- VIN: `3FMTK3SU3MMA39009`
-- Mileage: 52,043 mi · Color: Gray · Certified pre-owned
-- Location: Titus-Will Used Cars-Lakewood, Lakewood WA (32 mi away)
-- Days on lot: 14
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788850608
+- VIN: `3FMTK3SUXMMA05939`
+- Mileage: 46,874 mi · Color: Carbonized Gray · Certified pre-owned
+- Location: ZAG Motors Everett, Everett WA (22 mi away)
+- Days on lot: 20
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788396553
 - Powertrain: **Battery electric** · 270 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
 - Safety: AEB unknown · blind-spot unknown
@@ -5226,23 +5133,23 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - 58% of its 343 NHTSA complaints (198) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
   - Source: https://www.nhtsa.gov/vehicle/2021/FORD/MUSTANG%20MACH-E
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":3,"milesLeft":47957,"effectiveYears":3,"note":"Federal battery warranty still covers roughly 3.0 more year(s) at 130 mi/wk — limited by age (3 yr left of 8). Transfers to you."}
+- Traction battery warranty: {"covered":true,"yearsLeft":3,"milesLeft":53126,"effectiveYears":3,"note":"Federal battery warranty still covers roughly 3.0 more year(s) at 130 mi/wk — limited by age (3 yr left of 8). Transfers to you."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
-  - Salvage title: no · Accidents reported: no · One owner: no
+- Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own:
-  - Purchase price: $26,711
-  - Sales tax: $2,885
+  - Purchase price: $26,995
+  - Sales tax: $2,915
   - Fuel / electricity: $3,876
-  - Maintenance: $1,551
+  - Maintenance: $1,504
   - Insurance: $12,024
-  - Registration: $3,132
-  - Major-repair reserve (expected): $507
-  - **6-year total: $39,096** ($543/mo over 40,560 mi)
-  - 2-year total (Jordyn only): $15,671
+  - Registration: $3,150
+  - Major-repair reserve (expected): $483
+  - **6-year total: $39,234** ($545/mo over 40,560 mi)
+  - 2-year total (Jordyn only): $15,349
 
-### 155. 2024 MINI Cooper SE — $16,895
+### 152. 2024 MINI Cooper SE — $16,895
 
 - VIN: `WMW13DJ09R2V91896`
 - Mileage: 17,617 mi · Color: White · Certified pre-owned
@@ -5275,7 +5182,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $28,319** ($393/mo over 40,560 mi)
   - 2-year total (Jordyn only): $10,968
 
-### 156. 2017 Kia Optima Premium — $7,900
+### 153. 2017 Kia Optima Premium — $7,900
 
 - VIN: `KNAGT4LC5H5006732`
 - Mileage: 114,070 mi · Certified pre-owned
@@ -5307,7 +5214,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $21,090** ($293/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,575
 
-### 157. 2019 FIAT 500 e — $13,995
+### 154. 2019 FIAT 500 e — $13,995
 
 - VIN: `3C3CFFGE1KT802728`
 - Mileage: 28,290 mi · Color: Vesuvio Black Pearl · Certified pre-owned
@@ -5340,7 +5247,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $20,482** ($284/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,786
 
-### 158. 2018 FIAT 500 e — $10,929
+### 155. 2018 FIAT 500 e — $10,929
 
 - VIN: `3C3CFFGE5JT465091`
 - Mileage: 35,100 mi · Color: Pompei Silver · Certified pre-owned
@@ -5373,7 +5280,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $18,366** ($255/mo over 40,560 mi)
   - 2-year total (Jordyn only): $6,891
 
-### 159. 2017 FIAT 500 e — $8,000
+### 156. 2017 FIAT 500 e — $8,000
 
 - VIN: `3C3CFFGE9HT500855`
 - Mileage: 32,300 mi · Color: Orange · Certified pre-owned
@@ -5405,7 +5312,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $19,022** ($264/mo over 40,560 mi)
   - 2-year total (Jordyn only): $6,613
 
-### 160. 2017 FIAT 500 e — $8,380
+### 157. 2017 FIAT 500 e — $8,380
 
 - VIN: `3C3CFFGE7HT704571`
 - Mileage: 44,490 mi · Color: Nero Puro (straight Black) · Certified pre-owned
@@ -5437,7 +5344,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $19,573** ($272/mo over 40,560 mi)
   - 2-year total (Jordyn only): $6,812
 
-### 161. 2016 FIAT 500 e — $7,998
+### 158. 2016 FIAT 500 e — $7,998
 
 - VIN: `3C3CFFGE3GT193116`
 - Mileage: 71,397 mi · Color: Gray · Certified pre-owned
@@ -5469,7 +5376,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $19,663** ($273/mo over 40,560 mi)
   - 2-year total (Jordyn only): $6,860
 
-### 162. 2016 FIAT 500 e — $7,998
+### 159. 2016 FIAT 500 e — $7,998
 
 - VIN: `3C3CFFGE9GT113804`
 - Mileage: 87,101 mi · Color: White · Certified pre-owned
@@ -5501,7 +5408,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $19,900** ($276/mo over 40,560 mi)
   - 2-year total (Jordyn only): $6,953
 
-### 163. 2017 Ford C-MAX Energi SE — $11,502
+### 160. 2017 Ford C-MAX Energi SE — $11,502
 
 - VIN: `1FADP5EU3HL106089`
 - Mileage: 69,050 mi · Color: White Platinum · Certified pre-owned
@@ -5535,7 +5442,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,860** ($345/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,239
 
-### 164. 2018 FIAT 500 Lounge — $12,598
+### 161. 2018 FIAT 500 Lounge — $12,598
 
 - VIN: `3C3CFFCH8JT524182`
 - Mileage: 53,841 mi · Color: Bianco White Ice · Certified pre-owned
@@ -5566,7 +5473,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,945** ($346/mo over 40,560 mi)
   - 2-year total (Jordyn only): $8,799
 
-### 165. 2015 FIAT 500 e — $8,999
+### 162. 2015 FIAT 500 e — $8,999
 
 - VIN: `3C3CFFGE5FT709698`
 - Mileage: 40,501 mi · Color: Luce Blu · Certified pre-owned
@@ -5599,7 +5506,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $20,370** ($283/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,162
 
-### 166. 2017 Ford C-MAX Energi SE — $9,613
+### 163. 2017 Ford C-MAX Energi SE — $9,613
 
 - VIN: `1FADP5EUXHL104520`
 - Mileage: 81,118 mi · Color: Magnetic · Certified pre-owned
@@ -5633,7 +5540,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $24,210** ($336/mo over 40,560 mi)
   - 2-year total (Jordyn only): $7,997
 
-### 167. 2015 FIAT 500 e — $5,998
+### 164. 2015 FIAT 500 e — $5,998
 
 - VIN: `3C3CFFGE5FT741177`
 - Mileage: 95,451 mi · Color: Charcoal · Certified pre-owned
@@ -5666,7 +5573,7 @@ Every car we can find that could work as Jordyn's first car — 4730 listings se
   - **6-year total: $18,033** ($250/mo over 40,560 mi)
   - 2-year total (Jordyn only): $6,228
 
-### 168. 2019 FIAT 500 Pop Hatchback — $8,450
+### 165. 2019 FIAT 500 Pop Hatchback — $8,450
 
 - VIN: `3C3CFFKH6KT731415`
 - Mileage: 14,825 mi · Color: Black · Certified pre-owned
