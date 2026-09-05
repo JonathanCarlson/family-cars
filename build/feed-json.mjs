@@ -153,12 +153,42 @@ function historyOf(c) {
   return out;
 }
 
+/**
+ * The headline cost block, costed for whoever would actually drive this car.
+ *
+ * A Mach-E is a car for Kate, and publishing its cost at Jordyn's 6,760 mi/yr
+ * understated fuel and maintenance by half. `costedFor` is stated on the object
+ * so no consumer has to infer it — the previous block carried no driver label
+ * at all, which is why the mistake was invisible.
+ */
+function costToOwnFor(c) {
+  // `band` is tagged upstream from the same rules that build the two rosters,
+  // so this never has to guess from price or powertrain.
+  const forKate = c.band === 'kate';
+  const two = forKate ? (c.tco2Kate ?? c.tco2) : c.tco2;
+  const six = forKate ? (c.tco6Kate ?? c.tco6) : c.tco6;
+  return {
+    costedFor: forKate ? 'Kate' : 'Jordyn',
+    milesPerYear: forKate ? 13520 : 6760,
+    costedForNote: forKate
+      ? 'Costed at Kate\'s 13,520 mi/yr. See costToOwnByDriver.jordyn for the same car at Jordyn\'s 6,760.'
+      : 'Costed at Jordyn\'s 6,760 mi/yr (the 130 mi/week barn run). See costToOwnByDriver.kate for the same car at Kate\'s 13,520.',
+    twoYear: tcoOf(two),
+    sixYear: tcoOf(six),
+  };
+}
+
 function tcoOf(t) {
   if (!t || !t.items) return null;
   const i = t.items;
+  const years = t.years || 1;
   return {
     years: t.years,
     milesDriven: t.miles,
+    // The duty cycle this total was computed at. Without it a consumer cannot
+    // tell whose driving a figure represents — which is exactly how Kate's cars
+    // came to be read at Jordyn's 6,760 mi/yr.
+    milesPerYear: t.miles ? Math.round(t.miles / years) : null,
     powertrainUsed: t.power,
     electricMilesShare: t.evShare ?? null,
     costs: {
@@ -170,7 +200,12 @@ function tcoOf(t) {
       registrationAndFees: round(i.registration),
       majorRepairReserve: round(i.majorRepairReserve),
     },
-    resaleValueRecovered: round(i.depreciation),
+    // `items.resaleValueRecovered` — NOT `items.depreciation`, which does not
+    // exist. Reading the wrong key published null here, so the cost lines did
+    // not add up to the stated total and nobody could check the arithmetic.
+    // It is stored negative (money coming back), so flip it for a field whose
+    // name says "recovered".
+    resaleValueRecovered: round(Math.abs(i.resaleValueRecovered ?? 0)),
     totalCostOfOwnership: round(t.total),
     averagePerMonth: round(t.perMonth),
   };
@@ -288,7 +323,15 @@ function listingOf(c) {
     // distinct model-years across 121 listings) for no added information.
     reliabilityKey: c.reliability ? `${c.reliability.year} ${c.reliability.make} ${c.reliability.model}` : null,
     vehicleHistory: historyOf(c),
-    costToOwn: { twoYear: tcoOf(c.tco2), sixYear: tcoOf(c.tco6) },
+    costToOwn: costToOwnFor(c),
+    // Both duty cycles, always. "Who should drive this?" is the central
+    // question of the whole exercise, so a single total — silently at one
+    // driver's mileage — is the wrong shape of answer. Kate drives exactly
+    // double Jordyn, so an efficient car saves twice as much under her.
+    costToOwnByDriver: {
+      jordyn: { milesPerYear: 6760, twoYear: tcoOf(c.tco2), sixYear: tcoOf(c.tco6) },
+      kate: { milesPerYear: 13520, twoYear: tcoOf(c.tco2Kate ?? c.tco2), sixYear: tcoOf(c.tco6Kate ?? c.tco6), estimated: !c.tco6Kate },
+    },
     repairOutlook: repairOutlookOf(c),
     batteryHealth: batteryHealthOf(c),
     viability2032: c.viability
@@ -399,7 +442,9 @@ export function rosterFeed(data, allCars = null) {
       'reliabilityByModelYear.*.queriedAsNhtsaModel': 'The model name actually queried. NHTSA matches names exactly and splits many models by powertrain variant ("IONIQ HYBRID" vs "IONIQ PLUG-IN HYBRID" vs "IONIQ ELECTRIC"; "CLARITY PLUG-IN HYBRID" vs "CLARITY FUEL CELL"), returning an empty result with HTTP 200 on a miss. The variant is chosen from the VIN-resolved powertrain, never by name similarity. This field lets you verify we asked about the right car.',
       'reliabilityByModelYear.*.sourceUrl': 'Triangulated from freely accessible public sources, primarily NHTSA complaints/recalls. NOT J.D. Power and NOT Consumer Reports. Complaint counts are not adjusted for sales volume, so raw counts are not comparable between a high-volume and a low-volume model.',
       'listing.vehicleHistory': 'From the dealer-supplied CARFAX/AutoCheck summary on the listing. Badges come in affirming/negating pairs, so true AND false are both affirmative statements from the report; null means NEITHER badge was present, i.e. NOT REPORTED. Never read null as the negative. Always pull a full VIN history before buying.',
-      'listing.costToOwn': 'totalCostOfOwnership = purchasePrice + salesTax + fuelAndElectricity + maintenance + insurance + registrationAndFees + majorRepairReserve − resaleValueRecovered. Inputs are in costAssumptions.',
+      'listing.costToOwn': 'totalCostOfOwnership = purchasePrice + salesTax + fuelAndElectricity + maintenance + insurance + registrationAndFees + majorRepairReserve − resaleValueRecovered. Inputs are in costAssumptions. ⚠️ ALWAYS read costedFor and milesPerYear before quoting a total: this block is costed for whoever would actually drive THIS car, so a Mach-E is at Kate\'s 13,520 mi/yr while a Leaf for Jordyn is at 6,760. Comparing one driver\'s total against another\'s is meaningless.',
+      'listing.costToOwnByDriver': 'The SAME car costed both ways, so the assignment question ("who should drive this?") can be answered directly. Kate drives exactly double Jordyn (13,520 vs 6,760 mi/yr), so an efficient car saves twice as much parked under her — that ratio is the whole reason the question has an answer. `estimated: true` on the kate block means only the Jordyn-mileage figure existed and was reused; treat it as a floor, not a computed total.',
+      'listing.costToOwn.*.insurance': 'This car\'s own premium ONLY. The $2,400/yr to add Jordyn as a driver is a household cost — owed whichever car is bought — and is counted once in highlanderAndPlans, never here. Do not add it to a listing.',
       'listing.repairOutlook': 'ONE framework applied to every powertrain. Each hazard attaches only to components that powertrain actually has — an EV carries no engine, transmission, exhaust or emissions hazard; a plug-in hybrid carries BOTH the engine set and the high-voltage set. expectedReserveUsd is Σ(probability × cost) and is the budget number, already included in costToOwn.*.costs.majorRepairReserve; worstCaseExposure is the single largest plausible bill and is deliberately NOT averaged into it. Probabilities are engineering estimates scaled by age, odometer and ownership length, with stated ranges — not actuarial data. See repairHazardCatalog for each hazard\'s cost range and basis. NOTE: an earlier version of this model charged electric cars a battery allowance and charged gasoline and hybrid cars nothing for major repairs, which biased every cost comparison against EVs; correcting it moved electric cars up roughly 24 ranking places on average.',
       'listing.batteryHealth': 'Capacity loss ONLY. It reduces range and resale value and is deliberately NOT charged as a repair; catastrophic pack failure is a separate hazard in repairOutlook. Projected from pack age, odometer and thermal-management type for Seattle\'s mild climate and mostly overnight AC home charging — the two conditions that most slow degradation. Heat and frequent DC fast charging are the main accelerators and neither is expected here. This is a projection, not a measurement: verify with a real state-of-health readout (LeafSpy or equivalent) before buying.',
       'listing.viability2032': 'Coarse judgement of whether the car is still economically worth owning at the end of the 6-year window, from age, mileage, projected battery health, and the size of the expected repair reserve relative to the car\'s value. Condition of the individual car dominates all of it — get a pre-purchase inspection.',
@@ -566,11 +611,18 @@ export function rosterFeed(data, allCars = null) {
         weakestInput: 'Original MSRP is ESTIMATED per model-year, not looked up per VIN. It is the weakest input in the registration line; each listing carries its own uncertainty string.',
       },
       salesTaxRate: a.salesTaxRate ?? null,
-      teenInsuranceBaseUsdPerYear: a.insuranceTeenBase ?? null,
-      teenInsuranceRateOfVehicleValue: a.insuranceValueRate ?? null,
+      // The teen-driver addition is a HOUSEHOLD cost, not a per-car one. It is
+      // $2,400/yr to put Jordyn on the existing F150 + Highlander policy and is
+      // owed whichever car is bought, so it is counted once in
+      // highlanderAndPlans and deliberately NOT inside any listing's insurance
+      // line. Adding it to each car double-counted it and put $14,400 of
+      // phantom cost on every candidate.
+      teenDriverAdditionUsdPerYear: 2400,
+      teenDriverAdditionBasis: 'Agent quote, $200/mo, to add Jordyn as a third driver to the EXISTING two-car policy. Charged once at household level, never to a listing.',
+      perCarInsuranceBasis: 'Real agent quotes by VIN and by model where we have them; otherwise a published fit on wheelbase (r=0.95) and, failing that, price. Each listing carries its own source and uncertainty. Horsepower was tested and does NOT predict premium here (r=0.05).',
       maintenanceUsdPerMileByPowertrain: a.maintPerMile || null,
       knownWeaknesses: [
-        'Insurance is the single largest line item over six years and is an ESTIMATE. It has not been checked against a real teen-driver quote. This is why baseline-relative deltas (jordynPicks, marketAnalysis.baselineComparison) are more trustworthy than absolute totals — insurance is roughly common across cars and largely cancels out of a comparison.',
+        'Insurance is the single largest line item over six years. Real agent quotes now anchor it for five cars (matched by VIN, then by model); everything else is a fitted estimate whose error is published per listing rather than hidden. The teen-driver addition is NOT in these figures — it is a household cost, counted once in highlanderAndPlans.',
         'Original MSRP, which drives the RTA MVET portion of registration, is estimated per model-year rather than looked up per VIN.',
         'NHTSA complaint counts are not adjusted for sales volume, so raw counts are not comparable between a high-volume and a low-volume model.',
         'Washington\'s used-EV sales-tax exemption appears to have lapsed 2025-07-31 and is deliberately NOT modelled.',
@@ -634,7 +686,7 @@ export function feedText(feed) {
   L.push(`  electricity             $${typeof a.electricityUsdPerKwh === 'number' ? a.electricityUsdPerKwh.toFixed(3) : a.electricityUsdPerKwh}/kWh (PSE Sch 7 Tier-2 marginal, 6yr avg)`);
   L.push(`  WA road-use fee         $${a.washingtonEvFeeUsdPerYear}/yr BEV · $${a.washingtonPhevFeeUsdPerYear}/yr PHEV`);
   L.push(`  sales tax               ${(a.salesTaxRate * 100).toFixed(1)}%`);
-  L.push(`  teen insurance          $${a.teenInsuranceBaseUsdPerYear}/yr + ${(a.teenInsuranceRateOfVehicleValue * 100).toFixed(1)}% of value`);
+  L.push(`  teen driver addition    $${a.teenDriverAdditionUsdPerYear}/yr — household cost, NOT in any car's insurance line`);
   const m = a.maintenanceUsdPerMileByPowertrain || {};
   L.push(`  maintenance $/mi        BEV ${m.BEV} · PHEV ${m.PHEV} · HYB ${m.HYB} · ICE ${m.ICE}`);
   L.push('');

@@ -317,6 +317,17 @@
 .sb-awd { background: rgba(110,168,254,.16); border-color: rgba(110,168,254,.45); }
 .awd-yes { color: #93c5fd; }
 .awd-no { color: var(--muted); opacity: .8; }
+/* Both drivers side by side. The same car costs different amounts depending on
+   who parks it, so on the All-cars tab neither figure is privileged. */
+.bd { margin: 8px 0 6px; padding: 8px 10px; border-radius: 8px; background: rgba(255,255,255,.035); border: 1px solid rgba(255,255,255,.09); }
+.bd-h { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-bottom: 6px; }
+.bd-row { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 3px 0; flex-wrap: wrap; }
+.bd-who { font-size: 13px; }
+.bd-mi { font-size: 11px; color: var(--muted); }
+.bd-fig { font-size: 14px; font-weight: 700; }
+.bd-sub { font-size: 11px; font-weight: 400; color: var(--muted); }
+.bd-est { font-size: 11px; color: #fbbf24; width: 100%; }
+.bd-gap { font-size: 11px; color: var(--muted); margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,.08); line-height: 1.45; }
 /* Deliberately quiet next to "Send my picks" — clearing is destructive and
    should never be the easy mis-tap. */
 .clear-btn {
@@ -505,6 +516,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=3"></script>
-  <script src="jordyn.js?v=33"></script>
+  <script src="jordyn.js?v=35"></script>
 </body>
 </html>

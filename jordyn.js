@@ -220,6 +220,43 @@ function priceDisputeBlock(c) {
     </div>`;
 }
 
+/**
+ * Both drivers' costs, side by side.
+ *
+ * The same car costs materially different amounts depending on who parks it —
+ * Kate drives exactly double Jordyn — so "the" TCO does not exist. Showing one
+ * unlabelled number is what let a Mach-E be read at Jordyn's mileage on Kate's
+ * list. On the All-cars tab, where a car has not yet been assigned to anyone,
+ * both are shown and neither is privileged.
+ */
+function bothDriversBlock(c) {
+  // Two data shapes reach this: the published feed's `byDriver` (slim), and the
+  // page bundle's rich `tco6` / `tco6Kate` objects. Read either rather than
+  // silently rendering nothing, which is how the last breakdown regression hid.
+  const from = (d, rich, miles, who) => {
+    if (d) return d;
+    if (!rich) return null;
+    return { driver: who, milesPerYear: miles, sixYearUsd: rich.total, perMonth6Usd: rich.perMonth };
+  };
+  const j = from(c.byDriver?.jordyn, typeof c.tco6 === 'object' ? c.tco6 : null, 6760, 'Jordyn');
+  const k = from(c.byDriver?.kate, typeof c.tco6Kate === 'object' ? c.tco6Kate : null, 13520, 'Kate');
+  if (!j && !k) return '';
+  const row = (d, who, emoji) => d ? `
+    <div class="bd-row">
+      <div class="bd-who">${emoji} <b>${esc(who)}</b> <span class="bd-mi">${d.milesPerYear.toLocaleString()} mi/yr</span></div>
+      <div class="bd-fig">${money(d.sixYearUsd)} <span class="bd-sub">over 6 yr${d.perMonth6Usd ? ` · ${money(d.perMonth6Usd)}/mo` : ''}</span></div>
+      ${d.estimated ? '<div class="bd-est">estimated — no driver-specific figure computed</div>' : ''}
+    </div>` : '';
+  const gap = (j && k) ? k.sixYearUsd - j.sixYearUsd : null;
+  return `
+    <div class="bd">
+      <div class="bd-h">Cost to own — depends who drives it</div>
+      ${row(j, 'Jordyn', '👧')}
+      ${row(k, 'Kate', '👩')}
+      ${gap != null ? `<div class="bd-gap">${money(Math.abs(gap))} ${gap > 0 ? 'more' : 'less'} under Kate — she drives twice the miles, so running costs land twice as hard.</div>` : ''}
+    </div>`;
+}
+
 function tcoBlock(c) {
   const t = tcoOf(c);
   // The published feed serialises tco6 as a NUMBER, while the local build keeps
@@ -251,6 +288,8 @@ function tcoBlock(c) {
   return `
     <details class="tco">
       <summary><b>${money(t.total)}</b> to own over ${t.years} yr <span class="tco-mo">≈ ${money(t.perMonth)}/mo</span></summary>
+      <p class="basis-line">📊 This breakdown is at <b>${((t.miles && t.years) ? Math.round(t.miles / t.years) : 6760).toLocaleString()} mi/yr</b>
+        — ${(t.miles && t.years && Math.round(t.miles / t.years) > 10000) ? 'Kate' : 'Jordyn'}'s driving. The panel above shows the same car costed for both.</p>
       ${costRows(itemsToBreakdown(it, t))}
       <table class="tco-tbl">
         ${rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${money(v)}</td></tr>`).join('')}
@@ -366,6 +405,7 @@ function carCard(c) {
       ${c.priceNote ? `<div class="pricenote">${esc(c.priceNote)}</div>` : ''}
       <div class="chips">${chips.join('')}</div>
       ${c.note ? `<p class="standout-note">⭐ ${esc(c.note)}</p>` : ''}
+      ${bothDriversBlock(c)}
       ${tcoBlock(c)}
       ${reliabilityBlock(c)}
       ${outlookBlock(c)}
