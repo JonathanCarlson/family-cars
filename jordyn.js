@@ -175,14 +175,45 @@ function totalOf(c) {
 }
 
 /** The cost panel — shows its work so the model can be argued with. */
+/**
+ * The breakdown for a car from the published feed, where the total is a scalar
+ * and the components arrive as `costs.rows`.
+ */
+function publishedCostBlock(c) {
+  const cb = c.costs;
+  if (!cb?.rows?.length) return '';
+  const total = cb.totalUsd ?? (typeof c.tco6 === 'number' ? c.tco6 : null);
+  const mo = total ? Math.round(total / 72) : null;
+  return `
+    <details class="tco" open>
+      <summary><b>${money(total)}</b> to own over 6 yr${mo ? ` <span class="tco-mo">≈ ${money(mo)}/mo</span>` : ''}</summary>
+      ${costRows(cb)}
+      <table class="tco-tbl">
+        ${cb.rows.map((r) => `<tr><td>${esc(r.label)}</td><td class="num">${r.usd < 0 ? `−${money(Math.abs(r.usd))}` : money(r.usd)}</td></tr>`).join('')}
+        <tr class="tco-total"><td><b>Six-year total</b></td><td class="num"><b>${money(total)}</b></td></tr>
+      </table>
+      <p class="tco-note">Insurance is this car's own premium. Adding Jordyn to the policy costs $2,400/yr on top,
+        but that is owed whichever car is bought, so it sits in the family plan rather than on any one card.</p>
+    </details>`;
+}
+
 function tcoBlock(c) {
   const t = tcoOf(c);
-  if (!t || typeof t !== 'object') return '';
+  // The published feed serialises tco6 as a NUMBER, while the local build keeps
+  // the full object. This block only ever handled the object, so on the live
+  // site it silently returned nothing and every card lost its breakdown —
+  // leaving a bare "6yr $47,000" with no way to see why one car beat another.
+  // Fall back to the published `costs` rows.
+  if (!t || typeof t !== 'object') return publishedCostBlock(c);
   const it = t.items;
+  if (!it) return publishedCostBlock(c);
   const rows = [
     ['Sales tax', it.salesTax],
     ['Fuel / charging', it.energy],
-    ['Insurance (teen driver)', it.insurance],
+    // NOT "teen driver" — that addition is a household cost, incurred because
+    // Jordyn drives at all rather than because of this car, and counted once in
+    // the family plan. This line is the car's own quoted premium.
+    ['Insurance (this car)', it.insurance],
     ['Maintenance', it.maintenance],
     ['Tabs + WA EV fee', it.registration],
     ['Major repairs (expected)', it.majorRepairReserve],
@@ -197,13 +228,34 @@ function tcoBlock(c) {
   return `
     <details class="tco">
       <summary><b>${money(t.total)}</b> to own over ${t.years} yr <span class="tco-mo">≈ ${money(t.perMonth)}/mo</span></summary>
+      ${costRows(itemsToBreakdown(it, t))}
       <table class="tco-tbl">
         ${rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${money(v)}</td></tr>`).join('')}
         <tr class="tco-total"><td>Total</td><td>${money(t.total)}</td></tr>
       </table>
       <p class="tco-note">Running cost on top of the ${money(it.purchase)} purchase price, at ${DATA.assumptions?.milesPerWeek ?? 130} mi/week.</p>
+      <p class="tco-note">Insurance is this car's own quoted premium. Adding Jordyn to the policy costs a further $2,400/yr,
+        but that is owed whichever car is bought, so it sits in the family plan rather than on any one car.</p>
       ${tail}
     </details>`;
+}
+
+/**
+ * Turn the rich `items` object into the same rows the published feed carries,
+ * so one bar renderer serves both shapes.
+ */
+function itemsToBreakdown(it, t) {
+  if (!it) return null;
+  const n = (k) => Math.round(it[k] ?? 0);
+  const rows = [
+    { key: 'purchase', label: 'Purchase', usd: n('purchase') + n('salesTax') },
+    { key: 'resale', label: 'Less resale', usd: n('resaleValueRecovered') },
+    { key: 'energy', label: t?.power === 'BEV' ? 'Electricity' : 'Fuel', usd: n('energy') },
+    { key: 'insurance', label: 'Insurance', usd: n('insurance') },
+    { key: 'maintenance', label: 'Maintenance', usd: n('maintenance') + n('majorRepairReserve') },
+    { key: 'registration', label: 'Tabs & fees', usd: n('registration') },
+  ].filter((r) => r.usd !== 0);
+  return { rows, totalUsd: Math.round(t?.total ?? 0) };
 }
 
 /**
@@ -339,8 +391,17 @@ const FACET_DEFS = [
   },
   { id: 'miles', label: 'Miles', opts: [['u80', 'Under 80k'], ['u50', 'Under 50k']], test: (c, v) => (c.miles ?? 9e9) < (v === 'u50' ? 50000 : 80000) },
   { id: 'body', label: 'Shape', opts: [['small', 'Small car'], ['suv', 'SUV / crossover']], test: (c, v) => {
-    const s = `${c.model} ${c.trim || ''}`.toLowerCase();
-    const isSuv = /suv|crossover|rav4|cr-v|crv|equinox|rogue|escape|tucson|sportage|forester|crosstrek|hr-v|trax|encore|kona|niro|bolt euv|seltos|venue|soul/.test(s);
+    // Prefer the body style resolved upstream and published on the car. This
+    // used to be a second, independent regex maintained here on the page, and it
+    // had drifted: it listed kona and niro but not xc40, c40, mach-e, id.4, ev6,
+    // ioniq 5, ariya, e-tron or model y. Filtering "electric SUV/crossover"
+    // therefore hid every XC40 — one of the cars specifically asked about.
+    // One source of truth, computed where the data is built.
+    const s = `${c.make || ''} ${c.model} ${c.trim || ''}`.toLowerCase();
+    const style = (c.bodyStyle || '').toLowerCase();
+    const isSuv = style
+      ? /suv|truck|van/.test(style)
+      : /suv|crossover|rav4|cr-v|crv|equinox|rogue|escape|tucson|sportage|forester|crosstrek|hr-v|trax|encore|kona|niro|bolt euv|seltos|venue|soul|xc40|c40|mach-?e|id\.?4|ev6|ioniq ?5|ariya|e-?tron|model ?y/.test(s);
     return v === 'suv' ? isSuv : !isSuv;
   } },
 ];
@@ -482,6 +543,20 @@ function kateCostBreakdown(c) {
  * spreadsheet with a scrollbar; the summary carries almost all the
  * decision-relevant information in one line per group.
  */
+/**
+ * The cost lines behind a six-year total, as a compact bar + figures. Without
+ * this a card just asserts "6yr $47,000" and there is no way to see why one car
+ * beats another — which is the entire reason for computing a TCO.
+ */
+function costRows(cb) {
+  if (!cb?.rows?.length) return '';
+  const spend = cb.rows.filter((r) => r.usd > 0);
+  const scale = spend.reduce((s, r) => s + r.usd, 0) || 1;
+  const bar = spend.map((r) => `<span class="cb-seg cb-${r.key}" style="width:${((r.usd / scale) * 100).toFixed(1)}%" title="${esc(r.label)} ${money(r.usd)}"></span>`).join('');
+  const cells = cb.rows.map((r) => `<span class="cb-cell"><span class="cb-sw cb-${r.key}"></span>${esc(r.label)} <b>${r.usd < 0 ? `−${money(Math.abs(r.usd))}` : money(r.usd)}</b></span>`).join('');
+  return `<div class="cb"><div class="cb-bar">${bar}</div><div class="cb-legend">${cells}</div></div>`;
+}
+
 function renderBand(bandId, elId) {
   const el = $(elId);
   if (!el) return;
@@ -506,6 +581,7 @@ function renderBand(bandId, elId) {
         <div class="opp-h">${esc(c.name)}</div>
         <div class="opp-s">${money(c.priceUsd)} · ${milesFmt(c.odometerMiles)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''} · 6yr ${money(c.sixYearTco)}</div>
         <div class="opp-s">${c.safety?.meets ? '✅ automatic braking confirmed' : '⚠️ automatic braking unconfirmed'}</div>
+        ${costRows(c.costs)}
         <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">Full detail ↓</a></p>
       </div>`).join('')}
       ${w.more ? `<p class="tco-note">${esc(w.more)}</p>` : ''}
@@ -524,7 +600,8 @@ function renderBand(bandId, elId) {
         <div class="opp-s">Automatic braking standard on ${c.safetyQualifiedPct}% of them${c.generationNote ? ` · ${esc(c.generationNote)}` : ''}</div>
         <ul class="rel-list">
           ${c.exemplars.map((e) => `<li><b>${esc(e.role)}:</b> ${esc(e.name)} — ${money(e.priceUsd)}, 6yr ${money(e.sixYearTco)}
-            <a href="#" class="listing" data-goto-vin="${esc(e.vin)}">detail ↓</a></li>`).join('')}
+            <a href="#" class="listing" data-goto-vin="${esc(e.vin)}">detail ↓</a>
+            ${costRows(e.costs)}</li>`).join('')}
         </ul>
       </div>`).join('')}
     </div>`);
@@ -1404,7 +1481,23 @@ function gotoCar(vin) {
       if (el) break;
     }
   }
-  if (!el) return false;
+  if (!el) {
+    // Never fail silently. The old behaviour switched tabs, found nothing and
+    // left you at the top of a 600-car list with no idea why — which reads as
+    // the link being broken rather than the car being missing. Say so.
+    const status = document.createElement('div');
+    status.className = 'card';
+    status.innerHTML = `<p class="tco-note">⚠️ That car has full detail but isn't in the current list —
+      it may have sold since the last sweep. Try <b>Browse everything</b>, or search its VIN
+      <code>${esc(vin)}</code>.</p>`;
+    const grid = document.querySelector('#cars-grid');
+    if (grid) {
+      grid.prepend(status);
+      setTimeout(() => status.remove(), 6000);
+      status.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    return false;
+  }
   el.scrollIntoView({ behavior: 'smooth', block: 'center' });
   el.classList.add('flash');
   setTimeout(() => el.classList.remove('flash'), 2200);
