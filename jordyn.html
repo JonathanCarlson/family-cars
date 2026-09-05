@@ -63,9 +63,20 @@
        invisible AND untappable. Reset EVERY inherited property here, not just
        display. See .github/skills/car-site/SKILL.md. */
     .tabbar {
-      position: static; bottom: auto; left: auto; right: auto; z-index: auto;
-      background: transparent; backdrop-filter: none; border-top: 0;
-      display: flex; gap: 6px; padding: 4px 16px 8px; max-width: 760px; margin: 0 auto;
+      /* Sticky at the top so the tabs double as a back button. The "All cars"
+         list runs to hundreds of entries and scrolling back up to switch tabs
+         was the main navigation complaint.
+         ⚠️ position:sticky, NOT fixed. Fixed would take the bar out of flow and
+         reintroduce exactly the trip-app bug described below — an element
+         positioned against the viewport rather than sitting in the column flow.
+         Sticky keeps it a normal flex item until it reaches top:0.
+         It also needs an opaque background: it was transparent, which is fine
+         for a bar that scrolls away and unreadable for one that cards slide
+         under. */
+      position: sticky; top: 0; bottom: auto; left: auto; right: auto; z-index: 30;
+      background: var(--bg, #0f1621); backdrop-filter: none; border-top: 0;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      display: flex; gap: 6px; padding: 8px 16px; max-width: 760px; margin: 0 auto;
       /* Four tabs of nowrap text are wider than a phone, so the bar must scroll
          on its own rather than pushing the document wide.
          ⚠️ min-width:0 is what MAKES that work. The shared styles.css sets
@@ -294,6 +305,18 @@
 .pd-h { font-size: 12px; font-weight: 700; color: #fca5a5; margin-bottom: 4px; }
 .pd-b { font-size: 12px; color: var(--fg); margin: 3px 0; line-height: 1.45; }
 .pd-s { font-size: 11px; color: var(--muted); margin: 4px 0 0; }
+/* The duty cycle a set of totals was computed at. Two tabs showing "6yr $31,000"
+   against different mileages, with nothing saying so, gets believed. */
+.basis-line { font-size: 12px; color: var(--muted); margin: 8px 0 0; padding: 7px 9px; border-radius: 7px;
+  background: rgba(110,168,254,.10); border: 1px solid rgba(110,168,254,.28); line-height: 1.5; }
+.basis-line b { color: var(--fg); }
+.verdict-good { font-size: 13px; margin: 10px 0 0; padding: 9px 11px; border-radius: 8px; line-height: 1.5;
+  background: rgba(52,211,153,.10); border: 1px solid rgba(52,211,153,.35); }
+.verdict-split { font-size: 13px; margin: 10px 0 0; padding: 9px 11px; border-radius: 8px; line-height: 1.55;
+  background: rgba(251,191,36,.10); border: 1px solid rgba(251,191,36,.38); }
+.sb-awd { background: rgba(110,168,254,.16); border-color: rgba(110,168,254,.45); }
+.awd-yes { color: #93c5fd; }
+.awd-no { color: var(--muted); opacity: .8; }
 /* Deliberately quiet next to "Send my picks" — clearing is destructive and
    should never be the easy mis-tap. */
 .clear-btn {
@@ -482,6 +505,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=3"></script>
-  <script src="jordyn.js?v=32"></script>
+  <script src="jordyn.js?v=33"></script>
 </body>
 </html>

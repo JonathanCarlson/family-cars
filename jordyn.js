@@ -315,6 +315,8 @@ function carCard(c) {
   const vote = VOTES[c.vin];
   const note = COMMENTS[c.vin] || '';
   const chips = [safetyBadge(c), bsmBadge(c)];
+  // Drivetrain, from the VIN. A tie-breaker for Kate rather than a requirement.
+  if (c.awd === true) chips.push('<span class="sb sb-awd" title="All-wheel drive, per the manufacturer VIN record">❄️ AWD</span>');
   if (/Top Safety Pick/.test(c.safety?.iihs || '')) chips.push('<span class="sb sb-ok">🏆 IIHS Top Safety Pick</span>');
   else if (c.safety?.iihsNotRated) chips.push('<span class="sb" title="IIHS did not separately test this powertrain">🏆 IIHS — not this variant</span>');
   chips.push(`<span class="sb">${POWER_LABEL[c.power] || esc(c.power)}</span>`);
@@ -581,6 +583,17 @@ function costRows(cb) {
   return `<div class="cb"><div class="cb-bar">${bar}</div><div class="cb-legend">${cells}</div></div>`;
 }
 
+/**
+ * All-wheel drive. A tie-breaker for Kate, never a filter — the F150 covers
+ * snow and towing, so this is something to weigh, not a gate. Unknown is shown
+ * as unknown rather than quietly implying front-wheel drive.
+ */
+function awdChip(c) {
+  if (c.awd === true) return ` · <b class="awd-yes">❄️ AWD</b>`;
+  if (c.awd === false) return ` · <span class="awd-no">FWD/RWD</span>`;
+  return '';
+}
+
 function renderBand(bandId, elId) {
   const el = $(elId);
   if (!el) return;
@@ -593,6 +606,7 @@ function renderBand(bandId, elId) {
     <p class="ins-verdict">${esc(b.decidedBy)}</p>
     <p class="tco-note"><b>Powertrain:</b> ${esc(b.powertrainRule)}</p>
     <p class="tco-note">${esc(b.note)}</p>
+    ${b.costBasis ? `<p class="basis-line">📊 Every total on this tab is costed at <b>${b.costBasis.milesPerYear.toLocaleString()} mi/yr</b> — ${esc(b.costBasis.driver)}'s driving. ${esc(b.costBasis.note.split('—')[1] || '').trim()}</p>` : ''}
   </div>`);
 
   for (const w of (b.watchlist || [])) {
@@ -604,7 +618,7 @@ function renderBand(bandId, elId) {
       ${w.cars.map((c) => `<div class="opp">
         <div class="opp-h">${esc(c.name)}</div>
         <div class="opp-s">${money(c.priceUsd)} · ${milesFmt(c.odometerMiles)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''} · 6yr ${money(c.sixYearTco)}</div>
-        <div class="opp-s">${c.safety?.meets ? '✅ automatic braking confirmed' : '⚠️ automatic braking unconfirmed'}</div>
+        <div class="opp-s">${c.safety?.meets ? '✅ automatic braking confirmed' : '⚠️ automatic braking unconfirmed'}${awdChip(c)}</div>
         ${costRows(c.costs)}
         <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">Full detail ↓</a></p>
       </div>`).join('')}
@@ -638,6 +652,31 @@ function renderBand(bandId, elId) {
   el.innerHTML = parts.join('');
 }
 
+/**
+ * Which plan wins depends entirely on how long you hold. Showing only the
+ * six-year number would hide that the cheapest plan over six years is the
+ * DEAREST over two — and two years is the window the family has to fund now.
+ */
+function horizonVerdict(P) {
+  const six = P.plans?.find((p) => p.isCheapest);
+  const two = P.twoYear?.plans?.find((p) => p.isCheapest);
+  if (!six || !two) return '';
+  if (six.id === two.id) {
+    return `<p class="verdict-good">✅ <b>Plan ${esc(six.letter)}</b> is cheapest over both horizons — it wins now and it wins later,
+      so the decision does not hinge on how long you keep the cars.</p>`;
+  }
+  const twoSix = P.twoYear.plans.find((p) => p.id === six.id);
+  const gap = twoSix ? twoSix.netUsd - two.netUsd : null;
+  return `<p class="verdict-split">⚖️ <b>The answer changes with the horizon.</b>
+    Over <b>two years</b> — Jordyn's window, and the money you actually have to find now — <b>Plan ${esc(two.letter)}</b>
+    is cheapest. Over <b>six</b>, <b>Plan ${esc(six.letter)}</b> wins.
+    ${gap ? `Plan ${esc(six.letter)} costs <b>${money(gap)} more</b> in the first two years; it only comes out ahead because
+    that extra spend keeps paying back through year six.` : ''}
+    So this is not "which plan is cheapest" — it is <b>how long do you intend to hold these cars</b>. Commit to six years
+    and Plan ${esc(six.letter)} is right. If there is a real chance of changing course sooner, Plan ${esc(two.letter)}
+    keeps the options open for less.</p>`;
+}
+
 function renderFamily() {
   const f = DATA.family;
   const el = $('#family-body');
@@ -660,7 +699,16 @@ function renderFamily() {
         <tr><th>WA trade-in sales-tax credit</th><td>+${money(hp.tradeInTaxCreditUsd)}</td></tr>
         <tr><th>Run it 6 yrs — Jordyn (${(hp.ifJordynDrivesIt.milesPerYear).toLocaleString()} mi/yr)</th><td>${money(hp.ifJordynDrivesIt.runningUsd)} · ${money(hp.ifJordynDrivesIt.perMonthUsd)}/mo</td></tr>
         <tr><th>Run it 6 yrs — Kate (${(hp.ifKateKeepsIt.milesPerYear).toLocaleString()} mi/yr)</th><td>${money(hp.ifKateKeepsIt.runningUsd)} · ${money(hp.ifKateKeepsIt.perMonthUsd)}/mo</td></tr>
+        <tr class="tco-total"><th>Six-year cost to KEEP — Jordyn driving</th><td><b>${money(hp.ifJordynDrivesIt.tcoUsd)}</b></td></tr>
+        <tr class="tco-total"><th>Six-year cost to KEEP — Kate driving</th><td><b>${money(hp.ifKateKeepsIt.tcoUsd)}</b></td></tr>
       </table></div>
+      <p class="tco-note">The two "cost to keep" lines are running cost <b>plus the resale value used up</b> by driving it —
+        that is the figure that compares like-for-like against buying something. It costs
+        ${money(hp.ifKateKeepsIt.tcoUsd - hp.ifJordynDrivesIt.tcoUsd)} more under Kate purely because she drives twice the miles
+        (${(hp.ifKateKeepsIt.milesPerYear).toLocaleString()} vs ${(hp.ifJordynDrivesIt.milesPerYear).toLocaleString()} mi/yr).</p>
+      <p class="basis-line">📊 Neither figure uses Kate's <b>current</b> 17,000 mi/yr. That number is today's driving, and it
+        drops the moment Jordyn starts: about 3,500 mi/yr of barn runs transfer from Kate to Jordyn rather than being new
+        driving. It survives only as the "do nothing" baseline further down, where Jordyn is not driving at all.</p>
       <p class="tco-note">${esc(hp.note)}</p>
       ${hp.risk ? `<p class="fineprint fineprint-bad">⚠️ ${esc(hp.risk.verdict)} NHTSA has ${hp.risk.complaintCount} complaints on file for this model year; the dominant one is an 8-speed transmission failure quoted at $10,000–$11,000, clustering at 70k–120k miles.</p>` : ''}
     </div>`);
@@ -672,14 +720,18 @@ function renderFamily() {
       <h2 class="ins-h">🔀 The three ways to do this</h2>
       <p class="tier-blurb">${esc(P.method)}</p>
       <div class="tscroll"><table class="assump-tbl band-tbl">
-        <tr><th>Plan</th><th>Cash now</th><th>6-yr net</th><th>vs best</th></tr>
-        ${P.plans.map((p) => `<tr>
-          <td>${p.isCheapest ? '★ ' : ''}${esc(p.label)}<div class="why">${esc(p.whoGetsWhat)}</div></td>
+        <tr><th>Plan</th><th>Cash now</th><th>2-yr net</th><th>6-yr net</th></tr>
+        ${P.plans.map((p) => {
+          const two = P.twoYear?.plans?.find((x) => x.id === p.id);
+          return `<tr>
+          <td><b>${esc(p.letter || '')}</b> · ${esc(p.label)}<div class="why">${esc(p.whoGetsWhat)}</div></td>
           <td>${money(p.cashNeededNowUsd)}</td>
-          <td><b>${money(p.sixYearNetUsd)}</b></td>
-          <td class="${p.vsCheapestUsd ? 'dlt-bad' : 'dlt-good'}">${p.vsCheapestUsd ? `+${money(p.vsCheapestUsd)}` : 'best'}</td>
-        </tr>`).join('')}
+          <td class="${two?.isCheapest ? 'dlt-good' : ''}">${two ? `${money(two.netUsd)}${two.isCheapest ? ' ★' : ''}` : '—'}</td>
+          <td class="${p.isCheapest ? 'dlt-good' : ''}"><b>${money(p.sixYearNetUsd)}</b>${p.isCheapest ? ' ★' : ''}</td>
+        </tr>`;
+        }).join('')}
       </table></div><p class="tscroll-hint">← swipe the table sideways for the rest →</p>
+      ${horizonVerdict(P)}
       ${P.plans.filter((p) => p.changes?.considerations?.length).map((p) => `<div class="opp">
         <div class="opp-h">${esc(p.label)} — what would change</div>
         <div class="opp-s">${esc(p.changes.summary)}</div>
