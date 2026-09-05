@@ -251,6 +251,21 @@ function listingOf(c) {
 
     askingPriceUsd: c.price ?? null,
     priceRecentlyReduced: Boolean(c.priceNote),
+    // A price the seller has told us is wrong must never be read as fact by a
+    // downstream consumer. When priceStatus is 'disputed', askingPriceUsd is
+    // the listing's claim, NOT a price anyone will honour — use
+    // priceDispute.dealerSaysUsd and sixYearTcoRangeUsd instead.
+    priceStatus: c.priceStatus ?? 'as-listed',
+    priceDispute: c.priceFact ? {
+      scrapedPriceUsd: c.priceFact.scrapedPriceUsd ?? null,
+      dealerSaysUsd: c.priceFact.dealerSaysUsd ?? null,
+      confirmedPriceUsd: c.priceFact.confirmedPriceUsd ?? null,
+      verifiedOn: c.priceFact.asOf ?? null,
+      verifiedVia: c.priceFact.source ?? null,
+      note: c.priceFact.note ?? null,
+    } : null,
+    sixYearTcoRangeUsd: c.tcoRange6 ? { min: c.tcoRange6.minUsd, max: c.tcoRange6.maxUsd } : null,
+    rankedAtPriceUsd: c.pricedAtUsd ?? null,
     odometerMiles: c.miles ?? null,
     exteriorColor: c.color || null,
     condition: c.cert || null,
@@ -370,6 +385,9 @@ export function rosterFeed(data, allCars = null) {
     // objects carry only what actually varies (evidence strings, warnings that
     // apply); these are the standing rules for interpreting those fields.
     fieldNotes: {
+      'listing.priceStatus': '"as-listed" = the scraped asking price stands. "disputed" = the SELLER has told us the listed price is wrong — do NOT use askingPriceUsd as a real price, and do not present it as one. Read priceDispute.dealerSaysUsd for what they actually said and sixYearTcoRangeUsd for the cost implication. "confirmed" = verified by phone, askingPriceUsd is correct.',
+      'listing.priceDispute': 'A hand-verified correction from a phone call, not a scrape. Survives the nightly refresh. Where present it OVERRIDES the listing. The car is deliberately kept on the list — a wrong price is a reason to re-cost it, not to discard it.',
+      'listing.sixYearTcoRangeUsd': 'Present only for disputed prices: the six-year cost computed across the range the seller gave, rather than a single figure implying precision we do not have. costToOwn elsewhere is computed at rankedAtPriceUsd, the midpoint of that range.',
       'listing.powertrain': 'Resolved from the VIN via NHTSA vPIC, never from the model name — a "Hyundai Ioniq" is sold as a hybrid, a plug-in hybrid AND a battery EV. `vinVerified: false` means range/energy/battery figures are model-level assumptions; a `caution` string is then present.',
       'listing.electricDriveShare': 'Fraction of miles actually driven on electricity at 130 mi/week (~19 mi/day). 1 = battery-electric. A plug-in hybrid with ~50 miles of range approaches 1 at this duty cycle, i.e. it runs as a de-facto EV; a short-range plug-in does not. This is the meaningful measure of "primarily electric drive", not battery presence.',
       'listing.safety.*.confidence': '"vin-trim-confirmed" = the manufacturer reports this as standard for this VIN\'s trim (NHTSA vPIC). "model-year-typical" = model-year research, NOT confirmed for this car. "unknown" = no data. vPIC is a paperwork record, not a physical inspection — confirm on the vehicle.',
