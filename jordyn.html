@@ -274,8 +274,7 @@
 .opp:first-of-type { border-top: 0; }
 .opp-h { font-size: 14px; font-weight: 600; }
 .opp-s { font-size: 12px; color: var(--muted); margin: 2px 0 4px; }
-/* Cost breakdown: why this total, not just what it is. */
-.cb { margin: 6px 0 4px; }
+/* Cost breakdown: why this total, not just what it is. */.cb { margin: 6px 0 4px; }
 .cb-bar { display: flex; width: 100%; height: 7px; border-radius: 4px; overflow: hidden; background: #1b2330; }
 .cb-seg { display: block; height: 100%; }
 .cb-legend { display: flex; flex-wrap: wrap; gap: 3px 10px; margin-top: 5px; font-size: 11px; color: var(--muted); }
@@ -289,6 +288,12 @@
 .cb-maintenance { background: #a78bfa; }
 .cb-registration { background: #94a3b8; }
 .cb-other { background: #64748b; }
+/* A listed price the seller has disowned. Loud on purpose. */
+.price-bad { opacity: .55; text-decoration-color: #f87171; }
+.price-dispute { margin: 6px 0; padding: 8px 10px; border-radius: 8px; background: rgba(248,113,113,.10); border: 1px solid rgba(248,113,113,.35); }
+.pd-h { font-size: 12px; font-weight: 700; color: #fca5a5; margin-bottom: 4px; }
+.pd-b { font-size: 12px; color: var(--fg); margin: 3px 0; line-height: 1.45; }
+.pd-s { font-size: 11px; color: var(--muted); margin: 4px 0 0; }
 /* Deliberately quiet next to "Send my picks" — clearing is destructive and
    should never be the easy mis-tap. */
 .clear-btn {
@@ -477,6 +482,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=3"></script>
-  <script src="jordyn.js?v=31"></script>
+  <script src="jordyn.js?v=32"></script>
 </body>
 </html>

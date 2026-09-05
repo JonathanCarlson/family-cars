@@ -197,6 +197,29 @@ function publishedCostBlock(c) {
     </details>`;
 }
 
+/**
+ * A listed price the seller has told us is wrong.
+ *
+ * Shown rather than silently patched: the listing is still worth watching, but
+ * a six-year total computed from a price nobody will honour is false precision
+ * aimed at a real decision. The scraped figure is struck through, the dealer's
+ * own words are quoted, and the cost is given as a span.
+ */
+function priceDisputeBlock(c) {
+  const f = c.priceFact;
+  if (!f || c.priceStatus !== 'disputed') return '';
+  const r = c.tcoRange6;
+  const said = f.dealerSaysUsd;
+  return `
+    <div class="price-dispute">
+      <div class="pd-h">⚠️ The listed price is wrong — the dealer says so</div>
+      <p class="pd-b">${esc(f.note)}</p>
+      ${said ? `<p class="pd-b"><b>Listed ${money(f.scrapedPriceUsd)}</b> · dealer says <b>${esc(said.phrasing)}</b> (${money(said.min)}–${money(said.max)}), no price set yet.</p>` : ''}
+      ${r ? `<p class="pd-b">Costed across that span, six years works out at <b>${money(r.minUsd)}–${money(r.maxUsd)}</b>${c.pricedAtUsd ? `; it is ranked at the midpoint, ${money(c.pricedAtUsd)}` : ''}.</p>` : ''}
+      <p class="pd-s">${esc(f.source)}, ${esc(f.asOf)}. Awaiting a firm number.</p>
+    </div>`;
+}
+
 function tcoBlock(c) {
   const t = tcoOf(c);
   // The published feed serialises tco6 as a NUMBER, while the local build keeps
@@ -334,9 +357,10 @@ function carCard(c) {
     <div class="car-body">
       <div class="car-head">
         <h3>${esc(c.label)}${c.trim ? ` <span class="trim">${esc(c.trim)}</span>` : ''}</h3>
-        <div class="price">${money(c.price)}</div>
+        <div class="price">${c.priceStatus === 'disputed' ? `<s class="price-bad">${money(c.price)}</s>` : money(c.price)}</div>
       </div>
       <div class="car-sub">${milesFmt(c.miles)}${c.location ? ` · ${esc(c.location)}` : ''}${c.distanceMi != null ? ` · ${c.distanceMi} mi away` : ''}</div>
+      ${priceDisputeBlock(c)}
       ${c.priceNote ? `<div class="pricenote">${esc(c.priceNote)}</div>` : ''}
       <div class="chips">${chips.join('')}</div>
       ${c.note ? `<p class="standout-note">⭐ ${esc(c.note)}</p>` : ''}
