@@ -7,7 +7,7 @@ _Safety first, then cost to own · 130 mi/week · $15k target, searched to $22k_
 > nightly from live dealer inventory. Prices and availability change daily;
 > always confirm against the listing URL before acting on anything here.
 
-Every car we can find that could work as Jordyn's first car — 4732 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging (priced at the mileage this household really gets, not the optimistic EPA sticker), teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
+Every car we can find that could work as Jordyn's first car — 4736 listings searched across a 250-mile radius, no model list, nothing ruled out by make. The “What the data says” tab has the answers: which models hold up, whether electric really beats petrol once you compare like with like, and whether spending past the $15k target buys anything. The shortlist below is a handful of cars per question — cheapest to own, best electric, best under budget, strongest safety — rather than a wall of near-identical listings. Browse everything if you want the long tail. Cars are ranked on total cost to own, not sticker price: fuel or charging (priced at the mileage this household really gets, not the optimistic EPA sticker), teen-driver insurance, maintenance, Washington's EV fee, depreciation, and a major-repair reserve built the same way for every powertrain. Tap 👍/👎 and add notes, then hit "Send my picks."
 
 ## How to read this
 
@@ -67,9 +67,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 | 25 | 2021 Chevrolet Spark ACTIV | $17,968 | 19,562 | Gasoline | $27,567 | AEB | ok |
 | 26 | 2024 Kia Soul LX | $16,990 | 32,226 | Gasoline | $31,447 | AEB+BSM | ok |
 | 27 | 2023 Kia Niro Wind | $19,959 | 39,464 | Battery electric | $31,286 | AEB+BSM | ok |
-| 28 | 2020 Tesla Model 3 Standard Range Plus | $18,699 | 56,300 | Battery electric | $31,291 | AEB+BSM | ok |
+| 28 | 2023 Chevrolet Bolt LT | $17,499 | 48,805 | Battery electric | $28,958 | AEB | ok |
 | 29 | 2022 Chevrolet Bolt EUV LT | $17,189 | 68,297 | Battery electric | $28,762 | AEB | ok |
-| 30 | 2023 Chevrolet Bolt LT | $17,999 | 48,805 | Battery electric | $29,499 | AEB | ok |
+| 30 | 2018 Tesla Model 3 Mid Range | $16,999 | 74,871 | Battery electric | $30,815 | AEB+BSM | ok |
 | 31 | 2023 Polestar Polestar 2 | $20,950 | 29,842 | Battery electric | $33,069 | AEB+BSM | ok |
 | 32 | 2018 Kia Niro EX Premium | $17,500 | 60,747 | Plug-in hybrid | $26,533 | AEB+BSM | ok |
 | 33 | 2021 Chevrolet Bolt Premier | $19,999 | 16,677 | Battery electric | $27,304 | AEB+BSM | concern |
@@ -79,38 +79,38 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 | 37 | 2025 Nissan Versa S | $17,900 | 2,162 | Gasoline | $30,957 | AEB | ok |
 | 38 | 2021 Chevrolet Trax LS | $15,995 | 42,784 | Gasoline | $31,436 | AEB | ok |
 | 39 | 2021 Tesla Model 3 Long Range | $20,998 | 68,804 | Battery electric | $33,176 | AEB+BSM | ok |
-| 40 | 2023 Polestar Polestar 2 | $16,988 | 97,638 | Battery electric | $31,226 | AEB+BSM | ok |
-| 41 | 2022 Volvo XC40 P8 Recharge Plus | $15,897 | 119,977 | Battery electric | $29,804 | AEB+BSM | ok |
-| 42 | 2024 Volkswagen ID.4 2WD | $19,900 | 15,203 | Battery electric | $31,410 | AEB+BSM | concern |
-| 43 | 2022 Volvo XC40 P8 Recharge Ultimate | $21,495 | 80,513 | Battery electric | $32,611 | AEB+BSM | ok |
-| 44 | 2023 Nissan Ariya FWD | $18,800 | 44,894 | Battery electric | $30,790 | AEB+BSM | concern |
-| 45 | 2021 Chevrolet Bolt LT | $18,790 | 31,202 | Battery electric | $26,541 | AEB | concern |
-| 46 | 2022 MINI Cooper SE | $19,988 | 31,715 | Battery electric | $32,163 | AEB | ok |
-| 47 | 2018 Nissan Leaf SV | $6,984 | 97,594 | Battery electric | $21,646 | AEB | concern |
-| 48 | 2022 Mitsubishi Mirage SE | $11,999 | 43,924 | Gasoline | $25,755 | AEB | ok |
-| 49 | 2019 Kia Forte Sedan | $13,638 | 49,542 | Gasoline | $28,294 | AEB | concern |
-| 50 | 2020 Tesla Model 3 Standard Range Plus | $27,490 | 1,007 | Battery electric | $37,110 | AEB+BSM | ok |
-| 51 | 2023 Hyundai Kona SEL | $18,658 | 24,585 | Battery electric | $29,470 | AEB+BSM | concern |
-| 52 | 2017 Toyota Prius V Two | $13,975 | 135,899 | Hybrid | $27,892 | AEB | watch |
-| 53 | 2019 Ford Fusion SE | $8,900 | 96,029 | Hybrid | $27,646 | AEB+BSM | concern |
-| 54 | 2025 Kia Niro Wind | $27,400 | 1,130 | Battery electric | $38,746 | AEB+BSM | ok |
-| 55 | 2021 Hyundai Sonata Blue | $12,999 | 106,023 | Hybrid | $27,321 | AEB+BSM | concern |
-| 56 | 2021 Kia Niro LXS | $14,638 | 114,062 | Hybrid | $27,519 | AEB | ok |
-| 57 | 2022 Chevrolet Bolt EUV LT | $20,195 | 36,644 | Battery electric | $31,005 | AEB | ok |
-| 58 | 2023 Toyota bZ4X FWD | $19,744 | 111,471 | Battery electric | $33,949 | AEB+BSM | ok |
-| 59 | 2019 Hyundai Kona SE | $13,995 | 41,578 | Gasoline | $30,997 | AEB | concern |
-| 60 | 2021 Jeep Renegade Limited | $19,338 | 17,237 | Gasoline | $33,078 | AEB+BSM | concern |
-| 61 | 2024 Hyundai Ioniq 6 SE | $24,942 | 21,726 | Battery electric | $35,571 | AEB+BSM | concern |
-| 62 | 2023 Chevrolet Bolt EUV LT | $16,960 | 60,000 | Battery electric | $28,834 | AEB | concern |
-| 63 | 2022 Volkswagen Tiguan SE | $15,991 | 40,104 | Gasoline | $34,193 | AEB+BSM | concern |
-| 64 | 2021 Kia Soul LX | $11,990 | 64,131 | Gasoline | $28,339 | AEB | concern |
-| 65 | 2021 Volvo XC40 P8 Recharge | $21,490 | 67,143 | Battery electric | $31,864 | AEB+BSM | concern |
-| 66 | 2023 Hyundai Ioniq 6 SEL | $19,791 | 102,608 | Battery electric | $32,725 | AEB+BSM | concern |
-| 67 | 2021 Volvo XC40 P8 Recharge | $21,000 | 75,167 | Battery electric | $31,869 | AEB+BSM | concern |
-| 68 | 2023 Hyundai Ioniq 5 SE | $21,978 | 43,528 | Battery electric | $33,401 | AEB+BSM | concern |
-| 69 | 2023 Kia EV6 Wind | $22,799 | 32,179 | Battery electric | $34,080 | AEB+BSM | concern |
-| 70 | 2018 Honda Clarity Plug-In Hybrid | $14,695 | 121,900 | Plug-in hybrid | $26,998 | AEB | concern |
-| 71 | 2027 Chevrolet Bolt LT | $27,998 | 1,441 | Battery electric | $39,155 | AEB | ok |
+| 40 | 2021 Chevrolet Bolt Premier | $22,411 | 676 | Battery electric | $28,931 | AEB+BSM | concern |
+| 41 | 2023 Polestar Polestar 2 | $16,988 | 97,638 | Battery electric | $31,226 | AEB+BSM | ok |
+| 42 | 2022 Volvo XC40 P8 Recharge Plus | $15,897 | 119,977 | Battery electric | $29,804 | AEB+BSM | ok |
+| 43 | 2024 Volkswagen ID.4 2WD | $19,900 | 15,203 | Battery electric | $31,410 | AEB+BSM | concern |
+| 44 | 2022 Volvo XC40 P8 Recharge Ultimate | $21,495 | 80,513 | Battery electric | $32,611 | AEB+BSM | ok |
+| 45 | 2023 Nissan Ariya FWD | $18,800 | 44,894 | Battery electric | $30,790 | AEB+BSM | concern |
+| 46 | 2021 Chevrolet Bolt LT | $18,790 | 31,202 | Battery electric | $26,541 | AEB | concern |
+| 47 | 2022 MINI Cooper SE | $19,988 | 31,715 | Battery electric | $32,163 | AEB | ok |
+| 48 | 2018 Nissan Leaf SV | $6,984 | 97,594 | Battery electric | $21,646 | AEB | concern |
+| 49 | 2022 Mitsubishi Mirage SE | $11,999 | 43,924 | Gasoline | $25,755 | AEB | ok |
+| 50 | 2019 Kia Forte Sedan | $13,638 | 49,542 | Gasoline | $28,294 | AEB | concern |
+| 51 | 2020 Tesla Model 3 Standard Range Plus | $27,490 | 1,007 | Battery electric | $37,110 | AEB+BSM | ok |
+| 52 | 2023 Hyundai Kona SEL | $18,658 | 24,585 | Battery electric | $29,470 | AEB+BSM | concern |
+| 53 | 2017 Toyota Prius V Two | $13,975 | 135,899 | Hybrid | $27,892 | AEB | watch |
+| 54 | 2019 Ford Fusion SE | $8,900 | 96,029 | Hybrid | $27,646 | AEB+BSM | concern |
+| 55 | 2025 Kia Niro Wind | $27,400 | 1,130 | Battery electric | $38,746 | AEB+BSM | ok |
+| 56 | 2021 Hyundai Sonata Blue | $12,999 | 106,023 | Hybrid | $27,321 | AEB+BSM | concern |
+| 57 | 2021 Kia Niro LXS | $14,638 | 114,062 | Hybrid | $27,519 | AEB | ok |
+| 58 | 2022 Chevrolet Bolt EUV LT | $20,195 | 36,644 | Battery electric | $31,005 | AEB | ok |
+| 59 | 2023 Toyota bZ4X FWD | $19,744 | 111,471 | Battery electric | $33,949 | AEB+BSM | ok |
+| 60 | 2019 Hyundai Kona SE | $13,995 | 41,578 | Gasoline | $30,997 | AEB | concern |
+| 61 | 2021 Jeep Renegade Limited | $19,338 | 17,237 | Gasoline | $33,078 | AEB+BSM | concern |
+| 62 | 2024 Hyundai Ioniq 6 SE | $24,942 | 21,726 | Battery electric | $35,571 | AEB+BSM | concern |
+| 63 | 2023 Chevrolet Bolt EUV LT | $16,960 | 60,000 | Battery electric | $28,834 | AEB | concern |
+| 64 | 2022 Volkswagen Tiguan SE | $15,991 | 40,104 | Gasoline | $34,193 | AEB+BSM | concern |
+| 65 | 2021 Kia Soul LX | $11,990 | 64,131 | Gasoline | $28,339 | AEB | concern |
+| 66 | 2021 Volvo XC40 P8 Recharge | $21,490 | 67,143 | Battery electric | $31,864 | AEB+BSM | concern |
+| 67 | 2023 Hyundai Ioniq 6 SEL | $19,791 | 102,608 | Battery electric | $32,725 | AEB+BSM | concern |
+| 68 | 2021 Volvo XC40 P8 Recharge | $21,000 | 75,167 | Battery electric | $31,869 | AEB+BSM | concern |
+| 69 | 2023 Hyundai Ioniq 5 SE | $21,978 | 43,528 | Battery electric | $33,401 | AEB+BSM | concern |
+| 70 | 2023 Kia EV6 Wind | $22,799 | 32,179 | Battery electric | $34,080 | AEB+BSM | concern |
+| 71 | 2018 Honda Clarity Plug-In Hybrid | $14,695 | 121,900 | Plug-in hybrid | $26,998 | AEB | concern |
 | 72 | 2024 Hyundai Ioniq 5 SE | $23,477 | 17,710 | Battery electric | $34,588 | AEB+BSM | concern |
 | 73 | 2024 Hyundai Ioniq 5 SE | $23,575 | 23,197 | Battery electric | $34,693 | AEB+BSM | concern |
 | 74 | 2023 Hyundai Ioniq 5 SE | $24,500 | 18,064 | Battery electric | $35,759 | AEB+BSM | concern |
@@ -210,7 +210,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1N4AZ1BV8PC559108`
 - Mileage: 52,213 mi · Color: Black · Certified pre-owned
 - Location: ACCESS MOTORSPORTS LLC, Kirkland WA (11 mi away)
-- Days on lot: 13
+- Days on lot: 14
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789098195
 - Powertrain: **Battery electric** · 149 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -246,7 +246,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KMHLL4AG0MU191193`
 - Mileage: 20,737 mi · Color: Phantom Black · Certified pre-owned
 - Location: Better All Auto Sales, Yakima WA (102 mi away)
-- Days on lot: 31
+- Days on lot: 32
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787421765
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -281,7 +281,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1N4AZ1BV8PC557147`
 - Mileage: 17,102 mi · Color: Brilliant Silver Metallic · Certified pre-owned
 - Location: Alan Webb Nissan, Vancouver WA (134 mi away)
-- Days on lot: 46
+- Days on lot: 47
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/778504591
 - Powertrain: **Battery electric** · 149 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -317,7 +317,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KMHC65LC4NU274392`
 - Mileage: 37,615 mi · Color: Amazon Gray · Certified pre-owned
 - Location: Ron Tonkin Kia, Gladstone OR (152 mi away)
-- Days on lot: 13
+- Days on lot: 14
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789052127
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
@@ -351,7 +351,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KNDCD3LDXJ5213253`
 - Mileage: 52,370 mi · Color: Snow White Pearl · Certified pre-owned
 - Location: Beaverton Hyundai, Beaverton OR (147 mi away)
-- Days on lot: 12
+- Days on lot: 13
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789106464
 - Powertrain: **Plug-in hybrid** · 26 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -387,7 +387,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `JM1DRADB7N0100306`
 - Mileage: 39,976 mi · Color: Polymetal Gray Metallic Multi- · Certified pre-owned
 - Location: Team Hyundai of Bend, Bend OR (246 mi away)
-- Days on lot: 95
+- Days on lot: 96
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/781996919
 - Powertrain: **Battery electric** · 100 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -422,7 +422,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KNDCC3LC8J5132231`
 - Mileage: 113,256 mi · Color: Silky Silver · Certified pre-owned
 - Location: Wilsonville Chevrolet, Wilsonville OR (157 mi away)
-- Days on lot: 15
+- Days on lot: 16
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788854318
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
@@ -456,7 +456,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3N1CN8EV6ML888850`
 - Mileage: 70,725 mi · Color: Brilliant Silver Metallic · Certified pre-owned
 - Location: One Stop Yakima, Yakima WA (104 mi away)
-- Days on lot: 88
+- Days on lot: 89
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/782650858
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.6 L.
@@ -489,7 +489,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `19XZE4F16KE026290`
 - Mileage: 40,000 mi · Color: Black · Certified pre-owned
 - Location: Private Seller Exchange, Carnation WA (13 mi away)
-- Days on lot: 22
+- Days on lot: 23
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788290651
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.5 L engine.
@@ -524,7 +524,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3KPF24AD3ME316700`
 - Mileage: 44,352 mi · Color: Silky Silver · Certified pre-owned
 - Location: Wilsonville Subaru, Wilsonville OR (159 mi away)
-- Days on lot: 91
+- Days on lot: 92
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/782471714
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -558,7 +558,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1N4BZ1DV0MC553591`
 - Mileage: 41,300 mi · Color: Gray · Certified pre-owned
 - Location: Private Seller Exchange, Olympia WA (51 mi away)
-- Days on lot: 6
+- Days on lot: 7
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789726694
 - Powertrain: **Battery electric** · 215 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -595,7 +595,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KMHC85LH9HU015424`
 - Mileage: 80,887 mi · Color: Symphony Air Silver · Certified pre-owned
 - Location: Nissan of Everett, Everett WA (24 mi away)
-- Days on lot: 7
+- Days on lot: 8
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789625640
 - Powertrain: **Battery electric** · 124 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -632,7 +632,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KMHRC8A31MU102844`
 - Mileage: 63,261 mi · Color: Galactic Gray · Certified pre-owned
 - Location: ZAG Motors Lynnwood, Lynnwood WA (18 mi away)
-- Days on lot: 11
+- Days on lot: 12
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789229031
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.6 L.
@@ -665,7 +665,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1N4BZ1BV3MC555337`
 - Mileage: 62,298 mi · Color: Brilliant Silver Metallic · Certified pre-owned
 - Location: PNW Luxury Cars, Lakewood WA (30 mi away)
-- Days on lot: 1
+- Days on lot: 2
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790183331
 - Powertrain: **Battery electric** · 226 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -702,7 +702,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3N1CP5BV5ML464749`
 - Mileage: 66,256 mi · Color: Fresh Powder · Certified pre-owned
 - Location: Better All Auto Sales, Yakima WA (102 mi away)
-- Days on lot: 10
+- Days on lot: 11
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789366136
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.6 L.
@@ -735,7 +735,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3N1CP5BVXML487282`
 - Mileage: 73,361 mi · Color: Fresh Powder · Certified pre-owned
 - Location: Platinum Wholesale Auto, Inc., Woodinville WA (15 mi away)
-- Days on lot: 14
+- Days on lot: 15
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789043469
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.6 L.
@@ -768,7 +768,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KL8CB6SA6MC740178`
 - Mileage: 39,978 mi · Color: Toasted Marshmallow Metallic · Certified pre-owned
 - Location: Seattle Jeep, Seattle WA (14 mi away)
-- Days on lot: 49
+- Days on lot: 50
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786004486
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.4 L.
@@ -801,7 +801,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3N1AB8BV7RY286800`
 - Mileage: 74,284 mi · Color: White · Certified pre-owned
 - Location: BCR Automotive, Portland OR (143 mi away)
-- Days on lot: 45
+- Days on lot: 46
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786312087
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -834,7 +834,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KMHC85LJ2LU067697`
 - Mileage: 72,091 mi · Color: Ceramic White · Certified pre-owned
 - Location: Capitol Toyota, Salem OR (184 mi away)
-- Days on lot: 2
+- Days on lot: 3
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790051447
 - Powertrain: **Battery electric** · 170 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -870,7 +870,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1N4AZ1BV1NC557777`
 - Mileage: 33,693 mi · Color: Black · Certified pre-owned
 - Location: Volkswagen of Olympia, Olympia WA (52 mi away)
-- Days on lot: 64
+- Days on lot: 65
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/784707771
 - Powertrain: **Battery electric** · 149 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -906,7 +906,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1FMCU0BZ6LUB74130`
 - Mileage: 30,055 mi · Color: Agate Black Metallic · Certified pre-owned
 - Location: AutoNation Ford Bellevue, Bellevue WA (4 mi away)
-- Days on lot: 1
+- Days on lot: 2
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790204861
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 2.5 L engine.
@@ -941,7 +941,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3KPA25AD2ME429750`
 - Mileage: 47,647 mi · Color: Steel Gray · Certified pre-owned
 - Location: Seaview GMC, Lynnwood WA (20 mi away)
-- Days on lot: 10
+- Days on lot: 11
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789312606
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.6 L.
@@ -974,7 +974,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `ZACPDFCW7R3A29113`
 - Mileage: 30,792 mi · Color: Gray Cray · Certified pre-owned
 - Location: ST HELENS CHRYSLER DODGE JEEP RAM, Saint Helens OR (122 mi away)
-- Days on lot: 86
+- Days on lot: 87
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/782861147
 - Powertrain: **Plug-in hybrid** · 33 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -1010,7 +1010,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `ML32AUHJXRH016248`
 - Mileage: 21,911 mi · Color: Maroon · Certified pre-owned
 - Location: Auto Car Zone LLC, Bellevue WA (2 mi away)
-- Days on lot: 26
+- Days on lot: 27
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787906704
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.2 L.
@@ -1043,7 +1043,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KL8CH6SA4MC228711`
 - Mileage: 19,562 mi · Color: Mystic Blue Metallic · Certified pre-owned
 - Location: Wilsonville Chevrolet, Wilsonville OR (157 mi away)
-- Days on lot: 28
+- Days on lot: 29
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787757316
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.4 L.
@@ -1076,7 +1076,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KNDJ23AU7R7233931`
 - Mileage: 32,226 mi · Color: Snow White Pearl · Certified pre-owned
 - Location: Capitol Nissan of Salem, Salem OR (183 mi away)
-- Days on lot: 51
+- Days on lot: 52
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785805569
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -1109,7 +1109,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KNDCR3L13P5035248`
 - Mileage: 39,464 mi · Color: Aurora Black Pearl · Certified pre-owned
 - Location: Dick's Hillsboro Hyundai, Hillsboro OR (147 mi away)
-- Days on lot: 19
+- Days on lot: 20
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788467761
 - Powertrain: **Battery electric** · 253 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1140,47 +1140,48 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $12,805
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,837 · NPV (5%/yr) $35,328
 
-### 28. 2020 Tesla Model 3 Standard Range Plus — $18,699
+### 28. 2023 Chevrolet Bolt LT — $17,499
 
-- VIN: `5YJ3E1EA2LF614396`
-- Mileage: 56,300 mi · Color: White · Certified pre-owned
-- Location: Private Seller Exchange, Redmond OR (232 mi away)
-- Days on lot: 280
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/766442591
-- Powertrain: **Battery electric** · 220 mi electric range
+- VIN: `1G1FW6S06P4115948`
+- Mileage: 48,805 mi · Color: Gray Ghost Metallic · Certified pre-owned
+- Location: Cortes Auto Center, Burlington WA (65 mi away)
+- Days on lot: 26
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787933637
+- Powertrain: **Battery electric** · 259 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
-  - No curated safety profile for the 2020 Tesla Model 3. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
-- Reliability (model-year level): **ok** — confidence high
-  - NHTSA: 447 complaints, 21 recalls for the 2020 Tesla Model 3
-  - 447 NHTSA complaints, no single system dominating.
-  - 21 recall campaigns for this model year — check all are closed out for the VIN.
-  - Source: https://www.nhtsa.gov/vehicle/2020/TESLA/MODEL%203
+- Safety: AEB standard (VIN-confirmed) · blind-spot trim
+  - IIHS: Good in most tests
+  - Chevy Safety Assist (incl. AEB) standard from 2022.
+  - Also standard on this trim (1LT): fcw, lka, backupCam
+- Reliability (model-year level): **ok** — confidence medium
+  - NHTSA: 59 complaints, 3 recalls for the 2023 Chevrolet Bolt
+  - 59 NHTSA complaints, no single system dominating.
+  - Source: https://www.nhtsa.gov/vehicle/2023/CHEVROLET/BOLT%20EV
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":2,"milesLeft":43700,"effectiveYears":2,"note":"Federal battery warranty still covers roughly 2.0 more year(s) at 130 mi/wk — limited by age (2 yr left of 8). Transfers to you."}
+- Traction battery warranty: {"covered":true,"yearsLeft":5,"milesLeft":51195,"effectiveYears":5,"note":"Federal battery warranty still covers roughly 5.0 more year(s) at 130 mi/wk — limited by age (5 yr left of 8). Transfers to you."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own (Jordyn — ~6,760 mi/yr):
-  - Purchase price: $18,699
-  - Sales tax: $2,019
-  - Fuel / electricity: $3,214
-  - Maintenance: $1,710
-  - Insurance: $10,524
-  - Registration: $2,520
-  - Major-repair reserve (expected): $672
-  - **6-year total: $31,291** ($435/mo over 40,560 mi)
-  - **NPV (5%/yr): $30,467** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
-  - 2-year total (Jordyn only): $11,900
-- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,918 · NPV (5%/yr) $35,170
+  - Purchase price: $17,499
+  - Sales tax: $1,890
+  - Fuel / electricity: $3,294
+  - Maintenance: $1,281
+  - Insurance: $9,684
+  - Registration: $2,400
+  - Major-repair reserve (expected): $283
+  - **6-year total: $28,958** ($402/mo over 40,560 mi)
+  - **NPV (5%/yr): $28,219** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
+  - 2-year total (Jordyn only): $12,083
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,533 · NPV (5%/yr) $32,842
 
 ### 29. 2022 Chevrolet Bolt EUV LT — $17,189
 
 - VIN: `1G1FY6S0XN4108363`
 - Mileage: 68,297 mi · Color: Silver Flare Metallic · Certified pre-owned
 - Location: Seattle MINI, Seattle WA (13 mi away)
-- Days on lot: 64
+- Days on lot: 65
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/784797833
 - Powertrain: **Battery electric** · 247 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1212,48 +1213,47 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $11,682
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,659 · NPV (5%/yr) $32,900
 
-### 30. 2023 Chevrolet Bolt LT — $17,999
+### 30. 2018 Tesla Model 3 Mid Range — $16,999
 
-- VIN: `1G1FW6S06P4115948`
-- Mileage: 48,805 mi · Color: Gray Ghost Metallic · Certified pre-owned
-- Location: Cortes Auto Center, Burlington WA (65 mi away)
-- Days on lot: 25
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/787933637
-- Powertrain: **Battery electric** · 259 mi electric range
+- VIN: `5YJ3E1EA7JF041265`
+- Mileage: 74,871 mi · Color: Gray · Certified pre-owned
+- Location: Private Seller Exchange, Bellevue WA (0 mi away)
+- Days on lot: 105
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/781270607
+- Powertrain: **Battery electric** · 260 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard (VIN-confirmed) · blind-spot trim
-  - IIHS: Good in most tests
-  - Chevy Safety Assist (incl. AEB) standard from 2022.
-  - Also standard on this trim (1LT): fcw, lka, backupCam
-- Reliability (model-year level): **ok** — confidence medium
-  - NHTSA: 59 complaints, 3 recalls for the 2023 Chevrolet Bolt
-  - 59 NHTSA complaints, no single system dominating.
-  - Source: https://www.nhtsa.gov/vehicle/2023/CHEVROLET/BOLT%20EV
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - No curated safety profile for the 2018 Tesla Model 3. Anything shown here comes from the VIN decode alone — check the window sticker before assuming a feature is present or absent.
+- Reliability (model-year level): **ok** — confidence high
+  - NHTSA: 1009 complaints, 19 recalls for the 2018 Tesla Model 3
+  - 1009 NHTSA complaints, no single system dominating.
+  - 19 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2018/TESLA/MODEL%203
   - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":5,"milesLeft":51195,"effectiveYears":5,"note":"Federal battery warranty still covers roughly 5.0 more year(s) at 130 mi/wk — limited by age (5 yr left of 8). Transfers to you."}
+- Traction battery warranty: {"covered":false,"yearsLeft":0,"milesLeft":25129,"effectiveYears":0,"note":"Federal 8yr/100k battery warranty has expired (8 yr, 74,871 mi) — a pack failure would be entirely out of pocket."}
 - Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: no
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
 - Cost to own (Jordyn — ~6,760 mi/yr):
-  - Purchase price: $17,999
-  - Sales tax: $1,944
-  - Fuel / electricity: $3,294
-  - Maintenance: $1,281
-  - Insurance: $9,852
-  - Registration: $2,430
-  - Major-repair reserve (expected): $283
-  - **6-year total: $29,499** ($410/mo over 40,560 mi)
-  - **NPV (5%/yr): $28,783** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
-  - 2-year total (Jordyn only): $12,336
-- Cost to own (Kate — ~13,520 mi/yr): 6-year total $35,102 · NPV (5%/yr) $33,427
+  - Purchase price: $16,999
+  - Sales tax: $1,836
+  - Fuel / electricity: $3,214
+  - Maintenance: $1,973
+  - Insurance: $10,524
+  - Registration: $2,454
+  - Major-repair reserve (expected): $1,065
+  - **6-year total: $30,815** ($428/mo over 40,560 mi)
+  - **NPV (5%/yr): $29,693** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
+  - 2-year total (Jordyn only): $11,580
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,612 · NPV (5%/yr) $34,557
 
 ### 31. 2023 Polestar Polestar 2 — $20,950
 
 - VIN: `YSMEG3KA4PL116159`
 - Mileage: 29,842 mi · Color: Magnesium Metallic · Certified pre-owned
 - Location: Volkswagen of McMinnville, Mcminnville OR (168 mi away)
-- Days on lot: 107
+- Days on lot: 108
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/780925766
 - Powertrain: **Battery electric** · 270 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1287,7 +1287,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KNDCC3LD4J5144563`
 - Mileage: 60,747 mi · Color: Gravity Blue · Certified pre-owned
 - Location: Royal Moore Auto Center, Hillsboro OR (147 mi away)
-- Days on lot: 3
+- Days on lot: 4
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789943127
 - Powertrain: **Plug-in hybrid** · 26 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -1323,7 +1323,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1G1FZ6S0XM4109461`
 - Mileage: 16,677 mi · Color: Cayenne Orange Metallic · Certified pre-owned
 - Location: Titus-Will Used Cars Olympia, Olympia WA (46 mi away)
-- Days on lot: 10
+- Days on lot: 11
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789270108
 - Powertrain: **Battery electric** · 259 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1361,7 +1361,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `JTDKARFP9H3006212`
 - Mileage: 86,847 mi · Color: Blizzard Pearl · Certified pre-owned
 - Location: Cascadia Motors, Portland OR (149 mi away)
-- Days on lot: 58
+- Days on lot: 59
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785138122
 - Powertrain: **Plug-in hybrid** · 25 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -1397,7 +1397,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `JN1CF0BB3RM737003`
 - Mileage: 33,621 mi · Color: Boulder Gray Pearl · Certified pre-owned
 - Location: Volkswagen of McMinnville, Mcminnville OR (168 mi away)
-- Days on lot: 7
+- Days on lot: 8
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789608133
 - Powertrain: **Battery electric** · 205 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1431,7 +1431,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `JTDKBRFU8H3552776`
 - Mileage: 94,936 mi · Color: White · Certified pre-owned
 - Location: Bill Harris Used Cars Inc., Selah WA (99 mi away)
-- Days on lot: 3
+- Days on lot: 4
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790006945
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.8 L engine.
@@ -1464,7 +1464,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3N1CN8DVXSL885870`
 - Mileage: 2,162 mi · Color: Gun Metallic · Certified pre-owned
 - Location: Rogers GMC of Hermiston, Hermiston OR (179 mi away)
-- Days on lot: 4
+- Days on lot: 5
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789884645
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.6 L.
@@ -1530,7 +1530,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `5YJ3E1EB5MF878318`
 - Mileage: 68,804 mi · Color: Midnight Silver Metallic · Certified pre-owned
 - Location: Leskovar Mitsubishi, Kennewick WA (169 mi away)
-- Days on lot: 31
+- Days on lot: 32
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787533041
 - Powertrain: **Battery electric** · 315 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1560,12 +1560,50 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $13,936
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,431 · NPV (5%/yr) $37,715
 
-### 40. 2023 Polestar Polestar 2 — $16,988
+### 40. 2021 Chevrolet Bolt Premier — $22,411
+
+- VIN: `1G1FZ6S08M4100709`
+- Mileage: 676 mi · Color: Slate Gray Metallic · Certified pre-owned
+- Location: Bill Pierre Chevrolet, Seattle WA (13 mi away)
+- Days on lot: 23
+- Listing: https://www.autotrader.com/cars-for-sale/vehicle/788286194
+- Powertrain: **Battery electric** · 259 mi electric range
+  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
+- Safety: AEB standard (VIN-confirmed) · blind-spot standard (VIN-confirmed)
+  - IIHS: Good in most tests; headlights Marginal/Poor
+  - AEB = Driver Confidence II package; blind-spot = Driver Confidence I. Neither is standard — confirm on the window sticker.
+  - Also standard on this trim (Premier): fcw, rcta, backupCam
+- Reliability (model-year level): **concern** — confidence high
+  - NHTSA: 67 complaints, 5 recalls for the 2021 Chevrolet Bolt
+  - 72% of its 67 NHTSA complaints (48) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+  - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+  - 5 recall campaigns for this model year — check all are closed out for the VIN.
+  - Source: https://www.nhtsa.gov/vehicle/2021/CHEVROLET/BOLT%20EV
+  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
+- Traction battery warranty: {"covered":true,"yearsLeft":3,"milesLeft":99324,"effectiveYears":3,"note":"Federal battery warranty still covers roughly 3.0 more year(s) at 130 mi/wk — limited by age (3 yr left of 8). Transfers to you."}
+- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED
+  - Salvage title: no · Accidents reported: no · One owner: not reported
+  - `not reported` means neither badge was present — it is absence of data, not a clean record.
+- Cost to own (Jordyn — ~6,760 mi/yr):
+  - Purchase price: $22,411
+  - Sales tax: $2,420
+  - Fuel / electricity: $3,294
+  - Maintenance: $1,240
+  - Insurance: $7,098
+  - Registration: $2,706
+  - Major-repair reserve (expected): $187
+  - **6-year total: $28,931** ($402/mo over 40,560 mi)
+  - **NPV (5%/yr): $29,339** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
+  - 2-year total (Jordyn only): $10,178
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $33,503 · NPV (5%/yr) $33,207
+
+### 41. 2023 Polestar Polestar 2 — $16,988
 
 - VIN: `YSMEG3KA9PL145074`
 - Mileage: 97,638 mi · Color: White · Certified pre-owned
 - Location: Gene Pankey Motor Company, Tacoma WA (30 mi away)
-- Days on lot: 3
+- Days on lot: 4
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789996402
 - Powertrain: **Battery electric** · 270 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1594,12 +1632,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $14,476
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,786 · NPV (5%/yr) $35,413
 
-### 41. 2022 Volvo XC40 P8 Recharge Plus — $15,897
+### 42. 2022 Volvo XC40 P8 Recharge Plus — $15,897
 
 - VIN: `YV4ED3UR6N2762763`
 - Mileage: 119,977 mi · Color: Thunder Grey Metalli · Certified pre-owned
 - Location: Excalibur Auto Group Inc., Kennewick WA (166 mi away)
-- Days on lot: 38
+- Days on lot: 39
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786889854
 - Powertrain: **Battery electric** · 208 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1629,12 +1667,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $13,787
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,903 · NPV (5%/yr) $34,440
 
-### 42. 2024 Volkswagen ID.4 2WD — $19,900
+### 43. 2024 Volkswagen ID.4 2WD — $19,900
 
 - VIN: `1V2BMPE88RC006952`
 - Mileage: 15,203 mi · Color: Pure White · Certified pre-owned
 - Location: Armstrong Volkswagen, Gladstone OR (152 mi away)
-- Days on lot: 35
+- Days on lot: 36
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787194719
 - Powertrain: **Battery electric** · 206 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1666,12 +1704,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $12,185
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,032 · NPV (5%/yr) $35,519
 
-### 43. 2022 Volvo XC40 P8 Recharge Ultimate — $21,495
+### 44. 2022 Volvo XC40 P8 Recharge Ultimate — $21,495
 
 - VIN: `YV4ED3UB4N2731479`
 - Mileage: 80,513 mi · Color: Crystal White Metallic · Certified pre-owned
 - Location: Time Chrysler Dodge Jeep RAM of Portland, Portland OR (142 mi away)
-- Days on lot: 10
+- Days on lot: 11
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789297024
 - Powertrain: **Battery electric** · 223 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1701,12 +1739,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $14,762
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,165 · NPV (5%/yr) $38,373
 
-### 44. 2023 Nissan Ariya FWD — $18,800
+### 45. 2023 Nissan Ariya FWD — $18,800
 
 - VIN: `JN1AF0BA8PM406963`
 - Mileage: 44,894 mi · Color: Everest White Pearl Tricoat/Bl · Certified pre-owned
 - Location: Nissan of Everett, Everett WA (24 mi away)
-- Days on lot: 79
+- Days on lot: 80
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/783401502
 - Powertrain: **Battery electric** · 216 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1736,12 +1774,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $12,721
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,851 · NPV (5%/yr) $35,084
 
-### 45. 2021 Chevrolet Bolt LT — $18,790
+### 46. 2021 Chevrolet Bolt LT — $18,790
 
 - VIN: `1G1FY6S02M4108338`
 - Mileage: 31,202 mi · Color: Summit White · Certified pre-owned
 - Location: Bill Pierre Chevrolet, Seattle WA (13 mi away)
-- Days on lot: 4
+- Days on lot: 5
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789882192
 - Powertrain: **Battery electric** · 259 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1774,12 +1812,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $9,300
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $31,404 · NPV (5%/yr) $30,613
 
-### 46. 2022 MINI Cooper SE — $19,988
+### 47. 2022 MINI Cooper SE — $19,988
 
 - VIN: `WMW13DJ00N2S09734`
 - Mileage: 31,715 mi · Color: Black Metallic · Certified pre-owned
 - Location: Lynnwood Honda, Edmonds WA (19 mi away)
-- Days on lot: 15
+- Days on lot: 16
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788866240
 - Powertrain: **Battery electric** · 114 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1810,12 +1848,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $12,151
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $38,187 · NPV (5%/yr) $36,526
 
-### 47. 2018 Nissan Leaf SV — $6,984
+### 48. 2018 Nissan Leaf SV — $6,984
 
 - VIN: `1N4AZ1CP3JC313218`
 - Mileage: 97,594 mi · Color: Pearl White · Certified pre-owned
 - Location: Cascadia Motors, Portland OR (149 mi away)
-- Days on lot: 12
+- Days on lot: 13
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789139688
 - Powertrain: **Battery electric** · 151 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1847,12 +1885,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Standout: true
 - Note: Lowest 6-year cost to own with AEB standard — about $301/mo all-in, and it should still be a good car when Emma drives.
 
-### 48. 2022 Mitsubishi Mirage SE — $11,999
+### 49. 2022 Mitsubishi Mirage SE — $11,999
 
 - VIN: `ML32AWHJ3NH005386`
 - Mileage: 43,924 mi · Color: Black · Certified pre-owned
 - Location: Gorilla Auto Center, Yakima WA (103 mi away)
-- Days on lot: 6
+- Days on lot: 7
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789726552
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.2 L.
@@ -1880,12 +1918,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $9,568
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,445 · NPV (5%/yr) $33,504
 
-### 49. 2019 Kia Forte Sedan — $13,638
+### 50. 2019 Kia Forte Sedan — $13,638
 
 - VIN: `3KPF24ADXKE081533`
 - Mileage: 49,542 mi · Color: Gravity Gray · Certified pre-owned
 - Location: Gage Auto Sales, Milwaukie OR (149 mi away)
-- Days on lot: 75
+- Days on lot: 76
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/783749091
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -1913,12 +1951,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $9,971
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,142 · NPV (5%/yr) $36,224
 
-### 50. 2020 Tesla Model 3 Standard Range Plus — $27,490
+### 51. 2020 Tesla Model 3 Standard Range Plus — $27,490
 
 - VIN: `5YJ3E1EA2LF504190`
 - Mileage: 1,007 mi · Color: Pearl White · Certified pre-owned
 - Location: Diplomat Motors - Portland, Portland OR (145 mi away)
-- Days on lot: 57
+- Days on lot: 58
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785314483
 - Powertrain: **Battery electric** · 250 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1948,12 +1986,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $14,229
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $41,898 · NPV (5%/yr) $41,329
 
-### 51. 2023 Hyundai Kona SEL — $18,658
+### 52. 2023 Hyundai Kona SEL — $18,658
 
 - VIN: `KM8K33AG3PU167478`
 - Mileage: 24,585 mi · Color: Galactic Gray · Certified pre-owned
 - Location: Rairdon's Kia, Burlington WA (65 mi away)
-- Days on lot: 53
+- Days on lot: 54
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785500557
 - Powertrain: **Battery electric** · 258 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -1984,12 +2022,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $11,381
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,301 · NPV (5%/yr) $32,950
 
-### 52. 2017 Toyota Prius V Two — $13,975
+### 53. 2017 Toyota Prius V Two — $13,975
 
 - VIN: `JTDZN3EU0HJ073929`
 - Mileage: 135,899 mi · Color: Super White · Certified pre-owned
 - Location: Kia Of Portland, Portland OR (142 mi away)
-- Days on lot: 56
+- Days on lot: 57
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785368709
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.8 L engine.
@@ -2018,12 +2056,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $10,980
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $38,082 · NPV (5%/yr) $35,283
 
-### 53. 2019 Ford Fusion SE — $8,900
+### 54. 2019 Ford Fusion SE — $8,900
 
 - VIN: `3FA6P0LU8KR256593`
 - Mileage: 96,029 mi · Certified pre-owned
 - Location: THE PRICE KING AUTO SALES, Lakewood WA (32 mi away)
-- Days on lot: 99
+- Days on lot: 100
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/781625152
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 2 L engine.
@@ -2052,12 +2090,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $10,213
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $38,399 · NPV (5%/yr) $34,441
 
-### 54. 2025 Kia Niro Wind — $27,400
+### 55. 2025 Kia Niro Wind — $27,400
 
 - VIN: `KNDCR3L15S5136204`
 - Mileage: 1,130 mi · Color: Gray · Certified pre-owned
 - Location: Pierre Ford of Seattle, Seattle WA (13 mi away)
-- Days on lot: 9
+- Days on lot: 10
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789466425
 - Powertrain: **Battery electric** · 253 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2088,12 +2126,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $15,090
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $44,151 · NPV (5%/yr) $43,135
 
-### 55. 2021 Hyundai Sonata Blue — $12,999
+### 56. 2021 Hyundai Sonata Blue — $12,999
 
 - VIN: `KMHL24JJ9MA025867`
 - Mileage: 106,023 mi · Color: Portofino Gray · Certified pre-owned
 - Location: One Stop Yakima, Yakima WA (102 mi away)
-- Days on lot: 8
+- Days on lot: 9
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789590404
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 2 L engine.
@@ -2121,12 +2159,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $11,572
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $35,621 · NPV (5%/yr) $32,917
 
-### 56. 2021 Kia Niro LXS — $14,638
+### 57. 2021 Kia Niro LXS — $14,638
 
 - VIN: `KNDCB3LCXM5471922`
 - Mileage: 114,062 mi · Color: Silky Silver · Certified pre-owned
 - Location: Gage Auto Sales, Milwaukie OR (149 mi away)
-- Days on lot: 40
+- Days on lot: 41
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786684166
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
@@ -2155,12 +2193,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $12,203
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,155 · NPV (5%/yr) $33,720
 
-### 57. 2022 Chevrolet Bolt EUV LT — $20,195
+### 58. 2022 Chevrolet Bolt EUV LT — $20,195
 
 - VIN: `1G1FY6S09N4124294`
 - Mileage: 36,644 mi · Color: Ice Blue Metallic · Certified pre-owned
 - Location: Energy Auto Sales, Monroe WA (24 mi away)
-- Days on lot: 25
+- Days on lot: 26
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787997486
 - Powertrain: **Battery electric** · 247 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2192,12 +2230,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $11,312
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,436 · NPV (5%/yr) $35,123
 
-### 58. 2023 Toyota bZ4X FWD — $19,744
+### 59. 2023 Toyota bZ4X FWD — $19,744
 
 - VIN: `JTMAAAAA3PA000836`
 - Mileage: 111,471 mi · Color: Heavy Metal · Certified pre-owned
 - Location: Team Hyundai of Bend, Bend OR (246 mi away)
-- Days on lot: 53
+- Days on lot: 54
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785541074
 - Powertrain: **Battery electric** · 252 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2227,12 +2265,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $16,098
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,619 · NPV (5%/yr) $37,521
 
-### 59. 2019 Hyundai Kona SE — $13,995
+### 60. 2019 Hyundai Kona SE — $13,995
 
 - VIN: `KM8K1CAA0KU294487`
 - Mileage: 41,578 mi · Color: Gray · Certified pre-owned
 - Location: LOYAL MOTORS, Bellevue WA (4 mi away)
-- Days on lot: 12
+- Days on lot: 13
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789102178
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -2261,12 +2299,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $10,893
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $44,001 · NPV (5%/yr) $40,427
 
-### 60. 2021 Jeep Renegade Limited — $19,338
+### 61. 2021 Jeep Renegade Limited — $19,338
 
 - VIN: `ZACNJDD12MPM41008`
 - Mileage: 17,237 mi · Color: Colorado Red Clearcoat · Certified pre-owned
 - Location: Dick's Hillsboro Honda, Hillsboro OR (147 mi away)
-- Days on lot: 29
+- Days on lot: 30
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786034597
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.3 L.
@@ -2294,12 +2332,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $11,827
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $47,232 · NPV (5%/yr) $44,384
 
-### 61. 2024 Hyundai Ioniq 6 SE — $24,942
+### 62. 2024 Hyundai Ioniq 6 SE — $24,942
 
 - VIN: `KMHM24AA0RA079053`
 - Mileage: 21,726 mi · Color: Curated Silver · Certified pre-owned
 - Location: Tonkin Gresham Honda, Troutdale OR (141 mi away)
-- Days on lot: 1
+- Days on lot: 2
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790183527
 - Powertrain: **Battery electric** · 361 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2332,12 +2370,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $14,451
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,616 · NPV (5%/yr) $39,589
 
-### 62. 2023 Chevrolet Bolt EUV LT — $16,960
+### 63. 2023 Chevrolet Bolt EUV LT — $16,960
 
 - VIN: `1G1FY6S0XP4199282`
 - Mileage: 60,000 mi · Color: White · Certified pre-owned
 - Location: Private Seller Exchange, Philomath OR (216 mi away)
-- Days on lot: 81
+- Days on lot: 82
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/783246639
 - Powertrain: **Battery electric** · 247 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2368,12 +2406,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $12,377
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,556 · NPV (5%/yr) $32,724
 
-### 63. 2022 Volkswagen Tiguan SE — $15,991
+### 64. 2022 Volkswagen Tiguan SE — $15,991
 
 - VIN: `3VV2B7AX0NM055884`
 - Mileage: 40,104 mi · Color: Silver · Certified pre-owned
 - Location: Columbia Motors, Portland OR (143 mi away)
-- Days on lot: 17
+- Days on lot: 18
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788691898
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -2402,12 +2440,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $12,548
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $49,705 · NPV (5%/yr) $45,622
 
-### 64. 2021 Kia Soul LX — $11,990
+### 65. 2021 Kia Soul LX — $11,990
 
 - VIN: `KNDJ22AU9M7786759`
 - Mileage: 64,131 mi · Color: Snow White Pearl · Certified pre-owned
 - Location: ST HELENS CHRYSLER DODGE JEEP RAM, Saint Helens OR (122 mi away)
-- Days on lot: 105
+- Days on lot: 106
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/781193774
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -2435,12 +2473,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $10,668
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $42,282 · NPV (5%/yr) $38,422
 
-### 65. 2021 Volvo XC40 P8 Recharge — $21,490
+### 66. 2021 Volvo XC40 P8 Recharge — $21,490
 
 - VIN: `YV4ED3UR9M2574513`
 - Mileage: 67,143 mi · Color: Thunder Gray Metallic · Certified pre-owned
 - Location: Gladstone Mitsubishi, Milwaukee OR (152 mi away)
-- Days on lot: 73
+- Days on lot: 74
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/783908878
 - Powertrain: **Battery electric** · 208 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2470,12 +2508,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $13,462
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,340 · NPV (5%/yr) $37,745
 
-### 66. 2023 Hyundai Ioniq 6 SEL — $19,791
+### 67. 2023 Hyundai Ioniq 6 SEL — $19,791
 
 - VIN: `KMHM34AC3PA022678`
 - Mileage: 102,608 mi · Color: Serenity White · Certified pre-owned
 - Location: Legend Auto Sales, Puyallup WA (26 mi away)
-- Days on lot: 77
+- Days on lot: 78
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/781961756
 - Powertrain: **Battery electric** · 270 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2508,12 +2546,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $15,807
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,579 · NPV (5%/yr) $35,805
 
-### 67. 2021 Volvo XC40 P8 Recharge — $21,000
+### 68. 2021 Volvo XC40 P8 Recharge — $21,000
 
 - VIN: `YV4ED3UR7M2528100`
 - Mileage: 75,167 mi · Color: Green · Certified pre-owned
 - Location: West Coast Auto Enthusiasts, Beaverton OR (148 mi away)
-- Days on lot: 1
+- Days on lot: 2
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790143131
 - Powertrain: **Battery electric** · 208 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2543,12 +2581,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $13,720
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,396 · NPV (5%/yr) $37,666
 
-### 68. 2023 Hyundai Ioniq 5 SE — $21,978
+### 69. 2023 Hyundai Ioniq 5 SE — $21,978
 
 - VIN: `KM8KM4AE3PU182385`
 - Mileage: 43,528 mi · Color: Atlas White · Certified pre-owned
 - Location: Go Kia Tacoma, Tacoma WA (30 mi away)
-- Days on lot: 77
+- Days on lot: 78
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/783635861
 - Powertrain: **Battery electric** · 303 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2580,12 +2618,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $13,985
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,080 · NPV (5%/yr) $37,635
 
-### 69. 2023 Kia EV6 Wind — $22,799
+### 70. 2023 Kia EV6 Wind — $22,799
 
 - VIN: `KNDC34LA0P5104341`
 - Mileage: 32,179 mi · Color: Runway Red · Certified pre-owned
 - Location: Rairdons Dodge Chrysler Jeep RAM Hyundai of Bellingham, Bellingham WA (84 mi away)
-- Days on lot: 50
+- Days on lot: 51
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785871941
 - Powertrain: **Battery electric** · 310 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2616,12 +2654,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $13,698
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,476 · NPV (5%/yr) $38,175
 
-### 70. 2018 Honda Clarity Plug-In Hybrid — $14,695
+### 71. 2018 Honda Clarity Plug-In Hybrid — $14,695
 
 - VIN: `JHMZC5F18JC018157`
 - Mileage: 121,900 mi · Color: Solar Silver Metallic · Certified pre-owned
 - Location: Rairdon's Nissan of Auburn, Auburn WA (16 mi away)
-- Days on lot: 16
+- Days on lot: 17
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788797698
 - Powertrain: **Plug-in hybrid** · 48 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -2651,48 +2689,12 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - 2-year total (Jordyn only): $11,057
 - Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,494 · NPV (5%/yr) $32,376
 
-### 71. 2027 Chevrolet Bolt LT — $27,998
-
-- VIN: `1G1FY6EV0VF107086`
-- Mileage: 1,441 mi · Color: Summit White · Certified pre-owned
-- Location: McLoughlin Chevrolet, Milwaukie OR (151 mi away)
-- Days on lot: 10
-- Listing: https://www.autotrader.com/cars-for-sale/vehicle/789369215
-- Powertrain: **Battery electric** · 262 mi electric range
-  - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
-- Safety: AEB standard · blind-spot trim
-  - IIHS: Good in most tests
-  - Chevy Safety Assist (incl. AEB) standard from 2022.
-  - Also standard on this trim (LT): backupCam
-- Reliability (model-year level): **ok** — confidence low
-  - NHTSA: 4 complaints, 1 recalls for the 2027 Chevrolet Bolt
-  - Only 4 NHTSA complaints on record — too few to draw a firm conclusion.
-  - Source: https://www.nhtsa.gov/vehicle/2027/CHEVROLET/BOLT%20EV
-  - Caveat: NHTSA complaint counts are not adjusted for how many cars were sold, so they cannot be compared directly between a high-volume and a low-volume model. Patterns within a model (what share of complaints hit one system) are the reliable signal here.
-- Traction battery warranty: {"covered":true,"yearsLeft":8,"milesLeft":98559,"effectiveYears":8,"note":"Federal battery warranty still covers roughly 8.0 more year(s) at 130 mi/wk — limited by age (8 yr left of 8). Transfers to you."}
-- Battery: Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-- Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-  - Salvage title: no · Accidents reported: no · One owner: yes
-  - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own (Jordyn — ~6,760 mi/yr):
-  - Purchase price: $27,998
-  - Sales tax: $3,024
-  - Fuel / electricity: $3,294
-  - Maintenance: $1,079
-  - Insurance: $13,182
-  - Registration: $2,964
-  - Major-repair reserve (expected): $74
-  - **6-year total: $39,155** ($544/mo over 40,560 mi)
-  - **NPV (5%/yr): $39,145** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
-  - 2-year total (Jordyn only): $16,035
-- Cost to own (Kate — ~13,520 mi/yr): 6-year total $45,073 · NPV (5%/yr) $43,998
-
 ### 72. 2024 Hyundai Ioniq 5 SE — $23,477
 
 - VIN: `KM8KM4DB8RU291901`
 - Mileage: 17,710 mi · Color: Atlas White · Certified pre-owned
 - Location: Sheppard Motors, Eugene OR (244 mi away)
-- Days on lot: 10
+- Days on lot: 11
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789287695
 - Powertrain: **Battery electric** · 220 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2729,7 +2731,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KM8KM4DE7RU308522`
 - Mileage: 23,197 mi · Color: Lucid Blue · Certified pre-owned
 - Location: Swickard Toyota, Edmonds WA (19 mi away)
-- Days on lot: 21
+- Days on lot: 22
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788364741
 - Powertrain: **Battery electric** · 303 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2766,7 +2768,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KM8KM4AE7PU186522`
 - Mileage: 18,064 mi · Color: Abyss Black · Certified pre-owned
 - Location: Hyundai of Albany, Albany OR (207 mi away)
-- Days on lot: 86
+- Days on lot: 87
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/782802145
 - Powertrain: **Battery electric** · 303 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2803,7 +2805,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KM8KN4DE1RU248296`
 - Mileage: 22,382 mi · Color: Abyss Black · Certified pre-owned
 - Location: Seattle Jeep, Seattle WA (14 mi away)
-- Days on lot: 43
+- Days on lot: 44
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786439509
 - Powertrain: **Battery electric** · 303 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2840,7 +2842,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KM8KM4DE6RU300492`
 - Mileage: 38,671 mi · Color: Cyber Gray · Certified pre-owned
 - Location: Dick's Hillsboro Hyundai, Hillsboro OR (147 mi away)
-- Days on lot: 14
+- Days on lot: 15
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789008182
 - Powertrain: **Battery electric** · 303 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2910,7 +2912,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KL79MNSL9PB044316`
 - Mileage: 123,095 mi · Color: Sterling Gray Metallic · Certified pre-owned
 - Location: Gage Auto Sales, Milwaukie OR (149 mi away)
-- Days on lot: 114
+- Days on lot: 115
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/780391759
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.3 L.
@@ -2943,7 +2945,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KM8KM4DE7RU310867`
 - Mileage: 10,561 mi · Color: Lucid Blue · Certified pre-owned
 - Location: Armstrong Volkswagen, Gladstone OR (152 mi away)
-- Days on lot: 39
+- Days on lot: 40
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786719283
 - Powertrain: **Battery electric** · 303 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -2980,7 +2982,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KM8KNDAF1PU229726`
 - Mileage: 37,538 mi · Color: Shooting Star (matte Gray) · Certified pre-owned
 - Location: Seattle Jeep, Seattle WA (14 mi away)
-- Days on lot: 66
+- Days on lot: 67
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/784515098
 - Powertrain: **Battery electric** · 256 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3017,7 +3019,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KM8KM4DE4RU308056`
 - Mileage: 19,008 mi · Color: Cyber Gray · Certified pre-owned
 - Location: Dick's Hillsboro Hyundai, Hillsboro OR (147 mi away)
-- Days on lot: 2
+- Days on lot: 3
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790100362
 - Powertrain: **Battery electric** · 303 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3054,7 +3056,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KM8KN4DE8RU247615`
 - Mileage: 30,184 mi · Color: Abyss Black · Certified pre-owned
 - Location: Swickard Toyota, Edmonds WA (19 mi away)
-- Days on lot: 25
+- Days on lot: 26
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787949005
 - Powertrain: **Battery electric** · 303 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3091,7 +3093,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `YV4ED3UL4P2965584`
 - Mileage: 58,874 mi · Color: Black · Certified pre-owned
 - Location: Motors Northwest, Tacoma WA (30 mi away)
-- Days on lot: 126
+- Days on lot: 127
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/779356616
 - Powertrain: **Battery electric** · 223 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3126,7 +3128,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3C4NJDDB8MT571850`
 - Mileage: 98,176 mi · Color: Billet Silver Metallic Clearco · Certified pre-owned
 - Location: One Stop Yakima, Yakima WA (104 mi away)
-- Days on lot: 23
+- Days on lot: 24
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788214817
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2.4 L.
@@ -3159,7 +3161,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WVGRMPE21MP032057`
 - Mileage: 55,573 mi · Color: Silver Metallic · Certified pre-owned
 - Location: Rairdon's Kia, Burlington WA (65 mi away)
-- Days on lot: 13
+- Days on lot: 14
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789088320
 - Powertrain: **Battery electric** · 260 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3196,7 +3198,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KNDC34LAXR5200576`
 - Mileage: 71,443 mi · Color: Runway Red · Certified pre-owned
 - Location: Go Kia Renton, Renton WA (7 mi away)
-- Days on lot: 91
+- Days on lot: 92
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/782383947
 - Powertrain: **Battery electric** · 310 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3232,7 +3234,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3GNAXHEV8LS582081`
 - Mileage: 54,760 mi · Color: Nightfall Gray Metallic · Certified pre-owned
 - Location: Dick Hannah Dealerships, Vancouver WA (132 mi away)
-- Days on lot: 50
+- Days on lot: 51
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785880542
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.5 L.
@@ -3265,7 +3267,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `5YJSA1E23JF286614`
 - Mileage: 116,139 mi · Color: Midnight Silver Metallic · Certified pre-owned
 - Location: Pierre GMC of Everett, Everett WA (27 mi away)
-- Days on lot: 7
+- Days on lot: 8
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789663838
 - Powertrain: **Battery electric** · 335 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3300,7 +3302,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `5YJSA1E24JF265643`
 - Mileage: 122,172 mi · Color: Gray · Certified pre-owned
 - Location: Diplomat Motors Inc, Troutdale OR (141 mi away)
-- Days on lot: 8
+- Days on lot: 9
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789509383
 - Powertrain: **Battery electric** · 335 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3335,7 +3337,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3VV0B7AX8MM031502`
 - Mileage: 83,653 mi · Color: Silver Metallic · Certified pre-owned
 - Location: Acura of Portland, Portland OR (142 mi away)
-- Days on lot: 29
+- Days on lot: 30
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787722496
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -3369,7 +3371,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3FMTK1R45PMA75542`
 - Mileage: 44,989 mi · Color: Vapor Blue · Certified pre-owned
 - Location: Time Chrysler Dodge Jeep RAM of Portland, Portland OR (142 mi away)
-- Days on lot: 14
+- Days on lot: 15
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788962837
 - Powertrain: **Battery electric** · 247 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3404,7 +3406,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3FMTK1RM4NMA02515`
 - Mileage: 72,305 mi · Color: Rapid Red Metallic Tinted Clea · Certified pre-owned
 - Location: PNW Luxury Cars, Lakewood WA (30 mi away)
-- Days on lot: 91
+- Days on lot: 92
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/780112771
 - Powertrain: **Battery electric** · 247 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3439,7 +3441,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `YV4ED3UR9M2523576`
 - Mileage: 63,758 mi · Color: Crystal White · Certified pre-owned
 - Location: DLR Nordic, Portland OR (145 mi away)
-- Days on lot: 14
+- Days on lot: 15
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788959931
 - Powertrain: **Battery electric** · 208 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3474,7 +3476,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `SADCM2FV4LA641266`
 - Mileage: 75,378 mi · Color: Borealis Black Gloss · Certified pre-owned
 - Location: One Stop Yakima, Yakima WA (102 mi away)
-- Days on lot: 88
+- Days on lot: 89
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/782650777
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 3 L.
@@ -3507,7 +3509,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KL4MMDSL6PB120897`
 - Mileage: 716 mi · Color: Silver · Certified pre-owned
 - Location: Parkway Auto Center, Deer Park WA (219 mi away)
-- Days on lot: 128
+- Days on lot: 129
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/779113511
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.3 L.
@@ -3541,7 +3543,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3N1AB8BV7PY293484`
 - Mileage: 38,779 mi · Color: Black · Certified pre-owned
 - Location: GP Motor Company (12 mi away)
-- Days on lot: 53
+- Days on lot: 54
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785603435
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -3575,7 +3577,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `JM1DKFC70J0314059`
 - Mileage: 68,781 mi · Color: Brown · Certified pre-owned
 - Location: GP Motor Company (12 mi away)
-- Days on lot: 53
+- Days on lot: 54
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785603241
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -3609,7 +3611,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `5YJ3E1EB5KF194396`
 - Mileage: 52,931 mi · Color: Black · Certified pre-owned
 - Location: Honest Car Sales, Edmonds WA (18 mi away)
-- Days on lot: 7
+- Days on lot: 8
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789668607
 - Powertrain: **Battery electric** · 220 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3645,7 +3647,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KMHD84LF8LU957308`
 - Mileage: 13,341 mi · Color: Black · Certified pre-owned
 - Location: GP Motor Company (12 mi away)
-- Days on lot: 53
+- Days on lot: 54
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785603380
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -3680,7 +3682,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KMHM34AC1PA043173`
 - Mileage: 15,505 mi · Color: Silver · Certified pre-owned
 - Location: Konkin Auto Group, Portland OR (143 mi away)
-- Days on lot: 16
+- Days on lot: 17
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788732969
 - Powertrain: **Battery electric** · 270 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3719,7 +3721,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `5YJ3E1EA3PF556515`
 - Mileage: 15,376 mi · Certified pre-owned
 - Location: GOLDEN ACE MOTORS LLC, Everett WA (27 mi away)
-- Days on lot: 30
+- Days on lot: 31
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787611095
 - Powertrain: **Battery electric** · 272 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3756,7 +3758,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `5YJYGDEE8LF025826`
 - Mileage: 113,707 mi · Certified pre-owned
 - Location: THE PRICE KING AUTO SALES, Lakewood WA (32 mi away)
-- Days on lot: 1
+- Days on lot: 2
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790148000
 - Powertrain: **Battery electric** · 258 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3792,7 +3794,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1HGCV3F14MA018129`
 - Mileage: 123,400 mi · Certified pre-owned
 - Location: M Cars, Portland OR (145 mi away)
-- Days on lot: 16
+- Days on lot: 17
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788732578
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 2 L engine.
@@ -3827,7 +3829,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WA1BNAFY2J2220172`
 - Mileage: 63,387 mi · Color: Black · Certified pre-owned
 - Location: GOLDEN ACE MOTORS LLC, Everett WA (27 mi away)
-- Days on lot: 35
+- Days on lot: 36
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787245348
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -3862,7 +3864,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WVWKR7AUXKW918489`
 - Mileage: 60,405 mi · Color: Reflex Silver Metallic · Certified pre-owned
 - Location: Eastside Subaru, Kirkland WA (10 mi away)
-- Days on lot: 5
+- Days on lot: 6
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789752956
 - Powertrain: **Battery electric** · 125 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3897,7 +3899,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KMHC75LH5KU044333`
 - Mileage: 59,031 mi · Color: Symphony Air Silver Metallic · Certified pre-owned
 - Location: Volkswagen of McMinnville, Mcminnville OR (168 mi away)
-- Days on lot: 7
+- Days on lot: 8
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789608137
 - Powertrain: **Battery electric** · 124 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -3933,7 +3935,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KNDCM3LD2L5443243`
 - Mileage: 45,624 mi · Color: Aurora Black Pearl · Certified pre-owned
 - Location: Dick Hannah Kia, Vancouver WA (134 mi away)
-- Days on lot: 60
+- Days on lot: 61
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/784997325
 - Powertrain: **Plug-in hybrid** · 26 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -3968,7 +3970,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1G1FX6S08H4127310`
 - Mileage: 96,126 mi · Color: Includes (tus) Black Grille. · Certified pre-owned
 - Location: Titus-Will Chevrolet GMC Cadillac - Olympia Auto Mall, Olympia WA (52 mi away)
-- Days on lot: 13
+- Days on lot: 14
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789061464
 - Powertrain: **Battery electric** · 238 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4004,7 +4006,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1G1FY6S06K4103608`
 - Mileage: 41,679 mi · Color: Nightfall Gray Metallic · Certified pre-owned
 - Location: Capitol Toyota, Salem OR (184 mi away)
-- Days on lot: 1
+- Days on lot: 2
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790163561
 - Powertrain: **Battery electric** · 238 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4042,7 +4044,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `JM1BPAAL9M1339116`
 - Mileage: 104,257 mi · Certified pre-owned
 - Location: Venture Auto Sales III, Lakewood WA (32 mi away)
-- Days on lot: 32
+- Days on lot: 33
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787341251
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2.5 L.
@@ -4076,7 +4078,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KNDCB3LC7H5049371`
 - Mileage: 111,634 mi · Color: Snow White Pearl · Certified pre-owned
 - Location: Toyota of Portland, Portland OR (142 mi away)
-- Days on lot: 1
+- Days on lot: 2
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790173574
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.6 L engine.
@@ -4109,7 +4111,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1G1RA6S5XJU132153`
 - Mileage: 77,862 mi · Color: Cajun Red Metallic · Certified pre-owned
 - Location: Cascadia Motors, Portland OR (149 mi away)
-- Days on lot: 75
+- Days on lot: 76
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/783760525
 - Powertrain: **Plug-in hybrid** · 53 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -4145,7 +4147,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WBY8P6C51K7E09726`
 - Mileage: 89,305 mi · Color: Fluid Black W/Bmw I Frozen Blu · Certified pre-owned
 - Location: Time Chrysler Dodge Jeep RAM of Portland, Portland OR (142 mi away)
-- Days on lot: 11
+- Days on lot: 12
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789160831
 - Powertrain: **Battery electric** · 153 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4181,7 +4183,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1G1RA6S51HU132620`
 - Mileage: 91,306 mi · Color: White · Certified pre-owned
 - Location: Emerald Motors, Blaine WA (99 mi away)
-- Days on lot: 20
+- Days on lot: 21
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788441649
 - Powertrain: **Plug-in hybrid** · 53 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -4217,7 +4219,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1G1RD6S54HU217619`
 - Mileage: 125,076 mi · Color: Mosaic Black Metallic · Certified pre-owned
 - Location: Top Gear Motors, Lynnwood WA (20 mi away)
-- Days on lot: 53
+- Days on lot: 54
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785512062
 - Powertrain: **Plug-in hybrid** · 53 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -4252,7 +4254,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WBY8P4C02L7G18371`
 - Mileage: 40,750 mi · Color: Fluid Black W/Bmw I Frozen Blu · Certified pre-owned
 - Location: BMW of Tigard, Tigard OR (146 mi away)
-- Days on lot: 8
+- Days on lot: 9
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789491098
 - Powertrain: **Plug-in hybrid** · 126 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -4288,7 +4290,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WBY1Z8C32HV890335`
 - Mileage: 86,788 mi · Color: Mineral Gray W/Bmw I Frozen Bl · Certified pre-owned
 - Location: Freeman Motor Company, Portland OR (146 mi away)
-- Days on lot: 2
+- Days on lot: 3
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790035203
 - Powertrain: **Plug-in hybrid** · 97 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -4325,7 +4327,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1G1RC6S58JU114132`
 - Mileage: 102,267 mi · Color: Summit White · Certified pre-owned
 - Location: Cascadia Motors, Portland OR (149 mi away)
-- Days on lot: 72
+- Days on lot: 73
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/784075075
 - Powertrain: **Plug-in hybrid** · 53 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -4360,7 +4362,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1N4BZ0CP1HC307474`
 - Mileage: 32,563 mi · Color: Blue · Certified pre-owned
 - Location: The Car Outlet LLC, Kent WA (12 mi away)
-- Days on lot: 7
+- Days on lot: 8
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789672168
 - Powertrain: **Battery electric** · 107 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4395,7 +4397,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1N4BZ0CP8HC311540`
 - Mileage: 31,046 mi · Color: Deep Blue Pearl · Certified pre-owned
 - Location: Four-Ten Auto Sales, Bonney Lake WA (27 mi away)
-- Days on lot: 86
+- Days on lot: 87
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/782779277
 - Powertrain: **Battery electric** · 107 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4429,7 +4431,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1N4BZ0CP7HC311013`
 - Mileage: 27,076 mi · Color: Deep Blue Pearl · Certified pre-owned
 - Location: Auto Connections of Bellevue, Bellevue WA (5 mi away)
-- Days on lot: 6
+- Days on lot: 7
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789694040
 - Powertrain: **Battery electric** · 107 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4463,7 +4465,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3KPC24A6XLE096829`
 - Mileage: 49,511 mi · Color: Silver · Certified pre-owned
 - Location: Wenatchee Autoplex, Wenatchee WA (87 mi away)
-- Days on lot: 32
+- Days on lot: 33
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787348103
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.6 L.
@@ -4495,7 +4497,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WMEEJ9AAXFK836914`
 - Mileage: 39,816 mi · Color: Silver · Certified pre-owned
 - Location: Private Seller Exchange, Portland OR (144 mi away)
-- Days on lot: 47
+- Days on lot: 48
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786095836
 - Powertrain: **Battery electric** · 68 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4561,7 +4563,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1N4BZ0CP2HC301649`
 - Mileage: 70,617 mi · Color: Pearl White · Certified pre-owned
 - Location: Cascadia Motors, Portland OR (149 mi away)
-- Days on lot: 16
+- Days on lot: 17
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788817735
 - Powertrain: **Battery electric** · 107 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4596,7 +4598,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WBY1Z4C58GV506874`
 - Mileage: 65,498 mi · Color: Ionic Silver Metallic · Certified pre-owned
 - Location: Cascadia Motors, Portland OR (149 mi away)
-- Days on lot: 92
+- Days on lot: 93
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/782381541
 - Powertrain: **Plug-in hybrid** · 72 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -4631,7 +4633,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WDDVP9AB4HJ014484`
 - Mileage: 35,834 mi · Color: Silver · Certified pre-owned
 - Location: Time Chrysler Dodge Jeep RAM of Portland, Portland OR (142 mi away)
-- Days on lot: 0
+- Days on lot: 1
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790280761
 - Powertrain: **Battery electric** · 87 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4665,7 +4667,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WVWKP7AU9GW917198`
 - Mileage: 67,000 mi · Color: White · Certified pre-owned
 - Location: Private Seller Exchange, Sherwood OR (156 mi away)
-- Days on lot: 9
+- Days on lot: 10
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789433098
 - Powertrain: **Battery electric** · 83 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4699,7 +4701,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WVWKP7AU1GW913517`
 - Mileage: 69,930 mi · Color: Pure White · Certified pre-owned
 - Location: Elliott Bay INEOS Grenadier, Seattle WA (15 mi away)
-- Days on lot: 8
+- Days on lot: 9
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789567176
 - Powertrain: **Battery electric** · 83 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4733,7 +4735,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WVWKP7AUXGW901334`
 - Mileage: 75,689 mi · Color: Pure White · Certified pre-owned
 - Location: Way Scarff Ford Auburn, Auburn WA (17 mi away)
-- Days on lot: 8
+- Days on lot: 9
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789592153
 - Powertrain: **Battery electric** · 83 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4767,7 +4769,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `JTDKN3DU3F1879568`
 - Mileage: 76,159 mi · Color: Winter Gray Metallic · Certified pre-owned
 - Location: Guaranty Chevrolet, Junction City OR (237 mi away)
-- Days on lot: 13
+- Days on lot: 14
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789066018
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.8 L engine.
@@ -4800,7 +4802,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `VCF1ZBU27PG003836`
 - Mileage: 12,285 mi · Color: Blue · Certified pre-owned
 - Location: United Auto Group, LLC, Everett WA (28 mi away)
-- Days on lot: 4
+- Days on lot: 5
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789801560
 - Powertrain: **Battery electric** · 360 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4836,7 +4838,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KNDJP3AE6H7021014`
 - Mileage: 35,871 mi · Color: Blue · Certified pre-owned
 - Location: Doxon Toyota, Auburn WA (16 mi away)
-- Days on lot: 11
+- Days on lot: 12
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789228706
 - Powertrain: **Battery electric** · 93 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4871,7 +4873,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KNDJX3AE5G7013422`
 - Mileage: 48,222 mi · Color: Titanium Gray Metallic · Certified pre-owned
 - Location: Lee Johnson Nissan of Kirkland, Kirkland WA (11 mi away)
-- Days on lot: 38
+- Days on lot: 39
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786614282
 - Powertrain: **Battery electric** · 93 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4905,7 +4907,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `KNDJX3AE8G7013804`
 - Mileage: 54,443 mi · Color: Bright Silver Metallic · Certified pre-owned
 - Location: GEORGE GEE KIA, Liberty Lake WA (235 mi away)
-- Days on lot: 20
+- Days on lot: 21
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788454594
 - Powertrain: **Battery electric** · 93 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4939,7 +4941,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `LPSED3KA7ML010961`
 - Mileage: 101,244 mi · Color: Void · Certified pre-owned
 - Location: Prestige Motors, Yakima WA (104 mi away)
-- Days on lot: 2
+- Days on lot: 3
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790133267
 - Powertrain: **Battery electric** · 233 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -4975,7 +4977,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WBY1Z4C53FV501807`
 - Mileage: 87,909 mi · Color: Arravani Gray W/Bmw I Frozen B · Certified pre-owned
 - Location: Time Chrysler Dodge Jeep RAM of Portland, Portland OR (142 mi away)
-- Days on lot: 15
+- Days on lot: 16
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788854071
 - Powertrain: **Plug-in hybrid** · 72 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -5010,7 +5012,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `JTDKDTB33F1580305`
 - Mileage: 98,429 mi · Color: Black Sand Pearl · Certified pre-owned
 - Location: Honda of Seattle, Seattle WA (8 mi away)
-- Days on lot: 16
+- Days on lot: 17
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788751120
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.5 L engine.
@@ -5042,7 +5044,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3HGGK5H50FM777839`
 - Mileage: 61,325 mi · Color: Gray · Certified pre-owned
 - Location: Parkway Auto Center, Deer Park WA (219 mi away)
-- Days on lot: 1441
+- Days on lot: 1442
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/658771611
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.491222824 L.
@@ -5074,7 +5076,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `ZACNJBAB7KPJ97788`
 - Mileage: 48,587 mi · Color: Black Clearcoat · Certified pre-owned
 - Location: Genuine Motor Company, Gladstone OR (152 mi away)
-- Days on lot: 15
+- Days on lot: 16
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788870720
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2.4 L.
@@ -5107,7 +5109,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WDCTG4GB1GJ203842`
 - Mileage: 52,000 mi · Color: White · Certified pre-owned
 - Location: Private Seller Exchange, Tualatin OR (154 mi away)
-- Days on lot: 16
+- Days on lot: 17
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788787454
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -5139,7 +5141,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3C4NJDDB6HT646969`
 - Mileage: 50,876 mi · Color: Gray · Certified pre-owned
 - Location: GP Motor Company (12 mi away)
-- Days on lot: 53
+- Days on lot: 54
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/785603488
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2.4 L.
@@ -5173,7 +5175,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WBA8A9C56HK619680`
 - Mileage: 52,144 mi · Color: Mineral Gray Metallic · Certified pre-owned
 - Location: Diplomat Motors - Portland, Portland OR (145 mi away)
-- Days on lot: 80
+- Days on lot: 81
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/783327821
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 2 L.
@@ -5206,7 +5208,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WA1LAAGE8KB022976`
 - Mileage: 62,105 mi · Color: Mythos Black Metallic · Certified pre-owned
 - Location: Volkswagen of McMinnville, Mcminnville OR (168 mi away)
-- Days on lot: 149
+- Days on lot: 150
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/777140042
 - Powertrain: **Battery electric** · 204 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -5242,7 +5244,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `JTDKN3DU4F1939051`
 - Mileage: 140,799 mi · Color: Black · Certified pre-owned
 - Location: Lithia Nissan of Eugene, Eugene OR (246 mi away)
-- Days on lot: 4
+- Days on lot: 5
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789849191
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.8 L engine.
@@ -5275,7 +5277,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `WAUSPBFFXGA083529`
 - Mileage: 120,249 mi · Color: Gray · Certified pre-owned
 - Location: Private Seller Exchange, Oregon City OR (155 mi away)
-- Days on lot: 26
+- Days on lot: 27
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787899635
 - Powertrain: **Plug-in hybrid** · 16 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -5309,7 +5311,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `5UXKT0C58G0S76006`
 - Mileage: 109,038 mi · Color: Mineral Silver Metallic · Certified pre-owned
 - Location: BMW Of Lynnwood, Lynnwood WA (20 mi away)
-- Days on lot: 47
+- Days on lot: 48
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786083561
 - Powertrain: **Plug-in hybrid** · 14 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -5344,7 +5346,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `JTDKDTB38F1106026`
 - Mileage: 128,340 mi · Color: Super White · Certified pre-owned
 - Location: Signature Motor Company LLC, Gresham OR (143 mi away)
-- Days on lot: 61
+- Days on lot: 62
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/784935957
 - Powertrain: **Hybrid**
   - Determined from the VIN: NHTSA classifies this VIN as a hybrid with a 1.5 L engine.
@@ -5376,7 +5378,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3FMTK3SU8MMA10475`
 - Mileage: 65,680 mi · Color: Blue Metallic · Certified pre-owned
 - Location: Genesis of Kirkland, Kirkland WA (10 mi away)
-- Days on lot: 19
+- Days on lot: 20
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788499612
 - Powertrain: **Battery electric** · 270 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -5410,7 +5412,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3FMTK3R73MMA42539`
 - Mileage: 60,360 mi · Color: Blue Metallic · Certified pre-owned
 - Location: Toyota of Newport, Newport OR (223 mi away)
-- Days on lot: 43
+- Days on lot: 44
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786024656
 - Powertrain: **Battery electric** · 300 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -5479,7 +5481,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3HGGK5H62KM752525`
 - Mileage: 46,361 mi · Certified pre-owned
 - Location: THE PRICE KING AUTO SALES, Lakewood WA (32 mi away)
-- Days on lot: 47
+- Days on lot: 48
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/786078923
 - Powertrain: **Gasoline**
   - Determined from the VIN: NHTSA lists gasoline as the only fuel, 1.5 L.
@@ -5514,7 +5516,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3C3CFFGE1KT802728`
 - Mileage: 28,290 mi · Color: Vesuvio Black Pearl · Certified pre-owned
 - Location: Freeman Motor Company Salem, Salem OR (183 mi away)
-- Days on lot: 2
+- Days on lot: 3
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/790034644
 - Powertrain: **Battery electric** · 84 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -5549,7 +5551,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3C3CFFGE3KT680213`
 - Mileage: 35,445 mi · Color: Granito Lucente (granite Cryst · Certified pre-owned
 - Location: Go Hyundai of Renton, Renton WA (7 mi away)
-- Days on lot: 20
+- Days on lot: 21
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788426969
 - Powertrain: **Battery electric** · 84 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -5584,7 +5586,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3C3CFFGE5JT465091`
 - Mileage: 35,100 mi · Color: Pompei Silver · Certified pre-owned
 - Location: Mazda Of Gladstone, Gladstone OR (152 mi away)
-- Days on lot: 4
+- Days on lot: 5
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789800213
 - Powertrain: **Battery electric** · 84 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -5619,7 +5621,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3C3CFFGE9HT500855`
 - Mileage: 32,300 mi · Color: Orange · Certified pre-owned
 - Location: Private Seller Exchange, Bellingham WA (86 mi away)
-- Days on lot: 128
+- Days on lot: 129
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/779105686
 - Powertrain: **Battery electric** · 84 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -5653,7 +5655,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3C3CFFGE3GT193116`
 - Mileage: 71,397 mi · Color: Gray · Certified pre-owned
 - Location: ACCESS MOTORSPORTS LLC, Kirkland WA (11 mi away)
-- Days on lot: 31
+- Days on lot: 32
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787533551
 - Powertrain: **Battery electric** · 84 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -5687,7 +5689,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3C3CFFGE9GT113804`
 - Mileage: 87,101 mi · Color: White · Certified pre-owned
 - Location: ACCESS MOTORSPORTS LLC, Kirkland WA (11 mi away)
-- Days on lot: 20
+- Days on lot: 21
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788451431
 - Powertrain: **Battery electric** · 84 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -5721,7 +5723,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1FADP5EU3HL106089`
 - Mileage: 69,050 mi · Color: White Platinum · Certified pre-owned
 - Location: Volkswagen of Olympia, Olympia WA (52 mi away)
-- Days on lot: 6
+- Days on lot: 7
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789704464
 - Powertrain: **Plug-in hybrid** · 20 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -5757,7 +5759,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3C3CFFGE5FT709698`
 - Mileage: 40,501 mi · Color: Luce Blu · Certified pre-owned
 - Location: Bellingham Ford, Bellingham WA (84 mi away)
-- Days on lot: 26
+- Days on lot: 27
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/787896991
 - Powertrain: **Battery electric** · 87 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.
@@ -5792,7 +5794,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `1FADP5EUXHL104520`
 - Mileage: 81,118 mi · Color: Magnetic · Certified pre-owned
 - Location: Dick Hannah Dealerships, Vancouver WA (132 mi away)
-- Days on lot: 5
+- Days on lot: 6
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/789783024
 - Powertrain: **Plug-in hybrid** · 20 mi electric range
   - Determined from the VIN: NHTSA classifies this VIN as a plug-in hybrid.
@@ -5828,7 +5830,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - VIN: `3C3CFFGE5FT741177`
 - Mileage: 95,451 mi · Color: Charcoal · Certified pre-owned
 - Location: ACCESS MOTORSPORTS LLC, Kirkland WA (11 mi away)
-- Days on lot: 15
+- Days on lot: 16
 - Listing: https://www.autotrader.com/cars-for-sale/vehicle/788948597
 - Powertrain: **Battery electric** · 87 mi electric range
   - Determined from the VIN: NHTSA lists electric as the only fuel and no engine displacement.

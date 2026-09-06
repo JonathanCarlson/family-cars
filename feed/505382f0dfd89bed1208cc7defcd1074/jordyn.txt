@@ -1,6 +1,6 @@
 ==========================================================================
 JORDYN'S FIRST CAR — 162 listings
-roster updated 2026-09-05 · feed generated 2026-09-06T03:10:22.826Z
+roster updated 2026-09-05 · feed generated 2026-09-06T04:58:24.104Z
 ==========================================================================
 
 Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.
@@ -75,7 +75,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                52,213 mi
   condition               Used · Black
   where                   ACCESS MOTORSPORTS LLC, Kirkland WA (11 mi)
-  days on lot             13
+  days on lot             14
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789098195
   powertrain              Battery electric · 149 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -130,7 +130,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                20,737 mi
   condition               Used · Phantom Black
   where                   Better All Auto Sales, Yakima WA (102 mi)
-  days on lot             31
+  days on lot             32
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787421765
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -178,7 +178,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                17,102 mi
   condition               Used · Brilliant Silver Metallic
   where                   Alan Webb Nissan, Vancouver WA (134 mi)
-  days on lot             46
+  days on lot             47
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/778504591
   powertrain              Battery electric · 149 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -233,7 +233,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                37,615 mi
   condition               Used · Amazon Gray
   where                   Ron Tonkin Kia, Gladstone OR (152 mi)
-  days on lot             13
+  days on lot             14
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789052127
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -280,7 +280,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                52,370 mi
   condition               Used · Snow White Pearl
   where                   Beaverton Hyundai, Beaverton OR (147 mi)
-  days on lot             12
+  days on lot             13
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789106464
   powertrain              Plug-in hybrid · 26 mi electric
   electric drive share    45% of miles at 130 mi/week
@@ -335,7 +335,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                39,976 mi
   condition               Used · Polymetal Gray Metallic Multi-
   where                   Team Hyundai of Bend, Bend OR (246 mi)
-  days on lot             95
+  days on lot             96
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/781996919
   powertrain              Battery electric · 100 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -389,7 +389,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                113,256 mi
   condition               Used · Silky Silver
   where                   Wilsonville Chevrolet, Wilsonville OR (157 mi)
-  days on lot             15
+  days on lot             16
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788854318
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -437,7 +437,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                70,725 mi
   condition               Used · Brilliant Silver Metallic
   where                   One Stop Yakima, Yakima WA (104 mi)
-  days on lot             88
+  days on lot             89
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/782650858
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -483,7 +483,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                40,000 mi
   condition               Used · Black
   where                   Private Seller Exchange, Carnation WA (13 mi)
-  days on lot             22
+  days on lot             23
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788290651
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -532,7 +532,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                44,352 mi
   condition               Used · Silky Silver
   where                   Wilsonville Subaru, Wilsonville OR (159 mi)
-  days on lot             91
+  days on lot             92
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/782471714
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -579,7 +579,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                41,300 mi
   condition               Used · Gray
   where                   Private Seller Exchange, Olympia WA (51 mi)
-  days on lot             6
+  days on lot             7
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789726694
   powertrain              Battery electric · 215 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -635,7 +635,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                80,887 mi
   condition               Used · Symphony Air Silver
   where                   Nissan of Everett, Everett WA (24 mi)
-  days on lot             7
+  days on lot             8
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789625640
   powertrain              Battery electric · 124 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -691,7 +691,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                63,261 mi
   condition               Used · Galactic Gray
   where                   ZAG Motors Lynnwood, Lynnwood WA (18 mi)
-  days on lot             11
+  days on lot             12
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789229031
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -737,7 +737,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                62,298 mi
   condition               Used · Brilliant Silver Metallic
   where                   PNW Luxury Cars, Lakewood WA (30 mi)
-  days on lot             1
+  days on lot             2
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790183331
   powertrain              Battery electric · 226 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -793,7 +793,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                66,256 mi
   condition               Used · Fresh Powder
   where                   Better All Auto Sales, Yakima WA (102 mi)
-  days on lot             10
+  days on lot             11
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789366136
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -839,7 +839,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                73,361 mi
   condition               Used · Fresh Powder
   where                   Platinum Wholesale Auto, Inc., Woodinville WA (15 mi)
-  days on lot             14
+  days on lot             15
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789043469
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -885,7 +885,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                39,978 mi
   condition               Used · Toasted Marshmallow Metallic
   where                   Seattle Jeep, Seattle WA (14 mi)
-  days on lot             49
+  days on lot             50
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786004486
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -931,7 +931,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                74,284 mi
   condition               Used · White
   where                   BCR Automotive, Portland OR (143 mi)
-  days on lot             45
+  days on lot             46
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786312087
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -977,7 +977,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                72,091 mi
   condition               Used · Ceramic White
   where                   Capitol Toyota, Salem OR (184 mi)
-  days on lot             2
+  days on lot             3
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790051447
   powertrain              Battery electric · 170 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -1032,7 +1032,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                33,693 mi
   condition               Used · Black
   where                   Volkswagen of Olympia, Olympia WA (52 mi)
-  days on lot             64
+  days on lot             65
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/784707771
   powertrain              Battery electric · 149 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -1087,7 +1087,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                30,055 mi
   condition               Certified · Agate Black Metallic
   where                   AutoNation Ford Bellevue, Bellevue WA (4 mi)
-  days on lot             1
+  days on lot             2
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790204861
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -1136,7 +1136,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                47,647 mi
   condition               Used · Steel Gray
   where                   Seaview GMC, Lynnwood WA (20 mi)
-  days on lot             10
+  days on lot             11
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789312606
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -1182,7 +1182,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                30,792 mi
   condition               Used · Gray Cray
   where                   ST HELENS CHRYSLER DODGE JEEP RAM, Saint Helens OR (122 mi)
-  days on lot             86
+  days on lot             87
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/782861147
   powertrain              Plug-in hybrid · 33 mi electric
   electric drive share    70% of miles at 130 mi/week
@@ -1237,7 +1237,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                21,911 mi
   condition               Used · Maroon
   where                   Auto Car Zone LLC, Bellevue WA (2 mi)
-  days on lot             26
+  days on lot             27
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787906704
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -1283,7 +1283,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                19,562 mi
   condition               Used · Mystic Blue Metallic
   where                   Wilsonville Chevrolet, Wilsonville OR (157 mi)
-  days on lot             28
+  days on lot             29
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787757316
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -1329,7 +1329,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                32,226 mi
   condition               Used · Snow White Pearl
   where                   Capitol Nissan of Salem, Salem OR (183 mi)
-  days on lot             51
+  days on lot             52
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785805569
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -1375,7 +1375,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                39,464 mi
   condition               Used · Aurora Black Pearl
   where                   Dick's Hillsboro Hyundai, Hillsboro OR (147 mi)
-  days on lot             19
+  days on lot             20
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788467761
   powertrain              Battery electric · 253 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -1424,59 +1424,59 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-28. 2020 Tesla Model 3 Standard Range Plus — $18,699
+28. 2023 Chevrolet Bolt LT — $17,499
 ==========================================================================
-  VIN                     5YJ3E1EA2LF614396
-  odometer                56,300 mi
-  condition               Used · White
-  where                   Private Seller Exchange, Redmond OR (232 mi)
-  days on lot             280
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/766442591
-  powertrain              Battery electric · 220 mi electric
+  VIN                     1G1FW6S06P4115948
+  odometer                48,805 mi
+  condition               Used · Gray Ghost Metallic
+  where                   Cortes Auto Center, Burlington WA (65 mi)
+  days on lot             26
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/787933637
+  powertrain              Battery electric · 259 mi electric
   electric drive share    100% of miles at 130 mi/week
     evidence              NHTSA lists electric as the only fuel and no engine displacement.
   AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      standard (vin-trim-confirmed)
-  also standard (trim)   forward-collision-warning, lane-keeping-assist, adaptive-cruise-control, rear-cross-traffic-alert, backup-camera
-  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
+  blind-spot monitor      trim (model-year-typical)
+  IIHS                    Good in most tests
+  also standard (1LT)   forward-collision-warning, lane-keeping-assist, backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
     salvage title         no
     frame damage          not reported
     flood damage          not reported
     accidents reported    no
-    one owner             yes
-  battery risk factor     0.41
+    one owner             no
+  battery risk factor     0.25
     Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-  reliability (2020 Tesla Model 3)
-    band                  ok (confidence: high)
-    NHTSA                 447 complaints · 21 recalls
-    - 447 NHTSA complaints, no single system dominating.
-    - 21 recall campaigns for this model year — check all are closed out for the VIN.
-    source                https://www.nhtsa.gov/vehicle/2020/TESLA/MODEL%203
+  reliability (2023 Chevrolet Bolt)
+    band                  ok (confidence: medium)
+    NHTSA                 59 complaints · 3 recalls
+    - 59 NHTSA complaints, no single system dominating.
+    source                https://www.nhtsa.gov/vehicle/2023/CHEVROLET/BOLT%20EV
   2-year cost to own
-    purchase 18699 + tax 2019 + fuel 1948 + maint 1140
-    + insurance 3508 + fees 840 + repairs 172 - resale 14253
-    = $14,073 ($586/mo over 27,040 mi)
-    NPV (5%/yr): $14,863 — same costs discounted to today, later dollars weigh less
+    purchase 17499 + tax 1890 + fuel 1996 + maint 854
+    + insurance 3228 + fees 800 + repairs 87 - resale 12259
+    = $14,095 ($587/mo over 27,040 mi)
+    NPV (5%/yr): $14,745 — same costs discounted to today, later dollars weigh less
   6-year cost to own
-    purchase 18699 + tax 2019 + fuel 6428 + maint 3419
-    + insurance 10524 + fees 2520 + repairs 804 - resale 7495
-    = $36,918 ($513/mo over 81,120 mi)
-    NPV (5%/yr): $35,170 — same costs discounted to today, later dollars weigh less
-  repair outlook (6 yr)   expected $672 to budget
-    worst single bill     $9,815 at ~2% — exposure, not budget
-     21% x $  997 = $ 212  Suspension, steering or brake overhaul
-      4% x $ 4153 = $ 179  Drive unit, inverter or onboard charger
-      2% x $ 9815 = $ 147  Traction battery catastrophic failure (not degradation)
-      6% x $ 2190 = $ 134  Battery thermal management / electric HVAC
-  battery health          89% now -> 79% in 6 yr (±4 percentage points)
-    range                 ~196 mi now -> ~174 mi (need ~19/day)
+    purchase 17499 + tax 1890 + fuel 6589 + maint 2563
+    + insurance 9684 + fees 2400 + repairs 343 - resale 6435
+    = $34,533 ($480/mo over 81,120 mi)
+    NPV (5%/yr): $32,842 — same costs discounted to today, later dollars weigh less
+  repair outlook (6 yr)   expected $283 to budget
+    worst single bill     $7,670 at ~0% — exposure, not budget
+     13% x $  779 = $ 103  Suspension, steering or brake overhaul
+      3% x $ 3245 = $  84  Drive unit, inverter or onboard charger
+      4% x $ 1711 = $  65  Battery thermal management / electric HVAC
+      0% x $ 7670 = $  31  Traction battery catastrophic failure (not degradation)
+  battery health          93% now -> 83% in 6 yr (±4 percentage points)
+    range                 ~242 mi now -> ~216 mi (need ~19/day)
     Liquid-cooled pack with active thermal management
     (degradation affects range and resale, NOT counted as a repair)
-  still worth owning 2032?  likely (~82%)
-    ~96,860 mi, 12 yr old
-    - 12 years old by 2032, which is old but ordinary for a car in this class.
-    - Only ~97k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-    - Projected ~174 mi of range at 79% health by 2032 — still far beyond the ~19 mi/day need.
+  still worth owning 2032?  likely (~90%)
+    ~89,365 mi, 9 yr old
+    - Only ~89k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+    - Projected ~216 mi of range at 83% health by 2032 — still far beyond the ~19 mi/day need.
+    - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
 29. 2022 Chevrolet Bolt EUV LT — $17,189
@@ -1485,7 +1485,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                68,297 mi
   condition               Used · Silver Flare Metallic
   where                   Seattle MINI, Seattle WA (13 mi)
-  days on lot             64
+  days on lot             65
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/784797833
   powertrain              Battery electric · 247 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -1535,59 +1535,59 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-30. 2023 Chevrolet Bolt LT — $17,999
+30. 2018 Tesla Model 3 Mid Range — $16,999
 ==========================================================================
-  VIN                     1G1FW6S06P4115948
-  odometer                48,805 mi
-  condition               Used · Gray Ghost Metallic
-  where                   Cortes Auto Center, Burlington WA (65 mi)
-  days on lot             25
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/787933637
-  powertrain              Battery electric · 259 mi electric
+  VIN                     5YJ3E1EA7JF041265
+  odometer                74,871 mi
+  condition               Used · Gray
+  where                   Private Seller Exchange, Bellevue WA (0 mi)
+  days on lot             105
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/781270607
+  powertrain              Battery electric · 260 mi electric
   electric drive share    100% of miles at 130 mi/week
     evidence              NHTSA lists electric as the only fuel and no engine displacement.
   AEB                     standard (vin-trim-confirmed)
-  blind-spot monitor      trim (model-year-typical)
-  IIHS                    Good in most tests
-  also standard (1LT)   forward-collision-warning, lane-keeping-assist, backup-camera
-  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
+  blind-spot monitor      standard (vin-trim-confirmed)
+  also standard (trim)   forward-collision-warning, lane-keeping-assist, backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
     salvage title         no
     frame damage          not reported
     flood damage          not reported
     accidents reported    no
-    one owner             no
-  battery risk factor     0.25
+    one owner             yes
+  battery risk factor     0.54
     Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-  reliability (2023 Chevrolet Bolt)
-    band                  ok (confidence: medium)
-    NHTSA                 59 complaints · 3 recalls
-    - 59 NHTSA complaints, no single system dominating.
-    source                https://www.nhtsa.gov/vehicle/2023/CHEVROLET/BOLT%20EV
+  reliability (2018 Tesla Model 3)
+    band                  ok (confidence: high)
+    NHTSA                 1009 complaints · 19 recalls
+    - 1009 NHTSA complaints, no single system dominating.
+    - 19 recall campaigns for this model year — check all are closed out for the VIN.
+    source                https://www.nhtsa.gov/vehicle/2018/TESLA/MODEL%203
   2-year cost to own
-    purchase 17999 + tax 1944 + fuel 1996 + maint 854
-    + insurance 3284 + fees 810 + repairs 87 - resale 12609
-    = $14,365 ($599/mo over 27,040 mi)
-    NPV (5%/yr): $15,043 — same costs discounted to today, later dollars weigh less
+    purchase 16999 + tax 1836 + fuel 1948 + maint 1315
+    + insurance 3508 + fees 818 + repairs 334 - resale 13034
+    = $13,724 ($572/mo over 27,040 mi)
+    NPV (5%/yr): $14,379 — same costs discounted to today, later dollars weigh less
   6-year cost to own
-    purchase 17999 + tax 1944 + fuel 6589 + maint 2563
-    + insurance 9852 + fees 2430 + repairs 343 - resale 6618
-    = $35,102 ($488/mo over 81,120 mi)
-    NPV (5%/yr): $33,427 — same costs discounted to today, later dollars weigh less
-  repair outlook (6 yr)   expected $283 to budget
-    worst single bill     $7,670 at ~0% — exposure, not budget
-     13% x $  779 = $ 103  Suspension, steering or brake overhaul
-      3% x $ 3245 = $  84  Drive unit, inverter or onboard charger
-      4% x $ 1711 = $  65  Battery thermal management / electric HVAC
-      0% x $ 7670 = $  31  Traction battery catastrophic failure (not degradation)
-  battery health          93% now -> 83% in 6 yr (±4 percentage points)
-    range                 ~242 mi now -> ~216 mi (need ~19/day)
+    purchase 16999 + tax 1836 + fuel 6428 + maint 3946
+    + insurance 10524 + fees 2454 + repairs 1280 - resale 6855
+    = $36,612 ($509/mo over 81,120 mi)
+    NPV (5%/yr): $34,557 — same costs discounted to today, later dollars weigh less
+  repair outlook (6 yr)   expected $1,065 to budget
+    worst single bill     $9,815 at ~3% — exposure, not budget
+     31% x $  997 = $ 309  Suspension, steering or brake overhaul
+      3% x $ 9815 = $ 304  Traction battery catastrophic failure (not degradation)
+      6% x $ 4153 = $ 257  Drive unit, inverter or onboard charger
+      9% x $ 2190 = $ 195  Battery thermal management / electric HVAC
+  battery health          85% now -> 75% in 6 yr (±4 percentage points)
+    range                 ~222 mi now -> ~196 mi (need ~19/day)
     Liquid-cooled pack with active thermal management
     (degradation affects range and resale, NOT counted as a repair)
-  still worth owning 2032?  likely (~90%)
-    ~89,365 mi, 9 yr old
-    - Only ~89k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-    - Projected ~216 mi of range at 83% health by 2032 — still far beyond the ~19 mi/day need.
-    - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
+  still worth owning 2032?  likely (~82%)
+    ~115,431 mi, 14 yr old
+    - 14 years old by 2032, which is old but ordinary for a car in this class.
+    - Only ~115k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+    - Projected ~196 mi of range at 75% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
 31. 2023 Polestar Polestar 2 — $20,950
@@ -1596,7 +1596,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                29,842 mi
   condition               Used · Magnesium Metallic
   where                   Volkswagen of McMinnville, Mcminnville OR (168 mi)
-  days on lot             107
+  days on lot             108
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/780925766
   powertrain              Battery electric · 270 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -1650,7 +1650,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                60,747 mi
   condition               Used · Gravity Blue
   where                   Royal Moore Auto Center, Hillsboro OR (147 mi)
-  days on lot             3
+  days on lot             4
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789943127
   powertrain              Plug-in hybrid · 26 mi electric
   electric drive share    45% of miles at 130 mi/week
@@ -1705,7 +1705,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                16,677 mi
   condition               Used · Cayenne Orange Metallic
   where                   Titus-Will Used Cars Olympia, Olympia WA (46 mi)
-  days on lot             10
+  days on lot             11
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789270108
   powertrain              Battery electric · 259 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -1762,7 +1762,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                86,847 mi
   condition               Used · Blizzard Pearl
   where                   Cascadia Motors, Portland OR (149 mi)
-  days on lot             58
+  days on lot             59
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785138122
   powertrain              Plug-in hybrid · 25 mi electric
   electric drive share    45% of miles at 130 mi/week
@@ -1817,7 +1817,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                33,621 mi
   condition               Used · Boulder Gray Pearl
   where                   Volkswagen of McMinnville, Mcminnville OR (168 mi)
-  days on lot             7
+  days on lot             8
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789608133
   powertrain              Battery electric · 205 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -1871,7 +1871,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                94,936 mi
   condition               Used · White
   where                   Bill Harris Used Cars Inc., Selah WA (99 mi)
-  days on lot             3
+  days on lot             4
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790006945
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -1919,7 +1919,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                2,162 mi
   condition               Used · Gun Metallic
   where                   Rogers GMC of Hermiston, Hermiston OR (179 mi)
-  days on lot             4
+  days on lot             5
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789884645
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -2011,7 +2011,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                68,804 mi
   condition               Used · Midnight Silver Metallic
   where                   Leskovar Mitsubishi, Kennewick WA (169 mi)
-  days on lot             31
+  days on lot             32
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787533041
   powertrain              Battery electric · 315 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2060,13 +2060,70 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-40. 2023 Polestar Polestar 2 — $16,988
+40. 2021 Chevrolet Bolt Premier — $22,411
+==========================================================================
+  VIN                     1G1FZ6S08M4100709
+  odometer                676 mi
+  condition               Used · Slate Gray Metallic
+  where                   Bill Pierre Chevrolet, Seattle WA (13 mi)
+  days on lot             23
+  listing                 https://www.autotrader.com/cars-for-sale/vehicle/788286194
+  powertrain              Battery electric · 259 mi electric
+  electric drive share    100% of miles at 130 mi/week
+    evidence              NHTSA lists electric as the only fuel and no engine displacement.
+  AEB                     standard (vin-trim-confirmed)
+  blind-spot monitor      standard (vin-trim-confirmed)
+  IIHS                    Good in most tests; headlights Marginal/Poor
+  also standard (Premier)   forward-collision-warning, rear-cross-traffic-alert, backup-camera
+  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED
+    salvage title         no
+    frame damage          not reported
+    flood damage          not reported
+    accidents reported    no
+    one owner             not reported
+  battery risk factor     0.05
+    Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
+  reliability (2021 Chevrolet Bolt)
+    band                  concern (confidence: high)
+    NHTSA                 67 complaints · 5 recalls
+    - 72% of its 67 NHTSA complaints (48) concern the electrical / propulsion — a concentrated pattern, not scattered noise.
+    - Has a traction-battery/propulsion recall on record — confirm it was performed on this specific car.
+    - 5 recall campaigns for this model year — check all are closed out for the VIN.
+    source                https://www.nhtsa.gov/vehicle/2021/CHEVROLET/BOLT%20EV
+  2-year cost to own
+    purchase 22411 + tax 2420 + fuel 1996 + maint 827
+    + insurance 2366 + fees 902 + repairs 55 - resale 19380
+    = $11,597 ($483/mo over 27,040 mi)
+    NPV (5%/yr): $12,967 — same costs discounted to today, later dollars weigh less
+  6-year cost to own
+    purchase 22411 + tax 2420 + fuel 6589 + maint 2481
+    + insurance 7098 + fees 2706 + repairs 223 - resale 10425
+    = $33,503 ($465/mo over 81,120 mi)
+    NPV (5%/yr): $33,207 — same costs discounted to today, later dollars weigh less
+  repair outlook (6 yr)   expected $187 to budget
+    worst single bill     $7,670 at ~0% — exposure, not budget
+      9% x $  779 = $  70  Suspension, steering or brake overhaul
+      2% x $ 3245 = $  58  Drive unit, inverter or onboard charger
+      3% x $ 1711 = $  44  Battery thermal management / electric HVAC
+      0% x $ 7670 = $  15  Traction battery catastrophic failure (not degradation)
+  battery health          95% now -> 85% in 6 yr (±4 percentage points)
+    range                 ~245 mi now -> ~219 mi (need ~19/day)
+    Liquid-cooled pack with active thermal management · PACK REPLACED UNDER RECALL
+    (degradation affects range and resale, NOT counted as a repair)
+  still worth owning 2032?  likely (~90%)
+    ~41,236 mi, 11 yr old
+    - Only ~41k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
+    - Projected ~219 mi of range at 85% health by 2032 — still far beyond the ~19 mi/day need.
+    - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
+
+==========================================================================
+41. 2023 Polestar Polestar 2 — $16,988
 ==========================================================================
   VIN                     YSMEG3KA9PL145074
   odometer                97,638 mi
   condition               Used · White
   where                   Gene Pankey Motor Company, Tacoma WA (30 mi)
-  days on lot             3
+  days on lot             4
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789996402
   powertrain              Battery electric · 270 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2114,13 +2171,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-41. 2022 Volvo XC40 P8 Recharge Plus — $15,897
+42. 2022 Volvo XC40 P8 Recharge Plus — $15,897
 ==========================================================================
   VIN                     YV4ED3UR6N2762763
   odometer                119,977 mi
   condition               Used · Thunder Grey Metalli
   where                   Excalibur Auto Group Inc., Kennewick WA (166 mi)
-  days on lot             38
+  days on lot             39
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786889854
   powertrain              Battery electric · 208 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2168,13 +2225,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-42. 2024 Volkswagen ID.4 2WD — $19,900
+43. 2024 Volkswagen ID.4 2WD — $19,900
 ==========================================================================
   VIN                     1V2BMPE88RC006952
   odometer                15,203 mi
   condition               Used · Pure White
   where                   Armstrong Volkswagen, Gladstone OR (152 mi)
-  days on lot             35
+  days on lot             36
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787194719
   powertrain              Battery electric · 206 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2224,13 +2281,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-43. 2022 Volvo XC40 P8 Recharge Ultimate — $21,495
+44. 2022 Volvo XC40 P8 Recharge Ultimate — $21,495
 ==========================================================================
   VIN                     YV4ED3UB4N2731479
   odometer                80,513 mi
   condition               Used · Crystal White Metallic
   where                   Time Chrysler Dodge Jeep RAM of Portland, Portland OR (142 mi)
-  days on lot             10
+  days on lot             11
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789297024
   powertrain              Battery electric · 223 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2278,13 +2335,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-44. 2023 Nissan Ariya FWD — $18,800
+45. 2023 Nissan Ariya FWD — $18,800
 ==========================================================================
   VIN                     JN1AF0BA8PM406963
   odometer                44,894 mi
   condition               Used · Everest White Pearl Tricoat/Bl
   where                   Nissan of Everett, Everett WA (24 mi)
-  days on lot             79
+  days on lot             80
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/783401502
   powertrain              Battery electric · 216 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2333,13 +2390,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-45. 2021 Chevrolet Bolt LT — $18,790
+46. 2021 Chevrolet Bolt LT — $18,790
 ==========================================================================
   VIN                     1G1FY6S02M4108338
   odometer                31,202 mi
   condition               Used · Summit White
   where                   Bill Pierre Chevrolet, Seattle WA (13 mi)
-  days on lot             4
+  days on lot             5
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789882192
   powertrain              Battery electric · 259 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2390,13 +2447,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-46. 2022 MINI Cooper SE — $19,988
+47. 2022 MINI Cooper SE — $19,988
 ==========================================================================
   VIN                     WMW13DJ00N2S09734
   odometer                31,715 mi
   condition               Used · Black Metallic
   where                   Lynnwood Honda, Edmonds WA (19 mi)
-  days on lot             15
+  days on lot             16
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788866240
   powertrain              Battery electric · 114 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2445,13 +2502,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-47. 2018 Nissan Leaf SV — $6,984
+48. 2018 Nissan Leaf SV — $6,984
 ==========================================================================
   VIN                     1N4AZ1CP3JC313218
   odometer                97,594 mi
   condition               Used · Pearl White
   where                   Cascadia Motors, Portland OR (149 mi)
-  days on lot             12
+  days on lot             13
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789139688
   powertrain              Battery electric · 151 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2500,13 +2557,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~88 mi of range at 58% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-48. 2022 Mitsubishi Mirage SE — $11,999
+49. 2022 Mitsubishi Mirage SE — $11,999
 ==========================================================================
   VIN                     ML32AWHJ3NH005386
   odometer                43,924 mi
   condition               Used · Black
   where                   Gorilla Auto Center, Yakima WA (103 mi)
-  days on lot             6
+  days on lot             7
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789726552
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -2546,13 +2603,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~84k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-49. 2019 Kia Forte Sedan — $13,638
+50. 2019 Kia Forte Sedan — $13,638
 ==========================================================================
   VIN                     3KPF24ADXKE081533
   odometer                49,542 mi
   condition               Used · Gravity Gray
   where                   Gage Auto Sales, Milwaukie OR (149 mi)
-  days on lot             75
+  days on lot             76
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/783749091
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -2593,13 +2650,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~90k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-50. 2020 Tesla Model 3 Standard Range Plus — $27,490
+51. 2020 Tesla Model 3 Standard Range Plus — $27,490
 ==========================================================================
   VIN                     5YJ3E1EA2LF504190
   odometer                1,007 mi
   condition               Used · Pearl White
   where                   Diplomat Motors - Portland, Portland OR (145 mi)
-  days on lot             57
+  days on lot             58
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785314483
   powertrain              Battery electric · 250 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2648,13 +2705,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected ~205 mi of range at 82% health by 2032 — still far beyond the ~19 mi/day need.
 
 ==========================================================================
-51. 2023 Hyundai Kona SEL — $18,658
+52. 2023 Hyundai Kona SEL — $18,658
 ==========================================================================
   VIN                     KM8K33AG3PU167478
   odometer                24,585 mi
   condition               Used · Galactic Gray
   where                   Rairdon's Kia, Burlington WA (65 mi)
-  days on lot             53
+  days on lot             54
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785500557
   powertrain              Battery electric · 258 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2703,13 +2760,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-52. 2017 Toyota Prius V Two — $13,975
+53. 2017 Toyota Prius V Two — $13,975
 ==========================================================================
   VIN                     JTDZN3EU0HJ073929
   odometer                135,899 mi
   condition               Used · Super White
   where                   Kia Of Portland, Portland OR (142 mi)
-  days on lot             56
+  days on lot             57
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785368709
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -2751,13 +2808,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - ~176k miles by 2032.
 
 ==========================================================================
-53. 2019 Ford Fusion SE — $8,900
+54. 2019 Ford Fusion SE — $8,900
 ==========================================================================
   VIN                     3FA6P0LU8KR256593
   odometer                96,029 mi
   condition               Used
   where                   THE PRICE KING AUTO SALES, Lakewood WA (32 mi)
-  days on lot             99
+  days on lot             100
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/781625152
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -2799,13 +2856,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~137k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-54. 2025 Kia Niro Wind — $27,400
+55. 2025 Kia Niro Wind — $27,400
 ==========================================================================
   VIN                     KNDCR3L15S5136204
   odometer                1,130 mi
   condition               Used · Gray
   where                   Pierre Ford of Seattle, Seattle WA (13 mi)
-  days on lot             9
+  days on lot             10
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789466425
   powertrain              Battery electric · 253 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -2854,13 +2911,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-55. 2021 Hyundai Sonata Blue — $12,999
+56. 2021 Hyundai Sonata Blue — $12,999
 ==========================================================================
   VIN                     KMHL24JJ9MA025867
   odometer                106,023 mi
   condition               Used · Portofino Gray
   where                   One Stop Yakima, Yakima WA (102 mi)
-  days on lot             8
+  days on lot             9
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789590404
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -2900,13 +2957,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~147k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-56. 2021 Kia Niro LXS — $14,638
+57. 2021 Kia Niro LXS — $14,638
 ==========================================================================
   VIN                     KNDCB3LCXM5471922
   odometer                114,062 mi
   condition               Used · Silky Silver
   where                   Gage Auto Sales, Milwaukie OR (149 mi)
-  days on lot             40
+  days on lot             41
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786684166
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -2947,13 +3004,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~155k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-57. 2022 Chevrolet Bolt EUV LT — $20,195
+58. 2022 Chevrolet Bolt EUV LT — $20,195
 ==========================================================================
   VIN                     1G1FY6S09N4124294
   odometer                36,644 mi
   condition               Used · Ice Blue Metallic
   where                   Energy Auto Sales, Monroe WA (24 mi)
-  days on lot             25
+  days on lot             26
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787997486
   powertrain              Battery electric · 247 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3003,13 +3060,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-58. 2023 Toyota bZ4X FWD — $19,744
+59. 2023 Toyota bZ4X FWD — $19,744
 ==========================================================================
   VIN                     JTMAAAAA3PA000836
   odometer                111,471 mi
   condition               Used · Heavy Metal
   where                   Team Hyundai of Bend, Bend OR (246 mi)
-  days on lot             53
+  days on lot             54
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785541074
   powertrain              Battery electric · 252 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3057,13 +3114,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-59. 2019 Hyundai Kona SE — $13,995
+60. 2019 Hyundai Kona SE — $13,995
 ==========================================================================
   VIN                     KM8K1CAA0KU294487
   odometer                41,578 mi
   condition               Used · Gray
   where                   LOYAL MOTORS, Bellevue WA (4 mi)
-  days on lot             12
+  days on lot             13
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789102178
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -3105,13 +3162,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~82k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-60. 2021 Jeep Renegade Limited — $19,338
+61. 2021 Jeep Renegade Limited — $19,338
 ==========================================================================
   VIN                     ZACNJDD12MPM41008
   odometer                17,237 mi
   condition               Used · Colorado Red Clearcoat
   where                   Dick's Hillsboro Honda, Hillsboro OR (147 mi)
-  days on lot             29
+  days on lot             30
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786034597
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -3151,13 +3208,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~58k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-61. 2024 Hyundai Ioniq 6 SE — $24,942
+62. 2024 Hyundai Ioniq 6 SE — $24,942
 ==========================================================================
   VIN                     KMHM24AA0RA079053
   odometer                21,726 mi
   condition               Used · Curated Silver
   where                   Tonkin Gresham Honda, Troutdale OR (141 mi)
-  days on lot             1
+  days on lot             2
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790183527
   powertrain              Battery electric · 361 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3208,13 +3265,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-62. 2023 Chevrolet Bolt EUV LT — $16,960
+63. 2023 Chevrolet Bolt EUV LT — $16,960
 ==========================================================================
   VIN                     1G1FY6S0XP4199282
   odometer                60,000 mi
   condition               Used · White
   where                   Private Seller Exchange, Philomath OR (216 mi)
-  days on lot             81
+  days on lot             82
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/783246639
   powertrain              Battery electric · 247 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3263,13 +3320,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-63. 2022 Volkswagen Tiguan SE — $15,991
+64. 2022 Volkswagen Tiguan SE — $15,991
 ==========================================================================
   VIN                     3VV2B7AX0NM055884
   odometer                40,104 mi
   condition               Used · Silver
   where                   Columbia Motors, Portland OR (143 mi)
-  days on lot             17
+  days on lot             18
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788691898
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -3310,13 +3367,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~81k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-64. 2021 Kia Soul LX — $11,990
+65. 2021 Kia Soul LX — $11,990
 ==========================================================================
   VIN                     KNDJ22AU9M7786759
   odometer                64,131 mi
   condition               Used · Snow White Pearl
   where                   ST HELENS CHRYSLER DODGE JEEP RAM, Saint Helens OR (122 mi)
-  days on lot             105
+  days on lot             106
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/781193774
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -3356,13 +3413,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Only ~105k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
 
 ==========================================================================
-65. 2021 Volvo XC40 P8 Recharge — $21,490
+66. 2021 Volvo XC40 P8 Recharge — $21,490
 ==========================================================================
   VIN                     YV4ED3UR9M2574513
   odometer                67,143 mi
   condition               Used · Thunder Gray Metallic
   where                   Gladstone Mitsubishi, Milwaukee OR (152 mi)
-  days on lot             73
+  days on lot             74
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/783908878
   powertrain              Battery electric · 208 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3410,13 +3467,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-66. 2023 Hyundai Ioniq 6 SEL — $19,791
+67. 2023 Hyundai Ioniq 6 SEL — $19,791
 ==========================================================================
   VIN                     KMHM34AC3PA022678
   odometer                102,608 mi
   condition               Used · Serenity White
   where                   Legend Auto Sales, Puyallup WA (26 mi)
-  days on lot             77
+  days on lot             78
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/781961756
   powertrain              Battery electric · 270 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3467,13 +3524,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-67. 2021 Volvo XC40 P8 Recharge — $21,000
+68. 2021 Volvo XC40 P8 Recharge — $21,000
 ==========================================================================
   VIN                     YV4ED3UR7M2528100
   odometer                75,167 mi
   condition               Used · Green
   where                   West Coast Auto Enthusiasts, Beaverton OR (148 mi)
-  days on lot             1
+  days on lot             2
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790143131
   powertrain              Battery electric · 208 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3521,13 +3578,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-68. 2023 Hyundai Ioniq 5 SE — $21,978
+69. 2023 Hyundai Ioniq 5 SE — $21,978
 ==========================================================================
   VIN                     KM8KM4AE3PU182385
   odometer                43,528 mi
   condition               Used · Atlas White
   where                   Go Kia Tacoma, Tacoma WA (30 mi)
-  days on lot             77
+  days on lot             78
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/783635861
   powertrain              Battery electric · 303 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3577,13 +3634,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-69. 2023 Kia EV6 Wind — $22,799
+70. 2023 Kia EV6 Wind — $22,799
 ==========================================================================
   VIN                     KNDC34LA0P5104341
   odometer                32,179 mi
   condition               Used · Runway Red
   where                   Rairdons Dodge Chrysler Jeep RAM Hyundai of Bellingham, Bellingham WA (84 mi)
-  days on lot             50
+  days on lot             51
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785871941
   powertrain              Battery electric · 310 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3632,13 +3689,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
 
 ==========================================================================
-70. 2018 Honda Clarity Plug-In Hybrid — $14,695
+71. 2018 Honda Clarity Plug-In Hybrid — $14,695
 ==========================================================================
   VIN                     JHMZC5F18JC018157
   odometer                121,900 mi
   condition               Used · Solar Silver Metallic
   where                   Rairdon's Nissan of Auburn, Auburn WA (16 mi)
-  days on lot             16
+  days on lot             17
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788797698
   powertrain              Plug-in hybrid · 48 mi electric
   electric drive share    85% of miles at 130 mi/week
@@ -3686,68 +3743,13 @@ COST ASSUMPTIONS (inputs to every total below)
     - Projected range of ~35 mi by 2032 gets tight for comfortable daily use.
 
 ==========================================================================
-71. 2027 Chevrolet Bolt LT — $27,998
-==========================================================================
-  VIN                     1G1FY6EV0VF107086
-  odometer                1,441 mi
-  condition               Used · Summit White
-  where                   McLoughlin Chevrolet, Milwaukie OR (151 mi)
-  days on lot             10
-  listing                 https://www.autotrader.com/cars-for-sale/vehicle/789369215
-  powertrain              Battery electric · 262 mi electric
-  electric drive share    100% of miles at 130 mi/week
-    evidence              NHTSA lists electric as the only fuel and no engine displacement.
-  AEB                     standard (model-year-typical)
-  blind-spot monitor      trim (model-year-typical)
-  IIHS                    Good in most tests
-  also standard (LT)   backup-camera
-  history report          NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
-    salvage title         no
-    frame damage          not reported
-    flood damage          not reported
-    accidents reported    no
-    one owner             yes
-  battery risk factor     0
-    Projected from pack age and odometer using published degradation behaviour for liquid-cooled packs, adjusted for Seattle's mild climate and mostly overnight AC home charging — the two conditions that most slow capacity loss. Heat and frequent DC fast charging are the main accelerators and neither is expected here. Verify with a real state-of-health readout (LeafSpy or equivalent) before buying; this is a projection, not a measurement.
-  reliability (2027 Chevrolet Bolt)
-    band                  ok (confidence: low)
-    NHTSA                 4 complaints · 1 recalls
-    - Only 4 NHTSA complaints on record — too few to draw a firm conclusion.
-    source                https://www.nhtsa.gov/vehicle/2027/CHEVROLET/BOLT%20EV
-  2-year cost to own
-    purchase 27998 + tax 3024 + fuel 998 + maint 360
-    + insurance 4394 + fees 988 + repairs 19 - resale 21746
-    = $16,035 ($668/mo over 13,520 mi)
-    NPV (5%/yr): $17,582 — same costs discounted to today, later dollars weigh less
-  6-year cost to own
-    purchase 27998 + tax 3024 + fuel 3294 + maint 1079
-    + insurance 13182 + fees 2964 + repairs 74 - resale 12460
-    = $39,155 ($544/mo over 40,560 mi)
-    NPV (5%/yr): $39,145 — same costs discounted to today, later dollars weigh less
-  repair outlook (6 yr)   expected $74 to budget
-    worst single bill     $7,670 at ~0% — exposure, not budget
-      3% x $  779 = $  26  Suspension, steering or brake overhaul
-      1% x $ 3245 = $  23  Drive unit, inverter or onboard charger
-      1% x $ 1711 = $  17  Battery thermal management / electric HVAC
-      0% x $ 7670 = $   8  Traction battery catastrophic failure (not degradation)
-  battery health          100% now -> 90% in 6 yr (±4 percentage points)
-    range                 ~262 mi now -> ~236 mi (need ~19/day)
-    Liquid-cooled pack with active thermal management
-    (degradation affects range and resale, NOT counted as a repair)
-  still worth owning 2032?  likely (~90%)
-    ~42,001 mi, 5 yr old
-    - Only ~42k miles by 2032 — this driving pattern is gentle at 6,760 mi/yr.
-    - Projected ~236 mi of range at 90% health by 2032 — still far beyond the ~19 mi/day need.
-    - No engine, transmission, exhaust or emissions system to fail, which removes several of the usual end-of-life bills.
-
-==========================================================================
 72. 2024 Hyundai Ioniq 5 SE — $23,477
 ==========================================================================
   VIN                     KM8KM4DB8RU291901
   odometer                17,710 mi
   condition               Used · Atlas White
   where                   Sheppard Motors, Eugene OR (244 mi)
-  days on lot             10
+  days on lot             11
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789287695
   powertrain              Battery electric · 220 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3803,7 +3805,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                23,197 mi
   condition               Used · Lucid Blue
   where                   Swickard Toyota, Edmonds WA (19 mi)
-  days on lot             21
+  days on lot             22
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788364741
   powertrain              Battery electric · 303 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3859,7 +3861,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                18,064 mi
   condition               Certified · Abyss Black
   where                   Hyundai of Albany, Albany OR (207 mi)
-  days on lot             86
+  days on lot             87
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/782802145
   powertrain              Battery electric · 303 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3915,7 +3917,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                22,382 mi
   condition               Used · Abyss Black
   where                   Seattle Jeep, Seattle WA (14 mi)
-  days on lot             43
+  days on lot             44
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786439509
   powertrain              Battery electric · 303 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -3971,7 +3973,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                38,671 mi
   condition               Certified · Cyber Gray
   where                   Dick's Hillsboro Hyundai, Hillsboro OR (147 mi)
-  days on lot             14
+  days on lot             15
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789008182
   powertrain              Battery electric · 303 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4073,7 +4075,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                123,095 mi
   condition               Used · Sterling Gray Metallic
   where                   Gage Auto Sales, Milwaukie OR (149 mi)
-  days on lot             114
+  days on lot             115
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/780391759
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -4119,7 +4121,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                10,561 mi
   condition               Used · Lucid Blue
   where                   Armstrong Volkswagen, Gladstone OR (152 mi)
-  days on lot             39
+  days on lot             40
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786719283
   powertrain              Battery electric · 303 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4175,7 +4177,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                37,538 mi
   condition               Used · Shooting Star (matte Gray)
   where                   Seattle Jeep, Seattle WA (14 mi)
-  days on lot             66
+  days on lot             67
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/784515098
   powertrain              Battery electric · 256 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4231,7 +4233,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                19,008 mi
   condition               Used · Cyber Gray
   where                   Dick's Hillsboro Hyundai, Hillsboro OR (147 mi)
-  days on lot             2
+  days on lot             3
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790100362
   powertrain              Battery electric · 303 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4287,7 +4289,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                30,184 mi
   condition               Used · Abyss Black
   where                   Swickard Toyota, Edmonds WA (19 mi)
-  days on lot             25
+  days on lot             26
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787949005
   powertrain              Battery electric · 303 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4343,7 +4345,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                58,874 mi
   condition               Used · Black
   where                   Motors Northwest, Tacoma WA (30 mi)
-  days on lot             126
+  days on lot             127
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/779356616
   powertrain              Battery electric · 223 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4397,7 +4399,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                98,176 mi
   condition               Used · Billet Silver Metallic Clearco
   where                   One Stop Yakima, Yakima WA (104 mi)
-  days on lot             23
+  days on lot             24
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788214817
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -4443,7 +4445,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                55,573 mi
   condition               Used · Silver Metallic
   where                   Rairdon's Kia, Burlington WA (65 mi)
-  days on lot             13
+  days on lot             14
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789088320
   powertrain              Battery electric · 260 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4499,7 +4501,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                71,443 mi
   condition               Certified · Runway Red
   where                   Go Kia Renton, Renton WA (7 mi)
-  days on lot             91
+  days on lot             92
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/782383947
   powertrain              Battery electric · 310 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4554,7 +4556,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                54,760 mi
   condition               Used · Nightfall Gray Metallic
   where                   Dick Hannah Dealerships, Vancouver WA (132 mi)
-  days on lot             50
+  days on lot             51
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785880542
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -4601,7 +4603,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                116,139 mi
   condition               Used · Midnight Silver Metallic
   where                   Pierre GMC of Everett, Everett WA (27 mi)
-  days on lot             7
+  days on lot             8
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789663838
   powertrain              Battery electric · 335 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4656,7 +4658,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                122,172 mi
   condition               Used · Gray
   where                   Diplomat Motors Inc, Troutdale OR (141 mi)
-  days on lot             8
+  days on lot             9
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789509383
   powertrain              Battery electric · 335 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4711,7 +4713,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                83,653 mi
   condition               Used · Silver Metallic
   where                   Acura of Portland, Portland OR (142 mi)
-  days on lot             29
+  days on lot             30
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787722496
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -4758,7 +4760,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                44,989 mi
   condition               Used · Vapor Blue
   where                   Time Chrysler Dodge Jeep RAM of Portland, Portland OR (142 mi)
-  days on lot             14
+  days on lot             15
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788962837
   powertrain              Battery electric · 247 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4812,7 +4814,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                72,305 mi
   condition               Used · Rapid Red Metallic Tinted Clea
   where                   PNW Luxury Cars, Lakewood WA (30 mi)
-  days on lot             91
+  days on lot             92
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/780112771
   powertrain              Battery electric · 247 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4866,7 +4868,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                63,758 mi
   condition               Used · Crystal White
   where                   DLR Nordic, Portland OR (145 mi)
-  days on lot             14
+  days on lot             15
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788959931
   powertrain              Battery electric · 208 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -4920,7 +4922,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                75,378 mi
   condition               Used · Borealis Black Gloss
   where                   One Stop Yakima, Yakima WA (102 mi)
-  days on lot             88
+  days on lot             89
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/782650777
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -4967,7 +4969,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                716 mi
   condition               Used · Silver
   where                   Parkway Auto Center, Deer Park WA (219 mi)
-  days on lot             128
+  days on lot             129
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/779113511
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -5014,7 +5016,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                38,779 mi
   condition               Used · Black
   where                   GP Motor Company (12 mi)
-  days on lot             53
+  days on lot             54
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785603435
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -5061,7 +5063,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                68,781 mi
   condition               Used · Brown
   where                   GP Motor Company (12 mi)
-  days on lot             53
+  days on lot             54
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785603241
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -5109,7 +5111,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                52,931 mi
   condition               Used · Black
   where                   Honest Car Sales, Edmonds WA (18 mi)
-  days on lot             7
+  days on lot             8
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789668607
   powertrain              Battery electric · 220 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -5165,7 +5167,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                13,341 mi
   condition               Used · Black
   where                   GP Motor Company (12 mi)
-  days on lot             53
+  days on lot             54
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785603380
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -5214,7 +5216,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                15,505 mi
   condition               Used · Silver
   where                   Konkin Auto Group, Portland OR (143 mi)
-  days on lot             16
+  days on lot             17
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788732969
   powertrain              Battery electric · 270 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -5272,7 +5274,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                15,376 mi
   condition               Used
   where                   GOLDEN ACE MOTORS LLC, Everett WA (27 mi)
-  days on lot             30
+  days on lot             31
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787611095
   powertrain              Battery electric · 272 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -5329,7 +5331,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                113,707 mi
   condition               Used
   where                   THE PRICE KING AUTO SALES, Lakewood WA (32 mi)
-  days on lot             1
+  days on lot             2
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790148000
   powertrain              Battery electric · 258 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -5385,7 +5387,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                123,400 mi
   condition               Used
   where                   M Cars, Portland OR (145 mi)
-  days on lot             16
+  days on lot             17
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788732578
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -5433,7 +5435,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                63,387 mi
   condition               Used · Black
   where                   GOLDEN ACE MOTORS LLC, Everett WA (27 mi)
-  days on lot             35
+  days on lot             36
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787245348
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -5482,7 +5484,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                60,405 mi
   condition               Used · Reflex Silver Metallic
   where                   Eastside Subaru, Kirkland WA (10 mi)
-  days on lot             5
+  days on lot             6
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789752956
   powertrain              Battery electric · 125 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -5536,7 +5538,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                59,031 mi
   condition               Used · Symphony Air Silver Metallic
   where                   Volkswagen of McMinnville, Mcminnville OR (168 mi)
-  days on lot             7
+  days on lot             8
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789608137
   powertrain              Battery electric · 124 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -5591,7 +5593,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                45,624 mi
   condition               Used · Aurora Black Pearl
   where                   Dick Hannah Kia, Vancouver WA (134 mi)
-  days on lot             60
+  days on lot             61
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/784997325
   powertrain              Plug-in hybrid · 26 mi electric
   electric drive share    45% of miles at 130 mi/week
@@ -5645,7 +5647,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                96,126 mi
   condition               Used · Includes (tus) Black Grille.
   where                   Titus-Will Chevrolet GMC Cadillac - Olympia Auto Mall, Olympia WA (52 mi)
-  days on lot             13
+  days on lot             14
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789061464
   powertrain              Battery electric · 238 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -5700,7 +5702,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                41,679 mi
   condition               Used · Nightfall Gray Metallic
   where                   Capitol Toyota, Salem OR (184 mi)
-  days on lot             1
+  days on lot             2
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790163561
   powertrain              Battery electric · 238 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -5757,7 +5759,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                104,257 mi
   condition               Used
   where                   Venture Auto Sales III, Lakewood WA (32 mi)
-  days on lot             32
+  days on lot             33
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787341251
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -5804,7 +5806,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                111,634 mi
   condition               Used · Snow White Pearl
   where                   Toyota of Portland, Portland OR (142 mi)
-  days on lot             1
+  days on lot             2
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790173574
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -5852,7 +5854,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                77,862 mi
   condition               Used · Cajun Red Metallic
   where                   Cascadia Motors, Portland OR (149 mi)
-  days on lot             75
+  days on lot             76
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/783760525
   powertrain              Plug-in hybrid · 53 mi electric
   electric drive share    85% of miles at 130 mi/week
@@ -5907,7 +5909,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                89,305 mi
   condition               Used · Fluid Black W/Bmw I Frozen Blu
   where                   Time Chrysler Dodge Jeep RAM of Portland, Portland OR (142 mi)
-  days on lot             11
+  days on lot             12
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789160831
   powertrain              Battery electric · 153 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -5962,7 +5964,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                91,306 mi
   condition               Used · White
   where                   Emerald Motors, Blaine WA (99 mi)
-  days on lot             20
+  days on lot             21
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788441649
   powertrain              Plug-in hybrid · 53 mi electric
   electric drive share    85% of miles at 130 mi/week
@@ -6017,7 +6019,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                125,076 mi
   condition               Used · Mosaic Black Metallic
   where                   Top Gear Motors, Lynnwood WA (20 mi)
-  days on lot             53
+  days on lot             54
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785512062
   powertrain              Plug-in hybrid · 53 mi electric
   electric drive share    85% of miles at 130 mi/week
@@ -6071,7 +6073,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                40,750 mi
   condition               Certified · Fluid Black W/Bmw I Frozen Blu
   where                   BMW of Tigard, Tigard OR (146 mi)
-  days on lot             8
+  days on lot             9
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789491098
   powertrain              Plug-in hybrid · 126 mi electric
   electric drive share    85% of miles at 130 mi/week
@@ -6126,7 +6128,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                86,788 mi
   condition               Used · Mineral Gray W/Bmw I Frozen Bl
   where                   Freeman Motor Company, Portland OR (146 mi)
-  days on lot             2
+  days on lot             3
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790035203
   powertrain              Plug-in hybrid · 97 mi electric
   electric drive share    85% of miles at 130 mi/week
@@ -6182,7 +6184,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                102,267 mi
   condition               Used · Summit White
   where                   Cascadia Motors, Portland OR (149 mi)
-  days on lot             72
+  days on lot             73
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/784075075
   powertrain              Plug-in hybrid · 53 mi electric
   electric drive share    85% of miles at 130 mi/week
@@ -6236,7 +6238,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                32,563 mi
   condition               Used · Blue
   where                   The Car Outlet LLC, Kent WA (12 mi)
-  days on lot             7
+  days on lot             8
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789672168
   powertrain              Battery electric · 107 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -6290,7 +6292,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                31,046 mi
   condition               Used · Deep Blue Pearl
   where                   Four-Ten Auto Sales, Bonney Lake WA (27 mi)
-  days on lot             86
+  days on lot             87
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/782779277
   powertrain              Battery electric · 107 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -6344,7 +6346,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                27,076 mi
   condition               Used · Deep Blue Pearl
   where                   Auto Connections of Bellevue, Bellevue WA (5 mi)
-  days on lot             6
+  days on lot             7
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789694040
   powertrain              Battery electric · 107 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -6398,7 +6400,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                49,511 mi
   condition               Used · Silver
   where                   Wenatchee Autoplex, Wenatchee WA (87 mi)
-  days on lot             32
+  days on lot             33
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787348103
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -6444,7 +6446,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                39,816 mi
   condition               Used · Silver
   where                   Private Seller Exchange, Portland OR (144 mi)
-  days on lot             47
+  days on lot             48
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786095836
   powertrain              Battery electric · 68 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -6543,7 +6545,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                70,617 mi
   condition               Used · Pearl White
   where                   Cascadia Motors, Portland OR (149 mi)
-  days on lot             16
+  days on lot             17
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788817735
   powertrain              Battery electric · 107 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -6597,7 +6599,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                65,498 mi
   condition               Used · Ionic Silver Metallic
   where                   Cascadia Motors, Portland OR (149 mi)
-  days on lot             92
+  days on lot             93
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/782381541
   powertrain              Plug-in hybrid · 72 mi electric
   electric drive share    85% of miles at 130 mi/week
@@ -6651,7 +6653,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                35,834 mi
   condition               Used · Silver
   where                   Time Chrysler Dodge Jeep RAM of Portland, Portland OR (142 mi)
-  days on lot             0
+  days on lot             1
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790280761
   powertrain              Battery electric · 87 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -6704,7 +6706,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                67,000 mi
   condition               Used · White
   where                   Private Seller Exchange, Sherwood OR (156 mi)
-  days on lot             9
+  days on lot             10
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789433098
   powertrain              Battery electric · 83 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -6757,7 +6759,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                69,930 mi
   condition               Used · Pure White
   where                   Elliott Bay INEOS Grenadier, Seattle WA (15 mi)
-  days on lot             8
+  days on lot             9
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789567176
   powertrain              Battery electric · 83 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -6810,7 +6812,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                75,689 mi
   condition               Used · Pure White
   where                   Way Scarff Ford Auburn, Auburn WA (17 mi)
-  days on lot             8
+  days on lot             9
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789592153
   powertrain              Battery electric · 83 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -6863,7 +6865,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                76,159 mi
   condition               Used · Winter Gray Metallic
   where                   Guaranty Chevrolet, Junction City OR (237 mi)
-  days on lot             13
+  days on lot             14
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789066018
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -6910,7 +6912,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                12,285 mi
   condition               Used · Blue
   where                   United Auto Group, LLC, Everett WA (28 mi)
-  days on lot             4
+  days on lot             5
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789801560
   powertrain              Battery electric · 360 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -6965,7 +6967,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                35,871 mi
   condition               Used · Blue
   where                   Doxon Toyota, Auburn WA (16 mi)
-  days on lot             11
+  days on lot             12
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789228706
   powertrain              Battery electric · 93 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -7019,7 +7021,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                48,222 mi
   condition               Used · Titanium Gray Metallic
   where                   Lee Johnson Nissan of Kirkland, Kirkland WA (11 mi)
-  days on lot             38
+  days on lot             39
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786614282
   powertrain              Battery electric · 93 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -7072,7 +7074,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                54,443 mi
   condition               Used · Bright Silver Metallic
   where                   GEORGE GEE KIA, Liberty Lake WA (235 mi)
-  days on lot             20
+  days on lot             21
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788454594
   powertrain              Battery electric · 93 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -7125,7 +7127,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                101,244 mi
   condition               Used · Void
   where                   Prestige Motors, Yakima WA (104 mi)
-  days on lot             2
+  days on lot             3
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790133267
   powertrain              Battery electric · 233 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -7180,7 +7182,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                87,909 mi
   condition               Used · Arravani Gray W/Bmw I Frozen B
   where                   Time Chrysler Dodge Jeep RAM of Portland, Portland OR (142 mi)
-  days on lot             15
+  days on lot             16
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788854071
   powertrain              Plug-in hybrid · 72 mi electric
   electric drive share    85% of miles at 130 mi/week
@@ -7234,7 +7236,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                98,429 mi
   condition               Used · Black Sand Pearl
   where                   Honda of Seattle, Seattle WA (8 mi)
-  days on lot             16
+  days on lot             17
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788751120
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -7280,7 +7282,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                61,325 mi
   condition               Used · Gray
   where                   Parkway Auto Center, Deer Park WA (219 mi)
-  days on lot             1441
+  days on lot             1442
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/658771611
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -7326,7 +7328,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                48,587 mi
   condition               Used · Black Clearcoat
   where                   Genuine Motor Company, Gladstone OR (152 mi)
-  days on lot             15
+  days on lot             16
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788870720
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -7373,7 +7375,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                52,000 mi
   condition               Used · White
   where                   Private Seller Exchange, Tualatin OR (154 mi)
-  days on lot             16
+  days on lot             17
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788787454
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -7419,7 +7421,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                50,876 mi
   condition               Used · Gray
   where                   GP Motor Company (12 mi)
-  days on lot             53
+  days on lot             54
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/785603488
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -7467,7 +7469,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                52,144 mi
   condition               Used · Mineral Gray Metallic
   where                   Diplomat Motors - Portland, Portland OR (145 mi)
-  days on lot             80
+  days on lot             81
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/783327821
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -7514,7 +7516,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                62,105 mi
   condition               Used · Mythos Black Metallic
   where                   Volkswagen of McMinnville, Mcminnville OR (168 mi)
-  days on lot             149
+  days on lot             150
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/777140042
   powertrain              Battery electric · 204 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -7569,7 +7571,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                140,799 mi
   condition               Used · Black
   where                   Lithia Nissan of Eugene, Eugene OR (246 mi)
-  days on lot             4
+  days on lot             5
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789849191
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -7616,7 +7618,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                120,249 mi
   condition               Used · Gray
   where                   Private Seller Exchange, Oregon City OR (155 mi)
-  days on lot             26
+  days on lot             27
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787899635
   powertrain              Plug-in hybrid · 16 mi electric
   electric drive share    20% of miles at 130 mi/week
@@ -7669,7 +7671,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                109,038 mi
   condition               Used · Mineral Silver Metallic
   where                   BMW Of Lynnwood, Lynnwood WA (20 mi)
-  days on lot             47
+  days on lot             48
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786083561
   powertrain              Plug-in hybrid · 14 mi electric
   electric drive share    20% of miles at 130 mi/week
@@ -7723,7 +7725,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                128,340 mi
   condition               Used · Super White
   where                   Signature Motor Company LLC, Gresham OR (143 mi)
-  days on lot             61
+  days on lot             62
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/784935957
   powertrain              Hybrid (gasoline, self-charging)
   electric drive share    0% of miles at 130 mi/week
@@ -7769,7 +7771,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                65,680 mi
   condition               Used · Blue Metallic
   where                   Genesis of Kirkland, Kirkland WA (10 mi)
-  days on lot             19
+  days on lot             20
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788499612
   powertrain              Battery electric · 270 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -7822,7 +7824,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                60,360 mi
   condition               Used · Blue Metallic
   where                   Toyota of Newport, Newport OR (223 mi)
-  days on lot             43
+  days on lot             44
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786024656
   powertrain              Battery electric · 300 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -7929,7 +7931,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                46,361 mi
   condition               Used
   where                   THE PRICE KING AUTO SALES, Lakewood WA (32 mi)
-  days on lot             47
+  days on lot             48
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/786078923
   powertrain              Gasoline
   electric drive share    0% of miles at 130 mi/week
@@ -7978,7 +7980,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                28,290 mi
   condition               Used · Vesuvio Black Pearl
   where                   Freeman Motor Company Salem, Salem OR (183 mi)
-  days on lot             2
+  days on lot             3
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/790034644
   powertrain              Battery electric · 84 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -8032,7 +8034,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                35,445 mi
   condition               Used · Granito Lucente (granite Cryst
   where                   Go Hyundai of Renton, Renton WA (7 mi)
-  days on lot             20
+  days on lot             21
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788426969
   powertrain              Battery electric · 84 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -8086,7 +8088,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                35,100 mi
   condition               Used · Pompei Silver
   where                   Mazda Of Gladstone, Gladstone OR (152 mi)
-  days on lot             4
+  days on lot             5
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789800213
   powertrain              Battery electric · 84 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -8140,7 +8142,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                32,300 mi
   condition               Used · Orange
   where                   Private Seller Exchange, Bellingham WA (86 mi)
-  days on lot             128
+  days on lot             129
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/779105686
   powertrain              Battery electric · 84 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -8193,7 +8195,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                71,397 mi
   condition               Used · Gray
   where                   ACCESS MOTORSPORTS LLC, Kirkland WA (11 mi)
-  days on lot             31
+  days on lot             32
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787533551
   powertrain              Battery electric · 84 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -8246,7 +8248,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                87,101 mi
   condition               Used · White
   where                   ACCESS MOTORSPORTS LLC, Kirkland WA (11 mi)
-  days on lot             20
+  days on lot             21
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788451431
   powertrain              Battery electric · 84 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -8299,7 +8301,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                69,050 mi
   condition               Used · White Platinum
   where                   Volkswagen of Olympia, Olympia WA (52 mi)
-  days on lot             6
+  days on lot             7
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789704464
   powertrain              Plug-in hybrid · 20 mi electric
   electric drive share    45% of miles at 130 mi/week
@@ -8354,7 +8356,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                40,501 mi
   condition               Used · Luce Blu
   where                   Bellingham Ford, Bellingham WA (84 mi)
-  days on lot             26
+  days on lot             27
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/787896991
   powertrain              Battery electric · 87 mi electric
   electric drive share    100% of miles at 130 mi/week
@@ -8408,7 +8410,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                81,118 mi
   condition               Used · Magnetic
   where                   Dick Hannah Dealerships, Vancouver WA (132 mi)
-  days on lot             5
+  days on lot             6
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/789783024
   powertrain              Plug-in hybrid · 20 mi electric
   electric drive share    45% of miles at 130 mi/week
@@ -8463,7 +8465,7 @@ COST ASSUMPTIONS (inputs to every total below)
   odometer                95,451 mi
   condition               Used · Charcoal
   where                   ACCESS MOTORSPORTS LLC, Kirkland WA (11 mi)
-  days on lot             15
+  days on lot             16
   listing                 https://www.autotrader.com/cars-for-sale/vehicle/788948597
   powertrain              Battery electric · 87 mi electric
   electric drive share    100% of miles at 130 mi/week

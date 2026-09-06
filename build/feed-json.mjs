@@ -462,6 +462,14 @@ export function rosterFeed(data, allCars = null) {
     // objects carry only what actually varies (evidence strings, warnings that
     // apply); these are the standing rules for interpreting those fields.
     fieldNotes: {
+      'fleetStrategies': 'Whole-fleet options compared on present value at 5%/yr, at both a 2-year and a 6-year horizon. Scenario A is the reference (Kate keeps the Highlander, Jordyn gets a cheap EV); every Scenario B swaps that round. Each Scenario B candidate is costed at KATE\'s 13,520 mi/yr and the Highlander moves to Jordyn\'s 6,760 — comparing them on one driver\'s mileage would be meaningless.',
+      'fleetStrategies.*.cashRequiredNowUsd': 'Actual money out the door at t=0. Deliberately EXCLUDES the retained Highlander\'s value, which is an economic opportunity cost rather than a cash outflow. Never substitute this for npvUsd or nominalTcoUsd — an $11k car for Jordyn needs far less cash today than a $23k EV for Kate even where six-year totals converge.',
+      'fleetStrategies.*.nominalTcoUsd': 'Undiscounted total economic cost over the horizon, including the retained-asset opportunity cost. Identity is published on scenario.audit and reproduces exactly from the component values.',
+      'fleetStrategies.*.npvUsd': 'Present value of that same stream at 5%. Purchase and sales tax at t=0 undiscounted, operating costs discounted in the year incurred, terminal value discounted back from the end of the horizon.',
+      'fleetStrategies.horizons.*.breakEvenNpvUsd': 'The NPV a Scenario B must come in at or below to be financially equal to Scenario A. It IS Scenario A\'s own NPV — there is no separate hurdle.',
+      'fleetStrategies.*.breakEvenPurchasePrice': 'Purchase price at which this model\'s scenario NPV equals Scenario A\'s, solved NUMERICALLY by recosting the car at trial prices. $1 of price does NOT move NPV by $1 — sales tax adds to it and a dearer car returns more residual, which is discounted back and partly offsets. sensitivityPerDollar publishes the actual figure (observed ~0.86–0.92), so the correction is visible rather than assumed away. A null priceUsd with a `reason` means no price in the search range breaks even; that is a real answer, not a failure.',
+      'fleetStrategies.highlander.effectiveMpg': 'EPA/catalog 22 mpg × 0.85 local duty-cycle factor = 18.7 mpg, corroborated independently by 18.6 mpg observed over 46,000 miles. Applied ONCE, inside the shared cost model; it is not re-applied by any consumer.',
+      'fleetStrategies.highlander.opportunityCostNote': 'Retaining the Highlander carries its realisable value as a t=0 cost and credits its residual back at the horizon. The `valueConsumed` line on its own TCO expresses the same economics as depreciation — the two are alternatives, never additive.',
       'listing.priceStatus': '"as-listed" = the scraped asking price stands. "disputed" = the SELLER has told us the listed price is wrong — do NOT use askingPriceUsd as a real price, and do not present it as one. Read priceDispute.dealerSaysUsd for what they actually said and sixYearTcoRangeUsd for the cost implication. "confirmed" = verified by phone, askingPriceUsd is correct.',
       'listing.priceDispute': 'A hand-verified correction from a phone call, not a scrape. Survives the nightly refresh. Where present it OVERRIDES the listing. The car is deliberately kept on the list — a wrong price is a reason to re-cost it, not to discard it.',
       'listing.sixYearTcoRangeUsd': 'Present only for disputed prices: the six-year cost computed across the range the seller gave, rather than a single figure implying precision we do not have. costToOwn elsewhere is computed at rankedAtPriceUsd, the midpoint of that range.',
@@ -532,6 +540,11 @@ export function rosterFeed(data, allCars = null) {
     // `costAssumptions.highlanderMilesPerYearToday` and has no odometer to
     // disambiguate it against — which is exactly how 17,000 mi/yr got read as
     // a 17,000-mile odometer.
+    // Fleet strategies on a present-value basis. Nominal cost, present value and
+    // cash-required-now are three different questions and are published as
+    // three separate fields — a plan can be cheapest over six years, dearest
+    // over two, and unaffordable today, all at once.
+    fleetStrategies: data.fleetStrategies ?? null,
     highlanderAndPlans: data.plans
       ? {
         note: 'The Highlander is ALREADY OWNED. odometerMiles is its actual mileage; milesPerYear figures are annual driving. Do not confuse the two.',
