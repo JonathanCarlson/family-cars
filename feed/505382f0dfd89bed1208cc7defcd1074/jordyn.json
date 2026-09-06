@@ -2,7 +2,7 @@
   "feed": {
     "name": "jordyn-first-car",
     "schemaVersion": "1.6",
-    "generatedAt": "2026-09-06T02:20:11.234Z",
+    "generatedAt": "2026-09-06T03:10:22.826Z",
     "rosterUpdated": "2026-09-05",
     "listingCount": 162,
     "purpose": "Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.",
@@ -6452,7 +6452,10 @@
         ],
         "verdict": "The premise that this is a low-risk known quantity does not survive the complaint file. It is a first-year powertrain with a documented five-figure failure mode and a parts-supply problem."
       },
-      "odometerMilesNote": "ACTUAL ODOMETER READING, not annual mileage."
+      "odometerMilesNote": "ACTUAL ODOMETER READING, not annual mileage.",
+      "mpgBasis": "EPA combined rating (the catalogue sticker). NOT the figure fuel is costed at — see effectiveMpgUsedInCosting.",
+      "effectiveMpgUsedInCosting": 18.7,
+      "effectiveMpgBasis": "Every tcoUsd and energy figure in this block is ALREADY costed at 18.7 mpg — the EPA 22 × 85% observed duty-cycle (costAssumptions.dutyCycle), matching JC's measured 18.6 mpg. Do NOT also lower mpg to 18.6: the duty-cycle factor already applies the real-world penalty, so changing the sticker would double-count it and overstate the Highlander's cost."
     },
     "plans": [
       {

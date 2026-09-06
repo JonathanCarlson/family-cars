@@ -538,6 +538,17 @@ export function rosterFeed(data, allCars = null) {
         highlander: {
           ...data.plans.highlander,
           odometerMilesNote: 'ACTUAL ODOMETER READING, not annual mileage.',
+          // `mpg` is the EPA catalogue sticker. Fuel is NOT costed at it — the
+          // observed duty-cycle factor (costAssumptions.dutyCycle.gasMpgFactor)
+          // is applied inside every tcoUsd/energy figure below, which is what
+          // made the block look "still on 22 mpg" when it was already on 18.7.
+          mpgBasis: 'EPA combined rating (the catalogue sticker). NOT the figure fuel is costed at — see effectiveMpgUsedInCosting.',
+          effectiveMpgUsedInCosting: (a.dutyCycle && a.dutyCycle.gasMpgFactor != null && data.plans.highlander.mpg != null)
+            ? Math.round(data.plans.highlander.mpg * a.dutyCycle.gasMpgFactor * 10) / 10
+            : null,
+          effectiveMpgBasis: (a.dutyCycle && a.dutyCycle.gasMpgFactor != null && data.plans.highlander.mpg != null)
+            ? `Every tcoUsd and energy figure in this block is ALREADY costed at ${Math.round(data.plans.highlander.mpg * a.dutyCycle.gasMpgFactor * 10) / 10} mpg — the EPA ${data.plans.highlander.mpg} × ${(a.dutyCycle.gasMpgFactor * 100).toFixed(0)}% observed duty-cycle (costAssumptions.dutyCycle), matching JC's measured 18.6 mpg. Do NOT also lower mpg to 18.6: the duty-cycle factor already applies the real-world penalty, so changing the sticker would double-count it and overstate the Highlander's cost.`
+            : null,
         },
         plans: data.plans.plans,
         method: data.plans.method,
