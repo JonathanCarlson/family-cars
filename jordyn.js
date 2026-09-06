@@ -257,6 +257,52 @@ function bothDriversBlock(c) {
     </div>`;
 }
 
+/**
+ * Net present value of a car's total cost of ownership, at a flat 5%/yr
+ * discount rate.
+ *
+ * The published `total` is a NOMINAL sum: a dollar of maintenance in year 6
+ * is added at face value, as if it cost exactly what a dollar today costs.
+ * That overstates cars whose costs land late relative to cars whose costs
+ * land early (e.g. a big purchase price up front vs. a bigger major-repair
+ * reserve near the end), because a dollar N years out is worth less than a
+ * dollar today.
+ *
+ * Computed purely from numbers already shipped in `t.items` / `t.years` —
+ * no new inventory data, no re-fetch, recomputed at render time so a nightly
+ * data refresh is picked up automatically (never baked into HTML):
+ *   • t=0:    purchase (or, for an already-owned car, the value consumed)
+ *             plus sales tax — paid at acquisition, never discounted.
+ *   • t=1..N: energy + maintenance + insurance + registration + major-repair
+ *             reserve, spread evenly across the ownership window and
+ *             discounted back one year at a time (an annuity approximation —
+ *             the model does not carry a year-by-year cost breakdown).
+ *   • t=N:    resale value recovered, a credit received at the END of the
+ *             window, discounted back N years.
+ *
+ * 5% is a plain, round discount rate — not fitted to this household's actual
+ * cost of capital. It exists to show DIRECTION (later costs count for less),
+ * not to claim precision the underlying TCO model doesn't have.
+ */
+const NPV_DISCOUNT_RATE = 0.05;
+function npvOfTco(t) {
+  const it = t?.items;
+  const years = t?.years;
+  if (!it || !years) return null;
+  const r = NPV_DISCOUNT_RATE;
+  const upfront = (it.purchase ?? it.valueConsumed ?? 0) + (it.salesTax ?? 0);
+  const recurring = (it.energy ?? 0) + (it.maintenance ?? 0) + (it.insurance ?? 0)
+    + (it.registration ?? 0) + (it.majorRepairReserve ?? 0);
+  const annual = recurring / years;
+  let pv = upfront;
+  for (let y = 1; y <= years; y += 1) pv += annual / ((1 + r) ** y);
+  // resaleValueRecovered is stored as a NEGATIVE line (a credit against the
+  // total); flip it to a positive cash inflow before discounting it back.
+  const resale = it.resaleValueRecovered ? -it.resaleValueRecovered : 0;
+  if (resale) pv -= resale / ((1 + r) ** years);
+  return Math.round(pv);
+}
+
 function tcoBlock(c) {
   const t = tcoOf(c);
   // The published feed serialises tco6 as a NUMBER, while the local build keeps
@@ -267,6 +313,7 @@ function tcoBlock(c) {
   if (!t || typeof t !== 'object') return publishedCostBlock(c);
   const it = t.items;
   if (!it) return publishedCostBlock(c);
+  const npv = npvOfTco(t);
   const rows = [
     ['Sales tax', it.salesTax],
     ['Fuel / charging', it.energy],
@@ -294,10 +341,14 @@ function tcoBlock(c) {
       <table class="tco-tbl">
         ${rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${money(v)}</td></tr>`).join('')}
         <tr class="tco-total"><td>Total</td><td>${money(t.total)}</td></tr>
+        ${npv != null ? `<tr class="tco-npv"><td>NPV, 5%/yr</td><td>${money(npv)}</td></tr>` : ''}
       </table>
       <p class="tco-note">Running cost on top of the ${money(it.purchase)} purchase price, at ${DATA.assumptions?.milesPerWeek ?? 130} mi/week.</p>
       <p class="tco-note">Insurance is this car's own quoted premium. Adding Jordyn to the policy costs a further $2,400/yr,
         but that is owed whichever car is bought, so it sits in the family plan rather than on any one car.</p>
+      ${npv != null ? `<p class="tco-note">NPV discounts every future dollar back at 5%/yr, so a big cost that lands early (the purchase price) counts
+        more than the same-size cost late (a major-repair reserve near year ${t.years}). It usually runs a bit
+        below the nominal total for exactly that reason — it's the same costs, weighted by when they land.</p>` : ''}
       ${tail}
     </details>`;
 }
