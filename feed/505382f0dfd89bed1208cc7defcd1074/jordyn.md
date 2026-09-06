@@ -228,7 +228,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,488
   - Sales tax: $1,457
   - Fuel / electricity: $3,489
@@ -237,7 +237,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,172
   - Major-repair reserve (expected): $187
   - **6-year total: $25,616** ($356/mo over 40,560 mi)
+  - **NPV (5%/yr): $24,517** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,586
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $30,967 · NPV (5%/yr) $28,974
 
 ### 2. 2021 Hyundai Elantra SE — $14,999
 
@@ -261,7 +263,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,999
   - Sales tax: $1,620
   - Fuel / electricity: $7,635
@@ -270,7 +272,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,368
   - Major-repair reserve (expected): $461
   - **6-year total: $28,048** ($390/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,162** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,967
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,914 · NPV (5%/yr) $35,508
 
 ### 3. 2023 Nissan Leaf S — $16,713
 
@@ -295,7 +299,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, ONE_OWNER, FREE_REPORT
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $16,713
   - Sales tax: $1,805
   - Fuel / electricity: $3,489
@@ -304,7 +308,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,352
   - Major-repair reserve (expected): $114
   - **6-year total: $27,491** ($382/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,822** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,320
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $32,440 · NPV (5%/yr) $30,965
 
 ### 4. 2022 Hyundai Ioniq Blue — $21,048
 
@@ -327,7 +333,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $21,048
   - Sales tax: $2,273
   - Fuel / electricity: $4,491
@@ -336,7 +342,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,674
   - Major-repair reserve (expected): $441
   - **6-year total: $29,900** ($415/mo over 40,560 mi)
+  - **NPV (5%/yr): $30,114** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,360
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,964 · NPV (5%/yr) $35,983
 
 ### 5. 2018 Kia Niro EX — $19,264
 
@@ -361,7 +369,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,264
   - Sales tax: $2,081
   - Fuel / electricity: $4,459
@@ -370,7 +378,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,872
   - Major-repair reserve (expected): $924
   - **6-year total: $27,408** ($381/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,597** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,863
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $33,784 · NPV (5%/yr) $32,991
 
 ### 6. 2022 MAZDA MX-30 Electric w/ Premium Plus Pkg — $15,223
 
@@ -394,7 +404,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $15,223
   - Sales tax: $1,644
   - Fuel / electricity: $3,903
@@ -403,7 +413,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,244
   - Major-repair reserve (expected): $222
   - **6-year total: $26,537** ($369/mo over 40,560 mi)
+  - **NPV (5%/yr): $25,710** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,251
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $32,122 · NPV (5%/yr) $30,372
 
 ### 7. 2018 Kia Niro EX — $12,575
 
@@ -426,7 +438,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,575
   - Sales tax: $1,358
   - Fuel / electricity: $5,421
@@ -435,7 +447,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,458
   - Major-repair reserve (expected): $1,383
   - **6-year total: $25,844** ($359/mo over 40,560 mi)
+  - **NPV (5%/yr): $24,707** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,219
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,761 · NPV (5%/yr) $32,160
 
 ### 8. 2021 Nissan Versa SV — $11,654
 
@@ -457,7 +471,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,654
   - Sales tax: $1,259
   - Fuel / electricity: $8,042
@@ -466,7 +480,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,176
   - Major-repair reserve (expected): $898
   - **6-year total: $26,560** ($369/mo over 40,560 mi)
+  - **NPV (5%/yr): $25,118** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,195
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $38,453 · NPV (5%/yr) $35,095
 
 ### 9. 2019 Honda Insight LX — $18,760
 
@@ -490,7 +506,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $18,760
   - Sales tax: $2,026
   - Fuel / electricity: $5,058
@@ -499,7 +515,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,650
   - Major-repair reserve (expected): $594
   - **6-year total: $26,884** ($373/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,038** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,731
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $33,494 · NPV (5%/yr) $32,630
 
 ### 10. 2021 Kia Forte LXS — $13,985
 
@@ -522,7 +540,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,985
   - Sales tax: $1,510
   - Fuel / electricity: $8,421
@@ -531,7 +549,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,308
   - Major-repair reserve (expected): $645
   - **6-year total: $28,328** ($393/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,166** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,154
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,762 · NPV (5%/yr) $36,781
 
 ### 11. 2021 Nissan Leaf SL Plus — $15,000
 
@@ -557,7 +577,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $15,000
   - Sales tax: $1,620
   - Fuel / electricity: $3,489
@@ -566,7 +586,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,268
   - Major-repair reserve (expected): $244
   - **6-year total: $26,587** ($369/mo over 40,560 mi)
+  - **NPV (5%/yr): $25,680** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,083
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $31,624 · NPV (5%/yr) $29,902
 
 ### 12. 2017 Hyundai Ioniq Limited — $11,800
 
@@ -592,7 +614,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,800
   - Sales tax: $1,274
   - Fuel / electricity: $2,870
@@ -601,7 +623,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,124
   - Major-repair reserve (expected): $691
   - **6-year total: $23,269** ($323/mo over 40,560 mi)
+  - **NPV (5%/yr): $22,224** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,281
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $27,913 · NPV (5%/yr) $26,133
 
 ### 13. 2021 Hyundai Venue SEL — $14,995
 
@@ -623,7 +647,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,995
   - Sales tax: $1,619
   - Fuel / electricity: $9,118
@@ -632,7 +656,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,368
   - Major-repair reserve (expected): $781
   - **6-year total: $27,788** ($386/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,936** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,772
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,680 · NPV (5%/yr) $37,735
 
 ### 14. 2021 Nissan Leaf S Plus — $12,990
 
@@ -658,7 +684,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,990
   - Sales tax: $1,403
   - Fuel / electricity: $3,489
@@ -667,7 +693,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,154
   - Major-repair reserve (expected): $310
   - **6-year total: $25,350** ($352/mo over 40,560 mi)
+  - **NPV (5%/yr): $24,202** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,176
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $30,817 · NPV (5%/yr) $28,760
 
 ### 15. 2021 Nissan Kicks S — $13,999
 
@@ -689,7 +717,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,999
   - Sales tax: $1,512
   - Fuel / electricity: $8,598
@@ -698,7 +726,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,308
   - Major-repair reserve (expected): $863
   - **6-year total: $28,300** ($393/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,134** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,924
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,842 · NPV (5%/yr) $37,644
 
 ### 16. 2021 Nissan Kicks S — $12,998
 
@@ -720,7 +750,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,998
   - Sales tax: $1,404
   - Fuel / electricity: $8,598
@@ -729,7 +759,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,254
   - Major-repair reserve (expected): $919
   - **6-year total: $28,040** ($389/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,669** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,921
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,631 · NPV (5%/yr) $37,228
 
 ### 17. 2021 Chevrolet Spark LS — $12,777
 
@@ -751,7 +783,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,777
   - Sales tax: $1,380
   - Fuel / electricity: $8,521
@@ -760,7 +792,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,236
   - Major-repair reserve (expected): $839
   - **6-year total: $24,752** ($344/mo over 40,560 mi)
+  - **NPV (5%/yr): $23,865** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,755
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,948 · NPV (5%/yr) $34,139
 
 ### 18. 2024 Nissan Sentra S — $12,477
 
@@ -782,7 +816,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,477
   - Sales tax: $1,348
   - Fuel / electricity: $8,299
@@ -791,7 +825,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,212
   - Major-repair reserve (expected): $582
   - **6-year total: $28,400** ($394/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,774** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,964
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,280 · NPV (5%/yr) $36,747
 
 ### 19. 2020 Hyundai Ioniq Limited — $11,205
 
@@ -816,7 +852,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,205
   - Sales tax: $1,210
   - Fuel / electricity: $2,870
@@ -825,7 +861,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,070
   - Major-repair reserve (expected): $443
   - **6-year total: $21,865** ($304/mo over 40,560 mi)
+  - **NPV (5%/yr): $20,890** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,585
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $26,688 · NPV (5%/yr) $24,913
 
 ### 20. 2022 Nissan Leaf S — $12,100
 
@@ -850,7 +888,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,100
   - Sales tax: $1,307
   - Fuel / electricity: $3,489
@@ -859,7 +897,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,070
   - Major-repair reserve (expected): $186
   - **6-year total: $24,232** ($337/mo over 40,560 mi)
+  - **NPV (5%/yr): $23,075** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,103
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $29,176 · NPV (5%/yr) $27,219
 
 ### 21. 2020 Ford Escape SE Sport — $21,198
 
@@ -883,7 +923,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $21,198
   - Sales tax: $2,289
   - Fuel / electricity: $6,468
@@ -892,7 +932,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,950
   - Major-repair reserve (expected): $853
   - **6-year total: $31,262** ($434/mo over 40,560 mi)
+  - **NPV (5%/yr): $31,300** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,282
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,331 · NPV (5%/yr) $38,972
 
 ### 22. 2021 Kia Rio S — $14,995
 
@@ -914,7 +956,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,995
   - Sales tax: $1,619
   - Fuel / electricity: $7,823
@@ -923,7 +965,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,368
   - Major-repair reserve (expected): $673
   - **6-year total: $26,905** ($374/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,194** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,868
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,918 · NPV (5%/yr) $35,439
 
 ### 23. 2024 Dodge Hornet R/T — $18,990
 
@@ -948,7 +992,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $18,990
   - Sales tax: $2,051
   - Fuel / electricity: $4,740
@@ -957,7 +1001,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,490
   - Major-repair reserve (expected): $378
   - **6-year total: $29,673** ($412/mo over 40,560 mi)
+  - **NPV (5%/yr): $29,432** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,888
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,617 · NPV (5%/yr) $36,017
 
 ### 24. 2024 Mitsubishi Mirage ES — $13,995
 
@@ -979,7 +1025,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,995
   - Sales tax: $1,511
   - Fuel / electricity: $7,304
@@ -988,7 +1034,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,302
   - Major-repair reserve (expected): $341
   - **6-year total: $27,023** ($375/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,065** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,246
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,538 · NPV (5%/yr) $34,868
 
 ### 25. 2021 Chevrolet Spark ACTIV — $17,968
 
@@ -1010,7 +1058,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $17,968
   - Sales tax: $1,941
   - Fuel / electricity: $8,624
@@ -1019,7 +1067,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,542
   - Major-repair reserve (expected): $626
   - **6-year total: $27,567** ($383/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,435** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,928
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,285 · NPV (5%/yr) $37,348
 
 ### 26. 2024 Kia Soul LX — $16,990
 
@@ -1041,7 +1091,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $16,990
   - Sales tax: $1,835
   - Fuel / electricity: $9,032
@@ -1050,7 +1100,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,476
   - Major-repair reserve (expected): $348
   - **6-year total: $31,447** ($437/mo over 40,560 mi)
+  - **NPV (5%/yr): $30,473** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,395
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $43,746 · NPV (5%/yr) $40,755
 
 ### 27. 2023 Kia Niro Wind — $19,959
 
@@ -1075,7 +1127,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,959
   - Sales tax: $2,156
   - Fuel / electricity: $3,443
@@ -1084,7 +1136,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,724
   - Major-repair reserve (expected): $183
   - **6-year total: $31,286** ($435/mo over 40,560 mi)
+  - **NPV (5%/yr): $30,739** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,805
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,837 · NPV (5%/yr) $35,328
 
 ### 28. 2020 Tesla Model 3 Standard Range Plus — $18,699
 
@@ -1108,7 +1162,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $18,699
   - Sales tax: $2,019
   - Fuel / electricity: $3,214
@@ -1117,7 +1171,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,520
   - Major-repair reserve (expected): $672
   - **6-year total: $31,291** ($435/mo over 40,560 mi)
+  - **NPV (5%/yr): $30,467** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,900
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,918 · NPV (5%/yr) $35,170
 
 ### 29. 2022 Chevrolet Bolt EUV LT — $17,189
 
@@ -1143,7 +1199,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $17,189
   - Sales tax: $1,856
   - Fuel / electricity: $3,375
@@ -1152,7 +1208,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,358
   - Major-repair reserve (expected): $380
   - **6-year total: $28,762** ($399/mo over 40,560 mi)
+  - **NPV (5%/yr): $28,008** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,682
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,659 · NPV (5%/yr) $32,900
 
 ### 30. 2023 Chevrolet Bolt LT — $17,999
 
@@ -1177,7 +1235,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $17,999
   - Sales tax: $1,944
   - Fuel / electricity: $3,294
@@ -1186,7 +1244,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,430
   - Major-repair reserve (expected): $283
   - **6-year total: $29,499** ($410/mo over 40,560 mi)
+  - **NPV (5%/yr): $28,783** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,336
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $35,102 · NPV (5%/yr) $33,427
 
 ### 31. 2023 Polestar Polestar 2 — $20,950
 
@@ -1209,7 +1269,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $20,950
   - Sales tax: $2,263
   - Fuel / electricity: $4,017
@@ -1218,7 +1278,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,598
   - Major-repair reserve (expected): $265
   - **6-year total: $33,069** ($459/mo over 40,560 mi)
+  - **NPV (5%/yr): $32,465** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,014
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,366 · NPV (5%/yr) $37,701
 
 ### 32. 2018 Kia Niro EX Premium — $17,500
 
@@ -1243,7 +1305,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $17,500
   - Sales tax: $1,890
   - Fuel / electricity: $4,459
@@ -1252,7 +1314,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,764
   - Major-repair reserve (expected): $1,001
   - **6-year total: $26,533** ($369/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,453** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,497
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $33,131 · NPV (5%/yr) $32,022
 
 ### 33. 2021 Chevrolet Bolt Premier — $19,999
 
@@ -1279,7 +1343,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,999
   - Sales tax: $2,160
   - Fuel / electricity: $3,294
@@ -1288,7 +1352,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,562
   - Major-repair reserve (expected): $228
   - **6-year total: $27,304** ($379/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,437** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,554
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $31,892 · NPV (5%/yr) $31,318
 
 ### 34. 2017 Toyota Prius Prime Premium — $16,577
 
@@ -1312,7 +1378,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $16,577
   - Sales tax: $1,790
   - Fuel / electricity: $3,986
@@ -1321,7 +1387,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,518
   - Major-repair reserve (expected): $1,282
   - **6-year total: $25,270** ($351/mo over 40,560 mi)
+  - **NPV (5%/yr): $25,221** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,454
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $32,026 · NPV (5%/yr) $30,881
 - Note: Cheapest car here with AEB standard AND an IIHS Top Safety Pick — the strongest safety-per-dollar pick on the page.
 
 ### 35. 2024 Nissan Ariya AWD — $21,706
@@ -1345,7 +1413,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $21,706
   - Sales tax: $2,344
   - Fuel / electricity: $3,949
@@ -1354,7 +1422,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,826
   - Major-repair reserve (expected): $140
   - **6-year total: $33,704** ($468/mo over 40,560 mi)
+  - **NPV (5%/yr): $33,146** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,057
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,828 · NPV (5%/yr) $38,209
 
 ### 36. 2017 Toyota Prius Two — $18,999
 
@@ -1376,7 +1446,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $18,999
   - Sales tax: $2,052
   - Fuel / electricity: $4,899
@@ -1385,7 +1455,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,668
   - Major-repair reserve (expected): $1,234
   - **6-year total: $27,553** ($383/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,714** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,622
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $35,654 · NPV (5%/yr) $34,476
 
 ### 37. 2025 Nissan Versa S — $17,900
 
@@ -1407,7 +1479,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $17,900
   - Sales tax: $1,933
   - Fuel / electricity: $8,042
@@ -1416,7 +1488,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,518
   - Major-repair reserve (expected): $186
   - **6-year total: $30,957** ($430/mo over 40,560 mi)
+  - **NPV (5%/yr): $30,287** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,538
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $41,991 · NPV (5%/yr) $39,529
 
 ### 38. 2021 Chevrolet Trax LS — $15,995
 
@@ -1438,7 +1512,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $15,995
   - Sales tax: $1,727
   - Fuel / electricity: $10,928
@@ -1447,7 +1521,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,608
   - Major-repair reserve (expected): $875
   - **6-year total: $31,436** ($437/mo over 40,560 mi)
+  - **NPV (5%/yr): $30,256** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,214
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $46,276 · NPV (5%/yr) $42,748
 
 ### 39. 2021 Tesla Model 3 Long Range — $20,998
 
@@ -1471,7 +1547,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $20,998
   - Sales tax: $2,268
   - Fuel / electricity: $3,214
@@ -1480,7 +1556,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,622
   - Major-repair reserve (expected): $644
   - **6-year total: $33,176** ($461/mo over 40,560 mi)
+  - **NPV (5%/yr): $32,535** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,936
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,431 · NPV (5%/yr) $37,715
 
 ### 40. 2023 Polestar Polestar 2 — $16,988
 
@@ -1503,7 +1581,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $16,988
   - Sales tax: $1,835
   - Fuel / electricity: $4,017
@@ -1512,7 +1590,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,370
   - Major-repair reserve (expected): $646
   - **6-year total: $31,226** ($434/mo over 40,560 mi)
+  - **NPV (5%/yr): $29,916** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,476
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,786 · NPV (5%/yr) $35,413
 
 ### 41. 2022 Volvo XC40 P8 Recharge Plus — $15,897
 
@@ -1536,7 +1616,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, ONE_OWNER, FREE_REPORT
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $15,897
   - Sales tax: $1,717
   - Fuel / electricity: $4,522
@@ -1545,7 +1625,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,466
   - Major-repair reserve (expected): $882
   - **6-year total: $29,804** ($414/mo over 40,560 mi)
+  - **NPV (5%/yr): $28,462** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,787
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,903 · NPV (5%/yr) $34,440
 
 ### 42. 2024 Volkswagen ID.4 2WD — $19,900
 
@@ -1571,7 +1653,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,900
   - Sales tax: $2,149
   - Fuel / electricity: $3,627
@@ -1580,7 +1662,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,724
   - Major-repair reserve (expected): $147
   - **6-year total: $31,410** ($436/mo over 40,560 mi)
+  - **NPV (5%/yr): $30,844** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,185
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,032 · NPV (5%/yr) $35,519
 
 ### 43. 2022 Volvo XC40 P8 Recharge Ultimate — $21,495
 
@@ -1604,7 +1688,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $21,495
   - Sales tax: $2,321
   - Fuel / electricity: $4,522
@@ -1613,7 +1697,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,778
   - Major-repair reserve (expected): $583
   - **6-year total: $32,611** ($453/mo over 40,560 mi)
+  - **NPV (5%/yr): $32,096** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,762
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,165 · NPV (5%/yr) $38,373
 
 ### 44. 2023 Nissan Ariya FWD — $18,800
 
@@ -1637,7 +1723,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $18,800
   - Sales tax: $2,030
   - Fuel / electricity: $3,949
@@ -1646,7 +1732,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,658
   - Major-repair reserve (expected): $211
   - **6-year total: $30,790** ($428/mo over 40,560 mi)
+  - **NPV (5%/yr): $30,058** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,721
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,851 · NPV (5%/yr) $35,084
 
 ### 45. 2021 Chevrolet Bolt LT — $18,790
 
@@ -1673,7 +1761,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $18,790
   - Sales tax: $2,029
   - Fuel / electricity: $3,294
@@ -1682,7 +1770,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,490
   - Major-repair reserve (expected): $291
   - **6-year total: $26,541** ($369/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,526** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,300
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $31,404 · NPV (5%/yr) $30,613
 
 ### 46. 2022 MINI Cooper SE — $19,988
 
@@ -1707,7 +1797,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,988
   - Sales tax: $2,159
   - Fuel / electricity: $3,903
@@ -1716,7 +1806,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,514
   - Major-repair reserve (expected): $363
   - **6-year total: $32,163** ($447/mo over 40,560 mi)
+  - **NPV (5%/yr): $31,490** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,151
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $38,187 · NPV (5%/yr) $36,526
 
 ### 47. 2018 Nissan Leaf SV — $6,984
 
@@ -1740,7 +1832,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $6,984
   - Sales tax: $754
   - Fuel / electricity: $3,489
@@ -1749,7 +1841,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,830
   - Major-repair reserve (expected): $663
   - **6-year total: $21,646** ($301/mo over 40,560 mi)
+  - **NPV (5%/yr): $19,786** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,175
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $27,209 · NPV (5%/yr) $24,457
 - Standout: true
 - Note: Lowest 6-year cost to own with AEB standard — about $301/mo all-in, and it should still be a good car when Emma drives.
 
@@ -1773,7 +1867,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,999
   - Sales tax: $1,296
   - Fuel / electricity: $7,304
@@ -1782,7 +1876,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,164
   - Major-repair reserve (expected): $636
   - **6-year total: $25,755** ($358/mo over 40,560 mi)
+  - **NPV (5%/yr): $24,535** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,568
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,445 · NPV (5%/yr) $33,504
 
 ### 49. 2019 Kia Forte Sedan — $13,638
 
@@ -1804,7 +1900,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,638
   - Sales tax: $1,473
   - Fuel / electricity: $8,065
@@ -1813,7 +1909,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,338
   - Major-repair reserve (expected): $854
   - **6-year total: $28,294** ($393/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,058** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,971
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,142 · NPV (5%/yr) $36,224
 
 ### 50. 2020 Tesla Model 3 Standard Range Plus — $27,490
 
@@ -1837,7 +1935,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $27,490
   - Sales tax: $2,969
   - Fuel / electricity: $3,214
@@ -1846,7 +1944,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $3,054
   - Major-repair reserve (expected): $317
   - **6-year total: $37,110** ($515/mo over 40,560 mi)
+  - **NPV (5%/yr): $37,278** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,229
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $41,898 · NPV (5%/yr) $41,329
 
 ### 51. 2023 Hyundai Kona SEL — $18,658
 
@@ -1871,7 +1971,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $18,658
   - Sales tax: $2,015
   - Fuel / electricity: $3,157
@@ -1880,7 +1980,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,646
   - Major-repair reserve (expected): $148
   - **6-year total: $29,470** ($409/mo over 40,560 mi)
+  - **NPV (5%/yr): $28,931** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,381
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,301 · NPV (5%/yr) $32,950
 
 ### 52. 2017 Toyota Prius V Two — $13,975
 
@@ -1903,7 +2005,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,975
   - Sales tax: $1,509
   - Fuel / electricity: $6,420
@@ -1912,7 +2014,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,362
   - Major-repair reserve (expected): $1,610
   - **6-year total: $27,892** ($387/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,767** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,980
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $38,082 · NPV (5%/yr) $35,283
 
 ### 53. 2019 Ford Fusion SE — $8,900
 
@@ -1935,7 +2039,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $8,900
   - Sales tax: $961
   - Fuel / electricity: $6,283
@@ -1944,7 +2048,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,044
   - Major-repair reserve (expected): $1,831
   - **6-year total: $27,646** ($384/mo over 40,560 mi)
+  - **NPV (5%/yr): $25,408** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,213
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $38,399 · NPV (5%/yr) $34,441
 
 ### 54. 2025 Kia Niro Wind — $27,400
 
@@ -1969,7 +2075,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, ONE_OWNER, FREE_REPORT
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $27,400
   - Sales tax: $2,959
   - Fuel / electricity: $3,443
@@ -1978,7 +2084,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $3,144
   - Major-repair reserve (expected): $69
   - **6-year total: $38,746** ($538/mo over 40,560 mi)
+  - **NPV (5%/yr): $38,667** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $15,090
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $44,151 · NPV (5%/yr) $43,135
 
 ### 55. 2021 Hyundai Sonata Blue — $12,999
 
@@ -2000,7 +2108,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,999
   - Sales tax: $1,404
   - Fuel / electricity: $5,107
@@ -2009,7 +2117,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,254
   - Major-repair reserve (expected): $954
   - **6-year total: $27,321** ($379/mo over 40,560 mi)
+  - **NPV (5%/yr): $25,986** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,572
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $35,621 · NPV (5%/yr) $32,917
 
 ### 56. 2021 Kia Niro LXS — $14,638
 
@@ -2032,7 +2142,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,638
   - Sales tax: $1,581
   - Fuel / electricity: $5,421
@@ -2041,7 +2151,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,524
   - Major-repair reserve (expected): $1,018
   - **6-year total: $27,519** ($382/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,496** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,203
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,155 · NPV (5%/yr) $33,720
 
 ### 57. 2022 Chevrolet Bolt EUV LT — $20,195
 
@@ -2067,7 +2179,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $20,195
   - Sales tax: $2,181
   - Fuel / electricity: $3,375
@@ -2076,7 +2188,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,526
   - Major-repair reserve (expected): $267
   - **6-year total: $31,005** ($431/mo over 40,560 mi)
+  - **NPV (5%/yr): $30,607** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,312
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,436 · NPV (5%/yr) $35,123
 
 ### 58. 2023 Toyota bZ4X FWD — $19,744
 
@@ -2100,7 +2214,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,744
   - Sales tax: $2,132
   - Fuel / electricity: $3,903
@@ -2109,7 +2223,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,532
   - Major-repair reserve (expected): $406
   - **6-year total: $33,949** ($472/mo over 40,560 mi)
+  - **NPV (5%/yr): $32,750** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $16,098
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,619 · NPV (5%/yr) $37,521
 
 ### 59. 2019 Hyundai Kona SE — $13,995
 
@@ -2132,7 +2248,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,995
   - Sales tax: $1,511
   - Fuel / electricity: $10,487
@@ -2141,7 +2257,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,536
   - Major-repair reserve (expected): $771
   - **6-year total: $30,997** ($431/mo over 40,560 mi)
+  - **NPV (5%/yr): $29,427** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,893
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $44,001 · NPV (5%/yr) $40,427
 
 ### 60. 2021 Jeep Renegade Limited — $19,338
 
@@ -2163,7 +2281,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,338
   - Sales tax: $2,089
   - Fuel / electricity: $11,140
@@ -2172,7 +2290,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,620
   - Major-repair reserve (expected): $585
   - **6-year total: $33,078** ($459/mo over 40,560 mi)
+  - **NPV (5%/yr): $32,411** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,827
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $47,232 · NPV (5%/yr) $44,384
 
 ### 61. 2024 Hyundai Ioniq 6 SE — $24,942
 
@@ -2199,7 +2319,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $24,942
   - Sales tax: $2,694
   - Fuel / electricity: $2,870
@@ -2208,7 +2328,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,838
   - Major-repair reserve (expected): $111
   - **6-year total: $35,571** ($494/mo over 40,560 mi)
+  - **NPV (5%/yr): $35,443** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,451
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,616 · NPV (5%/yr) $39,589
 
 ### 62. 2023 Chevrolet Bolt EUV LT — $16,960
 
@@ -2233,7 +2355,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $16,960
   - Sales tax: $1,832
   - Fuel / electricity: $3,375
@@ -2242,7 +2364,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,370
   - Major-repair reserve (expected): $315
   - **6-year total: $28,834** ($400/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,975** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,377
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,556 · NPV (5%/yr) $32,724
 
 ### 63. 2022 Volkswagen Tiguan SE — $15,991
 
@@ -2265,7 +2389,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $15,991
   - Sales tax: $1,727
   - Fuel / electricity: $11,361
@@ -2274,7 +2398,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,392
   - Major-repair reserve (expected): $772
   - **6-year total: $34,193** ($475/mo over 40,560 mi)
+  - **NPV (5%/yr): $32,587** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,548
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $49,705 · NPV (5%/yr) $45,622
 
 ### 64. 2021 Kia Soul LX — $11,990
 
@@ -2296,7 +2422,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,990
   - Sales tax: $1,295
   - Fuel / electricity: $10,336
@@ -2305,7 +2431,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,194
   - Major-repair reserve (expected): $796
   - **6-year total: $28,339** ($394/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,713** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,668
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $42,282 · NPV (5%/yr) $38,422
 
 ### 65. 2021 Volvo XC40 P8 Recharge — $21,490
 
@@ -2329,7 +2457,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $21,490
   - Sales tax: $2,321
   - Fuel / electricity: $4,522
@@ -2338,7 +2466,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,826
   - Major-repair reserve (expected): $588
   - **6-year total: $31,864** ($443/mo over 40,560 mi)
+  - **NPV (5%/yr): $31,535** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,462
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,340 · NPV (5%/yr) $37,745
 
 ### 66. 2023 Hyundai Ioniq 6 SEL — $19,791
 
@@ -2365,7 +2495,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,791
   - Sales tax: $2,137
   - Fuel / electricity: $2,870
@@ -2374,7 +2504,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,532
   - Major-repair reserve (expected): $408
   - **6-year total: $32,725** ($455/mo over 40,560 mi)
+  - **NPV (5%/yr): $31,747** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $15,807
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,579 · NPV (5%/yr) $35,805
 
 ### 67. 2021 Volvo XC40 P8 Recharge — $21,000
 
@@ -2398,7 +2530,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $21,000
   - Sales tax: $2,268
   - Fuel / electricity: $4,522
@@ -2407,7 +2539,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,802
   - Major-repair reserve (expected): $633
   - **6-year total: $31,869** ($443/mo over 40,560 mi)
+  - **NPV (5%/yr): $31,410** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,720
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,396 · NPV (5%/yr) $37,666
 
 ### 68. 2023 Hyundai Ioniq 5 SE — $21,978
 
@@ -2433,7 +2567,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $21,978
   - Sales tax: $2,374
   - Fuel / electricity: $3,443
@@ -2442,7 +2576,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,658
   - Major-repair reserve (expected): $193
   - **6-year total: $33,401** ($464/mo over 40,560 mi)
+  - **NPV (5%/yr): $32,948** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,985
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,080 · NPV (5%/yr) $37,635
 
 ### 69. 2023 Kia EV6 Wind — $22,799
 
@@ -2467,7 +2603,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $22,799
   - Sales tax: $2,462
   - Fuel / electricity: $3,329
@@ -2476,7 +2612,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,886
   - Major-repair reserve (expected): $167
   - **6-year total: $34,080** ($473/mo over 40,560 mi)
+  - **NPV (5%/yr): $33,716** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,698
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,476 · NPV (5%/yr) $38,175
 
 ### 70. 2018 Honda Clarity Plug-In Hybrid — $14,695
 
@@ -2500,7 +2638,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,695
   - Sales tax: $1,587
   - Fuel / electricity: $3,969
@@ -2509,7 +2647,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,310
   - Major-repair reserve (expected): $1,464
   - **6-year total: $26,998** ($375/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,140** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,057
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,494 · NPV (5%/yr) $32,376
 
 ### 71. 2027 Chevrolet Bolt LT — $27,998
 
@@ -2534,7 +2674,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $27,998
   - Sales tax: $3,024
   - Fuel / electricity: $3,294
@@ -2543,7 +2683,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,964
   - Major-repair reserve (expected): $74
   - **6-year total: $39,155** ($544/mo over 40,560 mi)
+  - **NPV (5%/yr): $39,145** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $16,035
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $45,073 · NPV (5%/yr) $43,998
 
 ### 72. 2024 Hyundai Ioniq 5 SE — $23,477
 
@@ -2569,7 +2711,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $23,477
   - Sales tax: $2,536
   - Fuel / electricity: $3,443
@@ -2578,7 +2720,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,754
   - Major-repair reserve (expected): $104
   - **6-year total: $34,588** ($480/mo over 40,560 mi)
+  - **NPV (5%/yr): $34,297** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,717
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,011 · NPV (5%/yr) $38,783
 
 ### 73. 2024 Hyundai Ioniq 5 SE — $23,575
 
@@ -2604,7 +2748,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $23,575
   - Sales tax: $2,546
   - Fuel / electricity: $3,443
@@ -2613,7 +2757,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,754
   - Major-repair reserve (expected): $114
   - **6-year total: $34,693** ($482/mo over 40,560 mi)
+  - **NPV (5%/yr): $34,407** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,083
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,294 · NPV (5%/yr) $39,025
 
 ### 74. 2023 Hyundai Ioniq 5 SE — $24,500
 
@@ -2639,7 +2785,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $24,500
   - Sales tax: $2,646
   - Fuel / electricity: $3,443
@@ -2648,7 +2794,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,808
   - Major-repair reserve (expected): $136
   - **6-year total: $35,759** ($497/mo over 40,560 mi)
+  - **NPV (5%/yr): $35,504** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,539
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,878 · NPV (5%/yr) $39,766
 
 ### 75. 2024 Hyundai Ioniq 5 SEL — $23,777
 
@@ -2674,7 +2822,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $23,777
   - Sales tax: $2,568
   - Fuel / electricity: $3,443
@@ -2683,7 +2831,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,772
   - Major-repair reserve (expected): $111
   - **6-year total: $34,915** ($485/mo over 40,560 mi)
+  - **NPV (5%/yr): $34,638** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,129
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,502 · NPV (5%/yr) $39,246
 
 ### 76. 2024 Hyundai Ioniq 5 SE — $22,712
 
@@ -2709,7 +2859,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $22,712
   - Sales tax: $2,453
   - Fuel / electricity: $3,443
@@ -2718,7 +2868,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,706
   - Major-repair reserve (expected): $143
   - **6-year total: $34,269** ($476/mo over 40,560 mi)
+  - **NPV (5%/yr): $33,821** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,621
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,923 · NPV (5%/yr) $38,481
 
 ### 77. 2021 Chevrolet Trax LT — $11,195
 
@@ -2740,7 +2892,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,195
   - Sales tax: $1,209
   - Fuel / electricity: $10,117
@@ -2749,7 +2901,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,326
   - Major-repair reserve (expected): $1,429
   - **6-year total: $30,097** ($418/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,956** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,885
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $45,462 · NPV (5%/yr) $40,874
 
 ### 78. 2023 Chevrolet TrailBlazer LS — $12,638
 
@@ -2771,7 +2925,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,638
   - Sales tax: $1,365
   - Fuel / electricity: $10,299
@@ -2780,7 +2934,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,218
   - Major-repair reserve (expected): $1,294
   - **6-year total: $33,896** ($471/mo over 40,560 mi)
+  - **NPV (5%/yr): $31,381** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,017
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $48,978 · NPV (5%/yr) $44,139
 
 ### 79. 2024 Hyundai Ioniq 5 SE — $24,700
 
@@ -2806,7 +2962,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $24,700
   - Sales tax: $2,668
   - Fuel / electricity: $3,443
@@ -2815,7 +2971,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,826
   - Major-repair reserve (expected): $93
   - **6-year total: $35,844** ($498/mo over 40,560 mi)
+  - **NPV (5%/yr): $35,625** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,827
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $41,083 · NPV (5%/yr) $39,973
 
 ### 80. 2023 Hyundai Ioniq 5 SEL — $23,777
 
@@ -2841,7 +2999,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $23,777
   - Sales tax: $2,568
   - Fuel / electricity: $3,443
@@ -2850,7 +3008,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,760
   - Major-repair reserve (expected): $177
   - **6-year total: $35,078** ($487/mo over 40,560 mi)
+  - **NPV (5%/yr): $34,770** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,446
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,813 · NPV (5%/yr) $39,494
 
 ### 81. 2024 Hyundai Ioniq 5 SE — $24,336
 
@@ -2876,7 +3036,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $24,336
   - Sales tax: $2,628
   - Fuel / electricity: $3,443
@@ -2885,7 +3045,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,802
   - Major-repair reserve (expected): $108
   - **6-year total: $35,501** ($493/mo over 40,560 mi)
+  - **NPV (5%/yr): $35,254** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,182
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $41,003 · NPV (5%/yr) $39,798
 
 ### 82. 2024 Hyundai Ioniq 5 SEL — $23,950
 
@@ -2911,7 +3073,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $23,950
   - Sales tax: $2,587
   - Fuel / electricity: $3,443
@@ -2920,7 +3082,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,778
   - Major-repair reserve (expected): $126
   - **6-year total: $35,258** ($490/mo over 40,560 mi)
+  - **NPV (5%/yr): $34,951** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,728
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,957 · NPV (5%/yr) $39,642
 
 ### 83. 2023 Volvo XC40 Recharge Plus — $23,995
 
@@ -2944,7 +3108,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $23,995
   - Sales tax: $2,591
   - Fuel / electricity: $4,522
@@ -2953,7 +3117,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,952
   - Major-repair reserve (expected): $369
   - **6-year total: $33,736** ($469/mo over 40,560 mi)
+  - **NPV (5%/yr): $33,611** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $15,062
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $41,150 · NPV (5%/yr) $39,755
 
 ### 84. 2021 Jeep Compass Trailhawk — $13,999
 
@@ -2975,7 +3141,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,999
   - Sales tax: $1,512
   - Fuel / electricity: $11,184
@@ -2984,7 +3150,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,308
   - Major-repair reserve (expected): $1,413
   - **6-year total: $33,787** ($469/mo over 40,560 mi)
+  - **NPV (5%/yr): $31,697** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,672
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $50,369 · NPV (5%/yr) $45,624
 
 ### 85. 2021 Volkswagen ID.4 Pro — $16,997
 
@@ -3010,7 +3178,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $16,997
   - Sales tax: $1,836
   - Fuel / electricity: $3,627
@@ -3019,7 +3187,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,568
   - Major-repair reserve (expected): $466
   - **6-year total: $28,749** ($399/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,955** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,356
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,685 · NPV (5%/yr) $32,899
 
 ### 86. 2024 Kia EV6 Wind — $20,900
 
@@ -3044,7 +3214,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $20,900
   - Sales tax: $2,257
   - Fuel / electricity: $3,329
@@ -3053,7 +3223,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,784
   - Major-repair reserve (expected): $228
   - **6-year total: $33,649** ($467/mo over 40,560 mi)
+  - **NPV (5%/yr): $32,816** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $15,603
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,253 · NPV (5%/yr) $37,451
 
 ### 87. 2020 Chevrolet Equinox LS — $14,973
 
@@ -3075,7 +3247,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,973
   - Sales tax: $1,617
   - Fuel / electricity: $10,117
@@ -3084,7 +3256,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,578
   - Major-repair reserve (expected): $1,121
   - **6-year total: $32,750** ($455/mo over 40,560 mi)
+  - **NPV (5%/yr): $31,133** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,594
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $47,116 · NPV (5%/yr) $43,229
 
 ### 88. 2018 Tesla Model S 100D — $20,986
 
@@ -3108,7 +3282,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $20,986
   - Sales tax: $2,266
   - Fuel / electricity: $3,903
@@ -3117,7 +3291,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,700
   - Major-repair reserve (expected): $1,445
   - **6-year total: $36,851** ($512/mo over 40,560 mi)
+  - **NPV (5%/yr): $35,593** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $15,796
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $44,515 · NPV (5%/yr) $41,967
 
 ### 89. 2018 Tesla Model S 100D — $19,990
 
@@ -3141,7 +3317,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,990
   - Sales tax: $2,159
   - Fuel / electricity: $3,903
@@ -3150,7 +3326,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,640
   - Major-repair reserve (expected): $1,508
   - **6-year total: $36,362** ($505/mo over 40,560 mi)
+  - **NPV (5%/yr): $34,954** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $15,695
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $44,035 · NPV (5%/yr) $41,342
 
 ### 90. 2021 Volkswagen Tiguan S — $15,321
 
@@ -3173,7 +3351,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $15,321
   - Sales tax: $1,655
   - Fuel / electricity: $12,080
@@ -3182,7 +3360,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,386
   - Major-repair reserve (expected): $1,356
   - **6-year total: $36,979** ($514/mo over 40,560 mi)
+  - **NPV (5%/yr): $34,731** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,500
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $54,522 · NPV (5%/yr) $49,461
 
 ### 91. 2023 Ford Mustang Mach-E Select — $24,988
 
@@ -3206,7 +3386,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $24,988
   - Sales tax: $2,699
   - Fuel / electricity: $3,753
@@ -3215,7 +3395,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $3,012
   - Major-repair reserve (expected): $325
   - **6-year total: $37,522** ($521/mo over 40,560 mi)
+  - **NPV (5%/yr): $37,073** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $15,822
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $44,084 · NPV (5%/yr) $42,490
 
 ### 92. 2022 Ford Mustang Mach-E Select — $21,990
 
@@ -3239,7 +3421,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $21,990
   - Sales tax: $2,375
   - Fuel / electricity: $3,753
@@ -3248,7 +3430,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,808
   - Major-repair reserve (expected): $517
   - **6-year total: $36,284** ($504/mo over 40,560 mi)
+  - **NPV (5%/yr): $35,333** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $15,764
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $43,018 · NPV (5%/yr) $40,913
 
 ### 93. 2021 Volvo XC40 P8 Recharge — $21,800
 
@@ -3272,7 +3456,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $21,800
   - Sales tax: $2,354
   - Fuel / electricity: $4,522
@@ -3281,7 +3465,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,844
   - Major-repair reserve (expected): $573
   - **6-year total: $31,950** ($444/mo over 40,560 mi)
+  - **NPV (5%/yr): $31,683** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,344
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,396 · NPV (5%/yr) $37,866
 
 ### 94. 2020 Jaguar F-PACE S — $19,101
 
@@ -3303,7 +3489,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,101
   - Sales tax: $2,063
   - Fuel / electricity: $15,867
@@ -3312,7 +3498,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,644
   - Major-repair reserve (expected): $2,351
   - **6-year total: $47,073** ($654/mo over 40,560 mi)
+  - **NPV (5%/yr): $44,189** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $17,555
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $71,449 · NPV (5%/yr) $64,673
 
 ### 95. 2023 Buick Encore GX Select — $16,245
 
@@ -3335,7 +3523,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: no · Accidents reported: yes · One owner: no
   - ⚠️ **Frame damage reported.**
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $16,245
   - Sales tax: $1,754
   - Fuel / electricity: $9,575
@@ -3344,7 +3532,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,428
   - Major-repair reserve (expected): $336
   - **6-year total: $31,721** ($441/mo over 40,560 mi)
+  - **NPV (5%/yr): $30,554** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,250
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $44,085 · NPV (5%/yr) $41,003
 
 ### 96. 2023 Nissan Sentra S — $13,471
 
@@ -3367,7 +3557,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: yes · Accidents reported: not reported · One owner: yes
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,471
   - Sales tax: $1,455
   - Fuel / electricity: $8,546
@@ -3376,7 +3566,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,272
   - Major-repair reserve (expected): $479
   - **6-year total: $27,942** ($388/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,719** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,667
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,773 · NPV (5%/yr) $36,631
 
 ### 97. 2018 MAZDA CX-3 Touring — $13,971
 
@@ -3399,7 +3591,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: yes · Accidents reported: not reported · One owner: no
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,971
   - Sales tax: $1,509
   - Fuel / electricity: $9,772
@@ -3408,7 +3600,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,542
   - Major-repair reserve (expected): $1,117
   - **6-year total: $29,229** ($406/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,925** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,289
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $42,287 · NPV (5%/yr) $38,943
 
 ### 98. 2019 Tesla Model 3 Long Range — $17,950
 
@@ -3433,7 +3627,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: yes · Accidents reported: not reported · One owner: no
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $17,950
   - Sales tax: $1,939
   - Fuel / electricity: $3,214
@@ -3442,7 +3636,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,502
   - Major-repair reserve (expected): $756
   - **6-year total: $30,882** ($429/mo over 40,560 mi)
+  - **NPV (5%/yr): $29,959** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,578
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,156 · NPV (5%/yr) $34,401
 
 ### 99. 2020 Hyundai Elantra Value Edition — $12,721
 
@@ -3466,7 +3662,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: yes · Accidents reported: not reported · One owner: yes
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,721
   - Sales tax: $1,374
   - Fuel / electricity: $8,299
@@ -3475,7 +3671,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,260
   - Major-repair reserve (expected): $452
   - **6-year total: $27,206** ($378/mo over 40,560 mi)
+  - **NPV (5%/yr): $25,928** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,590
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,799 · NPV (5%/yr) $34,889
 
 ### 100. 2023 Hyundai Ioniq 6 SEL — $19,995
 
@@ -3503,7 +3701,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: yes · Accidents reported: not reported · One owner: no
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,995
   - Sales tax: $2,159
   - Fuel / electricity: $2,870
@@ -3512,7 +3710,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,544
   - Major-repair reserve (expected): $124
   - **6-year total: $30,395** ($422/mo over 40,560 mi)
+  - **NPV (5%/yr): $30,001** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,373
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,750 · NPV (5%/yr) $33,635
 
 ### 101. 2023 Tesla Model 3 Standard Range — $22,197
 
@@ -3538,7 +3738,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: yes · Accidents reported: not reported · One owner: no
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $22,197
   - Sales tax: $2,397
   - Fuel / electricity: $3,214
@@ -3547,7 +3747,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,670
   - Major-repair reserve (expected): $218
   - **6-year total: $33,582** ($466/mo over 40,560 mi)
+  - **NPV (5%/yr): $33,169** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,568
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $38,774 · NPV (5%/yr) $37,507
 
 ### 102. 2020 Tesla Model Y Long Range — $17,900
 
@@ -3572,7 +3774,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: yes · Accidents reported: not reported · One owner: yes
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $17,900
   - Sales tax: $1,933
   - Fuel / electricity: $3,903
@@ -3581,7 +3783,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,652
   - Major-repair reserve (expected): $1,167
   - **6-year total: $33,619** ($467/mo over 40,560 mi)
+  - **NPV (5%/yr): $32,166** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $14,872
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $40,965 · NPV (5%/yr) $38,286
 
 ### 103. 2021 Honda Accord Hybrid — $13,500
 
@@ -3605,7 +3809,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: yes · Accidents reported: yes · One owner: no
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,500
   - Sales tax: $1,458
   - Fuel / electricity: $5,511
@@ -3614,7 +3818,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,284
   - Major-repair reserve (expected): $978
   - **6-year total: $28,347** ($394/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,924** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,508
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,654 · NPV (5%/yr) $33,898
 
 ### 104. 2018 Audi Q5 2.0T Premium Plus — $14,197
 
@@ -3638,7 +3844,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: yes · Accidents reported: yes · One owner: no
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,197
   - Sales tax: $1,533
   - Fuel / electricity: $12,988
@@ -3647,7 +3853,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,380
   - Major-repair reserve (expected): $2,260
   - **6-year total: $38,923** ($541/mo over 40,560 mi)
+  - **NPV (5%/yr): $36,178** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,476
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $58,269 · NPV (5%/yr) $52,527
 
 ### 105. 2019 Volkswagen e-Golf SE — $12,685
 
@@ -3671,7 +3879,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,685
   - Sales tax: $1,370
   - Fuel / electricity: $3,329
@@ -3680,7 +3888,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,172
   - Major-repair reserve (expected): $567
   - **6-year total: $24,529** ($341/mo over 40,560 mi)
+  - **NPV (5%/yr): $23,438** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,287
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $29,775 · NPV (5%/yr) $27,851
 
 ### 106. 2019 Hyundai Ioniq Electric — $12,683
 
@@ -3705,7 +3915,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,683
   - Sales tax: $1,370
   - Fuel / electricity: $2,870
@@ -3714,7 +3924,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,172
   - Major-repair reserve (expected): $453
   - **6-year total: $23,413** ($325/mo over 40,560 mi)
+  - **NPV (5%/yr): $22,515** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,726
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $27,846 · NPV (5%/yr) $26,242
 
 ### 107. 2020 Kia Niro LXS — $19,229
 
@@ -3738,7 +3950,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $19,229
   - Sales tax: $2,077
   - Fuel / electricity: $4,459
@@ -3747,7 +3959,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,836
   - Major-repair reserve (expected): $672
   - **6-year total: $28,879** ($401/mo over 40,560 mi)
+  - **NPV (5%/yr): $28,833** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,349
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $35,492 · NPV (5%/yr) $34,384
 
 ### 108. 2017 Chevrolet Bolt Premier — $13,579
 
@@ -3772,7 +3986,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,579
   - Sales tax: $1,467
   - Fuel / electricity: $3,294
@@ -3781,7 +3995,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,232
   - Major-repair reserve (expected): $1,074
   - **6-year total: $24,583** ($341/mo over 40,560 mi)
+  - **NPV (5%/yr): $23,717** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,079
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $30,477 · NPV (5%/yr) $28,653
 
 ### 109. 2019 Chevrolet Bolt LT — $16,145
 
@@ -3808,7 +4024,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $16,145
   - Sales tax: $1,744
   - Fuel / electricity: $3,294
@@ -3817,7 +4033,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,388
   - Major-repair reserve (expected): $431
   - **6-year total: $25,020** ($348/mo over 40,560 mi)
+  - **NPV (5%/yr): $24,664** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,742
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $29,767 · NPV (5%/yr) $28,680
 
 ### 110. 2021 MAZDA MAZDA3 s — $13,199
 
@@ -3840,7 +4058,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,199
   - Sales tax: $1,425
   - Fuel / electricity: $9,512
@@ -3849,7 +4067,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,266
   - Major-repair reserve (expected): $1,076
   - **6-year total: $31,496** ($437/mo over 40,560 mi)
+  - **NPV (5%/yr): $29,567** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,951
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $45,259 · NPV (5%/yr) $41,115
 
 ### 111. 2017 Kia Niro LX — $10,249
 
@@ -3871,7 +4091,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $10,249
   - Sales tax: $1,107
   - Fuel / electricity: $5,421
@@ -3880,7 +4100,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,308
   - Major-repair reserve (expected): $1,492
   - **6-year total: $24,003** ($333/mo over 40,560 mi)
+  - **NPV (5%/yr): $22,678** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,673
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $32,835 · NPV (5%/yr) $30,072
 
 ### 112. 2018 Chevrolet Volt LT — $11,477
 
@@ -3905,7 +4127,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,477
   - Sales tax: $1,240
   - Fuel / electricity: $3,956
@@ -3914,7 +4136,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,106
   - Major-repair reserve (expected): $1,612
   - **6-year total: $24,669** ($343/mo over 40,560 mi)
+  - **NPV (5%/yr): $23,497** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,584
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $32,090 · NPV (5%/yr) $29,732
 
 ### 113. 2019 BMW i3 s — $16,995
 
@@ -3939,7 +4163,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $16,995
   - Sales tax: $1,835
   - Fuel / electricity: $3,443
@@ -3948,7 +4172,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,442
   - Major-repair reserve (expected): $1,221
   - **6-year total: $27,840** ($387/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,168** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,495
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,732 · NPV (5%/yr) $32,910
 
 ### 114. 2017 Chevrolet Volt LT — $9,984
 
@@ -3973,7 +4199,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED
   - Salvage title: no · Accidents reported: no · One owner: not reported
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $9,984
   - Sales tax: $1,078
   - Fuel / electricity: $3,969
@@ -3982,7 +4208,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,010
   - Major-repair reserve (expected): $1,958
   - **6-year total: $24,091** ($335/mo over 40,560 mi)
+  - **NPV (5%/yr): $22,695** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,005
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $31,815 · NPV (5%/yr) $29,188
 
 ### 115. 2017 Chevrolet Volt Premier — $10,000
 
@@ -4006,7 +4234,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $10,000
   - Sales tax: $1,080
   - Fuel / electricity: $3,956
@@ -4015,7 +4243,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,010
   - Major-repair reserve (expected): $2,465
   - **6-year total: $24,239** ($337/mo over 40,560 mi)
+  - **NPV (5%/yr): $22,795** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,892
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $32,829 · NPV (5%/yr) $29,986
 
 ### 116. 2020 BMW i3 — $20,490
 
@@ -4040,7 +4270,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $20,490
   - Sales tax: $2,213
   - Fuel / electricity: $4,102
@@ -4049,7 +4279,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,628
   - Major-repair reserve (expected): $1,290
   - **6-year total: $28,678** ($398/mo over 40,560 mi)
+  - **NPV (5%/yr): $28,952** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,252
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,481 · NPV (5%/yr) $35,525
 
 ### 117. 2017 BMW i3 w/ Range Extender — $11,700
 
@@ -4075,7 +4307,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,700
   - Sales tax: $1,264
   - Fuel / electricity: $4,102
@@ -4084,7 +4316,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,118
   - Major-repair reserve (expected): $2,821
   - **6-year total: $25,909** ($360/mo over 40,560 mi)
+  - **NPV (5%/yr): $24,631** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,513
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $35,277 · NPV (5%/yr) $32,517
 
 ### 118. 2018 Chevrolet Volt LT — $8,477
 
@@ -4108,7 +4342,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $8,477
   - Sales tax: $916
   - Fuel / electricity: $3,956
@@ -4117,7 +4351,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,920
   - Major-repair reserve (expected): $1,944
   - **6-year total: $22,040** ($306/mo over 40,560 mi)
+  - **NPV (5%/yr): $20,579** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,095
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $30,033 · NPV (5%/yr) $27,280
 
 ### 119. 2017 Nissan Leaf S — $6,995
 
@@ -4140,7 +4376,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $6,995
   - Sales tax: $755
   - Fuel / electricity: $3,489
@@ -4149,7 +4385,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,824
   - Major-repair reserve (expected): $381
   - **6-year total: $20,780** ($289/mo over 40,560 mi)
+  - **NPV (5%/yr): $19,073** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,279
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $25,531 · NPV (5%/yr) $23,092
 - Note: Lowest 6-year cost to own with AEB standard — about $485/mo all-in, and it should still be a good car when Emma drives.
 
 ### 120. 2017 Nissan Leaf S — $7,500
@@ -4173,7 +4411,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $7,500
   - Sales tax: $810
   - Fuel / electricity: $3,489
@@ -4182,7 +4420,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,860
   - Major-repair reserve (expected): $375
   - **6-year total: $21,152** ($294/mo over 40,560 mi)
+  - **NPV (5%/yr): $19,496** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,439
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $25,897 · NPV (5%/yr) $23,510
 
 ### 121. 2017 Nissan Leaf S — $7,995
 
@@ -4205,7 +4445,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $7,995
   - Sales tax: $863
   - Fuel / electricity: $3,489
@@ -4214,7 +4454,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,890
   - Major-repair reserve (expected): $352
   - **6-year total: $21,494** ($299/mo over 40,560 mi)
+  - **NPV (5%/yr): $19,891** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,590
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $26,238 · NPV (5%/yr) $23,904
 
 ### 122. 2020 Hyundai Accent SE — $13,190
 
@@ -4235,7 +4477,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,190
   - Sales tax: $1,425
   - Fuel / electricity: $7,823
@@ -4244,7 +4486,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,290
   - Major-repair reserve (expected): $763
   - **6-year total: $27,438** ($381/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,232** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,676
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $38,208 · NPV (5%/yr) $35,304
 
 ### 123. 2015 smart fortwo electric drive — $5,000
 
@@ -4267,7 +4511,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $5,000
   - Sales tax: $540
   - Fuel / electricity: $3,903
@@ -4276,7 +4520,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,710
   - Major-repair reserve (expected): $621
   - **6-year total: $16,424** ($228/mo over 40,560 mi)
+  - **NPV (5%/yr): $14,969** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $5,613
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $21,804 · NPV (5%/yr) $19,521
 
 ### 124. 2020 Hyundai Accent SE — $10,500
 
@@ -4297,7 +4543,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $10,500
   - Sales tax: $1,134
   - Fuel / electricity: $7,823
@@ -4306,7 +4552,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,128
   - Major-repair reserve (expected): $1,008
   - **6-year total: $25,718** ($357/mo over 40,560 mi)
+  - **NPV (5%/yr): $24,151** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,678
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $37,314 · NPV (5%/yr) $33,886
 
 ### 125. 2017 Nissan Leaf SV — $5,584
 
@@ -4329,7 +4577,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $5,584
   - Sales tax: $603
   - Fuel / electricity: $3,489
@@ -4338,7 +4586,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,740
   - Major-repair reserve (expected): $584
   - **6-year total: $20,221** ($281/mo over 40,560 mi)
+  - **NPV (5%/yr): $18,296** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,031
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $25,268 · NPV (5%/yr) $22,564
 - Note: Lowest 6-year cost to own with AEB standard — about $477/mo all-in, and it should still be a good car when Emma drives.
 
 ### 126. 2016 BMW i3 w/ Range Extender — $9,477
@@ -4363,7 +4613,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $9,477
   - Sales tax: $1,024
   - Fuel / electricity: $4,102
@@ -4372,7 +4622,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,986
   - Major-repair reserve (expected): $2,538
   - **6-year total: $24,067** ($334/mo over 40,560 mi)
+  - **NPV (5%/yr): $22,557** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,895
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $32,653 · NPV (5%/yr) $29,821
 
 ### 127. 2017 Mercedes-Benz B 250e — $14,995
 
@@ -4395,7 +4647,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,995
   - Sales tax: $1,619
   - Fuel / electricity: $3,903
@@ -4404,7 +4656,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,322
   - Major-repair reserve (expected): $836
   - **6-year total: $27,536** ($382/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,525** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,779
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $33,358 · NPV (5%/yr) $31,450
 
 ### 128. 2016 Volkswagen e-Golf SE — $8,000
 
@@ -4427,7 +4681,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $8,000
   - Sales tax: $864
   - Fuel / electricity: $3,329
@@ -4436,7 +4690,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,890
   - Major-repair reserve (expected): $822
   - **6-year total: $19,758** ($274/mo over 40,560 mi)
+  - **NPV (5%/yr): $18,418** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,077
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $24,981 · NPV (5%/yr) $22,837
 
 ### 129. 2016 Volkswagen e-Golf SE — $8,980
 
@@ -4459,7 +4715,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $8,980
   - Sales tax: $970
   - Fuel / electricity: $3,329
@@ -4468,7 +4724,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,950
   - Major-repair reserve (expected): $846
   - **6-year total: $20,873** ($290/mo over 40,560 mi)
+  - **NPV (5%/yr): $19,569** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,536
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $26,122 · NPV (5%/yr) $24,010
 
 ### 130. 2016 Volkswagen e-Golf SE — $8,700
 
@@ -4491,7 +4749,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $8,700
   - Sales tax: $940
   - Fuel / electricity: $3,329
@@ -4500,7 +4758,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,932
   - Major-repair reserve (expected): $892
   - **6-year total: $20,668** ($287/mo over 40,560 mi)
+  - **NPV (5%/yr): $19,336** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,447
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $25,974 · NPV (5%/yr) $23,825
 
 ### 131. 2015 Toyota Prius Four — $14,705
 
@@ -4522,7 +4782,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,705
   - Sales tax: $1,588
   - Fuel / electricity: $5,322
@@ -4531,7 +4791,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,434
   - Major-repair reserve (expected): $1,240
   - **6-year total: $25,958** ($361/mo over 40,560 mi)
+  - **NPV (5%/yr): $25,369** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,710
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $33,473 · NPV (5%/yr) $31,727
 
 ### 132. 2023 Fisker Ocean One — $15,990
 
@@ -4556,7 +4818,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $15,990
   - Sales tax: $1,727
   - Fuel / electricity: $3,903
@@ -4565,7 +4827,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,316
   - Major-repair reserve (expected): $140
   - **6-year total: $27,294** ($379/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,518** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,038
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $32,609 · NPV (5%/yr) $30,982
 
 ### 133. 2017 Kia Soul EV — $9,998
 
@@ -4589,7 +4853,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $9,998
   - Sales tax: $1,080
   - Fuel / electricity: $3,903
@@ -4598,7 +4862,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,010
   - Major-repair reserve (expected): $436
   - **6-year total: $21,275** ($295/mo over 40,560 mi)
+  - **NPV (5%/yr): $20,152** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,458
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $26,418 · NPV (5%/yr) $24,503
 
 ### 134. 2016 Kia Soul EV + — $9,000
 
@@ -4621,7 +4887,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $9,000
   - Sales tax: $972
   - Fuel / electricity: $3,903
@@ -4630,7 +4896,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,956
   - Major-repair reserve (expected): $549
   - **6-year total: $20,482** ($284/mo over 40,560 mi)
+  - **NPV (5%/yr): $19,264** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,176
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $25,763 · NPV (5%/yr) $23,731
 
 ### 135. 2016 Kia Soul EV + — $8,797
 
@@ -4653,7 +4921,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $8,797
   - Sales tax: $950
   - Fuel / electricity: $3,903
@@ -4662,7 +4930,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,944
   - Major-repair reserve (expected): $588
   - **6-year total: $20,345** ($283/mo over 40,560 mi)
+  - **NPV (5%/yr): $19,104** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,118
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $25,670 · NPV (5%/yr) $23,609
 
 ### 136. 2021 Polestar Polestar 2 — $16,999
 
@@ -4687,7 +4957,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $16,999
   - Sales tax: $1,836
   - Fuel / electricity: $4,017
@@ -4696,7 +4966,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,388
   - Major-repair reserve (expected): $890
   - **6-year total: $31,209** ($433/mo over 40,560 mi)
+  - **NPV (5%/yr): $29,944** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $13,815
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $38,293 · NPV (5%/yr) $35,847
 
 ### 137. 2015 BMW i3 w/ Range Extender — $11,995
 
@@ -4720,7 +4992,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,995
   - Sales tax: $1,295
   - Fuel / electricity: $4,102
@@ -4729,7 +5001,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,160
   - Major-repair reserve (expected): $3,315
   - **6-year total: $26,783** ($372/mo over 40,560 mi)
+  - **NPV (5%/yr): $25,439** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,779
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,050 · NPV (5%/yr) $33,278
 
 ### 138. 2015 Toyota Prius C Two — $14,788
 
@@ -4750,7 +5024,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,788
   - Sales tax: $1,597
   - Fuel / electricity: $5,301
@@ -4759,7 +5033,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,440
   - Major-repair reserve (expected): $1,475
   - **6-year total: $26,446** ($367/mo over 40,560 mi)
+  - **NPV (5%/yr): $25,801** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,866
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,338 · NPV (5%/yr) $32,462
 
 ### 139. 2015 Honda Fit LX — $13,489
 
@@ -4780,7 +5056,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, ONE_OWNER, FREE_REPORT
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,489
   - Sales tax: $1,457
   - Fuel / electricity: $7,909
@@ -4789,7 +5065,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,356
   - Major-repair reserve (expected): $1,225
   - **6-year total: $28,155** ($391/mo over 40,560 mi)
+  - **NPV (5%/yr): $26,946** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,431
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $38,958 · NPV (5%/yr) $36,085
 
 ### 140. 2019 Jeep Renegade Sport — $12,490
 
@@ -4811,7 +5089,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,490
   - Sales tax: $1,349
   - Fuel / electricity: $11,638
@@ -4820,7 +5098,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,266
   - Major-repair reserve (expected): $1,134
   - **6-year total: $30,614** ($425/mo over 40,560 mi)
+  - **NPV (5%/yr): $28,758** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,682
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $45,888 · NPV (5%/yr) $41,671
 
 ### 141. 2016 Mercedes-Benz GLA 250 4MATIC — $14,999
 
@@ -4841,7 +5121,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,999
   - Sales tax: $1,620
   - Fuel / electricity: $11,670
@@ -4850,7 +5130,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,428
   - Major-repair reserve (expected): $2,181
   - **6-year total: $36,765** ($511/mo over 40,560 mi)
+  - **NPV (5%/yr): $34,580** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,280
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $54,105 · NPV (5%/yr) $49,248
 
 ### 142. 2017 Jeep Compass Trailhawk — $12,471
 
@@ -4873,7 +5155,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,471
   - Sales tax: $1,347
   - Fuel / electricity: $11,184
@@ -4882,7 +5164,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,266
   - Major-repair reserve (expected): $1,391
   - **6-year total: $31,051** ($431/mo over 40,560 mi)
+  - **NPV (5%/yr): $29,160** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,386
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $46,053 · NPV (5%/yr) $41,851
 
 ### 143. 2017 BMW 320i Sedan — $14,490
 
@@ -4904,7 +5188,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $14,490
   - Sales tax: $1,565
   - Fuel / electricity: $12,388
@@ -4913,7 +5197,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,392
   - Major-repair reserve (expected): $2,159
   - **6-year total: $38,250** ($531/mo over 40,560 mi)
+  - **NPV (5%/yr): $35,718** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,763
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $56,515 · NPV (5%/yr) $51,169
 
 ### 144. 2019 Audi e-tron Premium Plus — $18,961
 
@@ -4938,7 +5224,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $18,961
   - Sales tax: $2,048
   - Fuel / electricity: $3,903
@@ -4947,7 +5233,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,742
   - Major-repair reserve (expected): $985
   - **6-year total: $32,716** ($454/mo over 40,560 mi)
+  - **NPV (5%/yr): $31,724** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $12,263
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $39,276 · NPV (5%/yr) $37,231
 
 ### 145. 2015 Toyota Prius Five — $12,990
 
@@ -4969,7 +5257,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
   - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,990
   - Sales tax: $1,403
   - Fuel / electricity: $5,322
@@ -4978,7 +5266,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,326
   - Major-repair reserve (expected): $1,928
   - **6-year total: $25,870** ($359/mo over 40,560 mi)
+  - **NPV (5%/yr): $24,879** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,620
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $35,077 · NPV (5%/yr) $32,570
 
 ### 146. 2016 Audi A3 e-tron Prestige — $8,500
 
@@ -5001,7 +5291,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $8,500
   - Sales tax: $918
   - Fuel / electricity: $7,023
@@ -5010,7 +5300,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,020
   - Major-repair reserve (expected): $3,919
   - **6-year total: $27,982** ($389/mo over 40,560 mi)
+  - **NPV (5%/yr): $25,642** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $9,674
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $41,548 · NPV (5%/yr) $37,057
 
 ### 147. 2016 BMW X5 xDrive40e — $12,192
 
@@ -5034,7 +5326,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $12,192
   - Sales tax: $1,317
   - Fuel / electricity: $7,023
@@ -5043,7 +5335,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,254
   - Major-repair reserve (expected): $3,580
   - **6-year total: $30,627** ($425/mo over 40,560 mi)
+  - **NPV (5%/yr): $28,736** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $10,423
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $43,841 · NPV (5%/yr) $39,851
 
 ### 148. 2015 Toyota Prius C Two — $11,999
 
@@ -5064,7 +5358,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,999
   - Sales tax: $1,296
   - Fuel / electricity: $5,301
@@ -5073,7 +5367,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,260
   - Major-repair reserve (expected): $1,796
   - **6-year total: $24,544** ($341/mo over 40,560 mi)
+  - **NPV (5%/yr): $23,546** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,733
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $33,400 · NPV (5%/yr) $30,958
 
 ### 149. 2021 Ford Mustang Mach-E Premium — $22,695
 
@@ -5096,7 +5392,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: yes
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $22,695
   - Sales tax: $2,451
   - Fuel / electricity: $4,167
@@ -5105,7 +5401,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,898
   - Major-repair reserve (expected): $590
   - **6-year total: $36,809** ($511/mo over 40,560 mi)
+  - **NPV (5%/yr): $35,979** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $15,177
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $43,971 · NPV (5%/yr) $41,917
 
 ### 150. 2021 Ford Mustang Mach-E Premium — $24,800
 
@@ -5128,7 +5426,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $24,800
   - Sales tax: $2,678
   - Fuel / electricity: $4,167
@@ -5137,7 +5435,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $3,024
   - Major-repair reserve (expected): $557
   - **6-year total: $38,148** ($530/mo over 40,560 mi)
+  - **NPV (5%/yr): $37,574** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $15,635
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $45,344 · NPV (5%/yr) $43,534
 
 ### 151. 2024 MINI Cooper SE — $16,895
 
@@ -5161,7 +5461,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: yes · Accidents reported: yes · One owner: no
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $16,895
   - Sales tax: $1,825
   - Fuel / electricity: $3,903
@@ -5170,7 +5470,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,370
   - Major-repair reserve (expected): $189
   - **6-year total: $28,592** ($397/mo over 40,560 mi)
+  - **NPV (5%/yr): $27,813** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $11,051
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,628 · NPV (5%/yr) $32,845
 
 ### 152. 2019 Honda Fit Sport — $11,900
 
@@ -5194,7 +5496,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Salvage title: yes · Accidents reported: yes · One owner: no
   - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,900
   - Sales tax: $1,285
   - Fuel / electricity: $8,598
@@ -5203,7 +5505,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,224
   - Major-repair reserve (expected): $750
   - **6-year total: $25,236** ($351/mo over 40,560 mi)
+  - **NPV (5%/yr): $24,073** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,883
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $36,240 · NPV (5%/yr) $33,379
 
 ### 153. 2019 FIAT 500 e — $13,995
 
@@ -5227,7 +5531,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $13,995
   - Sales tax: $1,511
   - Fuel / electricity: $3,903
@@ -5236,7 +5540,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,256
   - Major-repair reserve (expected): $358
   - **6-year total: $20,755** ($288/mo over 40,560 mi)
+  - **NPV (5%/yr): $20,549** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,869
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $25,898 · NPV (5%/yr) $24,899
 
 ### 154. 2019 FIAT 500 e — $15,200
 
@@ -5260,7 +5566,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $15,200
   - Sales tax: $1,642
   - Fuel / electricity: $3,903
@@ -5269,7 +5575,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,334
   - Major-repair reserve (expected): $397
   - **6-year total: $21,691** ($301/mo over 40,560 mi)
+  - **NPV (5%/yr): $21,598** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,269
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $26,847 · NPV (5%/yr) $25,960
 
 ### 155. 2018 FIAT 500 e — $10,929
 
@@ -5293,7 +5601,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $10,929
   - Sales tax: $1,180
   - Fuel / electricity: $3,903
@@ -5302,7 +5610,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $2,076
   - Major-repair reserve (expected): $450
   - **6-year total: $18,639** ($259/mo over 40,560 mi)
+  - **NPV (5%/yr): $18,102** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $6,974
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $23,836 · NPV (5%/yr) $22,498
 
 ### 156. 2017 FIAT 500 e — $8,000
 
@@ -5325,7 +5635,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $8,000
   - Sales tax: $864
   - Fuel / electricity: $3,903
@@ -5334,7 +5644,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,890
   - Major-repair reserve (expected): $475
   - **6-year total: $19,295** ($268/mo over 40,560 mi)
+  - **NPV (5%/yr): $18,046** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $6,696
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $24,530 · NPV (5%/yr) $22,475
 
 ### 157. 2016 FIAT 500 e — $7,998
 
@@ -5357,7 +5669,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $7,998
   - Sales tax: $864
   - Fuel / electricity: $3,903
@@ -5366,7 +5678,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,890
   - Major-repair reserve (expected): $788
   - **6-year total: $19,936** ($277/mo over 40,560 mi)
+  - **NPV (5%/yr): $18,585** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $6,943
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $25,533 · NPV (5%/yr) $23,320
 
 ### 158. 2016 FIAT 500 e — $7,998
 
@@ -5389,7 +5703,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $7,998
   - Sales tax: $864
   - Fuel / electricity: $3,903
@@ -5398,7 +5712,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,890
   - Major-repair reserve (expected): $900
   - **6-year total: $20,173** ($280/mo over 40,560 mi)
+  - **NPV (5%/yr): $18,785** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,036
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $25,974 · NPV (5%/yr) $23,685
 
 ### 159. 2017 Ford C-MAX Energi SE — $11,148
 
@@ -5423,7 +5739,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $11,148
   - Sales tax: $1,204
   - Fuel / electricity: $5,585
@@ -5432,7 +5748,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,182
   - Major-repair reserve (expected): $1,943
   - **6-year total: $25,090** ($348/mo over 40,560 mi)
+  - **NPV (5%/yr): $23,810** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,309
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,246 · NPV (5%/yr) $31,555
 
 ### 160. 2015 FIAT 500 e — $8,999
 
@@ -5456,7 +5774,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, NO_FRAME_DAMAGE, NO_FLOOD_WATER_DAMAGE, NO_ACCIDENTS_REPORTED, NO_ONE_OWNER, FREE_REPORT
   - Salvage title: no · Accidents reported: no · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $8,999
   - Sales tax: $972
   - Fuel / electricity: $3,903
@@ -5465,7 +5783,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,968
   - Major-repair reserve (expected): $617
   - **6-year total: $20,643** ($287/mo over 40,560 mi)
+  - **NPV (5%/yr): $19,398** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $7,245
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $26,005 · NPV (5%/yr) $23,934
 
 ### 161. 2017 Ford C-MAX Energi SE — $9,613
 
@@ -5490,7 +5810,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $9,613
   - Sales tax: $1,038
   - Fuel / electricity: $5,585
@@ -5499,7 +5819,9 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,086
   - Major-repair reserve (expected): $2,159
   - **6-year total: $24,639** ($342/mo over 40,560 mi)
+  - **NPV (5%/yr): $23,073** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $8,136
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $34,240 · NPV (5%/yr) $31,173
 
 ### 162. 2015 FIAT 500 e — $5,998
 
@@ -5523,7 +5845,7 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
 - Vehicle history: NO_SALVAGE_TITLE, ACCIDENTS_REPORTED, NO_ONE_OWNER
   - Salvage title: no · Accidents reported: yes · One owner: no
   - `not reported` means neither badge was present — it is absence of data, not a clean record.
-- Cost to own:
+- Cost to own (Jordyn — ~6,760 mi/yr):
   - Purchase price: $5,998
   - Sales tax: $648
   - Fuel / electricity: $3,903
@@ -5532,4 +5854,6 @@ Every car we can find that could work as Jordyn's first car — 4732 listings se
   - Registration: $1,776
   - Major-repair reserve (expected): $1,033
   - **6-year total: $18,306** ($254/mo over 40,560 mi)
+  - **NPV (5%/yr): $16,774** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total
   - 2-year total (Jordyn only): $6,311
+- Cost to own (Kate — ~13,520 mi/yr): 6-year total $24,182 · NPV (5%/yr) $21,742

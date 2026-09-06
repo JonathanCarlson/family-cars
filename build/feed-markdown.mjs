@@ -11,6 +11,8 @@
 // re-introduce the exact bug through a side door. So every powertrain line
 // carries its evidence, and unverified ones say so.
 
+import { npvOfTco } from './feed-json.mjs';
+
 const money = (n) => (n == null ? '—' : `$${Math.round(n).toLocaleString('en-US')}`);
 const num = (n) => (n == null ? '—' : Math.round(n).toLocaleString('en-US'));
 
@@ -33,6 +35,8 @@ function tcoLines(t) {
     .filter(([k]) => t.items[k])
     .map(([k, label]) => `  - ${label}: ${money(k === 'depreciation' ? -t.items[k] : t.items[k])}`);
   out.push(`  - **${t.years}-year total: ${money(t.total)}** (${money(t.perMonth)}/mo over ${num(t.miles)} mi)`);
+  const npv = npvOfTco(t);
+  if (npv != null) out.push(`  - **NPV (5%/yr): ${money(npv)}** — same costs discounted to today; later dollars weigh less, so it runs a little under the nominal total`);
   return out;
 }
 
@@ -98,9 +102,17 @@ function carSection(c, i) {
     L.push('  - `not reported` means neither badge was present — it is absence of data, not a clean record.');
   }
   if (c.tco6) {
-    L.push('- Cost to own:');
+    L.push('- Cost to own (Jordyn — ~6,760 mi/yr):');
     L.push(...tcoLines(c.tco6));
     if (c.tco2) L.push(`  - 2-year total (Jordyn only): ${money(c.tco2.total)}`);
+  }
+  // The same car costed at Kate's mileage (she drives exactly double Jordyn), so
+  // the assignment question is answerable from the feed, not just the page. NPV
+  // is shown for her scenario too.
+  if (c.tco6Kate && typeof c.tco6Kate === 'object') {
+    const kNpv = npvOfTco(c.tco6Kate);
+    const kMiles = (c.tco6Kate.miles && c.tco6Kate.years) ? c.tco6Kate.miles / c.tco6Kate.years : 13520;
+    L.push(`- Cost to own (Kate — ~${num(kMiles)} mi/yr): ${c.tco6Kate.years}-year total ${money(c.tco6Kate.total)}${kNpv != null ? ` · NPV (5%/yr) ${money(kNpv)}` : ''}`);
   }
   if (c.standout) L.push(`- Standout: ${c.standout}`);
   if (c.note) L.push(`- Note: ${c.note}`);

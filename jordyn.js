@@ -234,9 +234,10 @@ function bothDriversBlock(c) {
   // page bundle's rich `tco6` / `tco6Kate` objects. Read either rather than
   // silently rendering nothing, which is how the last breakdown regression hid.
   const from = (d, rich, miles, who) => {
-    if (d) return d;
+    const npv = rich ? npvOfTco(rich) : null;
+    if (d) return (npv != null && d.npv == null) ? { ...d, npv } : d;
     if (!rich) return null;
-    return { driver: who, milesPerYear: miles, sixYearUsd: rich.total, perMonth6Usd: rich.perMonth };
+    return { driver: who, milesPerYear: miles, sixYearUsd: rich.total, perMonth6Usd: rich.perMonth, npv };
   };
   const j = from(c.byDriver?.jordyn, typeof c.tco6 === 'object' ? c.tco6 : null, 6760, 'Jordyn');
   const k = from(c.byDriver?.kate, typeof c.tco6Kate === 'object' ? c.tco6Kate : null, 13520, 'Kate');
@@ -244,7 +245,7 @@ function bothDriversBlock(c) {
   const row = (d, who, emoji) => d ? `
     <div class="bd-row">
       <div class="bd-who">${emoji} <b>${esc(who)}</b> <span class="bd-mi">${d.milesPerYear.toLocaleString()} mi/yr</span></div>
-      <div class="bd-fig">${money(d.sixYearUsd)} <span class="bd-sub">over 6 yr${d.perMonth6Usd ? ` · ${money(d.perMonth6Usd)}/mo` : ''}</span></div>
+      <div class="bd-fig">${money(d.sixYearUsd)} <span class="bd-sub">over 6 yr${d.perMonth6Usd ? ` · ${money(d.perMonth6Usd)}/mo` : ''}${d.npv != null ? ` · NPV ${money(d.npv)}` : ''}</span></div>
       ${d.estimated ? '<div class="bd-est">estimated — no driver-specific figure computed</div>' : ''}
     </div>` : '';
   const gap = (j && k) ? k.sixYearUsd - j.sixYearUsd : null;
@@ -254,6 +255,7 @@ function bothDriversBlock(c) {
       ${row(j, 'Jordyn', '👧')}
       ${row(k, 'Kate', '👩')}
       ${gap != null ? `<div class="bd-gap">${money(Math.abs(gap))} ${gap > 0 ? 'more' : 'less'} under Kate — she drives twice the miles, so running costs land twice as hard.</div>` : ''}
+      ${(j?.npv != null || k?.npv != null) ? '<div class="bd-npv-note">NPV discounts each future dollar back at 5%/yr — later costs count for less, so it runs a little under the nominal total.</div>' : ''}
     </div>`;
 }
 

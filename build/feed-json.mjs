@@ -26,6 +26,37 @@ const POWER_LABEL = {
 
 const round = (n) => (n == null ? null : Math.round(n));
 
+// Discount rate for netPresentValueUsd, mirrored on the page (jordyn.js).
+export const NPV_DISCOUNT_RATE = 0.05;
+
+/**
+ * Net present value of a TCO at NPV_DISCOUNT_RATE. Mirrors the page's npvOfTco
+ * (jordyn.js) EXACTLY, so the machine-readable feed can never disagree with the
+ * NPV the site renders: the upfront purchase + sales tax is undiscounted,
+ * recurring costs are spread evenly over the years and discounted annually, and
+ * the resale credit is discounted back from the end of the window. Later dollars
+ * count for less, so this runs a little under the nominal total. Needs the rich
+ * `items` + `years` object (present in build/jordyn.json for both tco6 and
+ * tco6Kate); returns null when there is nothing to discount.
+ */
+export function npvOfTco(t) {
+  const it = t?.items;
+  const years = t?.years;
+  if (!it || !years) return null;
+  const r = NPV_DISCOUNT_RATE;
+  const upfront = (it.purchase ?? it.valueConsumed ?? 0) + (it.salesTax ?? 0);
+  const recurring = (it.energy ?? 0) + (it.maintenance ?? 0) + (it.insurance ?? 0)
+    + (it.registration ?? 0) + (it.majorRepairReserve ?? 0);
+  const annual = recurring / years;
+  let pv = upfront;
+  for (let y = 1; y <= years; y += 1) pv += annual / ((1 + r) ** y);
+  // resaleValueRecovered is stored NEGATIVE (a credit); flip to a positive
+  // inflow before discounting it back from the end of the window.
+  const resale = it.resaleValueRecovered ? -it.resaleValueRecovered : 0;
+  if (resale) pv -= resale / ((1 + r) ** years);
+  return Math.round(pv);
+}
+
 function powertrainOf(c) {
   const verified = c.powerSource === 'vin' || c.powerSource === 'listing';
   return {
@@ -208,6 +239,9 @@ function tcoOf(t) {
     resaleValueRecovered: round(Math.abs(i.resaleValueRecovered ?? 0)),
     totalCostOfOwnership: round(t.total),
     averagePerMonth: round(t.perMonth),
+    // Same cost stream discounted to today at 5%/yr. On every cost block, so
+    // costToOwnByDriver carries it for BOTH Jordyn and Kate. See the fieldNote.
+    netPresentValueUsd: npvOfTco(t),
   };
 }
 
@@ -391,7 +425,7 @@ export function rosterFeed(data, allCars = null) {
   return {
     feed: {
       name: 'jordyn-first-car',
-      schemaVersion: '1.5',
+      schemaVersion: '1.6',
       generatedAt: new Date().toISOString(),
       rosterUpdated: data.updated || null,
       listingCount: cars.length,
@@ -444,6 +478,7 @@ export function rosterFeed(data, allCars = null) {
       'listing.vehicleHistory': 'From the dealer-supplied CARFAX/AutoCheck summary on the listing. Badges come in affirming/negating pairs, so true AND false are both affirmative statements from the report; null means NEITHER badge was present, i.e. NOT REPORTED. Never read null as the negative. Always pull a full VIN history before buying.',
       'listing.costToOwn': 'totalCostOfOwnership = purchasePrice + salesTax + fuelAndElectricity + maintenance + insurance + registrationAndFees + majorRepairReserve − resaleValueRecovered. Inputs are in costAssumptions. ⚠️ ALWAYS read costedFor and milesPerYear before quoting a total: this block is costed for whoever would actually drive THIS car, so a Mach-E is at Kate\'s 13,520 mi/yr while a Leaf for Jordyn is at 6,760. Comparing one driver\'s total against another\'s is meaningless.',
       'listing.costToOwnByDriver': 'The SAME car costed both ways, so the assignment question ("who should drive this?") can be answered directly. Kate drives exactly double Jordyn (13,520 vs 6,760 mi/yr), so an efficient car saves twice as much parked under her — that ratio is the whole reason the question has an answer. `estimated: true` on the kate block means only the Jordyn-mileage figure existed and was reused; treat it as a floor, not a computed total.',
+      'listing.costToOwn.*.netPresentValueUsd': 'The same cost stream discounted to today at 5%/yr (costAssumptions.npvDiscountRatePctPerYear). Purchase + sales tax are undiscounted; recurring costs are spread evenly across the years and discounted annually; the resale credit is discounted back from the end of the window. It runs a little BELOW totalCostOfOwnership because costs that land late are weighted down — it shows DIRECTION, not added precision. Present on every cost block, so costToOwnByDriver carries it for BOTH Jordyn and Kate, and it matches the NPV shown on the page.',
       'listing.costToOwn.*.insurance': 'This car\'s own premium ONLY. The $2,400/yr to add Jordyn as a driver is a household cost — owed whichever car is bought — and is counted once in highlanderAndPlans, never here. Do not add it to a listing.',
       'listing.repairOutlook': 'ONE framework applied to every powertrain. Each hazard attaches only to components that powertrain actually has — an EV carries no engine, transmission, exhaust or emissions hazard; a plug-in hybrid carries BOTH the engine set and the high-voltage set. expectedReserveUsd is Σ(probability × cost) and is the budget number, already included in costToOwn.*.costs.majorRepairReserve; worstCaseExposure is the single largest plausible bill and is deliberately NOT averaged into it. Probabilities are engineering estimates scaled by age, odometer and ownership length, with stated ranges — not actuarial data. See repairHazardCatalog for each hazard\'s cost range and basis. NOTE: an earlier version of this model charged electric cars a battery allowance and charged gasoline and hybrid cars nothing for major repairs, which biased every cost comparison against EVs; correcting it moved electric cars up roughly 24 ranking places on average.',
       'listing.batteryHealth': 'Capacity loss ONLY. It reduces range and resale value and is deliberately NOT charged as a repair; catastrophic pack failure is a separate hazard in repairOutlook. Projected from pack age, odometer and thermal-management type for Seattle\'s mild climate and mostly overnight AC home charging — the two conditions that most slow degradation. Heat and frequent DC fast charging are the main accelerators and neither is expected here. This is a projection, not a measurement: verify with a real state-of-health readout (LeafSpy or equivalent) before buying.',
@@ -574,6 +609,8 @@ export function rosterFeed(data, allCars = null) {
       highlanderMilesPerYearToday: a.highlanderMilesPerYearToday ?? null,
       horizonYearsJordyn: a.jordynYears ?? null,
       horizonYearsThroughEmma: a.emmaYears ?? null,
+      npvDiscountRatePctPerYear: 5,
+      npvDiscountRateBasis: 'The rate behind every costToOwn.*.netPresentValueUsd. A plain round 5%/yr to show DIRECTION — later dollars count for less — NOT fitted to this household\'s actual cost of capital.',
       gasolineUsdPerGallon: a.gasPerGallon ?? null,
       gasolinePriceBasis: 'Bellevue, WA pump prices',
       premiumGasolineUsdPerGallon: a.premiumPerGallon ?? null,
@@ -754,6 +791,7 @@ export function feedText(feed) {
       L.push(`    purchase ${q.purchasePrice} + tax ${q.salesTax} + fuel ${q.fuelAndElectricity} + maint ${q.maintenance}`);
       L.push(`    + insurance ${q.insurance} + fees ${q.registrationAndFees} + repairs ${q.majorRepairReserve} - resale ${t.resaleValueRecovered}`);
       L.push(`    = $${(t.totalCostOfOwnership || 0).toLocaleString('en-US')} ($${t.averagePerMonth}/mo over ${(t.milesDriven || 0).toLocaleString('en-US')} mi)`);
+      if (t.netPresentValueUsd != null) L.push(`    NPV (5%/yr): $${t.netPresentValueUsd.toLocaleString('en-US')} — same costs discounted to today, later dollars weigh less`);
     }
 
     const ro = c.repairOutlook;

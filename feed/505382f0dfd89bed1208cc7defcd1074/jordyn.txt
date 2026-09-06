@@ -1,6 +1,6 @@
 ==========================================================================
 JORDYN'S FIRST CAR — 162 listings
-roster updated 2026-09-05 · feed generated 2026-09-06T01:07:25.209Z
+roster updated 2026-09-05 · feed generated 2026-09-06T02:20:11.234Z
 ==========================================================================
 
 Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.
@@ -101,10 +101,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13488 + tax 1457 + fuel 1057 + maint 373
     + insurance 3056 + fees 724 + repairs 53 - resale 9622
     = $10,586 ($441/mo over 13,520 mi)
+    NPV (5%/yr): $11,111 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13488 + tax 1457 + fuel 3489 + maint 1118
     + insurance 9168 + fees 2172 + repairs 187 - resale 5463
     = $25,616 ($356/mo over 40,560 mi)
+    NPV (5%/yr): $24,517 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $187 to budget
     worst single bill     $5,915 at ~0% — exposure, not budget
      14% x $  601 = $  82  Suspension, steering or brake overhaul
@@ -153,10 +155,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14999 + tax 1620 + fuel 2545 + maint 714
     + insurance 2864 + fees 456 + repairs 133 - resale 13364
     = $9,967 ($415/mo over 13,520 mi)
+    NPV (5%/yr): $10,738 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14999 + tax 1620 + fuel 7635 + maint 2141
     + insurance 8592 + fees 1368 + repairs 461 - resale 8768
     = $28,048 ($390/mo over 40,560 mi)
+    NPV (5%/yr): $27,162 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $461 to budget
     worst single bill     $4,250 at ~1% — exposure, not budget
      12% x $  935 = $ 112  Suspension, steering or brake overhaul
@@ -200,10 +204,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 16713 + tax 1805 + fuel 2115 + maint 665
     + insurance 3056 + fees 784 + repairs 32 - resale 12906
     = $12,264 ($511/mo over 27,040 mi)
+    NPV (5%/yr): $12,996 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 16713 + tax 1805 + fuel 6979 + maint 1995
     + insurance 9168 + fees 2352 + repairs 138 - resale 6710
     = $32,440 ($451/mo over 81,120 mi)
+    NPV (5%/yr): $30,965 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $114 to budget
     worst single bill     $5,915 at ~0% — exposure, not budget
       9% x $  601 = $  51  Suspension, steering or brake overhaul
@@ -251,10 +257,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 21048 + tax 2273 + fuel 1497 + maint 470
     + insurance 3622 + fees 558 + repairs 127 - resale 18235
     = $11,360 ($473/mo over 13,520 mi)
+    NPV (5%/yr): $12,614 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 21048 + tax 2273 + fuel 4491 + maint 1411
     + insurance 10866 + fees 1674 + repairs 441 - resale 12304
     = $29,900 ($415/mo over 40,560 mi)
+    NPV (5%/yr): $30,114 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $441 to budget
     worst single bill     $4,250 at ~2% — exposure, not budget
       6% x $ 2253 = $ 137  Hybrid traction battery failure
@@ -298,10 +306,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19264 + tax 2081 + fuel 1439 + maint 578
     + insurance 2778 + fees 624 + repairs 263 - resale 17164
     = $9,863 ($411/mo over 13,520 mi)
+    NPV (5%/yr): $11,059 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19264 + tax 2081 + fuel 4459 + maint 1735
     + insurance 8334 + fees 1872 + repairs 924 - resale 11261
     = $27,408 ($381/mo over 40,560 mi)
+    NPV (5%/yr): $27,597 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $924 to budget
     worst single bill     $5,590 at ~3% — exposure, not budget
      21% x $  817 = $ 175  Cooling, fuel or ignition system
@@ -350,10 +360,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 15223 + tax 1644 + fuel 2365 + maint 677
     + insurance 2976 + fees 748 + repairs 65 - resale 11414
     = $12,284 ($512/mo over 27,040 mi)
+    NPV (5%/yr): $12,865 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 15223 + tax 1644 + fuel 7805 + maint 2032
     + insurance 8928 + fees 2244 + repairs 263 - resale 6017
     = $32,122 ($446/mo over 81,120 mi)
+    NPV (5%/yr): $30,372 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $222 to budget
     worst single bill     $5,460 at ~1% — exposure, not budget
      14% x $  554 = $  76  Suspension, steering or brake overhaul
@@ -401,10 +413,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12575 + tax 1358 + fuel 1807 + maint 771
     + insurance 2778 + fees 486 + repairs 400 - resale 9956
     = $10,219 ($426/mo over 13,520 mi)
+    NPV (5%/yr): $10,706 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12575 + tax 1358 + fuel 5421 + maint 2314
     + insurance 8334 + fees 1458 + repairs 1383 - resale 6999
     = $25,844 ($359/mo over 40,560 mi)
+    NPV (5%/yr): $24,707 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,383 to budget
     worst single bill     $4,300 at ~5% — exposure, not budget
      19% x $ 2279 = $ 431  Hybrid traction battery failure
@@ -446,10 +460,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11654 + tax 1259 + fuel 2681 + maint 944
     + insurance 2440 + fees 392 + repairs 257 - resale 9432
     = $10,195 ($425/mo over 13,520 mi)
+    NPV (5%/yr): $10,600 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11654 + tax 1259 + fuel 8042 + maint 2832
     + insurance 7320 + fees 1176 + repairs 898 - resale 6621
     = $26,560 ($369/mo over 40,560 mi)
+    NPV (5%/yr): $25,118 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $898 to budget
     worst single bill     $4,550 at ~3% — exposure, not budget
      22% x $ 1001 = $ 218  Suspension, steering or brake overhaul
@@ -492,10 +508,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 18760 + tax 2026 + fuel 1686 + maint 476
     + insurance 2778 + fees 550 + repairs 170 - resale 16715
     = $9,731 ($405/mo over 13,520 mi)
+    NPV (5%/yr): $10,887 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 18760 + tax 2026 + fuel 5058 + maint 1429
     + insurance 8334 + fees 1650 + repairs 594 - resale 10967
     = $26,884 ($373/mo over 40,560 mi)
+    NPV (5%/yr): $27,038 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $594 to budget
     worst single bill     $3,900 at ~2% — exposure, not budget
       9% x $ 2067 = $ 186  Hybrid traction battery failure
@@ -538,10 +556,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13985 + tax 1510 + fuel 2807 + maint 767
     + insurance 2778 + fees 436 + repairs 185 - resale 12314
     = $10,154 ($423/mo over 13,520 mi)
+    NPV (5%/yr): $10,809 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13985 + tax 1510 + fuel 8421 + maint 2300
     + insurance 8334 + fees 1308 + repairs 645 - resale 8175
     = $28,328 ($393/mo over 40,560 mi)
+    NPV (5%/yr): $27,166 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $645 to budget
     worst single bill     $4,300 at ~2% — exposure, not budget
      17% x $  946 = $ 157  Suspension, steering or brake overhaul
@@ -586,10 +606,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 15000 + tax 1620 + fuel 2115 + maint 735
     + insurance 3056 + fees 756 + repairs 66 - resale 11349
     = $11,999 ($500/mo over 27,040 mi)
+    NPV (5%/yr): $12,581 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 15000 + tax 1620 + fuel 6979 + maint 2206
     + insurance 9168 + fees 2268 + repairs 297 - resale 5914
     = $31,624 ($439/mo over 81,120 mi)
+    NPV (5%/yr): $29,902 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $244 to budget
     worst single bill     $5,915 at ~1% — exposure, not budget
      16% x $  601 = $  96  Suspension, steering or brake overhaul
@@ -640,10 +662,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11800 + tax 1274 + fuel 869 + maint 482
     + insurance 2778 + fees 708 + repairs 198 - resale 9828
     = $8,281 ($345/mo over 13,520 mi)
+    NPV (5%/yr): $8,841 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11800 + tax 1274 + fuel 2870 + maint 1445
     + insurance 8334 + fees 2124 + repairs 691 - resale 5269
     = $23,269 ($323/mo over 40,560 mi)
+    NPV (5%/yr): $22,224 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $691 to budget
     worst single bill     $5,525 at ~4% — exposure, not budget
      36% x $  561 = $ 200  Suspension, steering or brake overhaul
@@ -690,10 +714,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14995 + tax 1619 + fuel 3039 + maint 847
     + insurance 2028 + fees 456 + repairs 226 - resale 12438
     = $10,772 ($449/mo over 13,520 mi)
+    NPV (5%/yr): $11,465 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14995 + tax 1619 + fuel 9118 + maint 2540
     + insurance 6084 + fees 1368 + repairs 781 - resale 8717
     = $27,788 ($386/mo over 40,560 mi)
+    NPV (5%/yr): $26,936 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $781 to budget
     worst single bill     $4,250 at ~2% — exposure, not budget
      20% x $  935 = $ 191  Suspension, steering or brake overhaul
@@ -738,10 +764,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12990 + tax 1403 + fuel 1057 + maint 416
     + insurance 3056 + fees 718 + repairs 76 - resale 9540
     = $10,176 ($424/mo over 13,520 mi)
+    NPV (5%/yr): $10,689 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12990 + tax 1403 + fuel 3489 + maint 1249
     + insurance 9168 + fees 2154 + repairs 310 - resale 5413
     = $25,350 ($352/mo over 40,560 mi)
+    NPV (5%/yr): $24,202 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $310 to budget
     worst single bill     $5,915 at ~1% — exposure, not budget
      20% x $  601 = $ 121  Suspension, steering or brake overhaul
@@ -788,10 +816,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13999 + tax 1512 + fuel 2866 + maint 921
     + insurance 2440 + fees 436 + repairs 249 - resale 11499
     = $10,924 ($455/mo over 13,520 mi)
+    NPV (5%/yr): $11,507 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13999 + tax 1512 + fuel 8598 + maint 2764
     + insurance 7320 + fees 1308 + repairs 863 - resale 8064
     = $28,300 ($393/mo over 40,560 mi)
+    NPV (5%/yr): $27,134 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $863 to budget
     worst single bill     $4,550 at ~2% — exposure, not budget
      21% x $ 1001 = $ 209  Suspension, steering or brake overhaul
@@ -832,10 +862,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12998 + tax 1404 + fuel 2866 + maint 957
     + insurance 2440 + fees 418 + repairs 265 - resale 10427
     = $10,921 ($455/mo over 13,520 mi)
+    NPV (5%/yr): $11,402 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12998 + tax 1404 + fuel 8598 + maint 2871
     + insurance 7320 + fees 1254 + repairs 919 - resale 7324
     = $28,040 ($389/mo over 40,560 mi)
+    NPV (5%/yr): $26,669 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $919 to budget
     worst single bill     $4,550 at ~3% — exposure, not budget
      22% x $ 1001 = $ 223  Suspension, steering or brake overhaul
@@ -876,10 +908,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12777 + tax 1380 + fuel 2840 + maint 1023
     + insurance 1466 + fees 412 + repairs 241 - resale 11384
     = $8,755 ($365/mo over 13,520 mi)
+    NPV (5%/yr): $9,393 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12777 + tax 1380 + fuel 8521 + maint 3070
     + insurance 4398 + fees 1236 + repairs 839 - resale 7469
     = $24,752 ($344/mo over 40,560 mi)
+    NPV (5%/yr): $23,865 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $839 to budget
     worst single bill     $5,900 at ~2% — exposure, not budget
      16% x $ 1298 = $ 205  Suspension, steering or brake overhaul
@@ -920,10 +954,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12477 + tax 1348 + fuel 2766 + maint 895
     + insurance 2670 + fees 404 + repairs 169 - resale 8765
     = $11,964 ($499/mo over 13,520 mi)
+    NPV (5%/yr): $12,294 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12477 + tax 1348 + fuel 8299 + maint 2686
     + insurance 8010 + fees 1212 + repairs 582 - resale 6214
     = $28,400 ($394/mo over 40,560 mi)
+    NPV (5%/yr): $26,774 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $582 to budget
     worst single bill     $4,550 at ~2% — exposure, not budget
      14% x $ 1001 = $ 142  Suspension, steering or brake overhaul
@@ -967,10 +1003,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11205 + tax 1210 + fuel 869 + maint 432
     + insurance 2530 + fees 690 + repairs 104 - resale 8455
     = $8,585 ($358/mo over 13,520 mi)
+    NPV (5%/yr): $9,046 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11205 + tax 1210 + fuel 2870 + maint 1297
     + insurance 7590 + fees 2070 + repairs 443 - resale 4820
     = $21,865 ($304/mo over 40,560 mi)
+    NPV (5%/yr): $20,890 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $443 to budget
     worst single bill     $5,525 at ~2% — exposure, not budget
      25% x $  561 = $ 139  Suspension, steering or brake overhaul
@@ -1020,10 +1058,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12100 + tax 1307 + fuel 1057 + maint 343
     + insurance 3056 + fees 690 + repairs 50 - resale 9500
     = $9,103 ($379/mo over 13,520 mi)
+    NPV (5%/yr): $9,621 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12100 + tax 1307 + fuel 3489 + maint 1028
     + insurance 9168 + fees 2070 + repairs 186 - resale 5116
     = $24,232 ($337/mo over 40,560 mi)
+    NPV (5%/yr): $23,075 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $186 to budget
     worst single bill     $5,915 at ~1% — exposure, not budget
      13% x $  601 = $  76  Suspension, steering or brake overhaul
@@ -1072,10 +1112,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 21198 + tax 2289 + fuel 2156 + maint 812
     + insurance 2820 + fees 650 + repairs 244 - resale 18887
     = $11,282 ($470/mo over 13,520 mi)
+    NPV (5%/yr): $12,568 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 21198 + tax 2289 + fuel 6468 + maint 2436
     + insurance 8460 + fees 1950 + repairs 853 - resale 12392
     = $31,262 ($434/mo over 40,560 mi)
+    NPV (5%/yr): $31,300 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $853 to budget
     worst single bill     $7,050 at ~2% — exposure, not budget
       7% x $ 3737 = $ 265  Hybrid traction battery failure
@@ -1117,10 +1159,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14995 + tax 1619 + fuel 2608 + maint 782
     + insurance 2282 + fees 456 + repairs 196 - resale 13070
     = $9,868 ($411/mo over 13,520 mi)
+    NPV (5%/yr): $10,639 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14995 + tax 1619 + fuel 7823 + maint 2347
     + insurance 6846 + fees 1368 + repairs 673 - resale 8766
     = $26,905 ($374/mo over 40,560 mi)
+    NPV (5%/yr): $26,194 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $673 to budget
     worst single bill     $4,300 at ~2% — exposure, not budget
      17% x $  946 = $ 164  Suspension, steering or brake overhaul
@@ -1165,10 +1209,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 18990 + tax 2051 + fuel 1500 + maint 588
     + insurance 3394 + fees 830 + repairs 106 - resale 15571
     = $11,888 ($495/mo over 13,520 mi)
+    NPV (5%/yr): $12,884 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 18990 + tax 2051 + fuel 4740 + maint 1763
     + insurance 10182 + fees 2490 + repairs 378 - resale 10921
     = $29,673 ($412/mo over 40,560 mi)
+    NPV (5%/yr): $29,432 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $378 to budget
     worst single bill     $7,475 at ~0% — exposure, not budget
       8% x $ 1093 = $  82  Cooling, fuel or ignition system
@@ -1214,10 +1260,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13995 + tax 1511 + fuel 2435 + maint 744
     + insurance 2840 + fees 434 + repairs 98 - resale 11811
     = $10,246 ($427/mo over 13,520 mi)
+    NPV (5%/yr): $10,884 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13995 + tax 1511 + fuel 7304 + maint 2231
     + insurance 8520 + fees 1302 + repairs 341 - resale 8181
     = $27,023 ($375/mo over 40,560 mi)
+    NPV (5%/yr): $26,065 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $341 to budget
     worst single bill     $4,850 at ~1% — exposure, not budget
       8% x $ 1067 = $  82  Suspension, steering or brake overhaul
@@ -1258,10 +1306,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 17968 + tax 1941 + fuel 2875 + maint 991
     + insurance 1466 + fees 514 + repairs 182 - resale 16009
     = $9,928 ($414/mo over 13,520 mi)
+    NPV (5%/yr): $10,993 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 17968 + tax 1941 + fuel 8624 + maint 2972
     + insurance 4398 + fees 1542 + repairs 626 - resale 10504
     = $27,567 ($383/mo over 40,560 mi)
+    NPV (5%/yr): $27,435 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $626 to budget
     worst single bill     $5,900 at ~1% — exposure, not budget
      12% x $ 1298 = $ 152  Suspension, steering or brake overhaul
@@ -1302,10 +1352,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 16990 + tax 1835 + fuel 3011 + maint 659
     + insurance 3172 + fees 492 + repairs 101 - resale 13865
     = $12,395 ($516/mo over 13,520 mi)
+    NPV (5%/yr): $13,161 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 16990 + tax 1835 + fuel 9032 + maint 1978
     + insurance 9516 + fees 1476 + repairs 348 - resale 9728
     = $31,447 ($437/mo over 40,560 mi)
+    NPV (5%/yr): $30,473 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $348 to budget
     worst single bill     $4,300 at ~1% — exposure, not budget
       9% x $  946 = $  85  Suspension, steering or brake overhaul
@@ -1349,10 +1401,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19959 + tax 2156 + fuel 2087 + maint 664
     + insurance 3502 + fees 908 + repairs 56 - resale 14482
     = $14,850 ($619/mo over 27,040 mi)
+    NPV (5%/yr): $15,689 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19959 + tax 2156 + fuel 6887 + maint 1992
     + insurance 10506 + fees 2724 + repairs 220 - resale 7607
     = $36,837 ($512/mo over 81,120 mi)
+    NPV (5%/yr): $35,328 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $183 to budget
     worst single bill     $5,590 at ~0% — exposure, not budget
      12% x $  568 = $  67  Suspension, steering or brake overhaul
@@ -1402,10 +1456,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 18699 + tax 2019 + fuel 1948 + maint 1140
     + insurance 3508 + fees 840 + repairs 172 - resale 14253
     = $14,073 ($586/mo over 27,040 mi)
+    NPV (5%/yr): $14,863 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 18699 + tax 2019 + fuel 6428 + maint 3419
     + insurance 10524 + fees 2520 + repairs 804 - resale 7495
     = $36,918 ($513/mo over 81,120 mi)
+    NPV (5%/yr): $35,170 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $672 to budget
     worst single bill     $9,815 at ~2% — exposure, not budget
      21% x $  997 = $ 212  Suspension, steering or brake overhaul
@@ -1456,10 +1512,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 17189 + tax 1856 + fuel 2045 + maint 984
     + insurance 3194 + fees 786 + repairs 113 - resale 12358
     = $13,809 ($575/mo over 27,040 mi)
+    NPV (5%/yr): $14,457 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 17189 + tax 1856 + fuel 6749 + maint 2953
     + insurance 9582 + fees 2358 + repairs 454 - resale 6482
     = $34,659 ($481/mo over 81,120 mi)
+    NPV (5%/yr): $32,900 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $380 to budget
     worst single bill     $7,670 at ~0% — exposure, not budget
      19% x $  779 = $ 146  Suspension, steering or brake overhaul
@@ -1509,10 +1567,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 17999 + tax 1944 + fuel 1996 + maint 854
     + insurance 3284 + fees 810 + repairs 87 - resale 12609
     = $14,365 ($599/mo over 27,040 mi)
+    NPV (5%/yr): $15,043 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 17999 + tax 1944 + fuel 6589 + maint 2563
     + insurance 9852 + fees 2430 + repairs 343 - resale 6618
     = $35,102 ($488/mo over 81,120 mi)
+    NPV (5%/yr): $33,427 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $283 to budget
     worst single bill     $7,670 at ~0% — exposure, not budget
      13% x $  779 = $ 103  Suspension, steering or brake overhaul
@@ -1561,10 +1621,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 20950 + tax 2263 + fuel 2435 + maint 872
     + insurance 3612 + fees 866 + repairs 71 - resale 15699
     = $15,370 ($640/mo over 27,040 mi)
+    NPV (5%/yr): $16,277 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 20950 + tax 2263 + fuel 8035 + maint 2615
     + insurance 10836 + fees 2598 + repairs 321 - resale 8252
     = $39,366 ($547/mo over 81,120 mi)
+    NPV (5%/yr): $37,701 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $265 to budget
     worst single bill     $9,100 at ~0% — exposure, not budget
      10% x $  924 = $  96  Suspension, steering or brake overhaul
@@ -1614,10 +1676,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 17500 + tax 1890 + fuel 1439 + maint 605
     + insurance 2778 + fees 588 + repairs 290 - resale 15593
     = $9,497 ($396/mo over 13,520 mi)
+    NPV (5%/yr): $10,546 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 17500 + tax 1890 + fuel 4459 + maint 1815
     + insurance 8334 + fees 1764 + repairs 1001 - resale 10230
     = $26,533 ($369/mo over 40,560 mi)
+    NPV (5%/yr): $26,453 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,001 to budget
     worst single bill     $5,590 at ~3% — exposure, not budget
      23% x $  817 = $ 190  Cooling, fuel or ignition system
@@ -1669,10 +1733,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19999 + tax 2160 + fuel 1996 + maint 827
     + insurance 2366 + fees 854 + repairs 67 - resale 17295
     = $10,974 ($457/mo over 27,040 mi)
+    NPV (5%/yr): $12,152 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19999 + tax 2160 + fuel 6589 + maint 2481
     + insurance 7098 + fees 2562 + repairs 280 - resale 9277
     = $31,892 ($443/mo over 81,120 mi)
+    NPV (5%/yr): $31,318 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $228 to budget
     worst single bill     $7,670 at ~0% — exposure, not budget
      11% x $  779 = $  87  Suspension, steering or brake overhaul
@@ -1722,10 +1788,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 16577 + tax 1790 + fuel 1289 + maint 653
     + insurance 2778 + fees 506 + repairs 370 - resale 15509
     = $8,454 ($352/mo over 13,520 mi)
+    NPV (5%/yr): $9,503 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 16577 + tax 1790 + fuel 3986 + maint 1958
     + insurance 8334 + fees 1518 + repairs 1282 - resale 10175
     = $25,270 ($351/mo over 40,560 mi)
+    NPV (5%/yr): $25,221 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,282 to budget
     worst single bill     $5,200 at ~4% — exposure, not budget
      32% x $  760 = $ 243  Cooling, fuel or ignition system
@@ -1774,10 +1842,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 21706 + tax 2344 + fuel 2393 + maint 645
     + insurance 3696 + fees 942 + repairs 43 - resale 15462
     = $16,307 ($679/mo over 27,040 mi)
+    NPV (5%/yr): $17,202 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 21706 + tax 2344 + fuel 7897 + maint 1934
     + insurance 11088 + fees 2826 + repairs 174 - resale 8141
     = $39,828 ($553/mo over 81,120 mi)
+    NPV (5%/yr): $38,209 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $140 to budget
     worst single bill     $5,915 at ~0% — exposure, not budget
       9% x $  601 = $  55  Suspension, steering or brake overhaul
@@ -1825,10 +1895,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 18999 + tax 2052 + fuel 1633 + maint 676
     + insurance 2778 + fees 556 + repairs 355 - resale 17427
     = $9,622 ($401/mo over 13,520 mi)
+    NPV (5%/yr): $10,821 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 18999 + tax 2052 + fuel 4899 + maint 2029
     + insurance 8334 + fees 1668 + repairs 1234 - resale 11662
     = $27,553 ($383/mo over 40,560 mi)
+    NPV (5%/yr): $27,714 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,234 to budget
     worst single bill     $4,000 at ~5% — exposure, not budget
      18% x $ 2120 = $ 386  Hybrid traction battery failure
@@ -1870,10 +1942,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 17900 + tax 1933 + fuel 2681 + maint 675
     + insurance 3272 + fees 506 + repairs 52 - resale 15481
     = $11,538 ($481/mo over 13,520 mi)
+    NPV (5%/yr): $12,472 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 17900 + tax 1933 + fuel 8042 + maint 2026
     + insurance 9816 + fees 1518 + repairs 186 - resale 10464
     = $30,957 ($430/mo over 40,560 mi)
+    NPV (5%/yr): $30,287 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $186 to budget
     worst single bill     $4,550 at ~1% — exposure, not budget
       5% x $ 1001 = $  45  Suspension, steering or brake overhaul
@@ -1914,10 +1988,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 15995 + tax 1727 + fuel 3643 + maint 1042
     + insurance 2176 + fees 536 + repairs 247 - resale 14152
     = $11,214 ($467/mo over 13,520 mi)
+    NPV (5%/yr): $11,992 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 15995 + tax 1727 + fuel 10928 + maint 3125
     + insurance 6528 + fees 1608 + repairs 875 - resale 9350
     = $31,436 ($437/mo over 40,560 mi)
+    NPV (5%/yr): $30,256 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $875 to budget
     worst single bill     $5,900 at ~2% — exposure, not budget
      16% x $ 1298 = $ 212  Suspension, steering or brake overhaul
@@ -1961,10 +2037,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 20998 + tax 2268 + fuel 1948 + maint 1192
     + insurance 3508 + fees 874 + repairs 173 - resale 14751
     = $16,210 ($675/mo over 27,040 mi)
+    NPV (5%/yr): $17,040 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 20998 + tax 2268 + fuel 6428 + maint 3575
     + insurance 10524 + fees 2622 + repairs 782 - resale 7766
     = $39,431 ($548/mo over 81,120 mi)
+    NPV (5%/yr): $37,715 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $644 to budget
     worst single bill     $9,815 at ~1% — exposure, not budget
      21% x $  997 = $ 213  Suspension, steering or brake overhaul
@@ -2013,10 +2091,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 16988 + tax 1835 + fuel 2435 + maint 1254
     + insurance 3172 + fees 790 + repairs 201 - resale 10217
     = $16,458 ($686/mo over 27,040 mi)
+    NPV (5%/yr): $16,856 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 16988 + tax 1835 + fuel 8035 + maint 3761
     + insurance 9516 + fees 2370 + repairs 776 - resale 5495
     = $37,786 ($525/mo over 81,120 mi)
+    NPV (5%/yr): $35,413 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $646 to budget
     worst single bill     $9,100 at ~2% — exposure, not budget
      20% x $  924 = $ 188  Suspension, steering or brake overhaul
@@ -2065,10 +2145,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 15897 + tax 1717 + fuel 2741 + maint 1417
     + insurance 2524 + fees 822 + repairs 277 - resale 9507
     = $15,888 ($662/mo over 27,040 mi)
+    NPV (5%/yr): $16,225 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 15897 + tax 1717 + fuel 9045 + maint 4250
     + insurance 7572 + fees 2466 + repairs 1054 - resale 5098
     = $36,903 ($513/mo over 81,120 mi)
+    NPV (5%/yr): $34,440 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $882 to budget
     worst single bill     $9,100 at ~3% — exposure, not budget
       3% x $ 9100 = $ 255  Traction battery catastrophic failure (not degradation)
@@ -2119,10 +2201,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19900 + tax 2149 + fuel 2198 + maint 775
     + insurance 3494 + fees 908 + repairs 42 - resale 15125
     = $14,341 ($598/mo over 27,040 mi)
+    NPV (5%/yr): $15,226 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19900 + tax 2149 + fuel 7254 + maint 2326
     + insurance 10482 + fees 2724 + repairs 172 - resale 7975
     = $37,032 ($514/mo over 81,120 mi)
+    NPV (5%/yr): $35,519 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $147 to budget
     worst single bill     $7,995 at ~0% — exposure, not budget
       7% x $  812 = $  56  Suspension, steering or brake overhaul
@@ -2171,10 +2255,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 21495 + tax 2321 + fuel 2741 + maint 1176
     + insurance 2524 + fees 926 + repairs 156 - resale 13897
     = $17,442 ($727/mo over 27,040 mi)
+    NPV (5%/yr): $18,205 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 21495 + tax 2321 + fuel 9045 + maint 3528
     + insurance 7572 + fees 2778 + repairs 707 - resale 7281
     = $40,165 ($558/mo over 81,120 mi)
+    NPV (5%/yr): $38,373 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $583 to budget
     worst single bill     $9,100 at ~1% — exposure, not budget
      21% x $  924 = $ 192  Suspension, steering or brake overhaul
@@ -2224,10 +2310,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 18800 + tax 2030 + fuel 2393 + maint 711
     + insurance 3372 + fees 886 + repairs 64 - resale 13351
     = $14,905 ($621/mo over 27,040 mi)
+    NPV (5%/yr): $15,624 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 18800 + tax 2030 + fuel 7897 + maint 2133
     + insurance 10116 + fees 2658 + repairs 247 - resale 7030
     = $36,851 ($512/mo over 81,120 mi)
+    NPV (5%/yr): $35,084 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $211 to budget
     worst single bill     $5,915 at ~0% — exposure, not budget
      13% x $  601 = $  76  Suspension, steering or brake overhaul
@@ -2279,10 +2367,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 18790 + tax 2029 + fuel 1996 + maint 827
     + insurance 2366 + fees 830 + repairs 84 - resale 15996
     = $10,926 ($455/mo over 27,040 mi)
+    NPV (5%/yr): $11,984 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 18790 + tax 2029 + fuel 6589 + maint 2481
     + insurance 7098 + fees 2490 + repairs 347 - resale 8420
     = $31,404 ($436/mo over 81,120 mi)
+    NPV (5%/yr): $30,613 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $291 to budget
     worst single bill     $7,670 at ~0% — exposure, not budget
      14% x $  779 = $ 109  Suspension, steering or brake overhaul
@@ -2332,10 +2422,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19988 + tax 2159 + fuel 2365 + maint 964
     + insurance 3504 + fees 838 + repairs 109 - resale 15436
     = $14,491 ($604/mo over 27,040 mi)
+    NPV (5%/yr): $15,379 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19988 + tax 2159 + fuel 7805 + maint 2891
     + insurance 10512 + fees 2514 + repairs 437 - resale 8119
     = $38,187 ($530/mo over 81,120 mi)
+    NPV (5%/yr): $36,526 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $363 to budget
     worst single bill     $10,075 at ~1% — exposure, not budget
      12% x $ 1023 = $ 127  Suspension, steering or brake overhaul
@@ -2385,10 +2477,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 6984 + tax 754 + fuel 1057 + maint 529
     + insurance 3056 + fees 610 + repairs 193 - resale 5008
     = $8,175 ($341/mo over 13,520 mi)
+    NPV (5%/yr): $8,258 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 6984 + tax 754 + fuel 3489 + maint 1588
     + insurance 9168 + fees 1830 + repairs 663 - resale 2830
     = $21,646 ($301/mo over 40,560 mi)
+    NPV (5%/yr): $19,786 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $663 to budget
     worst single bill     $5,915 at ~4% — exposure, not budget
      37% x $  601 = $ 223  Suspension, steering or brake overhaul
@@ -2435,10 +2529,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11999 + tax 1296 + fuel 2435 + maint 839
     + insurance 2618 + fees 388 + repairs 184 - resale 10191
     = $9,568 ($399/mo over 13,520 mi)
+    NPV (5%/yr): $10,061 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11999 + tax 1296 + fuel 7304 + maint 2516
     + insurance 7854 + fees 1164 + repairs 636 - resale 7014
     = $25,755 ($358/mo over 40,560 mi)
+    NPV (5%/yr): $24,535 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $636 to budget
     worst single bill     $4,850 at ~2% — exposure, not budget
      14% x $ 1067 = $ 155  Suspension, steering or brake overhaul
@@ -2479,10 +2575,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13638 + tax 1473 + fuel 2688 + maint 833
     + insurance 2800 + fees 446 + repairs 244 - resale 12151
     = $9,971 ($415/mo over 13,520 mi)
+    NPV (5%/yr): $10,608 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13638 + tax 1473 + fuel 8065 + maint 2499
     + insurance 8400 + fees 1338 + repairs 854 - resale 7973
     = $28,294 ($393/mo over 40,560 mi)
+    NPV (5%/yr): $27,058 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $854 to budget
     worst single bill     $4,300 at ~3% — exposure, not budget
      22% x $  946 = $ 208  Suspension, steering or brake overhaul
@@ -2527,10 +2625,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 27490 + tax 2969 + fuel 974 + maint 501
     + insurance 3508 + fees 1018 + repairs 72 - resale 22303
     = $14,229 ($593/mo over 13,520 mi)
+    NPV (5%/yr): $15,876 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 27490 + tax 2969 + fuel 3214 + maint 1504
     + insurance 10524 + fees 3054 + repairs 317 - resale 11962
     = $37,110 ($515/mo over 40,560 mi)
+    NPV (5%/yr): $37,278 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $317 to budget
     worst single bill     $9,815 at ~1% — exposure, not budget
      10% x $  997 = $ 101  Suspension, steering or brake overhaul
@@ -2580,10 +2680,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 18658 + tax 2015 + fuel 1913 + maint 640
     + insurance 3358 + fees 882 + repairs 42 - resale 14224
     = $13,284 ($554/mo over 27,040 mi)
+    NPV (5%/yr): $14,126 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 18658 + tax 2015 + fuel 6313 + maint 1919
     + insurance 10074 + fees 2646 + repairs 177 - resale 7501
     = $34,301 ($476/mo over 81,120 mi)
+    NPV (5%/yr): $32,950 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $148 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
      10% x $  561 = $  54  Suspension, steering or brake overhaul
@@ -2631,10 +2733,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13975 + tax 1509 + fuel 2140 + maint 797
     + insurance 2838 + fees 454 + repairs 463 - resale 11196
     = $10,980 ($458/mo over 13,520 mi)
+    NPV (5%/yr): $11,550 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13975 + tax 1509 + fuel 6420 + maint 2392
     + insurance 8514 + fees 1362 + repairs 1610 - resale 7890
     = $27,892 ($387/mo over 40,560 mi)
+    NPV (5%/yr): $26,767 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,610 to budget
     worst single bill     $4,000 at ~6% — exposure, not budget
      24% x $ 2120 = $ 502  Hybrid traction battery failure
@@ -2677,10 +2781,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 8900 + tax 961 + fuel 2094 + maint 1152
     + insurance 3402 + fees 348 + repairs 528 - resale 7172
     = $10,213 ($426/mo over 13,520 mi)
+    NPV (5%/yr): $10,351 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 8900 + tax 961 + fuel 6283 + maint 3457
     + insurance 10206 + fees 1044 + repairs 1831 - resale 5036
     = $27,646 ($384/mo over 40,560 mi)
+    NPV (5%/yr): $25,408 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,831 to budget
     worst single bill     $7,050 at ~4% — exposure, not budget
      15% x $ 3737 = $ 572  Hybrid traction battery failure
@@ -2725,10 +2831,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 27400 + tax 2959 + fuel 1043 + maint 302
     + insurance 4328 + fees 1048 + repairs 19 - resale 22009
     = $15,090 ($629/mo over 13,520 mi)
+    NPV (5%/yr): $16,662 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 27400 + tax 2959 + fuel 3443 + maint 907
     + insurance 12984 + fees 3144 + repairs 69 - resale 12160
     = $38,746 ($538/mo over 40,560 mi)
+    NPV (5%/yr): $38,667 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $69 to budget
     worst single bill     $5,590 at ~0% — exposure, not budget
       5% x $  568 = $  26  Suspension, steering or brake overhaul
@@ -2775,10 +2883,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12999 + tax 1404 + fuel 1702 + maint 698
     + insurance 3360 + fees 418 + repairs 273 - resale 9282
     = $11,572 ($482/mo over 13,520 mi)
+    NPV (5%/yr): $11,981 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12999 + tax 1404 + fuel 5107 + maint 2095
     + insurance 10080 + fees 1254 + repairs 954 - resale 6572
     = $27,321 ($379/mo over 40,560 mi)
+    NPV (5%/yr): $25,986 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $954 to budget
     worst single bill     $4,250 at ~3% — exposure, not budget
      13% x $ 2253 = $ 297  Hybrid traction battery failure
@@ -2820,10 +2930,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14638 + tax 1581 + fuel 1807 + maint 732
     + insurance 2778 + fees 508 + repairs 293 - resale 10134
     = $12,203 ($508/mo over 13,520 mi)
+    NPV (5%/yr): $12,715 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14638 + tax 1581 + fuel 5421 + maint 2196
     + insurance 8334 + fees 1524 + repairs 1018 - resale 7193
     = $27,519 ($382/mo over 40,560 mi)
+    NPV (5%/yr): $26,496 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,018 to budget
     worst single bill     $4,300 at ~4% — exposure, not budget
      14% x $ 2279 = $ 317  Hybrid traction battery failure
@@ -2868,10 +2980,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 20195 + tax 2181 + fuel 2045 + maint 812
     + insurance 3528 + fees 842 + repairs 79 - resale 16226
     = $13,456 ($561/mo over 27,040 mi)
+    NPV (5%/yr): $14,451 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 20195 + tax 2181 + fuel 6749 + maint 2436
     + insurance 10584 + fees 2526 + repairs 320 - resale 8555
     = $36,436 ($506/mo over 81,120 mi)
+    NPV (5%/yr): $35,123 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $267 to budget
     worst single bill     $7,670 at ~0% — exposure, not budget
      13% x $  779 = $ 103  Suspension, steering or brake overhaul
@@ -2920,10 +3034,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19744 + tax 2132 + fuel 2365 + maint 950
     + insurance 3478 + fees 844 + repairs 127 - resale 11874
     = $17,766 ($740/mo over 27,040 mi)
+    NPV (5%/yr): $18,324 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19744 + tax 2132 + fuel 7805 + maint 2849
     + insurance 10434 + fees 2532 + repairs 491 - resale 6368
     = $39,619 ($550/mo over 81,120 mi)
+    NPV (5%/yr): $37,521 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $406 to budget
     worst single bill     $5,200 at ~2% — exposure, not budget
      23% x $  528 = $ 119  Suspension, steering or brake overhaul
@@ -2971,10 +3087,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13995 + tax 1511 + fuel 3496 + maint 786
     + insurance 2840 + fees 512 + repairs 223 - resale 12470
     = $10,893 ($454/mo over 13,520 mi)
+    NPV (5%/yr): $11,500 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13995 + tax 1511 + fuel 10487 + maint 2358
     + insurance 8520 + fees 1536 + repairs 771 - resale 8181
     = $30,997 ($431/mo over 40,560 mi)
+    NPV (5%/yr): $29,427 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $771 to budget
     worst single bill     $4,250 at ~2% — exposure, not budget
      20% x $  935 = $ 187  Suspension, steering or brake overhaul
@@ -3016,10 +3134,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19338 + tax 2089 + fuel 3713 + maint 966
     + insurance 2238 + fees 540 + repairs 173 - resale 17230
     = $11,827 ($493/mo over 13,520 mi)
+    NPV (5%/yr): $12,893 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19338 + tax 2089 + fuel 11140 + maint 2897
     + insurance 6714 + fees 1620 + repairs 585 - resale 11305
     = $33,078 ($459/mo over 40,560 mi)
+    NPV (5%/yr): $32,411 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $585 to budget
     worst single bill     $5,750 at ~1% — exposure, not budget
      11% x $ 1265 = $ 143  Suspension, steering or brake overhaul
@@ -3065,10 +3185,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 24942 + tax 2694 + fuel 1739 + maint 620
     + insurance 4054 + fees 946 + repairs 34 - resale 18553
     = $16,476 ($687/mo over 27,040 mi)
+    NPV (5%/yr): $17,681 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 24942 + tax 2694 + fuel 5739 + maint 1860
     + insurance 12162 + fees 2838 + repairs 132 - resale 9751
     = $40,616 ($564/mo over 81,120 mi)
+    NPV (5%/yr): $39,589 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $111 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
       8% x $  561 = $  43  Suspension, steering or brake overhaul
@@ -3118,10 +3240,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 16960 + tax 1832 + fuel 2045 + maint 915
     + insurance 3168 + fees 790 + repairs 95 - resale 11381
     = $14,424 ($601/mo over 27,040 mi)
+    NPV (5%/yr): $14,989 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 16960 + tax 1832 + fuel 6749 + maint 2745
     + insurance 9504 + fees 2370 + repairs 381 - resale 5985
     = $34,556 ($480/mo over 81,120 mi)
+    NPV (5%/yr): $32,724 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $315 to budget
     worst single bill     $7,670 at ~0% — exposure, not budget
      15% x $  779 = $ 115  Suspension, steering or brake overhaul
@@ -3169,10 +3293,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 15991 + tax 1727 + fuel 3787 + maint 1037
     + insurance 3062 + fees 464 + repairs 226 - resale 13746
     = $12,548 ($523/mo over 13,520 mi)
+    NPV (5%/yr): $13,223 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 15991 + tax 1727 + fuel 11361 + maint 3112
     + insurance 9186 + fees 1392 + repairs 772 - resale 9348
     = $34,193 ($475/mo over 40,560 mi)
+    NPV (5%/yr): $32,587 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $772 to budget
     worst single bill     $6,150 at ~2% — exposure, not budget
      14% x $ 1353 = $ 187  Suspension, steering or brake overhaul
@@ -3213,10 +3339,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11990 + tax 1295 + fuel 3445 + maint 861
     + insurance 2366 + fees 398 + repairs 230 - resale 9917
     = $10,668 ($445/mo over 13,520 mi)
+    NPV (5%/yr): $11,077 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11990 + tax 1295 + fuel 10336 + maint 2582
     + insurance 7098 + fees 1194 + repairs 796 - resale 6952
     = $28,339 ($394/mo over 40,560 mi)
+    NPV (5%/yr): $26,713 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $796 to budget
     worst single bill     $4,300 at ~2% — exposure, not budget
      21% x $  946 = $ 194  Suspension, steering or brake overhaul
@@ -3259,10 +3387,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 21490 + tax 2321 + fuel 2741 + maint 1121
     + insurance 2524 + fees 942 + repairs 159 - resale 15184
     = $16,114 ($671/mo over 27,040 mi)
+    NPV (5%/yr): $16,999 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 21490 + tax 2321 + fuel 9045 + maint 3364
     + insurance 7572 + fees 2826 + repairs 716 - resale 7994
     = $39,340 ($546/mo over 81,120 mi)
+    NPV (5%/yr): $37,745 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $588 to budget
     worst single bill     $9,100 at ~1% — exposure, not budget
      21% x $  924 = $ 195  Suspension, steering or brake overhaul
@@ -3314,10 +3444,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19791 + tax 2137 + fuel 1739 + maint 942
     + insurance 3482 + fees 844 + repairs 129 - resale 11903
     = $17,161 ($715/mo over 27,040 mi)
+    NPV (5%/yr): $17,766 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19791 + tax 2137 + fuel 5739 + maint 2827
     + insurance 10446 + fees 2532 + repairs 490 - resale 6383
     = $37,579 ($522/mo over 81,120 mi)
+    NPV (5%/yr): $35,805 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $408 to budget
     worst single bill     $5,525 at ~2% — exposure, not budget
      21% x $  561 = $ 119  Suspension, steering or brake overhaul
@@ -3366,10 +3498,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 21000 + tax 2268 + fuel 2741 + maint 1170
     + insurance 2524 + fees 934 + repairs 170 - resale 14427
     = $16,380 ($683/mo over 27,040 mi)
+    NPV (5%/yr): $17,191 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 21000 + tax 2268 + fuel 9045 + maint 3511
     + insurance 7572 + fees 2802 + repairs 768 - resale 7570
     = $39,396 ($547/mo over 81,120 mi)
+    NPV (5%/yr): $37,666 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $633 to budget
     worst single bill     $9,100 at ~1% — exposure, not budget
      23% x $  924 = $ 210  Suspension, steering or brake overhaul
@@ -3420,10 +3554,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 21978 + tax 2374 + fuel 2087 + maint 678
     + insurance 3726 + fees 886 + repairs 61 - resale 15682
     = $16,108 ($671/mo over 27,040 mi)
+    NPV (5%/yr): $17,043 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 21978 + tax 2374 + fuel 6887 + maint 2034
     + insurance 11178 + fees 2658 + repairs 229 - resale 8258
     = $39,080 ($543/mo over 81,120 mi)
+    NPV (5%/yr): $37,635 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $193 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
      12% x $  561 = $  70  Suspension, steering or brake overhaul
@@ -3473,10 +3609,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 22799 + tax 2462 + fuel 2017 + maint 644
     + insurance 3816 + fees 962 + repairs 48 - resale 16953
     = $15,795 ($658/mo over 27,040 mi)
+    NPV (5%/yr): $16,845 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 22799 + tax 2462 + fuel 6657 + maint 1932
     + insurance 11448 + fees 2886 + repairs 202 - resale 8910
     = $39,476 ($548/mo over 81,120 mi)
+    NPV (5%/yr): $38,175 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $167 to budget
     worst single bill     $5,590 at ~0% — exposure, not budget
      11% x $  568 = $  61  Suspension, steering or brake overhaul
@@ -3525,10 +3663,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14695 + tax 1587 + fuel 1231 + maint 724
     + insurance 2918 + fees 770 + repairs 423 - resale 11291
     = $11,057 ($461/mo over 13,520 mi)
+    NPV (5%/yr): $11,680 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14695 + tax 1587 + fuel 3969 + maint 2173
     + insurance 8754 + fees 2310 + repairs 1464 - resale 7954
     = $26,998 ($375/mo over 40,560 mi)
+    NPV (5%/yr): $26,140 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,464 to budget
     worst single bill     $5,070 at ~4% — exposure, not budget
      38% x $  741 = $ 278  Cooling, fuel or ignition system
@@ -3578,10 +3718,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 27998 + tax 3024 + fuel 998 + maint 360
     + insurance 4394 + fees 988 + repairs 19 - resale 21746
     = $16,035 ($668/mo over 13,520 mi)
+    NPV (5%/yr): $17,582 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 27998 + tax 3024 + fuel 3294 + maint 1079
     + insurance 13182 + fees 2964 + repairs 74 - resale 12460
     = $39,155 ($544/mo over 40,560 mi)
+    NPV (5%/yr): $39,145 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $74 to budget
     worst single bill     $7,670 at ~0% — exposure, not budget
       3% x $  779 = $  26  Suspension, steering or brake overhaul
@@ -3632,10 +3774,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 23477 + tax 2536 + fuel 2087 + maint 620
     + insurance 3892 + fees 918 + repairs 28 - resale 17698
     = $15,860 ($661/mo over 27,040 mi)
+    NPV (5%/yr): $16,975 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 23477 + tax 2536 + fuel 6887 + maint 1860
     + insurance 11676 + fees 2754 + repairs 125 - resale 9304
     = $40,011 ($556/mo over 81,120 mi)
+    NPV (5%/yr): $38,783 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $104 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
       7% x $  561 = $  40  Suspension, steering or brake overhaul
@@ -3686,10 +3830,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 23575 + tax 2546 + fuel 2087 + maint 620
     + insurance 3902 + fees 918 + repairs 34 - resale 17450
     = $16,232 ($676/mo over 27,040 mi)
+    NPV (5%/yr): $17,323 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 23575 + tax 2546 + fuel 6887 + maint 1860
     + insurance 11706 + fees 2754 + repairs 136 - resale 9170
     = $40,294 ($560/mo over 81,120 mi)
+    NPV (5%/yr): $39,025 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $114 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
       8% x $  561 = $  44  Suspension, steering or brake overhaul
@@ -3740,10 +3886,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 24500 + tax 2646 + fuel 2087 + maint 640
     + insurance 4006 + fees 936 + repairs 37 - resale 19126
     = $15,726 ($655/mo over 27,040 mi)
+    NPV (5%/yr): $16,962 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 24500 + tax 2646 + fuel 6887 + maint 1919
     + insurance 12018 + fees 2808 + repairs 161 - resale 10061
     = $40,878 ($568/mo over 81,120 mi)
+    NPV (5%/yr): $39,766 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $136 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
       9% x $  561 = $  48  Suspension, steering or brake overhaul
@@ -3794,10 +3942,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 23777 + tax 2568 + fuel 2087 + maint 620
     + insurance 3926 + fees 924 + repairs 34 - resale 17648
     = $16,288 ($679/mo over 27,040 mi)
+    NPV (5%/yr): $17,395 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 23777 + tax 2568 + fuel 6887 + maint 1860
     + insurance 11778 + fees 2772 + repairs 135 - resale 9275
     = $40,502 ($563/mo over 81,120 mi)
+    NPV (5%/yr): $39,246 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $111 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
       8% x $  561 = $  43  Suspension, steering or brake overhaul
@@ -3848,10 +3998,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 22712 + tax 2453 + fuel 2087 + maint 637
     + insurance 3808 + fees 902 + repairs 42 - resale 15894
     = $16,747 ($698/mo over 27,040 mi)
+    NPV (5%/yr): $17,699 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 22712 + tax 2453 + fuel 6887 + maint 1910
     + insurance 11424 + fees 2706 + repairs 173 - resale 8342
     = $39,923 ($554/mo over 81,120 mi)
+    NPV (5%/yr): $38,481 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $143 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
      10% x $  561 = $  55  Suspension, steering or brake overhaul
@@ -3898,10 +4050,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11195 + tax 1209 + fuel 3372 + maint 1386
     + insurance 2176 + fees 442 + repairs 413 - resale 8308
     = $11,885 ($495/mo over 13,520 mi)
+    NPV (5%/yr): $12,110 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11195 + tax 1209 + fuel 10117 + maint 4159
     + insurance 6528 + fees 1326 + repairs 1429 - resale 5866
     = $30,097 ($418/mo over 40,560 mi)
+    NPV (5%/yr): $27,956 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,429 to budget
     worst single bill     $5,900 at ~3% — exposure, not budget
      27% x $ 1298 = $ 347  Suspension, steering or brake overhaul
@@ -3942,10 +4096,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12638 + tax 1365 + fuel 3433 + maint 1508
     + insurance 2688 + fees 406 + repairs 373 - resale 8394
     = $14,017 ($584/mo over 13,520 mi)
+    NPV (5%/yr): $14,206 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12638 + tax 1365 + fuel 10299 + maint 4525
     + insurance 8064 + fees 1218 + repairs 1294 - resale 5507
     = $33,896 ($471/mo over 40,560 mi)
+    NPV (5%/yr): $31,381 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,294 to budget
     worst single bill     $5,900 at ~3% — exposure, not budget
      24% x $ 1298 = $ 314  Suspension, steering or brake overhaul
@@ -3990,10 +4146,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 24700 + tax 2668 + fuel 2087 + maint 620
     + insurance 4028 + fees 942 + repairs 27 - resale 19059
     = $16,013 ($667/mo over 27,040 mi)
+    NPV (5%/yr): $17,243 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 24700 + tax 2668 + fuel 6887 + maint 1860
     + insurance 12084 + fees 2826 + repairs 110 - resale 10052
     = $41,083 ($571/mo over 81,120 mi)
+    NPV (5%/yr): $39,973 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $93 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
       6% x $  561 = $  35  Suspension, steering or brake overhaul
@@ -4044,10 +4202,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 23777 + tax 2568 + fuel 2087 + maint 651
     + insurance 3926 + fees 920 + repairs 54 - resale 17365
     = $16,618 ($692/mo over 27,040 mi)
+    NPV (5%/yr): $17,696 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 23777 + tax 2568 + fuel 6887 + maint 1953
     + insurance 11778 + fees 2760 + repairs 213 - resale 9123
     = $40,813 ($567/mo over 81,120 mi)
+    NPV (5%/yr): $39,494 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $177 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
      12% x $  561 = $  65  Suspension, steering or brake overhaul
@@ -4098,10 +4258,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 24336 + tax 2628 + fuel 2087 + maint 620
     + insurance 3988 + fees 934 + repairs 34 - resale 18267
     = $16,360 ($682/mo over 27,040 mi)
+    NPV (5%/yr): $17,520 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 24336 + tax 2628 + fuel 6887 + maint 1860
     + insurance 11964 + fees 2802 + repairs 128 - resale 9602
     = $41,003 ($569/mo over 81,120 mi)
+    NPV (5%/yr): $39,798 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $108 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
       7% x $  561 = $  41  Suspension, steering or brake overhaul
@@ -4152,10 +4314,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 23950 + tax 2587 + fuel 2087 + maint 620
     + insurance 3944 + fees 926 + repairs 37 - resale 17264
     = $16,887 ($704/mo over 27,040 mi)
+    NPV (5%/yr): $17,957 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 23950 + tax 2587 + fuel 6887 + maint 1860
     + insurance 11832 + fees 2778 + repairs 156 - resale 9093
     = $40,957 ($569/mo over 81,120 mi)
+    NPV (5%/yr): $39,642 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $126 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
       9% x $  561 = $  49  Suspension, steering or brake overhaul
@@ -4204,10 +4368,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 23995 + tax 2591 + fuel 2741 + maint 1017
     + insurance 2524 + fees 984 + repairs 113 - resale 16214
     = $17,751 ($740/mo over 27,040 mi)
+    NPV (5%/yr): $18,740 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 23995 + tax 2591 + fuel 9045 + maint 3052
     + insurance 7572 + fees 2952 + repairs 447 - resale 8504
     = $41,150 ($572/mo over 81,120 mi)
+    NPV (5%/yr): $39,755 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $369 to budget
     worst single bill     $9,100 at ~0% — exposure, not budget
      15% x $  924 = $ 136  Suspension, steering or brake overhaul
@@ -4254,10 +4420,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13999 + tax 1512 + fuel 3728 + maint 1367
     + insurance 2514 + fees 436 + repairs 408 - resale 10292
     = $13,672 ($570/mo over 13,520 mi)
+    NPV (5%/yr): $14,035 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13999 + tax 1512 + fuel 11184 + maint 4102
     + insurance 7542 + fees 1308 + repairs 1413 - resale 7273
     = $33,787 ($469/mo over 40,560 mi)
+    NPV (5%/yr): $31,697 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,413 to budget
     worst single bill     $5,750 at ~3% — exposure, not budget
      27% x $ 1265 = $ 344  Suspension, steering or brake overhaul
@@ -4302,10 +4470,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 16997 + tax 1836 + fuel 2198 + maint 964
     + insurance 3054 + fees 856 + repairs 127 - resale 12524
     = $13,508 ($563/mo over 27,040 mi)
+    NPV (5%/yr): $14,166 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 16997 + tax 1836 + fuel 7254 + maint 2893
     + insurance 9162 + fees 2568 + repairs 556 - resale 6581
     = $34,685 ($482/mo over 81,120 mi)
+    NPV (5%/yr): $32,899 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $466 to budget
     worst single bill     $7,995 at ~1% — exposure, not budget
      19% x $  812 = $ 153  Suspension, steering or brake overhaul
@@ -4355,10 +4525,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 20900 + tax 2257 + fuel 2017 + maint 788
     + insurance 3606 + fees 928 + repairs 66 - resale 12856
     = $17,706 ($738/mo over 27,040 mi)
+    NPV (5%/yr): $18,381 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 20900 + tax 2257 + fuel 6657 + maint 2365
     + insurance 10818 + fees 2784 + repairs 271 - resale 6799
     = $39,253 ($545/mo over 81,120 mi)
+    NPV (5%/yr): $37,451 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $228 to budget
     worst single bill     $5,590 at ~1% — exposure, not budget
      14% x $  568 = $  78  Suspension, steering or brake overhaul
@@ -4405,10 +4577,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14973 + tax 1617 + fuel 3372 + maint 1148
     + insurance 2884 + fees 526 + repairs 323 - resale 13249
     = $11,594 ($483/mo over 13,520 mi)
+    NPV (5%/yr): $12,246 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14973 + tax 1617 + fuel 10117 + maint 3445
     + insurance 8652 + fees 1578 + repairs 1121 - resale 8753
     = $32,750 ($455/mo over 40,560 mi)
+    NPV (5%/yr): $31,133 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,121 to budget
     worst single bill     $5,900 at ~2% — exposure, not budget
      21% x $ 1298 = $ 273  Suspension, steering or brake overhaul
@@ -4453,10 +4627,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 20986 + tax 2266 + fuel 2365 + maint 1580
     + insurance 3858 + fees 900 + repairs 448 - resale 13924
     = $18,479 ($770/mo over 27,040 mi)
+    NPV (5%/yr): $19,130 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 20986 + tax 2266 + fuel 7805 + maint 4741
     + insurance 11574 + fees 2700 + repairs 1743 - resale 7300
     = $44,515 ($618/mo over 81,120 mi)
+    NPV (5%/yr): $41,967 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,445 to budget
     worst single bill     $9,815 at ~4% — exposure, not budget
      42% x $  997 = $ 421  Suspension, steering or brake overhaul
@@ -4506,10 +4682,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19990 + tax 2159 + fuel 2365 + maint 1619
     + insurance 3858 + fees 880 + repairs 470 - resale 12974
     = $18,367 ($765/mo over 27,040 mi)
+    NPV (5%/yr): $18,927 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19990 + tax 2159 + fuel 7805 + maint 4857
     + insurance 11574 + fees 2640 + repairs 1809 - resale 6799
     = $44,035 ($612/mo over 81,120 mi)
+    NPV (5%/yr): $41,342 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,508 to budget
     worst single bill     $9,815 at ~4% — exposure, not budget
      44% x $  997 = $ 437  Suspension, steering or brake overhaul
@@ -4557,10 +4735,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 15321 + tax 1655 + fuel 4027 + maint 1364
     + insurance 3148 + fees 462 + repairs 388 - resale 11865
     = $14,500 ($604/mo over 13,520 mi)
+    NPV (5%/yr): $14,943 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 15321 + tax 1655 + fuel 12080 + maint 4091
     + insurance 9444 + fees 1386 + repairs 1356 - resale 8354
     = $36,979 ($514/mo over 40,560 mi)
+    NPV (5%/yr): $34,731 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,356 to budget
     worst single bill     $6,150 at ~3% — exposure, not budget
      24% x $ 1353 = $ 330  Suspension, steering or brake overhaul
@@ -4603,10 +4783,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 24988 + tax 2699 + fuel 2275 + maint 937
     + insurance 4008 + fees 1004 + repairs 98 - resale 17740
     = $18,269 ($761/mo over 27,040 mi)
+    NPV (5%/yr): $19,333 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 24988 + tax 2699 + fuel 7507 + maint 2812
     + insurance 12024 + fees 3012 + repairs 383 - resale 9341
     = $44,084 ($612/mo over 81,120 mi)
+    NPV (5%/yr): $42,490 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $325 to budget
     worst single bill     $9,165 at ~0% — exposure, not budget
      13% x $  931 = $ 117  Suspension, steering or brake overhaul
@@ -4655,10 +4837,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 21990 + tax 2375 + fuel 2275 + maint 1131
     + insurance 4008 + fees 936 + repairs 147 - resale 14658
     = $18,204 ($759/mo over 27,040 mi)
+    NPV (5%/yr): $18,969 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 21990 + tax 2375 + fuel 7507 + maint 3394
     + insurance 12024 + fees 2808 + repairs 628 - resale 7708
     = $43,018 ($597/mo over 81,120 mi)
+    NPV (5%/yr): $40,913 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $517 to budget
     worst single bill     $9,165 at ~1% — exposure, not budget
      19% x $  931 = $ 181  Suspension, steering or brake overhaul
@@ -4707,10 +4891,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 21800 + tax 2354 + fuel 2741 + maint 1101
     + insurance 2524 + fees 948 + repairs 155 - resale 15627
     = $15,996 ($667/mo over 27,040 mi)
+    NPV (5%/yr): $16,924 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 21800 + tax 2354 + fuel 9045 + maint 3302
     + insurance 7572 + fees 2844 + repairs 685 - resale 8206
     = $39,396 ($547/mo over 81,120 mi)
+    NPV (5%/yr): $37,866 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $573 to budget
     worst single bill     $9,100 at ~1% — exposure, not budget
      20% x $  924 = $ 188  Suspension, steering or brake overhaul
@@ -4757,10 +4943,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19101 + tax 2063 + fuel 5289 + maint 2218
     + insurance 3498 + fees 548 + repairs 676 - resale 15838
     = $17,555 ($731/mo over 13,520 mi)
+    NPV (5%/yr): $18,168 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19101 + tax 2063 + fuel 15867 + maint 6654
     + insurance 10494 + fees 1644 + repairs 2351 - resale 11101
     = $47,073 ($654/mo over 40,560 mi)
+    NPV (5%/yr): $44,189 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $2,351 to budget
     worst single bill     $10,200 at ~3% — exposure, not budget
      26% x $ 2244 = $ 572  Suspension, steering or brake overhaul
@@ -4803,10 +4991,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 16245 + tax 1754 + fuel 3192 + maint 870
     + insurance 3090 + fees 476 + repairs 97 - resale 14474
     = $11,250 ($469/mo over 13,520 mi)
+    NPV (5%/yr): $12,053 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 16245 + tax 1754 + fuel 9575 + maint 2610
     + insurance 9270 + fees 1428 + repairs 336 - resale 9497
     = $31,721 ($441/mo over 40,560 mi)
+    NPV (5%/yr): $30,554 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $336 to budget
     worst single bill     $5,500 at ~1% — exposure, not budget
       7% x $ 1210 = $  82  Suspension, steering or brake overhaul
@@ -4848,10 +5038,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13471 + tax 1455 + fuel 2849 + maint 739
     + insurance 2782 + fees 424 + repairs 139 - resale 11192
     = $10,667 ($444/mo over 13,520 mi)
+    NPV (5%/yr): $11,220 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13471 + tax 1455 + fuel 8546 + maint 2216
     + insurance 8346 + fees 1272 + repairs 479 - resale 7843
     = $27,942 ($388/mo over 40,560 mi)
+    NPV (5%/yr): $26,719 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $479 to budget
     worst single bill     $4,550 at ~1% — exposure, not budget
      12% x $ 1001 = $ 117  Suspension, steering or brake overhaul
@@ -4893,10 +5085,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13971 + tax 1509 + fuel 3257 + maint 924
     + insurance 2238 + fees 514 + repairs 324 - resale 12448
     = $10,289 ($429/mo over 13,520 mi)
+    NPV (5%/yr): $10,936 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13971 + tax 1509 + fuel 9772 + maint 2771
     + insurance 6714 + fees 1542 + repairs 1117 - resale 8167
     = $29,229 ($406/mo over 40,560 mi)
+    NPV (5%/yr): $27,925 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,117 to budget
     worst single bill     $4,200 at ~3% — exposure, not budget
      29% x $  924 = $ 272  Suspension, steering or brake overhaul
@@ -4942,10 +5136,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 17950 + tax 1939 + fuel 1948 + maint 1146
     + insurance 3508 + fees 834 + repairs 212 - resale 14315
     = $13,222 ($551/mo over 27,040 mi)
+    NPV (5%/yr): $14,015 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 17950 + tax 1939 + fuel 6428 + maint 3439
     + insurance 10524 + fees 2502 + repairs 908 - resale 7534
     = $36,156 ($502/mo over 81,120 mi)
+    NPV (5%/yr): $34,401 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $756 to budget
     worst single bill     $9,815 at ~2% — exposure, not budget
      23% x $  997 = $ 227  Suspension, steering or brake overhaul
@@ -4994,10 +5190,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12721 + tax 1374 + fuel 2766 + maint 734
     + insurance 2778 + fees 420 + repairs 131 - resale 11334
     = $9,590 ($400/mo over 13,520 mi)
+    NPV (5%/yr): $10,164 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12721 + tax 1374 + fuel 8299 + maint 2203
     + insurance 8334 + fees 1260 + repairs 452 - resale 7437
     = $27,206 ($378/mo over 40,560 mi)
+    NPV (5%/yr): $25,928 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $452 to budget
     worst single bill     $4,250 at ~1% — exposure, not budget
      12% x $  935 = $ 110  Suspension, steering or brake overhaul
@@ -5045,10 +5243,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19995 + tax 2159 + fuel 1739 + maint 640
     + insurance 3506 + fees 848 + repairs 36 - resale 15736
     = $13,187 ($549/mo over 27,040 mi)
+    NPV (5%/yr): $14,174 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19995 + tax 2159 + fuel 5739 + maint 1919
     + insurance 10518 + fees 2544 + repairs 155 - resale 8279
     = $34,750 ($483/mo over 81,120 mi)
+    NPV (5%/yr): $33,635 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $124 to budget
     worst single bill     $5,525 at ~0% — exposure, not budget
       8% x $  561 = $  46  Suspension, steering or brake overhaul
@@ -5100,10 +5300,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 22197 + tax 2397 + fuel 1948 + maint 918
     + insurance 3750 + fees 890 + repairs 62 - resale 17476
     = $14,686 ($612/mo over 27,040 mi)
+    NPV (5%/yr): $15,779 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 22197 + tax 2397 + fuel 6428 + maint 2755
     + insurance 11250 + fees 2670 + repairs 272 - resale 9195
     = $38,774 ($539/mo over 81,120 mi)
+    NPV (5%/yr): $37,507 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $218 to budget
     worst single bill     $9,815 at ~0% — exposure, not budget
       8% x $  997 = $  82  Suspension, steering or brake overhaul
@@ -5154,10 +5356,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 17900 + tax 1933 + fuel 2365 + maint 1508
     + insurance 3508 + fees 884 + repairs 367 - resale 11045
     = $17,420 ($726/mo over 27,040 mi)
+    NPV (5%/yr): $17,840 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 17900 + tax 1933 + fuel 7805 + maint 4525
     + insurance 10524 + fees 2652 + repairs 1407 - resale 5781
     = $40,965 ($569/mo over 81,120 mi)
+    NPV (5%/yr): $38,286 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,167 to budget
     worst single bill     $9,815 at ~3% — exposure, not budget
      34% x $  997 = $ 339  Suspension, steering or brake overhaul
@@ -5206,10 +5410,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13500 + tax 1458 + fuel 1837 + maint 691
     + insurance 3318 + fees 428 + repairs 282 - resale 9006
     = $12,508 ($521/mo over 13,520 mi)
+    NPV (5%/yr): $12,884 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13500 + tax 1458 + fuel 5511 + maint 2072
     + insurance 9954 + fees 1284 + repairs 978 - resale 6410
     = $28,347 ($394/mo over 40,560 mi)
+    NPV (5%/yr): $26,924 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $978 to budget
     worst single bill     $3,900 at ~4% — exposure, not budget
      15% x $ 2067 = $ 304  Hybrid traction battery failure
@@ -5252,10 +5458,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14197 + tax 1533 + fuel 4329 + maint 1915
     + insurance 3040 + fees 460 + repairs 652 - resale 12650
     = $13,476 ($562/mo over 13,520 mi)
+    NPV (5%/yr): $13,921 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14197 + tax 1533 + fuel 12988 + maint 5744
     + insurance 9120 + fees 1380 + repairs 2260 - resale 8299
     = $38,923 ($541/mo over 40,560 mi)
+    NPV (5%/yr): $36,178 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $2,260 to budget
     worst single bill     $8,950 at ~3% — exposure, not budget
      28% x $ 1969 = $ 549  Suspension, steering or brake overhaul
@@ -5299,10 +5507,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12685 + tax 1370 + fuel 1009 + maint 520
     + insurance 2694 + fees 724 + repairs 146 - resale 9861
     = $9,287 ($387/mo over 13,520 mi)
+    NPV (5%/yr): $9,846 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12685 + tax 1370 + fuel 3329 + maint 1561
     + insurance 8082 + fees 2172 + repairs 567 - resale 5237
     = $24,529 ($341/mo over 40,560 mi)
+    NPV (5%/yr): $23,438 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $567 to budget
     worst single bill     $7,995 at ~2% — exposure, not budget
      25% x $  812 = $ 201  Suspension, steering or brake overhaul
@@ -5352,10 +5562,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12683 + tax 1370 + fuel 869 + maint 413
     + insurance 2694 + fees 724 + repairs 119 - resale 10146
     = $8,726 ($364/mo over 13,520 mi)
+    NPV (5%/yr): $9,331 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12683 + tax 1370 + fuel 2870 + maint 1239
     + insurance 8082 + fees 2172 + repairs 453 - resale 5456
     = $23,413 ($325/mo over 40,560 mi)
+    NPV (5%/yr): $22,515 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $453 to budget
     worst single bill     $5,525 at ~2% — exposure, not budget
      24% x $  561 = $ 136  Suspension, steering or brake overhaul
@@ -5404,10 +5616,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 19229 + tax 2077 + fuel 1439 + maint 529
     + insurance 3420 + fees 612 + repairs 176 - resale 17133
     = $10,349 ($431/mo over 13,520 mi)
+    NPV (5%/yr): $11,508 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 19229 + tax 2077 + fuel 4459 + maint 1587
     + insurance 10260 + fees 1836 + repairs 672 - resale 11241
     = $28,879 ($401/mo over 40,560 mi)
+    NPV (5%/yr): $28,833 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $672 to budget
     worst single bill     $5,590 at ~1% — exposure, not budget
      16% x $  817 = $ 132  Cooling, fuel or ignition system
@@ -5457,10 +5671,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13579 + tax 1467 + fuel 998 + maint 628
     + insurance 2366 + fees 744 + repairs 313 - resale 11016
     = $9,079 ($378/mo over 13,520 mi)
+    NPV (5%/yr): $9,748 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13579 + tax 1467 + fuel 3294 + maint 1884
     + insurance 7098 + fees 2232 + repairs 1074 - resale 6045
     = $24,583 ($341/mo over 40,560 mi)
+    NPV (5%/yr): $23,717 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,074 to budget
     worst single bill     $7,670 at ~4% — exposure, not budget
      40% x $  779 = $ 312  Suspension, steering or brake overhaul
@@ -5512,10 +5728,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 16145 + tax 1744 + fuel 1996 + maint 911
     + insurance 2366 + fees 796 + repairs 126 - resale 13884
     = $10,200 ($425/mo over 27,040 mi)
+    NPV (5%/yr): $11,055 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 16145 + tax 1744 + fuel 6589 + maint 2734
     + insurance 7098 + fees 2388 + repairs 516 - resale 7447
     = $29,767 ($413/mo over 81,120 mi)
+    NPV (5%/yr): $28,680 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $431 to budget
     worst single bill     $7,670 at ~1% — exposure, not budget
      20% x $  779 = $ 157  Suspension, steering or brake overhaul
@@ -5563,10 +5781,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13199 + tax 1425 + fuel 3171 + maint 1027
     + insurance 2884 + fees 422 + repairs 310 - resale 9487
     = $12,951 ($540/mo over 13,520 mi)
+    NPV (5%/yr): $13,284 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13199 + tax 1425 + fuel 9512 + maint 3081
     + insurance 8652 + fees 1266 + repairs 1076 - resale 6715
     = $31,496 ($437/mo over 40,560 mi)
+    NPV (5%/yr): $29,567 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,076 to budget
     worst single bill     $4,200 at ~3% — exposure, not budget
      28% x $  924 = $ 262  Suspension, steering or brake overhaul
@@ -5608,10 +5828,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 10249 + tax 1107 + fuel 1807 + maint 780
     + insurance 2778 + fees 436 + repairs 432 - resale 8916
     = $8,673 ($361/mo over 13,520 mi)
+    NPV (5%/yr): $9,064 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 10249 + tax 1107 + fuel 5421 + maint 2341
     + insurance 8334 + fees 1308 + repairs 1492 - resale 6249
     = $24,003 ($333/mo over 40,560 mi)
+    NPV (5%/yr): $22,678 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,492 to budget
     worst single bill     $4,300 at ~5% — exposure, not budget
      20% x $ 2279 = $ 465  Hybrid traction battery failure
@@ -5656,10 +5878,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11477 + tax 1240 + fuel 1227 + maint 904
     + insurance 2758 + fees 702 + repairs 459 - resale 10183
     = $8,584 ($358/mo over 13,520 mi)
+    NPV (5%/yr): $9,105 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11477 + tax 1240 + fuel 3956 + maint 2713
     + insurance 8274 + fees 2106 + repairs 1612 - resale 6709
     = $24,669 ($343/mo over 40,560 mi)
+    NPV (5%/yr): $23,497 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,612 to budget
     worst single bill     $7,670 at ~3% — exposure, not budget
      27% x $ 1121 = $ 306  Cooling, fuel or ignition system
@@ -5709,10 +5933,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 16995 + tax 1835 + fuel 2087 + maint 1538
     + insurance 2260 + fees 814 + repairs 352 - resale 11982
     = $13,899 ($579/mo over 27,040 mi)
+    NPV (5%/yr): $14,517 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 16995 + tax 1835 + fuel 6887 + maint 4615
     + insurance 6780 + fees 2442 + repairs 1468 - resale 6290
     = $34,732 ($482/mo over 81,120 mi)
+    NPV (5%/yr): $32,910 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,221 to budget
     worst single bill     $11,440 at ~3% — exposure, not budget
      32% x $ 1162 = $ 370  Suspension, steering or brake overhaul
@@ -5762,10 +5988,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 9984 + tax 1078 + fuel 1231 + maint 982
     + insurance 2758 + fees 670 + repairs 563 - resale 9261
     = $8,005 ($334/mo over 13,520 mi)
+    NPV (5%/yr): $8,430 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 9984 + tax 1078 + fuel 3969 + maint 2946
     + insurance 8274 + fees 2010 + repairs 1958 - resale 6128
     = $24,091 ($335/mo over 40,560 mi)
+    NPV (5%/yr): $22,695 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,958 to budget
     worst single bill     $7,670 at ~4% — exposure, not budget
      33% x $ 1121 = $ 371  Cooling, fuel or ignition system
@@ -5814,10 +6042,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 10000 + tax 1080 + fuel 1227 + maint 1129
     + insurance 2396 + fees 670 + repairs 708 - resale 8318
     = $8,892 ($371/mo over 13,520 mi)
+    NPV (5%/yr): $9,234 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 10000 + tax 1080 + fuel 3956 + maint 3387
     + insurance 7188 + fees 2010 + repairs 2465 - resale 5847
     = $24,239 ($337/mo over 40,560 mi)
+    NPV (5%/yr): $22,795 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $2,465 to budget
     worst single bill     $7,670 at ~5% — exposure, not budget
      42% x $ 1121 = $ 466  Cooling, fuel or ignition system
@@ -5867,10 +6097,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 20490 + tax 2213 + fuel 1278 + maint 1051
     + insurance 2260 + fees 876 + repairs 341 - resale 18257
     = $10,252 ($427/mo over 13,520 mi)
+    NPV (5%/yr): $11,541 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 20490 + tax 2213 + fuel 4102 + maint 3153
     + insurance 6780 + fees 2628 + repairs 1290 - resale 11978
     = $28,678 ($398/mo over 40,560 mi)
+    NPV (5%/yr): $28,952 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,290 to budget
     worst single bill     $11,440 at ~1% — exposure, not budget
      15% x $ 1672 = $ 256  Cooling, fuel or ignition system
@@ -5921,10 +6153,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11700 + tax 1264 + fuel 1278 + maint 1435
     + insurance 2260 + fees 706 + repairs 816 - resale 10946
     = $8,513 ($355/mo over 13,520 mi)
+    NPV (5%/yr): $9,074 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11700 + tax 1264 + fuel 4102 + maint 4306
     + insurance 6780 + fees 2118 + repairs 2821 - resale 7182
     = $25,909 ($360/mo over 40,560 mi)
+    NPV (5%/yr): $24,631 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $2,821 to budget
     worst single bill     $11,440 at ~4% — exposure, not budget
      32% x $ 1672 = $ 535  Cooling, fuel or ignition system
@@ -5973,10 +6207,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 8477 + tax 916 + fuel 1227 + maint 1011
     + insurance 2226 + fees 640 + repairs 561 - resale 6963
     = $8,095 ($337/mo over 13,520 mi)
+    NPV (5%/yr): $8,344 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 8477 + tax 916 + fuel 3956 + maint 3032
     + insurance 6678 + fees 1920 + repairs 1944 - resale 4883
     = $22,040 ($306/mo over 40,560 mi)
+    NPV (5%/yr): $20,579 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,944 to budget
     worst single bill     $7,670 at ~4% — exposure, not budget
      33% x $ 1121 = $ 369  Cooling, fuel or ignition system
@@ -6025,10 +6261,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 6995 + tax 755 + fuel 1057 + maint 394
     + insurance 3056 + fees 608 + repairs 107 - resale 5693
     = $7,279 ($303/mo over 13,520 mi)
+    NPV (5%/yr): $7,441 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 6995 + tax 755 + fuel 3489 + maint 1182
     + insurance 9168 + fees 1824 + repairs 381 - resale 3014
     = $20,780 ($289/mo over 40,560 mi)
+    NPV (5%/yr): $19,073 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $381 to budget
     worst single bill     $5,915 at ~2% — exposure, not budget
      21% x $  601 = $ 129  Suspension, steering or brake overhaul
@@ -6077,10 +6315,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 7500 + tax 810 + fuel 1057 + maint 394
     + insurance 3056 + fees 620 + repairs 106 - resale 6104
     = $7,439 ($310/mo over 13,520 mi)
+    NPV (5%/yr): $7,639 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 7500 + tax 810 + fuel 3489 + maint 1182
     + insurance 9168 + fees 1860 + repairs 375 - resale 3232
     = $21,152 ($294/mo over 40,560 mi)
+    NPV (5%/yr): $19,496 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $375 to budget
     worst single bill     $5,915 at ~2% — exposure, not budget
      21% x $  601 = $ 126  Suspension, steering or brake overhaul
@@ -6129,10 +6369,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 7995 + tax 863 + fuel 1057 + maint 394
     + insurance 3056 + fees 630 + repairs 102 - resale 6507
     = $7,590 ($316/mo over 13,520 mi)
+    NPV (5%/yr): $7,827 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 7995 + tax 863 + fuel 3489 + maint 1182
     + insurance 9168 + fees 1890 + repairs 352 - resale 3445
     = $21,494 ($299/mo over 40,560 mi)
+    NPV (5%/yr): $19,891 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $352 to budget
     worst single bill     $5,915 at ~2% — exposure, not budget
       2% x $ 5915 = $ 118  Traction battery catastrophic failure (not degradation)
@@ -6178,10 +6420,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13190 + tax 1425 + fuel 2608 + maint 803
     + insurance 2750 + fees 430 + repairs 222 - resale 11752
     = $9,676 ($403/mo over 13,520 mi)
+    NPV (5%/yr): $10,290 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13190 + tax 1425 + fuel 7823 + maint 2408
     + insurance 8250 + fees 1290 + repairs 763 - resale 7711
     = $27,438 ($381/mo over 40,560 mi)
+    NPV (5%/yr): $26,232 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $763 to budget
     worst single bill     $4,250 at ~2% — exposure, not budget
      20% x $  935 = $ 185  Suspension, steering or brake overhaul
@@ -6224,10 +6468,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 5000 + tax 540 + fuel 1183 + maint 450
     + insurance 1842 + fees 570 + repairs 181 - resale 4153
     = $5,613 ($234/mo over 13,520 mi)
+    NPV (5%/yr): $5,702 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 5000 + tax 540 + fuel 3903 + maint 1350
     + insurance 5526 + fees 1710 + repairs 621 - resale 2226
     = $16,424 ($228/mo over 40,560 mi)
+    NPV (5%/yr): $14,969 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $621 to budget
     worst single bill     $6,500 at ~3% — exposure, not budget
      27% x $  660 = $ 181  Suspension, steering or brake overhaul
@@ -6273,10 +6519,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 10500 + tax 1134 + fuel 2608 + maint 938
     + insurance 2452 + fees 376 + repairs 291 - resale 8621
     = $9,678 ($403/mo over 13,520 mi)
+    NPV (5%/yr): $10,011 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 10500 + tax 1134 + fuel 7823 + maint 2815
     + insurance 7356 + fees 1128 + repairs 1008 - resale 6046
     = $25,718 ($357/mo over 40,560 mi)
+    NPV (5%/yr): $24,151 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,008 to budget
     worst single bill     $4,250 at ~3% — exposure, not budget
      26% x $  935 = $ 245  Suspension, steering or brake overhaul
@@ -6320,10 +6568,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 5584 + tax 603 + fuel 1057 + maint 477
     + insurance 3056 + fees 580 + repairs 166 - resale 4492
     = $7,031 ($293/mo over 13,520 mi)
+    NPV (5%/yr): $7,074 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 5584 + tax 603 + fuel 3489 + maint 1430
     + insurance 9168 + fees 1740 + repairs 584 - resale 2377
     = $20,221 ($281/mo over 40,560 mi)
+    NPV (5%/yr): $18,296 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $584 to budget
     worst single bill     $5,915 at ~3% — exposure, not budget
      33% x $  601 = $ 196  Suspension, steering or brake overhaul
@@ -6372,10 +6622,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 9477 + tax 1024 + fuel 1278 + maint 1326
     + insurance 2260 + fees 662 + repairs 734 - resale 8866
     = $7,895 ($329/mo over 13,520 mi)
+    NPV (5%/yr): $8,279 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 9477 + tax 1024 + fuel 4102 + maint 3977
     + insurance 6780 + fees 1986 + repairs 2538 - resale 5817
     = $24,067 ($334/mo over 40,560 mi)
+    NPV (5%/yr): $22,557 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $2,538 to budget
     worst single bill     $11,440 at ~3% — exposure, not budget
      29% x $ 1672 = $ 482  Cooling, fuel or ignition system
@@ -6423,10 +6675,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14995 + tax 1619 + fuel 1183 + maint 582
     + insurance 2950 + fees 774 + repairs 236 - resale 12560
     = $9,779 ($407/mo over 13,520 mi)
+    NPV (5%/yr): $10,544 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14995 + tax 1619 + fuel 3903 + maint 1745
     + insurance 8850 + fees 2322 + repairs 836 - resale 6734
     = $27,536 ($382/mo over 40,560 mi)
+    NPV (5%/yr): $26,525 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $836 to budget
     worst single bill     $10,725 at ~2% — exposure, not budget
      22% x $ 1089 = $ 243  Suspension, steering or brake overhaul
@@ -6474,10 +6728,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 8000 + tax 864 + fuel 1009 + maint 576
     + insurance 2174 + fees 630 + repairs 240 - resale 6416
     = $7,077 ($295/mo over 13,520 mi)
+    NPV (5%/yr): $7,348 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 8000 + tax 864 + fuel 3329 + maint 1727
     + insurance 6522 + fees 1890 + repairs 822 - resale 3396
     = $19,758 ($274/mo over 40,560 mi)
+    NPV (5%/yr): $18,418 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $822 to budget
     worst single bill     $7,995 at ~3% — exposure, not budget
      34% x $  812 = $ 277  Suspension, steering or brake overhaul
@@ -6525,10 +6781,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 8980 + tax 970 + fuel 1009 + maint 584
     + insurance 2282 + fees 650 + repairs 242 - resale 7181
     = $7,536 ($314/mo over 13,520 mi)
+    NPV (5%/yr): $7,869 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 8980 + tax 970 + fuel 3329 + maint 1752
     + insurance 6846 + fees 1950 + repairs 846 - resale 3800
     = $20,873 ($290/mo over 40,560 mi)
+    NPV (5%/yr): $19,569 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $846 to budget
     worst single bill     $7,995 at ~4% — exposure, not budget
      35% x $  812 = $ 284  Suspension, steering or brake overhaul
@@ -6576,10 +6834,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 8700 + tax 940 + fuel 1009 + maint 600
     + insurance 2252 + fees 644 + repairs 259 - resale 6957
     = $7,447 ($310/mo over 13,520 mi)
+    NPV (5%/yr): $7,759 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 8700 + tax 940 + fuel 3329 + maint 1800
     + insurance 6756 + fees 1932 + repairs 892 - resale 3681
     = $20,668 ($287/mo over 40,560 mi)
+    NPV (5%/yr): $19,336 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $892 to budget
     worst single bill     $7,995 at ~4% — exposure, not budget
      37% x $  812 = $ 300  Suspension, steering or brake overhaul
@@ -6626,10 +6886,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14705 + tax 1588 + fuel 1774 + maint 647
     + insurance 2918 + fees 478 + repairs 357 - resale 13757
     = $8,710 ($363/mo over 13,520 mi)
+    NPV (5%/yr): $9,555 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14705 + tax 1588 + fuel 5322 + maint 1941
     + insurance 8754 + fees 1434 + repairs 1240 - resale 9026
     = $25,958 ($361/mo over 40,560 mi)
+    NPV (5%/yr): $25,369 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,240 to budget
     worst single bill     $4,000 at ~5% — exposure, not budget
      18% x $ 2120 = $ 386  Hybrid traction battery failure
@@ -6674,10 +6936,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 15990 + tax 1727 + fuel 2365 + maint 703
     + insurance 3060 + fees 772 + repairs 40 - resale 12711
     = $11,946 ($498/mo over 27,040 mi)
+    NPV (5%/yr): $12,640 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 15990 + tax 1727 + fuel 7805 + maint 2109
     + insurance 9180 + fees 2316 + repairs 172 - resale 6690
     = $32,609 ($453/mo over 81,120 mi)
+    NPV (5%/yr): $30,982 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $140 to budget
     worst single bill     $6,500 at ~0% — exposure, not budget
       8% x $  660 = $  51  Suspension, steering or brake overhaul
@@ -6726,10 +6990,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 9998 + tax 1080 + fuel 1183 + maint 383
     + insurance 2396 + fees 670 + repairs 123 - resale 8375
     = $7,458 ($311/mo over 13,520 mi)
+    NPV (5%/yr): $7,902 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 9998 + tax 1080 + fuel 3903 + maint 1150
     + insurance 7188 + fees 2010 + repairs 436 - resale 4490
     = $21,275 ($295/mo over 40,560 mi)
+    NPV (5%/yr): $20,152 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $436 to budget
     worst single bill     $5,590 at ~2% — exposure, not budget
      22% x $  568 = $ 127  Suspension, steering or brake overhaul
@@ -6777,10 +7043,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 9000 + tax 972 + fuel 1183 + maint 421
     + insurance 2286 + fees 652 + repairs 158 - resale 7496
     = $7,176 ($299/mo over 13,520 mi)
+    NPV (5%/yr): $7,543 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 9000 + tax 972 + fuel 3903 + maint 1263
     + insurance 6858 + fees 1956 + repairs 549 - resale 4019
     = $20,482 ($284/mo over 40,560 mi)
+    NPV (5%/yr): $19,264 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $549 to budget
     worst single bill     $5,590 at ~3% — exposure, not budget
      28% x $  568 = $ 160  Suspension, steering or brake overhaul
@@ -6828,10 +7096,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 8797 + tax 950 + fuel 1183 + maint 435
     + insurance 2262 + fees 648 + repairs 170 - resale 7327
     = $7,118 ($297/mo over 13,520 mi)
+    NPV (5%/yr): $7,469 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 8797 + tax 950 + fuel 3903 + maint 1305
     + insurance 6786 + fees 1944 + repairs 588 - resale 3928
     = $20,345 ($283/mo over 40,560 mi)
+    NPV (5%/yr): $19,104 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $588 to budget
     worst single bill     $5,590 at ~3% — exposure, not budget
      30% x $  568 = $ 171  Suspension, steering or brake overhaul
@@ -6881,10 +7151,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 16999 + tax 1836 + fuel 2435 + maint 1329
     + insurance 3172 + fees 796 + repairs 278 - resale 10568
     = $16,277 ($678/mo over 27,040 mi)
+    NPV (5%/yr): $16,696 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 16999 + tax 1836 + fuel 8035 + maint 3988
     + insurance 9516 + fees 2388 + repairs 1063 - resale 5532
     = $38,293 ($532/mo over 81,120 mi)
+    NPV (5%/yr): $35,847 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $890 to budget
     worst single bill     $9,100 at ~3% — exposure, not budget
      28% x $  924 = $ 257  Suspension, steering or brake overhaul
@@ -6933,10 +7205,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11995 + tax 1295 + fuel 1278 + maint 1500
     + insurance 2260 + fees 720 + repairs 953 - resale 11222
     = $8,779 ($366/mo over 13,520 mi)
+    NPV (5%/yr): $9,351 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11995 + tax 1295 + fuel 4102 + maint 4499
     + insurance 6780 + fees 2160 + repairs 3315 - resale 7363
     = $26,783 ($372/mo over 40,560 mi)
+    NPV (5%/yr): $25,439 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $3,315 to budget
     worst single bill     $11,440 at ~4% — exposure, not budget
      38% x $ 1672 = $ 629  Cooling, fuel or ignition system
@@ -6982,10 +7256,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14788 + tax 1597 + fuel 1767 + maint 713
     + insurance 2928 + fees 480 + repairs 428 - resale 13835
     = $8,866 ($369/mo over 13,520 mi)
+    NPV (5%/yr): $9,708 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14788 + tax 1597 + fuel 5301 + maint 2138
     + insurance 8784 + fees 1440 + repairs 1475 - resale 9077
     = $26,446 ($367/mo over 40,560 mi)
+    NPV (5%/yr): $25,801 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,475 to budget
     worst single bill     $4,000 at ~5% — exposure, not budget
      22% x $ 2120 = $ 460  Hybrid traction battery failure
@@ -7026,10 +7302,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13489 + tax 1457 + fuel 2636 + maint 882
     + insurance 2784 + fees 452 + repairs 351 - resale 12620
     = $9,431 ($393/mo over 13,520 mi)
+    NPV (5%/yr): $10,105 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13489 + tax 1457 + fuel 7909 + maint 2647
     + insurance 8352 + fees 1356 + repairs 1225 - resale 8280
     = $28,155 ($391/mo over 40,560 mi)
+    NPV (5%/yr): $26,946 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,225 to budget
     worst single bill     $3,900 at ~4% — exposure, not budget
      35% x $  858 = $ 298  Suspension, steering or brake overhaul
@@ -7071,10 +7349,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12490 + tax 1349 + fuel 3879 + maint 1108
     + insurance 2238 + fees 422 + repairs 325 - resale 11129
     = $10,682 ($445/mo over 13,520 mi)
+    NPV (5%/yr): $11,156 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12490 + tax 1349 + fuel 11638 + maint 3324
     + insurance 6714 + fees 1266 + repairs 1134 - resale 7301
     = $30,614 ($425/mo over 40,560 mi)
+    NPV (5%/yr): $28,758 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,134 to budget
     worst single bill     $5,750 at ~3% — exposure, not budget
      22% x $ 1265 = $ 276  Suspension, steering or brake overhaul
@@ -7115,10 +7395,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14999 + tax 1620 + fuel 3890 + maint 1741
     + insurance 2950 + fees 476 + repairs 636 - resale 14032
     = $12,280 ($512/mo over 13,520 mi)
+    NPV (5%/yr): $12,903 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14999 + tax 1620 + fuel 11670 + maint 5224
     + insurance 8850 + fees 1428 + repairs 2181 - resale 9207
     = $36,765 ($511/mo over 40,560 mi)
+    NPV (5%/yr): $34,580 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $2,181 to budget
     worst single bill     $8,250 at ~3% — exposure, not budget
      29% x $ 1815 = $ 532  Suspension, steering or brake overhaul
@@ -7161,10 +7443,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12471 + tax 1347 + fuel 3728 + maint 1178
     + insurance 2504 + fees 422 + repairs 403 - resale 11667
     = $10,386 ($433/mo over 13,520 mi)
+    NPV (5%/yr): $10,892 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12471 + tax 1347 + fuel 11184 + maint 3535
     + insurance 7512 + fees 1266 + repairs 1391 - resale 7655
     = $31,051 ($431/mo over 40,560 mi)
+    NPV (5%/yr): $29,160 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,391 to budget
     worst single bill     $5,750 at ~3% — exposure, not budget
      27% x $ 1265 = $ 338  Suspension, steering or brake overhaul
@@ -7206,10 +7490,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 14490 + tax 1565 + fuel 4129 + maint 1816
     + insurance 3234 + fees 464 + repairs 621 - resale 13556
     = $12,763 ($532/mo over 13,520 mi)
+    NPV (5%/yr): $13,302 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 14490 + tax 1565 + fuel 12388 + maint 5448
     + insurance 9702 + fees 1392 + repairs 2159 - resale 8894
     = $38,250 ($531/mo over 40,560 mi)
+    NPV (5%/yr): $35,718 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $2,159 to budget
     worst single bill     $8,800 at ~3% — exposure, not budget
      27% x $ 1936 = $ 525  Suspension, steering or brake overhaul
@@ -7254,10 +7540,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 18961 + tax 2048 + fuel 2365 + maint 1360
     + insurance 3390 + fees 914 + repairs 275 - resale 14657
     = $14,656 ($611/mo over 27,040 mi)
+    NPV (5%/yr): $15,435 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 18961 + tax 2048 + fuel 7805 + maint 4081
     + insurance 10170 + fees 2742 + repairs 1178 - resale 7709
     = $39,276 ($546/mo over 81,120 mi)
+    NPV (5%/yr): $37,231 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $985 to budget
     worst single bill     $11,635 at ~2% — exposure, not budget
      25% x $ 1181 = $ 296  Suspension, steering or brake overhaul
@@ -7304,10 +7592,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12990 + tax 1403 + fuel 1774 + maint 838
     + insurance 2728 + fees 442 + repairs 555 - resale 11110
     = $9,620 ($401/mo over 13,520 mi)
+    NPV (5%/yr): $10,207 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12990 + tax 1403 + fuel 5322 + maint 2513
     + insurance 8184 + fees 1326 + repairs 1928 - resale 7796
     = $25,870 ($359/mo over 40,560 mi)
+    NPV (5%/yr): $24,879 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,928 to budget
     worst single bill     $4,000 at ~7% — exposure, not budget
      28% x $ 2120 = $ 600  Hybrid traction battery failure
@@ -7350,10 +7640,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 8500 + tax 918 + fuel 2318 + maint 1710
     + insurance 2230 + fees 340 + repairs 1134 - resale 7476
     = $9,674 ($403/mo over 13,520 mi)
+    NPV (5%/yr): $9,826 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 8500 + tax 918 + fuel 7023 + maint 5129
     + insurance 6690 + fees 1020 + repairs 3919 - resale 5217
     = $27,982 ($389/mo over 40,560 mi)
+    NPV (5%/yr): $25,642 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $3,919 to budget
     worst single bill     $11,635 at ~5% — exposure, not budget
      44% x $ 1701 = $ 745  Cooling, fuel or ignition system
@@ -7402,10 +7694,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 12192 + tax 1317 + fuel 2318 + maint 1608
     + insurance 2640 + fees 418 + repairs 1040 - resale 11110
     = $10,423 ($434/mo over 13,520 mi)
+    NPV (5%/yr): $10,892 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 12192 + tax 1317 + fuel 7023 + maint 4825
     + insurance 7920 + fees 1254 + repairs 3580 - resale 7484
     = $30,627 ($425/mo over 40,560 mi)
+    NPV (5%/yr): $28,736 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $3,580 to budget
     worst single bill     $11,440 at ~5% — exposure, not budget
      41% x $ 1672 = $ 681  Cooling, fuel or ignition system
@@ -7451,10 +7745,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11999 + tax 1296 + fuel 1767 + maint 801
     + insurance 2618 + fees 420 + repairs 518 - resale 10686
     = $8,733 ($364/mo over 13,520 mi)
+    NPV (5%/yr): $9,296 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11999 + tax 1296 + fuel 5301 + maint 2403
     + insurance 7854 + fees 1260 + repairs 1796 - resale 7365
     = $24,544 ($341/mo over 40,560 mi)
+    NPV (5%/yr): $23,546 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,796 to budget
     worst single bill     $4,000 at ~7% — exposure, not budget
      26% x $ 2120 = $ 560  Hybrid traction battery failure
@@ -7497,10 +7793,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 22695 + tax 2451 + fuel 2525 + maint 1118
     + insurance 4008 + fees 966 + repairs 157 - resale 16162
     = $17,758 ($740/mo over 27,040 mi)
+    NPV (5%/yr): $18,644 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 22695 + tax 2451 + fuel 8333 + maint 3354
     + insurance 12024 + fees 2898 + repairs 702 - resale 8486
     = $43,971 ($611/mo over 81,120 mi)
+    NPV (5%/yr): $41,917 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $590 to budget
     worst single bill     $9,165 at ~1% — exposure, not budget
      21% x $  931 = $ 194  Suspension, steering or brake overhaul
@@ -7548,10 +7846,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 24800 + tax 2678 + fuel 2525 + maint 1085
     + insurance 4008 + fees 1008 + repairs 150 - resale 17983
     = $18,271 ($761/mo over 27,040 mi)
+    NPV (5%/yr): $19,326 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 24800 + tax 2678 + fuel 8333 + maint 3256
     + insurance 12024 + fees 3024 + repairs 675 - resale 9446
     = $45,344 ($630/mo over 81,120 mi)
+    NPV (5%/yr): $43,534 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $557 to budget
     worst single bill     $9,165 at ~1% — exposure, not budget
      20% x $  931 = $ 184  Suspension, steering or brake overhaul
@@ -7600,10 +7900,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 16895 + tax 1825 + fuel 2365 + maint 906
     + insurance 3162 + fees 790 + repairs 53 - resale 12740
     = $13,256 ($552/mo over 27,040 mi)
+    NPV (5%/yr): $13,929 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 16895 + tax 1825 + fuel 7805 + maint 2719
     + insurance 9486 + fees 2370 + repairs 226 - resale 6698
     = $34,628 ($481/mo over 81,120 mi)
+    NPV (5%/yr): $32,845 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $189 to budget
     worst single bill     $10,075 at ~0% — exposure, not budget
       7% x $ 1023 = $  74  Suspension, steering or brake overhaul
@@ -7652,10 +7954,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11900 + tax 1285 + fuel 2866 + maint 742
     + insurance 2070 + fees 408 + repairs 215 - resale 10603
     = $8,883 ($370/mo over 13,520 mi)
+    NPV (5%/yr): $9,426 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11900 + tax 1285 + fuel 8598 + maint 2226
     + insurance 6210 + fees 1224 + repairs 750 - resale 6957
     = $25,236 ($351/mo over 40,560 mi)
+    NPV (5%/yr): $24,073 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $750 to budget
     worst single bill     $3,900 at ~2% — exposure, not budget
      21% x $  858 = $ 182  Suspension, steering or brake overhaul
@@ -7699,10 +8003,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 13995 + tax 1511 + fuel 1183 + maint 390
     + insurance 1200 + fees 752 + repairs 97 - resale 11259
     = $7,869 ($328/mo over 13,520 mi)
+    NPV (5%/yr): $8,661 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 13995 + tax 1511 + fuel 3903 + maint 1170
     + insurance 3600 + fees 2256 + repairs 358 - resale 6038
     = $20,755 ($288/mo over 40,560 mi)
+    NPV (5%/yr): $20,549 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $358 to budget
     worst single bill     $6,370 at ~1% — exposure, not budget
      17% x $  647 = $ 109  Suspension, steering or brake overhaul
@@ -7751,10 +8057,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 15200 + tax 1642 + fuel 2365 + maint 782
     + insurance 1200 + fees 778 + repairs 112 - resale 12229
     = $9,850 ($410/mo over 27,040 mi)
+    NPV (5%/yr): $10,619 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 15200 + tax 1642 + fuel 7805 + maint 2347
     + insurance 3600 + fees 2334 + repairs 477 - resale 6558
     = $26,847 ($373/mo over 81,120 mi)
+    NPV (5%/yr): $25,960 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $397 to budget
     worst single bill     $6,370 at ~2% — exposure, not budget
      19% x $  647 = $ 120  Suspension, steering or brake overhaul
@@ -7803,10 +8111,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 10929 + tax 1180 + fuel 1183 + maint 401
     + insurance 1200 + fees 692 + repairs 132 - resale 8743
     = $6,974 ($291/mo over 13,520 mi)
+    NPV (5%/yr): $7,533 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 10929 + tax 1180 + fuel 3903 + maint 1203
     + insurance 3600 + fees 2076 + repairs 450 - resale 4702
     = $18,639 ($259/mo over 40,560 mi)
+    NPV (5%/yr): $18,102 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $450 to budget
     worst single bill     $6,370 at ~2% — exposure, not budget
      20% x $  647 = $ 131  Suspension, steering or brake overhaul
@@ -7854,10 +8164,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 8000 + tax 864 + fuel 1183 + maint 411
     + insurance 2174 + fees 630 + repairs 135 - resale 6701
     = $6,696 ($279/mo over 13,520 mi)
+    NPV (5%/yr): $7,000 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 8000 + tax 864 + fuel 3903 + maint 1234
     + insurance 6522 + fees 1890 + repairs 475 - resale 3593
     = $19,295 ($268/mo over 40,560 mi)
+    NPV (5%/yr): $18,046 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $475 to budget
     worst single bill     $6,370 at ~2% — exposure, not budget
      21% x $  647 = $ 138  Suspension, steering or brake overhaul
@@ -7905,10 +8217,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 7998 + tax 864 + fuel 1183 + maint 511
     + insurance 2174 + fees 630 + repairs 225 - resale 6642
     = $6,943 ($289/mo over 13,520 mi)
+    NPV (5%/yr): $7,229 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 7998 + tax 864 + fuel 3903 + maint 1532
     + insurance 6522 + fees 1890 + repairs 788 - resale 3561
     = $19,936 ($277/mo over 40,560 mi)
+    NPV (5%/yr): $18,585 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $788 to budget
     worst single bill     $6,370 at ~4% — exposure, not budget
      36% x $  647 = $ 230  Suspension, steering or brake overhaul
@@ -7956,10 +8270,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 7998 + tax 864 + fuel 1183 + maint 549
     + insurance 2174 + fees 630 + repairs 261 - resale 6623
     = $7,036 ($293/mo over 13,520 mi)
+    NPV (5%/yr): $7,315 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 7998 + tax 864 + fuel 3903 + maint 1646
     + insurance 6522 + fees 1890 + repairs 900 - resale 3550
     = $20,173 ($280/mo over 40,560 mi)
+    NPV (5%/yr): $18,785 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $900 to budget
     worst single bill     $6,370 at ~4% — exposure, not budget
      41% x $  647 = $ 262  Suspension, steering or brake overhaul
@@ -8009,10 +8325,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 11148 + tax 1204 + fuel 1808 + maint 1058
     + insurance 2566 + fees 394 + repairs 561 - resale 10430
     = $8,309 ($346/mo over 13,520 mi)
+    NPV (5%/yr): $8,830 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 11148 + tax 1204 + fuel 5585 + maint 3173
     + insurance 7698 + fees 1182 + repairs 1943 - resale 6843
     = $25,090 ($348/mo over 40,560 mi)
+    NPV (5%/yr): $23,810 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,943 to budget
     worst single bill     $9,165 at ~3% — exposure, not budget
      28% x $ 1340 = $ 369  Cooling, fuel or ignition system
@@ -8061,10 +8379,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 8999 + tax 972 + fuel 1183 + maint 446
     + insurance 2284 + fees 656 + repairs 179 - resale 7474
     = $7,245 ($302/mo over 13,520 mi)
+    NPV (5%/yr): $7,606 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 8999 + tax 972 + fuel 3903 + maint 1338
     + insurance 6852 + fees 1968 + repairs 617 - resale 4006
     = $20,643 ($287/mo over 40,560 mi)
+    NPV (5%/yr): $19,398 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $617 to budget
     worst single bill     $6,370 at ~3% — exposure, not budget
      28% x $  647 = $ 179  Suspension, steering or brake overhaul
@@ -8114,10 +8434,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 9613 + tax 1038 + fuel 1808 + maint 1120
     + insurance 2566 + fees 362 + repairs 622 - resale 8993
     = $8,136 ($339/mo over 13,520 mi)
+    NPV (5%/yr): $8,517 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 9613 + tax 1038 + fuel 5585 + maint 3361
     + insurance 7698 + fees 1086 + repairs 2159 - resale 5901
     = $24,639 ($342/mo over 40,560 mi)
+    NPV (5%/yr): $23,073 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $2,159 to budget
     worst single bill     $9,165 at ~4% — exposure, not budget
      31% x $ 1340 = $ 410  Cooling, fuel or ignition system
@@ -8166,10 +8488,12 @@ COST ASSUMPTIONS (inputs to every total below)
     purchase 5998 + tax 648 + fuel 1183 + maint 580
     + insurance 1952 + fees 592 + repairs 297 - resale 4939
     = $6,311 ($263/mo over 13,520 mi)
+    NPV (5%/yr): $6,447 — same costs discounted to today, later dollars weigh less
   6-year cost to own
     purchase 5998 + tax 648 + fuel 3903 + maint 1739
     + insurance 5856 + fees 1776 + repairs 1033 - resale 2647
     = $18,306 ($254/mo over 40,560 mi)
+    NPV (5%/yr): $16,774 — same costs discounted to today, later dollars weigh less
   repair outlook (6 yr)   expected $1,033 to budget
     worst single bill     $6,370 at ~5% — exposure, not budget
      46% x $  647 = $ 300  Suspension, steering or brake overhaul
