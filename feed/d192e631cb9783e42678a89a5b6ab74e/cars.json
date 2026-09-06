@@ -1,7 +1,7 @@
 {
   "title": "Kate's Mach-E shortlist",
   "subtitle": "Used Ford Mustang Mach-E · all trims & batteries · full 250-mi corridor · best match for Kate first",
-  "updated": "2026-08-31",
+  "updated": "2026-09-06",
   "intro": "Every Mach-E we can find within 250 miles — now the full corridor, not just a shortlist. Cars just added from the latest scan are tagged 🆕 Just added, standouts are ⭐ flagged, and the list is sorted by best match for you (Premium + glass roof + good value rise to the top). Use the filters up top to narrow (AWD, sunroof, Extended Range, certified, under $31k), tap 👍/👎, then hit \"Send my picks.\"",
   "resources": [
     {
@@ -95,13 +95,14 @@
       "photo": "https://images.autotrader.com/hn/c/04aadaf28dc3470b9fc1795f0ec74122.jpg",
       "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Certified",
         "Extended Range"
       ],
       "note": "Cheapest Ford-Certified Premium with a glass roof in this batch — factory warranty included.",
       "confirmedExtras": [],
       "new": false,
-      "matchScore": 96.5,
+      "matchScore": 100,
       "bluecruise": "yes",
       "safety": [
         "360° camera",
@@ -193,6 +194,7 @@
       "photo": "https://images.autotrader.com/hn/c/517b68d732a341b2abf29368093e51a3.jpg",
       "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Certified",
         "Close by",
         "Low miles"
@@ -200,7 +202,7 @@
       "note": "Premium with a glass roof close to home (13 mi) and well under the typical price.",
       "confirmedExtras": [],
       "new": false,
-      "matchScore": 89.7,
+      "matchScore": 97.7,
       "bluecruise": "yes",
       "safety": [
         "360° camera",
@@ -289,15 +291,16 @@
       "daysOnLot": 11,
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788818683",
       "photo": "https://images.autotrader.com/hn/c/56015694baca4563b9b35bfac0725b62.jpg",
-      "standout": false,
+      "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Just listed",
         "Extended Range"
       ],
-      "note": null,
+      "note": "Blue Premium — the color/trim combo Kate loves.",
       "confirmedExtras": [],
       "new": false,
-      "matchScore": 89.5,
+      "matchScore": 97.5,
       "bluecruise": "unknown",
       "firstSeen": "2026-08-23"
     },
@@ -371,6 +374,7 @@
       "photo": "https://images.autotrader.com/hn/c/f61469df200f4e1db0b3732c845fde32.jpg",
       "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Close by",
         "Extended Range"
       ],
@@ -379,7 +383,7 @@
       "bluecruise": "unknown",
       "new": true,
       "firstSeen": "2026-08-31",
-      "matchScore": 87.1
+      "matchScore": 95.1
     },
     {
       "id": "789046372",
@@ -532,12 +536,13 @@
       "photo": "https://images.autotrader.com/hn/c/13f7865865584510bfda91a89f95b51d.jpg",
       "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Extended Range"
       ],
       "note": "Cheapest just-added Premium with the Extended-Range battery and a glass roof — a 6-day-old listing.",
       "confirmedExtras": [],
       "new": false,
-      "matchScore": 85.2,
+      "matchScore": 93.2,
       "bluecruise": "unknown",
       "firstSeen": "2026-08-23"
     },
@@ -739,15 +744,16 @@
       "daysOnLot": 14,
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788471358",
       "photo": null,
-      "standout": false,
+      "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Certified",
         "Low miles"
       ],
-      "note": null,
+      "note": "Blue Premium — the color/trim combo Kate loves.",
       "confirmedExtras": [],
       "new": false,
-      "matchScore": 83.3,
+      "matchScore": 91.3,
       "bluecruise": "yes",
       "safety": [
         "360° camera",
@@ -1030,15 +1036,16 @@
       "daysOnLot": 37,
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786533534",
       "photo": "https://images.autotrader.com/hn/c/75bc412bf1724805af292bccb435e9f0.jpg",
-      "standout": false,
+      "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Low miles",
         "eAWD"
       ],
-      "note": null,
+      "note": "Blue Premium — the color/trim combo Kate loves.",
       "confirmedExtras": [],
       "new": false,
-      "matchScore": 78.5,
+      "matchScore": 86.5,
       "bluecruise": "unknown",
       "firstSeen": "2026-08-23"
     },
@@ -1205,15 +1212,16 @@
       "daysOnLot": 12,
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/788694552",
       "photo": "https://images.autotrader.com/hn/c/506353584d2d4e0591f62dd76818cbf1.jpg",
-      "standout": false,
+      "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Low miles",
         "eAWD"
       ],
-      "note": null,
+      "note": "Blue Premium — the color/trim combo Kate loves.",
       "confirmedExtras": [],
       "new": false,
-      "matchScore": 77,
+      "matchScore": 85,
       "bluecruise": "yes",
       "safety": [
         "360° camera",
@@ -1265,57 +1273,6 @@
       "new": false,
       "matchScore": 76.8,
       "bluecruise": "unknown",
-      "firstSeen": "2026-08-23"
-    },
-    {
-      "id": "785764431",
-      "vin": "3FMTK3SU2PMA22397",
-      "year": 2023,
-      "trim": "Premium",
-      "drivetrain": "AWD",
-      "battery": "Extended Range",
-      "rangeMi": 290,
-      "price": 34162,
-      "priceNote": null,
-      "miles": 28668,
-      "color": "Vapor Blue Metallic",
-      "cert": "Used",
-      "glassRoof": "yes",
-      "location": "Ford of Kirkland, Kirkland WA",
-      "distanceMi": 10,
-      "daysOnLot": 38,
-      "url": "https://www.autotrader.com/cars-for-sale/vehicle/785764431",
-      "photo": "https://images.autotrader.com/hn/c/40ffd3aeba984af0973cf832e55c97d8.jpg",
-      "standout": false,
-      "highlights": [
-        "Close by",
-        "Extended Range",
-        "eAWD"
-      ],
-      "note": null,
-      "confirmedExtras": [],
-      "new": false,
-      "matchScore": 76.4,
-      "bluecruise": "yes",
-      "safety": [
-        "360° camera",
-        "SOS post-crash alert"
-      ],
-      "comfort": [
-        "Heated front seats",
-        "Heated steering wheel",
-        "Bang & Olufsen sound system",
-        "Panoramic fixed-glass roof",
-        "Wireless charging pad",
-        "Driver-memory seat",
-        "Power front seats",
-        "Power liftgate",
-        "SYNC 4A w/ 15.5\" touchscreen",
-        "Phone As A Key",
-        "Ambient lighting",
-        "Dual-zone climate control",
-        "Leather / ActiveX seating"
-      ],
       "firstSeen": "2026-08-23"
     },
     {
@@ -1459,16 +1416,17 @@
       "daysOnLot": 55,
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/785009976",
       "photo": "https://images.autotrader.com/hn/c/5b3725665b104775b5295271cf6e9b72.jpg",
-      "standout": false,
+      "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Certified",
         "Extended Range",
         "eAWD"
       ],
-      "note": null,
+      "note": "Blue Premium — the color/trim combo Kate loves.",
       "confirmedExtras": [],
       "new": false,
-      "matchScore": 74.7,
+      "matchScore": 82.7,
       "bluecruise": "yes",
       "safety": [
         "360° camera",
@@ -2360,17 +2318,18 @@
       "daysOnLot": 23,
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/787822134",
       "photo": "https://images.autotrader.com/hn/c/44ec70ebb19a45bf9eddb3e79d13619e.jpg",
-      "standout": false,
+      "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Close by",
         "eAWD"
       ],
-      "note": null,
+      "note": "Blue Premium — the color/trim combo Kate loves.",
       "confirmedExtras": [],
       "bluecruise": "yes",
       "new": true,
       "firstSeen": "2026-08-31",
-      "matchScore": 71.2,
+      "matchScore": 79.2,
       "safety": [
         "360° camera",
         "SOS post-crash alert"
@@ -3099,16 +3058,17 @@
       "daysOnLot": 27,
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/787358932",
       "photo": "https://images.autotrader.com/hn/c/8603a5cede5541bc8d51d31af90334f5.jpg",
-      "standout": false,
+      "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Certified",
         "Low miles",
         "eAWD"
       ],
-      "note": null,
+      "note": "Blue Premium — the color/trim combo Kate loves.",
       "confirmedExtras": [],
       "new": false,
-      "matchScore": 68.6,
+      "matchScore": 76.6,
       "bluecruise": "yes",
       "safety": [
         "360° camera",
@@ -3228,16 +3188,17 @@
       "daysOnLot": 29,
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/786602644",
       "photo": "https://images.autotrader.com/hn/c/d412d5a49b9646f2bfea49cc10218c8f.jpg",
-      "standout": false,
+      "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Certified",
         "Low miles",
         "Extended Range"
       ],
-      "note": null,
+      "note": "Blue Premium — the color/trim combo Kate loves.",
       "confirmedExtras": [],
       "new": false,
-      "matchScore": 67.2,
+      "matchScore": 75.2,
       "bluecruise": "yes",
       "safety": [
         "360° camera",
@@ -4238,16 +4199,17 @@
       "daysOnLot": 69,
       "url": "https://www.autotrader.com/cars-for-sale/vehicle/780826321",
       "photo": "https://images.autotrader.com/hn/c/b22bcf391e654eb7a6450dbd4b6483db.jpg",
-      "standout": false,
+      "standout": true,
       "highlights": [
+        "Kate's color pick",
         "Low miles",
         "Extended Range",
         "eAWD"
       ],
-      "note": null,
+      "note": "Blue Premium — the color/trim combo Kate loves.",
       "confirmedExtras": [],
       "new": false,
-      "matchScore": 62.2,
+      "matchScore": 70.2,
       "bluecruise": "unknown",
       "firstSeen": "2026-08-23"
     },
@@ -5171,5 +5133,5 @@
       "firstSeen": "2026-08-23"
     }
   ],
-  "built": "2026-09-01T00:22:30.229Z"
+  "built": "2026-09-06T17:38:57.868Z"
 }
