@@ -825,6 +825,7 @@ function carCard(c) {
         ? `<a class="thumb" href="${esc(c.url)}" target="_blank" rel="noopener noreferrer" aria-label="Open listing — ${alt}">${thumbInner}</a>`
         : `<span class="thumb">${thumbInner}</span>`)
     : '';
+  const cityState = cityStateOf(c.location);
   return `
     <div class="carcard${cls}">
       <div class="cardhead">
@@ -834,6 +835,7 @@ function carCard(c) {
             <h2>${esc(c.year)} Mach-E ${esc(c.trim)}</h2>
             ${priceHtml}
           </div>
+          ${cityState ? `<div class="carmeta">📍 ${esc(cityState)}</div>` : ''}
           <div class="badges">
             ${isNew}
             ${dt}
@@ -893,7 +895,8 @@ function buildSummary() {
   (DATA.cars || []).forEach((c) => { byVin[c.vin] = c; });
   const label = (c) => {
     const price = c.price != null ? money(c.price) : 'call for price';
-    return `${c.year} Mach-E ${c.trim} — ${c.drivetrain}, ${price}, ${c.color} (${c.location})`;
+    const cityState = cityStateOf(c.location);
+    return `${c.year} Mach-E ${c.trim} — ${c.drivetrain}, ${price}, ${c.color}${cityState ? ` (${cityState})` : ''}`;
   };
   const noteOf = (vin) => {
     const t = (COMMENTS[vin] || '').trim();

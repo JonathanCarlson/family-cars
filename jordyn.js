@@ -453,7 +453,7 @@ function carCard(c) {
         <h3>${esc(c.label)}${c.trim ? ` <span class="trim">${esc(c.trim)}</span>` : ''}</h3>
         <div class="price">${c.priceStatus === 'disputed' ? `<s class="price-bad">${money(c.price)}</s>` : money(c.price)}</div>
       </div>
-      <div class="car-sub">${milesFmt(c.miles)}${c.location ? ` · ${esc(c.location)}` : ''}${c.distanceMi != null ? ` · ${c.distanceMi} mi away` : ''}</div>
+      <div class="car-sub">${milesFmt(c.miles)}${cityStateOf(c.location) ? ` · ${esc(cityStateOf(c.location))}` : ''}${c.distanceMi != null ? ` · ${c.distanceMi} mi away` : ''}</div>
       ${priceDisputeBlock(c)}
       ${c.priceNote ? `<div class="pricenote">${esc(c.priceNote)}</div>` : ''}
       <div class="chips">${chips.join('')}</div>

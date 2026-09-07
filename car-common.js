@@ -22,6 +22,23 @@
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const b64ToU8 = (b64) => Uint8Array.from(atob(b64), (c) => c.charCodeAt(0));
+
+/**
+ * "Dealer Name, City ST" -> "City, ST". helpers/car-nightly-refresh.mjs always
+ * appends the dealer's city + state as the final comma-separated segment, so
+ * the LAST segment is the one to keep — splitting on every comma and taking
+ * the last handles dealer names that themselves contain a comma (e.g.
+ * "Bowen Scarff Ford- Kent, WA, Kent WA" -> "Kent, WA"). Shared here (not
+ * duplicated per page) so Kate's and Jordyn's short summaries format it
+ * identically.
+ */
+function cityStateOf(location) {
+  if (!location) return '';
+  const parts = String(location).split(',');
+  const last = parts[parts.length - 1].trim();
+  const m = /^(.*)\s+([A-Z]{2})$/.exec(last);
+  return m ? `${m[1].trim()}, ${m[2]}` : last;
+}
 // NOTE: number formatters deliberately stay in each page. cars.js's `money()`
 // returns null for null (its render code branches on that) while jordyn.js wants
 // an em-dash — declaring either here would collide at top-level scope and break
