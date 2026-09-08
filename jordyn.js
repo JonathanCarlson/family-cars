@@ -681,6 +681,29 @@ function costRows(cb) {
  * snow and towing, so this is something to weigh, not a gate. Unknown is shown
  * as unknown rather than quietly implying front-wheel drive.
  */
+/**
+ * Where the car is. Falls back to parsing the raw dealer string when the slim
+ * record predates cityState being published, so an older bundle degrades to the
+ * right answer instead of showing nothing.
+ */
+function placeOf(c) {
+  return c.cityState || (typeof cityStateOf === 'function' ? cityStateOf(c.location) : '') || '';
+}
+
+/** Its own line, for the watchlist rows. */
+function placeLine(c) {
+  const p = placeOf(c);
+  if (!p) return '';
+  const away = c.distanceMi != null ? ` · ${c.distanceMi} mi away` : '';
+  return `<div class="opp-s opp-loc">📍 ${esc(p)}${away}</div>`;
+}
+
+/** Inline, for the tighter cohort exemplar list. */
+function placeInline(c) {
+  const p = placeOf(c);
+  return p ? ` · <span class="opp-loc">📍 ${esc(p)}</span>` : '';
+}
+
 function awdChip(c) {
   if (c.awd === true) return ` · <b class="awd-yes">❄️ AWD</b>`;
   if (c.awd === false) return ` · <span class="awd-no">FWD/RWD</span>`;
@@ -711,6 +734,7 @@ function renderBand(bandId, elId) {
       ${w.cars.map((c) => `<div class="opp">
         <div class="opp-h">${esc(c.name)}</div>
         <div class="opp-s">${money(c.priceUsd)} · ${milesFmt(c.odometerMiles)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''} · 6yr ${money(c.sixYearTco)}</div>
+        ${placeLine(c)}
         <div class="opp-s">${c.safety?.meets ? '✅ automatic braking confirmed' : '⚠️ automatic braking unconfirmed'}${awdChip(c)}</div>
         ${costRows(c.costs)}
         <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">Full detail ↓</a></p>
@@ -730,7 +754,7 @@ function renderBand(bandId, elId) {
         <div class="opp-s">${c.yearRange ? `${c.yearRange.min}–${c.yearRange.max}` : ''} · ${money(c.priceUsd?.min)}–${money(c.priceUsd?.max)} · <b>6yr ${money(c.sixYearTco?.min)}–${money(c.sixYearTco?.max)}</b></div>
         <div class="opp-s">Automatic braking standard on ${c.safetyQualifiedPct}% of them${c.generationNote ? ` · ${esc(c.generationNote)}` : ''}</div>
         <ul class="rel-list">
-          ${c.exemplars.map((e) => `<li><b>${esc(e.role)}:</b> ${esc(e.name)} — ${money(e.priceUsd)}, 6yr ${money(e.sixYearTco)}
+          ${c.exemplars.map((e) => `<li><b>${esc(e.role)}:</b> ${esc(e.name)} — ${money(e.priceUsd)}, 6yr ${money(e.sixYearTco)}${placeInline(e)}
             <a href="#" class="listing" data-goto-vin="${esc(e.vin)}">detail ↓</a>
             ${costRows(e.costs)}</li>`).join('')}
         </ul>
