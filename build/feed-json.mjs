@@ -342,6 +342,13 @@ function listingOf(c) {
     sourceUrl: c.url || null,
     photoUrl: c.photo || null,
     dealerAndLocation: c.location || null,
+    // Split out so a consumer does not have to parse the dealer string. The
+    // place is the part that decides whether a car is worth the drive; the
+    // dealer name is noise in a summary.
+    dealerName: c.dealerName ?? null,
+    city: c.city ?? null,
+    state: c.state ?? null,
+    cityState: c.cityState ?? null,
     distanceFromBellevueMi: c.distanceMi ?? null,
     daysOnLot: c.daysOnLot ?? null,
     firstSeenInThisFeed: c.firstSeen || null,
