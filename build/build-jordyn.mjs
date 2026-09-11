@@ -20,7 +20,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { webcrypto as crypto } from 'node:crypto';
 import { buildUnlockBlob, newPassphrase, newToken, resolveSecret, writeFeed } from './car-access.mjs';
-import { rosterMarkdown } from './feed-markdown.mjs';
+import { feedMarkdown } from './feed-markdown.mjs';
 import { rosterFeed, feedText } from './feed-json.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -99,8 +99,9 @@ if (!Array.isArray(data.cars)) {
 const currentRows = [...data.cars, ...(data.browse || [])];
 const stale = currentRows.filter((car) => car?.stale === true);
 const fiskers = currentRows.filter((car) => /^fisker$/i.test(String(car?.make || '')));
-if (stale.length || fiskers.length) {
-  console.error(`❌ Refusing to publish: ${stale.length} unavailable and ${fiskers.length} Fisker listing(s) remain on current app surfaces.`);
+const badShipping = currentRows.filter((car) => car?.inventoryScope === 'national-fallback' && car?.shippingUsd !== 2000);
+if (stale.length || fiskers.length || badShipping.length) {
+  console.error(`❌ Refusing to publish: ${stale.length} unavailable, ${fiskers.length} Fisker, and ${badShipping.length} incorrectly-costed national fallback listing(s) remain on current app surfaces.`);
   process.exit(1);
 }
 data.built = new Date().toISOString();
@@ -130,7 +131,9 @@ const feedAll = (() => {
   try { return JSON.parse(readFileSync(ALL_JSON, 'utf8')); } catch { return null; }
 })();
 if (feedAll?.cars) {
-  const invalidAll = feedAll.cars.filter((car) => car?.stale === true || /^fisker$/i.test(String(car?.make || '')));
+  const invalidAll = feedAll.cars.filter((car) => car?.stale === true
+    || /^fisker$/i.test(String(car?.make || ''))
+    || (car?.inventoryScope === 'national-fallback' && car?.shippingUsd !== 2000));
   if (invalidAll.length) {
     console.error(`❌ Refusing to publish: ${invalidAll.length} unavailable/Fisker listing(s) remain in jordyn-all.json.`);
     process.exit(1);
@@ -142,7 +145,7 @@ writeFeed({
   files: {
     json: feedDoc,                    // application/json — the canonical contract
     txt: feedText(feedDoc),           // text/plain — same data, rendered from the JSON
-    md: rosterMarkdown(data, 'jordyn'),
+    md: feedMarkdown(feedDoc),
   },
 });
 

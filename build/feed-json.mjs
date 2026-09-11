@@ -32,7 +32,7 @@ export const NPV_DISCOUNT_RATE = 0.05;
 /**
  * Net present value of a TCO at NPV_DISCOUNT_RATE. Mirrors the page's npvOfTco
  * (jordyn.js) EXACTLY, so the machine-readable feed can never disagree with the
- * NPV the site renders: the upfront purchase + sales tax is undiscounted,
+ * NPV the site renders: the upfront purchase + shipping + sales tax is undiscounted,
  * recurring costs are spread evenly over the years and discounted annually, and
  * the resale credit is discounted back from the end of the window. Later dollars
  * count for less, so this runs a little under the nominal total. Needs the rich
@@ -44,7 +44,7 @@ export function npvOfTco(t) {
   const years = t?.years;
   if (!it || !years) return null;
   const r = NPV_DISCOUNT_RATE;
-  const upfront = (it.purchase ?? it.valueConsumed ?? 0) + (it.salesTax ?? 0);
+  const upfront = (it.purchase ?? it.valueConsumed ?? 0) + (it.shipping ?? 0) + (it.salesTax ?? 0);
   const recurring = (it.energy ?? 0) + (it.maintenance ?? 0) + (it.insurance ?? 0)
     + (it.registration ?? 0) + (it.majorRepairReserve ?? 0);
   const annual = recurring / years;
@@ -230,6 +230,7 @@ function tcoOf(t) {
     electricMilesShare: t.evShare ?? null,
     costs: {
       purchasePrice: round(i.purchase),
+      shipping: round(i.shipping),
       salesTax: round(i.salesTax),
       fuelAndElectricity: round(i.energy),
       maintenance: round(i.maintenance),
@@ -325,6 +326,9 @@ function listingOf(c) {
     displayName: c.label,
 
     askingPriceUsd: c.price ?? null,
+    shippingEstimateUsd: c.shippingUsd ?? 0,
+    inventoryScope: c.inventoryScope ?? 'pnw',
+    localCandidateCountAtScan: c.localCandidateCount ?? null,
     priceRecentlyReduced: Boolean(c.priceNote),
     // A price the seller has told us is wrong must never be read as fact by a
     // downstream consumer. When priceStatus is 'disputed', askingPriceUsd is
@@ -421,6 +425,8 @@ export function rosterFeed(data, allCars = null) {
     vin: l.vin,
     name: `${l.displayName}${l.trim ? ` ${l.trim}` : ''}`,
     askingPriceUsd: l.askingPriceUsd,
+    shippingEstimateUsd: l.shippingEstimateUsd,
+    inventoryScope: l.inventoryScope,
     odometerMiles: l.odometerMiles,
     powertrain: l.powertrain.label,
     electricDriveShare: l.electricDriveShare,
@@ -455,7 +461,7 @@ export function rosterFeed(data, allCars = null) {
   return {
     feed: {
       name: 'jordyn-first-car',
-      schemaVersion: '1.7',
+      schemaVersion: '1.8',
       generatedAt: new Date().toISOString(),
       rosterUpdated: data.updated || null,
       listingCount: cars.length,
@@ -465,10 +471,15 @@ export function rosterFeed(data, allCars = null) {
         searchedToUsd: data.budget?.searchedTo ?? 22000,
         kateDefaultCeilingUsd: data.budget?.kateDefaultCeiling ?? 25000,
         kateInterestCeilingUsd: data.budget?.kateInterestCeiling ?? 30000,
-        note: '$15k is Jordyn\'s preferred target. Kate\'s EV band normally stops at $25k; only explicitly named interests may extend to $30k, with stricter model-specific ceilings where applicable.',
+        note: '$15k is Jordyn\'s preferred target. Kate\'s EV band normally stops at $25k; only explicitly named interests may extend to $30k, with stricter model-specific ceilings where applicable. A named model with fewer than three qualifying PNW examples receives national fallback inventory costed with $2,000 shipping.',
       },
       searchRadiusMi: 250,
-      discovery: 'No model whitelist and no safety filter at the query — option data in listing feeds is patchy, so filtering on "has AEB" would silently drop qualifying cars. Discovery is broad; safety is verified afterwards from the VIN.',
+      nationalFallback: {
+        appliesTo: 'Explicitly named Kate models only',
+        trigger: 'Fewer than 3 qualifying listings in the 250-mile PNW search',
+        shippingEstimateUsdPerCar: 2000,
+      },
+      discovery: 'Broad inventory is Bellevue-centered within 250 miles, with no model whitelist or safety filter at query time. Only explicitly named Kate models with fewer than three qualifying PNW examples are supplemented nationally; those cars are tagged national-fallback and carry $2,000 shipping.',
       refresh: 'Regenerated nightly from live Autotrader inventory. Listings appear and sell quickly — always confirm against sourceUrl before acting.',
       howToReadThis: [
         'null means UNKNOWN and is always distinct from false. Never render a null as a negative.',
@@ -518,7 +529,8 @@ export function rosterFeed(data, allCars = null) {
       'reliabilityByModelYear.*.queriedAsNhtsaModel': 'The model name actually queried. NHTSA matches names exactly and splits many models by powertrain variant ("IONIQ HYBRID" vs "IONIQ PLUG-IN HYBRID" vs "IONIQ ELECTRIC"; "CLARITY PLUG-IN HYBRID" vs "CLARITY FUEL CELL"), returning an empty result with HTTP 200 on a miss. The variant is chosen from the VIN-resolved powertrain, never by name similarity. This field lets you verify we asked about the right car.',
       'reliabilityByModelYear.*.sourceUrl': 'Triangulated from freely accessible public sources, primarily NHTSA complaints/recalls. NOT J.D. Power and NOT Consumer Reports. Complaint counts are not adjusted for sales volume, so raw counts are not comparable between a high-volume and a low-volume model.',
       'listing.vehicleHistory': 'From the dealer-supplied CARFAX/AutoCheck summary on the listing. Badges come in affirming/negating pairs, so true AND false are both affirmative statements from the report; null means NEITHER badge was present, i.e. NOT REPORTED. Never read null as the negative. Always pull a full VIN history before buying.',
-      'listing.costToOwn': 'totalCostOfOwnership = purchasePrice + salesTax + fuelAndElectricity + maintenance + insurance + registrationAndFees + majorRepairReserve − resaleValueRecovered. Inputs are in costAssumptions. ⚠️ ALWAYS read costedFor and milesPerYear before quoting a total: this block is costed for whoever would actually drive THIS car, so a Mach-E is at Kate\'s 13,520 mi/yr while a Leaf for Jordyn is at 6,760. Comparing one driver\'s total against another\'s is meaningless.',
+      'listing.costToOwn': 'totalCostOfOwnership = purchasePrice + shipping + salesTax + fuelAndElectricity + maintenance + insurance + registrationAndFees + majorRepairReserve − resaleValueRecovered. National fallback cars carry a $2,000 shipping estimate; local PNW cars carry $0. Inputs are in costAssumptions. ⚠️ ALWAYS read costedFor and milesPerYear before quoting a total.',
+      'listing.inventoryScope': '`pnw` means the normal Bellevue-centered 250-mile search. `national-fallback` appears only for a model explicitly named by Kate when fewer than three qualifying local examples exist; shippingEstimateUsd is then included in TCO, NPV and cash-required calculations.',
       'listing.costToOwnByDriver': 'The SAME car costed both ways, so the assignment question ("who should drive this?") can be answered directly. Kate drives exactly double Jordyn (13,520 vs 6,760 mi/yr), so an efficient car saves twice as much parked under her — that ratio is the whole reason the question has an answer. `estimated: true` on the kate block means only the Jordyn-mileage figure existed and was reused; treat it as a floor, not a computed total.',
       'listing.costToOwn.*.netPresentValueUsd': 'The same cost stream discounted to today at 5%/yr (costAssumptions.npvDiscountRatePctPerYear). Purchase + sales tax are undiscounted; recurring costs are spread evenly across the years and discounted annually; the resale credit is discounted back from the end of the window. It runs a little BELOW totalCostOfOwnership because costs that land late are weighted down — it shows DIRECTION, not added precision. Present on every cost block, so costToOwnByDriver carries it for BOTH Jordyn and Kate, and it matches the NPV shown on the page.',
       'listing.costToOwn.*.insurance': 'This car\'s own premium ONLY. The $2,400/yr to add Jordyn as a driver is a household cost — owed whichever car is bought — and is counted once in highlanderAndPlans, never here. Do not add it to a listing.',
@@ -870,7 +882,7 @@ export function feedText(feed) {
       if (!t) continue;
       const q = t.costs;
       L.push(`  ${label} cost to own`);
-      L.push(`    purchase ${q.purchasePrice} + tax ${q.salesTax} + fuel ${q.fuelAndElectricity} + maint ${q.maintenance}`);
+      L.push(`    purchase ${q.purchasePrice} + shipping ${q.shipping ?? 0} + tax ${q.salesTax} + fuel ${q.fuelAndElectricity} + maint ${q.maintenance}`);
       L.push(`    + insurance ${q.insurance} + fees ${q.registrationAndFees} + repairs ${q.majorRepairReserve} - resale ${t.resaleValueRecovered}`);
       L.push(`    = $${(t.totalCostOfOwnership || 0).toLocaleString('en-US')} ($${t.averagePerMonth}/mo over ${(t.milesDriven || 0).toLocaleString('en-US')} mi)`);
       if (t.netPresentValueUsd != null) L.push(`    NPV (5%/yr): $${t.netPresentValueUsd.toLocaleString('en-US')} — same costs discounted to today, later dollars weigh less`);

@@ -53,8 +53,8 @@ passphrase or run WebCrypto. Hand it the page URL and it gets an empty shell. So
 each build also writes a plaintext copy at an unguessable path:
 
 ```
-feed/<token>/jordyn.md     ← best for an LLM: prose + tables, self-describing
-feed/<token>/jordyn.json   ← the full structured roster
+feed/<token>/jordyn.md     ← exact JSON-equivalent payload inside Markdown
+feed/<token>/jordyn.json   ← the canonical structured roster
 ```
 
 > ⚠️ **The feed is NOT encrypted.** Its privacy is the unguessable URL alone —
@@ -78,6 +78,11 @@ node build/build-jordyn.mjs --rotate        # new key AND passphrase AND feed
 node --test build/car-access.test.mjs       # verify all of it round-trips
 ```
 
+The Markdown file is generated from the canonical JSON feed document and embeds
+that document in full, so it carries the same budgets, shortlists, Bargain
+components, recall status, shipping assumptions and listing detail. It is not
+the older reduced page-roster export.
+
 `build/*-pass.txt` and `build/*-feed.txt` are gitignored alongside the keys.
 
 ## Layout
@@ -92,7 +97,7 @@ styles.css            shared design tokens and base components
 build/build-*.mjs     encrypt build/<roster>.json → data/<roster>.enc.json,
                       write data/<roster>.unlock.json + feed/<token>/
 build/car-access.mjs  passphrase wrapping, feed writing, secret rotation
-build/feed-markdown.mjs  render a roster as Markdown for machine readers
+build/feed-markdown.mjs  render the canonical JSON-equivalent Markdown feed
 robots.txt            keep crawlers out of /feed/ and /data/
 ```
 

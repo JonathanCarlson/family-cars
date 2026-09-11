@@ -372,7 +372,7 @@ function npvOfTco(t) {
   const years = t?.years;
   if (!it || !years) return null;
   const r = NPV_DISCOUNT_RATE;
-  const upfront = (it.purchase ?? it.valueConsumed ?? 0) + (it.salesTax ?? 0);
+  const upfront = (it.purchase ?? it.valueConsumed ?? 0) + (it.shipping ?? 0) + (it.salesTax ?? 0);
   const recurring = (it.energy ?? 0) + (it.maintenance ?? 0) + (it.insurance ?? 0)
     + (it.registration ?? 0) + (it.majorRepairReserve ?? 0);
   const annual = recurring / years;
@@ -398,6 +398,7 @@ function tcoBlock(c) {
   const npv = npvOfTco(t);
   const rows = [
     ['Sales tax', it.salesTax],
+    ['Shipping', it.shipping],
     ['Fuel / charging', it.energy],
     // NOT "teen driver" — that addition is a household cost, incurred because
     // Jordyn drives at all rather than because of this car, and counted once in
@@ -522,6 +523,7 @@ function carCard(c) {
   // states the stretch and shows the running cost right underneath it.
   if (c.overPreferredBudget) chips.push('<span class="sb sb-warn" title="Above the $15k target — see whether the 6-year cost justifies it">💰 Over $15k target</span>');
   if (c.econEstimated) chips.push('<span class="sb" title="No EPA figures on this listing; running costs use a class-average estimate">≈ Estimated running cost</span>');
+  if ((c.shippingUsd ?? 0) > 0) chips.unshift(`<span class="sb sb-warn">🚚 ${money(c.shippingUsd)} shipping included</span>`);
 
   return `
   <article class="car${c.standout ? ' standout' : ''}" data-vin="${esc(c.vin)}">
@@ -539,6 +541,7 @@ function carCard(c) {
         <div class="price">${c.priceStatus === 'disputed' ? `<s class="price-bad">${money(c.price)}</s>` : money(c.price)}</div>
       </div>
       <div class="car-sub">${milesFmt(c.miles)}${cityStateOf(c.location) ? ` · ${esc(cityStateOf(c.location))}` : ''}${c.distanceMi != null ? ` · ${c.distanceMi} mi away` : ''}</div>
+      ${(c.shippingUsd ?? 0) > 0 ? `<p class="shipping-note">National fallback because only ${c.localCandidateCount ?? 0} qualifying PNW example${c.localCandidateCount === 1 ? '' : 's'} were found. Every cost figure includes ${money(c.shippingUsd)} estimated shipping.</p>` : ''}
       ${priceDisputeBlock(c)}
       ${c.priceNote ? `<div class="pricenote">${esc(c.priceNote)}</div>` : ''}
       <div class="chips">${chips.join('')}</div>
@@ -733,6 +736,7 @@ function kateCostBreakdown(c) {
   if (!it) return '';
   const LABEL = {
     purchase: 'Purchase price',
+    shipping: 'Shipping',
     salesTax: 'Sales tax',
     energy: 'Fuel / charging',
     maintenance: 'Maintenance',
@@ -834,7 +838,7 @@ function renderBand(bandId, elId) {
       <p class="tier-blurb">${esc(b.bargains.method)} This is deliberately separate from TCO.</p>
       ${b.bargains.cars.map((c) => `<div class="opp">
         <div class="opp-h">${esc(c.name)} <span class="tier-n">Bargain ${c.bargain?.score ?? '—'}</span></div>
-        <div class="opp-s">${money(c.priceUsd)} · ${milesFmt(c.odometerMiles)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''} · Kate fit ${c.kateFit?.score ?? '—'}</div>
+        <div class="opp-s">${money(c.priceUsd)}${c.shippingUsd ? ` + ${money(c.shippingUsd)} shipping` : ''} · ${milesFmt(c.odometerMiles)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''} · Kate fit ${c.kateFit?.score ?? '—'}</div>
         ${placeLine(c)}
         ${kateResearchSummary(c)}
         <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">See details with similar cars ↓</a></p>
@@ -846,13 +850,14 @@ function renderBand(bandId, elId) {
     parts.push(`<div class="card">
       <h2 class="ins-h">⭐ ${esc(w.label)} <span class="tier-n">${w.count} found</span></h2>
       <p class="tier-blurb">${esc(w.why)} Listed individually rather than summarised — "which ones are out there?" is the actual question.</p>
+      ${w.nationalCount ? `<p class="shipping-note">${w.localCount} qualifying PNW · ${w.nationalCount} national fallback. Each national car includes $2,000 shipping in the numbers below.</p>` : ''}
       ${w.criteria?.length ? `<ul class="rel-list">${w.criteria.map((item) => `<li>${esc(item)}</li>`).join('')}</ul>` : ''}
       ${w.riskNote ? `<p class="fineprint fineprint-bad">${esc(w.riskNote)}</p>` : ''}
       ${w.priceUsd ? `<p class="opp-s">${money(w.priceUsd.min)}–${money(w.priceUsd.max)} · 6yr ${money(w.sixYearTco?.min)}–${money(w.sixYearTco?.max)}</p>` : ''}
       ${w.note ? `<p class="tco-note">${esc(w.note)}</p>` : ''}
       ${w.cars.map((c) => `<div class="opp">
         <div class="opp-h">${esc(c.name)}</div>
-        <div class="opp-s">${money(c.priceUsd)} · ${milesFmt(c.odometerMiles)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''} · 6yr ${money(c.sixYearTco)}</div>
+        <div class="opp-s">${money(c.priceUsd)}${c.shippingUsd ? ` + ${money(c.shippingUsd)} shipping` : ''} · ${milesFmt(c.odometerMiles)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''} · 6yr ${money(c.sixYearTco)}</div>
         ${placeLine(c)}
         <div class="opp-s">${c.safety?.meets ? '✅ automatic braking confirmed' : '⚠️ automatic braking unconfirmed'}${awdChip(c)}</div>
         ${kateResearchSummary(c)}
@@ -1051,7 +1056,7 @@ function renderFamily() {
     const b = s.best;
     return `<div class="opp">
         <div class="opp-h">${esc(b.name)} ${s.overCashCap ? '<span class="tier-n">over cash cap</span>' : '<span class="tier-n">in budget</span>'}</div>
-        <div class="opp-s">${money(b.priceUsd)} · ${milesFmt(b.odometerMiles)}${b.evRangeMi ? ` · ${b.evRangeMi} mi range` : ''} · ${s.found} found</div>
+        <div class="opp-s">${money(b.priceUsd)}${b.shippingUsd ? ` + ${money(b.shippingUsd)} shipping` : ''} · ${milesFmt(b.odometerMiles)}${b.evRangeMi ? ` · ${b.evRangeMi} mi range` : ''} · ${s.found} found</div>
         <div class="opp-s"><b>Household ${money(b.familyTotalIfKate)}</b> if Kate drives it${b.vsReferencePlan > 0 ? ` — ${money(b.vsReferencePlan)} less than the plan to beat` : ''}</div>
         <div class="opp-s">${esc(s.verdict)}</div>
         ${kateResearchSummary(b)}
@@ -1634,7 +1639,7 @@ function browseRow(c) {
     <div class="brow-top">
       <div class="brow-main">
         <div class="brow-t">${esc(c.label)}${c.trim ? ` <span class="trim">${esc(c.trim)}</span>` : ''}</div>
-        <div class="brow-s">${money(c.price)} · ${milesFmt(c.miles)} · ${POWER_LABEL[c.power] || esc(c.power)}${c.distanceMi != null ? ` · ${c.distanceMi} mi away` : ''}</div>
+        <div class="brow-s">${money(c.price)}${c.shippingUsd ? ` + ${money(c.shippingUsd)} ship` : ''} · ${milesFmt(c.miles)} · ${POWER_LABEL[c.power] || esc(c.power)}${c.distanceMi != null ? ` · ${c.distanceMi} mi away` : ''}</div>
         <div class="chips">${tags.join('')}</div>
       </div>
       <div class="brow-r">

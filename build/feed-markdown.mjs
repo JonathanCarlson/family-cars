@@ -22,6 +22,7 @@ function tcoLines(t) {
   if (!t || !t.items) return [];
   const order = [
     ['purchase', 'Purchase price'],
+    ['shipping', 'Shipping'],
     ['salesTax', 'Sales tax'],
     ['energy', 'Fuel / electricity'],
     ['maintenance', 'Maintenance'],
@@ -50,6 +51,9 @@ function carSection(c, i) {
   if (c.location) L.push(`- Location: ${c.location}${c.distanceMi != null ? ` (${Math.round(c.distanceMi)} mi away)` : ''}`);
   if (c.daysOnLot != null) L.push(`- Days on lot: ${c.daysOnLot}`);
   if (c.url) L.push(`- Listing: ${c.url}`);
+  if ((c.shippingUsd ?? 0) > 0) {
+    L.push(`- Shipping: **${money(c.shippingUsd)} estimate included in every TCO** — national fallback because only ${c.localCandidateCount ?? 0} qualifying PNW examples were found.`);
+  }
   if (c.bargain) {
     L.push(`- Bargain score: **${c.bargain.score}/100 — ${c.bargain.label}**`);
     const discount = c.bargain.components?.purchaseDiscount;
@@ -239,4 +243,42 @@ export function rosterMarkdown(data, kind) {
   cars.forEach((c, i) => L.push(carSection(c, i + 1)));
 
   return L.join('\n');
+}
+
+/**
+ * Markdown transport for the canonical family feed.
+ *
+ * This embeds the exact JSON document rather than rebuilding a second,
+ * lossy projection. A reader that can download Markdown therefore receives
+ * every field available at the .json URL: budgets, shortlists, bands, market
+ * analysis, Bargain components, recall status, shipping, and listing details.
+ */
+export function feedMarkdown(feed) {
+  const meta = feed?.feed || {};
+  const lines = [
+    `# ${meta.name || 'Family car feed'}`,
+    '',
+    `**${meta.listingCount ?? 0} detailed current listings** · roster updated ${meta.rosterUpdated || 'unknown'} · schema ${meta.schemaVersion || 'unknown'}`,
+    '',
+    '> This Markdown file contains the exact same structured document as the sibling JSON feed.',
+    '> The readable header is followed by a complete JSON block so no field or provenance is lost.',
+    '',
+    meta.purpose || '',
+    '',
+    '## Quick links inside the data',
+    '',
+    '- `shortlists.topBargains` — strongest depreciation values',
+    '- `shortlists.kateInterests` — current cars from Kate\'s named models',
+    '- `bands.kate` / `bands.jordyn` — the two focused candidate sets',
+    '- `listings` — complete detail records, including recall and shipping fields',
+    '- `allCars.url` — companion current-market inventory',
+    '',
+    '## Complete feed document',
+    '',
+    '```json',
+    JSON.stringify(feed, null, 2),
+    '```',
+    '',
+  ];
+  return lines.join('\n');
 }
