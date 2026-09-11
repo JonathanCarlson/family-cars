@@ -156,6 +156,8 @@ function historyOf(c) {
     return {
       reportAvailable: false,
       salvageTitle: null,
+      brandedTitle: null,
+      lemonOrManufacturerBuyback: null,
       frameDamage: null,
       floodDamage: null,
       accidentsReported: null,
@@ -167,6 +169,8 @@ function historyOf(c) {
   const out = {
     reportAvailable: true,
     salvageTitle: h.salvageTitle ?? null,
+    brandedTitle: h.brandedTitle ?? null,
+    lemonOrManufacturerBuyback: h.lemonBuyback ?? null,
     frameDamage: h.frameDamage ?? null,
     floodDamage: h.floodDamage ?? null,
     accidentsReported: h.accidentsReported ?? null,
@@ -178,6 +182,8 @@ function historyOf(c) {
   if (out.salvageTitle === true) {
     warnings.push('SALVAGE TITLE: declared a total loss and rebuilt. Structural repair quality is unverifiable from a listing, crash and airbag performance may be compromised, some insurers will not write full coverage, and resale is far below a clean-title equivalent — so resaleValueRecovered in costToOwn is optimistic for this car.');
   }
+  if (out.lemonOrManufacturerBuyback === true) warnings.push('LEMON / MANUFACTURER BUYBACK reported — default rejection for Kate.');
+  else if (out.brandedTitle === true) warnings.push('BRANDED TITLE reported — default rejection for Kate.');
   if (out.frameDamage === true) warnings.push('FRAME DAMAGE reported — affects crash-structure integrity.');
   if (out.floodDamage === true) warnings.push('FLOOD/WATER DAMAGE reported — long-term electrical and corrosion risk, particularly severe in an EV or hybrid.');
   if (warnings.length) out.warnings = warnings;
@@ -352,7 +358,9 @@ function listingOf(c) {
     distanceFromBellevueMi: c.distanceMi ?? null,
     daysOnLot: c.daysOnLot ?? null,
     firstSeenInThisFeed: c.firstSeen || null,
-    stillListed: c.stale !== true,
+    // The publish build rejects stale records. Historical listings live only
+    // in the Vault inventory log, never in this current-inventory feed.
+    stillListed: true,
 
     powertrain: powertrainOf(c),
     electricDriveShare: c.power === 'BEV' ? 1 : (c.tco6?.evShare ?? (c.power === 'ICE' || c.power === 'HYB' ? 0 : null)),
@@ -378,10 +386,13 @@ function listingOf(c) {
     viability2032: c.viability
       ? { ...c.viability, reasons: c.viability.reasons, caveat: undefined }
       : null,
+    bargain: c.bargain ?? null,
+    kateResearch: c.kateResearch ?? null,
 
     ranking: {
       safetyTier: c.tier || null,
       matchScore: c.matchScore ?? null,
+      kateMatchScore: c.kateFit?.score ?? null,
       flags: c.flags || [],
     },
     humanNote: c.note || null,
@@ -416,6 +427,10 @@ export function rosterFeed(data, allCars = null) {
     sixYearCostUsd: l.costToOwn.sixYear?.totalCostOfOwnership ?? null,
     twoYearCostUsd: l.costToOwn.twoYear?.totalCostOfOwnership ?? null,
     matchScore: l.ranking.matchScore,
+    kateMatchScore: l.ranking.kateMatchScore,
+    bargainScore: l.bargain?.score ?? null,
+    bargainLabel: l.bargain?.label ?? null,
+    riskGate: l.kateResearch?.riskGate ?? l.bargain?.riskGate ?? null,
     salvageTitle: l.vehicleHistory.salvageTitle,
     accidentsReported: l.vehicleHistory.accidentsReported,
     sourceUrl: l.sourceUrl,
@@ -428,19 +443,29 @@ export function rosterFeed(data, allCars = null) {
   // So the bias lives here, as an explicit second list, instead of being smuggled
   // into matchScore where it would silently distort every cost comparison.
   const plugIn = byScore.filter((l) => l.powertrain.isPlugIn && l.powertrain.vinVerified);
+  const topBargains = [...listings]
+    .filter((l) => l.powertrain.isPlugIn && l.bargain && !['REJECT', 'HOLD_RECALL_LOOKUP_FAILED'].includes(l.bargain.riskGate))
+    .sort((a, b) => b.bargain.score - a.bargain.score
+      || (b.ranking.kateMatchScore ?? b.ranking.matchScore ?? 0) - (a.ranking.kateMatchScore ?? a.ranking.matchScore ?? 0));
+  const kateInterests = [...listings]
+    .filter((l) => l.kateResearch?.interestId)
+    .sort((a, b) => (b.ranking.kateMatchScore ?? 0) - (a.ranking.kateMatchScore ?? 0)
+      || (b.bargain?.score ?? 0) - (a.bargain?.score ?? 0));
 
   return {
     feed: {
       name: 'jordyn-first-car',
-      schemaVersion: '1.6',
+      schemaVersion: '1.7',
       generatedAt: new Date().toISOString(),
       rosterUpdated: data.updated || null,
       listingCount: cars.length,
-      purpose: 'Used cars near Bellevue WA for a first-time teen driver, screened for safety and ranked on total cost to own.',
+      purpose: 'Current used-car inventory for the family: a safety/TCO view for Jordyn and a premium-EV depreciation view for Kate.',
       budget: {
         preferredUsd: data.budget?.preferred ?? 15000,
         searchedToUsd: data.budget?.searchedTo ?? 22000,
-        note: '$15k is the preferred target, but discovery runs to the ceiling so cost-to-own can argue for a dearer car rather than a price rule excluding it. Cars above the target carry overPreferredBudget: true.',
+        kateDefaultCeilingUsd: data.budget?.kateDefaultCeiling ?? 25000,
+        kateInterestCeilingUsd: data.budget?.kateInterestCeiling ?? 30000,
+        note: '$15k is Jordyn\'s preferred target. Kate\'s EV band normally stops at $25k; only explicitly named interests may extend to $30k, with stricter model-specific ceilings where applicable.',
       },
       searchRadiusMi: 250,
       discovery: 'No model whitelist and no safety filter at the query — option data in listing feeds is patchy, so filtering on "has AEB" would silently drop qualifying cars. Discovery is broad; safety is verified afterwards from the VIN.',
@@ -452,6 +477,8 @@ export function rosterFeed(data, allCars = null) {
         'reliability lives in reliabilityByModelYear, keyed by listing.reliabilityKey. It is model-year scope and says nothing about the condition of the individual car.',
         'vehicleHistory badges are affirming/negating pairs; null means not reported, NOT the negative.',
         'Start from shortlists.topOverall and shortlists.topElectric — the full listings array is long.',
+        'Bargain score is separate from TCO and uses the published 25/20/15/15/10/10/5 component weights. Read its riskGate before treating a depreciated car as actionable.',
+        'Only listings returned by the current successful scan are published. Cars that disappear are retained in the Vault Listing History, not in this feed.',
         'listings[] holds full detail for the shortlisted cars. Every car the sweep found is in the companion file jordyn-all.json (see allCars.url) — use it for market-wide questions.',
         'marketAnalysis is where the population-level answers live: cohorts (model + generation + powertrain + battery, NOT model name), a safety-gated primary ranking, opportunities found from the data, and the methodology needed to challenge any of it.',
         'Safety is a GATE, not a weight. marketAnalysis.safetyFirst excludes a car only when AEB is CONFIRMED ABSENT — never when it is merely unverified.',
@@ -500,7 +527,9 @@ export function rosterFeed(data, allCars = null) {
       'listing.viability2032': 'Coarse judgement of whether the car is still economically worth owning at the end of the 6-year window, from age, mileage, projected battery health, and the size of the expected repair reserve relative to the car\'s value. Condition of the individual car dominates all of it — get a pre-purchase inspection.',
       'repairHazardCatalog': 'Definitions for the hazard ids referenced by listing.repairOutlook.components, stated once here rather than repeated on every car. Includes the cost range and the basis for each probability.',
       'listing.ranking.matchScore': 'Internal 0-100 fit score used to order the page: safety, then cost to own, then longevity, multiplied by reliability and title-history factors. Powertrain-neutral by design — electric cars are not given a bonus, so where they win they win on cost. Not a quality rating.',
-      'listing.stillListed': 'false means the car was in a previous scan but the latest one no longer returns it — probably sold.',
+      'listing.stillListed': 'Always true in this current-inventory feed. Listings absent from the latest successful scan are removed here and retained only in the Vault Listing History.',
+      'listing.bargain': 'A separate 0-100 depreciation-value score: 25% discount from original MSRP, 20% reliability/catastrophic-failure risk, 15% local manufacturer serviceability, 15% driving character/performance, 10% premium interior/features, 10% range/charging suitability and 5% rarity/interestingness. It does not replace TCO, and an open risk gate remains visible.',
+      'listing.kateResearch': 'Model-specific buying criteria and required checks for Kate. Jaguar I-PACE entries include every potentially applicable HV-battery campaign for the model year plus the latest Jaguar VIN lookup status; absence from the open-recall result is not represented as proof of completion.',
     },
 
     shortlists: {
@@ -518,6 +547,14 @@ export function rosterFeed(data, allCars = null) {
           .slice(0, 5)
           .map(brief),
       },
+      topBargains: {
+        note: 'Premium/interesting EV depreciation values, separate from TCO. Risk gates are never hidden by a high score.',
+        cars: topBargains.slice(0, 12).map(brief),
+      },
+      kateInterests: {
+        note: 'Live examples of models Kate explicitly named, ranked on her model-specific fit criteria.',
+        cars: kateInterests.slice(0, 30).map(brief),
+      },
     },
 
     // Her own picks, with every car measured against the same baseline. Kept out
@@ -534,7 +571,7 @@ export function rosterFeed(data, allCars = null) {
     // same problem the page did.
     bands: data.bands
       ? {
-        note: 'Two candidate sets with different rules. Jordyn: $5-15k, any powertrain, decided on safety then cost to own. Kate: $15-25k, BATTERY-ELECTRIC ONLY (petrol, hybrid and plug-in hybrid are all excluded), decided on comfort and whether it is an upgrade on her 2017 Highlander Limited.',
+        note: 'Two candidate sets with different rules. Jordyn: $10-15k, any powertrain, decided on safety then cost to own. Kate: $15-25k for battery-electric cars, extended to model-specific ceilings no higher than $30k only for named interests, decided on fit, risk and depreciation value.',
         cohortNote: 'Cohorts are model + generation + battery, NOT model name. A 2013 Leaf and a 2023 Leaf share a badge and nothing else, so a range built on the name alone would average incomparable cars.',
         exemplarNote: 'Two per cohort: the best of the group by overall fit, and the cheapest to own that still clears the safety floor. Deliberately not the two cheapest, which surfaces the worst-condition examples and makes every group look like a bargain it is not.',
         jordyn: data.bands.jordyn,
@@ -615,7 +652,7 @@ export function rosterFeed(data, allCars = null) {
       ? {
         count: allCars.count,
         generated: allCars.generated,
-        note: `${allCars.note} Fields are flat: aeb/bsm rather than a nested safety object, and tco2/tco6 are plain dollar totals rather than breakdowns.`,
+        note: `${allCars.note} It contains current-scan inventory only; unavailable historical listings stay in the Vault. Fields are flat: aeb/bsm rather than a nested safety object, and tco2/tco6 are plain dollar totals rather than breakdowns.`,
         // Served as its OWN file. Inlining 2,974 records made this document 5 MB,
         // which is large enough that the clients it exists for start truncating
         // it — and a silently truncated feed is worse than a second URL.
@@ -768,10 +805,24 @@ export function feedText(feed) {
     L.push(rule());
     L.push(`  VIN                     ${c.vin}`);
     L.push(`  odometer                ${(c.odometerMiles || 0).toLocaleString('en-US')} mi`);
-    L.push(`  condition               ${c.condition}${c.exteriorColor ? ` · ${c.exteriorColor}` : ''}`);
+    L.push(`  condition               ${c.condition}${c.exteriorColor ? ` · ${String(c.exteriorColor).trim()}` : ''}`);
     L.push(`  where                   ${c.dealerAndLocation || '?'}${c.distanceFromBellevueMi != null ? ` (${c.distanceFromBellevueMi} mi)` : ''}`);
     if (c.daysOnLot != null) L.push(`  days on lot             ${c.daysOnLot}`);
     L.push(`  listing                 ${c.sourceUrl}`);
+    if (c.bargain) {
+      L.push(`  bargain                 ${c.bargain.score}/100 — ${c.bargain.label}`);
+      const d = c.bargain.components?.purchaseDiscount;
+      if (d) L.push(`    MSRP discount         ${d.detail}`);
+      L.push(`    risk/service          ${c.bargain.components?.reliabilityRisk?.score ?? '?'} / ${c.bargain.components?.localServiceability?.score ?? '?'}`);
+    }
+    if (c.kateResearch) {
+      L.push(`  Kate fit                ${c.ranking.kateMatchScore ?? '—'}/100 · ${c.kateResearch.riskGate}`);
+      for (const recall of c.kateResearch.hvBatteryRecalls || []) {
+        L.push(`    HV recall             ${recall.nhtsaCampaign} / ${(recall.oemCampaigns || []).join(', ')} — ${recall.status}`);
+        if (recall.restriction) L.push(`      restriction         ${recall.restriction}`);
+      }
+      for (const warning of c.kateResearch.cautions || []) L.push(`    !! ${warning}`);
+    }
 
     const p = c.powertrain;
     L.push(`  powertrain              ${p.label}${p.electricRangeMi ? ` · ${p.electricRangeMi} mi electric` : ''}`);

@@ -96,6 +96,13 @@ if (!Array.isArray(data.cars)) {
   console.error('❌ build/jordyn.json has no cars[] array.');
   process.exit(1);
 }
+const currentRows = [...data.cars, ...(data.browse || [])];
+const stale = currentRows.filter((car) => car?.stale === true);
+const fiskers = currentRows.filter((car) => /^fisker$/i.test(String(car?.make || '')));
+if (stale.length || fiskers.length) {
+  console.error(`❌ Refusing to publish: ${stale.length} unavailable and ${fiskers.length} Fisker listing(s) remain on current app surfaces.`);
+  process.exit(1);
+}
 data.built = new Date().toISOString();
 
 mkdirSync(OUT_DIR, { recursive: true });
@@ -122,6 +129,13 @@ const feedAll = (() => {
   if (!existsSync(ALL_JSON)) return null;
   try { return JSON.parse(readFileSync(ALL_JSON, 'utf8')); } catch { return null; }
 })();
+if (feedAll?.cars) {
+  const invalidAll = feedAll.cars.filter((car) => car?.stale === true || /^fisker$/i.test(String(car?.make || '')));
+  if (invalidAll.length) {
+    console.error(`❌ Refusing to publish: ${invalidAll.length} unavailable/Fisker listing(s) remain in jordyn-all.json.`);
+    process.exit(1);
+  }
+}
 const feedDoc = rosterFeed(data, feedAll);
 writeFeed({
   root: ROOT, token: feed.value, name: 'jordyn',

@@ -50,6 +50,36 @@ function carSection(c, i) {
   if (c.location) L.push(`- Location: ${c.location}${c.distanceMi != null ? ` (${Math.round(c.distanceMi)} mi away)` : ''}`);
   if (c.daysOnLot != null) L.push(`- Days on lot: ${c.daysOnLot}`);
   if (c.url) L.push(`- Listing: ${c.url}`);
+  if (c.bargain) {
+    L.push(`- Bargain score: **${c.bargain.score}/100 — ${c.bargain.label}**`);
+    const discount = c.bargain.components?.purchaseDiscount;
+    if (discount) L.push(`  - MSRP discount (25% weight): ${discount.detail}`);
+    for (const [key, label] of [
+      ['reliabilityRisk', 'Reliability / catastrophic risk'],
+      ['localServiceability', 'Local manufacturer serviceability'],
+      ['drivingCharacter', 'Driving character / performance'],
+      ['premiumFeatures', 'Premium interior / features'],
+      ['rangeCharging', 'Range / charging suitability'],
+      ['interestingness', 'Rarity / interestingness'],
+    ]) {
+      const component = c.bargain.components?.[key];
+      if (component) L.push(`  - ${label} (${Math.round(component.weight * 100)}%): ${component.score}/100 — ${component.detail}`);
+    }
+  }
+  if (c.kateResearch) {
+    const k = c.kateResearch;
+    L.push(`- Kate fit: **${c.kateFit?.score ?? '—'}/100** · risk gate \`${k.riskGate || 'VERIFY'}\``);
+    if (k.hvPackStatus) L.push(`  - HV pack: ${k.hvPackStatus}${k.hvPackEvidence ? ` — ${k.hvPackEvidence}` : ''}`);
+    for (const item of k.highlights || []) L.push(`  - ${item}`);
+    for (const item of k.cautions || []) L.push(`  - ⚠️ ${item}`);
+    if (k.packages) {
+      L.push(`  - Equipment: Plus ${k.packages.plusPack}; Pilot ${k.packages.pilotPack}; performance hardware ${k.packages.performanceHardware}; performance software ${k.packages.performanceSoftware}.`);
+    }
+    for (const recall of k.hvBatteryRecalls || []) {
+      L.push(`  - HV recall ${recall.nhtsaCampaign} / ${(recall.oemCampaigns || []).join(', ')}: **${recall.status}**${recall.restriction ? ` — ${recall.restriction}` : ''}`);
+    }
+    for (const check of k.requiredChecks || []) L.push(`  - Required: ${check}`);
+  }
 
   // Powertrain — always with provenance. See the note at the top of this file.
   if (c.power) {
@@ -94,6 +124,9 @@ function carSection(c, i) {
     const tri = (v) => (v === null || v === undefined ? 'not reported' : v ? 'yes' : 'no');
     L.push(`- Vehicle history: ${h.reportAvailable ? h.badges.join(', ') : 'no report attached to this listing'}`);
     L.push(`  - Salvage title: ${tri(h.salvageTitle)} · Accidents reported: ${tri(h.accidentsReported)} · One owner: ${tri(h.oneOwner)}`);
+    if (h.lemonBuyback != null || h.brandedTitle != null) {
+      L.push(`  - Lemon/manufacturer buyback: ${tri(h.lemonBuyback)} · Other branded title: ${tri(h.brandedTitle)}`);
+    }
     if (h.salvageTitle === true) {
       L.push('  - ⚠️ **SALVAGE TITLE** — declared a total loss and rebuilt. Repair quality is unverifiable from a listing, crash/airbag performance may be compromised, insurance is harder, and resale is far below a clean-title car (so the resale figure in the cost model is optimistic here).');
     }
@@ -192,13 +225,13 @@ export function rosterMarkdown(data, kind) {
 
   L.push('## Listings');
   L.push('');
-  L.push('| # | Vehicle | Price | Miles | Powertrain | 6-yr cost | Safety | Reliability |');
-  L.push('|---|---------|-------|-------|-----------|-----------|--------|-------------|');
+  L.push('| # | Vehicle | Price | Miles | Powertrain | 6-yr cost | Bargain | Safety | Reliability |');
+  L.push('|---|---------|-------|-------|-----------|-----------|---------|--------|-------------|');
   cars.forEach((c, i) => {
     const p = c.power ? `${POWER[c.power] || c.power}${c.powerSource === 'vin' ? '' : ' ⚠️'}` : '—';
     const safety = c.safety ? [c.safety.aeb === 'standard' ? 'AEB' : null, c.safety.bsm === 'standard' ? 'BSM' : null].filter(Boolean).join('+') || '—' : '—';
     const rel = c.reliability ? c.reliability.band : '—';
-    L.push(`| ${i + 1} | ${c.year} ${c.make} ${c.model}${c.trim ? ` ${c.trim}` : ''} | ${money(c.price)} | ${num(c.miles)} | ${p} | ${c.tco6 ? money(c.tco6.total) : '—'} | ${safety} | ${rel} |`);
+    L.push(`| ${i + 1} | ${c.year} ${c.make} ${c.model}${c.trim ? ` ${c.trim}` : ''} | ${money(c.price)} | ${num(c.miles)} | ${p} | ${c.tco6 ? money(c.tco6.total) : '—'} | ${c.bargain?.score ?? '—'} | ${safety} | ${rel} |`);
   });
   L.push('');
   L.push('## Detail');

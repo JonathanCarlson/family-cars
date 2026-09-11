@@ -180,7 +180,7 @@
     .tier-n { font-size: 12px; font-weight: 600; color: var(--muted); background: var(--bg2); border: 1px solid var(--border); border-radius: 999px; padding: 1px 8px; }
     /* Brief highlight when you arrive from a link in the family plan, so the
        card you asked for is obvious after the scroll. */
-    .car.flash { outline: 3px solid var(--accent, #4a9); outline-offset: 3px; transition: outline-color .5s ease; }
+    .car.flash, .brow.flash { outline: 3px solid var(--accent, #4a9); outline-offset: 3px; transition: outline-color .5s ease; }
     .tier-blurb { font-size: 12.5px; color: var(--muted); margin: 0 0 12px; line-height: 1.4; }
     .tier-verify .tier-h { color: #f0c674; }
     .tier-no .tier-h { color: #e08b8b; }
@@ -224,6 +224,7 @@
     }
     .sb-ok { color: #8fd8a0; border-color: #2f5c3c; background: #14251a; }
     .sb-warn { color: #f0c674; border-color: #5c4a1f; background: #241f12; }
+    .sb-kate { color: #f0b7dc; border-color: #70435f; background: #281725; }
 /* Reserved for facts that should stop you reading further — a rebuilt total
    loss, frame or flood damage. Deliberately louder than .sb-warn, which means
    "check this", not "this is disqualifying". */
@@ -385,6 +386,43 @@
     .rel-caveat { font-size: 10.5px; color: var(--muted); margin: 8px 0 0; line-height: 1.4; opacity: .85; }
     .rel-caveat a { color: var(--accent); text-decoration: none; }
 
+    /* Kate-specific research and the depreciation-value score are intentionally
+       separate from TCO. A cheap car can still be a bad bargain when an open
+       battery campaign or thin service network explains the price. */
+    .bargain, .kate-research {
+      margin-top: 8px; background: var(--bg2); border: 1px solid var(--border); border-radius: 12px;
+    }
+    .bargain { border-color: rgba(52, 211, 153, .35); }
+    .kate-research { border-color: rgba(240, 183, 220, .38); }
+    .bargain summary, .kate-research summary {
+      cursor: pointer; padding: 9px 12px; font-size: 13.5px; list-style: none;
+    }
+    .bargain summary::-webkit-details-marker, .kate-research summary::-webkit-details-marker { display: none; }
+    .bargain summary::after, .kate-research summary::after { content: '▾'; float: right; color: var(--muted); }
+    .bargain[open] summary::after, .kate-research[open] summary::after { content: '▴'; }
+    .bargain-tbl th { width: 48%; white-space: normal; }
+    .research-gate {
+      display: inline-block; margin: 0 12px 7px; padding: 4px 8px; border-radius: 7px;
+      background: rgba(251, 191, 36, .12); border: 1px solid rgba(251, 191, 36, .35);
+      color: #f0c674; font-size: 10.5px; font-weight: 700; text-transform: uppercase;
+    }
+    .kate-research .glabel { margin: 9px 12px 4px; }
+    .kate-research .rel-list { margin-left: 10px; margin-right: 10px; }
+    .kate-research .tco-note { padding-top: 2px; }
+    .research-summary {
+      margin-top: 7px; padding: 7px 9px; border-radius: 8px; line-height: 1.4;
+      background: rgba(240, 183, 220, .07); border: 1px solid rgba(240, 183, 220, .22);
+      color: var(--muted); font-size: 11.5px;
+    }
+    .research-summary b { color: var(--text); }
+    .research-summary .research-gate { margin: 0 0 0 6px; }
+    .model-group { margin: 20px 0 28px; }
+    .model-group-h {
+      position: sticky; top: 61px; z-index: 4; margin: 0 0 10px; padding: 8px 10px;
+      border-radius: 10px; background: rgba(19, 26, 46, .96); border: 1px solid var(--border);
+      font-size: 15px; backdrop-filter: blur(8px);
+    }
+
     /* ---- Actions ---- */
     .actions { display: flex; align-items: center; gap: 8px; margin-top: 11px; }
     .vote {
@@ -486,8 +524,8 @@
       <section id="panel-cars" class="panel" hidden>
         <div id="intro"></div>
         <div id="viewbar" class="viewbar" role="group" aria-label="Which cars to show">
-          <button type="button" class="vw on" data-view="shortlist">⭐ Shortlist</button>
-          <button type="button" class="vw" data-view="browse">🔎 Browse everything</button>
+          <button type="button" class="vw" data-view="shortlist">⭐ Shortlist</button>
+          <button type="button" class="vw on" data-view="browse">🔎 Browse by model</button>
         </div>
         <div id="sortbar"></div>
         <div id="filterbar" hidden></div>
@@ -520,6 +558,6 @@
   <!-- car-common.js holds the shell shared with cars.html (crypto, gate,
        remembered key, votes/notes, share link, toast). It must load FIRST. -->
   <script src="car-common.js?v=4"></script>
-  <script src="jordyn.js?v=39"></script>
+  <script src="jordyn.js?v=40"></script>
 </body>
 </html>

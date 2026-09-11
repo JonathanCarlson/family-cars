@@ -32,7 +32,7 @@ APP.boot();
 // Thin aliases so the render code below reads naturally.
 const VOTES = APP.VOTES;
 const COMMENTS = APP.COMMENTS;
-let SORT = 'match-desc';
+let SORT = 'model-match';
 let HORIZON = 6; // cost window on the cards: 2 (Jordyn) or 6 (through Emma)
 const FACETS = {};
 const setComment = (vin, t) => APP.setComment(vin, t);
@@ -156,6 +156,86 @@ function reliabilityBlock(c) {
       <summary>🔧 Reliability &amp; battery <span class="tco-mo">what the public record says</span></summary>
       <div class="rel-body">${parts.join('')}</div>
     </details>`;
+}
+
+const BARGAIN_COMPONENT_LABELS = {
+  purchaseDiscount: 'Discount from original MSRP',
+  reliabilityRisk: 'Reliability / catastrophic risk',
+  localServiceability: 'Local manufacturer service',
+  drivingCharacter: 'Driving character / performance',
+  premiumFeatures: 'Premium interior / features',
+  rangeCharging: 'Range / charging fit',
+  interestingness: 'Rarity / interestingness',
+};
+
+function bargainBadge(c) {
+  if (!c.bargain?.score) return '';
+  const tone = c.bargain.score >= 70 ? 'sb-ok' : c.bargain.score < 55 ? 'sb-warn' : '';
+  return `<span class="sb ${tone}" title="${esc(c.bargain.label || 'Bargain score')}">💎 Bargain ${c.bargain.score}</span>`;
+}
+
+function bargainBlock(c) {
+  const bargain = c.bargain;
+  if (!bargain?.components) return '';
+  const rows = Object.entries(BARGAIN_COMPONENT_LABELS).map(([key, label]) => {
+    const component = bargain.components[key];
+    if (!component) return '';
+    const detail = component.detail ? `<div class="why">${esc(component.detail)}</div>` : '';
+    return `<tr><th>${esc(label)} <span class="why">${Math.round(component.weight * 100)}%</span></th><td><b>${component.score}</b>${detail}</td></tr>`;
+  }).join('');
+  return `<details class="bargain">
+    <summary>💎 <b>Bargain ${bargain.score}/100</b> <span class="tco-mo">${esc(bargain.label)}</span></summary>
+    <div class="tscroll"><table class="assump-tbl bargain-tbl">${rows}</table></div>
+    <p class="tco-note">Separate from total cost to own. A steep MSRP discount cannot compensate for an unresolved catastrophic-risk gate.</p>
+  </details>`;
+}
+
+function recallStatusLabel(status) {
+  if (status === 'OPEN_FINAL_REMEDY_TBD') return '🔴 open — permanent remedy TBD';
+  if (status === 'OPEN_REMEDY_AVAILABLE') return '🟡 open — remedy available';
+  if (status === 'SUPERSEDED_REQUIRES_SUCCESSOR') return '🟡 superseded — successor still required';
+  if (status === 'NOT_OPEN_IN_CURRENT_OEM_LOOKUP') return '⚪ not open in current OEM lookup';
+  if (status === 'VIN_NOT_CHECKED') return '⚪ VIN not checked';
+  if (status === 'LOOKUP_ERROR_OR_STALE') return '🟡 lookup failed/stale';
+  return String(status || 'unknown').replaceAll('_', ' ').toLowerCase();
+}
+
+function kateResearchBlock(c) {
+  const research = c.kateResearch;
+  if (!research) return '';
+  const recalls = (research.hvBatteryRecalls || []).map((recall) => `<li>
+    <b>${esc(recall.nhtsaCampaign)}</b> / ${esc((recall.oemCampaigns || []).join(', '))} —
+    ${esc(recallStatusLabel(recall.status))}. ${esc(recall.remedy || '')}
+    ${recall.restriction ? `<br><span class="fineprint-bad">${esc(recall.restriction)}</span>` : ''}
+  </li>`).join('');
+  const packages = research.packages
+    ? `<p class="fineprint"><b>Equipment to verify:</b> Plus ${esc(research.packages.plusPack)} · Pilot ${esc(research.packages.pilotPack)} ·
+      Performance hardware ${esc(research.packages.performanceHardware)} · performance software ${esc(research.packages.performanceSoftware)}</p>`
+    : '';
+  return `<details class="kate-research" open>
+    <summary>👩 <b>Kate fit ${c.kateFit?.score ?? '—'}/100</b> <span class="tco-mo">${esc(c.kateFit?.label || research.label)}</span></summary>
+    <div class="research-gate">${esc(String(research.riskGate || 'VERIFY').replaceAll('_', ' '))}</div>
+    <p class="fineprint"><b>VIN:</b> <code>${esc(c.vin)}</code></p>
+    ${research.hvPackStatus ? `<p class="fineprint"><b>HV pack:</b> ${esc(String(research.hvPackStatus).replaceAll('_', ' ').toLowerCase())}${research.hvPackEvidence ? ` — ${esc(research.hvPackEvidence)}` : ''}</p>` : ''}
+    ${(research.highlights || []).length ? `<ul class="rel-list">${research.highlights.map((x) => `<li>✅ ${esc(x)}</li>`).join('')}</ul>` : ''}
+    ${(research.cautions || []).length ? `<ul class="rel-list">${research.cautions.map((x) => `<li>⚠️ ${esc(x)}</li>`).join('')}</ul>` : ''}
+    ${packages}
+    ${recalls ? `<p class="glabel">HV-battery recall ledger for this VIN/model year</p><ul class="rel-list recall-list">${recalls}</ul>` : ''}
+    ${(research.requiredChecks || []).length ? `<p class="glabel">Before buying</p><ul class="rel-list">${research.requiredChecks.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+    ${research.recallLookup?.checkedAt ? `<p class="tco-note">Jaguar VIN lookup checked ${esc(research.recallLookup.checkedAt.slice(0, 10))}. ${esc(research.sourceNote || '')}</p>` : ''}
+  </details>`;
+}
+
+function kateResearchSummary(c) {
+  const research = c.kateResearch;
+  if (!research && !c.bargain) return '';
+  const caution = research?.cautions?.[0] || research?.requiredChecks?.[0] || '';
+  const gate = research?.riskGate ? String(research.riskGate).replaceAll('_', ' ').toLowerCase() : '';
+  return `<div class="research-summary">
+    <b>${c.kateFit?.score != null ? `Kate fit ${c.kateFit.score}` : 'Kate research'}${c.bargain?.score != null ? ` · Bargain ${c.bargain.score}` : ''}</b>
+    ${gate ? `<span class="research-gate">${esc(gate)}</span>` : ''}
+    ${caution ? `<div class="why">${esc(caution)}</div>` : ''}
+  </div>`;
 }
 
 const tcoOf = (c) => (HORIZON === 2 ? c.tco2 : c.tco6);
@@ -407,6 +487,9 @@ function carCard(c) {
   const vote = VOTES[c.vin];
   const note = COMMENTS[c.vin] || '';
   const chips = [safetyBadge(c), bsmBadge(c)];
+  if (c.kateFit?.score != null) chips.push(`<span class="sb sb-kate">👩 Kate fit ${c.kateFit.score}</span>`);
+  const bargain = bargainBadge(c);
+  if (bargain) chips.push(bargain);
   // Drivetrain, from the VIN. A tie-breaker for Kate rather than a requirement.
   if (c.awd === true) chips.push('<span class="sb sb-awd" title="All-wheel drive, per the manufacturer VIN record">❄️ AWD</span>');
   if (/Top Safety Pick/.test(c.safety?.iihs || '')) chips.push('<span class="sb sb-ok">🏆 IIHS Top Safety Pick</span>');
@@ -427,6 +510,8 @@ function carCard(c) {
   // not a footnote on a first car for a teenager.
   const h = c.history || {};
   if (h.salvageTitle === true) chips.unshift('<span class="sb sb-bad" title="Declared a total loss and rebuilt — repair quality unverifiable">🚨 Salvage title</span>');
+  if (h.lemonBuyback === true) chips.unshift('<span class="sb sb-bad">🚨 Lemon / buyback</span>');
+  else if (h.brandedTitle === true) chips.unshift('<span class="sb sb-bad">🚨 Branded title</span>');
   if (h.frameDamage === true) chips.unshift('<span class="sb sb-bad" title="Frame damage on the vehicle history report">🚨 Frame damage</span>');
   if (h.floodDamage === true) chips.unshift('<span class="sb sb-bad" title="Flood/water damage on the vehicle history report">🚨 Flood damage</span>');
   if (h.accidentsReported === true) chips.push('<span class="sb sb-warn">Accident reported</span>');
@@ -458,6 +543,8 @@ function carCard(c) {
       ${c.priceNote ? `<div class="pricenote">${esc(c.priceNote)}</div>` : ''}
       <div class="chips">${chips.join('')}</div>
       ${c.note ? `<p class="standout-note">⭐ ${esc(c.note)}</p>` : ''}
+      ${kateResearchBlock(c)}
+      ${bargainBlock(c)}
       ${bothDriversBlock(c)}
       ${tcoBlock(c)}
       ${reliabilityBlock(c)}
@@ -467,6 +554,8 @@ function carCard(c) {
       ${c.safety?.iihsNotRated ? `<p class="fineprint">🏆 ${esc(c.safety.iihsNotRated)}</p>` : ''}
       ${c.batteryNote ? `<p class="fineprint">🔋 ${esc(c.batteryNote)}</p>` : ''}
       ${h.salvageTitle === true ? '<p class="fineprint fineprint-bad">🚨 <b>Salvage title</b> — this car was declared a total loss and rebuilt. Repair quality can’t be judged from a listing, crash and airbag performance may be compromised, full coverage can be hard to get, and resale is far below a clean-title car — so the resale credit in the cost figures above is optimistic here.</p>' : ''}
+      ${h.lemonBuyback === true ? '<p class="fineprint fineprint-bad">🚨 <b>Lemon / manufacturer buyback</b> — a red flag for Kate and a default rejection unless there is extraordinary, independently verified evidence.</p>' : ''}
+      ${h.lemonBuyback !== true && h.brandedTitle === true ? '<p class="fineprint fineprint-bad">🚨 <b>Branded title</b> — a red flag for Kate and a default rejection.</p>' : ''}
       ${h.frameDamage === true ? '<p class="fineprint fineprint-bad">🚨 <b>Frame damage reported</b> — affects the crash structure.</p>' : ''}
       ${h.floodDamage === true ? '<p class="fineprint fineprint-bad">🚨 <b>Flood/water damage reported</b> — long-term electrical and corrosion risk, worse on a hybrid or EV.</p>' : ''}
       <div class="actions">
@@ -558,7 +647,9 @@ function passesFacets(c) {
 }
 
 const SORTS = [
+  { id: 'model-match', label: '🚗 Same model · best match' },
   { id: 'match-desc', label: '⭐ Best overall' },
+  { id: 'bargain-desc', label: '💎 Best bargain' },
   { id: 'electric-desc', label: '⚡ Most electric driving' },
   { id: 'tco-asc', label: '💸 Cheapest to own' },
   { id: 'price-asc', label: '🏷️ Lowest price' },
@@ -584,7 +675,19 @@ function electricShareOf(c) {
 
 function sortCars(list) {
   const a = [...list];
-  if (SORT === 'tco-asc') a.sort((x, y) => (totalOf(x) ?? 9e9) - (totalOf(y) ?? 9e9));
+  const bestMatch = (c) => c.kateFit?.score ?? c.kateMatchScore ?? c.matchScore ?? 0;
+  const modelKey = (c) => `${c.make || ''} ${c.model || ''}`.trim().toLowerCase();
+  if (SORT === 'model-match') {
+    const bestByModel = new Map();
+    for (const c of a) bestByModel.set(modelKey(c), Math.max(bestByModel.get(modelKey(c)) ?? 0, bestMatch(c)));
+    a.sort((x, y) => (bestByModel.get(modelKey(y)) ?? 0) - (bestByModel.get(modelKey(x)) ?? 0)
+      || modelKey(x).localeCompare(modelKey(y))
+      || bestMatch(y) - bestMatch(x)
+      || (x.price ?? 9e9) - (y.price ?? 9e9));
+  } else if (SORT === 'bargain-desc') {
+    a.sort((x, y) => (y.bargain?.score ?? 0) - (x.bargain?.score ?? 0)
+      || bestMatch(y) - bestMatch(x));
+  } else if (SORT === 'tco-asc') a.sort((x, y) => (totalOf(x) ?? 9e9) - (totalOf(y) ?? 9e9));
   else if (SORT === 'price-asc') a.sort((x, y) => (x.price ?? 9e9) - (y.price ?? 9e9));
   else if (SORT === 'miles-asc') a.sort((x, y) => (x.miles ?? 9e9) - (y.miles ?? 9e9));
   else if (SORT === 'year-desc') a.sort((x, y) => (y.year ?? 0) - (x.year ?? 0));
@@ -599,7 +702,7 @@ function sortCars(list) {
 // ---------- render ----------
 // Two views over the same data: a shortlist of cars to react to, and the long
 // tail to browse. The insights tab holds the answers those cars are evidence for.
-let VIEW = 'shortlist';
+let VIEW = 'browse';
 
 function render() {
   $('#cars-status').hidden = true;
@@ -725,10 +828,26 @@ function renderBand(bandId, elId) {
     ${b.costBasis ? `<p class="basis-line">📊 Every total on this tab is costed at <b>${b.costBasis.milesPerYear.toLocaleString()} mi/yr</b> — ${esc(b.costBasis.driver)}'s driving. ${esc(b.costBasis.note.split('—')[1] || '').trim()}</p>` : ''}
   </div>`);
 
+  if (bandId === 'kate' && b.bargains?.cars?.length) {
+    parts.push(`<div class="card">
+      <h2 class="ins-h">💎 ${esc(b.bargains.title)}</h2>
+      <p class="tier-blurb">${esc(b.bargains.method)} This is deliberately separate from TCO.</p>
+      ${b.bargains.cars.map((c) => `<div class="opp">
+        <div class="opp-h">${esc(c.name)} <span class="tier-n">Bargain ${c.bargain?.score ?? '—'}</span></div>
+        <div class="opp-s">${money(c.priceUsd)} · ${milesFmt(c.odometerMiles)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''} · Kate fit ${c.kateFit?.score ?? '—'}</div>
+        ${placeLine(c)}
+        ${kateResearchSummary(c)}
+        <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">See details with similar cars ↓</a></p>
+      </div>`).join('')}
+    </div>`);
+  }
+
   for (const w of (b.watchlist || [])) {
     parts.push(`<div class="card">
       <h2 class="ins-h">⭐ ${esc(w.label)} <span class="tier-n">${w.count} found</span></h2>
       <p class="tier-blurb">${esc(w.why)} Listed individually rather than summarised — "which ones are out there?" is the actual question.</p>
+      ${w.criteria?.length ? `<ul class="rel-list">${w.criteria.map((item) => `<li>${esc(item)}</li>`).join('')}</ul>` : ''}
+      ${w.riskNote ? `<p class="fineprint fineprint-bad">${esc(w.riskNote)}</p>` : ''}
       ${w.priceUsd ? `<p class="opp-s">${money(w.priceUsd.min)}–${money(w.priceUsd.max)} · 6yr ${money(w.sixYearTco?.min)}–${money(w.sixYearTco?.max)}</p>` : ''}
       ${w.note ? `<p class="tco-note">${esc(w.note)}</p>` : ''}
       ${w.cars.map((c) => `<div class="opp">
@@ -736,8 +855,9 @@ function renderBand(bandId, elId) {
         <div class="opp-s">${money(c.priceUsd)} · ${milesFmt(c.odometerMiles)}${c.evRangeMi ? ` · ${c.evRangeMi} mi range` : ''} · 6yr ${money(c.sixYearTco)}</div>
         ${placeLine(c)}
         <div class="opp-s">${c.safety?.meets ? '✅ automatic braking confirmed' : '⚠️ automatic braking unconfirmed'}${awdChip(c)}</div>
+        ${kateResearchSummary(c)}
         ${costRows(c.costs)}
-        <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">Full detail ↓</a></p>
+        <p><a href="#" class="listing" data-goto-vin="${esc(c.vin)}">See details with similar cars ↓</a></p>
       </div>`).join('')}
       ${w.more ? `<p class="tco-note">${esc(w.more)}</p>` : ''}
     </div>`);
@@ -923,7 +1043,7 @@ function renderFamily() {
   const si = f.statedInterests || [];
   if (si.length) {
     parts.push(`<div class="card">
-      <h2 class="ins-h">⭐ The two Kate asked about</h2>
+      <h2 class="ins-h">⭐ Kate's named EV watchlist</h2>
       <p class="tier-blurb">Shown whatever they cost, because "why isn't the car I asked about here?" deserves an
       answer rather than silence.</p>
       ${si.map((s) => {
@@ -934,7 +1054,9 @@ function renderFamily() {
         <div class="opp-s">${money(b.priceUsd)} · ${milesFmt(b.odometerMiles)}${b.evRangeMi ? ` · ${b.evRangeMi} mi range` : ''} · ${s.found} found</div>
         <div class="opp-s"><b>Household ${money(b.familyTotalIfKate)}</b> if Kate drives it${b.vsReferencePlan > 0 ? ` — ${money(b.vsReferencePlan)} less than the plan to beat` : ''}</div>
         <div class="opp-s">${esc(s.verdict)}</div>
+        ${kateResearchSummary(b)}
         ${kateCostBreakdown(b)}
+        <p><a href="#" class="listing" data-goto-vin="${esc(b.vin)}">See details with similar cars ↓</a></p>
       </div>`;
   }).join('')}
     </div>`);
@@ -1502,8 +1624,12 @@ function browseRow(c) {
   else if (aebOf(c) === 'trim') tags.push('<span class="sb sb-warn">AEB?</span>');
   if (bsmOf(c) === 'standard') tags.push('<span class="sb sb-ok">BSM</span>');
   if (c.salvage === true) tags.push('<span class="sb sb-bad">🚨 Salvage</span>');
+  if (c.lemonBuyback === true) tags.push('<span class="sb sb-bad">🚨 Lemon / buyback</span>');
+  else if (c.brandedTitle === true) tags.push('<span class="sb sb-bad">🚨 Branded title</span>');
   if (c.reliability === 'concern') tags.push('<span class="sb sb-warn">Reliability</span>');
   if (c.overPreferredBudget) tags.push('<span class="sb sb-warn">Over $15k</span>');
+  if (c.kateMatchScore != null) tags.push(`<span class="sb sb-kate">👩 Kate fit ${c.kateMatchScore}</span>`);
+  if (c.bargain?.score != null) tags.push(`<span class="sb${c.bargain.score >= 70 ? ' sb-ok' : ''}">💎 Bargain ${c.bargain.score}</span>`);
   return `<article class="brow${hidden ? ' is-hidden' : ''}" data-vin="${esc(c.vin)}">
     <div class="brow-top">
       <div class="brow-main">
@@ -1514,6 +1640,7 @@ function browseRow(c) {
       <div class="brow-r">
         <div class="brow-tco">${money(totalOf(c))}</div>
         <div class="why">${HORIZON}-yr cost</div>
+        <div class="why">best match ${c.kateMatchScore ?? c.matchScore ?? '—'}</div>
       </div>
     </div>
     <div class="actions">
@@ -1528,7 +1655,16 @@ function browseRow(c) {
 
 function renderBrowse() {
   const grid = $('#cars-grid');
-  let shown = (DATA.browse || []).filter(passesFacets);
+  // Use the rich object wherever one exists, then add any full-detail car that
+  // the diversified slim browse set omitted. This guarantees that a "Full
+  // detail" link from Kate's tab lands on a real detail card while preserving
+  // the broad market list around it.
+  const richByVin = new Map((DATA.cars || []).map((c) => [c.vin, c]));
+  const allByVin = new Map();
+  for (const c of DATA.browse || []) allByVin.set(c.vin, richByVin.get(c.vin) || c);
+  for (const c of DATA.cars || []) allByVin.set(c.vin, c);
+  const allCars = [...allByVin.values()];
+  let shown = allCars.filter(passesFacets);
   // Jordyn's hidden list is applied HERE and nowhere else — it is a view filter,
   // not an input to anything.
   if (!SHOW_HIDDEN) shown = shown.filter((c) => !HIDDEN.has(c.vin));
@@ -1539,8 +1675,27 @@ function renderBrowse() {
       : '<p class="empty">No cars match those filters. Loosen one above.</p>';
     return;
   }
-  grid.innerHTML = `<p class="tier-blurb">${shown.length} of ${(DATA.browse || []).length} cars · full detail lives on the shortlist</p>`
-    + shown.map(browseRow).join('');
+  const renderCar = (c) => (c.tco6 && typeof c.tco6 === 'object' ? carCard(c) : browseRow(c));
+  let body;
+  if (SORT === 'model-match') {
+    const groups = [];
+    for (const c of shown) {
+      const key = `${c.make || ''}|${c.model || ''}`.toLowerCase();
+      let group = groups[groups.length - 1];
+      if (!group || group.key !== key) {
+        group = { key, label: `${c.make || ''} ${c.model || ''}`.trim(), cars: [] };
+        groups.push(group);
+      }
+      group.cars.push(c);
+    }
+    body = groups.map((group) => `<section class="model-group">
+      <h2 class="model-group-h">${esc(group.label)} <span class="tier-n">${group.cars.length}</span></h2>
+      ${group.cars.map(renderCar).join('')}
+    </section>`).join('');
+  } else {
+    body = shown.map(renderCar).join('');
+  }
+  grid.innerHTML = `<p class="tier-blurb">${shown.length} current cars · ${SORT === 'model-match' ? 'same models stay together, best match first within each group' : 'sorted by the selected measure'}</p>${body}`;
 }
 
 function renderList() {
@@ -1651,29 +1806,21 @@ function switchTab(name) {
  *
  * The family tab answers "what does this cost the household"; the detail card
  * answers "why". Rather than duplicate the card, switch to the cars tab and
- * scroll to it — and fall back to the browse view first, since the shortlist
- * only renders a curated subset and the car may not be in it.
+ * scroll to it in the model-grouped Browse view so comparable cars surround it.
  */
 function gotoCar(vin) {
-  const find = () => document.querySelector(`#cars-grid .car[data-vin="${CSS.escape(vin)}"]`);
+  const find = () => document.querySelector(`#cars-grid [data-vin="${CSS.escape(vin)}"]`);
   switchTab('cars');
 
-  // Try the current view, then the other one. The family candidates live in the
-  // shortlist and the long tail lives in browse, so which view holds a given
-  // car depends on the car — guessing one and giving up silently would send you
-  // to an empty page with no explanation.
+  // The requested workflow is model-to-model comparison: always land in the
+  // grouped Browse view, where neighboring cards are the same model and ordered
+  // by best match.
+  VIEW = 'browse';
+  SORT = 'model-match';
+  document.querySelectorAll('#viewbar .vw').forEach((b) => b.classList.toggle('on', b.dataset.view === VIEW));
+  renderControls();
+  renderList();
   let el = find();
-  if (!el) {
-    for (const v of ['shortlist', 'browse']) {
-      if (VIEW === v) continue;
-      VIEW = v;
-      document.querySelectorAll('#viewbar .vw').forEach((b) => b.classList.toggle('on', b.dataset.view === VIEW));
-      renderControls();
-      renderList();
-      el = find();
-      if (el) break;
-    }
-  }
   if (!el) {
     // Never fail silently. The old behaviour switched tabs, found nothing and
     // left you at the top of a 600-car list with no idea why — which reads as

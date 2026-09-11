@@ -107,6 +107,11 @@ if (!Array.isArray(data.cars) || !data.cars.length) {
   console.error('❌ build/cars.json has no cars[] — nothing to publish.');
   process.exit(1);
 }
+const stale = data.cars.filter((car) => car?.stale === true);
+if (stale.length) {
+  console.error(`❌ Refusing to publish: ${stale.length} unavailable listing(s) remain in the current Mach-E roster.`);
+  process.exit(1);
+}
 // Stamp the build time so the page can show an accurate "last updated".
 data.built = new Date().toISOString();
 
