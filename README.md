@@ -31,7 +31,7 @@ key, via the native share sheet or the clipboard.
 |---|---|---|---|
 | **Key in the fragment** | `jordyn.html#k=<key>` | the normal case — text the link, it just opens | anything that strips the `#fragment` |
 | **Passphrase** | `sage-harvest-bishop-cherry-pollen` | reading down a phone line; a link that lost its fragment | programs — it still needs a browser |
-| **Plaintext feed** | `feed/<token>/jordyn.md` | programs: LLM tools, `curl`, scripts | anything you'd mind being readable |
+| **Plaintext feed** | `feed/<token>/index.md` | programs: LLM tools, `curl`, scripts | anything you'd mind being readable |
 
 **Passphrase.** The roster is *not* re-encrypted under it. A small second blob
 (`data/<roster>.unlock.json`) holds the real key encrypted under the phrase; the
@@ -53,8 +53,10 @@ passphrase or run WebCrypto. Hand it the page URL and it gets an empty shell. So
 each build also writes a plaintext copy at an unguessable path:
 
 ```
-feed/<token>/jordyn.md     ← exact JSON-equivalent payload inside Markdown
-feed/<token>/jordyn.json   ← the canonical structured roster
+feed/<token>/index.md      ← ChatGPT index and links to focused files
+feed/<token>/shortlist.md  ← top 80 model-diverse candidates
+feed/<token>/*.md          ← focused model/category feeds, each below 2 MiB
+feed/<token>/jordyn.json   ← canonical structured roster
 ```
 
 > ⚠️ **The feed is NOT encrypted.** Its privacy is the unguessable URL alone —
@@ -78,10 +80,12 @@ node build/build-jordyn.mjs --rotate        # new key AND passphrase AND feed
 node --test build/car-access.test.mjs       # verify all of it round-trips
 ```
 
-The Markdown file is generated from the canonical JSON feed document and embeds
-that document in full, so it carries the same budgets, shortlists, Bargain
-components, recall status, shipping assumptions and listing detail. It is not
-the older reduced page-roster export.
+The ChatGPT export is generated from the same current inventory as the JSON feed
+but deliberately compacted into focused Markdown files. Every listing keeps the
+decision fields (VIN, direct URL, price, mileage, location/dealer, scores, TCO,
+drivetrain/range, important options, history, recall/service flags and risk)
+while omitting photos, boilerplate and verbose feature lists. `jordyn.md` is a
+small compatibility pointer to `index.md`, not another oversized payload.
 
 `build/*-pass.txt` and `build/*-feed.txt` are gitignored alongside the keys.
 
@@ -97,7 +101,9 @@ styles.css            shared design tokens and base components
 build/build-*.mjs     encrypt build/<roster>.json → data/<roster>.enc.json,
                       write data/<roster>.unlock.json + feed/<token>/
 build/car-access.mjs  passphrase wrapping, feed writing, secret rotation
-build/feed-markdown.mjs  render the canonical JSON-equivalent Markdown feed
+build/chatgpt-feed.mjs   compact split Markdown export for ChatGPT
+build/build-chatgpt-feed.mjs  rebuild feeds without touching app data/UI
+build/feed-markdown.mjs  legacy roster Markdown used by the Mach-E feed
 robots.txt            keep crawlers out of /feed/ and /data/
 ```
 

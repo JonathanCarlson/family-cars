@@ -138,7 +138,7 @@ export async function buildUnlockBlob(realKey, passphrase) {
  * some readers (ChatGPT's among them) refuse outright. `.json` and `.txt` get
  * `application/json` and `text/plain`, which everything accepts.
  */
-export function writeFeed({ root, token, name, files }) {
+export function writeFeed({ root, token, name, files, additionalOwnedFiles = [] }) {
   const feedRoot = join(root, 'feed');
   mkdirSync(feedRoot, { recursive: true });
   const exts = Object.keys(files);
@@ -147,7 +147,7 @@ export function writeFeed({ root, token, name, files }) {
     if (!entry.isDirectory() || entry.name === token) continue;
     const dir = join(feedRoot, entry.name);
     // Only clear OUR roster's files — the other roster keeps its own token dir.
-    const mine = readdirSync(dir).filter((f) => f.startsWith(`${name}.`));
+    const mine = readdirSync(dir).filter((f) => f.startsWith(`${name}.`) || additionalOwnedFiles.includes(f));
     if (!mine.length) continue;
     for (const f of mine) rmSync(join(dir, f), { force: true });
     if (readdirSync(dir).length === 0) rmSync(dir, { recursive: true, force: true });

@@ -9,11 +9,12 @@
 
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { tmpdir } from 'node:os';
 import { webcrypto as crypto } from 'node:crypto';
-import { buildUnlockBlob, newPassphrase, newToken, normalizePass } from './car-access.mjs';
+import { buildUnlockBlob, newPassphrase, newToken, normalizePass, writeFeed } from './car-access.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -125,4 +126,19 @@ test("one roster's passphrase cannot open the other roster", async (t) => {
     return;
   }
   await assert.rejects(() => unwrap(cBlob, jPhrase), 'Jordyn\'s passphrase must not unwrap Kate\'s key');
+});
+
+test('feed-token rotation removes split ChatGPT files from the old capability directory', () => {
+  const root = mkdtempSync(join(tmpdir(), 'car-feed-'));
+  try {
+    const extra = ['index.md', 'shortlist.md'];
+    writeFeed({ root, token: 'old-token', name: 'jordyn', files: { json: {} }, additionalOwnedFiles: extra });
+    const oldDir = join(root, 'feed', 'old-token');
+    for (const file of extra) writeFileSync(join(oldDir, file), file, 'utf8');
+
+    writeFeed({ root, token: 'new-token', name: 'jordyn', files: { json: {} }, additionalOwnedFiles: extra });
+    assert.equal(existsSync(oldDir), false, 'revoked token directory must be gone');
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
 });

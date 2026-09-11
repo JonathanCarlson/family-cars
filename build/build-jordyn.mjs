@@ -20,7 +20,12 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { webcrypto as crypto } from 'node:crypto';
 import { buildUnlockBlob, newPassphrase, newToken, resolveSecret, writeFeed } from './car-access.mjs';
-import { feedMarkdown } from './feed-markdown.mjs';
+import {
+  CHATGPT_FEED_FILES,
+  buildChatGptMarkdownFiles,
+  compatibilityMarkdown,
+  writeChatGptMarkdownFiles,
+} from './chatgpt-feed.mjs';
 import { rosterFeed, feedText } from './feed-json.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -140,14 +145,23 @@ if (feedAll?.cars) {
   }
 }
 const feedDoc = rosterFeed(data, feedAll);
+const chatGpt = buildChatGptMarkdownFiles({
+  data,
+  allCars: feedAll,
+  feed: feedDoc,
+  publicBase: PUBLIC_BASE,
+  token: feed.value,
+});
 writeFeed({
   root: ROOT, token: feed.value, name: 'jordyn',
   files: {
     json: feedDoc,                    // application/json — the canonical contract
     txt: feedText(feedDoc),           // text/plain — same data, rendered from the JSON
-    md: feedMarkdown(feedDoc),
+    md: compatibilityMarkdown(PUBLIC_BASE, feed.value),
   },
+  additionalOwnedFiles: CHATGPT_FEED_FILES,
 });
+writeChatGptMarkdownFiles({ root: ROOT, token: feed.value, files: chatGpt.files });
 
 // The complete sweep, as its own endpoint and MINIFIED. Pretty-printing 2,974
 // records doubled the file for the benefit of a human reader who will never open
@@ -178,4 +192,5 @@ console.log('    MACHINE-READABLE FEED — plaintext, no JS needed, for server-s
 console.log(`    ${feedUrl}.json    ← give THIS to an LLM (application/json)`);
 console.log(`    ${feedUrl}.txt     (text/plain — same data, if JSON is rejected)`);
 console.log(`    ${feedUrl}.md      (text/markdown — some fetchers refuse this type)`);
+console.log(`    ${PUBLIC_BASE}/feed/${feed.value}/index.md  (split ChatGPT feed index)`);
 console.log('');
